@@ -1,0 +1,18 @@
+tag 51852030503106b4cde4dfabf9780f5933e64d2c 9.2.0.0
+Author:	semlar <teslagraafs@gmail.com>
+Date:	Fri Mar 4 09:02:23 2022 -0500
+
+commit 6807c8e30f631f934ee9ae84383e3acda911c097
+Author: Adrian L Lange <p3lim@users.noreply.github.com>
+Date:   Fri Mar 4 15:00:12 2022 +0100
+
+    9.2 raid support (#7)
+    
+    * Show default FlightMap in Sepulcher of the First Ones
+    
+    * Bump Interface version
+    
+    * Fix TAXIMAP_CLOSED condition
+    
+    * Don't let the flight map deal with events
+

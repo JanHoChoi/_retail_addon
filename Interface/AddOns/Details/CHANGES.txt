@@ -1,0 +1,10 @@
+tag d4a7f0f04e3f7b538e4c5e7e6c53aa0c7c35ea46 DetailsRetail.9.2.0.9722.146
+Author:	Tercio Jose <terciob19@hotmail.com>
+Date:	Mon Mar 21 18:14:21 2022 -0300
+
+commit aef114249fcd9e22bfe37adc32a6b413d9972da6
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Mon Mar 21 18:13:58 2022 -0300
+
+    Removed alpha prints
+

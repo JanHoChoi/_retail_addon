@@ -1,0 +1,22 @@
+## Interface: 90200
+## Interface-Retail: 90200
+## Interface-Classic: 11402
+## Interface-BCC: 20503
+## X-Max-Interface: 90200
+## X-Min-Interface: 11402
+
+## Title: example
+
+## Notes: an example mod for LibNameplateRegistry-1.0
+
+## Author: John Wellesz
+## Version: 1
+
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibNameplateRegistry-1.0
+## LoadOnDemand: 1
+
+
+embeds.xml
+
+Core.lua
+
