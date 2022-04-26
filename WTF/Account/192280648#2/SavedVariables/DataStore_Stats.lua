@@ -136,21 +136,15 @@ DataStore_StatsDB = {
 			["Default.安苏.杜一航"] = {
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|26.199998855591",
-					["HealthMax"] = 61320,
-					["Melee"] = "885-955|1.9570001363754|1754|0|26.199998855591|0",
+					["HealthMax"] = 62300,
+					["Melee"] = "781-850|2.2190001010895|1542|0|26.199998855591|0",
 					["MaxPower"] = "6|120",
-					["Defense"] = "0|0|3|14.355847358704|0|0",
+					["Defense"] = "0|0|3|13.127559661865|0|0",
 					["PVP"] = "0|0",
-					["Base"] = "1754|374|3066|245|0",
-					["Spell"] = "245|253|0|26.199998855591|512|0",
+					["Base"] = "1542|374|3115|245|0",
+					["Spell"] = "245|250|0|26.199998855591|566|0",
 				},
 				["SeasonBestMapsOvertime"] = {
-					[380] = {
-						["texture"] = 3759932,
-						["level"] = 16,
-						["name"] = "赤红深渊",
-						["timeInSeconds"] = 2941,
-					},
 					[375] = {
 						["texture"] = 3759929,
 						["level"] = 15,
@@ -163,11 +157,23 @@ DataStore_StatsDB = {
 						["name"] = "通灵战潮",
 						["timeInSeconds"] = 2550,
 					},
+					[391] = {
+						["texture"] = 4181531,
+						["level"] = 16,
+						["name"] = "塔扎维什：琳彩天街",
+						["timeInSeconds"] = 2993,
+					},
 					[378] = {
 						["texture"] = 3759928,
 						["level"] = 15,
 						["name"] = "赎罪大厅",
 						["timeInSeconds"] = 2424,
+					},
+					[380] = {
+						["texture"] = 3759932,
+						["level"] = 16,
+						["name"] = "赤红深渊",
+						["timeInSeconds"] = 2941,
 					},
 				},
 				["WeeklyBestKeystone"] = {
@@ -175,7 +181,7 @@ DataStore_StatsDB = {
 					["name"] = "赤红深渊",
 					["timeInSeconds"] = 2941,
 				},
-				["lastUpdate"] = 1650949235,
+				["lastUpdate"] = 1650988901,
 				["SeasonBestMaps"] = {
 					[376] = {
 						["texture"] = 3759930,
@@ -191,20 +197,26 @@ DataStore_StatsDB = {
 					},
 				},
 				["WeeklyBestMaps"] = {
-					[376] = {
-						["texture"] = 3759930,
-						["level"] = 15,
-						["name"] = "通灵战潮",
-						["timeInSeconds"] = 2550,
-					},
 					[380] = {
 						["texture"] = 3759932,
 						["level"] = 16,
 						["name"] = "赤红深渊",
 						["timeInSeconds"] = 2941,
 					},
+					[376] = {
+						["texture"] = 3759930,
+						["level"] = 15,
+						["name"] = "通灵战潮",
+						["timeInSeconds"] = 2550,
+					},
+					[391] = {
+						["texture"] = 4181531,
+						["level"] = 16,
+						["name"] = "塔扎维什：琳彩天街",
+						["timeInSeconds"] = 2993,
+					},
 				},
-				["dungeonScore"] = 777,
+				["dungeonScore"] = 959,
 			},
 			["Default.冰风岗.柳絮菲菲"] = {
 				["Stats"] = {

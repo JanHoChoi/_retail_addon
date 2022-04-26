@@ -1,93 +1,264 @@
 
 PlaterDB = {
 	["captured_spells"] = {
-		[127801] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[366297] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "尤型拆卸者",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 184911,
+		},
+		[124007] = {
+			["source"] = "雪怒",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 63508,
+		},
+		[355439] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "佐·格伦",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176563,
+		},
+		[359028] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "佐·格伦",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176563,
+		},
+		[33395] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "水元素",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 78116,
+		},
+		[355981] = {
+			["source"] = "阿尔克鲁克斯",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176556,
+		},
+		[349663] = {
+			["encounterName"] = "卖品会",
+			["source"] = "阿尔克鲁克斯",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176556,
+		},
+		[368079] = {
+			["encounterName"] = "麦扎的绿洲",
 			["type"] = "BUFF",
-			["source"] = "芜菁沙袋",
-			["npcID"] = 65310,
+			["source"] = "沃型圣物",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185683,
 		},
-		[325174] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "灵魂链接图腾",
-			["npcID"] = 53006,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+		[357189] = {
+			["encounterName"] = "索·阿兹密",
+			["type"] = "DEBUFF",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 175806,
 		},
-		[199373] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "亡者大军",
-			["npcID"] = 24207,
+		[368239] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "DEBUFF",
+			["source"] = "尤型拆卸者",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 184911,
+		},
+		[96243] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "水元素",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 78116,
+		},
+		[368240] = {
+			["type"] = "DEBUFF",
+			["source"] = "维型拦截者",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 184908,
+		},
+		[355477] = {
+			["source"] = "指挥官佐·法",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 179821,
+		},
+		[347635] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 175806,
+		},
+		[355637] = {
+			["source"] = "集市维和者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179840,
+		},
+		[124009] = {
+			["type"] = "BUFF",
+			["source"] = "雪怒",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 63508,
+		},
+		[368909] = {
+			["source"] = "赛财团圣物商",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 185861,
+		},
+		[100784] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 69792,
+		},
+		[113746] = {
+			["type"] = "DEBUFF",
+			["source"] = "大地之灵",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[368243] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "尤型圣物",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185685,
+		},
+		[349987] = {
+			["encounterName"] = "卖品会",
+			["type"] = "BUFF",
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 176555,
+		},
+		[332525] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "格里恩哥利亚",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171396,
+		},
+		[356560] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "DEBUFF",
+			["source"] = "巨大的蜂巢卫士",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 180092,
+		},
+		[261616] = {
+			["type"] = "BUFF",
+			["source"] = "凯蒂·印哨",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 132969,
+		},
+		[332526] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "格里恩哥利亚",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171396,
+		},
+		[355641] = {
+			["source"] = "老练的火花法师",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179841,
+		},
+		[31707] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "水元素",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 78116,
+		},
+		[152175] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[350086] = {
+			["encounterName"] = "卖品会",
+			["type"] = "BUFF",
+			["source"] = "雯扎·金线",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 176705,
+		},
+		[353706] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "捣乱的顾客",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 176565,
+		},
+		[355675] = {
+			["source"] = "雯扎·金线",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176705,
 		},
 		[59638] = {
-			["encounterName"] = "首席造物师利许威姆",
+			["encounterName"] = "麦扎的绿洲",
 			["source"] = "镜像",
-			["npcID"] = 31216,
+			["encounterID"] = 2440,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 31216,
 		},
-		[363681] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "DEBUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
+		[353835] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "捣乱的顾客",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176565,
 		},
-		[360048] = {
+		[353836] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "捣乱的顾客",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176565,
+		},
+		[349797] = {
+			["encounterName"] = "卖品会",
+			["source"] = "阿尔克鲁克斯",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176556,
+		},
+		[348566] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "打架的顾客",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180159,
+		},
+		[355782] = {
 			["type"] = "BUFF",
-			["source"] = "波可波克",
+			["source"] = "贸易执行者",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181059,
+			["npcID"] = 179842,
 		},
-		[134477] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[350916] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "绿洲保安",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179269,
+		},
+		[108446] = {
 			["type"] = "BUFF",
 			["source"] = "未知目标",
-			["npcID"] = 17252,
-		},
-		[359794] = {
-			["type"] = "BUFF",
-			["source"] = "注能核心",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181520,
-		},
-		[120694] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "野兽",
-			["npcID"] = 110063,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[360432] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "无精打采的的元蟾",
-			["npcID"] = 185488,
-		},
-		[270481] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "恶魔暴君",
-			["npcID"] = 135002,
-		},
-		[359668] = {
-			["type"] = "BUFF",
-			["source"] = "渊触活化体",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181484,
-		},
-		[362601] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[267997] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "邪犬",
-			["npcID"] = 135816,
+			["npcID"] = 1860,
 		},
 		[368021] = {
 			["type"] = "BUFF",
@@ -95,429 +266,301 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 181059,
 		},
-		[361200] = {
-			["encounterName"] = "首席造物师利许威姆",
+		[356812] = {
 			["type"] = "BUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
+			["source"] = "领袖赛·维勒",
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
+			["npcID"] = 180286,
 		},
-		[17735] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "未知目标",
-			["npcID"] = 58960,
-		},
-		[122719] = {
-			["source"] = "音室护卫",
+		[355642] = {
+			["source"] = "老练的火花法师",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 185415,
+			["npcID"] = 179841,
 		},
-		[267999] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "邪犬",
-			["npcID"] = 135816,
-		},
-		[17253] = {
-			["source"] = "狼",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 165189,
-		},
-		[335193] = {
+		[349933] = {
+			["encounterName"] = "卖品会",
 			["type"] = "BUFF",
-			["source"] = "灵魂干渴的饕餮者",
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 184198,
-		},
-		[333600] = {
-			["type"] = "DEBUFF",
-			["source"] = "灵魂干渴的饕餮者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 184198,
-		},
-		[339848] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "未知目标",
-			["npcID"] = 17252,
-		},
-		[3110] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "舒克恩",
-			["npcID"] = 416,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[317791] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "亡者魔导师",
-			["npcID"] = 163366,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 176555,
 		},
 		[112042] = {
-			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
 			["source"] = "未知目标",
+			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 1860,
 		},
-		[317792] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "亡者魔导师",
-			["npcID"] = 163366,
+		[347414] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 175806,
 		},
-		[352536] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "凯文的小软泥怪",
-			["npcID"] = 178601,
+		[358919] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "卖场铁腕战士",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 178388,
+		},
+		[349934] = {
+			["encounterName"] = "卖品会",
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 176555,
 		},
-		[16827] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "伊拉贡",
-			["npcID"] = 165189,
+		[354264] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 175806,
 		},
-		[115804] = {
+		[347249] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 175806,
+		},
+		[350919] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "佐·格伦",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176563,
+		},
+		[347610] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 175806,
+		},
+		[347744] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 175806,
+		},
+		[349999] = {
+			["encounterName"] = "卖品会",
 			["type"] = "DEBUFF",
-			["source"] = "大地之灵",
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 69792,
-		},
-		[258222] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "充血的葬秋萤",
-			["npcID"] = 170768,
-		},
-		[366309] = {
-			["type"] = "BUFF",
-			["source"] = "动荡核心",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 180917,
-		},
-		[359743] = {
-			["source"] = "故障的建筑工",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181870,
-		},
-		[364652] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[340045] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "DEBUFF",
-			["source"] = "地狱火爪牙",
-			["npcID"] = 89,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[58867] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "幽灵狼",
-			["npcID"] = 100820,
-		},
-		[360382] = {
-			["type"] = "BUFF",
-			["source"] = "渊誓转化者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181782,
-		},
-		[49966] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "弗特莱",
-			["npcID"] = 165189,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[30151] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "恶魔卫士",
-			["npcID"] = 17252,
-		},
-		[332525] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "格里恩哥利亚",
-			["npcID"] = 171396,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[360066] = {
-			["type"] = "BUFF",
-			["source"] = "渊触活化体",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181484,
-		},
-		[355349] = {
-			["type"] = "BUFF",
-			["source"] = "现实突破者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 184185,
-		},
-		[167381] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "地下城坦克假人",
-			["npcID"] = 174566,
-		},
-		[259277] = {
-			["type"] = "DEBUFF",
-			["source"] = "狼",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 165189,
-		},
-		[365616] = {
-			["source"] = "自动体治愈者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 182324,
-		},
-		[363130] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "BUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[327942] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "风怒图腾",
-			["npcID"] = 6112,
-		},
-		[180612] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "BUFF",
-			["source"] = "符文武器",
-			["npcID"] = 27893,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[339673] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "恐惧猎犬",
-			["npcID"] = 98035,
-		},
-		[24450] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "白虎",
-			["npcID"] = 165189,
-		},
-		[167385] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "地下城坦克假人",
-			["npcID"] = 174566,
-		},
-		[360075] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "魔法调节的自动体核心",
-			["npcID"] = 182210,
-		},
-		[359629] = {
-			["source"] = "渊触元袋熊头领",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181359,
-		},
-		[89766] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "恶魔卫士",
-			["npcID"] = 17252,
-		},
-		[166302] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "布林顿5000",
-			["npcID"] = 77789,
-		},
-		[359313] = {
-			["type"] = "DEBUFF",
-			["source"] = "音室监护者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 183824,
-		},
-		[158940] = {
-			["type"] = "BUFF",
-			["source"] = "元蜂监视者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 183268,
-		},
-		[224125] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "幽灵狼",
-			["npcID"] = 100820,
-		},
-		[104318] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "野生小鬼",
-			["npcID"] = 55659,
-		},
-		[108446] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "未知目标",
-			["npcID"] = 17252,
-		},
-		[2649] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "小手冰凉",
-			["npcID"] = 165189,
-		},
-		[224126] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "幽灵狼",
-			["npcID"] = 100820,
-		},
-		[160058] = {
-			["type"] = "BUFF",
-			["source"] = "未知目标",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 165189,
-		},
-		[339046] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "沉积冥殇",
-			["npcID"] = 175830,
-		},
-		[364355] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "顺劈训练假人",
-			["npcID"] = 174571,
-		},
-		[362316] = {
-			["source"] = "欧约·比博",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 185035,
-		},
-		[363400] = {
-			["source"] = "雄性元蜂",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 178159,
-		},
-		[366014] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "征用自动体",
-			["npcID"] = 182074,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[360213] = {
-			["source"] = "有缺陷的巨像",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181839,
-		},
-		[356134] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "魔灵幽猫",
-			["npcID"] = 180016,
+			["npcID"] = 176555,
 		},
 		[138130] = {
+			["encounterName"] = "麦扎的绿洲",
 			["type"] = "BUFF",
 			["source"] = "大地之灵",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 69792,
 		},
-		[54049] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "克索埃斯",
-			["npcID"] = 58964,
+		[341163] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "格里恩哥利亚",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 171396,
 		},
-		[89753] = {
+		[347632] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "布里克库里尔",
-			["npcID"] = 17252,
+			["npcID"] = 175806,
 		},
-		[362447] = {
-			["encounterName"] = "首席造物师利许威姆",
+		[366409] = {
+			["source"] = "维型拦截者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 184908,
+		},
+		[366288] = {
+			["source"] = "尤型拆卸者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 184911,
+		},
+		[366327] = {
+			["source"] = "维型拦截者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 184908,
+		},
+		[355938] = {
+			["source"] = "阿尔克鲁克斯",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176556,
+		},
+		[366406] = {
+			["source"] = "维型拦截者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 184908,
+		},
+		[198837] = {
+			["source"] = "复生的潜伏者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 99541,
+		},
+		[355479] = {
+			["source"] = "指挥官佐·法",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179821,
+		},
+		[181089] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "佐·格伦",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 176563,
+		},
+		[100780] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 69792,
+		},
+		[196742] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[350045] = {
+			["encounterName"] = "卖品会",
 			["type"] = "DEBUFF",
-			["source"] = "征用自动体",
-			["npcID"] = 182074,
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
+			["npcID"] = 176555,
 		},
-		[244880] = {
-			["source"] = "波可波克",
+		[355473] = {
+			["source"] = "指挥官佐·法",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181059,
+			["npcID"] = 179821,
 		},
-		[367229] = {
-			["encounterName"] = "首席造物师利许威姆",
+		[368078] = {
+			["encounterName"] = "麦扎的绿洲",
 			["type"] = "BUFF",
-			["source"] = "原生体设计方案",
-			["npcID"] = 183745,
+			["source"] = "沃型圣物",
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
+			["npcID"] = 185683,
 		},
-		[201754] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "弗特莱",
-			["npcID"] = 165189,
+		[107428] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 69792,
 		},
-		[113899] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "恶魔传送门",
-			["npcID"] = 59262,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[363088] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[335187] = {
-			["source"] = "灵魂干渴的饕餮者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 184198,
-		},
-		[263840] = {
-			["source"] = "狼",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 165189,
-		},
-		[260249] = {
+		[228318] = {
 			["type"] = "BUFF",
-			["source"] = "狼",
+			["source"] = "老练的火花法师",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 165189,
+			["npcID"] = 179841,
 		},
-		[365257] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "护卫自动体",
-			["npcID"] = 182071,
+		[101546] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 69792,
 		},
-		[365596] = {
+		[359222] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "暴躁的顾客",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180158,
+		},
+		[347623] = {
+			["encounterName"] = "索·阿兹密",
+			["source"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 175806,
+		},
+		[355783] = {
 			["type"] = "BUFF",
-			["source"] = "动荡核心",
+			["source"] = "贸易执行者",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 180917,
+			["npcID"] = 179842,
 		},
-		[345495] = {
+		[353783] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "捣乱的顾客",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "起泡脓包",
-			["npcID"] = 175519,
+			["npcID"] = 176565,
+		},
+		[349954] = {
+			["encounterName"] = "卖品会",
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176555,
+		},
+		[350037] = {
+			["encounterName"] = "卖品会",
+			["type"] = "BUFF",
+			["source"] = "阿喀琉忒",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 176555,
+		},
+		[368103] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "维型圣物",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185680,
+		},
+		[350101] = {
+			["encounterName"] = "卖品会",
+			["source"] = "雯扎·金线",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176705,
+		},
+		[349498] = {
+			["encounterName"] = "卖品会",
+			["source"] = "阿尔克鲁克斯",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176556,
+		},
+		[356134] = {
+			["type"] = "BUFF",
+			["source"] = "魔灵幽猫",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 180016,
+		},
+		[368104] = {
+			["encounterName"] = "麦扎的绿洲",
+			["type"] = "BUFF",
+			["source"] = "维型圣物",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185680,
+		},
+		[355638] = {
+			["source"] = "集市维和者",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179840,
+		},
+		[355640] = {
+			["type"] = "BUFF",
+			["source"] = "集市维和者",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179840,
 		},
 		[362993] = {
 			["type"] = "BUFF",
@@ -525,338 +568,52 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 181059,
 		},
-		[323438] = {
-			["source"] = "巨型炽蓝蛾",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 166073,
-		},
-		[113900] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "恶魔传送门",
-			["npcID"] = 59271,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[362326] = {
+		[113656] = {
+			["encounterName"] = "麦扎的绿洲",
 			["type"] = "BUFF",
-			["source"] = "腐化的符文囤积者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181290,
-		},
-		[61684] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "BUFF",
-			["source"] = "伊拉贡",
-			["npcID"] = 165189,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[361968] = {
-			["type"] = "BUFF",
-			["source"] = "波可波克",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181059,
-		},
-		[359203] = {
-			["source"] = "古旧的管理者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181857,
-		},
-		[55078] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "DEBUFF",
-			["source"] = "符文武器",
-			["npcID"] = 27893,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[91800] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "复活的食尸鬼",
-			["npcID"] = 26125,
-		},
-		[335680] = {
-			["source"] = "渊誓转化者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181782,
-		},
-		[362313] = {
-			["source"] = "欧约·提罗",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 185036,
-		},
-		[320763] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "法力之潮图腾",
-			["npcID"] = 10467,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[359587] = {
-			["source"] = "草地元鹰",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 180052,
-		},
-		[31707] = {
-			["source"] = "水元素",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 78116,
-		},
-		[363795] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "DEBUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[359265] = {
-			["type"] = "DEBUFF",
-			["source"] = "自动体保护者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 182799,
-		},
-		[315336] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "帐篷",
-			["npcID"] = 161974,
-		},
-		[19483] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "BUFF",
-			["source"] = "地狱火爪牙",
-			["npcID"] = 89,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[272382] = {
-			["source"] = "元甲虫潜地者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 178155,
-		},
-		[359282] = {
-			["source"] = "自动体保护者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 182799,
-		},
-		[359334] = {
-			["source"] = "有缺陷的重格式化者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181862,
-		},
-		[360076] = {
-			["type"] = "BUFF",
-			["source"] = "有缺陷的巨像",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181839,
-		},
-		[30213] = {
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "恶魔卫士",
-			["npcID"] = 17252,
-		},
-		[325101] = {
-			["type"] = "BUFF",
-			["source"] = "执事者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 166663,
-		},
-		[363537] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "BUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[224127] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "幽灵狼",
-			["npcID"] = 100820,
-		},
-		[360228] = {
-			["source"] = "有缺陷的巨像",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181839,
-		},
-		[264667] = {
-			["type"] = "BUFF",
-			["source"] = "狼",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 165189,
-		},
-		[363538] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "DEBUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[107428] = {
 			["source"] = "大地之灵",
-			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 2440,
+			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 69792,
 		},
-		[90361] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "哈提",
-			["npcID"] = 165189,
+		[349087] = {
+			["source"] = "雯扎·金线",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
+			["npcID"] = 176705,
 		},
-		[33395] = {
-			["type"] = "DEBUFF",
-			["source"] = "水元素",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 78116,
-		},
-		[1604] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "团队副本坦克假人",
-			["npcID"] = 174565,
-		},
-		[323446] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "憔悴炽蓝蛾",
-			["npcID"] = 170769,
-		},
-		[81262] = {
-			["encounterName"] = "首席造物师利许威姆",
+		[339848] = {
 			["type"] = "BUFF",
-			["source"] = "百花齐放",
-			["npcID"] = 47649,
+			["source"] = "未知目标",
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
+			["npcID"] = 58965,
 		},
-		[360294] = {
+		[349405] = {
+			["encounterName"] = "卖品会",
+			["source"] = "雯扎·金线",
+			["encounterID"] = 2441,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 176705,
+		},
+		[115804] = {
+			["encounterName"] = "麦扎的绿洲",
 			["type"] = "DEBUFF",
-			["source"] = "渊触食草者",
+			["source"] = "大地之灵",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181383,
+			["npcID"] = 69792,
 		},
-		[334713] = {
+		[355438] = {
+			["encounterName"] = "麦扎的绿洲",
+			["source"] = "佐·格伦",
+			["encounterID"] = 2440,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "恐惧猎犬",
-			["npcID"] = 98035,
-		},
-		[118905] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "电能图腾",
-			["npcID"] = 61245,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[89751] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "布里克库里尔",
-			["npcID"] = 17252,
-		},
-		[359374] = {
-			["type"] = "BUFF",
-			["source"] = "有缺陷的重格式化者",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 181862,
-		},
-		[332526] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "格里恩哥利亚",
-			["npcID"] = 171396,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[355355] = {
-			["source"] = "现实突破者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 184185,
-		},
-		[341163] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "格里恩哥利亚",
-			["npcID"] = 171396,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[212423] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "复生的潜伏者",
-			["npcID"] = 99541,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[3716] = {
-			["source"] = "克罗西奥斯",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 58960,
+			["npcID"] = 176563,
 		},
 		[343594] = {
-			["encounterName"] = "首席造物师利许威姆",
 			["type"] = "BUFF",
 			["source"] = "复活的食尸鬼",
+			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 26125,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[336868] = {
-			["source"] = "巨型碎隙者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 184606,
-		},
-		[336834] = {
-			["source"] = "巨型碎隙者",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 184606,
-		},
-		[363676] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[352520] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "凯文的小软泥怪",
-			["npcID"] = 178601,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
-		},
-		[261616] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "凯蒂·印哨",
-			["npcID"] = 132969,
-		},
-		[315356] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "商队行囊",
-			["npcID"] = 162001,
-		},
-		[367502] = {
-			["source"] = "波可波克",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 181059,
-		},
-		[362622] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["type"] = "DEBUFF",
-			["source"] = "利许威姆",
-			["npcID"] = 182169,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 2539,
-		},
-		[364073] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["source"] = "退化自动体",
-			["npcID"] = 182053,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 2539,
 		},
 	},
 	["captured_casts"] = {
@@ -1975,6 +1732,11 @@ PlaterDB = {
 		[338353] = {
 			["npcID"] = 173016,
 		},
+		[353706] = {
+			["encounterName"] = "麦扎的绿洲",
+			["encounterID"] = 2440,
+			["npcID"] = 176565,
+		},
 		[365477] = {
 			["npcID"] = 181797,
 		},
@@ -2890,6 +2652,16 @@ PlaterDB = {
 		[359459] = {
 			["npcID"] = 183931,
 		},
+		[357188] = {
+			["encounterName"] = "索·阿兹密",
+			["encounterID"] = 2437,
+			["npcID"] = 175806,
+		},
+		[353835] = {
+			["encounterName"] = "麦扎的绿洲",
+			["encounterID"] = 2440,
+			["npcID"] = 176565,
+		},
 		[363042] = {
 			["npcID"] = 182350,
 		},
@@ -2898,6 +2670,15 @@ PlaterDB = {
 			["encounterID"] = 2393,
 			["npcID"] = 164517,
 		},
+		[356942] = {
+			["npcID"] = 179837,
+		},
+		[356929] = {
+			["npcID"] = 179837,
+		},
+		[351047] = {
+			["npcID"] = 178392,
+		},
 		[328756] = {
 			["encounterName"] = "英格拉·马洛克",
 			["encounterID"] = 2397,
@@ -2905,6 +2686,9 @@ PlaterDB = {
 		},
 		[366091] = {
 			["npcID"] = 181011,
+		},
+		[365876] = {
+			["npcID"] = 184002,
 		},
 		[60781] = {
 			["npcID"] = 30205,
@@ -2918,8 +2702,8 @@ PlaterDB = {
 		[333875] = {
 			["npcID"] = 168942,
 		},
-		[368465] = {
-			["npcID"] = 180746,
+		[360351] = {
+			["npcID"] = 179043,
 		},
 		[334899] = {
 			["npcID"] = 174802,
@@ -2932,8 +2716,8 @@ PlaterDB = {
 		[319547] = {
 			["npcID"] = 165706,
 		},
-		[360351] = {
-			["npcID"] = 179043,
+		[331548] = {
+			["npcID"] = 167964,
 		},
 		[336947] = {
 			["npcID"] = 162853,
@@ -2955,8 +2739,8 @@ PlaterDB = {
 			["npcID"] = 176565,
 			["encounterID"] = 2440,
 		},
-		[331548] = {
-			["npcID"] = 167964,
+		[365067] = {
+			["npcID"] = 182318,
 		},
 		[361001] = {
 			["encounterName"] = "警戒卫士",
@@ -2985,16 +2769,16 @@ PlaterDB = {
 			["npcID"] = 181395,
 			["encounterID"] = 2542,
 		},
-		[364891] = {
-			["npcID"] = 183737,
+		[255220] = {
+			["npcID"] = 166032,
 		},
 		[320063] = {
 			["encounterName"] = "狭路相逢",
 			["encounterID"] = 2391,
 			["npcID"] = 164451,
 		},
-		[255220] = {
-			["npcID"] = 166032,
+		[257220] = {
+			["npcID"] = 166029,
 		},
 		[296523] = {
 			["npcID"] = 152708,
@@ -3023,36 +2807,36 @@ PlaterDB = {
 		[355888] = {
 			["npcID"] = 177807,
 		},
-		[257220] = {
-			["npcID"] = 166029,
+		[326464] = {
+			["npcID"] = 164036,
 		},
 		[340536] = {
 			["npcID"] = 173783,
 		},
-		[326464] = {
-			["npcID"] = 164036,
+		[360472] = {
+			["npcID"] = 184395,
 		},
 		[323137] = {
 			["encounterName"] = "英格拉·马洛克",
 			["npcID"] = 164804,
 			["encounterID"] = 2397,
 		},
-		[360472] = {
-			["npcID"] = 184395,
+		[340500] = {
+			["npcID"] = 167078,
 		},
 		[356913] = {
 			["npcID"] = 177813,
 		},
-		[340500] = {
-			["npcID"] = 167078,
+		[328475] = {
+			["npcID"] = 164737,
 		},
 		[323138] = {
 			["encounterName"] = "英格拉·马洛克",
 			["encounterID"] = 2397,
 			["npcID"] = 164567,
 		},
-		[328475] = {
-			["npcID"] = 164737,
+		[17843] = {
+			["npcID"] = 32325,
 		},
 		[235837] = {
 			["npcID"] = 118492,
@@ -3063,8 +2847,8 @@ PlaterDB = {
 		[327233] = {
 			["npcID"] = 168396,
 		},
-		[17843] = {
-			["npcID"] = 32325,
+		[367381] = {
+			["npcID"] = 178778,
 		},
 		[320069] = {
 			["encounterName"] = "狭路相逢",
@@ -3074,44 +2858,41 @@ PlaterDB = {
 		[330816] = {
 			["npcID"] = 169861,
 		},
-		[367381] = {
-			["npcID"] = 178778,
-		},
-		[265725] = {
-			["npcID"] = 158278,
+		[365895] = {
+			["npcID"] = 184535,
 		},
 		[338803] = {
 			["npcID"] = 173202,
 		},
+		[343055] = {
+			["npcID"] = 161355,
+		},
 		[355381] = {
 			["npcID"] = 177646,
 		},
-		[343055] = {
-			["npcID"] = 161355,
+		[368522] = {
+			["npcID"] = 183764,
 		},
 		[337982] = {
 			["npcID"] = 162872,
 		},
-		[368522] = {
+		[368528] = {
 			["npcID"] = 183764,
 		},
 		[296019] = {
 			["npcID"] = 151128,
 		},
-		[368528] = {
-			["npcID"] = 183764,
+		[325183] = {
+			["npcID"] = 170522,
 		},
 		[325701] = {
 			["npcID"] = 165529,
 		},
-		[325183] = {
-			["npcID"] = 170522,
+		[360778] = {
+			["npcID"] = 181116,
 		},
 		[328772] = {
 			["npcID"] = 159916,
-		},
-		[360320] = {
-			["npcID"] = 181942,
 		},
 		[360295] = {
 			["encounterName"] = "死亡万神殿原型体",
@@ -3123,26 +2904,29 @@ PlaterDB = {
 			["npcID"] = 181047,
 			["encounterID"] = 2529,
 		},
+		[366409] = {
+			["npcID"] = 184908,
+		},
 		[328773] = {
 			["npcID"] = 159916,
 		},
 		[357943] = {
 			["npcID"] = 180013,
 		},
-		[366409] = {
-			["npcID"] = 184908,
+		[342584] = {
+			["npcID"] = 160507,
 		},
 		[358967] = {
 			["npcID"] = 179446,
 		},
-		[342584] = {
-			["npcID"] = 160507,
+		[359282] = {
+			["npcID"] = 181727,
 		},
 		[357944] = {
 			["npcID"] = 179768,
 		},
-		[359282] = {
-			["npcID"] = 181727,
+		[332671] = {
+			["npcID"] = 170480,
 		},
 		[336451] = {
 			["npcID"] = 163862,
@@ -3162,8 +2946,8 @@ PlaterDB = {
 		[343105] = {
 			["npcID"] = 170208,
 		},
-		[356923] = {
-			["npcID"] = 179890,
+		[333604] = {
+			["npcID"] = 162175,
 		},
 		[295001] = {
 			["npcID"] = 151128,
@@ -3177,8 +2961,8 @@ PlaterDB = {
 		[355900] = {
 			["npcID"] = 177807,
 		},
-		[333604] = {
-			["npcID"] = 162175,
+		[368457] = {
+			["npcID"] = 180746,
 		},
 		[356924] = {
 			["npcID"] = 179890,
@@ -3196,11 +2980,13 @@ PlaterDB = {
 		[167012] = {
 			["npcID"] = 170694,
 		},
-		[368457] = {
-			["npcID"] = 180746,
-		},
 		[360856] = {
 			["npcID"] = 183931,
+		},
+		[361304] = {
+			["encounterName"] = "死亡万神殿原型体",
+			["npcID"] = 183421,
+			["encounterID"] = 2544,
 		},
 		[323150] = {
 			["encounterName"] = "宫务大臣",
@@ -3210,11 +2996,6 @@ PlaterDB = {
 		[356414] = {
 			["npcID"] = 179892,
 		},
-		[365036] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["npcID"] = 184126,
-			["encounterID"] = 2539,
-		},
 		[365851] = {
 			["npcID"] = 183404,
 		},
@@ -3223,8 +3004,13 @@ PlaterDB = {
 			["npcID"] = 184140,
 			["encounterID"] = 2553,
 		},
-		[321105] = {
-			["npcID"] = 168591,
+		[338407] = {
+			["npcID"] = 165339,
+		},
+		[165578] = {
+			["encounterName"] = "骨喉",
+			["npcID"] = 75452,
+			["encounterID"] = 1679,
 		},
 		[320081] = {
 			["npcID"] = 178466,
@@ -3235,18 +3021,13 @@ PlaterDB = {
 		[327246] = {
 			["npcID"] = 167524,
 		},
-		[165578] = {
-			["encounterName"] = "骨喉",
-			["npcID"] = 75452,
-			["encounterID"] = 1679,
-		},
-		[356928] = {
-			["npcID"] = 177131,
-		},
 		[360845] = {
 			["encounterName"] = "死亡万神殿原型体",
 			["npcID"] = 181551,
 			["encounterID"] = 2544,
+		},
+		[356928] = {
+			["npcID"] = 177131,
 		},
 		[362801] = {
 			["encounterName"] = "圣物匠赛·墨克斯",
@@ -3256,11 +3037,14 @@ PlaterDB = {
 		[356306] = {
 			["npcID"] = 182214,
 		},
+		[346605] = {
+			["npcID"] = 182296,
+		},
 		[361023] = {
 			["npcID"] = 181005,
 		},
-		[346605] = {
-			["npcID"] = 182296,
+		[358971] = {
+			["npcID"] = 179890,
 		},
 		[360432] = {
 			["npcID"] = 184395,
@@ -3268,26 +3052,24 @@ PlaterDB = {
 		[141427] = {
 			["npcID"] = 183257,
 		},
-		[359483] = {
-			["encounterName"] = "道茜歌妮，堕落先知",
-			["npcID"] = 181224,
-			["encounterID"] = 2540,
+		[365870] = {
+			["npcID"] = 183404,
 		},
 		[320596] = {
 			["encounterName"] = "凋骨",
 			["npcID"] = 162691,
 			["encounterID"] = 2387,
 		},
-		[365870] = {
-			["npcID"] = 183404,
+		[367522] = {
+			["npcID"] = 181059,
 		},
 		[359829] = {
 			["encounterName"] = "司垢莱克斯，无穷噬灭者",
 			["npcID"] = 181395,
 			["encounterID"] = 2542,
 		},
-		[360767] = {
-			["npcID"] = 181115,
+		[366938] = {
+			["npcID"] = 185032,
 		},
 		[334926] = {
 			["npcID"] = 168878,
@@ -3295,8 +3077,8 @@ PlaterDB = {
 		[366143] = {
 			["npcID"] = 184651,
 		},
-		[366938] = {
-			["npcID"] = 185032,
+		[367505] = {
+			["npcID"] = 181059,
 		},
 		[326227] = {
 			["npcID"] = 157558,
@@ -3310,22 +3092,17 @@ PlaterDB = {
 		[346186] = {
 			["npcID"] = 167323,
 		},
-		[359374] = {
-			["npcID"] = 182364,
-		},
 		[343433] = {
 			["npcID"] = 160510,
-		},
-		[325205] = {
-			["npcID"] = 166936,
 		},
 		[304946] = {
 			["npcID"] = 179347,
 		},
-		[364447] = {
-			["encounterName"] = "警戒卫士",
-			["npcID"] = 184522,
-			["encounterID"] = 2512,
+		[325205] = {
+			["npcID"] = 166936,
+		},
+		[360228] = {
+			["npcID"] = 183814,
 		},
 		[325395] = {
 			["encounterName"] = "多米娜·毒刃",
@@ -3338,30 +3115,33 @@ PlaterDB = {
 		[182856] = {
 			["npcID"] = 161785,
 		},
+		[360949] = {
+			["npcID"] = 184268,
+		},
 		[326230] = {
 			["npcID"] = 165124,
 		},
-		[360949] = {
-			["npcID"] = 184268,
+		[323347] = {
+			["npcID"] = 165137,
 		},
 		[360006] = {
 			["encounterName"] = "恐惧双王",
 			["encounterID"] = 2543,
 			["npcID"] = 181398,
 		},
-		[323347] = {
-			["npcID"] = 165137,
+		[368909] = {
+			["npcID"] = 185861,
 		},
-		[346947] = {
-			["encounterName"] = "收发室乱战",
-			["npcID"] = 175646,
-			["encounterID"] = 2424,
+		[340746] = {
+			["npcID"] = 167848,
 		},
 		[275568] = {
 			["npcID"] = 157728,
 		},
-		[340746] = {
-			["npcID"] = 167848,
+		[362056] = {
+			["encounterName"] = "回收者黑伦度斯",
+			["npcID"] = 181447,
+			["encounterID"] = 2529,
 		},
 		[338002] = {
 			["npcID"] = 170079,
@@ -3376,8 +3156,8 @@ PlaterDB = {
 			["encounterID"] = 2381,
 			["npcID"] = 164218,
 		},
-		[366150] = {
-			["npcID"] = 180906,
+		[335445] = {
+			["npcID"] = 180032,
 		},
 		[338003] = {
 			["npcID"] = 165414,
@@ -3390,17 +3170,17 @@ PlaterDB = {
 		[275570] = {
 			["npcID"] = 166027,
 		},
-		[335445] = {
-			["npcID"] = 180032,
+		[366150] = {
+			["npcID"] = 180906,
 		},
 		[366866] = {
 			["npcID"] = 184651,
 		},
-		[365572] = {
-			["npcID"] = 184733,
-		},
 		[365458] = {
 			["npcID"] = 184651,
+		},
+		[336859] = {
+			["npcID"] = 162873,
 		},
 		[319070] = {
 			["npcID"] = 163891,
@@ -3411,22 +3191,22 @@ PlaterDB = {
 		[340564] = {
 			["npcID"] = 169206,
 		},
-		[336859] = {
-			["npcID"] = 162873,
+		[365110] = {
+			["npcID"] = 183746,
 		},
 		[340279] = {
 			["npcID"] = 173714,
-		},
-		[332377] = {
-			["npcID"] = 178212,
-		},
-		[367176] = {
-			["npcID"] = 184409,
 		},
 		[324368] = {
 			["encounterName"] = "金-塔拉",
 			["encounterID"] = 2357,
 			["npcID"] = 163077,
+		},
+		[367176] = {
+			["npcID"] = 184409,
+		},
+		[368890] = {
+			["npcID"] = 181408,
 		},
 		[323166] = {
 			["encounterName"] = "夺灵者哈卡",
@@ -3439,20 +3219,20 @@ PlaterDB = {
 		[322143] = {
 			["npcID"] = 156559,
 		},
-		[368890] = {
-			["npcID"] = 181408,
-		},
 		[319906] = {
 			["npcID"] = 166425,
-		},
-		[356431] = {
-			["npcID"] = 180113,
 		},
 		[355584] = {
 			["npcID"] = 178171,
 		},
+		[356431] = {
+			["npcID"] = 180113,
+		},
 		[343040] = {
 			["npcID"] = 165869,
+		},
+		[314825] = {
+			["npcID"] = 161814,
 		},
 		[327262] = {
 			["npcID"] = 167524,
@@ -3469,8 +3249,8 @@ PlaterDB = {
 		[166766] = {
 			["npcID"] = 176198,
 		},
-		[328740] = {
-			["npcID"] = 168992,
+		[362951] = {
+			["npcID"] = 181587,
 		},
 		[328287] = {
 			["npcID"] = 165265,
@@ -3478,8 +3258,8 @@ PlaterDB = {
 		[328799] = {
 			["npcID"] = 178967,
 		},
-		[362951] = {
-			["npcID"] = 181587,
+		[361016] = {
+			["npcID"] = 183983,
 		},
 		[338011] = {
 			["npcID"] = 166318,
@@ -3490,8 +3270,8 @@ PlaterDB = {
 		[365646] = {
 			["npcID"] = 184651,
 		},
-		[322965] = {
-			["npcID"] = 164033,
+		[217260] = {
+			["npcID"] = 88087,
 		},
 		[323683] = {
 			["encounterName"] = "莫德蕾莎",
@@ -3502,9 +3282,6 @@ PlaterDB = {
 			["encounterName"] = "首席造物师利许威姆",
 			["npcID"] = 182169,
 			["encounterID"] = 2539,
-		},
-		[217260] = {
-			["npcID"] = 88087,
 		},
 		[184381] = {
 			["npcID"] = 185023,
@@ -3517,17 +3294,20 @@ PlaterDB = {
 			["encounterID"] = 2546,
 			["npcID"] = 181954,
 		},
+		[339006] = {
+			["npcID"] = 185121,
+		},
 		[341084] = {
 			["npcID"] = 162697,
 		},
-		[339006] = {
-			["npcID"] = 185121,
+		[322909] = {
+			["npcID"] = 164033,
 		},
 		[95826] = {
 			["npcID"] = 172997,
 		},
-		[322909] = {
-			["npcID"] = 164033,
+		[335398] = {
+			["npcID"] = 161246,
 		},
 		[365649] = {
 			["npcID"] = 184734,
@@ -3556,25 +3336,29 @@ PlaterDB = {
 			["npcID"] = 176178,
 			["encounterID"] = 2419,
 		},
-		[359334] = {
-			["npcID"] = 183983,
-		},
 		[346204] = {
 			["encounterName"] = "哨卫佐·菲克斯",
 			["encounterID"] = 2425,
 			["npcID"] = 175616,
 		},
+		[365872] = {
+			["encounterName"] = "安度因·乌瑞恩",
+			["encounterID"] = 2546,
+			["npcID"] = 181954,
+		},
 		[325223] = {
 			["npcID"] = 166304,
-		},
-		[297020] = {
-			["npcID"] = 185015,
 		},
 		[318773] = {
 			["npcID"] = 166347,
 		},
 		[361209] = {
 			["npcID"] = 182466,
+		},
+		[323059] = {
+			["encounterName"] = "英格拉·马洛克",
+			["encounterID"] = 2397,
+			["npcID"] = 164804,
 		},
 		[355929] = {
 			["npcID"] = 177803,
@@ -3584,10 +3368,8 @@ PlaterDB = {
 			["npcID"] = 176551,
 			["encounterID"] = 2426,
 		},
-		[323059] = {
-			["encounterName"] = "英格拉·马洛克",
-			["encounterID"] = 2397,
-			["npcID"] = 164804,
+		[368373] = {
+			["npcID"] = 183516,
 		},
 		[355418] = {
 			["npcID"] = 178527,
@@ -3595,19 +3377,19 @@ PlaterDB = {
 		[355930] = {
 			["npcID"] = 177816,
 		},
-		[368373] = {
-			["npcID"] = 183516,
+		[277517] = {
+			["npcID"] = 176170,
 		},
-		[336996] = {
-			["npcID"] = 162744,
+		[332550] = {
+			["npcID"] = 169875,
 		},
 		[363607] = {
 			["encounterName"] = "道茜歌妮，堕落先知",
 			["npcID"] = 181244,
 			["encounterID"] = 2540,
 		},
-		[332550] = {
-			["npcID"] = 169875,
+		[336996] = {
+			["npcID"] = 162744,
 		},
 		[346208] = {
 			["npcID"] = 177899,
@@ -3615,26 +3397,26 @@ PlaterDB = {
 		[342312] = {
 			["npcID"] = 160466,
 		},
-		[357979] = {
-			["npcID"] = 178897,
+		[366326] = {
+			["npcID"] = 183497,
 		},
 		[327274] = {
 			["npcID"] = 167524,
 		},
-		[366326] = {
-			["npcID"] = 183497,
+		[355915] = {
+			["npcID"] = 177816,
 		},
 		[356956] = {
 			["npcID"] = 177573,
 		},
-		[355915] = {
-			["npcID"] = 177816,
+		[336838] = {
+			["npcID"] = 176014,
 		},
 		[329322] = {
 			["npcID"] = 155830,
 		},
-		[336838] = {
-			["npcID"] = 176014,
+		[357146] = {
+			["npcID"] = 177938,
 		},
 		[324205] = {
 			["encounterName"] = "雯图纳柯丝",
@@ -3653,9 +3435,6 @@ PlaterDB = {
 		[330347] = {
 			["npcID"] = 157583,
 		},
-		[357146] = {
-			["npcID"] = 177938,
-		},
 		[355577] = {
 			["npcID"] = 178171,
 		},
@@ -3665,11 +3444,14 @@ PlaterDB = {
 		[325232] = {
 			["npcID"] = 167952,
 		},
+		[337513] = {
+			["npcID"] = 158259,
+		},
 		[300155] = {
 			["npcID"] = 164929,
 		},
-		[294526] = {
-			["npcID"] = 151817,
+		[329325] = {
+			["npcID"] = 155830,
 		},
 		[333931] = {
 			["npcID"] = 172388,
@@ -3679,8 +3461,8 @@ PlaterDB = {
 			["encounterID"] = 2366,
 			["npcID"] = 162329,
 		},
-		[358496] = {
-			["npcID"] = 179805,
+		[365661] = {
+			["npcID"] = 184651,
 		},
 		[329326] = {
 			["npcID"] = 155831,
@@ -3688,8 +3470,8 @@ PlaterDB = {
 		[340073] = {
 			["npcID"] = 168697,
 		},
-		[365661] = {
-			["npcID"] = 184651,
+		[330500] = {
+			["npcID"] = 185021,
 		},
 		[310392] = {
 			["npcID"] = 185023,
@@ -3702,22 +3484,22 @@ PlaterDB = {
 		[366685] = {
 			["npcID"] = 185271,
 		},
-		[330500] = {
-			["npcID"] = 185021,
+		[347716] = {
+			["npcID"] = 176394,
 		},
 		[361568] = {
 			["encounterName"] = "死亡万神殿原型体",
 			["npcID"] = 181546,
 			["encounterID"] = 2544,
 		},
-		[347716] = {
-			["npcID"] = 176394,
+		[363967] = {
+			["npcID"] = 184109,
 		},
 		[321652] = {
 			["npcID"] = 172873,
 		},
-		[363967] = {
-			["npcID"] = 184109,
+		[295985] = {
+			["npcID"] = 185010,
 		},
 		[360284] = {
 			["encounterName"] = "恐惧双王",
@@ -3727,8 +3509,8 @@ PlaterDB = {
 		[321141] = {
 			["npcID"] = 156562,
 		},
-		[322978] = {
-			["npcID"] = 161246,
+		[360185] = {
+			["npcID"] = 183566,
 		},
 		[340588] = {
 			["npcID"] = 166467,
@@ -3736,16 +3518,14 @@ PlaterDB = {
 		[355429] = {
 			["npcID"] = 178165,
 		},
-		[360185] = {
-			["npcID"] = 183566,
-		},
 		[337415] = {
 			["npcID"] = 165339,
 		},
-		[64153] = {
-			["encounterName"] = "尤格-萨隆",
-			["npcID"] = 33985,
-			["encounterID"] = 1143,
+		[368047] = {
+			["npcID"] = 178508,
+		},
+		[365155] = {
+			["npcID"] = 183746,
 		},
 		[320631] = {
 			["encounterName"] = "凋骨",
@@ -3763,8 +3543,8 @@ PlaterDB = {
 			["encounterID"] = 2391,
 			["npcID"] = 164463,
 		},
-		[365155] = {
-			["npcID"] = 183746,
+		[332733] = {
+			["npcID"] = 170634,
 		},
 		[294533] = {
 			["npcID"] = 151817,
@@ -3781,34 +3561,34 @@ PlaterDB = {
 		[335474] = {
 			["npcID"] = 169502,
 		},
-		[332733] = {
-			["npcID"] = 170634,
-		},
 		[357987] = {
 			["npcID"] = 178757,
 		},
 		[338926] = {
 			["npcID"] = 162371,
 		},
+		[335143] = {
+			["npcID"] = 165222,
+		},
 		[355945] = {
 			["npcID"] = 179940,
 		},
-		[335143] = {
-			["npcID"] = 165222,
+		[329310] = {
+			["npcID"] = 158813,
 		},
 		[336499] = {
 			["encounterName"] = "唤雾者",
 			["encounterID"] = 2392,
 			["npcID"] = 164501,
 		},
-		[329310] = {
-			["npcID"] = 158813,
+		[361052] = {
+			["npcID"] = 180722,
 		},
 		[343664] = {
 			["npcID"] = 162452,
 		},
-		[366182] = {
-			["npcID"] = 183498,
+		[288765] = {
+			["npcID"] = 177637,
 		},
 		[322171] = {
 			["npcID"] = 172596,
@@ -3819,8 +3599,10 @@ PlaterDB = {
 		[355947] = {
 			["npcID"] = 177805,
 		},
-		[288765] = {
-			["npcID"] = 177637,
+		[365295] = {
+			["encounterName"] = "安度因·乌瑞恩",
+			["encounterID"] = 2546,
+			["npcID"] = 181954,
 		},
 		[152962] = {
 			["encounterName"] = "纳利什",
@@ -3853,13 +3635,11 @@ PlaterDB = {
 			["encounterID"] = 2404,
 			["npcID"] = 165946,
 		},
-		[365295] = {
-			["encounterName"] = "安度因·乌瑞恩",
-			["encounterID"] = 2546,
-			["npcID"] = 181954,
-		},
 		[322980] = {
 			["npcID"] = 164040,
+		},
+		[341790] = {
+			["npcID"] = 167528,
 		},
 		[355438] = {
 			["encounterName"] = "麦扎的绿洲",
@@ -3869,13 +3649,11 @@ PlaterDB = {
 		[366185] = {
 			["npcID"] = 183499,
 		},
+		[342869] = {
+			["npcID"] = 168934,
+		},
 		[366189] = {
 			["npcID"] = 183500,
-		},
-		[364652] = {
-			["encounterName"] = "首席造物师利许威姆",
-			["npcID"] = 182169,
-			["encounterID"] = 2539,
 		},
 		[330875] = {
 			["npcID"] = 169893,
@@ -3889,8 +3667,10 @@ PlaterDB = {
 		[152964] = {
 			["npcID"] = 75652,
 		},
-		[341790] = {
-			["npcID"] = 167528,
+		[339706] = {
+			["encounterName"] = "莫德蕾莎",
+			["encounterID"] = 2404,
+			["npcID"] = 173549,
 		},
 		[366187] = {
 			["npcID"] = 183499,
@@ -3907,10 +3687,10 @@ PlaterDB = {
 		[337530] = {
 			["npcID"] = 158259,
 		},
-		[339706] = {
-			["encounterName"] = "莫德蕾莎",
-			["encounterID"] = 2404,
-			["npcID"] = 173549,
+		[322818] = {
+			["encounterName"] = "忠诚圣杰德沃丝",
+			["encounterID"] = 2359,
+			["npcID"] = 162061,
 		},
 		[346742] = {
 			["encounterName"] = "收发室乱战",
@@ -3937,13 +3717,13 @@ PlaterDB = {
 		[366190] = {
 			["npcID"] = 183495,
 		},
-		[322818] = {
-			["encounterName"] = "忠诚圣杰德沃丝",
-			["encounterID"] = 2359,
-			["npcID"] = 162061,
-		},
 		[365168] = {
 			["npcID"] = 184530,
+		},
+		[321669] = {
+			["encounterName"] = "唤雾者",
+			["encounterID"] = 2392,
+			["npcID"] = 165108,
 		},
 		[359538] = {
 			["npcID"] = 182353,
@@ -3971,9 +3751,6 @@ PlaterDB = {
 		[320135] = {
 			["npcID"] = 167470,
 		},
-		[340070] = {
-			["npcID"] = 166503,
-		},
 		[357281] = {
 			["npcID"] = 180432,
 		},
@@ -3982,6 +3759,11 @@ PlaterDB = {
 		},
 		[325418] = {
 			["npcID"] = 167113,
+		},
+		[361989] = {
+			["encounterName"] = "安度因·乌瑞恩",
+			["encounterID"] = 2546,
+			["npcID"] = 181954,
 		},
 		[365682] = {
 			["encounterName"] = "圣物匠赛·墨克斯",
@@ -3993,11 +3775,6 @@ PlaterDB = {
 			["encounterID"] = 2362,
 			["npcID"] = 162102,
 		},
-		[361989] = {
-			["encounterName"] = "安度因·乌瑞恩",
-			["encounterID"] = 2546,
-			["npcID"] = 181954,
-		},
 		[322470] = {
 			["npcID"] = 177506,
 		},
@@ -4007,20 +3784,14 @@ PlaterDB = {
 		[340581] = {
 			["npcID"] = 166263,
 		},
+		[321399] = {
+			["npcID"] = 165636,
+		},
 		[323720] = {
 			["npcID"] = 184465,
 		},
 		[356984] = {
 			["npcID"] = 178402,
-		},
-		[321399] = {
-			["npcID"] = 165636,
-		},
-		[366197] = {
-			["npcID"] = 183500,
-		},
-		[329862] = {
-			["npcID"] = 177427,
 		},
 		[320989] = {
 			["npcID"] = 156561,
@@ -4028,14 +3799,23 @@ PlaterDB = {
 		[355450] = {
 			["npcID"] = 177185,
 		},
+		[329862] = {
+			["npcID"] = 177427,
+		},
+		[358011] = {
+			["npcID"] = 178789,
+		},
+		[357497] = {
+			["npcID"] = 179070,
+		},
 		[331398] = {
 			["npcID"] = 170147,
 		},
 		[319628] = {
 			["npcID"] = 156564,
 		},
-		[358011] = {
-			["npcID"] = 178789,
+		[347775] = {
+			["npcID"] = 176395,
 		},
 		[365686] = {
 			["npcID"] = 184533,
@@ -4062,10 +3842,8 @@ PlaterDB = {
 		[43584] = {
 			["npcID"] = 24244,
 		},
-		[364068] = {
-			["encounterName"] = "安度因·乌瑞恩",
-			["encounterID"] = 2546,
-			["npcID"] = 183666,
+		[330604] = {
+			["npcID"] = 168724,
 		},
 		[359547] = {
 			["npcID"] = 183931,
@@ -4073,8 +3851,10 @@ PlaterDB = {
 		[335495] = {
 			["npcID"] = 180032,
 		},
-		[330604] = {
-			["npcID"] = 168724,
+		[360304] = {
+			["encounterName"] = "恐惧双王",
+			["encounterID"] = 2543,
+			["npcID"] = 181399,
 		},
 		[363130] = {
 			["encounterName"] = "首席造物师利许威姆",
@@ -4097,11 +3877,6 @@ PlaterDB = {
 			["npcID"] = 164555,
 			["encounterID"] = 2394,
 		},
-		[360304] = {
-			["encounterName"] = "恐惧双王",
-			["encounterID"] = 2543,
-			["npcID"] = 181399,
-		},
 		[341544] = {
 			["npcID"] = 166146,
 		},
@@ -4111,23 +3886,28 @@ PlaterDB = {
 		[355456] = {
 			["npcID"] = 178958,
 		},
+		[118297] = {
+			["npcID"] = 61029,
+		},
 		[320657] = {
 			["npcID"] = 172873,
-		},
-		[167119] = {
-			["npcID"] = 159708,
 		},
 		[61353] = {
 			["npcID"] = 29476,
 		},
-		[322193] = {
-			["npcID"] = 157054,
-		},
 		[319957] = {
 			["npcID"] = 177134,
 		},
+		[322193] = {
+			["npcID"] = 157054,
+		},
 		[295991] = {
 			["npcID"] = 185010,
+		},
+		[364114] = {
+			["encounterName"] = "莱葛隆",
+			["encounterID"] = 2549,
+			["npcID"] = 182777,
 		},
 		[366716] = {
 			["npcID"] = 185274,
@@ -4140,22 +3920,22 @@ PlaterDB = {
 		[334988] = {
 			["npcID"] = 171596,
 		},
-		[331379] = {
-			["npcID"] = 167965,
-		},
 		[361088] = {
 			["npcID"] = 182378,
-		},
-		[332430] = {
-			["npcID"] = 177132,
 		},
 		[359028] = {
 			["encounterName"] = "麦扎的绿洲",
 			["npcID"] = 176563,
 			["encounterID"] = 2440,
 		},
-		[325591] = {
-			["npcID"] = 157212,
+		[332430] = {
+			["npcID"] = 177132,
+		},
+		[323689] = {
+			["npcID"] = 158642,
+		},
+		[331510] = {
+			["npcID"] = 170838,
 		},
 		[360577] = {
 			["npcID"] = 179007,
@@ -4163,8 +3943,8 @@ PlaterDB = {
 		[332431] = {
 			["npcID"] = 175708,
 		},
-		[331510] = {
-			["npcID"] = 170838,
+		[325591] = {
+			["npcID"] = 157212,
 		},
 		[336418] = {
 			["npcID"] = 175857,
@@ -4177,23 +3957,25 @@ PlaterDB = {
 		[328338] = {
 			["npcID"] = 167493,
 		},
-		[331333] = {
-			["npcID"] = 168857,
+		[360334] = {
+			["npcID"] = 183983,
 		},
 		[319127] = {
 			["npcID"] = 159298,
 		},
-		[360334] = {
-			["npcID"] = 183983,
+		[339010] = {
+			["npcID"] = 185121,
 		},
 		[365185] = {
 			["npcID"] = 184533,
 		},
-		[339010] = {
-			["npcID"] = 185121,
-		},
 		[320517] = {
 			["npcID"] = 163894,
+		},
+		[320293] = {
+			["encounterName"] = "狭路相逢",
+			["encounterID"] = 2391,
+			["npcID"] = 164461,
 		},
 		[346251] = {
 			["npcID"] = 178490,
@@ -4212,24 +3994,22 @@ PlaterDB = {
 		[325782] = {
 			["npcID"] = 164038,
 		},
-		[320293] = {
-			["encounterName"] = "狭路相逢",
-			["encounterID"] = 2391,
-			["npcID"] = 164461,
-		},
-		[317231] = {
-			["encounterName"] = "无堕者哈夫",
-			["encounterID"] = 2366,
-			["npcID"] = 162329,
-		},
-		[331412] = {
-			["npcID"] = 177130,
+		[361923] = {
+			["encounterName"] = "恐惧双王",
+			["encounterID"] = 2543,
+			["npcID"] = 183138,
 		},
 		[357226] = {
 			["npcID"] = 180429,
 		},
+		[331412] = {
+			["npcID"] = 177130,
+		},
 		[329753] = {
 			["npcID"] = 185099,
+		},
+		[368446] = {
+			["npcID"] = 180978,
 		},
 		[326619] = {
 			["npcID"] = 166873,
@@ -4253,18 +4033,18 @@ PlaterDB = {
 		[331414] = {
 			["npcID"] = 157754,
 		},
-		[355963] = {
-			["npcID"] = 152594,
+		[347623] = {
+			["encounterName"] = "索·阿兹密",
+			["npcID"] = 175806,
+			["encounterID"] = 2437,
 		},
 		[334485] = {
 			["encounterName"] = "雯图纳柯丝",
 			["npcID"] = 162058,
 			["encounterID"] = 2356,
 		},
-		[347623] = {
-			["encounterName"] = "索·阿兹密",
-			["npcID"] = 175806,
-			["encounterID"] = 2437,
+		[334161] = {
+			["npcID"] = 171290,
 		},
 		[355979] = {
 			["npcID"] = 177911,
@@ -4272,14 +4052,14 @@ PlaterDB = {
 		[331927] = {
 			["npcID"] = 167962,
 		},
-		[366689] = {
-			["npcID"] = 185268,
-		},
 		[330586] = {
 			["npcID"] = 169927,
 		},
-		[321000] = {
-			["npcID"] = 177134,
+		[345552] = {
+			["npcID"] = 177168,
+		},
+		[340512] = {
+			["npcID"] = 167078,
 		},
 		[333975] = {
 			["npcID"] = 170778,
@@ -4301,17 +4081,17 @@ PlaterDB = {
 			["npcID"] = 162689,
 			["encounterID"] = 2389,
 		},
-		[340512] = {
-			["npcID"] = 167078,
+		[320463] = {
+			["npcID"] = 177140,
 		},
 		[360076] = {
 			["npcID"] = 181839,
 		},
-		[330697] = {
-			["npcID"] = 170690,
+		[324394] = {
+			["npcID"] = 165197,
 		},
-		[341143] = {
-			["npcID"] = 164476,
+		[365707] = {
+			["npcID"] = 183429,
 		},
 		[345236] = {
 			["npcID"] = 170157,
@@ -4319,17 +4099,17 @@ PlaterDB = {
 		[256865] = {
 			["npcID"] = 167695,
 		},
-		[324394] = {
-			["npcID"] = 165197,
-		},
 		[355473] = {
 			["npcID"] = 179821,
 		},
 		[345237] = {
 			["npcID"] = 165124,
 		},
-		[345239] = {
-			["npcID"] = 165124,
+		[341143] = {
+			["npcID"] = 164476,
+		},
+		[366303] = {
+			["npcID"] = 183927,
 		},
 		[319650] = {
 			["encounterName"] = "贪食的克里克西斯",
@@ -4350,14 +4130,14 @@ PlaterDB = {
 			["npcID"] = 182045,
 			["encounterID"] = 2544,
 		},
-		[366303] = {
-			["npcID"] = 183927,
+		[256099] = {
+			["npcID"] = 166032,
 		},
 		[157331] = {
 			["npcID"] = 77942,
 		},
-		[256099] = {
-			["npcID"] = 166032,
+		[330573] = {
+			["npcID"] = 185021,
 		},
 		[317605] = {
 			["npcID"] = 162744,
@@ -4368,11 +4148,13 @@ PlaterDB = {
 		[322723] = {
 			["npcID"] = 165591,
 		},
-		[330573] = {
-			["npcID"] = 185021,
+		[333241] = {
+			["encounterName"] = "狭路相逢",
+			["npcID"] = 170850,
+			["encounterID"] = 2391,
 		},
-		[355811] = {
-			["npcID"] = 177291,
+		[355225] = {
+			["npcID"] = 178142,
 		},
 		[357011] = {
 			["npcID"] = 177514,
@@ -4394,19 +4176,19 @@ PlaterDB = {
 		[355477] = {
 			["npcID"] = 179842,
 		},
-		[355225] = {
-			["npcID"] = 178142,
+		[332569] = {
+			["npcID"] = 156559,
 		},
-		[327332] = {
-			["npcID"] = 163459,
-		},
-		[338591] = {
-			["npcID"] = 173066,
+		[243563] = {
+			["npcID"] = 139646,
 		},
 		[320168] = {
 			["encounterName"] = "法力风暴夫妇",
 			["npcID"] = 164555,
 			["encounterID"] = 2394,
+		},
+		[344403] = {
+			["npcID"] = 175012,
 		},
 		[345755] = {
 			["npcID"] = 165663,
@@ -4414,8 +4196,8 @@ PlaterDB = {
 		[338079] = {
 			["npcID"] = 164737,
 		},
-		[330403] = {
-			["npcID"] = 168153,
+		[338591] = {
+			["npcID"] = 173066,
 		},
 		[355479] = {
 			["npcID"] = 179821,
@@ -4423,11 +4205,11 @@ PlaterDB = {
 		[358038] = {
 			["npcID"] = 179802,
 		},
-		[344403] = {
-			["npcID"] = 175012,
-		},
 		[322802] = {
 			["npcID"] = 164033,
+		},
+		[320243] = {
+			["npcID"] = 160226,
 		},
 		[365715] = {
 			["npcID"] = 184530,
@@ -4435,8 +4217,8 @@ PlaterDB = {
 		[366227] = {
 			["npcID"] = 183496,
 		},
-		[320243] = {
-			["npcID"] = 160226,
+		[328869] = {
+			["npcID"] = 185024,
 		},
 		[320170] = {
 			["encounterName"] = "收割者阿玛厄斯",
@@ -4483,14 +4265,16 @@ PlaterDB = {
 		[301075] = {
 			["npcID"] = 165167,
 		},
-		[322370] = {
-			["npcID"] = 157054,
+		[357369] = {
+			["npcID"] = 178294,
 		},
 		[333479] = {
 			["npcID"] = 163620,
 		},
-		[357369] = {
-			["npcID"] = 178294,
+		[323064] = {
+			["encounterName"] = "夺灵者哈卡",
+			["npcID"] = 164558,
+			["encounterID"] = 2395,
 		},
 		[330409] = {
 			["npcID"] = 158420,
@@ -4498,15 +4282,8 @@ PlaterDB = {
 		[326827] = {
 			["npcID"] = 162040,
 		},
-		[323064] = {
-			["encounterName"] = "夺灵者哈卡",
-			["npcID"] = 164558,
-			["encounterID"] = 2395,
-		},
-		[350101] = {
-			["encounterName"] = "卖品会",
-			["npcID"] = 176705,
-			["encounterID"] = 2441,
+		[357639] = {
+			["npcID"] = 177422,
 		},
 		[294401] = {
 			["npcID"] = 151815,
@@ -4514,20 +4291,25 @@ PlaterDB = {
 		[292903] = {
 			["npcID"] = 177735,
 		},
+		[358006] = {
+			["npcID"] = 178789,
+		},
 		[335528] = {
 			["npcID"] = 185030,
 		},
-		[336037] = {
-			["npcID"] = 181186,
+		[322736] = {
+			["encounterName"] = "夺灵者哈卡",
+			["npcID"] = 164558,
+			["encounterID"] = 2395,
 		},
-		[326830] = {
-			["npcID"] = 164037,
+		[357260] = {
+			["npcID"] = 180431,
 		},
 		[326829] = {
 			["npcID"] = 167876,
 		},
-		[178067] = {
-			["npcID"] = 88094,
+		[337556] = {
+			["npcID"] = 162853,
 		},
 		[365723] = {
 			["npcID"] = 183438,
@@ -4535,10 +4317,8 @@ PlaterDB = {
 		[328365] = {
 			["npcID"] = 167493,
 		},
-		[322736] = {
-			["encounterName"] = "夺灵者哈卡",
-			["npcID"] = 164558,
-			["encounterID"] = 2395,
+		[326830] = {
+			["npcID"] = 164037,
 		},
 		[358047] = {
 			["npcID"] = 179931,
@@ -4557,10 +4337,8 @@ PlaterDB = {
 		[356001] = {
 			["npcID"] = 177808,
 		},
-		[64059] = {
-			["encounterName"] = "尤格-萨隆",
-			["npcID"] = 33890,
-			["encounterID"] = 1143,
+		[329905] = {
+			["npcID"] = 185024,
 		},
 		[340649] = {
 			["npcID"] = 180096,
@@ -4571,20 +4349,20 @@ PlaterDB = {
 		[347814] = {
 			["npcID"] = 176396,
 		},
-		[357029] = {
-			["npcID"] = 180335,
+		[357284] = {
+			["npcID"] = 180432,
+		},
+		[338606] = {
+			["npcID"] = 167731,
+		},
+		[334567] = {
+			["npcID"] = 171448,
 		},
 		[351912] = {
 			["npcID"] = 178366,
 		},
 		[336048] = {
 			["npcID"] = 176259,
-		},
-		[334567] = {
-			["npcID"] = 171448,
-		},
-		[357260] = {
-			["npcID"] = 180431,
 		},
 		[365215] = {
 			["npcID"] = 178563,
@@ -4595,8 +4373,10 @@ PlaterDB = {
 		[356004] = {
 			["npcID"] = 177514,
 		},
-		[358563] = {
-			["npcID"] = 175616,
+		[64059] = {
+			["encounterName"] = "尤格-萨隆",
+			["npcID"] = 33890,
+			["encounterID"] = 1143,
 		},
 		[330417] = {
 			["npcID"] = 169696,
@@ -4609,28 +4389,30 @@ PlaterDB = {
 			["npcID"] = 163157,
 			["encounterID"] = 2388,
 		},
-		[357542] = {
-			["encounterName"] = "麦扎的绿洲",
-			["encounterID"] = 2440,
-			["npcID"] = 180484,
+		[322743] = {
+			["npcID"] = 178967,
 		},
-		[338606] = {
-			["npcID"] = 167731,
+		[357029] = {
+			["npcID"] = 180335,
 		},
 		[326836] = {
 			["npcID"] = 162039,
 		},
-		[329395] = {
-			["npcID"] = 178451,
+		[178067] = {
+			["npcID"] = 88094,
 		},
 		[342189] = {
 			["npcID"] = 174175,
 		},
-		[357284] = {
-			["npcID"] = 180432,
+		[322232] = {
+			["encounterName"] = "斯特拉达玛侯爵",
+			["npcID"] = 164267,
+			["encounterID"] = 2386,
 		},
-		[320696] = {
-			["npcID"] = 163121,
+		[357542] = {
+			["encounterName"] = "麦扎的绿洲",
+			["encounterID"] = 2440,
+			["npcID"] = 180484,
 		},
 		[329396] = {
 			["npcID"] = 178287,
@@ -4658,25 +4440,25 @@ PlaterDB = {
 		[322745] = {
 			["npcID"] = 170205,
 		},
-		[356295] = {
-			["npcID"] = 170257,
+		[363686] = {
+			["npcID"] = 179043,
 		},
 		[346286] = {
 			["encounterName"] = "收发室乱战",
 			["npcID"] = 175646,
 			["encounterID"] = 2424,
 		},
-		[363686] = {
-			["npcID"] = 179043,
+		[326837] = {
+			["npcID"] = 162040,
 		},
 		[339122] = {
 			["npcID"] = 167525,
 		},
-		[326837] = {
-			["npcID"] = 162040,
-		},
 		[320462] = {
 			["npcID"] = 163128,
+		},
+		[337552] = {
+			["npcID"] = 162853,
 		},
 		[330423] = {
 			["npcID"] = 168572,
@@ -4687,16 +4469,18 @@ PlaterDB = {
 		[211845] = {
 			["npcID"] = 150805,
 		},
-		[358344] = {
-			["npcID"] = 180015,
+		[368294] = {
+			["npcID"] = 185752,
 		},
 		[322236] = {
 			["encounterName"] = "斯特拉达玛侯爵",
 			["encounterID"] = 2386,
 			["npcID"] = 165430,
 		},
-		[368294] = {
-			["npcID"] = 185752,
+		[322550] = {
+			["encounterName"] = "特雷德奥瓦",
+			["encounterID"] = 2393,
+			["npcID"] = 164517,
 		},
 		[43526] = {
 			["npcID"] = 24179,
@@ -4704,19 +4488,14 @@ PlaterDB = {
 		[366759] = {
 			["npcID"] = 183498,
 		},
-		[322550] = {
-			["encounterName"] = "特雷德奥瓦",
-			["encounterID"] = 2393,
-			["npcID"] = 164517,
-		},
 		[53717] = {
 			["npcID"] = 29195,
 		},
-		[368295] = {
-			["npcID"] = 183953,
-		},
 		[336383] = {
 			["npcID"] = 179755,
+		},
+		[368295] = {
+			["npcID"] = 183953,
 		},
 		[320571] = {
 			["npcID"] = 163128,
@@ -4728,6 +4507,9 @@ PlaterDB = {
 		},
 		[342751] = {
 			["npcID"] = 171596,
+		},
+		[320185] = {
+			["npcID"] = 163480,
 		},
 		[358573] = {
 			["npcID"] = 179423,
@@ -4746,11 +4528,11 @@ PlaterDB = {
 		[329916] = {
 			["npcID"] = 171173,
 		},
-		[317943] = {
-			["npcID"] = 163457,
-		},
 		[340152] = {
 			["npcID"] = 158025,
+		},
+		[321038] = {
+			["npcID"] = 162039,
 		},
 		[315076] = {
 			["npcID"] = 161388,
@@ -4758,8 +4540,10 @@ PlaterDB = {
 		[329917] = {
 			["npcID"] = 168578,
 		},
-		[321038] = {
-			["npcID"] = 162039,
+		[327646] = {
+			["encounterName"] = "穆厄扎拉",
+			["npcID"] = 166608,
+			["encounterID"] = 2396,
 		},
 		[326847] = {
 			["npcID"] = 167876,
@@ -4770,25 +4554,23 @@ PlaterDB = {
 		[297166] = {
 			["npcID"] = 152875,
 		},
-		[327646] = {
-			["encounterName"] = "穆厄扎拉",
-			["npcID"] = 166608,
-			["encounterID"] = 2396,
-		},
 		[365903] = {
 			["npcID"] = 184627,
+		},
+		[346807] = {
+			["npcID"] = 175700,
 		},
 		[267997] = {
 			["npcID"] = 135816,
 		},
+		[320067] = {
+			["npcID"] = 178466,
+		},
 		[320196] = {
 			["npcID"] = 172873,
 		},
-		[275162] = {
-			["npcID"] = 161528,
-		},
-		[320067] = {
-			["npcID"] = 178466,
+		[338490] = {
+			["npcID"] = 162875,
 		},
 		[315079] = {
 			["npcID"] = 161388,
@@ -4798,8 +4580,8 @@ PlaterDB = {
 			["encounterID"] = 2360,
 			["npcID"] = 162100,
 		},
-		[338490] = {
-			["npcID"] = 162875,
+		[320991] = {
+			["npcID"] = 162038,
 		},
 		[322756] = {
 			["npcID"] = 165137,
@@ -4807,8 +4589,10 @@ PlaterDB = {
 		[358067] = {
 			["npcID"] = 178877,
 		},
-		[320991] = {
-			["npcID"] = 162038,
+		[321891] = {
+			["encounterName"] = "唤雾者",
+			["encounterID"] = 2392,
+			["npcID"] = 165251,
 		},
 		[57984] = {
 			["npcID"] = 95061,
@@ -4825,16 +4609,16 @@ PlaterDB = {
 		[324293] = {
 			["npcID"] = 165919,
 		},
-		[340160] = {
-			["npcID"] = 173655,
-		},
-		[321891] = {
-			["encounterName"] = "唤雾者",
-			["encounterID"] = 2392,
-			["npcID"] = 165251,
-		},
 		[338957] = {
 			["npcID"] = 165998,
+		},
+		[333299] = {
+			["npcID"] = 169893,
+		},
+		[320200] = {
+			["encounterName"] = "缝肉",
+			["npcID"] = 162689,
+			["encounterID"] = 2389,
 		},
 		[346811] = {
 			["npcID"] = 177735,
@@ -4844,19 +4628,16 @@ PlaterDB = {
 			["npcID"] = 164558,
 			["encounterID"] = 2395,
 		},
-		[333299] = {
-			["npcID"] = 169893,
-		},
 		[366288] = {
 			["encounterName"] = "唤雾者",
 			["encounterID"] = 2392,
 			["npcID"] = 184911,
 		},
+		[317643] = {
+			["npcID"] = 163255,
+		},
 		[177564] = {
 			["npcID"] = 177586,
-		},
-		[331909] = {
-			["npcID"] = 165473,
 		},
 		[338653] = {
 			["npcID"] = 173044,
@@ -4864,14 +4645,17 @@ PlaterDB = {
 		[336066] = {
 			["npcID"] = 169551,
 		},
+		[340160] = {
+			["npcID"] = 173655,
+		},
 		[346813] = {
 			["npcID"] = 152905,
 		},
-		[323786] = {
-			["npcID"] = 163524,
-		},
 		[366287] = {
 			["npcID"] = 185032,
+		},
+		[336068] = {
+			["npcID"] = 182686,
 		},
 		[356537] = {
 			["encounterName"] = "哨卫佐·菲克斯",
@@ -4881,16 +4665,16 @@ PlaterDB = {
 		[330438] = {
 			["npcID"] = 153174,
 		},
-		[324323] = {
-			["npcID"] = 165919,
-		},
-		[334558] = {
-			["npcID"] = 171448,
+		[361169] = {
+			["npcID"] = 182466,
 		},
 		[348350] = {
 			["encounterName"] = "哨卫佐·菲克斯",
 			["npcID"] = 175616,
 			["encounterID"] = 2425,
+		},
+		[323786] = {
+			["npcID"] = 163524,
 		},
 		[279264] = {
 			["npcID"] = 176434,
@@ -4898,19 +4682,19 @@ PlaterDB = {
 		[320716] = {
 			["npcID"] = 179805,
 		},
-		[323058] = {
-			["npcID"] = 165609,
-		},
 		[360145] = {
 			["encounterName"] = "恐惧双王",
 			["encounterID"] = 2543,
 			["npcID"] = 181399,
 		},
+		[273766] = {
+			["npcID"] = 177539,
+		},
 		[334534] = {
 			["npcID"] = 171805,
 		},
-		[273766] = {
-			["npcID"] = 177539,
+		[172193] = {
+			["npcID"] = 172589,
 		},
 		[327882] = {
 			["npcID"] = 168153,
@@ -4918,16 +4702,11 @@ PlaterDB = {
 		[334023] = {
 			["npcID"] = 167536,
 		},
-		[350875] = {
-			["encounterName"] = "索·莉亚",
-			["npcID"] = 177269,
-			["encounterID"] = 2442,
+		[316855] = {
+			["npcID"] = 165267,
 		},
 		[330953] = {
 			["npcID"] = 173831,
-		},
-		[316855] = {
-			["npcID"] = 165267,
 		},
 		[324527] = {
 			["encounterName"] = "酤团",
@@ -4940,18 +4719,21 @@ PlaterDB = {
 		[328707] = {
 			["npcID"] = 168992,
 		},
-		[340678] = {
-			["npcID"] = 172079,
+		[336584] = {
+			["npcID"] = 164476,
+		},
+		[320300] = {
+			["encounterName"] = "狭路相逢",
+			["encounterID"] = 2391,
+			["npcID"] = 164461,
 		},
 		[360636] = {
 			["encounterName"] = "死亡万神殿原型体",
 			["npcID"] = 181549,
 			["encounterID"] = 2544,
 		},
-		[320208] = {
-			["encounterName"] = "缝肉",
-			["encounterID"] = 2389,
-			["npcID"] = 164578,
+		[340678] = {
+			["npcID"] = 172079,
 		},
 		[322767] = {
 			["npcID"] = 164921,
@@ -4964,35 +4746,33 @@ PlaterDB = {
 			["npcID"] = 164218,
 			["encounterID"] = 2381,
 		},
-		[320300] = {
-			["encounterName"] = "狭路相逢",
-			["encounterID"] = 2391,
-			["npcID"] = 164461,
-		},
-		[356031] = {
-			["npcID"] = 177816,
-		},
-		[366267] = {
-			["npcID"] = 185008,
+		[358585] = {
+			["npcID"] = 176669,
 		},
 		[347610] = {
 			["encounterName"] = "索·阿兹密",
 			["encounterID"] = 2437,
 			["npcID"] = 175806,
 		},
+		[366267] = {
+			["npcID"] = 185008,
+		},
 		[321249] = {
 			["npcID"] = 162051,
+		},
+		[333729] = {
+			["npcID"] = 168949,
+		},
+		[328413] = {
+			["npcID"] = 158473,
+		},
+		[329422] = {
+			["npcID"] = 157571,
 		},
 		[350916] = {
 			["encounterName"] = "麦扎的绿洲",
 			["encounterID"] = 2440,
 			["npcID"] = 179269,
-		},
-		[329422] = {
-			["npcID"] = 157571,
-		},
-		[328413] = {
-			["npcID"] = 158473,
 		},
 		[340681] = {
 			["npcID"] = 165720,
@@ -5000,27 +4780,25 @@ PlaterDB = {
 		[330958] = {
 			["npcID"] = 172395,
 		},
-		[326574] = {
-			["encounterName"] = "缝肉",
-			["encounterID"] = 2389,
-			["npcID"] = 162689,
-		},
 		[275983] = {
 			["npcID"] = 157820,
-		},
-		[328400] = {
-			["npcID"] = 164737,
 		},
 		[359629] = {
 			["npcID"] = 183722,
 		},
+		[328400] = {
+			["npcID"] = 164737,
+		},
+		[351124] = {
+			["encounterName"] = "索·莉亚",
+			["npcID"] = 177269,
+			["encounterID"] = 2442,
+		},
 		[356035] = {
 			["npcID"] = 178789,
 		},
-		[351119] = {
-			["encounterName"] = "索·莉亚",
-			["encounterID"] = 2442,
-			["npcID"] = 177716,
+		[358082] = {
+			["npcID"] = 179608,
 		},
 		[340683] = {
 			["npcID"] = 172079,
@@ -5039,8 +4817,8 @@ PlaterDB = {
 			["npcID"] = 176563,
 			["encounterID"] = 2440,
 		},
-		[240006] = {
-			["npcID"] = 182863,
+		[330532] = {
+			["npcID"] = 164510,
 		},
 		[366272] = {
 			["npcID"] = 185032,
@@ -5053,8 +4831,8 @@ PlaterDB = {
 		[322262] = {
 			["npcID"] = 166754,
 		},
-		[358082] = {
-			["npcID"] = 179608,
+		[338636] = {
+			["npcID"] = 167731,
 		},
 		[341709] = {
 			["encounterName"] = "唤雾者",
@@ -5064,16 +4842,16 @@ PlaterDB = {
 		[360644] = {
 			["npcID"] = 180917,
 		},
-		[338636] = {
-			["npcID"] = 167731,
-		},
-		[205462] = {
-			["npcID"] = 166137,
-		},
 		[365257] = {
 			["encounterName"] = "首席造物师利许威姆",
 			["npcID"] = 182071,
 			["encounterID"] = 2539,
+		},
+		[205462] = {
+			["npcID"] = 166137,
+		},
+		[336958] = {
+			["npcID"] = 162853,
 		},
 		[358598] = {
 			["npcID"] = 178897,
@@ -5088,52 +4866,52 @@ PlaterDB = {
 			["encounterID"] = 2366,
 			["npcID"] = 162329,
 		},
-		[336958] = {
-			["npcID"] = 162853,
-		},
 		[332500] = {
 			["npcID"] = 173582,
 		},
 		[256382] = {
 			["npcID"] = 127807,
 		},
+		[240006] = {
+			["npcID"] = 182863,
+		},
 		[335059] = {
 			["npcID"] = 171696,
-		},
-		[297292] = {
-			["npcID"] = 153165,
-		},
-		[305378] = {
-			["npcID"] = 176170,
 		},
 		[156722] = {
 			["npcID"] = 77700,
 		},
+		[305378] = {
+			["npcID"] = 176170,
+		},
+		[333787] = {
+			["npcID"] = 168934,
+		},
 		[314942] = {
 			["npcID"] = 166869,
+		},
+		[358115] = {
+			["npcID"] = 178467,
+		},
+		[317661] = {
+			["npcID"] = 163503,
+		},
+		[331479] = {
+			["npcID"] = 167923,
+		},
+		[325700] = {
+			["npcID"] = 165529,
+		},
+		[329432] = {
+			["npcID"] = 175707,
+		},
+		[366278] = {
+			["npcID"] = 185032,
 		},
 		[362184] = {
 			["encounterName"] = "莱葛隆",
 			["encounterID"] = 2549,
 			["npcID"] = 182777,
-		},
-		[317661] = {
-			["npcID"] = 163503,
-		},
-		[358115] = {
-			["npcID"] = 178467,
-		},
-		[331479] = {
-			["npcID"] = 167923,
-		},
-		[329432] = {
-			["npcID"] = 175707,
-		},
-		[325700] = {
-			["npcID"] = 165529,
-		},
-		[366278] = {
-			["npcID"] = 185032,
 		},
 		[322780] = {
 			["npcID"] = 156560,
@@ -5144,8 +4922,8 @@ PlaterDB = {
 		[323804] = {
 			["npcID"] = 163524,
 		},
-		[333787] = {
-			["npcID"] = 168934,
+		[297292] = {
+			["npcID"] = 153165,
 		},
 		[330969] = {
 			["npcID"] = 177437,
@@ -5167,8 +4945,10 @@ PlaterDB = {
 			["encounterID"] = 2388,
 			["npcID"] = 163157,
 		},
-		[330532] = {
-			["npcID"] = 164510,
+		[351119] = {
+			["encounterName"] = "索·莉亚",
+			["encounterID"] = 2442,
+			["npcID"] = 177716,
 		},
 		[240009] = {
 			["npcID"] = 158314,
@@ -5178,10 +4958,10 @@ PlaterDB = {
 			["npcID"] = 180906,
 			["encounterID"] = 2529,
 		},
-		[351124] = {
-			["encounterName"] = "索·莉亚",
-			["npcID"] = 177269,
-			["encounterID"] = 2442,
+		[326574] = {
+			["encounterName"] = "缝肉",
+			["encounterID"] = 2389,
+			["npcID"] = 162689,
 		},
 		[319713] = {
 			["encounterName"] = "贪食的克里克西斯",
@@ -5197,33 +4977,37 @@ PlaterDB = {
 		[333531] = {
 			["npcID"] = 172210,
 		},
-		[333729] = {
-			["npcID"] = 168949,
+		[356031] = {
+			["npcID"] = 177816,
 		},
 		[328414] = {
 			["npcID"] = 172715,
 		},
-		[358585] = {
-			["npcID"] = 176669,
-		},
-		[336584] = {
-			["npcID"] = 164476,
+		[320208] = {
+			["encounterName"] = "缝肉",
+			["encounterID"] = 2389,
+			["npcID"] = 164578,
 		},
 		[356812] = {
 			["npcID"] = 180286,
-		},
-		[322274] = {
-			["encounterName"] = "缚霜者纳尔佐",
-			["npcID"] = 164815,
-			["encounterID"] = 2390,
 		},
 		[353783] = {
 			["encounterName"] = "麦扎的绿洲",
 			["encounterID"] = 2440,
 			["npcID"] = 176565,
 		},
+		[322274] = {
+			["encounterName"] = "缚霜者纳尔佐",
+			["npcID"] = 164815,
+			["encounterID"] = 2390,
+		},
 		[214424] = {
 			["npcID"] = 166559,
+		},
+		[350875] = {
+			["encounterName"] = "索·莉亚",
+			["npcID"] = 177269,
+			["encounterID"] = 2442,
 		},
 		[323810] = {
 			["encounterName"] = "卡尔将军",
@@ -5233,8 +5017,8 @@ PlaterDB = {
 		[318181] = {
 			["npcID"] = 172704,
 		},
-		[172193] = {
-			["npcID"] = 172589,
+		[323058] = {
+			["npcID"] = 165609,
 		},
 		[327393] = {
 			["npcID"] = 163618,
@@ -5242,11 +5026,11 @@ PlaterDB = {
 		[321764] = {
 			["npcID"] = 164861,
 		},
-		[361169] = {
-			["npcID"] = 182466,
+		[324323] = {
+			["npcID"] = 165919,
 		},
-		[336068] = {
-			["npcID"] = 182686,
+		[334558] = {
+			["npcID"] = 171448,
 		},
 		[364240] = {
 			["encounterName"] = "死亡万神殿原型体",
@@ -5261,8 +5045,8 @@ PlaterDB = {
 			["npcID"] = 164450,
 			["encounterID"] = 2400,
 		},
-		[317643] = {
-			["npcID"] = 163255,
+		[331909] = {
+			["npcID"] = 165473,
 		},
 		[364241] = {
 			["encounterName"] = "死亡万神殿原型体",
@@ -5271,11 +5055,6 @@ PlaterDB = {
 		},
 		[340189] = {
 			["npcID"] = 173655,
-		},
-		[320200] = {
-			["encounterName"] = "缝肉",
-			["npcID"] = 162689,
-			["encounterID"] = 2389,
 		},
 		[330037] = {
 			["npcID"] = 168361,
@@ -5288,16 +5067,16 @@ PlaterDB = {
 			["npcID"] = 180906,
 			["encounterID"] = 2529,
 		},
+		[157348] = {
+			["npcID"] = 77942,
+		},
 		[347249] = {
 			["encounterName"] = "索·阿兹密",
 			["encounterID"] = 2437,
 			["npcID"] = 175806,
 		},
-		[157348] = {
-			["npcID"] = 77942,
-		},
-		[346807] = {
-			["npcID"] = 175700,
+		[275162] = {
+			["npcID"] = 161528,
 		},
 		[319997] = {
 			["npcID"] = 164510,
@@ -5311,14 +5090,14 @@ PlaterDB = {
 		[331237] = {
 			["npcID"] = 162763,
 		},
+		[317943] = {
+			["npcID"] = 163457,
+		},
 		[334051] = {
 			["npcID"] = 168942,
 		},
 		[322281] = {
 			["npcID"] = 156559,
-		},
-		[320185] = {
-			["npcID"] = 163480,
 		},
 		[324427] = {
 			["encounterName"] = "奥莱芙莉安",
@@ -5337,6 +5116,9 @@ PlaterDB = {
 		[340467] = {
 			["npcID"] = 173756,
 		},
+		[358344] = {
+			["npcID"] = 180015,
+		},
 		[334053] = {
 			["encounterName"] = "奥莱芙莉安",
 			["npcID"] = 162060,
@@ -5344,9 +5126,6 @@ PlaterDB = {
 		},
 		[330471] = {
 			["npcID"] = 185014,
-		},
-		[337552] = {
-			["npcID"] = 162853,
 		},
 		[182532] = {
 			["npcID"] = 174183,
@@ -5356,27 +5135,28 @@ PlaterDB = {
 			["npcID"] = 165737,
 			["encounterID"] = 2381,
 		},
+		[356295] = {
+			["npcID"] = 170257,
+		},
 		[340707] = {
 			["npcID"] = 162708,
-		},
-		[322232] = {
-			["encounterName"] = "斯特拉达玛侯爵",
-			["npcID"] = 164267,
-			["encounterID"] = 2386,
 		},
 		[179091] = {
 			["npcID"] = 88783,
 		},
-		[322743] = {
-			["npcID"] = 178967,
+		[320696] = {
+			["npcID"] = 163121,
+		},
+		[329395] = {
+			["npcID"] = 178451,
 		},
 		[365272] = {
 			["encounterName"] = "死亡万神殿原型体",
 			["npcID"] = 181551,
 			["encounterID"] = 2544,
 		},
-		[324417] = {
-			["npcID"] = 162133,
+		[358563] = {
+			["npcID"] = 175616,
 		},
 		[323309] = {
 			["npcID"] = 161890,
@@ -5386,8 +5166,8 @@ PlaterDB = {
 			["npcID"] = 162099,
 			["encounterID"] = 2363,
 		},
-		[329905] = {
-			["npcID"] = 185024,
+		[324417] = {
+			["npcID"] = 162133,
 		},
 		[345315] = {
 			["npcID"] = 162849,
@@ -5397,31 +5177,33 @@ PlaterDB = {
 			["encounterID"] = 2397,
 			["npcID"] = 184911,
 		},
-		[337556] = {
-			["npcID"] = 162853,
-		},
 		[357115] = {
 			["npcID"] = 177915,
 		},
+		[336037] = {
+			["npcID"] = 181186,
+		},
 		[328940] = {
 			["npcID"] = 170969,
-		},
-		[358006] = {
-			["npcID"] = 178789,
 		},
 		[324146] = {
 			["encounterName"] = "雯图纳柯丝",
 			["encounterID"] = 2356,
 			["npcID"] = 162058,
 		},
+		[350101] = {
+			["encounterName"] = "卖品会",
+			["npcID"] = 176705,
+			["encounterID"] = 2441,
+		},
 		[328429] = {
 			["npcID"] = 168022,
 		},
-		[357639] = {
-			["npcID"] = 177422,
-		},
 		[323640] = {
 			["npcID"] = 158259,
+		},
+		[322370] = {
+			["npcID"] = 157054,
 		},
 		[358623] = {
 			["npcID"] = 179552,
@@ -5448,11 +5230,11 @@ PlaterDB = {
 		[337131] = {
 			["npcID"] = 162872,
 		},
-		[328869] = {
-			["npcID"] = 185024,
+		[330403] = {
+			["npcID"] = 168153,
 		},
-		[332569] = {
-			["npcID"] = 156559,
+		[327332] = {
+			["npcID"] = 163459,
 		},
 		[332526] = {
 			["npcID"] = 171396,
@@ -5460,21 +5242,19 @@ PlaterDB = {
 		[271628] = {
 			["npcID"] = 176434,
 		},
-		[243563] = {
-			["npcID"] = 139646,
+		[355811] = {
+			["npcID"] = 177291,
 		},
 		[319733] = {
 			["encounterName"] = "艾谢朗",
 			["npcID"] = 164185,
 			["encounterID"] = 2380,
 		},
-		[333241] = {
-			["encounterName"] = "狭路相逢",
-			["npcID"] = 170850,
-			["encounterID"] = 2391,
-		},
 		[326409] = {
 			["npcID"] = 164557,
+		},
+		[345239] = {
+			["npcID"] = 165124,
 		},
 		[360162] = {
 			["encounterName"] = "警戒卫士",
@@ -5484,37 +5264,37 @@ PlaterDB = {
 		[338157] = {
 			["npcID"] = 165047,
 		},
-		[365707] = {
-			["npcID"] = 183429,
-		},
 		[285335] = {
 			["npcID"] = 177131,
 		},
 		[328860] = {
 			["npcID"] = 165561,
 		},
+		[330697] = {
+			["npcID"] = 170690,
+		},
 		[325876] = {
 			["npcID"] = 165414,
-		},
-		[320463] = {
-			["npcID"] = 177140,
 		},
 		[366629] = {
 			["npcID"] = 185155,
 		},
+		[321000] = {
+			["npcID"] = 177134,
+		},
 		[319224] = {
 			["npcID"] = 163473,
 		},
-		[345552] = {
-			["npcID"] = 177168,
+		[366689] = {
+			["npcID"] = 185268,
 		},
 		[326389] = {
 			["encounterName"] = "艾谢朗",
 			["encounterID"] = 2380,
 			["npcID"] = 164185,
 		},
-		[334161] = {
-			["npcID"] = 171290,
+		[355963] = {
+			["npcID"] = 152594,
 		},
 		[327413] = {
 			["npcID"] = 168318,
@@ -5525,19 +5305,16 @@ PlaterDB = {
 		[355048] = {
 			["npcID"] = 178139,
 		},
-		[368446] = {
-			["npcID"] = 180978,
-		},
 		[347903] = {
 			["npcID"] = 176395,
 		},
+		[317231] = {
+			["encounterName"] = "无堕者哈夫",
+			["encounterID"] = 2366,
+			["npcID"] = 162329,
+		},
 		[340208] = {
 			["npcID"] = 173655,
-		},
-		[361923] = {
-			["encounterName"] = "恐惧双王",
-			["encounterID"] = 2543,
-			["npcID"] = 183138,
 		},
 		[327648] = {
 			["npcID"] = 168418,
@@ -5547,6 +5324,9 @@ PlaterDB = {
 		},
 		[351678] = {
 			["npcID"] = 178271,
+		},
+		[331333] = {
+			["npcID"] = 168857,
 		},
 		[326392] = {
 			["npcID"] = 157212,
@@ -5560,21 +5340,16 @@ PlaterDB = {
 		[368868] = {
 			["npcID"] = 184738,
 		},
-		[323689] = {
-			["npcID"] = 158642,
-		},
 		[321999] = {
 			["npcID"] = 164705,
+		},
+		[331379] = {
+			["npcID"] = 167965,
 		},
 		[349934] = {
 			["encounterName"] = "卖品会",
 			["npcID"] = 176555,
 			["encounterID"] = 2441,
-		},
-		[364114] = {
-			["encounterName"] = "莱葛隆",
-			["encounterID"] = 2549,
-			["npcID"] = 182777,
 		},
 		[331108] = {
 			["npcID"] = 162727,
@@ -5584,11 +5359,11 @@ PlaterDB = {
 			["encounterID"] = 2543,
 			["npcID"] = 181398,
 		},
+		[167119] = {
+			["npcID"] = 159708,
+		},
 		[341747] = {
 			["npcID"] = 174158,
-		},
-		[118297] = {
-			["npcID"] = 61029,
 		},
 		[326712] = {
 			["npcID"] = 167956,
@@ -5602,11 +5377,16 @@ PlaterDB = {
 		[357232] = {
 			["npcID"] = 179108,
 		},
+		[364068] = {
+			["encounterName"] = "安度因·乌瑞恩",
+			["encounterID"] = 2546,
+			["npcID"] = 183666,
+		},
 		[346866] = {
 			["npcID"] = 174175,
 		},
-		[347775] = {
-			["npcID"] = 176395,
+		[366197] = {
+			["npcID"] = 183500,
 		},
 		[79872] = {
 			["npcID"] = 177586,
@@ -5615,9 +5395,6 @@ PlaterDB = {
 			["encounterName"] = "司垢莱克斯，无穷噬灭者",
 			["encounterID"] = 2542,
 			["npcID"] = 181395,
-		},
-		[357497] = {
-			["npcID"] = 179070,
 		},
 		[338049] = {
 			["npcID"] = 163213,
@@ -5644,6 +5421,9 @@ PlaterDB = {
 			["npcID"] = 162099,
 			["encounterID"] = 2363,
 		},
+		[340070] = {
+			["npcID"] = 166503,
+		},
 		[326399] = {
 			["npcID"] = 185021,
 		},
@@ -5656,10 +5436,8 @@ PlaterDB = {
 		[334076] = {
 			["npcID"] = 168942,
 		},
-		[321669] = {
-			["encounterName"] = "唤雾者",
-			["encounterID"] = 2392,
-			["npcID"] = 165108,
+		[335485] = {
+			["npcID"] = 179029,
 		},
 		[320771] = {
 			["encounterName"] = "缚霜者纳尔佐",
@@ -5671,38 +5449,37 @@ PlaterDB = {
 			["npcID"] = 181856,
 			["encounterID"] = 2512,
 		},
-		[335485] = {
-			["npcID"] = 179029,
-		},
 		[320644] = {
 			["encounterName"] = "无堕者哈夫",
 			["encounterID"] = 2366,
 			["npcID"] = 162329,
+		},
+		[364652] = {
+			["encounterName"] = "首席造物师利许威姆",
+			["npcID"] = 182169,
+			["encounterID"] = 2539,
 		},
 		[320772] = {
 			["encounterName"] = "缚霜者纳尔佐",
 			["npcID"] = 162693,
 			["encounterID"] = 2390,
 		},
-		[342869] = {
-			["npcID"] = 168934,
-		},
 		[360775] = {
 			["npcID"] = 180706,
+		},
+		[275569] = {
+			["npcID"] = 157728,
 		},
 		[310026] = {
 			["npcID"] = 166159,
 		},
-		[275569] = {
-			["npcID"] = 157728,
+		[366182] = {
+			["npcID"] = 183498,
 		},
 		[358131] = {
 			["encounterName"] = "希尔布兰德",
 			["encounterID"] = 2426,
 			["npcID"] = 180640,
-		},
-		[361052] = {
-			["npcID"] = 180722,
 		},
 		[183081] = {
 			["npcID"] = 165793,
@@ -5719,14 +5496,19 @@ PlaterDB = {
 		[258634] = {
 			["npcID"] = 154129,
 		},
+		[64153] = {
+			["encounterName"] = "尤格-萨隆",
+			["npcID"] = 33985,
+			["encounterID"] = 1143,
+		},
 		[359668] = {
 			["npcID"] = 181484,
 		},
-		[368047] = {
-			["npcID"] = 178508,
-		},
 		[336380] = {
 			["npcID"] = 172142,
+		},
+		[322978] = {
+			["npcID"] = 161246,
 		},
 		[365298] = {
 			["npcID"] = 184539,
@@ -5734,23 +5516,23 @@ PlaterDB = {
 		[294165] = {
 			["npcID"] = 165047,
 		},
-		[295985] = {
-			["npcID"] = 185010,
-		},
 		[368037] = {
 			["npcID"] = 185677,
-		},
-		[365299] = {
-			["npcID"] = 184539,
 		},
 		[330822] = {
 			["npcID"] = 169859,
 		},
+		[365299] = {
+			["npcID"] = 184539,
+		},
+		[358496] = {
+			["npcID"] = 179805,
+		},
 		[356088] = {
 			["npcID"] = 178859,
 		},
-		[329325] = {
-			["npcID"] = 155830,
+		[294526] = {
+			["npcID"] = 151817,
 		},
 		[205231] = {
 			["encounterName"] = "酤团",
@@ -5759,9 +5541,6 @@ PlaterDB = {
 		},
 		[99705] = {
 			["npcID"] = 53619,
-		},
-		[337513] = {
-			["npcID"] = 158259,
 		},
 		[338802] = {
 			["npcID"] = 173202,
@@ -5773,6 +5552,9 @@ PlaterDB = {
 			["encounterName"] = "缝肉",
 			["npcID"] = 162689,
 			["encounterID"] = 2389,
+		},
+		[357979] = {
+			["npcID"] = 178897,
 		},
 		[351996] = {
 			["npcID"] = 178384,
@@ -5789,31 +5571,26 @@ PlaterDB = {
 		[325386] = {
 			["npcID"] = 167115,
 		},
-		[277517] = {
-			["npcID"] = 176170,
+		[323438] = {
+			["npcID"] = 166073,
 		},
 		[340739] = {
 			["npcID"] = 173855,
 		},
-		[323438] = {
-			["npcID"] = 166073,
+		[297020] = {
+			["npcID"] = 185015,
 		},
 		[32011] = {
 			["npcID"] = 45618,
 		},
-		[365872] = {
-			["encounterName"] = "安度因·乌瑞恩",
-			["encounterID"] = 2546,
-			["npcID"] = 181954,
+		[359334] = {
+			["npcID"] = 183983,
 		},
 		[328458] = {
 			["npcID"] = 168844,
 		},
 		[294171] = {
 			["npcID"] = 150959,
-		},
-		[335398] = {
-			["npcID"] = 161246,
 		},
 		[324987] = {
 			["npcID"] = 166301,
@@ -5829,14 +5606,17 @@ PlaterDB = {
 		[363526] = {
 			["npcID"] = 183947,
 		},
+		[322965] = {
+			["npcID"] = 164033,
+		},
 		[321807] = {
 			["npcID"] = 163619,
 		},
 		[310037] = {
 			["npcID"] = 166159,
 		},
-		[361016] = {
-			["npcID"] = 183983,
+		[328740] = {
+			["npcID"] = 168992,
 		},
 		[349954] = {
 			["encounterName"] = "卖品会",
@@ -5846,14 +5626,14 @@ PlaterDB = {
 		[9053] = {
 			["npcID"] = 41500,
 		},
-		[314825] = {
-			["npcID"] = 161814,
+		[368478] = {
+			["npcID"] = 180746,
 		},
 		[173762] = {
 			["npcID"] = 155216,
 		},
-		[368478] = {
-			["npcID"] = 180746,
+		[332377] = {
+			["npcID"] = 178212,
 		},
 		[313621] = {
 			["npcID"] = 177637,
@@ -5867,11 +5647,11 @@ PlaterDB = {
 		[368379] = {
 			["npcID"] = 183516,
 		},
-		[365110] = {
-			["npcID"] = 183746,
-		},
 		[365627] = {
 			["npcID"] = 184954,
+		},
+		[365572] = {
+			["npcID"] = 184733,
 		},
 		[320787] = {
 			["encounterName"] = "法力风暴夫妇",
@@ -5881,10 +5661,10 @@ PlaterDB = {
 		[13323] = {
 			["npcID"] = 32324,
 		},
-		[362056] = {
-			["encounterName"] = "回收者黑伦度斯",
-			["npcID"] = 181447,
-			["encounterID"] = 2529,
+		[346947] = {
+			["encounterName"] = "收发室乱战",
+			["npcID"] = 175646,
+			["encounterID"] = 2424,
 		},
 		[310041] = {
 			["npcID"] = 166159,
@@ -5897,9 +5677,6 @@ PlaterDB = {
 		[356099] = {
 			["npcID"] = 177395,
 		},
-		[368909] = {
-			["npcID"] = 185861,
-		},
 		[332234] = {
 			["npcID"] = 167967,
 		},
@@ -5907,6 +5684,11 @@ PlaterDB = {
 			["encounterName"] = "安度因·乌瑞恩",
 			["encounterID"] = 2546,
 			["npcID"] = 181954,
+		},
+		[364447] = {
+			["encounterName"] = "警戒卫士",
+			["npcID"] = 184522,
+			["encounterID"] = 2512,
 		},
 		[356100] = {
 			["npcID"] = 177395,
@@ -5916,17 +5698,17 @@ PlaterDB = {
 			["npcID"] = 182144,
 			["encounterID"] = 2544,
 		},
-		[360228] = {
-			["npcID"] = 183814,
-		},
 		[334326] = {
 			["npcID"] = 171376,
+		},
+		[359374] = {
+			["npcID"] = 182364,
 		},
 		[366336] = {
 			["npcID"] = 183927,
 		},
-		[367505] = {
-			["npcID"] = 181059,
+		[360767] = {
+			["npcID"] = 181115,
 		},
 		[340749] = {
 			["npcID"] = 167548,
@@ -5934,17 +5716,16 @@ PlaterDB = {
 		[365825] = {
 			["npcID"] = 181857,
 		},
-		[367522] = {
-			["npcID"] = 181059,
+		[359483] = {
+			["encounterName"] = "道茜歌妮，堕落先知",
+			["npcID"] = 181224,
+			["encounterID"] = 2540,
 		},
 		[352520] = {
 			["npcID"] = 178601,
 		},
 		[340750] = {
 			["npcID"] = 167548,
-		},
-		[358971] = {
-			["npcID"] = 179890,
 		},
 		[360835] = {
 			["npcID"] = 180722,
@@ -5955,25 +5736,25 @@ PlaterDB = {
 		[343069] = {
 			["npcID"] = 178478,
 		},
+		[321105] = {
+			["npcID"] = 168591,
+		},
 		[347404] = {
 			["npcID"] = 177291,
 		},
 		[341775] = {
 			["npcID"] = 167528,
 		},
-		[338407] = {
-			["npcID"] = 165339,
-		},
 		[360213] = {
 			["npcID"] = 181839,
 		},
+		[365036] = {
+			["encounterName"] = "首席造物师利许威姆",
+			["npcID"] = 184126,
+			["encounterID"] = 2539,
+		},
 		[339217] = {
 			["npcID"] = 173360,
-		},
-		[361304] = {
-			["encounterName"] = "死亡万神殿原型体",
-			["npcID"] = 183421,
-			["encounterID"] = 2544,
 		},
 		[343056] = {
 			["npcID"] = 172025,
@@ -5981,11 +5762,11 @@ PlaterDB = {
 		[327130] = {
 			["npcID"] = 165872,
 		},
+		[356923] = {
+			["npcID"] = 179890,
+		},
 		[359688] = {
 			["npcID"] = 181625,
-		},
-		[332671] = {
-			["npcID"] = 170480,
 		},
 		[365044] = {
 			["npcID"] = 182318,
@@ -6003,11 +5784,11 @@ PlaterDB = {
 			["npcID"] = 182823,
 			["encounterID"] = 2549,
 		},
+		[360320] = {
+			["npcID"] = 181942,
+		},
 		[354572] = {
 			["npcID"] = 180158,
-		},
-		[360778] = {
-			["npcID"] = 181116,
 		},
 		[346157] = {
 			["npcID"] = 175699,
@@ -6023,20 +5804,20 @@ PlaterDB = {
 		[365907] = {
 			["npcID"] = 184880,
 		},
+		[265725] = {
+			["npcID"] = 158278,
+		},
 		[328986] = {
 			["npcID"] = 169159,
 		},
-		[365895] = {
-			["npcID"] = 184535,
+		[360340] = {
+			["npcID"] = 179043,
 		},
 		[319775] = {
 			["npcID"] = 166872,
 		},
 		[100094] = {
 			["npcID"] = 53793,
-		},
-		[360340] = {
-			["npcID"] = 179043,
 		},
 		[361452] = {
 			["npcID"] = 180722,
@@ -6051,6 +5832,9 @@ PlaterDB = {
 		},
 		[365596] = {
 			["npcID"] = 180917,
+		},
+		[364891] = {
+			["npcID"] = 183737,
 		},
 		[296748] = {
 			["npcID"] = 185249,
@@ -6069,8 +5853,8 @@ PlaterDB = {
 		[319266] = {
 			["npcID"] = 173996,
 		},
-		[365067] = {
-			["npcID"] = 182318,
+		[368465] = {
+			["npcID"] = 180746,
 		},
 		[318243] = {
 			["npcID"] = 164458,
@@ -6080,8 +5864,8 @@ PlaterDB = {
 			["encounterID"] = 2391,
 			["npcID"] = 170838,
 		},
-		[365876] = {
-			["npcID"] = 184002,
+		[368502] = {
+			["npcID"] = 180924,
 		},
 	},
 	["profileKeys"] = {
@@ -9096,13 +8880,13 @@ PlaterDB = {
 					["Initialization"] = "function (scriptTable)\n    --insert code here\n    \nend\n\n\n",
 					["Desc"] = "Blink, change the number and nameplate color. Add the debuffs int he trigger box. Set settings on constructor script.",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_aura_blink",
+					["version"] = -1,
 					["SpellIds"] = {
 					},
-					["Name"] = "Aura - Blink by Time Left [Plater]",
 					["PlaterCore"] = 1,
 					["semver"] = "",
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    envTable.blinkTexture:SetSize (self:GetSize())\n    \nend\n\n\n",
-					["version"] = -1,
+					["Name"] = "Aura - Blink by Time Left [Plater]",
 					["UpdateCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    local timeLeft = envTable._RemainingTime\n    \n    --check if the spellID isn't being ignored\n    if (envTable.IgnoredSpellID [envTable._SpellID]) then\n        return\n    end\n    \n    --check the time left and start or stop the blink animation and also check if the time left is > zero\n    if ((envTable.BlinkEnabled or envTable.GlowEnabled) and timeLeft > 0) then\n        if (timeLeft < envTable.TimeLeftToBlink) then\n            --blink effect\n            if (envTable.BlinkEnabled) then\n                if (not envTable.blinkAnimation:IsPlaying()) then\n                    envTable.blinkAnimation:Play()\n                end\n            end\n            --glow effect\n            if (envTable.GlowEnabled) then\n                envTable.glowEffect:Show()\n            end\n            --nameplate color\n            if (envTable.ChangeNameplateColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateColor)\n            end\n        else\n            --blink effect\n            if (envTable.blinkAnimation:IsPlaying()) then\n                envTable.blinkAnimation:Stop()\n            end\n            --glow effect\n            if (envTable.GlowEnabled and envTable.glowEffect:IsShown()) then\n                envTable.glowEffect:Hide()\n            end\n        end\n    end\n    \n    --timer color\n    if (envTable.TimerColorEnabled and timeLeft > 0) then\n        if (timeLeft < envTable.TimeLeftCritical) then\n            Plater:SetFontColor (self.Cooldown.Timer, envTable.TextColor_Critical)\n        elseif (timeLeft < envTable.TimeLeftWarning) then\n            Plater:SetFontColor (self.Cooldown.Timer, envTable.TextColor_Warning)        \n        else\n            Plater:SetFontColor (self.Cooldown.Timer, Plater.db.profile.aura_timer_text_color)\n        end\n    end\n    \nend",
 				}, -- [1]
 				{
@@ -9378,15 +9162,15 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Ditador-Azralon",
-					["version"] = -1,
+					["Time"] = 1597097268,
 					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
 					["Hooks"] = {
 						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    self.ThrottleUpdate = -1\n    \nend\n\n\n",
 						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.castBar.BorderShield:SetDrawLayer(\"artwork\")\n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    --private:\n    function envTable.UpdateIconPosition (unitFrame)\n        local castBar = unitFrame.castBar\n        local icon = castBar.Icon\n        local noInterruptTexture = castBar.BorderShield\n        \n        if (modTable.config.showIcon) then\n            icon:ClearAllPoints()\n            \n            if (modTable.config.iconOnLeftSide) then\n                if (modTable.config.useFullSize) then\n                    icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                    \n                else\n                    \n                    icon:SetPoint (\"topright\", unitFrame.castBar, \"topleft\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                end\n                \n            else\n                if (modTable.config.useFullSize) then\n                    icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                    \n                else\n                    \n                    icon:SetPoint (\"topleft\", unitFrame.castBar, \"topright\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                end\n            end\n            \n            icon:SetWidth (icon:GetHeight())\n            icon:Show()\n        else\n            icon:Hide()\n        end\n        \n        if (modTable.config.showTexture and not castBar.canInterrupt) then\n            noInterruptTexture:Show()\n            \n            local texturePath = modTable.config.iconTexturePath\n            texturePath = texturePath:gsub(\"//\", \"/\")\n            texturePath = texturePath:gsub(\"\\\\\", \"/\")\n            \n            noInterruptTexture:SetTexture (texturePath)\n            noInterruptTexture:SetTexCoord (0, 1, 0, 1)\n            \n            if (modTable.config.desaturatedTexture) then\n                noInterruptTexture:SetDesaturated (modTable.config.desaturatedTexture)\n            else\n                noInterruptTexture:SetVertexColor (DetailsFramework:ParseColors (modTable.config.textureColor))\n            end\n            \n            noInterruptTexture:SetSize (modTable.config.textureWidth, castBar:GetHeight() + modTable.config.textureHeightMod)\n            noInterruptTexture:ClearAllPoints()\n            noInterruptTexture:SetPoint (\"center\", castBar, \"left\", modTable.config.texturePosition, 0)\n            noInterruptTexture:SetAlpha (modTable.config.textureAlpha)\n        else\n            noInterruptTexture:Hide()\n        end\n    end\nend",
 					},
-					["Time"] = 1597097268,
 					["Name"] = "Cast Bar Icon Settings [P]",
+					["version"] = -1,
 					["LoadConditions"] = {
 						["talent"] = {
 						},
@@ -9738,7 +9522,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Time"] = 1541606242,
+					["version"] = -1,
 					["Desc"] = "Hide neutral units, show when selected, see the constructor script for options.",
 					["Hooks"] = {
 						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
@@ -9771,12 +9555,12 @@ PlaterDB = {
 						["affix"] = {
 						},
 					},
-					["Name"] = "Hide Neutral Units [Plater]",
+					["Time"] = 1541606242,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 1990989,
-					["version"] = -1,
+					["Name"] = "Hide Neutral Units [Plater]",
 				}, -- [5]
 				{
 					["Enabled"] = false,
@@ -9969,7 +9753,7 @@ PlaterDB = {
 					["semver"] = "",
 					["LastHookEdited"] = "",
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "Players Targeting a Target [Plater]",
+					["Time"] = 1548278227,
 					["Desc"] = "Show how many raid members are targeting the unit",
 					["Hooks"] = {
 						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShow = false;\n    envTable.TargetAmount:SetText (\"\")\nend\n\n\n",
@@ -9980,7 +9764,7 @@ PlaterDB = {
 						["Constructor"] = "--all gray text like this are comments and do not run as code\n--build the settings and basic functions for the hook\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --declare setting variables:\n    local textColor = \"orange\";\n    local textSize = 12;\n    \n    local showInRaid = true;\n    local showInDungeon = true;\n    local showInArena = false;\n    local showInBattleground = false;\n    local showInOpenWorld = true;\n    \n    envTable.UpdateInterval = 2; --each 2 updates in the nameplate it'll update the amount of targets\n    \n    local anchor = {\n        side = 6, --1 = topleft 2 = left 3 = bottomleft 4 = bottom 5 = bottom right 6 = right 7 = topright 8 = top\n        x = 4, --x offset\n        y = 0, --y offset\n    };\n    \n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------\n    \n    \n    --frames:\n    \n    --create the text that will show the amount of people targeting the unit\n    if (not  unitFrame.healthBar.TargetAmount) then\n        envTable.TargetAmount = Plater:CreateLabel (unitFrame.healthBar, \"\", textSize, textColor);\n        Plater.SetAnchor (envTable.TargetAmount, anchor);\n        unitFrame.healthBar.TargetAmount = envTable.TargetAmount\n    end\n    \n    --in case Plater wipes the envTable\n    envTable.TargetAmount = unitFrame.healthBar.TargetAmount\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --private variables (they will be used in the other scripts within this hook)\n    envTable.CanShow = false;\n    envTable.UpdateCooldown = 0;\n    envTable.InRaid = false;\n    envTable.InParty = false;\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --functions\n    \n    --update the InRaid or InParty proprieties\n    function envTable.UpdateGroupType()\n        if (IsInRaid()) then\n            envTable.InRaid = true;\n            envTable.InParty = false;     \n            \n        elseif (IsInGroup()) then\n            envTable.InRaid = false;\n            envTable.InParty = true;   \n            \n        else\n            envTable.InRaid = false;            \n            envTable.InParty = false;\n        end\n    end\n    \n    --this function controls if the amount of targets can show following the settings in the top of this script\n    function envTable.CanShowTargetAmount()\n        \n        local _, instanceType, difficultyID, _, _, _, _, instanceMapID, instanceGroupSize = GetInstanceInfo()\n        \n        if (showInRaid and instanceType == \"raid\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInDungeon and instanceType == \"party\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInArena and instanceType == \"arena\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInBattleground and instanceType == \"pvp\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInOpenWorld and instanceType == \"none\") then\n            envTable.UpdateGroupType()\n            if (envTable.InRaid or envTable.InParty) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    --get the amount of player targetting the unit in raid or party\n    function envTable.NumTargetsInRaid (unitFrame)\n        local amount = 0\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        return amount\n    end\n    \n    function envTable.NumTargetsInParty()\n        local amount = 0\n        for i = 1, GetNumGroupMembers() - 1 do\n            local unit = \"party\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        local unit = \"playertarget\"\n        if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n            amount = amount + 1\n        end        \n        \n        return amount\n    end\n    \nend",
 					},
 					["PlaterCore"] = 1,
-					["version"] = -1,
+					["Name"] = "Players Targeting a Target [Plater]",
 					["LoadConditions"] = {
 						["talent"] = {
 						},
@@ -10007,7 +9791,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 1966587,
-					["Time"] = 1548278227,
+					["version"] = -1,
 				}, -- [10]
 				{
 					["Enabled"] = false,
@@ -10018,13 +9802,13 @@ PlaterDB = {
 					},
 					["semver"] = "",
 					["Author"] = "Ditador-Azralon",
-					["version"] = -1,
+					["Name"] = "Aura Reorder [Plater]",
 					["Desc"] = "Reorder buffs and debuffs following the settings set in the constructor.",
 					["Hooks"] = {
 						["Initialization"] = "function (modTable)\n    \n    --ATTENTION: after enabling this mod, you may have to adjust the anchor point at the Buff Settings tab\n    \n    local sortByTime = false\n    local invertSort = false\n    \n    --which auras goes first, assign a value (any number), bigger value goes first\n    local priority = {\n        [\"Vampiric Touch\"] = 50,\n        [\"Shadow Word: Pain\"] = 22,\n        [\"Mind Flay\"] = 5,\n        [\"Pistol Shot\"] = 50,\n        [\"Marked for Death\"] = 99,\n    }\n    \n    -- Sort function - do not touch\n    Plater.db.profile.aura_sort = true\n    \n    \n    function Plater.AuraIconsSortFunction (aura1, aura2)\n        local p1 = priority[aura1.SpellId] or priority[aura1.SpellName] or 1\n        local p2 = priority[aura2.SpellId] or priority[aura2.SpellName] or 1\n        \n        if sortByTime and p1 == p2 then\n            if invertSort then\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) > (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            else\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) < (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            end\n        else\n            if invertSort then\n                 return p1 < p2\n            else\n                return p1 > p2\n            end\n        end\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 					},
-					["Name"] = "Aura Reorder [Plater]",
 					["Time"] = 1608663128,
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -10121,6 +9905,6135 @@ PlaterDB = {
 		},
 		["薇羽Anne"] = {
 			["target_shady_combat_only"] = false,
+			["aura_sort"] = true,
+			["url"] = "https://wago.io/kvgdjO6_L/3",
+			["cast_statusbar_fadein_time"] = 0.02081192471087,
+			["target_shady_enabled"] = false,
+			["aura2_y_offset"] = 0,
+			["buffs_on_aura2"] = true,
+			["health_selection_overlay"] = "Otravi",
+			["cast_statusbar_color_nointerrupt"] = {
+				0.49411764705882, -- [1]
+				0.49803921568628, -- [2]
+				0.50196078431373, -- [3]
+				0.96000000089407, -- [4]
+			},
+			["health_cutoff_extra_glow"] = true,
+			["npc_cache"] = {
+				[164342] = {
+					"渊誓防御者", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[184910] = {
+					"未知目标", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[165556] = {
+					"未知目标", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[168942] = {
+					"Death Speaker", -- [1]
+					"De Other Side", -- [2]
+				},
+				[184911] = {
+					"尤型拆卸者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[181398] = {
+					"玛尔加尼斯", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[167538] = {
+					"Dokigg the Brutalizer", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[181399] = {
+					"金泰莎", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[172265] = {
+					"Remnant of Fury", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[185232] = {
+					"渊誓禁锢者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164345] = {
+					"未知目标", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[152656] = {
+					"丧魂追猎者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[184530] = {
+					"永恒哨兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[167731] = {
+					"Separation Assistant", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[185680] = {
+					"维型圣物", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[185233] = {
+					"渊誓卫兵", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[171500] = {
+					"蹒跚的死尸", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[164921] = {
+					"Drust Harvester", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[171181] = {
+					"Territorial Bladebeak", -- [1]
+					"De Other Side", -- [2]
+				},
+				[162047] = {
+					"Insatiable Brute", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[184659] = {
+					"被统御的哨兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[153552] = {
+					"哭泣的怨灵", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[168627] = {
+					"Plaguebinder", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[166264] = {
+					"备用部件", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[182169] = {
+					"利许威姆", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[170480] = {
+					"Atal'ai Deathwalker", -- [1]
+					"De Other Side", -- [2]
+				},
+				[185363] = {
+					"具形者克鲁根", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164476] = {
+					"被折磨的融合怪", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[172205] = {
+					"骨奴", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[184533] = {
+					"被颠覆的守护者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185683] = {
+					"沃型圣物", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[155790] = {
+					"渊誓侍僧", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[171184] = {
+					"Mythresh, Sky's Talons", -- [1]
+					"De Other Side", -- [2]
+				},
+				[153874] = {
+					"渊誓哨兵", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[168246] = {
+					"未知目标", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[171376] = {
+					"Head Custodian Javlin", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[26125] = {
+					"复活的食尸鬼", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168949] = {
+					"Risen Bonesoldier", -- [1]
+					"De Other Side", -- [2]
+				},
+				[164414] = {
+					"未知目标", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[184535] = {
+					"被颠覆的匠工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185685] = {
+					"尤型圣物", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[168886] = {
+					"Virulax Blightweaver", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[164351] = {
+					"未知目标", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[164926] = {
+					"德鲁斯特碎枝者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[182045] = {
+					"死灵祭师", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162691] = {
+					"凋骨", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[166396] = {
+					"贵族散兵", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[153174] = {
+					"死亡观察者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[155793] = {
+					"骷髅残骸", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[167610] = {
+					"Stonefiend Anklebiter", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[162692] = {
+					"阿玛厄斯", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[183707] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[167994] = {
+					"Ossified Conscript", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[168058] = {
+					"Infused Quill-feather", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[167611] = {
+					"石裔剔骨者", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[173360] = {
+					"Plaguebelcher", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[164737] = {
+					"Brood Ambusher", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[164929] = {
+					"仙木灵居民", -- [1]
+					"暗影界", -- [2]
+				},
+				[181856] = {
+					"定点防御无人机", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[163524] = {
+					"Kyrian Dark-Praetor", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[153879] = {
+					"丧魂暗影", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[184603] = {
+					"远古元蟾", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[165824] = {
+					"纳祖达", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[168443] = {
+					"Zolramus Necromancer", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[165111] = {
+					"德鲁斯特恶爪者", -- [1]
+					"暗影界", -- [2]
+				},
+				[182074] = {
+					"征用自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162056] = {
+					"缚石岩精", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[184539] = {
+					"自动抹除者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[176555] = {
+					"阿喀琉忒", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[176556] = {
+					"阿尔克鲁克斯", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[179821] = {
+					"指挥官佐·法", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[176563] = {
+					"佐·格伦", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[168572] = {
+					"Fungi Stormer", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[176565] = {
+					"捣乱的顾客", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[162057] = {
+					"Chamber Sentinel", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[185030] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[165251] = {
+					"未知目标", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[164804] = {
+					"宗主奥法兰", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[173044] = {
+					"缝合助理", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[180773] = {
+					"警戒卫士", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[181859] = {
+					"不稳定的素材", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[167615] = {
+					"Depraved Darkblade", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[153882] = {
+					"丧魂之灵", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[176562] = {
+					"未知目标", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[168318] = {
+					"Forsworn Goliath", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[172981] = {
+					"Kyrian Stitchwerk", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[170490] = {
+					"Atal'ai High Priest", -- [1]
+					"De Other Side", -- [2]
+				},
+				[179269] = {
+					"未知目标", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[178388] = {
+					"卖场铁腕战士", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[178394] = {
+					"财团跟班", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[181395] = {
+					"司垢莱克斯", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[165189] = {
+					"拉克西里", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183138] = {
+					"初生暗影", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[184735] = {
+					"退化自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[166914] = {
+					"堕落的守护者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[167534] = {
+					"Rek the Hardened", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[176395] = {
+					"过载的邮件元素", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[176394] = {
+					"P.O.S.T.工人", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[176396] = {
+					"损坏的分拣机", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[182053] = {
+					"退化自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[166276] = {
+					"Mistveil Guardian", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[185247] = {
+					"塔楼哨卫", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[166915] = {
+					"被附身的看护者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[153015] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[174197] = {
+					"Battlefield Ritualist", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[164552] = {
+					"Rotmarrow Slime", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[153885] = {
+					"丧魂蹒跚者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185120] = {
+					"丧魂夺命者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[179841] = {
+					"老练的火花法师", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[185248] = {
+					"高塔领主", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[181224] = {
+					"道茜歌妮", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[179840] = {
+					"集市维和者", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[183396] = {
+					"永恒锻工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164553] = {
+					"迷雾盟友", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[180348] = {
+					"财团打手", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[185121] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[179893] = {
+					"财团潜伏者", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[185249] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[174071] = {
+					"Vicious Gargon", -- [1]
+					"Castle Nathria", -- [2]
+				},
+				[182311] = {
+					"预制哨兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168578] = {
+					"Fungalmancer", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[180906] = {
+					"黑伦度斯", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171772] = {
+					"Mistveil Defender", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[162049] = {
+					"疑虑残迹", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[163213] = {
+					"噬渊狱鬼", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[167876] = {
+					"Inquisitor Sigar", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[164363] = {
+					"不死石精", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[167493] = {
+					"Venomous Sniper", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[183398] = {
+					"远古哨兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164555] = {
+					"Millificent Manastorm", -- [1]
+					"De Other Side", -- [2]
+				},
+				[151333] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[181546] = {
+					"新生原型体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[180335] = {
+					"财团走私者", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[179837] = {
+					"追踪者佐·刻斯", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[173051] = {
+					"镇压者泽罗尔斯", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[186127] = {
+					"檀钢构造体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183399] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[167111] = {
+					"Spinemaw Staghorn", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[184651] = {
+					"征服者泽尔托兹", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[179334] = {
+					"传送门操控师佐·达赫", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[1860] = {
+					"格里姆苏克", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171455] = {
+					"石墙加尔贡", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[69791] = {
+					"地狱葬花", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[177808] = {
+					"装甲监工", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[165515] = {
+					"Depraved Darkblade", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[164557] = {
+					"哈尔吉亚斯的碎片", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[177816] = {
+					"审讯专员", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[181548] = {
+					"赦罪原型体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[177817] = {
+					"支援警官", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[184742] = {
+					"被统御的塑形者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[166921] = {
+					"枯败潜伏者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[168007] = {
+					"强化的渊誓缚魂者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[157340] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[167113] = {
+					"锥喉酸咽者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[178392] = {
+					"大门看护者佐·马兹", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[165197] = {
+					"Skeletal Monstrosity", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[170882] = {
+					"Bone Magus", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[177807] = {
+					"海关保安", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[69792] = {
+					"地狱葬花", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168882] = {
+					"瞬息具象", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[180336] = {
+					"财团智囊", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[185113] = {
+					"戈姆巨怪", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185574] = {
+					"被统御的破坏者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[174325] = {
+					"晋升的巫妖", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[164815] = {
+					"佐尔拉姆斯虹吸者", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[172991] = {
+					"Drust Soulcleaver", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[171522] = {
+					"污秽的屠戮者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[135816] = {
+					"邪犬", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[166589] = {
+					"活化武器", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[169159] = {
+					"Unstable Canister", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[181551] = {
+					"恪职原型体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162133] = {
+					"卡尔将军", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[171448] = {
+					"恐怖的狩猎大师", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[168393] = {
+					"Plaguebelcher", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[168457] = {
+					"石墙加尔贡", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[78001] = {
+					"暴雨图腾", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183404] = {
+					"永恒装配工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[167116] = {
+					"锥喉掠夺者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[168713] = {
+					"恐惧召唤师斯加菲尔", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[163458] = {
+					"Forsworn Castigator", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[171396] = {
+					"格里恩哥利亚", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[169927] = {
+					"Putrid Butcher", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[163459] = {
+					"Forsworn Mender", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[167117] = {
+					"锥喉幼虫", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[167564] = {
+					"玛尔恩德拉", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[164562] = {
+					"Depraved Houndmaster", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[165137] = {
+					"佐尔拉姆斯守门人", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[163157] = {
+					"阿玛厄斯", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[163063] = {
+					"巴米达尔", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[171461] = {
+					"未知目标", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[168109] = {
+					"强化的渊誓祭师", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[175677] = {
+					"走私来的生物", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[155812] = {
+					"渊誓祭师", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164563] = {
+					"Vicious Gargon", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[165138] = {
+					"凋零之袋", -- [1]
+					"暗影界", -- [2]
+				},
+				[184109] = {
+					"造物残余", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[150958] = {
+					"渊誓卫兵", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[168396] = {
+					"Plaguebelcher", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[162051] = {
+					"Frenzied Ghoul", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[163326] = {
+					"骷髅防御者", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[183407] = {
+					"永恒匠工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[175806] = {
+					"索·阿兹密", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[172142] = {
+					"妮娜达尔女男爵", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[185099] = {
+					"幽灵军马", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[168844] = {
+					"Lakesis", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[162040] = {
+					"Grand Overseer", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[168108] = {
+					"强化的笨重造物", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164501] = {
+					"唤雾者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[174210] = {
+					"Blighted Sludge-Spewer", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[183983] = {
+					"被统御的侍者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[184791] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[153451] = {
+					"堕落者科萨鲁斯", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[165872] = {
+					"Flesh Crafter", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[168966] = {
+					"闪花", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[175616] = {
+					"佐·菲克斯", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[152905] = {
+					"塔楼哨卫", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[171656] = {
+					"Venomous Sniper Captain", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[162039] = {
+					"Wicked Oppressor", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[185581] = {
+					"永恒锻工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[184623] = {
+					"远古元鸟", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[166920] = {
+					"枯败仆从", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[167532] = {
+					"Heavin the Breaker", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[166919] = {
+					"污秽的屠戮者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[164338] = {
+					"渊誓卫兵", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[168591] = {
+					"贪婪的恐惧蝠", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[164567] = {
+					"英格拉·马洛克", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[185582] = {
+					"永恒装配工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[165076] = {
+					"Gluttonous Tick", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[183919] = {
+					"被统御的哨卫", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[162298] = {
+					"残忍的约卡塔", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[184522] = {
+					"警戒监护者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[184880] = {
+					"被统御的干扰者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183947] = {
+					"强化的护卫", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185008] = {
+					"不稳定的哨兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[155945] = {
+					"束链者格鲁斯", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164185] = {
+					"艾谢朗", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[151818] = {
+					"丧魂畸形造物", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[165816] = {
+					"辛达妮侯爵", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[163145] = {
+					"通灵祭师", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[176705] = {
+					"雯扎·金线", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[183412] = {
+					"被统御的破坏者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[166266] = {
+					"备用部件", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[165560] = {
+					"未知目标", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[182071] = {
+					"护卫自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[154030] = {
+					"大得出奇的噬渊鼠", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[151817] = {
+					"丧魂恶鬼", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[167955] = {
+					"Sanguine Cadet", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[163506] = {
+					"Forsworn Stealthclaw", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[168594] = {
+					"Chamber Sentinel", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[185010] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[170572] = {
+					"Atal'ai Hoodoo Hexxer", -- [1]
+					"De Other Side", -- [2]
+				},
+				[416] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183669] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[167892] = {
+					"被折磨的灵魂", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[167956] = {
+					"Dark Acolyte", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[166079] = {
+					"脆骨弩手", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[165529] = {
+					"Depraved Collector", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[184627] = {
+					"被统御的塑形者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[169893] = {
+					"Nefarious Darkspeaker", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[151816] = {
+					"丧魂清道夫", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[163122] = {
+					"脆骨战士", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[163058] = {
+					"Mistveil Defender", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[165913] = {
+					"阴森的教民", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[162689] = {
+					"外科医生缝肉", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[173066] = {
+					"克尔苏加德", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[185268] = {
+					"檀钢构造体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[182777] = {
+					"莱葛隆", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171343] = {
+					"Bladebeak Matriarch", -- [1]
+					"De Other Side", -- [2]
+				},
+				[153011] = {
+					"束缚者巴里塔司", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[165339] = {
+					"强化的妮娜达尔女男爵", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[55659] = {
+					"野生小鬼", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[173114] = {
+					"入侵的葬秋萤", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183416] = {
+					"受缚的国度碎裂者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[151815] = {
+					"丧魂回响", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183033] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[163121] = {
+					"Stitched Vanguard", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[169875] = {
+					"Shackled Soul", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[180159] = {
+					"未知目标", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[182778] = {
+					"坍缩的类星体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164343] = {
+					"未知目标", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[173708] = {
+					"锚点符文", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[185014] = {
+					"死亡观察者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183463] = {
+					"陨落君王的残迹", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164702] = {
+					"未知目标", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[166299] = {
+					"Mistveil Tender", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[58965] = {
+					"吉格-萨克", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[186484] = {
+					"笨重造物", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164447] = {
+					"斯库尔德", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[155824] = {
+					"笨重造物", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185015] = {
+					"束缚者巴里塔司", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[151353] = {
+					"噬渊鼠", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164427] = {
+					"未知目标", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[183406] = {
+					"硕大的国度打造者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185271] = {
+					"星辰微粒", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[186357] = {
+					"星辰微粒", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[135002] = {
+					"恶魔暴君", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[179842] = {
+					"贸易执行者", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[168153] = {
+					"Plagueroc", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[163618] = {
+					"Zolramus Necromancer", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[185029] = {
+					"未知目标", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[166301] = {
+					"纱雾追猎者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[167898] = {
+					"未知目标", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[163503] = {
+					"Etherdiver", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[184010] = {
+					"折磨先知", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183931] = {
+					"被统御的卫士", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[167612] = {
+					"石裔掠夺者", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[163619] = {
+					"Zolramus Bonecarver", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[167963] = {
+					"Headless Client", -- [1]
+					"De Other Side", -- [2]
+				},
+				[166302] = {
+					"Corpse Harvester", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[169753] = {
+					"饥饿的虱子", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[165919] = {
+					"Skeletal Marauder", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[157807] = {
+					"渊誓织魂者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[184954] = {
+					"远古塑形者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164578] = {
+					"缝肉的造物", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[163620] = {
+					"Rotspew", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[170838] = {
+					"Unyielding Contender", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[163110] = {
+					"德拉卡女男爵", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[185274] = {
+					"星界粒子", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168986] = {
+					"Skeletal Raptor", -- [1]
+					"De Other Side", -- [2]
+				},
+				[164451] = {
+					"Dessia the Decapitator", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[155828] = {
+					"刻符巨像", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[165793] = {
+					"费尔恩戴", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[163621] = {
+					"Goregrind", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[167965] = {
+					"Lubricator", -- [1]
+					"De Other Side", -- [2]
+				},
+				[166304] = {
+					"纱雾钉刺蛾", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[183934] = {
+					"被统御的核心", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[165410] = {
+					"高阶裁决官阿丽兹", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[171799] = {
+					"Depths Warden", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[171159] = {
+					"瓦解之魂残迹", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185020] = {
+					"黑暗晋升者科鲁斯", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[163622] = {
+					"碎淤残块", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[184126] = {
+					"防御矩阵自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185212] = {
+					"渊誓弓手", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185347] = {
+					"被统御的根除者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168988] = {
+					"蔓生藤条", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[173140] = {
+					"未知目标", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[155830] = {
+					"渊誓信徒", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185021] = {
+					"长者漫枝", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[31216] = {
+					"大少爷的剑", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[163623] = {
+					"烂吐残渣", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[162729] = {
+					"帕奇维克士兵", -- [1]
+					"暗影界", -- [2]
+				},
+				[165408] = {
+					"哈尔吉亚斯", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[167967] = {
+					"Sentient Oil", -- [1]
+					"De Other Side", -- [2]
+				},
+				[151814] = {
+					"丧魂影魔", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[155831] = {
+					"渊誓缚魂者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[174802] = {
+					"Venomous Sniper", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[152898] = {
+					"丧魂合声", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185181] = {
+					"自动抹除者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171166] = {
+					"瓦解之魂残迹", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183745] = {
+					"征用自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[165211] = {
+					"克尔苏加德", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[163126] = {
+					"Brittlebone Mage", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[160495] = {
+					"Maniacal Soulbinder", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[185023] = {
+					"西诺德", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[172312] = {
+					"锥喉饕餮者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[165222] = {
+					"Zolramus Bonemender", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[164589] = {
+					"康复中的灵茧", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183499] = {
+					"雇佣打手", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[165414] = {
+					"Depraved Obliterator", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[162549] = {
+					"瓦丝琪女男爵", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[167806] = {
+					"未知目标", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[185024] = {
+					"帕特里西安·克伦威尔", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183429] = {
+					"黑檀链卫", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[165415] = {
+					"劳苦的管理员", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[165798] = {
+					"通灵祭师", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[173016] = {
+					"Corpse Collector", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[163882] = {
+					"Decaying Flesh Giant", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[173655] = {
+					"Mistveil Matriarch", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[184961] = {
+					"多瘤的掠行者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183988] = {
+					"强化的侍者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[166275] = {
+					"Mistveil Shaper", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[181954] = {
+					"安度因·乌瑞恩", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[173714] = {
+					"Mistveil Nightblossom", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[168418] = {
+					"Forsworn Inquisitor", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[173720] = {
+					"Mistveil Gorgegullet", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[168992] = {
+					"Risen Cultist", -- [1]
+					"De Other Side", -- [2]
+				},
+				[184962] = {
+					"多瘤的吞噬食腐者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185537] = {
+					"恶心的操控魔", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168580] = {
+					"Plagueborer", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[185154] = {
+					"玛尔加尼斯", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183992] = {
+					"自动防御矩阵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[17252] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185346] = {
+					"被统御的根除者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[100943] = {
+					"大地之墙图腾", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[163501] = {
+					"Forsworn Skirmisher", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[165911] = {
+					"Loyal Creation", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[171805] = {
+					"研究铭文师", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[185155] = {
+					"被颠覆的守护者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[170690] = {
+					"Diseased Horror", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[168420] = {
+					"Forsworn Champion", -- [1]
+					"Spires of Ascension", -- [2]
+				},
+				[120651] = {
+					"未知目标", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[164517] = {
+					"特雷德奥瓦", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[168101] = {
+					"强化的丧魂影魔", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183495] = {
+					"扭曲的噬界者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[173339] = {
+					"Plaguebelcher", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[163366] = {
+					"亡者魔导师", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168357] = {
+					"Zolramus Sorcerer", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[98035] = {
+					"恐惧猎犬", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[152644] = {
+					"丧魂飘浮者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[152708] = {
+					"渊誓寻猎者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183432] = {
+					"黑檀统御者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183496] = {
+					"恶心的饕餮者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164920] = {
+					"Drust Soulcleaver", -- [1]
+					"Mists of Tirna Scithe", -- [2]
+				},
+				[164348] = {
+					"游荡的影魔", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[183688] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[175576] = {
+					"监禁室", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[184738] = {
+					"护卫自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[177237] = {
+					"未知目标", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[181850] = {
+					"预制哨兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183497] = {
+					"恶心的操控魔", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162099] = {
+					"卡尔将军", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[183500] = {
+					"行窃的特工", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[184733] = {
+					"被统御的步兵", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[181244] = {
+					"统御核心", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183409] = {
+					"压制武器", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164506] = {
+					"Ancient Captain", -- [1]
+					"Theater of Pain", -- [2]
+				},
+				[183945] = {
+					"不稳定的物质", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[183498] = {
+					"违法收集者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162100] = {
+					"贪食的克里克西斯", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[167607] = {
+					"Stoneborn Slasher", -- [1]
+					"Halls of Atonement", -- [2]
+				},
+				[24207] = {
+					"亡者大军", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[182823] = {
+					"宇宙核心", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[164218] = {
+					"宫务大臣", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[183413] = {
+					"被统御的根除者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171171] = {
+					"渊誓弓手", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[185032] = {
+					"监工赛·普洛", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168310] = {
+					"Plagueroc", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[184737] = {
+					"征用自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[155908] = {
+					"亡语者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[166913] = {
+					"被腐化的卫士", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[162693] = {
+					"缚霜者纳尔佐", -- [1]
+					"通灵战潮", -- [2]
+				},
+				[181549] = {
+					"征战原型体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171172] = {
+					"渊誓禁锢者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[162038] = {
+					"Regal Mistdancer", -- [1]
+					"Sanguine Depths", -- [2]
+				},
+				[162102] = {
+					"大学监贝律莉娅", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[184734] = {
+					"神圣矩阵自动体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185225] = {
+					"焰炉大师", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[95072] = {
+					"巨型土元素", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[163891] = {
+					"Rotmarrow Slime", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[174175] = {
+					"忠诚的石裔魔", -- [1]
+					"赎罪大厅", -- [2]
+				},
+				[171173] = {
+					"渊誓阴影追猎者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[183501] = {
+					"圣物匠赛·墨克斯", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162103] = {
+					"执行者塔沃德", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[184140] = {
+					"未知目标", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[185226] = {
+					"焰炉执行者", -- [1]
+					"托加斯特，罪魂之塔", -- [2]
+				},
+				[164339] = {
+					"渊誓弓箭手", -- [1]
+					"炽蓝仙野盟约第二章场景战役", -- [2]
+				},
+				[168960] = {
+					"疤躯者富尔菲尔", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[171520] = {
+					"枯败潜伏者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[183438] = {
+					"链缚构造体", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168683] = {
+					"高莱克·扎尔", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[185610] = {
+					"寂灭主管", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168961] = {
+					"饥饿之众", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[171521] = {
+					"恐惧唤魔师", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[168967] = {
+					"戈尔韦恩", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+				[175646] = {
+					"P.O.S.T.总管", -- [1]
+					"塔扎维什，帷纱集市", -- [2]
+				},
+				[184908] = {
+					"维型拦截者", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[183439] = {
+					"渊誓歼灭者", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[162041] = {
+					"肮脏的嚼土者", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[65310] = {
+					"芜菁沙袋", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[162046] = {
+					"饥饿的虱子", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[184206] = {
+					"恶毒的小鬼", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[168446] = {
+					"Skeletal Monstrosity", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[163894] = {
+					"Blighted Spinebreaker", -- [1]
+					"Plaguefall", -- [2]
+				},
+				[178601] = {
+					"凯文的小软泥怪", -- [1]
+					"初诞者圣墓", -- [2]
+				},
+				[171384] = {
+					"研究铭文师", -- [1]
+					"赤红深渊", -- [2]
+				},
+				[165108] = {
+					"未知目标", -- [1]
+					"塞兹仙林的迷雾", -- [2]
+				},
+				[163128] = {
+					"Zolramus Sorcerer", -- [1]
+					"The Necrotic Wake", -- [2]
+				},
+				[163199] = {
+					"图尔塔因", -- [1]
+					"玛卓克萨斯盟约终幕场景战役", -- [2]
+				},
+				[166917] = {
+					"林地破坏者", -- [1]
+					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
+				},
+			},
+			["aura_cooldown_reverse"] = false,
+			["health_selection_overlay_alpha"] = 0.29999998211861,
+			["aura_stack_shadow_color"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0, -- [4]
+			},
+			["minor_height_scale"] = 0.99999994039536,
+			["aura_padding"] = 2,
+			["last_news_time"] = 1551553489,
+			["aura_width2"] = 16,
+			["aura_stack_size"] = 9,
+			["castbar_target_anchor"] = {
+				["side"] = 11,
+			},
+			["hook_data_trash"] = {
+				{
+					["LastHookEdited"] = "",
+					["UID"] = "0x62229f65202d123",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local vyColor = modTable.config.vyColor\n    local woColor = modTable.config.woColor\n    local urhColor = modTable.config.urhColor\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    \n    envTable.NpcColors = {\n        \n        [\"维型圣物\"] = vyColor,  --haste & proc\n        [\"维型拦截者\"] = vyColor,\n        \n        [\"沃型圣物\"] = woColor, --movespeed & stealth\n        [\"沃型飘移者\"] = woColor,\n        \n        [\"尤型圣物\"] = urhColor, --cdr & mana\n        [\"尤型拆卸者\"] = urhColor,\n        \n    } \n    \n    envTable.NpcNames = {\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName,\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth\n        [\"沃型飘移者\"] = woName,\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName,\n        \n    } \n    \nend\n\n\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    local setColor = modTable.config.setColor\n    \n    if color and setColor then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["__TrashAt"] = 1648710074,
+					["Time"] = 1646580210,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["url"] = "",
+					["Icon"] = 4224736,
+					["Enabled"] = true,
+					["Revision"] = 212,
+					["semver"] = "",
+					["Author"] = "Ilrieth-Argent Dawn",
+					["Desc"] = "使用自定义值修改加密圣物的名称和血条颜色",
+					["Prio"] = 99,
+					["Name"] = "加密词缀改名和颜色",
+					["PlaterCore"] = 1,
+					["version"] = -1,
+					["HooksTemp"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    local setColor = modTable.config.setColor\n    \n    if color and setColor then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local vyColor = modTable.config.vyColor\n    local woColor = modTable.config.woColor\n    local urhColor = modTable.config.urhColor\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    \n    envTable.NpcColors = {\n        \n        [\"维型圣物\"] = vyColor,  --haste & proc\n        [\"维型拦截者\"] = vyColor,\n        \n        [\"沃型圣物\"] = woColor, --movespeed & stealth\n        [\"沃型飘移者\"] = woColor,\n        \n        [\"尤型圣物\"] = urhColor, --cdr & mana\n        [\"尤型拆卸者\"] = urhColor,\n        \n    } \n    \n    envTable.NpcNames = {\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName,\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth\n        [\"沃型飘移者\"] = woName,\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName,\n        \n    } \n    \nend\n\n\n\n\n",
+					},
+					["Options"] = {
+						{
+							["Type"] = 4,
+							["Key"] = "setColor",
+							["Value"] = true,
+							["Name"] = "启用血条变色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "是否更改血条颜色?",
+						}, -- [1]
+						{
+							["Type"] = 1,
+							["Key"] = "vyColor",
+							["Value"] = {
+								0, -- [1]
+								0.9921568627451, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "维型圣物血条颜色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "",
+						}, -- [2]
+						{
+							["Type"] = 1,
+							["Name"] = "沃型圣物血条颜色",
+							["Value"] = {
+								0.33725490196078, -- [1]
+								1, -- [2]
+								0.42352941176471, -- [3]
+								1, -- [4]
+							},
+							["Key"] = "woColor",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "",
+						}, -- [3]
+						{
+							["Type"] = 1,
+							["Key"] = "urhColor",
+							["Value"] = {
+								0.63137254901961, -- [1]
+								0.34901960784314, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "尤型圣物血条颜色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "",
+						}, -- [4]
+						{
+							["Type"] = 6,
+							["Key"] = "pog",
+							["Value"] = 0,
+							["Name"] = "Divider",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [5]
+						{
+							["Type"] = 4,
+							["Key"] = "setName",
+							["Value"] = true,
+							["Name"] = "启用更改姓名",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "是否更改名字?",
+						}, -- [6]
+						{
+							["Type"] = 3,
+							["Key"] = "vyName",
+							["Value"] = "维『急速 / 召唤宝珠』",
+							["Name"] = "维型圣物改名",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "",
+						}, -- [7]
+						{
+							["Type"] = 3,
+							["Name"] = "沃型圣物改名",
+							["Value"] = "沃『移速 / 减伤 / 隐身』",
+							["Key"] = "woName",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "",
+						}, -- [8]
+						{
+							["Type"] = 3,
+							["Name"] = "尤型圣物改名",
+							["Value"] = "尤『减CD / 回血 / 回蓝』",
+							["Key"] = "urhName",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "",
+						}, -- [9]
+					},
+				}, -- [1]
+			},
+			["enable_masque_support"] = true,
+			["extra_icon_anchor"] = {
+				["x"] = 4,
+			},
+			["use_playerclass_color"] = false,
+			["range_check_alpha"] = 1,
+			["semver"] = "1.0.2",
+			["aura_frame2_anchor"] = {
+				["y"] = 0,
+				["x"] = 7,
+				["side"] = 6,
+			},
+			["cast_statusbar_texture"] = "003",
+			["auto_toggle_friendly"] = {
+				["party"] = true,
+			},
+			["aura_cooldown_edge_texture"] = "Interface\\GLUES\\loadingOld",
+			["aura_consolidate"] = true,
+			["extra_icon_width"] = 16,
+			["health_statusbar_texture"] = "Melli",
+			["hook_auto_imported"] = {
+				["Color Automation"] = 1,
+				["Blockade Encounter"] = 1,
+				["Cast Bar Icon Config"] = 2,
+				["Hide Neutral Units"] = 1,
+				["Attacking Specific Unit"] = 2,
+				["Reorder Nameplate"] = 4,
+				["Dont Have Aura"] = 1,
+				["Monk Statue"] = 2,
+				["Bwonsamdi Reaping"] = 1,
+				["Jaina Encounter"] = 6,
+				["Aura Reorder"] = 3,
+				["Players Targetting Amount"] = 4,
+				["Combo Points"] = 6,
+				["Targetting Alpha"] = 3,
+				["Target Color"] = 3,
+				["Extra Border"] = 2,
+				["Execute Range"] = 1,
+			},
+			["minor_width_scale"] = 0.99999994039536,
+			["indicator_pet"] = false,
+			["aura_frame1_anchor"] = {
+				["y"] = 4.2299957275391,
+				["side"] = 7,
+			},
+			["aura_timer_text_font"] = "Accidental Presidency",
+			["extra_icon_stack_font"] = "Accidental Presidency",
+			["cast_statusbar_bgtexture"] = "PlaterBackground",
+			["aura2_x_offset"] = 7,
+			["target_indicator"] = "Composite Reversed",
+			["saved_cvars"] = {
+				["ShowClassColorInNameplate"] = "1",
+				["nameplateOverlapV"] = "1.2000000476837",
+				["nameplateLargeTopInset"] = "0.085",
+				["nameplateShowEnemyMinus"] = "1",
+				["NamePlateClassificationScale"] = "1",
+				["nameplateShowFriendlyTotems"] = "0",
+				["nameplatePersonalHideDelaySeconds"] = "0.2",
+				["nameplateShowFriendlyPets"] = "0",
+				["nameplatePersonalShowInCombat"] = "1",
+				["nameplatePersonalShowWithTarget"] = "0",
+				["nameplateResourceOnTarget"] = "0",
+				["clampTargetNameplateToScreen"] = "1",
+				["nameplateShowAll"] = "1",
+				["nameplateMaxDistance"] = "100",
+				["nameplateShowFriendlyMinions"] = "0",
+				["nameplateSelfScale"] = "1.0",
+				["nameplateTargetBehindMaxDistance"] = "30",
+				["nameplateShowEnemies"] = "1",
+				["NamePlateVerticalScale"] = "1",
+				["nameplateSelectedAlpha"] = "1",
+				["nameplateShowSelf"] = "0",
+				["nameplateSelfTopInset"] = "0.5",
+				["nameplateMotionSpeed"] = "0.05",
+				["nameplateGlobalScale"] = "1.0",
+				["nameplateShowEnemyMinions"] = "1",
+				["nameplateShowFriendlyNPCs"] = "0",
+				["nameplateSelectedScale"] = "1.15",
+				["nameplateShowFriends"] = "1",
+				["nameplateMotion"] = "1",
+				["nameplateMinScale"] = "1",
+				["nameplateOtherTopInset"] = "0.085",
+				["nameplateTargetRadialPosition"] = "1",
+				["nameplateSelfBottomInset"] = "0.2",
+				["nameplateOccludedAlphaMult"] = "1",
+				["nameplateShowFriendlyGuardians"] = "0",
+				["NamePlateHorizontalScale"] = "1",
+				["nameplatePersonalShowAlways"] = "0",
+				["nameplateSelfAlpha"] = "0.75",
+				["nameplateShowOnlyNames"] = "1",
+				["ShowNamePlateLoseAggroFlash"] = "1",
+			},
+			["login_counter"] = 10937,
+			["extra_icon_caster_name"] = false,
+			["aura_cooldown_show_swipe"] = false,
+			["aura_stack_font"] = "Accidental Presidency",
+			["hide_friendly_castbars"] = true,
+			["OptionsPanelDB"] = {
+				["PlaterOptionsPanelFrame"] = {
+					["scale"] = 1,
+				},
+			},
+			["aura_timer_text_shadow_color"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0, -- [4]
+			},
+			["target_highlight_texture"] = "Interface\\AddOns\\Plater\\images\\selection_indicator2",
+			["plater_resources_show_depleted"] = false,
+			["castbar_icon_customization_enabled"] = false,
+			["plate_config"] = {
+				["global_health_height"] = 12,
+				["friendlyplayer"] = {
+					["big_actorname_text_size"] = 10,
+					["spellpercent_text_font"] = "Accidental Presidency",
+					["level_text_size"] = 8,
+					["actorname_use_class_color"] = true,
+					["cast"] = {
+						110, -- [1]
+					},
+					["spellpercent_text_anchor"] = {
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["big_actorname_text_shadow_color"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["spellpercent_text_outline"] = "NONE",
+					["level_text_font"] = "Accidental Presidency",
+					["actorname_text_font"] = "Accidental Presidency",
+					["big_actorname_text_shadow_color_offset"] = {
+						1, -- [1]
+						-1, -- [2]
+					},
+					["mana_incombat"] = {
+						nil, -- [1]
+						4, -- [2]
+					},
+					["all_names"] = true,
+					["big_actortitle_text_outline"] = "OUTLINE",
+					["only_damaged"] = false,
+					["quest_color_enemy"] = {
+						1, -- [1]
+						0.369, -- [2]
+						0, -- [3]
+					},
+					["only_thename"] = true,
+					["big_actortitle_text_font"] = "Accidental Presidency",
+					["spellpercent_text_size"] = 9,
+					["level_text_anchor"] = {
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["big_actortitle_text_shadow_color_offset"] = {
+						1, -- [1]
+						-1, -- [2]
+					},
+					["percent_text_size"] = 8,
+					["cast_incombat"] = {
+						110, -- [1]
+					},
+					["spellname_text_anchor"] = {
+						["y"] = 1,
+						["side"] = 3,
+					},
+					["big_actortitle_text_shadow_color"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["percent_text_anchor"] = {
+						["y"] = 1,
+						["side"] = 3,
+					},
+					["spellname_text_font"] = "Accidental Presidency",
+					["big_actorname_text_outline"] = "OUTLINE",
+					["health_incombat"] = {
+						110, -- [1]
+						12, -- [2]
+					},
+					["big_actortitle_text_size"] = 10,
+					["quest_color_neutral"] = {
+						1, -- [1]
+						0.65, -- [2]
+						0, -- [3]
+					},
+					["actorname_text_size"] = 11,
+					["percent_text_enabled"] = true,
+					["percent_text_ooc"] = true,
+					["level_text_alpha"] = 0.29999998211861,
+					["spellpercent_text_enabled"] = true,
+					["mana"] = {
+						nil, -- [1]
+						4, -- [2]
+					},
+					["percent_text_font"] = "Accidental Presidency",
+					["buff_frame_y_offset"] = 0,
+					["quest_enabled"] = true,
+					["power_percent_text_font"] = "Accidental Presidency",
+					["spellname_text_color"] = {
+						0.95294117647059, -- [1]
+						[3] = 0.9921568627451,
+					},
+					["spellname_text_size"] = 9,
+					["health"] = {
+						110, -- [1]
+						12, -- [2]
+					},
+					["big_actorname_text_font"] = "Accidental Presidency",
+					["percent_show_health"] = true,
+					["actorname_text_anchor"] = {
+						["y"] = -3,
+						["x"] = -1,
+						["side"] = 1,
+					},
+					["percent_text_outline"] = "NONE",
+				},
+				["friendlynpc"] = {
+					["spellpercent_text_font"] = "Accidental Presidency",
+					["level_text_size"] = 8,
+					["cast"] = {
+						110, -- [1]
+						8, -- [2]
+					},
+					["spellpercent_text_anchor"] = {
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["spellpercent_text_outline"] = "NONE",
+					["level_text_font"] = "Accidental Presidency",
+					["actorname_text_font"] = "Accidental Presidency",
+					["actorname_text_outline"] = "OUTLINE",
+					["actorname_text_spacing"] = 9,
+					["quest_color_enemy"] = {
+						1, -- [1]
+						0.369, -- [2]
+						0, -- [3]
+					},
+					["big_actortitle_text_font"] = "Accidental Presidency",
+					["spellpercent_text_size"] = 9,
+					["level_text_anchor"] = {
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["spellname_text_size"] = 9,
+					["cast_incombat"] = {
+						110, -- [1]
+					},
+					["spellname_text_anchor"] = {
+						["y"] = 1,
+						["side"] = 3,
+					},
+					["spellname_text_font"] = "Accidental Presidency",
+					["only_names"] = false,
+					["big_actorname_text_font"] = "Accidental Presidency",
+					["quest_color_neutral"] = {
+						1, -- [1]
+						0.65, -- [2]
+						0, -- [3]
+					},
+					["big_actortitle_text_size"] = 10,
+					["percent_text_enabled"] = true,
+					["big_actorname_text_size"] = 10,
+					["percent_text_ooc"] = true,
+					["level_text_alpha"] = 0.29999998211861,
+					["spellpercent_text_enabled"] = true,
+					["percent_text_font"] = "Accidental Presidency",
+					["spellname_text_color"] = {
+						0.95294117647059, -- [1]
+						[3] = 0.9921568627451,
+					},
+					["health_incombat"] = {
+						110, -- [1]
+						12, -- [2]
+					},
+					["health"] = {
+						110, -- [1]
+					},
+					["power_percent_text_font"] = "Accidental Presidency",
+					["actorname_text_anchor"] = {
+						["y"] = 1,
+						["side"] = 1,
+					},
+					["percent_text_size"] = 10,
+					["percent_show_health"] = true,
+				},
+				["player"] = {
+					["spellpercent_text_font"] = "Accidental Presidency",
+					["power_percent_text_enabled"] = false,
+					["level_text_font"] = "Accidental Presidency",
+					["actorname_text_font"] = "Accidental Presidency",
+					["big_actortitle_text_font"] = "Accidental Presidency",
+					["spellname_text_font"] = "Accidental Presidency",
+					["click_through"] = true,
+					["power_percent_text_font"] = "Accidental Presidency",
+					["power_percent_text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+					["percent_text_font"] = "Accidental Presidency",
+					["big_actorname_text_font"] = "Accidental Presidency",
+				},
+				["enemynpc"] = {
+					["spellpercent_text_font"] = "ViklunD's SexFont",
+					["cast"] = {
+						110, -- [1]
+						8, -- [2]
+					},
+					["spellpercent_text_anchor"] = {
+						["y"] = -0.80000305175781,
+						["x"] = 3.8999938964844,
+						["side"] = 5,
+					},
+					["spellpercent_text_outline"] = "NONE",
+					["level_text_font"] = "Accidental Presidency",
+					["spellname_text_color"] = {
+						0.95294117647059, -- [1]
+						[3] = 0.9921568627451,
+					},
+					["actorname_text_outline"] = "OUTLINE",
+					["actorname_text_spacing"] = 8,
+					["big_actortitle_text_font"] = "Accidental Presidency",
+					["spellpercent_text_size"] = 9,
+					["level_text_anchor"] = {
+						["y"] = 100,
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["cast_incombat"] = {
+						110, -- [1]
+						8, -- [2]
+					},
+					["actorname_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["spellname_text_anchor"] = {
+						["y"] = 0.099998474121094,
+						["x"] = -0.80000305175781,
+						["side"] = 3,
+					},
+					["percent_text_anchor"] = {
+						["y"] = -0.029998779296875,
+					},
+					["spellpercent_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["actorname_text_size"] = 9,
+					["big_actorname_text_font"] = "Accidental Presidency",
+					["percent_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["actorname_text_anchor"] = {
+						["y"] = 1.0699996948242,
+						["side"] = 1,
+					},
+					["percent_text_font"] = "Accidental Presidency",
+					["actorname_text_font"] = "Accidental Presidency",
+					["spellname_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["health_incombat"] = {
+						110, -- [1]
+						12, -- [2]
+					},
+					["health"] = {
+						110, -- [1]
+					},
+					["power_percent_text_font"] = "Accidental Presidency",
+					["level_text_alpha"] = 0.29999998211861,
+					["spellname_text_font"] = "Accidental Presidency",
+					["spellname_text_size"] = 9,
+					["level_text_enabled"] = false,
+				},
+				["enemyplayer"] = {
+					["big_actorname_text_size"] = 10,
+					["spellpercent_text_font"] = "ViklunD's SexFont",
+					["level_text_size"] = 8,
+					["cast"] = {
+						110, -- [1]
+						8, -- [2]
+					},
+					["big_actortitle_text_size"] = 10,
+					["spellpercent_text_anchor"] = {
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["percent_text_show_decimals"] = false,
+					["spellpercent_text_outline"] = "NONE",
+					["level_text_font"] = "Accidental Presidency",
+					["actorname_text_font"] = "Accidental Presidency",
+					["mana_incombat"] = {
+						120, -- [1]
+						1, -- [2]
+					},
+					["all_names"] = true,
+					["actorname_text_outline"] = "OUTLINE",
+					["actorname_text_spacing"] = 9,
+					["quest_color_enemy"] = {
+						1, -- [1]
+						0.369, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["big_actortitle_text_font"] = "Accidental Presidency",
+					["spellpercent_text_size"] = 9,
+					["level_text_anchor"] = {
+						["y"] = 100,
+						["x"] = 1,
+						["side"] = 5,
+					},
+					["cast_incombat"] = {
+						110, -- [1]
+						8, -- [2]
+					},
+					["actorname_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["spellname_text_anchor"] = {
+						["y"] = 1,
+						["side"] = 3,
+					},
+					["percent_text_anchor"] = {
+						["y"] = 4.6499938964844,
+						["side"] = 5,
+					},
+					["spellname_text_font"] = "Accidental Presidency",
+					["spellname_text_color"] = {
+						0.95294117647059, -- [1]
+						[3] = 0.9921568627451,
+					},
+					["quest_color_neutral"] = {
+						1, -- [1]
+						0.65, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["actorname_text_size"] = 10,
+					["big_actorname_text_font"] = "Accidental Presidency",
+					["percent_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["percent_show_health"] = false,
+					["percent_text_size"] = 10,
+					["percent_text_font"] = "Accidental Presidency",
+					["quest_enabled"] = true,
+					["power_percent_text_font"] = "Accidental Presidency",
+					["spellname_text_shadow_color"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["quest_color_enabled"] = true,
+					["health_incombat"] = {
+						110, -- [1]
+						12, -- [2]
+					},
+					["health"] = {
+						110, -- [1]
+					},
+					["actorname_text_anchor"] = {
+						["y"] = -0.40000152587891,
+						["x"] = -1,
+						["side"] = 1,
+					},
+					["percent_show_percent"] = false,
+					["level_text_alpha"] = 0.29999998211861,
+					["mana"] = {
+						120, -- [1]
+						1, -- [2]
+					},
+					["level_text_enabled"] = false,
+				},
+				["global_health_width"] = 110,
+			},
+			["aura_y_offset"] = 4.2299957275391,
+			["use_ui_parent"] = true,
+			["aura_show_tooltip"] = true,
+			["resources_settings"] = {
+				["chr"] = {
+					["Player-2133-0E85E2A6"] = "HolyPower",
+					["Player-1933-07B9AD6F"] = "Runes",
+				},
+			},
+			["number_region"] = "eastasia",
+			["npc_colors"] = {
+				[131670] = {
+					false, -- [1]
+					false, -- [2]
+					"palegreen", -- [3]
+				},
+				[162047] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[134284] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[133870] = {
+					false, -- [1]
+					false, -- [2]
+					"lightcoral", -- [3]
+				},
+				[134157] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[173714] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[136006] = {
+					false, -- [1]
+					false, -- [2]
+					"blue", -- [3]
+				},
+				[132532] = {
+					false, -- [1]
+					false, -- [2]
+					"palegreen", -- [3]
+				},
+				[144071] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[134158] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[122973] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[136005] = {
+					false, -- [1]
+					false, -- [2]
+					"blue", -- [3]
+				},
+				[172981] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[167532] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[136549] = {
+					false, -- [1]
+					false, -- [2]
+					"lightcoral", -- [3]
+				},
+				[134701] = {
+					false, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[168393] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[136295] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[171772] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[173016] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[167534] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[174802] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[174197] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[138465] = {
+					false, -- [1]
+					false, -- [2]
+					"lightcoral", -- [3]
+				},
+				[169159] = {
+					true, -- [1]
+					false, -- [2]
+					"darkcyan", -- [3]
+				},
+				[162051] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[170882] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[164920] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[171799] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[136934] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[164506] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[169893] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[170690] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[128967] = {
+					false, -- [1]
+					false, -- [2]
+					"palegreen", -- [3]
+				},
+				[169927] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[164921] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[168420] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[173655] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[134417] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[134514] = {
+					false, -- [1]
+					false, -- [2]
+					"lightgreen", -- [3]
+				},
+				[168396] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[165911] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[129366] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[139422] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[136139] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[165529] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[134418] = {
+					false, -- [1]
+					false, -- [2]
+					"dodgerblue", -- [3]
+				},
+				[173720] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[131677] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[126928] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[136076] = {
+					false, -- [1]
+					false, -- [2]
+					"lightcoral", -- [3]
+				},
+				[129559] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[135365] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[127757] = {
+					false, -- [1]
+					false, -- [2]
+					"lightcoral", -- [3]
+				},
+				[168844] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[137511] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[163128] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[137830] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[129367] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[173339] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[168942] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[163458] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[131585] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[133432] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[135474] = {
+					false, -- [1]
+					false, -- [2]
+					"dodgerblue", -- [3]
+				},
+				[128969] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[163618] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[139425] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[167955] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[163459] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[132126] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[168578] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[160495] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[162057] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[163619] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[167731] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[133593] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[130436] = {
+					false, -- [1]
+					false, -- [2]
+					"aqua", -- [3]
+				},
+				[153292] = {
+					false, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[163524] = {
+					true, -- [1]
+					false, -- [2]
+					"olivedrab", -- [3]
+				},
+				[172991] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[164737] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[163620] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[129369] = {
+					false, -- [1]
+					false, -- [2]
+					"lightsalmon", -- [3]
+				},
+				[131587] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[131586] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[166299] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[129600] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[134232] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[167876] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[167956] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[137516] = {
+					false, -- [1]
+					false, -- [2]
+					"lightsalmon", -- [3]
+				},
+				[127106] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[134137] = {
+					false, -- [1]
+					false, -- [2]
+					"dodgerblue", -- [3]
+				},
+				[137484] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[133436] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[130485] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[165872] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[131492] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[133685] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[129529] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[168627] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[163126] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[137517] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[170572] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[171656] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[137103] = {
+					false, -- [1]
+					false, -- [2]
+					"lightsalmon", -- [3]
+				},
+				[130661] = {
+					false, -- [1]
+					false, -- [2]
+					"lightgreen", -- [3]
+				},
+				[133852] = {
+					false, -- [1]
+					false, -- [2]
+					"olivedrab", -- [3]
+				},
+				[134139] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[137486] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[129227] = {
+					false, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[131685] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[134012] = {
+					false, -- [1]
+					false, -- [2]
+					"lightsalmon", -- [3]
+				},
+				[165919] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[134331] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[168153] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[168310] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[166302] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[174210] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[138061] = {
+					false, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[127315] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[125977] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[134174] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[134364] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[168886] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[135258] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[167610] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[168058] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[168949] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[138255] = {
+					false, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[138064] = {
+					false, -- [1]
+					false, -- [2]
+					"blue", -- [3]
+				},
+				[133345] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[129547] = {
+					false, -- [1]
+					false, -- [2]
+					"olivedrab", -- [3]
+				},
+				[136214] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[171181] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[138063] = {
+					false, -- [1]
+					false, -- [2]
+					"blue", -- [3]
+				},
+				[172265] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[163882] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[167994] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[134150] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[137713] = {
+					false, -- [1]
+					false, -- [2]
+					"paleturquoise", -- [3]
+				},
+				[136470] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[164552] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[126918] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[164451] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[167963] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[165222] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[131817] = {
+					false, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[141284] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[163501] = {
+					true, -- [1]
+					false, -- [2]
+					"olivedrab", -- [3]
+				},
+				[171343] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[141285] = {
+					false, -- [1]
+					false, -- [2]
+					"lightgreen", -- [3]
+				},
+				[136249] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[165414] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[126919] = {
+					false, -- [1]
+					false, -- [2]
+					"dodgerblue", -- [3]
+				},
+				[131818] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[166275] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[171376] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[171184] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[131436] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[168443] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[167965] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[164555] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[129788] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[137716] = {
+					false, -- [1]
+					false, -- [2]
+					"blue", -- [3]
+				},
+				[163503] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[167615] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[135007] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[163121] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[168986] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[134338] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[127111] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[135167] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[163058] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[128434] = {
+					false, -- [1]
+					false, -- [2]
+					"palegreen", -- [3]
+				},
+				[135263] = {
+					false, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[167607] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[167967] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[139949] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[132491] = {
+					false, -- [1]
+					false, -- [2]
+					"palegreen", -- [3]
+				},
+				[168318] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[122972] = {
+					false, -- [1]
+					false, -- [2]
+					"lightsalmon", -- [3]
+				},
+				[163621] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[162039] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[168446] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[122984] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[162038] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[168572] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[136186] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[163506] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[128435] = {
+					false, -- [1]
+					false, -- [2]
+					"aqua", -- [3]
+				},
+				[162040] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[166276] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[135329] = {
+					false, -- [1]
+					false, -- [2]
+					"plum", -- [3]
+				},
+				[134144] = {
+					false, -- [1]
+					false, -- [2]
+					"lightgreen", -- [3]
+				},
+				[170838] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[165515] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[130488] = {
+					false, -- [1]
+					false, -- [2]
+					"lightsalmon", -- [3]
+				},
+				[169875] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[122969] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[170480] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[137521] = {
+					false, -- [1]
+					false, -- [2]
+					"cornflowerblue", -- [3]
+				},
+				[165197] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[134629] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[141283] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[138187] = {
+					false, -- [1]
+					false, -- [2]
+					"paleturquoise", -- [3]
+				},
+				[135235] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[133482] = {
+					false, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[129370] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[163891] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[167493] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[174071] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[134990] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[135204] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[167111] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[168418] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[170490] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[168992] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[134599] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[131666] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[131858] = {
+					false, -- [1]
+					false, -- [2]
+					"dodgerblue", -- [3]
+				},
+				[168594] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[164562] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[133912] = {
+					false, -- [1]
+					false, -- [2]
+					"dodgerblue", -- [3]
+				},
+				[130404] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[136353] = {
+					false, -- [1]
+					false, -- [2]
+					"royalblue", -- [3]
+				},
+				[134600] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+				[130435] = {
+					false, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[173360] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[167538] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[164563] = {
+					true, -- [1]
+					false, -- [2]
+					"maroon", -- [3]
+				},
+				[122971] = {
+					false, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[133430] = {
+					false, -- [1]
+					false, -- [2]
+					"cornflowerblue", -- [3]
+				},
+				[163894] = {
+					true, -- [1]
+					false, -- [2]
+					"WARRIOR", -- [3]
+				},
+				[137478] = {
+					false, -- [1]
+					false, -- [2]
+					"lightskyblue", -- [3]
+				},
+				[133835] = {
+					false, -- [1]
+					false, -- [2]
+					"goldenrod", -- [3]
+				},
+				[168580] = {
+					true, -- [1]
+					false, -- [2]
+					"darkcyan", -- [3]
+				},
+				[168357] = {
+					true, -- [1]
+					false, -- [2]
+					"fuchsia", -- [3]
+				},
+				[135239] = {
+					false, -- [1]
+					false, -- [2]
+					"paleturquoise", -- [3]
+				},
+				[134251] = {
+					false, -- [1]
+					false, -- [2]
+					"honeydew", -- [3]
+				},
+				[129602] = {
+					false, -- [1]
+					false, -- [2]
+					"navajowhite", -- [3]
+				},
+				[165076] = {
+					true, -- [1]
+					false, -- [2]
+					"magenta", -- [3]
+				},
+				[135241] = {
+					false, -- [1]
+					false, -- [2]
+					"peru", -- [3]
+				},
+			},
+			["cast_statusbar_spark_half"] = true,
+			["hook_data"] = {
+				{
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Hooks"] = {
+						["Initialization"] = "function (modTable)\n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    modTable.changeBarColor = modTable.config.changeBarColor\n    modTable.changeBorderColor = modTable.config.changeBorderColor\n    modTable.resetColors = modTable.config.resetColors\n    \n    modTable.ListOfNpcs = {\n        [61146] = modTable.config.color, --\"olive\", --monk statue npcID\n        [103822] = modTable.config.color, --\"olive\", --druid treant npcID\n        [15352] = modTable.config.color, --\"olive\", --shaman elemental\n        [95072] = modTable.config.color, --\"olive\", --shaman greater earth elemental npcID\n        [61056] = modTable.config.color, --\"olive\", --shaman primal earth elemental npcID\n        \n    }\nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    if not unitId then\n        return\n    end\n    --get the GUID of the target of the unit\n    local targetGUID = UnitGUID (unitId .. \"target\")\n    \n    if (targetGUID) then\n        \n        --get the npcID of the target\n        local npcID = Plater.GetNpcIDFromGUID (targetGUID)\n        local unitName = UnitName (unitId .. \"target\")\n        local unitNameLower = string.lower (unitName)\n        \n        --check if the npcID of this unit is in the npc list \n        local color = modTable.ListOfNpcs [npcID] or modTable.ListOfNpcs [unitName] or modTable.ListOfNpcs [unitNameLower]\n        \n        if color then\n            if modTable.changeBarColor then\n                Plater.SetNameplateColor (unitFrame, color)\n            end\n            if modTable.changeBorderColor then\n                Plater.SetBorderColor (unitFrame, color)\n            end\n            unitFrame.attackingSpecificUnitFromMod = true\n        elseif unitFrame.attackingSpecificUnitFromMod and modTable.resetColors then\n            if modTable.changeBorderColor then\n                Plater.SetBorderColor (unitFrame)\n            end\n            if modTable.changeBarColor then\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n            unitFrame.attackingSpecificUnitFromMod = false\n        end\n    end\nend",
+					},
+					["Time"] = 1620377377,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+					["url"] = "",
+					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_attacking_unit",
+					["Enabled"] = false,
+					["Revision"] = 363,
+					["semver"] = "",
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Change the nameplate color if the unit is attacking a specific unit like Monk's Ox Statue or Druid's Treants. You may edit which units it track in the constructor script.",
+					["Name"] = "Attacking Specific Unit [Plater]",
+					["PlaterCore"] = 1,
+					["version"] = -1,
+					["LastHookEdited"] = "",
+					["Options"] = {
+						{
+							["Type"] = 1,
+							["Key"] = "color",
+							["Value"] = {
+								0.50196078431373, -- [1]
+								0.50196078431373, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "",
+						}, -- [1]
+						{
+							["Type"] = 4,
+							["Name"] = "Change Bar Color",
+							["Value"] = true,
+							["Key"] = "changeBarColor",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "",
+						}, -- [2]
+						{
+							["Type"] = 4,
+							["Key"] = "changeBorderColor",
+							["Value"] = false,
+							["Name"] = "Change Border Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "",
+						}, -- [3]
+						{
+							["Type"] = 4,
+							["Key"] = "resetColors",
+							["Value"] = true,
+							["Name"] = "Reset Colors",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "",
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["Enabled"] = false,
+					["Revision"] = 95,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Hide neutral units, show when selected, see the constructor script for options.",
+					["Hooks"] = {
+						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end\n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat and InCombatLockdown()) then\n            return\n        end\n        \n        envTable.HideNameplate (unitFrame)\n    end\n    \nend\n\n\n\n\n\n\n",
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat and InCombatLockdown()) then\n            return\n        end\n        \n        --check the unit reaction\n        if (unitFrame.namePlateIsTarget) then\n            envTable.ShowNameplate (unitFrame)\n            \n        else\n            envTable.HideNameplate (unitFrame)\n            \n        end    \n    end\n    \nend\n\n\n\n\n\n\n",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        envTable.ShowNameplate (unitFrame)\n    end\n    \nend\n\n\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --when plater finishes an update on the nameplate\n    --check within the envTable if the healthBar of this nameplate should be hidden\n    if (envTable.IsHidden) then\n        if (unitFrame.healthBar:IsShown()) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\n    \nend\n\n\n\n\n",
+						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.ShowNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.OnlyInOpenWorld = true;\n    envTable.ShowInCombat = true;\n    \n    --consts\n    envTable.REACTION_NEUTRAL = 4;\n    \n    --functions to hide and show the healthBar\n    function envTable.HideNameplate (unitFrame)\n        Plater.HideHealthBar (unitFrame)\n        Plater.DisableHighlight (unitFrame)\n        envTable.IsHidden = true\n    end\n    \n    function envTable.ShowNameplate (unitFrame)\n        Plater.ShowHealthBar (unitFrame)\n        Plater.EnableHighlight (unitFrame)\n        envTable.IsHidden = false\n    end\n    \nend\n\n\n\n\n",
+					},
+					["Name"] = "Hide Neutral Units [Plater]",
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+					["Icon"] = 1990989,
+					["Time"] = 1553450458,
+				}, -- [2]
+				{
+					["Enabled"] = false,
+					["Revision"] = 185,
+					["HooksTemp"] = {
+					},
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Show how many raid members are targeting the unit",
+					["Hooks"] = {
+						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShow = false;\n    envTable.TargetAmount:SetText (\"\")\nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --when a nameplate is added to the screen check if the player is in combat\n    if (InCombatLockdown()) then\n        --player is in combat, check if can check amount of targets\n        envTable.CanShow = envTable.CanShowTargetAmount();\n        \n    else\n        envTable.CanShow = false; \n    end\n    \n    envTable.TargetAmount:SetText (\"\");\n    \nend",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.TargetAmount:SetText (\"\");\n    envTable.CanShow = false;\n    \nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --if the script is allowed to show the amount of targets\n    --also check if the unit is in combat\n    if (envTable.CanShow and UnitAffectingCombat (unitId)) then\n        \n        --check if can update the amount of targets following the cooldown set in the constructor script\n        --by default Plater updates the nameplate every 250ms, by default the cooldown is 2, so it'll update the amuont of target every 1/2 of a second\n        envTable.UpdateCooldown = envTable.UpdateCooldown + 1\n        if (envTable.UpdateCooldown < envTable.UpdateInterval) then\n            return\n        else\n            \n            --reset the cooldown interval to check the amount of target again\n            envTable.UpdateCooldown = 0\n            \n            --get the amount of targets\n            local amount;\n            if (envTable.InRaid) then\n                amount = envTable.NumTargetsInRaid (unitFrame)      \n                \n            elseif (envTable.InParty) then\n                amount = envTable.NumTargetsInParty (unitFrame)   \n                \n            else\n                envTable.TargetAmount:SetText (\"\")\n                return\n            end\n            \n            --update the amount text\n            if (amount == 0) then\n                envTable.TargetAmount:SetText (\"\")\n            else\n                envTable.TargetAmount:SetText (amount)\n            end\n            \n        end\n    end\nend\n\n\n",
+						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if can show the amount of targets\n    envTable.CanShow = envTable.CanShowTargetAmount();\n    \n    if (not envTable.CanShow) then\n        envTable.TargetAmount:SetText (\"\") \n    end\nend\n\n\n\n\n",
+						["Constructor"] = "--all gray text like this are comments and do not run as code\n--build the settings and basic functions for the hook\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --declare setting variables:\n    local textColor = \"orange\";\n    local textSize = 12;\n    \n    local showInRaid = true;\n    local showInDungeon = true;\n    local showInArena = false;\n    local showInBattleground = false;\n    local showInOpenWorld = true;\n    \n    envTable.UpdateInterval = 2; --each 2 updates in the nameplate it'll update the amount of targets\n    \n    local anchor = {\n        side = 6, --1 = topleft 2 = left 3 = bottomleft 4 = bottom 5 = bottom right 6 = right 7 = topright 8 = top\n        x = 4, --x offset\n        y = 0, --y offset\n    };\n    \n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------\n    \n    \n    --frames:\n    \n    --create the text that will show the amount of people targeting the unit\n    if (not  unitFrame.healthBar.TargetAmount) then\n        envTable.TargetAmount = Plater:CreateLabel (unitFrame.healthBar, \"\", textSize, textColor);\n        Plater.SetAnchor (envTable.TargetAmount, anchor);\n        unitFrame.healthBar.TargetAmount = envTable.TargetAmount\n    end\n    \n    --in case Plater wipes the envTable\n    envTable.TargetAmount = unitFrame.healthBar.TargetAmount\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --private variables (they will be used in the other scripts within this hook)\n    envTable.CanShow = false;\n    envTable.UpdateCooldown = 0;\n    envTable.InRaid = false;\n    envTable.InParty = false;\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --functions\n    \n    --update the InRaid or InParty proprieties\n    function envTable.UpdateGroupType()\n        if (IsInRaid()) then\n            envTable.InRaid = true;\n            envTable.InParty = false;     \n            \n        elseif (IsInGroup()) then\n            envTable.InRaid = false;\n            envTable.InParty = true;   \n            \n        else\n            envTable.InRaid = false;            \n            envTable.InParty = false;\n        end\n    end\n    \n    --this function controls if the amount of targets can show following the settings in the top of this script\n    function envTable.CanShowTargetAmount()\n        \n        local _, instanceType, difficultyID, _, _, _, _, instanceMapID, instanceGroupSize = GetInstanceInfo()\n        \n        if (showInRaid and instanceType == \"raid\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInDungeon and instanceType == \"party\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInArena and instanceType == \"arena\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInBattleground and instanceType == \"pvp\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInOpenWorld and instanceType == \"none\") then\n            envTable.UpdateGroupType()\n            if (envTable.InRaid or envTable.InParty) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    --get the amount of player targetting the unit in raid or party\n    function envTable.NumTargetsInRaid (unitFrame)\n        local amount = 0\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        return amount\n    end\n    \n    function envTable.NumTargetsInParty()\n        local amount = 0\n        for i = 1, GetNumGroupMembers() - 1 do\n            local unit = \"party\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        local unit = \"playertarget\"\n        if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n            amount = amount + 1\n        end        \n        \n        return amount\n    end\n    \nend",
+					},
+					["Name"] = "Players Targeting a Target [Plater]",
+					["PlaterCore"] = 1,
+					["LastHookEdited"] = "Constructor",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+					["Icon"] = 1966587,
+					["Time"] = 1551825362,
+				}, -- [3]
+				{
+					["Enabled"] = false,
+					["Revision"] = 94,
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "Izimode-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Changes the target color to the color set in the constructor script.",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend",
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --usage: color name e.g \"red\" \"yellow\"; color table e.g {1, 0, 0} {1, 1, 0}; hex string e.g. \"#FF0000\" \"FFFF00\"\n    \n    envTable.TargetColor = \"purple\"\n    --envTable.TargetColor = \"#FF00FF\"\n    --envTable.TargetColor = {252/255, 0/255, 254/255}\n    \n    function envTable.UpdateColor (unitFrame)\n        --do not change the color of the personal bar\n        if (not unitFrame.IsSelf) then\n            \n            --if this nameplate the current target of the player?\n            if (unitFrame.namePlateIsTarget) then\n                Plater.SetNameplateColor (unitFrame, envTable.TargetColor)  --rgb\n            else\n                --refresh the nameplate color\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n        end\n    end\n    \nend\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Time"] = 1613211428,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+					["HooksTemp"] = {
+					},
+					["Name"] = "Current Target Color [Plater]",
+					["Icon"] = 878211,
+					["PlaterCore"] = 1,
+				}, -- [4]
+				{
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Hooks"] = {
+						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    --constructor is executed only once when any script of the hook runs.\n    \nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if need update the amount of combo points shown\n    if (envTable.LastPlayerTalentUpdate > envTable.LastUpdate) then\n        envTable.UpdateComboPointAmount()\n    end    \n    \n    if (unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.ComboPointFrame:Show()\n        envTable.UpdateComboPoints()\n        \n    else\n        envTable.ComboPointFrame:Hide()\n    end    \n    \nend\n\n\n",
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if this nameplate is the current target\n    if (unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.ComboPointFrame:Show()\n        envTable.UpdateComboPoints()\n    else\n        envTable.ComboPointFrame:Hide()\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Player Power Update"] = "function (self, unitId, unitFrame, envTable, modTable, ...)\n    local powerType = ...\n    \n    if (powerType and powerType == \"COMBO_POINTS\" and unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.UpdateComboPoints()\n    end\n    \n    \nend",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.ComboPointFrame:Hide()\n    \nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.ComboPointFrame:Hide()\n    \nend\n\n\n\n\n",
+						["Player Talent Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    --update the amount of comboo points shown when the player changes talents or specialization\n    envTable.UpdateComboPointAmount()\n    \n    --save the time of the last talent change\n    envTable.LastPlayerTalentUpdate = GetTime()\n    \n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --settings\n    local anchors = {\n        {\"bottom\", unitFrame.healthBar, \"top\", 0, 24},\n    }\n    \n    local sizes = {\n        width = 12,\n        height = 12,\n        scale = 1,\n    }\n    \n    local textures = {\n        backgroundTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n        backgroundTexCoords = {0/128, 21/128, 101/128, 122/128},\n        \n        comboPointTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n        comboPointTexCoords = {3/128, 18/128, 81/128, 96/128},\n    }\n    if WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE then\n        textures = {\n            backgroundTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n            backgroundTexCoords = {78/128, 98/128, 21/64, 41/64},\n            \n            comboPointTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n            comboPointTexCoords = {100/128, 120/128, 21/64, 41/64},\n        }\n    end\n    \n    local frameLevel = 1000\n    local frameStrata = \"high\"    \n    \n    --private\n    do\n        --store combo points frames on this table\n        envTable.ComboPoints = {}\n        --save when the player changed talents or spec\n        envTable.LastPlayerTalentUpdate = GetTime()\n        --save when this nameplate got a combo point amount and alignment update        \n        \n        --build combo points frame anchor (combo point are anchored to this)\n        if (not unitFrame.PlaterComboPointFrame) then\n            local hostFrame = CreateFrame (\"frame\", nil, unitFrame)\n            hostFrame.ComboPointFramesPool = {}\n            unitFrame.PlaterComboPointFrame = hostFrame\n            envTable.ComboPointFrame = hostFrame\n            envTable.ComboPointFrame:SetScale (sizes.scale)\n            \n            --DetailsFramework:ApplyStandardBackdrop (envTable.ComboPointFrame) --debug anchor size\n            \n            --animations\n            local onPlayShowAnimation = function (animation)\n                --stop the hide animation if it's playing\n                if (animation:GetParent():GetParent().HideAnimation:IsPlaying()) then\n                    animation:GetParent():GetParent().HideAnimation:Stop()\n                end\n                \n                animation:GetParent():Show()\n            end\n            \n            local onPlayHideAnimation = function (animation)\n                --stop the show animation if it's playing\n                if (animation:GetParent():GetParent().ShowAnimation:IsPlaying()) then\n                    animation:GetParent():GetParent().ShowAnimation:Stop()\n                end\n            end        \n            local onStopHideAnimation = function (animation)\n                animation:GetParent():Hide()       \n            end\n            \n            local createAnimations = function (comboPoint)\n                --on show\n                comboPoint.ShowAnimation = Plater:CreateAnimationHub (comboPoint.comboPointTexture, onPlayShowAnimation, nil)\n                Plater:CreateAnimation (comboPoint.ShowAnimation, \"scale\", 1, 0.1, 0, 0, 1, 1)\n                Plater:CreateAnimation (comboPoint.ShowAnimation, \"alpha\", 1, 0.1, .5, 1)\n                Plater:CreateAnimation (comboPoint.ShowAnimation, \"scale\", 2, 0.1, 1.2, 1.2, 1, 1)\n                \n                --on hide\n                comboPoint.HideAnimation = Plater:CreateAnimationHub (comboPoint.comboPointTexture, onPlayHideAnimation, onStopHideAnimation)\n                Plater:CreateAnimation (comboPoint.HideAnimation, \"scale\", 1, 0.1, 1, 1, 0, 0)\n                Plater:CreateAnimation (comboPoint.HideAnimation, \"alpha\", 1, 0.1, 1, 0)\n            end\n            \n            --build combo point frame        \n            for i =1, 10 do \n                local f = CreateFrame (\"frame\", nil, envTable.ComboPointFrame)\n                f:SetSize (sizes.width, sizes.height)\n                tinsert (envTable.ComboPoints, f)\n                tinsert (unitFrame.PlaterComboPointFrame.ComboPointFramesPool, f)\n                \n                local backgroundTexture = f:CreateTexture (nil, \"background\")\n                backgroundTexture:SetTexture (textures.backgroundTexture)\n                backgroundTexture:SetTexCoord (unpack (textures.backgroundTexCoords))\n                backgroundTexture:SetSize (sizes.width, sizes.height)\n                backgroundTexture:SetPoint (\"center\")\n                \n                local comboPointTexture = f:CreateTexture (nil, \"artwork\")\n                comboPointTexture:SetTexture (textures.comboPointTexture)\n                comboPointTexture:SetTexCoord (unpack (textures.comboPointTexCoords))\n                \n                comboPointTexture:SetSize (sizes.width, sizes.height)\n                comboPointTexture:SetPoint (\"center\")\n                comboPointTexture:Hide()            \n                \n                f.IsActive = false\n                \n                f.backgroundTexture = backgroundTexture\n                f.comboPointTexture = comboPointTexture\n                \n                createAnimations (f)\n            end\n            \n        else\n            envTable.ComboPointFrame = unitFrame.PlaterComboPointFrame\n            envTable.ComboPointFrame:SetScale (sizes.scale)\n            envTable.ComboPoints = unitFrame.PlaterComboPointFrame.ComboPointFramesPool\n            \n        end            \n        \n        envTable.ComboPointFrame:SetFrameLevel (frameLevel)\n        envTable.ComboPointFrame:SetFrameStrata (frameStrata)\n        \n        function envTable.UpdateComboPoints()\n            local comboPoints = GetComboPoints(\"player\", \"target\")\n            --UnitPower (\"player\", Enum.PowerType.ComboPoints)\n            \n            for i = 1, envTable.TotalComboPoints do\n                local thisComboPoint = envTable.ComboPoints [i]\n                \n                if (i <= comboPoints ) then\n                    --combo point enabled\n                    if (not thisComboPoint.IsActive) then\n                        thisComboPoint.ShowAnimation:Play()\n                        thisComboPoint.IsActive = true\n                        \n                    end\n                    \n                else\n                    --combo point disabled\n                    if (thisComboPoint.IsActive) then\n                        thisComboPoint.HideAnimation:Play()\n                        thisComboPoint.IsActive = false\n                        \n                    end\n                end\n            end\n            \n            \n        end\n        \n        function envTable.UpdateComboPointAmount()\n            local namePlateWidth = Plater.db.profile.plate_config.enemynpc.health_incombat[1]\n            local comboPoints = UnitPowerMax (\"player\", Enum.PowerType.ComboPoints)\n            local reservedSpace = (namePlateWidth - sizes.width * comboPoints)  / comboPoints \n            \n            --store the total amount of combo points\n            envTable.TotalComboPoints = comboPoints\n            \n            --update anchor frame\n            envTable.ComboPointFrame:SetWidth (namePlateWidth)\n            envTable.ComboPointFrame:SetHeight (20)\n            envTable.ComboPointFrame:ClearAllPoints()\n            for i = 1, #anchors do\n                local anchor = anchors[i]\n                envTable.ComboPointFrame:SetPoint (unpack (anchor))\n            end        \n            \n            --\n            for i = 1, #envTable.ComboPoints do\n                envTable.ComboPoints[i]:Hide()\n                envTable.ComboPoints[i]:ClearAllPoints()\n            end\n            \n            for i = 1, comboPoints do\n                local comboPoint = envTable.ComboPoints[i]\n                if i == 1 then\n                    comboPoint:SetPoint (\"left\", envTable.ComboPointFrame, \"left\", reservedSpace/2, 0)\n                else\n                    comboPoint:SetPoint (\"left\", envTable.ComboPoints[i-1], \"right\", reservedSpace, 0)\n                end\n                \n                comboPoint:Show()\n            end\n            \n            envTable.LastUpdate = GetTime()\n            \n            envTable.UpdateComboPoints()\n        end\n        \n        --initialize\n        envTable.UpdateComboPointAmount()\n        envTable.ComboPointFrame:Hide()\n    end\n    \n    \nend",
+					},
+					["Time"] = 1621935143,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+							["Enabled"] = true,
+							["103"] = true,
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+							["Enabled"] = true,
+							["DRUID"] = true,
+							["ROGUE"] = true,
+						},
+					},
+					["url"] = "",
+					["Icon"] = 135426,
+					["Enabled"] = false,
+					["Revision"] = 284,
+					["semver"] = "",
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Show combo points above the nameplate for Druid Feral and Rogues.",
+					["Name"] = "Combo Points [Plater]",
+					["PlaterCore"] = 1,
+					["Options"] = {
+					},
+					["version"] = -1,
+					["HooksTemp"] = {
+					},
+				}, -- [5]
+				{
+					["Enabled"] = false,
+					["Revision"] = 197,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Author"] = "Tecno-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Add another border with more customizations. This border can also be manipulated by other scripts.",
+					["Hooks"] = {
+						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    if (envTable.IsEnabled and unitFrame.ActorType == \"enemyplayer\") then\n        \n        if (unitFrame.IsSelf) then\n            if (envTable.ShowOnPersonalBar) then\n                envTable.BorderFrame:Show()\n            else\n                envTable.BorderFrame:Hide() \n            end\n        else\n            envTable.BorderFrame:Show()\n        end   \n        \n    else\n        envTable.BorderFrame:Hide() \n    end\n    \nend   \n\n\n\n",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BorderFrame:Hide()\n    \nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BorderFrame:Hide()\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border color\n    local borderColor = \"yellow\"\n    \n    --size of the border\n    local borderSize = 1\n    \n    --transparency\n    local borderAlpha = 1\n    \n    --enabled (set to false it you only want to use the extra border in other scripts)\n    local isEnabled = true\n    \n    --export border (allow the border to be used by other scripts)\n    --other scripts can use:\n    --unitFrame.healthBar.extraBorder:Show()\n    --unitFrame.healthBar.extraBorder:SetVertexColor (r, g, b)\n    --unitFrame.healthBar.extraBorder:SetBorderSizes (borderSize)\n    local canExportBorder = true\n    \n    --do not add the border to personal bar\n    local noPersonalBar = true\n    \n    --private\n    do\n        \n        local newBorder = CreateFrame (\"frame\", nil, unitFrame.healthBar, \"NamePlateFullBorderTemplate\")\n        envTable.BorderFrame = newBorder\n        \n        newBorder:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n        newBorder:UpdateSizes()\n        \n        local r, g, b = DetailsFramework:ParseColors (borderColor)\n        newBorder:SetVertexColor (r, g, b, borderAlpha)\n        \n        envTable.ShowOnPersonalBar = not noPersonalBar\n        \n        if (canExportBorder) then\n            unitFrame.healthBar.extraBorder = newBorder\n        end\n        \n        if (not isEnabled) then\n            envTable.IsEnabled = false\n        else\n            envTable.IsEnabled = true\n        end\n    end\n    \nend\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "Extra Border [Plater]",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Time"] = 1613211728,
+					["Icon"] = 133689,
+					["PlaterCore"] = 1,
+				}, -- [6]
+				{
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Hooks"] = {
+						["Nameplate Added"] = "\n\n-- exported function Plater.UpdatePlateSize() from Plater.lua\n--this is for advanced users which wants to reorder the nameplate frame at their desire\n\n\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --check if there's a type of unit on this nameplate\n    local plateFrame = unitFrame:GetParent()\n    if (not plateFrame.actorType) then\n        return\n    end\n    \n    --get all the frames and cache some variables\n    local ACTORTYPE_ENEMY_PLAYER = \"enemyplayer\"\n    local profile = Plater.db.profile\n    local DB_PLATE_CONFIG = profile.plate_config\n    local isInCombat = Plater.IsInCombat()\n    local actorType = plateFrame.actorType\n    \n    local unitFrame = plateFrame.unitFrame\n    local healthBar = unitFrame.healthBar\n    local castBar = unitFrame.castBar\n    local powerBar = unitFrame.powerBar\n    local buffFrame1 = unitFrame.BuffFrame\n    local buffFrame2 = unitFrame.BuffFrame2\n    \n    --use in combat bars when in pvp\n    if (plateFrame.actorType == ACTORTYPE_ENEMY_PLAYER) then\n        if ((Plater.ZoneInstanceType == \"pvp\" or Plater.ZoneInstanceType == \"arena\") and DB_PLATE_CONFIG.player.pvp_always_incombat) then\n            isInCombat = true\n        end\n    end\n    \n    --get the config for this actor type\n    local plateConfigs = DB_PLATE_CONFIG [actorType]\n    --get the config key based if the player is in combat\n    local castBarConfigKey, healthBarConfigKey, manaConfigKey = Plater.GetHashKey (isInCombat)\n    \n    --get the width and height from what the user set in the options panel\n    local healthBarWidth, healthBarHeight = unitFrame.customHealthBarWidth or plateConfigs [healthBarConfigKey][1], unitFrame.customHealthBarHeight or plateConfigs [healthBarConfigKey][2]\n    local castBarWidth, castBarHeight = unitFrame.customCastBarWidth or plateConfigs [castBarConfigKey][1], unitFrame.customCastBarHeight or plateConfigs [castBarConfigKey][2]\n    local powerBarWidth, powerBarHeight = unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][1], unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][2]\n    \n    --calculate the offset for the cast bar, this is done due to the cast bar be anchored to topleft and topright\n    local castBarOffSetX = (healthBarWidth - castBarWidth) / 2\n    local castBarOffSetY = plateConfigs.castbar_offset\n    \n    --calculate offsets for the power bar\n    local powerBarOffSetX = (healthBarWidth - powerBarWidth) / 2\n    local powerBarOffSetY = 0\n    \n    --calculate the size deviation for pets\n    local unitType = Plater.GetUnitType (plateFrame)\n    if (unitType == \"pet\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.pet_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.pet_width_scale\n        \n    elseif (unitType == \"minus\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.minor_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.minor_width_scale\n    end\n    \n    --unit frame - is set to be the same size as the plateFrame\n    unitFrame:ClearAllPoints()\n    unitFrame:SetAllPoints()\n    \n    --calculates the health bar anchor points\n    --it will always be placed in the center of the nameplate area (where it accepts mouse clicks) \n    local xOffSet = (plateFrame:GetWidth() - healthBarWidth) / 2\n    local yOffSet = (plateFrame:GetHeight() - healthBarHeight) / 2\n    \n    --set the health bar point\n    healthBar:ClearAllPoints()\n    PixelUtil.SetPoint (healthBar, \"topleft\", unitFrame, \"topleft\", xOffSet + profile.global_offset_x, -yOffSet + profile.global_offset_y)\n    PixelUtil.SetPoint (healthBar, \"bottomright\", unitFrame, \"bottomright\", -xOffSet + profile.global_offset_x, yOffSet + profile.global_offset_y)\n    \n    --set the cast bar point and size\n    castBar:ClearAllPoints()\n    PixelUtil.SetPoint (castBar, \"topleft\", healthBar, \"bottomleft\", castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetPoint (castBar, \"topright\", healthBar, \"bottomright\", -castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetHeight (castBar, castBarHeight)\n    PixelUtil.SetSize (castBar.Icon, castBarHeight, castBarHeight)\n    PixelUtil.SetSize (castBar.BorderShield, castBarHeight * 1.4, castBarHeight * 1.4)\n    \n    --set the power bar point and size\n    powerBar:ClearAllPoints()\n    PixelUtil.SetPoint (powerBar, \"topleft\", healthBar, \"bottomleft\", powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetPoint (powerBar, \"topright\", healthBar, \"bottomright\", -powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetHeight (powerBar, powerBarHeight)\n    \n    --power bar are hidden by default, show it if there's a custom size for it\n    if (unitFrame.customPowerBarWidth and unitFrame.customPowerBarHeight) then\n        powerBar:SetUnit (unitFrame.unit)\n    end\n    \n    --aura frames\n    local bf1Anchor = Plater.db.profile.aura_frame1_anchor\n    Plater.SetAnchor (buffFrame1, {side = bf1Anchor.side, x = bf1Anchor.x, y = bf1Anchor.y + plateConfigs.buff_frame_y_offset}, unitFrame.healthBar, (Plater.db.profile.aura_grow_direction or 2) == 2)\n    \n    local bf2Anchor = Plater.db.profile.aura_frame2_anchor\n    Plater.SetAnchor (buffFrame2, {side = bf2Anchor.side, x = bf2Anchor.x, y = bf2Anchor.y + plateConfigs.buff_frame_y_offset}, unitFrame.healthBar, (Plater.db.profile.aura2_grow_direction or 2) == 2)\n    \nend\n\n\n",
+					},
+					["Time"] = 1596791840,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["url"] = "",
+					["Icon"] = 574574,
+					["Enabled"] = false,
+					["Revision"] = 93,
+					["Options"] = {
+					},
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Function Plater.UpdatePlateSize from Plater.lua exported to scritps.",
+					["Name"] = "Reorder Nameplate [Plater]",
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["semver"] = "",
+					["version"] = -1,
+				}, -- [7]
+				{
+					["Enabled"] = true,
+					["Revision"] = 108,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
+					},
+					["Author"] = "Kastfall-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Easy way to change the color of an unit. Open the constructor script and follow the examples.",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "Color Automation [Plater]",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["race"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["affix"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Time"] = 1643278701,
+					["Icon"] = -8568,
+					["PlaterCore"] = 1,
+				}, -- [8]
+				{
+					["Enabled"] = false,
+					["Revision"] = 140,
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "Ahwa-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Adds extra effects to execute range and allow to setup two execute ranges for classes with execute when the unit has almost full healh. See the constructor script for options.",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = true\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --second execute range (UseCustomExecutePercent must be enabled)\n    envTable.SecondRangeStart = 0.999\n    envTable.SecondRangeEnd = 0.8\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame, divisorPercent)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * divisorPercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        local percent = healthBar.CurrentHealth / healthBar.CurrentHealthMax\n        \n        if (percent <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.ExecutePercent)\n            envTable.InExecuteRange = true\n            \n        elseif (percent < envTable.SecondRangeStart and percent >= envTable.SecondRangeEnd) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.SecondRangeEnd)\n            envTable.InExecuteRange = true\n            \n        else\n            if (envTable.InExecuteRange) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                Plater.RefreshNameplateColor (unitFrame)\n                Plater.SetBorderColor (unitFrame)\n                envTable.InExecuteRange = false\n            end\n        end\n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame, 0)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "Advanced Execute Range",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["class"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+					["HooksTemp"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        local percent = healthBar.CurrentHealth / healthBar.CurrentHealthMax\n        \n        if (percent <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.ExecutePercent)\n            envTable.InExecuteRange = true\n            \n        elseif (percent < envTable.SecondRangeStart and percent >= envTable.SecondRangeEnd) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.SecondRangeEnd)\n            envTable.InExecuteRange = true\n            \n        else\n            if (envTable.InExecuteRange) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                Plater.RefreshNameplateColor (unitFrame)\n                Plater.SetBorderColor (unitFrame)\n                envTable.InExecuteRange = false\n            end\n        end\n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame, 0)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = true\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --second execute range (UseCustomExecutePercent must be enabled)\n    envTable.SecondRangeStart = 0.999\n    envTable.SecondRangeEnd = 0.8\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame, divisorPercent)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * divisorPercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
+					},
+					["Time"] = 1643278703,
+					["Icon"] = 135358,
+					["PlaterCore"] = 1,
+				}, -- [9]
+				{
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+						["Initialization"] = "function (modTable)\n    \n    --ATTENTION: after enabling this mod, you may have to adjust the anchor point at the Buff Settings tab\n    \n    local sortByTime = false\n    local invertSort = false\n    \n    --which auras goes first, assign a value (any number), bigger value goes first\n    local priority = {\n        [\"Vampiric Touch\"] = 50,\n        [\"Shadow Word: Pain\"] = 22,\n        [\"Mind Flay\"] = 5,\n        [\"Pistol Shot\"] = 50,\n        [\"Marked for Death\"] = 99,\n    }\n    \n    -- Sort function - do not touch\n    Plater.db.profile.aura_sort = true\n    \n    \n    function Plater.AuraIconsSortFunction (aura1, aura2)\n        local p1 = priority[aura1.SpellId] or priority[aura1.SpellName] or 1\n        local p2 = priority[aura2.SpellId] or priority[aura2.SpellName] or 1\n        \n        if sortByTime and p1 == p2 then\n            if invertSort then\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) > (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            else\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) < (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            end\n        else\n            if invertSort then\n                 return p1 < p2\n            else\n                return p1 > p2\n            end\n        end\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Hooks"] = {
+						["Initialization"] = "function (modTable)\n    \n    --ATTENTION: after enabling this mod, you may have to adjust the anchor point at the Buff Settings tab\n    \n    local sortByTime = false\n    local invertSort = false\n    \n    --which auras goes first, assign a value (any number), bigger value goes first\n    local priority = {\n        [\"Vampiric Touch\"] = 50,\n        [\"Shadow Word: Pain\"] = 22,\n        [\"Mind Flay\"] = 5,\n        [\"Pistol Shot\"] = 50,\n        [\"Marked for Death\"] = 99,\n    }\n    \n    -- Sort function - do not touch\n    Plater.db.profile.aura_sort = true\n    \n    \n    function Plater.AuraIconsSortFunction (aura1, aura2)\n        local p1 = priority[aura1.SpellId] or priority[aura1.SpellName] or 1\n        local p2 = priority[aura2.SpellId] or priority[aura2.SpellName] or 1\n        \n        if sortByTime and p1 == p2 then\n            if invertSort then\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) > (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            else\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) < (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            end\n        else\n            if invertSort then\n                 return p1 < p2\n            else\n                return p1 > p2\n            end\n        end\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Time"] = 1643278699,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["url"] = "",
+					["Icon"] = -8591,
+					["Enabled"] = true,
+					["Revision"] = 360,
+					["Options"] = {
+					},
+					["Author"] = "Ditador-Azralon",
+					["Desc"] = "Reorder buffs and debuffs following the settings set in the constructor.",
+					["Prio"] = 99,
+					["Name"] = "Aura Reorder [Plater]",
+					["PlaterCore"] = 1,
+					["version"] = -1,
+					["semver"] = "",
+					["LastHookEdited"] = "",
+				}, -- [10]
+				{
+					["Enabled"] = false,
+					["Revision"] = 236,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Script for the Jaina encounter on Battle for Dazzar'alor",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --Unexploded Ordinance\n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.UnexplodedOrdinance) then\n        \n        --make the life percent be bigger than the regular size\n        --so it's better to see the health percent of the barrel\n        local currentSize = Plater.db.profile.plate_config.enemynpc.percent_text_size\n        Plater:SetFontSize (unitFrame.healthBar.lifePercent, currentSize + envTable.UnexplodedOrdinanceTextSizeIncrease)\n    end\n    \n    if (envTable.IncreaseSize [unitFrame.namePlateNpcId]) then\n        local currentHeight = unitFrame.healthBar:GetHeight()\n        Plater.SetNameplateSize (unitFrame, nil, currentHeight + envTable.IncreaseSize [unitFrame.namePlateNpcId])\n    end\n    \nend\n\n\n\n\n\n\n",
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    if (envTable.UnexplodedOrdinanceCast and envTable._SpellID == envTable.UnexplodedOrdinanceSpellID) then\n        Plater.SetCastBarSize (unitFrame, nil, envTable.UnexplodedOrdinanceCastBarHeight)\n        Plater:SetFontSize (unitFrame.castBar.percentText, envTable.UnexplodedOrdinanceTimerSize)\n    end\nend\n\n\n",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    --reset the health percent text size\n    local currentSize = Plater.db.profile.plate_config.enemynpc.percent_text_size\n    Plater:SetFontSize (unitFrame.healthBar.lifePercent, currentSize)    \n    \nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --Override the color\n    if (envTable.Colors [unitFrame.namePlateNpcId]) then\n        Plater.SetNameplateColor (unitFrame, envTable.Colors [unitFrame.namePlateNpcId])\n    end    \n    \n    --Show the name of the unit in the Ice Block nameplate\n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.IceBlock) then\n        --find which player this block are holding\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i\n            if (UnitExists (unit)) then\n                for debuffId = 1, 40 do\n                    local name, texture, count, debuffType, duration, expirationTime, caster = UnitDebuff (unit, debuffId)\n                    \n                    --cancel the loop if there's no more debuffs on the player\n                    if (not name) then \n                        break \n                    end                    \n                    \n                    --check if who casted this debuff is the unit shown on this nameplate\n                    if (UnitIsUnit (caster or \"\", unitId)) then\n                        local unitName = UnitName (unit)\n                        \n                        --color the text by the class\n                        unitName = Plater.SetTextColorByClass (unit, unitName)\n                        \n                        --add the role icon\n                        if (Details) then\n                            local role = UnitGroupRolesAssigned (unit)\n                            unitName = Details:AddRoleIcon (unitName, role, 12)\n                        end\n                        \n                        unitFrame.unitName:SetText (unitName)\n                        unitFrame.castBar.Text:SetText (unitName)\n                        break\n                    end\n                    \n                end\n            else\n                break\n            end\n        end\n    end\nend",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --nameplate colors for unit\n    envTable.Colors = {}\n    envTable.Colors [148631] = \"orange\" --Unexploded Ordinance\n    envTable.Colors [148522] = \"white\" --Ice Block\n    \n    --increase the nameplate height for these units\n    envTable.IncreaseSize = {}\n    envTable.IncreaseSize [148522] = 4 --Ice Block (increase in 4 pixels)\n    \n    --increase the size of the life percent for the nameplate of the barrel\n    envTable.UnexplodedOrdinanceTextSizeIncrease = 3\n    \n    --increase the castbar size for the unexploded ordinance explosion cast\n    envTable.UnexplodedOrdinanceCast = true\n    envTable.UnexplodedOrdinanceSpellID = 288221 --12058 --(debug)\n    envTable.UnexplodedOrdinanceCastBarHeight = 18\n    envTable.UnexplodedOrdinanceTimerSize = 18\n    \n    --npcIDs\n    envTable.NpcIDs = {}\n    envTable.NpcIDs.UnexplodedOrdinance = 148631\n    envTable.NpcIDs.IceBlock = 148522\nend\n\n--tests 126023 --harbor saurid - dazar'alor harbor\n--tests 3127 venomtail scorpid - durotar\n--tests 12058 dustwind storm witch - durotar\n--Load Condition: EncounterID 2281\n\n\n",
+						["Cast Stop"] = "function (self, unitId, unitFrame, envTable)\n    if (envTable.UnexplodedOrdinanceCast and envTable._SpellID == envTable.UnexplodedOrdinanceSpellID) then\n        Plater.SetCastBarSize (unitFrame)\n        Plater:SetFontSize (unitFrame.castBar.percentText, Plater.db.profile.plate_config.enemynpc.spellpercent_text_size)\n    end\nend\n\n\n",
+					},
+					["Name"] = "Jaina Encounter [Plater]",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+							["1"] = 2281,
+							["Enabled"] = true,
+						},
+						["race"] = {
+						},
+					},
+					["PlaterCore"] = 1,
+					["Time"] = 1551894760,
+					["Icon"] = "Interface\\AddOns\\Plater\\images\\encounter_jaina",
+					["HooksTemp"] = {
+					},
+				}, -- [11]
+				{
+					["Enabled"] = false,
+					["Revision"] = 81,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Script for Stormwall Blockade encounter on Battle for Dazzar'alor",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.TemptingSiren) then\n        \n        if (envTable.NameplateHeight.TemptingSiren) then\n            \n            Plater.SetNameplateSize (unitFrame, nil, envTable.NameplateHeight.TemptingSiren)\n            \n        end\n        \n    end    \n    \nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.TemptingSiren) then\n        \n        if (envTable.Colors.TemptingSiren) then\n            Plater.SetNameplateColor (unitFrame, envTable.Colors.TemptingSiren)\n        end\n        \n    end\n    \n    \nend\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --nameplate colors for unit\n    envTable.Colors = {}\n    envTable.Colors.TemptingSiren = \"orange\"\n    \n    --npcID\n    envTable.NpcIDs = {}\n    envTable.NpcIDs.TemptingSiren = 146436\n    \n    --nameplate height for each unit\n    envTable.NameplateHeight = {}\n    envTable.NameplateHeight.TemptingSiren = 18\n    \n    \n    \nend\n\n\n",
+					},
+					["Name"] = "Stormwall Encounter [Plater]",
+					["PlaterCore"] = 1,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+							["Enabled"] = true,
+							["1"] = 2280,
+						},
+						["spec"] = {
+						},
+					},
+					["Time"] = 1551887545,
+					["Icon"] = "Interface\\AddOns\\Plater\\images\\encounter_stormwall_blockade",
+					["HooksTemp"] = {
+					},
+				}, -- [12]
+				{
+					["Enabled"] = false,
+					["Revision"] = 58,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Herith�gue-Proudmoore",
+					["Desc"] = "Change the border of the focus target.",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateBorder (unitFrame, unitId)\nend\n\n\n",
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateBorder (unitFrame, unitId)\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.BorderThickness = 3\n    envTable.BorderColor = \"black\"\n    \n    --private\n    function envTable.UpdateBorder (unitFrame, unit)\n        local plateFrame = unitFrame:GetParent()\n        \n        if (UnitIsUnit (\"focus\", unit)) then\n            Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            local borderSize = envTable.BorderThickness\n            unitFrame.healthBar.border:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n            unitFrame.healthBar.border:UpdateSizes()        \n            \n        else\n            Plater.SetBorderColor (unitFrame)\n            Plater.UpdatePlateBorderThickness (unitFrame.PlateFrame)\n            unitFrame.healthBar.border:UpdateSizes()\n        end\n    end\nend\n\n\n\n",
+					},
+					["Time"] = 1552962607,
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["race"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["Icon"] = 133006,
+					["Name"] = "Focus Target Border",
+				}, -- [13]
+				{
+					["Enabled"] = false,
+					["Revision"] = 48,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Author"] = "Izimode-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Change the nameplate color when a nameplate does not have the auras set in the constructor script.",
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --do nothing if the player isn't in combat\n    if (not Plater.IsInCombat()) then\n        return \n    end\n    \n    --do nothing if the unit isn't in combat\n    if (not unitFrame.InCombat) then\n        return\n    end\n    \n    --check the auras\n    local hasAura = false\n    \n    for auraName, _ in pairs (envTable.TrackingAuras) do\n        if (Plater.NameplateHasAura (unitFrame, auraName)) then\n            hasAura = true\n            break\n        end\n    end\n    \n    if (not hasAura) then\n        Plater.SetNameplateColor (unitFrame, envTable.NameplateColor)\n    end    \n    \nend\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --Important: lines starting with double dashes are comments and are not part of the script\n    \n    --if the unit does not have any of the following auras, it will be painted with the color listed below\n    --list of spells to track, can be the spell name (case-sensitive) or the spellID\n    envTable.TrackingAuras = {\n        --[\"Nightblade\"] = true, --this is an example using the spell name\n        --[195452] = true, --this is an example using the spellID\n        \n    }\n    \n    --which color the nameplate wil be changed\n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    --you may also use /plater colors\n    envTable.NameplateColor = \"pink\"\n    \nend\n\n\n",
+					},
+					["Prio"] = 99,
+					["Time"] = 1613211434,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["role"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["affix"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Name"] = "Don't Have Aura [Plater]",
+					["Icon"] = 136207,
+					["PlaterCore"] = 1,
+				}, -- [14]
+				{
+					["Enabled"] = false,
+					["Revision"] = 55,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Tint nameplates of Reaping Soul units (Mythic Dungeon Affix) depending on its target and role of the player",
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --can detect the reaping souls aggro?\n    if (envTable.detectAggro and Plater.IsInCombat()) then\n        \n        --is this npc a reaping soul?\n        if (envTable.npcIDs [unitFrame.namePlateNpcId]) then\n            \n            --check if the mob is attacking the player\n            if (UnitIsUnit (unitFrame.targetUnitID, \"player\")) then\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateAggroColor)\n                \n            else\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateNoAggroColor)\n            end\n            \n        end\n        \n    end\n    \nend",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --when the nameplate is added and the npcID matches, cache the color for the nameplate\n    if (envTable.detectAggro) then\n        if (envTable.npcIDs [unitFrame.namePlateNpcId]) then\n            local profile = Plater.db.profile\n            local role = Plater:GetPlayerRole()\n            \n            if (role == \"TANK\") then\n                envTable.NameplateAggroColor = profile.tank.colors.aggro\n                envTable.NameplateNoAggroColor = profile.tank.colors.noaggro\n            else\n                envTable.NameplateAggroColor = profile.dps.colors.aggro\n                envTable.NameplateNoAggroColor = profile.dps.colors.noaggro\n            end\n            \n        end\n    end\n    \n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --npcs affected by this script\n    \n    envTable.npcIDs = {\n        [148716] = true, --risen soul\n        [148893] = true, --tormented soul\n        [148894] = true, --lost soul\n        \n        [127278] = true, --skittering feeder (tests and debug, also need to disable the load conditions)\n    }\n    \n    --detect aggro, if true it will see which group member the soul is attacking and override the color\n    envTable.detectAggro = true\n    \n    \nend\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "M+ Bwonsamdi Reaping",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+							["Enabled"] = true,
+							["party"] = true,
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["race"] = {
+						},
+						["affix"] = {
+							["Enabled"] = true,
+							["117"] = true,
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+					["HooksTemp"] = {
+					},
+					["Time"] = 1579030189,
+					["Icon"] = 2446016,
+					["PlaterCore"] = 1,
+				}, -- [15]
+				{
+					["Enabled"] = false,
+					["Revision"] = 36,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Author"] = "Kastfall-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Show the name of the unit current target ",
+					["Hooks"] = {
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateSpellNameText (unitFrame)\n    \nend\n\n\n",
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateSpellNameText (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --max length of the text\n    envTable.TextMaxLength = 100\n    \n    --update the spell name text\n    function envTable.UpdateSpellNameText (unitFrame)\n        \n        local castBar = unitFrame.castBar\n        local textString = castBar.Text\n        local spellName = castBar.SpellName\n        \n        if (unitFrame.targetUnitID) then\n            local targetName = UnitName (unitFrame.targetUnitID)\n            \n            if (targetName) then\n                textString:SetText (spellName .. \" > \" .. targetName) \n                \n                if (envTable.TextMaxLength) then\n                    Plater.LimitTextSize (textString, envTable.TextMaxLength)\n                end\n                \n            else\n                textString:SetText (spellName)\n            end\n        else\n            textString:SetText (spellName)\n        end\n    end\nend",
+					},
+					["Prio"] = 99,
+					["Time"] = 1620347099,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["role"] = {
+						},
+						["class"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Name"] = "Cast Target",
+					["Icon"] = 413580,
+					["PlaterCore"] = 1,
+				}, -- [16]
+				{
+					["Enabled"] = false,
+					["Revision"] = 43,
+					["HooksTemp"] = {
+					},
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "Only show nameplates while in combat, see the constructor for more options.",
+					["Hooks"] = {
+						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.CheckIfCanShowNameplate (unitFrame)\n    \nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.CheckIfCanShowNameplate (unitFrame)\n    \nend\n\n\n",
+						["Zone Changed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.CheckIfCanShowNameplate (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    function envTable.CheckIfCanShowNameplate (unitFrame)\n        if (Plater.IsInCombat()) then\n            \n            if (not unitFrame.healthBar:IsShown()) then\n                Plater.ShowHealthBar (unitFrame)\n                Plater.EnableHighlight (unitFrame)\n            end\n            \n        else\n            \n            if (unitFrame.healthBar:IsShown()) then\n                Plater.HideHealthBar (unitFrame)\n                Plater.DisableHighlight (unitFrame)\n            end\n            \n        end        \n    end\n    \nend\n\n\n\n\n\n\n\n\n",
+					},
+					["Name"] = "Only in Combat",
+					["PlaterCore"] = 1,
+					["Time"] = 1551825361,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["role"] = {
+						},
+					},
+					["Icon"] = 135473,
+					["LastHookEdited"] = "Constructor",
+				}, -- [17]
+				{
+					["Enabled"] = false,
+					["Revision"] = 35,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Add an exclamation icon on units with color set in the Npc Colors tab with the \"Only Script\" box selected.",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.NpcColorCodeTexture:SetSize (unitFrame.healthBar:GetHeight(), unitFrame.healthBar:GetHeight())\n    \nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    local npcColor = Plater.GetNpcColor (unitFrame)\n    if (npcColor) then\n        unitFrame.NpcColorCodeTexture:SetVertexColor (DetailsFramework:ParseColors (npcColor))\n        unitFrame.NpcColorCodeTexture:SetAlpha (envTable.Alpha)        \n        unitFrame.NpcColorCodeTexture:Show()\n        \n    else\n        unitFrame.NpcColorCodeTexture:Hide()\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.IconTexture = [[Interface\\AddOns\\Plater\\media\\exclamation_64]]\n    envTable.Alpha = 0.8\n    \n    --private\n    if (not unitFrame.NpcColorCodeTexture) then\n        unitFrame.NpcColorCodeTexture = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        unitFrame.NpcColorCodeTexture:SetTexture (envTable.IconTexture)\n        \n        --texture side | anchor to which frame | frame side | x offset | y offset\n        unitFrame.NpcColorCodeTexture:SetPoint (\"right\", unitFrame.healthBar, \"right\", -2, 0)\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Time"] = 1553450716,
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["Icon"] = "Interface\\AddOns\\Plater\\media\\exclamation_64",
+					["Name"] = "Npc Colors Icon",
+				}, -- [18]
+				{
+					["Enabled"] = false,
+					["Revision"] = 68,
+					["HooksTemp"] = {
+					},
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Add a color tag on units with color set in the Npc Colors tab with the \"Only Script\" box selected.",
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateColorTag (unitFrame)   \n    \nend\n\n\n\n\n\n\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateTexture (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.Alpha = 0.75\n    \n    envTable.Anchor = {\n        side = 11, --right side inside the nameplate\n        x = -3,\n        y = 0\n    }\n    \n    --private\n    if (not unitFrame.NpcColorCodeTexture) then\n        unitFrame.NpcColorCodeTexture = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        unitFrame.NpcColorCodeTexture:SetColorTexture (1, 1, 1, 1)\n        \n    end\n    \n    function  envTable.UpdateColorTag (unitFrame)\n        local npcColor = Plater.GetNpcColor (unitFrame)\n        if (npcColor) then\n            unitFrame.NpcColorCodeTexture:SetVertexColor (DetailsFramework:ParseColors (npcColor))\n            unitFrame.NpcColorCodeTexture:SetAlpha (envTable.Alpha)           \n            unitFrame.NpcColorCodeTexture:Show()        \n        end\n    end\n    \n    function  envTable.UpdateTexture (unitFrame)\n        Plater.SetAnchor (unitFrame.NpcColorCodeTexture, envTable.Anchor)\n        unitFrame.NpcColorCodeTexture:SetSize (unitFrame.healthBar:GetHeight() - 4, unitFrame.healthBar:GetHeight() - 4)\n        unitFrame.NpcColorCodeTexture:Hide()\n        \n        envTable.UpdateColorTag (unitFrame)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Name"] = "Npc Colors Tag",
+					["PlaterCore"] = 1,
+					["LastHookEdited"] = "Constructor",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["affix"] = {
+						},
+					},
+					["Icon"] = "Interface\\AddOns\\Plater\\media\\radio_64",
+					["Time"] = 1553450705,
+				}, -- [19]
+				{
+					["Enabled"] = false,
+					["Revision"] = 44,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Author"] = "Ditador-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Change the color of the aura timer by it's time left",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --colors for each time bracket\n    envTable.Colors = {\n        critical = \"red\",\n        warning = \"yellow\",\n        okay = \"white\",\n    }\n    \n    --time amount to enter in warning or critical state\n    envTable.Timers = {\n        critical = 4.9,\n        warning = 8,\n    }\n    \nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    local auras = unitFrame.BuffFrame.PlaterBuffList\n    \n    for _, auraIcon in ipairs (auras) do\n        if (auraIcon:IsVisible()) then\n            if (auraIcon.RemainingTime < envTable.Timers.critical) then\n                Plater:SetFontColor (auraIcon.TimerText, envTable.Colors.critical)\n                \n            elseif (auraIcon.RemainingTime < envTable.Timers.warning) then\n                Plater:SetFontColor (auraIcon.TimerText, envTable.Colors.warning)\n                \n            else\n                Plater:SetFontColor (auraIcon.TimerText, envTable.Colors.okay)\n            end \n        end\n        \n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "Paint Aura Timers",
+					["PlaterCore"] = 1,
+					["LastHookEdited"] = "",
+					["Time"] = 1613211753,
+					["Icon"] = "Interface\\Timer\\Challenges-Logo",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+				}, -- [20]
+				{
+					["Enabled"] = true,
+					["Revision"] = 130,
+					["Options"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "????????-Illidan",
+					["OptionsValues"] = {
+					},
+					["Desc"] = "Config aura borders",
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border thickness\n    local size = 1 \n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()\n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end\n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame2.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()            \n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end    \nend",
+					},
+					["Prio"] = 99,
+					["Name"] = "Advanced Debuff Border",
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border thickness\n    local size = 1 \n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()\n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end\n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame2.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()            \n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end    \nend",
+					},
+					["Time"] = 1643278698,
+					["Icon"] = 133006,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+				}, -- [21]
+				{
+					["Enabled"] = false,
+					["Revision"] = 35,
+					["HooksTemp"] = {
+					},
+					["Author"] = "�r��ne-Kel'thuzad",
+					["Desc"] = "Show yellow star for elite; Silver star for rares",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame, unitId)\n    \nend\n\n\n\n\n\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame, unitId)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    function envTable.UpdateIndicator (unitFrame, unitId)\n        local unitClassification = UnitClassification (unitId)\n        local unitName = UnitName (unitId)\n        unitName = unitName or UNKNOWN\n        \n        if (unitClassification == \"rareelite\") then\n            unitFrame.unitName:SetText (\"|TInterface\\\\AddOns\\\\Plater\\\\media\\\\star_full_64:12:12:0:0:64:64:0:64:0:64|t\" .. \"|TInterface\\\\GLUES\\\\CharacterSelect\\\\Glues-AddOn-Icons:12:12:0:0:64:16:48:64:0:16|t \" .. unitName)\n            \n        elseif (unitClassification == \"rare\") then\n            unitFrame.unitName:SetText (\"|TInterface\\\\AddOns\\\\Plater\\\\media\\\\star_full_64:12:12:0:0:64:64:0:64:0:64|t\" .. unitName)\n            \n        elseif (unitClassification == \"elite\") then\n            unitFrame.unitName:SetText (\"|TInterface\\\\GLUES\\\\CharacterSelect\\\\Glues-AddOn-Icons:12:12:0:0:64:16:48:64:0:16|t\" .. unitName)\n            \n        end\n    end\n    \nend\n\n\n\n\n",
+					},
+					["Time"] = 1551825364,
+					["PlaterCore"] = 1,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["class"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+					["LastHookEdited"] = "Constructor",
+					["Icon"] = "Interface\\AddOns\\Plater\\media\\star_full_64",
+					["Name"] = "Rarity in the Name",
+				}, -- [22]
+				{
+					["Enabled"] = true,
+					["Revision"] = 73,
+					["Options"] = {
+					},
+					["HooksTemp"] = {
+						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame)\n    \nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateThreatState (unitFrame, unitId)\n    \nend\n\n\n",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end    \nend\n\n\n",
+						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.Anchor = {side = 11, x = -2, y = 0}\n    envTable.Texture = \"Interface\\\\AddOns\\\\Plater\\\\media\\\\exclamation2_64\"\n    \n    --it'll only use the icon if the nameplate has a color from the Npc Colors tab and \"Only Scripts\" disabled.\n    envTable.OnlyWhenUsingNpcColor = true --if false, it'll always use the icon\n    \n    --private\n    envTable.PlayerRole = \"NONE\" --automatically changed by the script\n    \n    function envTable.CreateIndicator (unitFrame)\n        if (not unitFrame.ThreatIcon) then\n            unitFrame.ThreatIcon = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        end\n    end\n    \n    function envTable.UpdateIndicator (unitFrame)\n        envTable.CreateIndicator (unitFrame)\n        \n        unitFrame.ThreatIcon:SetTexture (envTable.Texture)\n        Plater.SetAnchor (unitFrame.ThreatIcon, envTable.Anchor)\n        unitFrame.ThreatIcon:SetSize (unitFrame.healthBar:GetHeight(), unitFrame.healthBar:GetHeight())\n    end\n    \n    function envTable.UpdateThreatState (unitFrame, unitId)\n        if (not unitFrame.ThreatIcon) then --if there's no icon created yet\n            return\n            \n        elseif (not Plater.IsInCombat()) then --not in combat\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (unitFrame.IsSelf) then --personal bar\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (envTable.OnlyWhenUsingNpcColor) then --must be using a npc color?\n            if (not unitFrame.UsingCustomColor) then\n                unitFrame.ThreatIcon:Hide()\n                return\n            end\n        end\n        \n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation (\"player\", unitId)\n        \n        if (isTanking) then\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Hide()\n            else\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateAggroColor))\n            end\n        else\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateNoAggroColor))                \n            else\n                unitFrame.ThreatIcon:Hide()                \n            end\n        end\n    end\n    \n    function envTable.UpdatePlayerRole (unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            envTable.NameplateAggroColor = profile.tank.colors.aggro\n            envTable.NameplateNoAggroColor = profile.tank.colors.noaggro\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n            envTable.NameplateAggroColor = profile.dps.colors.aggro\n            envTable.NameplateNoAggroColor = profile.dps.colors.noaggro\n            \n        end        \n    end\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend",
+					},
+					["Author"] = "Cyclopes-Turalyon",
+					["OptionsValues"] = {
+					},
+					["Desc"] = "Add an icon to indicate an unit has Aggro on you. By default only show for units using a custom color from Npc Colors.",
+					["Hooks"] = {
+						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame)\n    \nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end    \nend\n\n\n",
+						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateThreatState (unitFrame, unitId)\n    \nend\n\n\n",
+						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.Anchor = {side = 11, x = -2, y = 0}\n    envTable.Texture = \"Interface\\\\AddOns\\\\Plater\\\\media\\\\exclamation2_64\"\n    \n    --it'll only use the icon if the nameplate has a color from the Npc Colors tab and \"Only Scripts\" disabled.\n    envTable.OnlyWhenUsingNpcColor = true --if false, it'll always use the icon\n    \n    --private\n    envTable.PlayerRole = \"NONE\" --automatically changed by the script\n    \n    function envTable.CreateIndicator (unitFrame)\n        if (not unitFrame.ThreatIcon) then\n            unitFrame.ThreatIcon = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        end\n    end\n    \n    function envTable.UpdateIndicator (unitFrame)\n        envTable.CreateIndicator (unitFrame)\n        \n        unitFrame.ThreatIcon:SetTexture (envTable.Texture)\n        Plater.SetAnchor (unitFrame.ThreatIcon, envTable.Anchor)\n        unitFrame.ThreatIcon:SetSize (unitFrame.healthBar:GetHeight(), unitFrame.healthBar:GetHeight())\n    end\n    \n    function envTable.UpdateThreatState (unitFrame, unitId)\n        if (not unitFrame.ThreatIcon) then --if there's no icon created yet\n            return\n            \n        elseif (not Plater.IsInCombat()) then --not in combat\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (unitFrame.IsSelf) then --personal bar\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (envTable.OnlyWhenUsingNpcColor) then --must be using a npc color?\n            if (not unitFrame.UsingCustomColor) then\n                unitFrame.ThreatIcon:Hide()\n                return\n            end\n        end\n        \n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation (\"player\", unitId)\n        \n        if (isTanking) then\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Hide()\n            else\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateAggroColor))\n            end\n        else\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateNoAggroColor))                \n            else\n                unitFrame.ThreatIcon:Hide()                \n            end\n        end\n    end\n    \n    function envTable.UpdatePlayerRole (unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            envTable.NameplateAggroColor = profile.tank.colors.aggro\n            envTable.NameplateNoAggroColor = profile.tank.colors.noaggro\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n            envTable.NameplateAggroColor = profile.dps.colors.aggro\n            envTable.NameplateNoAggroColor = profile.dps.colors.noaggro\n            \n        end        \n    end\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend",
+					},
+					["Prio"] = 99,
+					["Time"] = 1643278699,
+					["PlaterCore"] = 1,
+					["LastHookEdited"] = "",
+					["Name"] = "Aggro Indicator",
+					["Icon"] = 132344,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["class"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["role"] = {
+						},
+					},
+				}, -- [23]
+				{
+					["Enabled"] = false,
+					["Revision"] = 20,
+					["HooksTemp"] = {
+					},
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Edit the Constructor script setting the font you want in the FONT = \"\", then /reload.",
+					["Hooks"] = {
+						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --added this event just to run the constructor script\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --insert here the font you want to change then /reeload\n    --after the reload, check if the font has changed and disable this script\n    \n    local FONT = \"Accidental Presidency\"\n    \n    local profile = Plater.db.profile\n    local actorTables = profile.plate_config\n    \n    for plateType, plateTable in pairs (actorTables) do\n        \n        plateTable.actorname_text_font = FONT\n        plateTable.spellname_text_font = FONT\n        plateTable.spellpercent_text_font = FONT\n        plateTable.level_text_font = FONT\n        plateTable.percent_text_font = FONT\n        plateTable.big_actortitle_text_font = FONT\n        plateTable.big_actorname_text_font = FONT\n        plateTable.power_percent_text_font = FONT\n        \n    end\n    \n    profile.castbar_target_font = FONT\n    profile.aura_timer_text_font = FONT    \n    profile.aura_stack_font = FONT    \n    \nend\n\n\n",
+					},
+					["Time"] = 1551825316,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["race"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+					["Name"] = "Change All Fonts",
+					["LastHookEdited"] = "Constructor",
+					["Icon"] = 134331,
+					["PlaterCore"] = 1,
+				}, -- [24]
+				{
+					["Enabled"] = false,
+					["Revision"] = 50,
+					["LastHookEdited"] = "Constructor",
+					["Author"] = "Izimode-Azralon",
+					["Desc"] = "Show the power bar for specific units",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.PowerBarAnchor = {side = 4, x = 0, y = -10}\n    \n    function envTable.UpdatePowerBar (unitFrame)\n        unitFrame.powerBar:SetUnit (unitFrame.unit)\n        Plater.SetAnchor (unitFrame.powerBar, envTable.PowerBarAnchor)\n        \n    end\n    \nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (Plater.ZoneInstanceType == \"arena\") then\n        \n        local arenaEnemies = GetNumArenaOpponentSpecs()\n        local found = false\n        for i = 1, arenaEnemies do\n            local guid = UnitGUID (\"arena\" .. i)\n            print (guid)\n            if (guid == unitFrame.namePlateUnitGUID) then\n                \n                local spec = GetArenaOpponentSpec (i)\n                print (spec)\n                if (spec) then\n                    local id, name, description, icon, role, class = GetSpecializationInfoByID (spec)\n                    print (name)\n                    if (role == \"HEALER\") then\n                        envTable.UpdatePowerBar (unitFrame)\n                    end\n                    print (role)\n                end\n                \n                break\n            end\n        end\n        \n        return\n    end\n    \n    --show for enemy players\n    if (unitFrame.ActorType == \"enemyplayer\") then\n        envTable.UpdatePowerBar (unitFrame)\n        return\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+					["Name"] = "Power Bar",
+					["PlaterCore"] = 1,
+					["Time"] = 1553450521,
+					["HooksTemp"] = {
+					},
+					["Icon"] = 1375677,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+				}, -- [25]
+				{
+					["Enabled"] = false,
+					["Revision"] = 140,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Author"] = "Ditador-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
+					["Hooks"] = {
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    self.ThrottleUpdate = -1\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings:\n    --show cast icon\n    envTable.ShowIcon = true\n    --anchor icon on what side\n    envTable.IconAnchor = \"left\" --accep 'left' 'right'\n    --fine tune the size of the icon\n    envTable.IconSizeOffset = 1\n    \n    --shield for non interruptible casts\n    envTable.ShowShield = false\n    envTable.ShieldTexture = [[Interface\\GROUPFRAME\\UI-GROUP-MAINTANKICON]]\n    envTable.ShieldDesaturated = true\n    envTable.ShieldColor = {1, 1, 1 ,1}\n    envTable.ShieldSize = {10, 12}\n    \n    --private:\n    function envTable.UpdateIconPosition (unitFrame)\n        local castBar = unitFrame.castBar\n        local icon = castBar.Icon\n        local shield = castBar.BorderShield\n        \n        if (envTable.ShowIcon) then\n            icon:ClearAllPoints()\n            \n            if (envTable.IconAnchor == \"left\") then\n                icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", -1, envTable.IconSizeOffset)\n                icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", -1, 0)    \n                \n            elseif (envTable.IconAnchor == \"right\") then\n                icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", 1, envTable.IconSizeOffset)\n                icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", 1, 0)\n                \n            end\n            \n            icon:SetWidth (icon:GetHeight())\n            icon:Show()\n            \n        else\n            icon:Hide()\n            \n        end\n        \n        if (envTable.ShowShield and not castBar.canInterrupt) then\n            shield:Show()\n            shield:SetAlpha (1)\n            shield:SetTexCoord (0, 1, 0, 1)\n            shield:SetVertexColor (1, 1, 1, 1)\n            \n            shield:SetTexture (envTable.ShieldTexture)\n            shield:SetDesaturated (envTable.ShieldDesaturated)\n            \n            if (not envTable.ShieldDesaturated) then\n                shield:SetVertexColor (DetailsFramework:ParseColors (envTable.ShieldColor))\n            end\n            \n            shield:SetSize (unpack (envTable.ShieldSize))\n            \n            shield:ClearAllPoints()\n            shield:SetPoint (\"center\", castBar, \"left\", 0, 0)\n            \n        else\n            shield:Hide()\n            \n        end\n        \n    end\nend",
+					},
+					["Prio"] = 99,
+					["Name"] = "Cast Icon Anchor",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Time"] = 1620346604,
+					["Icon"] = "Interface\\Buttons\\UI-Quickslot2",
+					["PlaterCore"] = 1,
+				}, -- [26]
+				{
+					["Enabled"] = false,
+					["Revision"] = 65,
+					["Options"] = {
+					},
+					["HooksTemp"] = {
+					},
+					["Author"] = "Izimode-Azralon",
+					["OptionsValues"] = {
+					},
+					["Desc"] = "Adds a pixels perfect border around the cast bar spell icon.",
+					["Hooks"] = {
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BuildFrames (unitFrame)\n    \nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.castBar.IconOverlayFrame) then\n        unitFrame.castBar.IconOverlayFrame:Hide()\n    end\n    \nend\n\n\n\n\n",
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BuildFrames (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.AnchorSide = \"left\"\n    envTable.BorderThickness = 1\n    envTable.BorderColor = \"black\"\n    \n    --private\n    function envTable.BuildFrames (unitFrame)\n        local castBar = unitFrame.castBar\n        \n        local r, g, b, a = DetailsFramework:ParseColors (envTable.BorderColor)\n        castBar.IconBorder:SetVertexColor (r, g, b, a)\n        \n        local size = envTable.BorderThickness\n        castBar.IconBorder:SetBorderSizes (size, size, size, size)\n        castBar.IconBorder:UpdateSizes()\n        \n        local icon = castBar.Icon\n        if (envTable.AnchorSide == \"left\") then\n            icon:ClearAllPoints()\n            icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", -1, 0)\n            icon:SetPoint (\"bottomright\", castBar, \"bottomleft\", -1, 0)\n            icon:SetWidth (icon:GetHeight())\n            \n        elseif (envTable.AnchorSide == \"right\") then\n            icon:ClearAllPoints()\n            icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", 1, 0)\n            icon:SetPoint (\"bottomleft\", castBar, \"bottomright\", 1, 0)\n            icon:SetWidth (icon:GetHeight())\n            \n        end\n        \n        icon:Show()\n        castBar.IconOverlayFrame:Show()\n    end\n    \n    if (not unitFrame.castBar.IconOverlayFrame) then\n        --icon support frame\n        unitFrame.castBar.IconOverlayFrame = CreateFrame (\"frame\", nil, unitFrame.castBar)\n        unitFrame.castBar.IconOverlayFrame:SetPoint (\"topleft\", unitFrame.castBar.Icon, \"topleft\")\n        unitFrame.castBar.IconOverlayFrame:SetPoint (\"bottomright\", unitFrame.castBar.Icon, \"bottomright\")\n        \n        unitFrame.castBar.IconBorder = CreateFrame (\"frame\", nil,  unitFrame.castBar.IconOverlayFrame, \"NamePlateFullBorderTemplate\")\n    end    \n    \nend\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Time"] = 1620346604,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Name"] = "Cast Icon Border",
+					["Icon"] = 133004,
+					["PlaterCore"] = 1,
+				}, -- [27]
+				{
+					["Enabled"] = true,
+					["Revision"] = 93,
+					["Options"] = {
+					},
+					["HooksTemp"] = {
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder:Hide()\n    end    \nend",
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    \n    --hide the icon of the spell, may require /reload after changing\n    envTable.HideIcon = false\n    \n    --border settings\n    envTable.BorderThickness = 1\n    envTable.BorderColor = \"black\"\n    \n    --private\n    --create the border\n    if (not unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder = CreateFrame (\"frame\", nil, unitFrame.castBar, \"NamePlateFullBorderTemplate\")\n    end    \n    \n    --update the border\n    function envTable.UpdateBorder (unitFrame)\n        local castBar = unitFrame.castBar\n        \n        local r, g, b, a = DetailsFramework:ParseColors (envTable.BorderColor)\n        castBar.CastBarBorder:SetVertexColor (r, g, b, a)\n        \n        local size = envTable.BorderThickness\n        castBar.CastBarBorder:SetBorderSizes (size, size, size, size)\n        castBar.CastBarBorder:UpdateSizes()        \n        \n        if (envTable.HideIcon) then\n            castBar.Icon:Hide()\n        end\n        \n        castBar.CastBarBorder:Show()\n    end\n    \nend\n\n\n\n\n",
+					},
+					["Author"] = "Izimode-Azralon",
+					["OptionsValues"] = {
+					},
+					["Desc"] = "Adds a pixels perfect border around the cast bar.",
+					["Hooks"] = {
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
+						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder:Hide()\n    end    \nend",
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    \n    --hide the icon of the spell, may require /reload after changing\n    envTable.HideIcon = false\n    \n    --border settings\n    envTable.BorderThickness = 1\n    envTable.BorderColor = \"black\"\n    \n    --private\n    --create the border\n    if (not unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder = CreateFrame (\"frame\", nil, unitFrame.castBar, \"NamePlateFullBorderTemplate\")\n    end    \n    \n    --update the border\n    function envTable.UpdateBorder (unitFrame)\n        local castBar = unitFrame.castBar\n        \n        local r, g, b, a = DetailsFramework:ParseColors (envTable.BorderColor)\n        castBar.CastBarBorder:SetVertexColor (r, g, b, a)\n        \n        local size = envTable.BorderThickness\n        castBar.CastBarBorder:SetBorderSizes (size, size, size, size)\n        castBar.CastBarBorder:UpdateSizes()        \n        \n        if (envTable.HideIcon) then\n            castBar.Icon:Hide()\n        end\n        \n        castBar.CastBarBorder:Show()\n    end\n    \nend\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "Cast Bar Border",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["race"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Time"] = 1643278700,
+					["Icon"] = 133004,
+					["PlaterCore"] = 1,
+				}, -- [28]
+				{
+					["Enabled"] = false,
+					["Revision"] = 46,
+					["Options"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "????????-Illidan",
+					["OptionsValues"] = {
+					},
+					["Desc"] = "Debuff timer show decimal values",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --minimum time left to take effect\n    envTable.MinTime = 9.999\n    \nend",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    for index, auraIcon in ipairs (unitFrame.BuffFrame.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            if (auraIcon.RemainingTime < envTable.MinTime) then\n                auraIcon.TimerText:SetText (format (\"%.1f\", auraIcon.RemainingTime))\n            end\n        end\n    end\n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame2.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            if (auraIcon.RemainingTime < envTable.MinTime) then            \n                auraIcon.TimerText:SetText (format (\"%.1f\", auraIcon.RemainingTime))\n            end\n        end        \n    end    \nend",
+					},
+					["Prio"] = 99,
+					["Name"] = "Decimal Debuff Timer",
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["Time"] = 1613211431,
+					["Icon"] = 609811,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+				}, -- [29]
+				{
+					["Enabled"] = true,
+					["Revision"] = 86,
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "?????-Illidan",
+					["Options"] = {
+					},
+					["Desc"] = "Format Buff Special icons like the regular aura icons.",
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --    if false then return end\n    \n    for _, iconFrame in ipairs (unitFrame.ExtraIconFrame.IconPool) do\n        \n        unitFrame.ExtraIconFrame.options.show_text = true\n        \n        local profile = Plater.db.profile\n        \n        Plater.SetAnchor (iconFrame.CountdownText, profile.aura_timer_text_anchor)\n        Plater:SetFontSize (iconFrame.CountdownText, profile.aura_timer_text_size)\n        Plater:SetFontFace (iconFrame.CountdownText, profile.aura_timer_text_font)\n        \n        Plater.SetFontOutlineAndShadow (iconFrame.CountdownText, profile.aura_timer_text_outline, profile.aura_timer_text_shadow_color, profile.aura_timer_text_shadow_color_offset[1], profile.aura_timer_text_shadow_color_offset[2])\n        \n        iconFrame.Cooldown:SetEdgeTexture (profile.aura_cooldown_edge_texture)\n        iconFrame.Cooldown:SetReverse (profile.aura_cooldown_reverse)\n        iconFrame.Cooldown:SetDrawSwipe (profile.aura_cooldown_show_swipe)        \n        \n    end\n    \nend",
+					},
+					["Prio"] = 99,
+					["Name"] = "Buff Special Mod",
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --    if false then return end\n    \n    for _, iconFrame in ipairs (unitFrame.ExtraIconFrame.IconPool) do\n        \n        unitFrame.ExtraIconFrame.options.show_text = true\n        \n        local profile = Plater.db.profile\n        \n        Plater.SetAnchor (iconFrame.CountdownText, profile.aura_timer_text_anchor)\n        Plater:SetFontSize (iconFrame.CountdownText, profile.aura_timer_text_size)\n        Plater:SetFontFace (iconFrame.CountdownText, profile.aura_timer_text_font)\n        \n        Plater.SetFontOutlineAndShadow (iconFrame.CountdownText, profile.aura_timer_text_outline, profile.aura_timer_text_shadow_color, profile.aura_timer_text_shadow_color_offset[1], profile.aura_timer_text_shadow_color_offset[2])\n        \n        iconFrame.Cooldown:SetEdgeTexture (profile.aura_cooldown_edge_texture)\n        iconFrame.Cooldown:SetReverse (profile.aura_cooldown_reverse)\n        iconFrame.Cooldown:SetDrawSwipe (profile.aura_cooldown_show_swipe)        \n        \n    end\n    \nend",
+					},
+					["Time"] = 1643278700,
+					["Icon"] = 136139,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["race"] = {
+						},
+					},
+				}, -- [30]
+				{
+					["Enabled"] = false,
+					["Revision"] = 32,
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+						["Player Talent Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    --after editing this script, save it and /reload\n    \n    --adds two target indicators in arrow format\n    --to change the texture you may replace the path with another texture path\n    --or you can copy and paste more options here\n    \n    Plater.TargetIndicators    [\"SmallArrow\"] = {\n        path = [[Interface\\MONEYFRAME\\Arrow-Right-Up]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 12,\n        height = 12,\n        x = 8,\n        y = 0,\n        blend = \"ADD\",\n    }\n    \n    Plater.TargetIndicators    [\"BigArrow\"] = {\n        path = [[Interface\\AddOns\\Plater\\media\\arrow_right_64]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 18,\n        height = 16,\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        color = \"yellow\",\n    }\n    \n    \n    \nend\n\n\n",
+					},
+					["Author"] = "Izimode-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Adds two arrows into the target indicators options.",
+					["Hooks"] = {
+						["Player Talent Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    --after editing this script, save it and /reload\n    \n    --adds two target indicators in arrow format\n    --to change the texture you may replace the path with another texture path\n    --or you can copy and paste more options here\n    \n    Plater.TargetIndicators    [\"SmallArrow\"] = {\n        path = [[Interface\\MONEYFRAME\\Arrow-Right-Up]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 12,\n        height = 12,\n        x = 8,\n        y = 0,\n        blend = \"ADD\",\n    }\n    \n    Plater.TargetIndicators    [\"BigArrow\"] = {\n        path = [[Interface\\AddOns\\Plater\\media\\arrow_right_64]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 18,\n        height = 16,\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        color = \"yellow\",\n    }\n    \n    \n    \nend\n\n\n",
+					},
+					["Prio"] = 99,
+					["Time"] = 1643278854,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Name"] = "Arrow Target Indicators",
+					["Icon"] = "Interface\\AddOns\\Plater\\media\\arrow_right_64",
+					["PlaterCore"] = 1,
+				}, -- [31]
+				{
+					["Enabled"] = true,
+					["Revision"] = 14,
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "Ditador-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Set the unit name to be above the target shading texture.",
+					["Hooks"] = {
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    unitFrame.unitName:SetDrawLayer (\"overlay\", 7)\nend\n\n\n\n\n\n\n\n\n",
+					},
+					["Prio"] = 99,
+					["Time"] = 1643278702,
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    unitFrame.unitName:SetDrawLayer (\"overlay\", 7)\nend\n\n\n\n\n\n\n\n\n",
+					},
+					["Name"] = "Unit Name Over Target Shading",
+					["Icon"] = 237377,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["race"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["affix"] = {
+						},
+					},
+				}, -- [32]
+				{
+					["Enabled"] = false,
+					["Revision"] = 26,
+					["Options"] = {
+					},
+					["HooksTemp"] = {
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
+					},
+					["Author"] = "Ditador-Azralon",
+					["OptionsValues"] = {
+					},
+					["Desc"] = "Set the spark height to the same size of the cast bar.",
+					["Hooks"] = {
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
+					},
+					["Prio"] = 99,
+					["Name"] = "Adjust Spark Size",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["role"] = {
+						},
+					},
+					["LastHookEdited"] = "",
+					["Time"] = 1643278702,
+					["Icon"] = -8630,
+					["PlaterCore"] = 1,
+				}, -- [33]
+				{
+					["Enabled"] = false,
+					["Revision"] = 71,
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Author"] = "Izimode-Azralon",
+					["Options"] = {
+					},
+					["Desc"] = "Show power bar for some units.",
+					["Hooks"] = {
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --power bar options:\n    \n    --for which units it should\n    envTable.ShowForEnemyPlayers = true\n    envTable.ShowForEnemyNpcs = false\n    \n    --specific npcs, can be the npc name or npcId\n    --this list work even if the ShowForEnemyNpcs is false\n    envTable.SpecificNpcs = {\n        [\"the rock\"] = true, --npc name\n        [225] = true, --npcId\n    }\n    \n    --anchor the power bar to\n    envTable.Anchor = {\n        side = 13, --inside the healthbar, bottom side\n        x = 0, \n        y = 0,\n    }\n    \n    --power bar height\n    envTable.Height = 1\n    \n    --power bar percent text\n    envTable.PercentTextEnabled = false\n    envTable.PercentTextAnchor = {\n        side = 7, --top right\n        x = 2, \n        y = 0,\n    }\n    \n    \n    --private\n    function envTable.ShowPowerbar (unitFrame)\n        unitFrame.powerBar:SetUnit (unitFrame.unit)\n        envTable.UpdatePowerbar (unitFrame)\n    end\n    \n    function envTable.UpdatePowerbar (unitFrame)\n        local powerBar = unitFrame.powerBar\n        Plater.SetAnchor (powerBar, envTable.Anchor, unitFrame.healthBar)\n        powerBar:SetSize (unitFrame.healthBar:GetWidth(), envTable.Height)\n        \n        envTable.SavePowerBarSize (unitFrame, envTable.Height)\n        \n        if (envTable.PercentTextEnabled) then\n            powerBar.percentText:Show()\n            --copy the font from the health percent\n            Plater:SetFontFace (powerBar.percentText, Plater.GetConfig (unitFrame).percent_text_font)\n            Plater:SetFontSize (powerBar.percentText, Plater.GetConfig (unitFrame).percent_text_size)\n            Plater.SetAnchor (powerBar.percentText, envTable.PercentTextAnchor)\n        else\n            powerBar.percentText:Hide()\n        end\n    end\n    \n    function envTable.CanShowPowerBarForUnit (unitFrame)\n        --check if the is in the special list to force show\n        local forceShowPowerBar = envTable.SpecificNpcs [unitFrame.namePlateNpcId] or envTable.SpecificNpcs [unitFrame.namePlateUnitName] or envTable.SpecificNpcs [unitFrame.namePlateUnitNameLower]\n        if (forceShowPowerBar) then\n            envTable.ShowPowerbar (unitFrame)\n            \n            --check if the unit is a enemy player\n        elseif (unitFrame.ActorType == \"enemyplayer\") then\n            if (envTable.ShowForEnemyPlayers) then\n                envTable.ShowPowerbar (unitFrame)\n            end\n            \n            --check if the unit is a enemy npc\n        elseif (unitFrame.ActorType == \"enemynpc\") then\n            if (envTable.ShowForEnemyNpcs) then\n                envTable.ShowPowerbar (unitFrame)\n            end\n        end\n    end\n    \n    function envTable.SavePowerBarSize (unitFrame, height)\n        local plateConfigs = Plater.db.profile.plate_config [unitFrame.ActorType]\n        plateConfigs.mana[1] = plateConfigs.health[1]\n        plateConfigs.mana[2] = height\n        plateConfigs.mana_incombat[1] = plateConfigs.health_incombat[1]\n        plateConfigs.mana_incombat[2] = height\n    end\nend\n\n\n\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShowPowerBarForUnit (unitFrame)    \nend",
+					},
+					["Prio"] = 99,
+					["Time"] = 1620346758,
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["Name"] = "Power Bar",
+					["Icon"] = "Interface/Addons/Plater/Media/fire_64",
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["role"] = {
+						},
+						["class"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+				}, -- [34]
+				{
+					["OptionsValues"] = {
+						["iconOnLeftSide"] = false,
+						["showIcon"] = false,
+						["useFullSize"] = false,
+					},
+					["HooksTemp"] = {
+					},
+					["Hooks"] = {
+						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    self.ThrottleUpdate = -1\n    \nend\n\n\n",
+						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.castBar.BorderShield:SetDrawLayer(\"artwork\")\n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    --private:\n    function envTable.UpdateIconPosition (unitFrame)\n        local castBar = unitFrame.castBar\n        local icon = castBar.Icon\n        local noInterruptTexture = castBar.BorderShield\n        \n        if (modTable.config.showIcon) then\n            icon:ClearAllPoints()\n            \n            if (modTable.config.iconOnLeftSide) then\n                if (modTable.config.useFullSize) then\n                    icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                    \n                else\n                    \n                    icon:SetPoint (\"topright\", unitFrame.castBar, \"topleft\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                end\n                \n            else\n                if (modTable.config.useFullSize) then\n                    icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                    \n                else\n                    \n                    icon:SetPoint (\"topleft\", unitFrame.castBar, \"topright\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                end\n            end\n            \n            icon:SetWidth (icon:GetHeight())\n            icon:Show()\n        else\n            icon:Hide()\n        end\n        \n        if (modTable.config.showTexture and not castBar.canInterrupt) then\n            noInterruptTexture:Show()\n            \n            local texturePath = modTable.config.iconTexturePath\n            texturePath = texturePath:gsub(\"//\", \"/\")\n            texturePath = texturePath:gsub(\"\\\\\", \"/\")\n            \n            noInterruptTexture:SetTexture (texturePath)\n            noInterruptTexture:SetTexCoord (0, 1, 0, 1)\n            \n            if (modTable.config.desaturatedTexture) then\n                noInterruptTexture:SetDesaturated (modTable.config.desaturatedTexture)\n            else\n                noInterruptTexture:SetVertexColor (DetailsFramework:ParseColors (modTable.config.textureColor))\n            end\n            \n            noInterruptTexture:SetSize (modTable.config.textureWidth, castBar:GetHeight() + modTable.config.textureHeightMod)\n            noInterruptTexture:ClearAllPoints()\n            noInterruptTexture:SetPoint (\"center\", castBar, \"left\", modTable.config.texturePosition, 0)\n            noInterruptTexture:SetAlpha (modTable.config.textureAlpha)\n        else\n            noInterruptTexture:Hide()\n        end\n    end\nend",
+					},
+					["Time"] = 1620347016,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["affix"] = {
+						},
+						["class"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["role"] = {
+						},
+					},
+					["url"] = "",
+					["Icon"] = "Interface\\AddOns\\Plater\\images\\castbar_icon",
+					["Enabled"] = false,
+					["Revision"] = 352,
+					["semver"] = "",
+					["Author"] = "Ditador-Azralon",
+					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
+					["Prio"] = 99,
+					["version"] = -1,
+					["PlaterCore"] = 1,
+					["LastHookEdited"] = "",
+					["Options"] = {
+						{
+							["Type"] = 5,
+							["Key"] = "option4",
+							["Value"] = "Icon Settings:",
+							["Name"] = "Icon Settings",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [1]
+						{
+							["Type"] = 4,
+							["Name"] = "Show Icon",
+							["Value"] = true,
+							["Key"] = "showIcon",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "Show the castbar icon when enabled",
+						}, -- [2]
+						{
+							["Type"] = 4,
+							["Key"] = "iconOnLeftSide",
+							["Value"] = true,
+							["Name"] = "Icon on Left Side",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "If enabled it anchor the icon on the left side, right otherwise",
+						}, -- [3]
+						{
+							["Type"] = 4,
+							["Key"] = "useFullSize",
+							["Value"] = false,
+							["Name"] = "Use Big Icon",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "If enabled the icon has the size of the cast bar plus the healthbar",
+						}, -- [4]
+						{
+							["Type"] = 2,
+							["Max"] = 5,
+							["Desc"] = "Fine tune the icon size",
+							["Min"] = 0,
+							["Fraction"] = true,
+							["Value"] = 0,
+							["Key"] = "iconSizeOffset",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Name"] = "Icon Size Offset",
+						}, -- [5]
+						{
+							["Type"] = 2,
+							["Max"] = 5,
+							["Desc"] = "Space between the icon and the cast bar",
+							["Min"] = -5,
+							["Fraction"] = false,
+							["Value"] = 0,
+							["Name"] = "Icon Padding",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Key"] = "iconPadding",
+						}, -- [6]
+						{
+							["Type"] = 6,
+							["Name"] = "Blank Space",
+							["Value"] = 0,
+							["Key"] = "option6",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [7]
+						{
+							["Type"] = 5,
+							["Key"] = "option5",
+							["Value"] = "Can't Interrupt Texture:",
+							["Name"] = "Interrupt Texture",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [8]
+						{
+							["Type"] = 4,
+							["Key"] = "showTexture",
+							["Value"] = true,
+							["Name"] = "Show Texture",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "If enabled show a texture to tell the cast can't be interrupted",
+						}, -- [9]
+						{
+							["Type"] = 3,
+							["Key"] = "iconTexturePath",
+							["Value"] = "Interface\\GROUPFRAME\\UI-GROUP-MAINTANKICON",
+							["Name"] = "Texture Path",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "Insert the path for the texture",
+						}, -- [10]
+						{
+							["Type"] = 4,
+							["Key"] = "desaturatedTexture",
+							["Value"] = true,
+							["Name"] = "Texture Desaturated",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "If enbaled, texture is shown in black & white",
+						}, -- [11]
+						{
+							["Type"] = 1,
+							["Key"] = "textureColor",
+							["Value"] = {
+								1, -- [1]
+								1, -- [2]
+								1, -- [3]
+								0.30567157268524, -- [4]
+							},
+							["Name"] = "Texture Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "Select the color of the texture",
+						}, -- [12]
+						{
+							["Type"] = 2,
+							["Max"] = 32,
+							["Desc"] = "Adjust the texture width",
+							["Min"] = 1,
+							["Fraction"] = false,
+							["Value"] = 10,
+							["Key"] = "textureWidth",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Name"] = "Texture Width",
+						}, -- [13]
+						{
+							["Type"] = 2,
+							["Max"] = 16,
+							["Desc"] = "The texture is set to be the same size as the cast bar, fine tune the height as wanted",
+							["Min"] = -16,
+							["Name"] = "Texture Height Mod",
+							["Value"] = 0,
+							["Fraction"] = true,
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Key"] = "textureHeightMod",
+						}, -- [14]
+						{
+							["Type"] = 2,
+							["Max"] = 32,
+							["Desc"] = "Adjust the texture position",
+							["Min"] = -32,
+							["Fraction"] = false,
+							["Value"] = 0,
+							["Key"] = "texturePosition",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Name"] = "Texture Position",
+						}, -- [15]
+						{
+							["Type"] = 2,
+							["Max"] = 1,
+							["Desc"] = "Adjust the texture transparency",
+							["Min"] = 0,
+							["Key"] = "textureAlpha",
+							["Value"] = 1,
+							["Name"] = "Texture Alpha",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Fraction"] = true,
+						}, -- [16]
+					},
+					["Name"] = "Cast Bar Icon Settings [P]",
+				}, -- [35]
+				{
+					["OptionsValues"] = {
+					},
+					["HooksTemp"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    local name = unitFrame.healthBar.unitName:GetText()\n    \n    if (name) then\n        unitFrame.healthBar.unitName:SetText(name:gsub('(%S+) ',function(t) return t:sub(0,0)..'' end))\n    end\nend\n\n\n\n\n\n\n\n",
+					},
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    local name = unitFrame.healthBar.unitName:GetText()\n    \n    if (name) then\n        unitFrame.healthBar.unitName:SetText(name:gsub('(%S+) ',function(t) return t:sub(0,0)..'' end))\n    end\nend\n\n\n\n\n\n\n\n",
+					},
+					["Time"] = 1643278698,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["class"] = {
+						},
+						["spec"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["role"] = {
+						},
+					},
+					["url"] = "https://wago.io/Rcm39UnZV/2",
+					["Icon"] = 132319,
+					["Enabled"] = true,
+					["Revision"] = 446,
+					["Options"] = {
+					},
+					["Author"] = "Zenshoes-Area 52",
+					["Desc"] = "Abbreviates names on nameplates",
+					["Prio"] = 99,
+					["version"] = 2,
+					["PlaterCore"] = 1,
+					["LastHookEdited"] = "",
+					["Name"] = "Abbreviated Names",
+					["semver"] = "1.0.1",
+				}, -- [36]
+				{
+					["OptionsValues"] = {
+					},
+					["LastHookEdited"] = "",
+					["Hooks"] = {
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CheckAggro (unitFrame)\nend\n\n\n",
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CheckAggro (unitFrame)\nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    function envTable.CheckAggro (unitFrame)\n        --if the player isn't in combat, ignore this check\n        if (not Plater.IsInCombat()) then\n            return\n        end\n        \n        --if this unit isn't in combat, ignore\n        if (not unitFrame.InCombat) then\n            return \n        end\n        \n        --player is a tank?\n        if (Plater.PlayerIsTank) then\n            --player isn't tanking this unit?\n            if (not unitFrame.namePlateThreatIsTanking) then\n                --check if a second tank is tanking it\n                if (Plater.ZoneInstanceType == \"raid\") then\n                    --return a list with the name of tanks in the raid\n                    local tankPlayersInTheRaid = Plater.GetTanks()\n                    \n                    --get the target name of this unit\n                    local unitTargetName = UnitName (unitFrame.targetUnitID)\n                    \n                    --check if the unit isn't targeting another tank in the raid and paint the color\n                    if (not tankPlayersInTheRaid [unitTargetName]) then\n                        Plater.SetNameplateColor (unitFrame, Plater.db.profile.tank.colors.noaggro)\n                    else\n                        --another tank is tanking this unit\n                        --do nothing\n                    end\n                    \n                else\n                    Plater.SetNameplateColor (unitFrame, Plater.db.profile.tank.colors.noaggro)\n                end\n            end\n            \n        else\n            --player is a dps or healer\n            if (unitFrame.namePlateThreatIsTanking) then\n                Plater.SetNameplateColor (unitFrame, Plater.db.profile.dps.colors.aggro)\n            end\n            \n        end        \n    end\nend\n\n\n\n\n\n\n",
+					},
+					["Time"] = 1620346605,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["affix"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["spec"] = {
+						},
+						["role"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["url"] = "https://wago.io/id_wRWfKp/2",
+					["Icon"] = "Interface\\AddOns\\Plater\\media\\checked_64",
+					["Enabled"] = false,
+					["Revision"] = 34,
+					["semver"] = "1.0.1",
+					["Author"] = "Kastfall-Azralon",
+					["Desc"] = "When a mob is attacking you, force show the threat color. For tanks, force threat color if the mob is not attacking you.",
+					["Prio"] = 99,
+					["version"] = 2,
+					["PlaterCore"] = 1,
+					["HooksTemp"] = {
+					},
+					["Name"] = "Force Threat Color",
+					["Options"] = {
+					},
+				}, -- [37]
+				{
+					["OptionsValues"] = {
+						["indicatorColor"] = {
+							0, -- [1]
+							1, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["indicatorHeight"] = 15,
+						["indicatorOsX"] = 15,
+						["indicatorWidth"] = 15,
+					},
+					["HooksTemp"] = {
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    -- Currently selected target indicator\n    local selectedIndicator = Plater.TargetIndicators[Plater.db.profile.target_indicator]\n    -- Do not proceed if the selected indicator does not have a color setting\n    if not selectedIndicator.color then return end\n    \n    -- Receive variables from the Plater options of this mod\n    local indicatorColor = modTable.config.indicatorColor\n    local indicatorAlpha = modTable.config.indicatorAlpha\n    local indicatorWidth = modTable.config.indicatorWidth\n    local indicatorHeight = modTable.config.indicatorHeight\n    local indicatorOsX = modTable.config.indicatorOsX\n    local indicatorOsY = modTable.config.indicatorOsY\n    \n    -- Apply variables from Plater options  to the selected target indicator\n    selectedIndicator.color = indicatorColor\n    selectedIndicator.alpha = indicatorAlpha\n    selectedIndicator.width = indicatorWidth\n    selectedIndicator.height = indicatorHeight\n    selectedIndicator.x = indicatorOsX\n    selectedIndicator.y = indicatorOsY\n    \nend\n\n\n\n\n",
+						["Player Logon"] = "function()\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    RELOAD UI AFTER IMPORTING THE MOD   ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    ---- SELECT AN INDICATOR IN THE PLATER TARGET OPTIONS (Target Bracket Indicator Dropdown)----\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    CUSTOMIZE MOD INDICATOR OPTIONS    ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    \n    Plater.TargetIndicators    [\"Composite\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Composite Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20, \n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin\"] = {\n        path = [[Interface\\ICONS\\ArrowThinLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowThinRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Double\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Double Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full\"] = {\n        path = [[Interface\\ICONS\\ArrowFullRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowFullLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket\"] = {\n        path = [[Interface\\ICONS\\Bracket]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 16,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket Thin\"] = {\n        path = [[Interface\\ICONS\\BracketThin]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Hinge\"] = {\n        path = [[Interface\\ICONS\\Hinge]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 5,\n        height = 5,\n        --customizable texture position (offset to nameplate)\n        x = 2,\n        y = 2,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    }    \n    \n    Plater.TargetIndicators    [\"Half Hinge\"] = {\n        path = [[Interface\\ICONS\\HingeThin]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 15,\n        height = 15,\n        --customizable texture position (offset to nameplate)\n        x = 3,\n        y = 3,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    } \n    \nend",
+					},
+					["Hooks"] = {
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    -- Currently selected target indicator\n    local selectedIndicator = Plater.TargetIndicators[Plater.db.profile.target_indicator]\n    -- Do not proceed if the selected indicator does not have a color setting\n    if not selectedIndicator.color then return end\n    \n    -- Receive variables from the Plater options of this mod\n    local indicatorColor = modTable.config.indicatorColor\n    local indicatorAlpha = modTable.config.indicatorAlpha\n    local indicatorWidth = modTable.config.indicatorWidth\n    local indicatorHeight = modTable.config.indicatorHeight\n    local indicatorOsX = modTable.config.indicatorOsX\n    local indicatorOsY = modTable.config.indicatorOsY\n    \n    -- Apply variables from Plater options  to the selected target indicator\n    selectedIndicator.color = indicatorColor\n    selectedIndicator.alpha = indicatorAlpha\n    selectedIndicator.width = indicatorWidth\n    selectedIndicator.height = indicatorHeight\n    selectedIndicator.x = indicatorOsX\n    selectedIndicator.y = indicatorOsY\n    \nend\n\n\n\n\n",
+						["Player Logon"] = "function()\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    RELOAD UI AFTER IMPORTING THE MOD   ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    ---- SELECT AN INDICATOR IN THE PLATER TARGET OPTIONS (Target Bracket Indicator Dropdown)----\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    CUSTOMIZE MOD INDICATOR OPTIONS    ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    \n    Plater.TargetIndicators    [\"Composite\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Composite Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20, \n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin\"] = {\n        path = [[Interface\\ICONS\\ArrowThinLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowThinRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Double\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Double Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full\"] = {\n        path = [[Interface\\ICONS\\ArrowFullRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowFullLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket\"] = {\n        path = [[Interface\\ICONS\\Bracket]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 16,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket Thin\"] = {\n        path = [[Interface\\ICONS\\BracketThin]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Hinge\"] = {\n        path = [[Interface\\ICONS\\Hinge]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 5,\n        height = 5,\n        --customizable texture position (offset to nameplate)\n        x = 2,\n        y = 2,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    }    \n    \n    Plater.TargetIndicators    [\"Half Hinge\"] = {\n        path = [[Interface\\ICONS\\HingeThin]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 15,\n        height = 15,\n        --customizable texture position (offset to nameplate)\n        x = 3,\n        y = 3,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    } \n    \nend",
+					},
+					["Time"] = 1643278701,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["class"] = {
+						},
+						["map_ids"] = {
+						},
+						["role"] = {
+						},
+						["pvptalent"] = {
+						},
+						["race"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["spec"] = {
+						},
+					},
+					["url"] = "https://wago.io/46Vep3lTJ/11",
+					["Icon"] = -10913,
+					["Enabled"] = true,
+					["Revision"] = 622,
+					["Options"] = {
+						{
+							["Type"] = 5,
+							["Name"] = "Install Instructions",
+							["Value"] = "INSTALL INSTRUCTIONS:",
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [1]
+						{
+							["Type"] = 5,
+							["Key"] = "",
+							["Value"] = "1.) Reload UI after importing the mod.",
+							["Name"] = "Install Instructions",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [2]
+						{
+							["Type"] = 5,
+							["Name"] = "Install Instructions",
+							["Value"] = "2.) Select an indicator in the Plater Target options (Target Bracket Indicator Dropdown).",
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [3]
+						{
+							["Type"] = 5,
+							["Name"] = "Install Instructions",
+							["Value"] = "3.) Customize color, size, position settings in the options menu below.",
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [4]
+						{
+							["Type"] = 5,
+							["Name"] = "Install Instructions",
+							["Value"] = "4.) Save.",
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [5]
+						{
+							["Type"] = 6,
+							["Name"] = "Blank",
+							["Value"] = 0,
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [6]
+						{
+							["Type"] = 5,
+							["Name"] = "Target Indicator Options",
+							["Value"] = "TARGET INDICATOR OPTIONS:",
+							["Key"] = "label1",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [7]
+						{
+							["Type"] = 5,
+							["Name"] = "Target Indicator Options",
+							["Value"] = "Switch target to see changes. No reloading necessary.",
+							["Key"] = "label1",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [8]
+						{
+							["Type"] = 6,
+							["Name"] = "Blank",
+							["Value"] = 0,
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [9]
+						{
+							["Type"] = 1,
+							["Key"] = "indicatorColor",
+							["Value"] = {
+								0.36862745098039, -- [1]
+								0.72549019607843, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "Color",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "Set color for the selected target indicator.",
+						}, -- [10]
+						{
+							["Type"] = 2,
+							["Max"] = 1,
+							["Desc"] = "Set opacity for the selected target indicator.",
+							["Min"] = 0,
+							["Name"] = "Opacity",
+							["Value"] = 1,
+							["Fraction"] = true,
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Key"] = "indicatorAlpha",
+						}, -- [11]
+						{
+							["Type"] = 6,
+							["Key"] = "",
+							["Value"] = 0,
+							["Name"] = "Blank",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [12]
+						{
+							["Type"] = 2,
+							["Max"] = 50,
+							["Desc"] = "Set width for the selected target indicator.",
+							["Min"] = 1,
+							["Name"] = "Width",
+							["Value"] = 20,
+							["Fraction"] = false,
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Key"] = "indicatorWidth",
+						}, -- [13]
+						{
+							["Type"] = 2,
+							["Max"] = 50,
+							["Desc"] = "Set height for the selected target indicator.",
+							["Min"] = 1,
+							["Fraction"] = false,
+							["Value"] = 20,
+							["Name"] = "Height",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Key"] = "indicatorHeight",
+						}, -- [14]
+						{
+							["Type"] = 6,
+							["Key"] = "",
+							["Value"] = 0,
+							["Name"] = "Blank",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [15]
+						{
+							["Type"] = 2,
+							["Max"] = 50,
+							["Desc"] = "Set x-offset (horizontal distance from nameplate) for the selected target indicator.",
+							["Min"] = -50,
+							["Key"] = "indicatorOsX",
+							["Value"] = 30,
+							["Name"] = "X Offset",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Fraction"] = false,
+						}, -- [16]
+						{
+							["Type"] = 2,
+							["Max"] = 20,
+							["Desc"] = "Set y-offset (vertical distance from nameplate) for the selected target indicator.",
+							["Min"] = -20,
+							["Fraction"] = false,
+							["Value"] = 0,
+							["Key"] = "indicatorOsY",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
+							["Name"] = "Y Offset",
+						}, -- [17]
+						{
+							["Type"] = 6,
+							["Name"] = "Blank",
+							["Value"] = 0,
+							["Key"] = "",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [18]
+						{
+							["Type"] = 5,
+							["Key"] = "",
+							["Value"] = "*Y Offset is not necessary for most textures and should be 0 (except for \"Hinge\" and \"Half Hinge\" indicators).",
+							["Name"] = "Disclaimer",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
+							["Desc"] = "",
+						}, -- [19]
+					},
+					["Author"] = "Revanbane-Tarren Mill",
+					["Desc"] = "Adds more options to Target indicator. Customizable color, size and positioning.",
+					["Prio"] = 99,
+					["Name"] = "Revan's Target Indicators",
+					["PlaterCore"] = 1,
+					["semver"] = "1.0.10",
+					["LastHookEdited"] = "",
+					["version"] = 11,
+				}, -- [38]
+				{
+					["HooksTemp"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor(unitFrame, unitId)\nend",
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame, unitId)\nend\n\n\n",
+						["Initialization"] = "function (modTable)\n    \n    modTable.ConditionType = {\n        Specified               = 1,\n    }\n    \n    modTable.TypeShow = {\n        Color       = 1,\n        Flash       = 2,\n    }\n    \n    modTable.Conditions = {\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"尤型圣物\", \"尤型拆卸者\"},},\n            typeshow = 1, typevalue = modTable.config.urhColor --\"#e3d4bd\"\n        },\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"沃型圣物\", \"沃型飘移者\"},},\n            typeshow = 1, typevalue = modTable.config.woColor --\"#a159f0\"\n        },\n        \n        -- name = \"维型加密\",\n        {enable = modTable.config.setColor, condition = {1}, \n            value = {{\"维型圣物\", \"维型拦截者\"},},\n            typeshow = 1, typevalue = modTable.config.vyColor --\"#00ffff\"\n        },\n        \n    }\n    \n    \n    local specifiedCondition = {\n        name = \"默认特定单位条件\",\n        enable = true,\n        \n        condition = {1},\n        value = {{}},--{specifiedConditionList},\n        \n        --typeshow = modTable.TypeShow.Color,\n        typevalue = modTable.config._typeValueSpecified\n    }\n    \n    -- 默认的条件组\n    table.insert(modTable.Conditions, specifiedCondition) -- 默认特定单位条件\n    \n    function modTable.CheckCondition(conditionGroup, unitFrame)\n        if conditionGroup.enable ~= true then\n            return false\n        end\n        if type(conditionGroup.condition) ~= \"table\" then\n            return false\n        end\n        \n        local pass = true\n        for i, v in ipairs(conditionGroup.condition) do\n            if v == modTable.ConditionType.Specified then\n                -- print(\"CheckCondition -- Enter Specified\")\n                pass = modTable.CheckSpecifiedCondition(unitFrame, conditionGroup.value[i], conditionGroup)\n            else\n                print(\"Plater Mod -- Extened Color -- Unknown Condition: \" .. tostring(v))\n                pass = false\n            end\n            \n            if pass == false then\n                -- print(\"--------------- CheckCondition End False ---------------\")\n                modTable.Clear(unitFrame)\n                return pass\n            end\n        end\n        \n        -- print(\"--------------- CheckCondition End True ---------------\")\n        return pass\n    end\n    \n    function modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n        if conditionGroup.typeshow == modTable.TypeShow.Color then\n            envTable.FullBarFlash:Stop()\n            if unitFrame._SelfMarkType ~= nil and (conditionGroup.typevalue == \"\" or conditionGroup.typevalue == nil) then\n                Plater.SetNameplateColor(unitFrame, modTable.MarkColor[unitFrame._SelfMarkType])\n            else\n                Plater.SetNameplateColor(unitFrame, conditionGroup.typevalue)\n            end\n        elseif conditionGroup.typeshow == modTable.TypeShow.Flash then\n            Plater.SetNameplateColor(unitFrame, \"red\")\n            envTable.FullBarFlash:Play()\n        end\n        \n        modTable.Clear(unitFrame)\n    end\n    \n    function modTable.CheckSpecifiedCondition(unitFrame, param, conditionGroup)\n        for _, v in ipairs(param) do\n            if v == unitFrame.namePlateUnitNameLower or v == unitFrame.namePlateUnitName or v == unitFrame.namePlateNpcId then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function modTable.Clear(unitFrame)\n        unitFrame._SelfMarkType = nil;\n    end\nend",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdatePlayerRole (unitFrame)\nend\n\n\n",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    envTable.FullBarFlash = envTable.FullBarFlash or Plater.CreateFlash(unitFrame.healthBar, 0.2, 100, \"white\")\n    \n    --------------------------------------------------------------------------\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    envTable.NpcNames = {\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName, --尤『减CD / 回血 / 回蓝』\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth  \n        [\"沃型飘移者\"] = woName, --沃『移速 / 减伤 / 隐身』\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName, --维『急速』\n        \n    } \n    \n    --------------------------------------------------------------------------\n    function envTable.UpdateColor(unitFrame, unitId)\n        if (unitFrame.IsSelf) then\n            return\n        end\n        \n        if IsInGroup() and\n        envTable.IfAggroAbnormal(unitFrame, unitId) then\n            -- 应用Plater仇恨颜色\n        else\n            for _, conditionGroup in ipairs(modTable.Conditions) do\n                if modTable.CheckCondition(conditionGroup, unitFrame) then\n                    modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n                    return;\n                end\n            end\n        end\n        \n        envTable.FullBarFlash:Stop()\n        Plater.RefreshNameplateColor(unitFrame)\n    end\n    \n    function envTable.IfAggroAbnormal(unitFrame, unitId)\n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation(\"player\", unitId)\n        \n        if envTable.PlayerRole == \"TANK\" then\n            -- 作为坦克却没抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking == false or (threatStatus == 2 or threatStatus == 1 or threatStatus == 0) then\n                return true\n            end\n        elseif envTable.PlayerRole == \"DAMAGER\" then\n            -- 作为DPS在抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking or (threatStatus == 3 or threatStatus == 2 or threatStatus == 1) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function envTable.UpdatePlayerRole(unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n        end\n    end\n    \nend",
+					},
+					["UID"] = "0x62229f65202d123",
+					["Hooks"] = {
+						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor(unitFrame, unitId)\nend",
+						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame, unitId)\nend\n\n\n",
+						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdatePlayerRole (unitFrame)\nend\n\n\n",
+						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
+						["Initialization"] = "function (modTable)\n    \n    modTable.ConditionType = {\n        Specified               = 1,\n    }\n    \n    modTable.TypeShow = {\n        Color       = 1,\n        Flash       = 2,\n    }\n    \n    modTable.Conditions = {\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"尤型圣物\", \"尤型拆卸者\"},},\n            typeshow = 1, typevalue = modTable.config.urhColor --\"#e3d4bd\"\n        },\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"沃型圣物\", \"沃型飘移者\"},},\n            typeshow = 1, typevalue = modTable.config.woColor --\"#a159f0\"\n        },\n        \n        -- name = \"维型加密\",\n        {enable = modTable.config.setColor, condition = {1}, \n            value = {{\"维型圣物\", \"维型拦截者\"},},\n            typeshow = 1, typevalue = modTable.config.vyColor --\"#00ffff\"\n        },\n        \n    }\n    \n    \n    local specifiedCondition = {\n        name = \"默认特定单位条件\",\n        enable = true,\n        \n        condition = {1},\n        value = {{}},--{specifiedConditionList},\n        \n        --typeshow = modTable.TypeShow.Color,\n        typevalue = modTable.config._typeValueSpecified\n    }\n    \n    -- 默认的条件组\n    table.insert(modTable.Conditions, specifiedCondition) -- 默认特定单位条件\n    \n    function modTable.CheckCondition(conditionGroup, unitFrame)\n        if conditionGroup.enable ~= true then\n            return false\n        end\n        if type(conditionGroup.condition) ~= \"table\" then\n            return false\n        end\n        \n        local pass = true\n        for i, v in ipairs(conditionGroup.condition) do\n            if v == modTable.ConditionType.Specified then\n                -- print(\"CheckCondition -- Enter Specified\")\n                pass = modTable.CheckSpecifiedCondition(unitFrame, conditionGroup.value[i], conditionGroup)\n            else\n                print(\"Plater Mod -- Extened Color -- Unknown Condition: \" .. tostring(v))\n                pass = false\n            end\n            \n            if pass == false then\n                -- print(\"--------------- CheckCondition End False ---------------\")\n                modTable.Clear(unitFrame)\n                return pass\n            end\n        end\n        \n        -- print(\"--------------- CheckCondition End True ---------------\")\n        return pass\n    end\n    \n    function modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n        if conditionGroup.typeshow == modTable.TypeShow.Color then\n            envTable.FullBarFlash:Stop()\n            if unitFrame._SelfMarkType ~= nil and (conditionGroup.typevalue == \"\" or conditionGroup.typevalue == nil) then\n                Plater.SetNameplateColor(unitFrame, modTable.MarkColor[unitFrame._SelfMarkType])\n            else\n                Plater.SetNameplateColor(unitFrame, conditionGroup.typevalue)\n            end\n        elseif conditionGroup.typeshow == modTable.TypeShow.Flash then\n            Plater.SetNameplateColor(unitFrame, \"red\")\n            envTable.FullBarFlash:Play()\n        end\n        \n        modTable.Clear(unitFrame)\n    end\n    \n    function modTable.CheckSpecifiedCondition(unitFrame, param, conditionGroup)\n        for _, v in ipairs(param) do\n            if v == unitFrame.namePlateUnitNameLower or v == unitFrame.namePlateUnitName or v == unitFrame.namePlateNpcId then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function modTable.Clear(unitFrame)\n        unitFrame._SelfMarkType = nil;\n    end\nend",
+						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    envTable.FullBarFlash = envTable.FullBarFlash or Plater.CreateFlash(unitFrame.healthBar, 0.2, 100, \"white\")\n    \n    --------------------------------------------------------------------------\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    envTable.NpcNames = {\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName, --尤『减CD / 回血 / 回蓝』\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth  \n        [\"沃型飘移者\"] = woName, --沃『移速 / 减伤 / 隐身』\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName, --维『急速』\n        \n    } \n    \n    --------------------------------------------------------------------------\n    function envTable.UpdateColor(unitFrame, unitId)\n        if (unitFrame.IsSelf) then\n            return\n        end\n        \n        if IsInGroup() and\n        envTable.IfAggroAbnormal(unitFrame, unitId) then\n            -- 应用Plater仇恨颜色\n        else\n            for _, conditionGroup in ipairs(modTable.Conditions) do\n                if modTable.CheckCondition(conditionGroup, unitFrame) then\n                    modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n                    return;\n                end\n            end\n        end\n        \n        envTable.FullBarFlash:Stop()\n        Plater.RefreshNameplateColor(unitFrame)\n    end\n    \n    function envTable.IfAggroAbnormal(unitFrame, unitId)\n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation(\"player\", unitId)\n        \n        if envTable.PlayerRole == \"TANK\" then\n            -- 作为坦克却没抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking == false or (threatStatus == 2 or threatStatus == 1 or threatStatus == 0) then\n                return true\n            end\n        elseif envTable.PlayerRole == \"DAMAGER\" then\n            -- 作为DPS在抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking or (threatStatus == 3 or threatStatus == 2 or threatStatus == 1) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function envTable.UpdatePlayerRole(unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n        end\n    end\n    \nend",
+					},
+					["Time"] = 1648710085,
+					["LoadConditions"] = {
+						["talent"] = {
+						},
+						["group"] = {
+						},
+						["spec"] = {
+						},
+						["map_ids"] = {
+						},
+						["race"] = {
+						},
+						["pvptalent"] = {
+						},
+						["role"] = {
+						},
+						["affix"] = {
+						},
+						["encounter_ids"] = {
+						},
+						["class"] = {
+						},
+					},
+					["url"] = "",
+					["Icon"] = 4224736,
+					["Enabled"] = true,
+					["Revision"] = 625,
+					["Options"] = {
+						{
+							["Type"] = 4,
+							["Key"] = "setColor",
+							["Value"] = true,
+							["Name"] = "启用血条变色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "是否更改血条颜色?",
+						}, -- [1]
+						{
+							["Type"] = 1,
+							["Key"] = "urhColor",
+							["Value"] = {
+								0.63137254901961, -- [1]
+								0.34901960784314, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "尤型圣物血条颜色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "选择颜色",
+						}, -- [2]
+						{
+							["Type"] = 1,
+							["Key"] = "woColor",
+							["Value"] = {
+								0.33725490196078, -- [1]
+								1, -- [2]
+								0.42352941176471, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "沃型圣物血条颜色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "选择颜色",
+						}, -- [3]
+						{
+							["Type"] = 1,
+							["Key"] = "vyColor",
+							["Value"] = {
+								0, -- [1]
+								0.9921568627451, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Name"] = "维型圣物血条颜色",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
+							["Desc"] = "选择颜色",
+						}, -- [4]
+						{
+							["Type"] = 6,
+							["Key"] = "pog",
+							["Value"] = 0,
+							["Name"] = "Divider",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
+							["Desc"] = "",
+						}, -- [5]
+						{
+							["Type"] = 4,
+							["Key"] = "setName",
+							["Value"] = true,
+							["Name"] = "启用更改姓名",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
+							["Desc"] = "是否更改名字?",
+						}, -- [6]
+						{
+							["Type"] = 3,
+							["Key"] = "urhName",
+							["Value"] = "尤『减CD / 回血 / 回蓝』",
+							["Name"] = "尤型圣物改名",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "输入需要更改的名字",
+						}, -- [7]
+						{
+							["Type"] = 3,
+							["Name"] = "沃型圣物改名",
+							["Value"] = "沃『移速 / 减伤 / 隐身』",
+							["Key"] = "woName",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "输入需要更改的名字",
+						}, -- [8]
+						{
+							["Type"] = 3,
+							["Name"] = "维型圣物改名",
+							["Value"] = "维『急速 / 召唤宝珠』",
+							["Key"] = "vyName",
+							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
+							["Desc"] = "输入需要更改的名字",
+						}, -- [9]
+					},
+					["Author"] = "Ilrieth-Argent Dawn",
+					["Desc"] = "使用自定义值修改加密圣物的名称和血条颜色",
+					["Prio"] = 99,
+					["Name"] = "加密改名及颜色",
+					["PlaterCore"] = 1,
+					["semver"] = "",
+					["version"] = -1,
+					["LastHookEdited"] = "Constructor",
+				}, -- [39]
+			},
+			["auras_per_row_amount2"] = 5,
+			["aura_width"] = 16,
+			["ghost_auras"] = {
+				["auras"] = {
+					["PRIEST"] = {
+						[3] = {
+							[589] = true,
+							[34914] = true,
+						},
+					},
+					["WARLOCK"] = {
+						{
+							[980] = true,
+							[172] = true,
+						}, -- [1]
+					},
+				},
+			},
+			["buff_frame_anchor_and_size_migrated"] = true,
+			["pet_width_scale"] = 0.99999994039536,
+			["quick_hide"] = true,
+			["target_highlight_color"] = {
+				0.15686274509804, -- [1]
+				1, -- [2]
+				0.45098039215686, -- [3]
+			},
+			["resources"] = {
+				["y_offset"] = 1,
+				["y_offset_target"] = 9,
+				["scale"] = 0.79999995231628,
+			},
+			["click_space"] = {
+				115, -- [1]
+			},
+			["aura2_grow_direction"] = 3,
+			["extra_icon_show_enrage"] = true,
+			["cast_statusbar_spark_texture"] = "Interface\\AddOns\\Plater\\images\\spark2",
+			["cast_statusbar_spark_color"] = {
+				0.98823529411765, -- [1]
+				[3] = 0.94117647058823,
+			},
+			["pet_height_scale"] = 0.99999994039536,
+			["aura_x_offset"] = 0,
+			["first_run3"] = true,
+			["ui_parent_scale_tune"] = 1.6666666004393,
+			["ui_parent_buff_strata"] = "LOW",
+			["healthbar_framelevel"] = 0,
+			["cast_statusbar_spark_offset"] = -13,
+			["health_statusbar_bgtexture"] = "PlaterBackground",
+			["indicator_raidmark_anchor"] = {
+				["y"] = 1.4000015258789,
+				["x"] = -8.6800003051758,
+			},
+			["tank"] = {
+				["colors"] = {
+					["aggro"] = {
+						0.094117647058824, -- [1]
+						1, -- [2]
+						0.33725490196078, -- [3]
+					},
+					["noaggro"] = {
+						[3] = 0.19607843137255,
+					},
+					["pulling"] = {
+						nil, -- [1]
+						0, -- [2]
+						0.77647058823529, -- [3]
+					},
+				},
+			},
+			["aura_tracker"] = {
+				["buff_tracked"] = {
+					["280001"] = true,
+					["329181"] = false,
+					["328501"] = false,
+				},
+				["debuff"] = {
+					224991, -- [1]
+					277950, -- [2]
+				},
+				["debuff_banned"] = {
+					["331653"] = true,
+					["299151"] = true,
+					["330911"] = true,
+					["327980"] = true,
+					["284678"] = true,
+					["281242"] = true,
+					["342938"] = true,
+					["340007"] = true,
+				},
+				["debuff_tracked"] = {
+					["341408"] = true,
+					["324652"] = false,
+					["342938"] = true,
+					["281242"] = true,
+				},
+				["buff_banned"] = {
+					["333553"] = true,
+					["281242"] = true,
+					["61573"] = true,
+					["206150"] = true,
+					["61574"] = true,
+				},
+			},
+			["castbar_target_show"] = true,
+			["cast_statusbar_color"] = {
+				nil, -- [1]
+				0.85882352941176, -- [2]
+				nil, -- [3]
+				0.96000000089407, -- [4]
+			},
+			["update_throttle"] = 0.099999994039536,
+			["color_override"] = false,
+			["indicator_extra_raidmark"] = false,
+			["aura_grow_direction"] = 1,
+			["not_affecting_combat_alpha"] = 0.79999995231628,
+			["castbar_target_text_size"] = 9,
+			["use_health_animation"] = true,
+			["target_highlight_alpha"] = 1,
+			["news_frame"] = {
+				["PlaterNewsFrame"] = {
+					["scale"] = 1,
+				},
+			},
 			["script_data"] = {
 				{
 					["ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --flash duration\n    local CONFIG_FLASH_DURATION = scriptTable.config.flashDuration\n    \n    --manually create a new texture for the flash animation\n    if (not envTable.SmallFlashTexture) then\n        envTable.SmallFlashTexture = envTable.SmallFlashTexture or Plater:CreateImage (unitFrame.castBar)\n        envTable.SmallFlashTexture:SetColorTexture (1, 1, 1)\n        envTable.SmallFlashTexture:SetAllPoints()\n    end\n    \n    --manually create a flash animation using the framework\n    if (not envTable.SmallFlashAnimationHub) then \n        \n        local onPlay = function()\n            envTable.SmallFlashTexture:Show()\n        end\n        \n        local onFinished = function()\n            envTable.SmallFlashTexture:Hide()\n        end\n        \n        local animationHub = Plater:CreateAnimationHub (envTable.SmallFlashTexture, onPlay, onFinished)\n        envTable.flashIn = Plater:CreateAnimation (animationHub, \"Alpha\", 1, CONFIG_FLASH_DURATION/2, 0, .6)\n        envTable.flashOut = Plater:CreateAnimation (animationHub, \"Alpha\", 2, CONFIG_FLASH_DURATION/2, 1, 0)\n        \n        envTable.SmallFlashAnimationHub = animationHub\n    end\n    \n    envTable.flashIn:SetDuration(scriptTable.config.flashDuration / 2)\n    envTable.flashOut:SetDuration(scriptTable.config.flashDuration / 2)\n    envTable.SmallFlashTexture:SetColorTexture (Plater:ParseColors(scriptTable.config.flashColor))\n    \nend\n\n\n\n\n\n\n\n",
@@ -10775,15 +16688,15 @@ PlaterDB = {
 					["Author"] = "Tercioo-Sylvanas",
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    if (scriptTable.config.glowEnabled) then\n        envTable.buffIconGlow:Show()\n    end\n    \n    if (scriptTable.config.dotsEnabled) then\n        envTable.dotAnimation = Plater.PlayDotAnimation(self, 6, scriptTable.config.dotsColor, 6, 3) \n    end\nend\n\n\n",
 					["Desc"] = "Add the debuff name in the trigger box.",
-					["version"] = -1,
+					["Name"] = "Aura - Debuff Alert [Plater]",
 					["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \nend\n\n\n",
+					["version"] = -1,
+					["PlaterCore"] = 1,
 					["SpellIds"] = {
 						337220, -- [1]
 						337253, -- [2]
 						337251, -- [3]
 					},
-					["PlaterCore"] = 1,
-					["Name"] = "Aura - Debuff Alert [Plater]",
 					["Prio"] = 99,
 					["Temp_ConstructorCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --creates a glow around the icon\n    envTable.buffIconGlow = envTable.buffIconGlow or Plater.CreateIconGlow (self, scriptTable.config.glowColor)\n    \nend\n\n\n",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_aura",
@@ -11374,6 +17287,8 @@ PlaterDB = {
 					["Author"] = "Tecno-Azralon",
 					["Prio"] = 99,
 					["Desc"] = "When an enemy places a debuff and starts to chase you. This script changes the nameplate color and place your name above the nameplate as well.",
+					["Name"] = "Fixate On You [Plater]",
+					["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \n    --swap this to true when it is fixated\n    local isFixated = false\n    \n    --check the debuffs the player has and see if any of these debuffs has been placed by this unit\n    for debuffId = 1, 40 do\n        local name, texture, count, debuffType, duration, expirationTime, caster = UnitDebuff (\"player\", debuffId)\n        \n        --cancel the loop if there's no more debuffs on the player\n        if (not name) then \n            break \n        end\n        \n        --check if the owner of the debuff is this unit\n        if (envTable.FixateDebuffs [name] and caster and UnitIsUnit (caster, unitId)) then\n            --the debuff the player has, has been placed by this unit, set the name above the unit name\n            envTable.FixateTarget:SetText (envTable.TextAboveNameplate)\n            envTable.FixateTarget:Show()\n            Plater.SetNameplateColor (unitFrame,  envTable.NameplateColor)\n            isFixated = true\n            \n            if (not envTable.IsFixated) then\n                envTable.IsFixated = true\n                Plater.FlashNameplateBody (unitFrame, \"fixate\", .2)\n            end\n        end\n        \n    end\n    \n    --check if the nameplate color is changed but isn't fixated any more\n    if (not isFixated and envTable.IsFixated) then\n        --refresh the nameplate color\n        Plater.RefreshNameplateColor (unitFrame)\n        --reset the text\n        envTable.FixateTarget:SetText (\"\")\n        \n        envTable.IsFixated = false\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 					["SpellIds"] = {
 						"spawn of g'huun", -- [1]
 						"smuggled crawg", -- [2]
@@ -11385,10 +17300,8 @@ PlaterDB = {
 						"crawler mine", -- [8]
 						"rezan", -- [9]
 					},
-					["Temp_UpdateCode"] = "function (self, unitId, unitFrame, envTable)\n    \n    --swap this to true when it is fixated\n    local isFixated = false\n    \n    --check the debuffs the player has and see if any of these debuffs has been placed by this unit\n    for debuffId = 1, 40 do\n        local name, texture, count, debuffType, duration, expirationTime, caster = UnitDebuff (\"player\", debuffId)\n        \n        --cancel the loop if there's no more debuffs on the player\n        if (not name) then \n            break \n        end\n        \n        --check if the owner of the debuff is this unit\n        if (envTable.FixateDebuffs [name] and caster and UnitIsUnit (caster, unitId)) then\n            --the debuff the player has, has been placed by this unit, set the name above the unit name\n            envTable.FixateTarget:SetText (envTable.TextAboveNameplate)\n            envTable.FixateTarget:Show()\n            Plater.SetNameplateColor (unitFrame,  envTable.NameplateColor)\n            isFixated = true\n            \n            if (not envTable.IsFixated) then\n                envTable.IsFixated = true\n                Plater.FlashNameplateBody (unitFrame, \"fixate\", .2)\n            end\n        end\n        \n    end\n    \n    --check if the nameplate color is changed but isn't fixated any more\n    if (not isFixated and envTable.IsFixated) then\n        --refresh the nameplate color\n        Plater.RefreshNameplateColor (unitFrame)\n        --reset the text\n        envTable.FixateTarget:SetText (\"\")\n        \n        envTable.IsFixated = false\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					["version"] = -1,
 					["PlaterCore"] = 1,
-					["Name"] = "Fixate On You [Plater]",
+					["version"] = -1,
 					["url"] = "",
 					["Icon"] = 841383,
 					["Options"] = {
@@ -13875,5999 +19788,6 @@ PlaterDB = {
 					["Icon"] = 4263293,
 				}, -- [31]
 			},
-			["url"] = "https://wago.io/kvgdjO6_L/3",
-			["cast_statusbar_fadein_time"] = 0.02081192471087,
-			["target_shady_enabled"] = false,
-			["aura2_y_offset"] = 0,
-			["buffs_on_aura2"] = true,
-			["health_selection_overlay"] = "Otravi",
-			["cast_statusbar_color_nointerrupt"] = {
-				0.49411764705882, -- [1]
-				0.49803921568628, -- [2]
-				0.50196078431373, -- [3]
-				0.96000000089407, -- [4]
-			},
-			["health_cutoff_extra_glow"] = true,
-			["npc_cache"] = {
-				[164342] = {
-					"渊誓防御者", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[184910] = {
-					"未知目标", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[165556] = {
-					"未知目标", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[168942] = {
-					"Death Speaker", -- [1]
-					"De Other Side", -- [2]
-				},
-				[184911] = {
-					"尤型拆卸者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[181398] = {
-					"玛尔加尼斯", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167538] = {
-					"Dokigg the Brutalizer", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[181399] = {
-					"金泰莎", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[172265] = {
-					"Remnant of Fury", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[185232] = {
-					"渊誓禁锢者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[164345] = {
-					"未知目标", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[152656] = {
-					"丧魂追猎者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[184530] = {
-					"永恒哨兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167731] = {
-					"Separation Assistant", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[185680] = {
-					"维型圣物", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[185233] = {
-					"渊誓卫兵", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[171500] = {
-					"蹒跚的死尸", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[164921] = {
-					"Drust Harvester", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[171181] = {
-					"Territorial Bladebeak", -- [1]
-					"De Other Side", -- [2]
-				},
-				[162047] = {
-					"Insatiable Brute", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[184659] = {
-					"被统御的哨兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[153552] = {
-					"哭泣的怨灵", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[168627] = {
-					"Plaguebinder", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[166264] = {
-					"备用部件", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[182169] = {
-					"利许威姆", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[170480] = {
-					"Atal'ai Deathwalker", -- [1]
-					"De Other Side", -- [2]
-				},
-				[185363] = {
-					"具形者克鲁根", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164476] = {
-					"被折磨的融合怪", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[172205] = {
-					"骨奴", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[184533] = {
-					"被颠覆的守护者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185683] = {
-					"沃型圣物", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[155790] = {
-					"渊誓侍僧", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[171184] = {
-					"Mythresh, Sky's Talons", -- [1]
-					"De Other Side", -- [2]
-				},
-				[153874] = {
-					"渊誓哨兵", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[168246] = {
-					"未知目标", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[171376] = {
-					"Head Custodian Javlin", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[26125] = {
-					"复活的食尸鬼", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168949] = {
-					"Risen Bonesoldier", -- [1]
-					"De Other Side", -- [2]
-				},
-				[164414] = {
-					"未知目标", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[184535] = {
-					"被颠覆的匠工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185685] = {
-					"尤型圣物", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[168886] = {
-					"Virulax Blightweaver", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[164351] = {
-					"未知目标", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[164926] = {
-					"德鲁斯特碎枝者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[182045] = {
-					"死灵祭师", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[162691] = {
-					"凋骨", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[166396] = {
-					"贵族散兵", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[153174] = {
-					"死亡观察者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[155793] = {
-					"骷髅残骸", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[167610] = {
-					"Stonefiend Anklebiter", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[162692] = {
-					"阿玛厄斯", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[183707] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167994] = {
-					"Ossified Conscript", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[168058] = {
-					"Infused Quill-feather", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[167611] = {
-					"石裔剔骨者", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[173360] = {
-					"Plaguebelcher", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[164737] = {
-					"Brood Ambusher", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[164929] = {
-					"仙木灵居民", -- [1]
-					"暗影界", -- [2]
-				},
-				[181856] = {
-					"定点防御无人机", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[163524] = {
-					"Kyrian Dark-Praetor", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[153879] = {
-					"丧魂暗影", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[184603] = {
-					"远古元蟾", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[165824] = {
-					"纳祖达", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[168443] = {
-					"Zolramus Necromancer", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[162056] = {
-					"缚石岩精", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[168572] = {
-					"Fungi Stormer", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[162057] = {
-					"Chamber Sentinel", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[165251] = {
-					"未知目标", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[164804] = {
-					"宗主奥法兰", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[173044] = {
-					"缝合助理", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[180773] = {
-					"警戒卫士", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[181859] = {
-					"不稳定的素材", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167615] = {
-					"Depraved Darkblade", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[153882] = {
-					"丧魂之灵", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[168318] = {
-					"Forsworn Goliath", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[172981] = {
-					"Kyrian Stitchwerk", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[170490] = {
-					"Atal'ai High Priest", -- [1]
-					"De Other Side", -- [2]
-				},
-				[165189] = {
-					"拉克西里", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183138] = {
-					"初生暗影", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184735] = {
-					"退化自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[166914] = {
-					"堕落的守护者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[182053] = {
-					"退化自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[166276] = {
-					"Mistveil Guardian", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[185247] = {
-					"塔楼哨卫", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[166915] = {
-					"被附身的看护者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[174197] = {
-					"Battlefield Ritualist", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[164552] = {
-					"Rotmarrow Slime", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[153885] = {
-					"丧魂蹒跚者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185120] = {
-					"丧魂夺命者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185248] = {
-					"高塔领主", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[181224] = {
-					"道茜歌妮", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183396] = {
-					"永恒锻工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164553] = {
-					"迷雾盟友", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[185121] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185249] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[174071] = {
-					"Vicious Gargon", -- [1]
-					"Castle Nathria", -- [2]
-				},
-				[182311] = {
-					"预制哨兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168578] = {
-					"Fungalmancer", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[180906] = {
-					"黑伦度斯", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[171772] = {
-					"Mistveil Defender", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[163213] = {
-					"噬渊狱鬼", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[167876] = {
-					"Inquisitor Sigar", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[164363] = {
-					"不死石精", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[167493] = {
-					"Venomous Sniper", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[183398] = {
-					"远古哨兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164555] = {
-					"Millificent Manastorm", -- [1]
-					"De Other Side", -- [2]
-				},
-				[151333] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[181546] = {
-					"新生原型体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[173051] = {
-					"镇压者泽罗尔斯", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183399] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[167111] = {
-					"Spinemaw Staghorn", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[1860] = {
-					"格里姆苏克", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[171455] = {
-					"石墙加尔贡", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[69791] = {
-					"地狱葬花", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[165515] = {
-					"Depraved Darkblade", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[164557] = {
-					"哈尔吉亚斯的碎片", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[181548] = {
-					"赦罪原型体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184742] = {
-					"被统御的塑形者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[166921] = {
-					"枯败潜伏者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[168007] = {
-					"强化的渊誓缚魂者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[157340] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[167113] = {
-					"锥喉酸咽者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[165197] = {
-					"Skeletal Monstrosity", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[170882] = {
-					"Bone Magus", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[69792] = {
-					"地狱葬花", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168882] = {
-					"瞬息具象", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[164815] = {
-					"佐尔拉姆斯虹吸者", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[162049] = {
-					"疑虑残迹", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[185574] = {
-					"被统御的破坏者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185113] = {
-					"戈姆巨怪", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[174325] = {
-					"晋升的巫妖", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[172991] = {
-					"Drust Soulcleaver", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[171522] = {
-					"污秽的屠戮者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[135816] = {
-					"邪犬", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[166589] = {
-					"活化武器", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[169159] = {
-					"Unstable Canister", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[178601] = {
-					"凯文的小软泥怪", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[181551] = {
-					"恪职原型体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167117] = {
-					"锥喉幼虫", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[168393] = {
-					"Plaguebelcher", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[168457] = {
-					"石墙加尔贡", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[78001] = {
-					"暴雨图腾", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183404] = {
-					"永恒装配工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167116] = {
-					"锥喉掠夺者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[168713] = {
-					"恐惧召唤师斯加菲尔", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[171448] = {
-					"恐怖的狩猎大师", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[171396] = {
-					"格里恩哥利亚", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[169927] = {
-					"Putrid Butcher", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[163458] = {
-					"Forsworn Castigator", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[163459] = {
-					"Forsworn Mender", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[167564] = {
-					"玛尔恩德拉", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[164562] = {
-					"Depraved Houndmaster", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[165137] = {
-					"佐尔拉姆斯守门人", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[163157] = {
-					"阿玛厄斯", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[163063] = {
-					"巴米达尔", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[171461] = {
-					"未知目标", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[168109] = {
-					"强化的渊誓祭师", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[167534] = {
-					"Rek the Hardened", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[155812] = {
-					"渊誓祭师", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[164563] = {
-					"Vicious Gargon", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[165138] = {
-					"凋零之袋", -- [1]
-					"暗影界", -- [2]
-				},
-				[184109] = {
-					"造物残余", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[150958] = {
-					"渊誓卫兵", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[168396] = {
-					"Plaguebelcher", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[162051] = {
-					"Frenzied Ghoul", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[163326] = {
-					"骷髅防御者", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[183407] = {
-					"永恒匠工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[165111] = {
-					"德鲁斯特恶爪者", -- [1]
-					"暗影界", -- [2]
-				},
-				[172142] = {
-					"妮娜达尔女男爵", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[185099] = {
-					"幽灵军马", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[168844] = {
-					"Lakesis", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[162040] = {
-					"Grand Overseer", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[168108] = {
-					"强化的笨重造物", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[164501] = {
-					"唤雾者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[174210] = {
-					"Blighted Sludge-Spewer", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[183983] = {
-					"被统御的侍者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[184791] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[153451] = {
-					"堕落者科萨鲁斯", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[165872] = {
-					"Flesh Crafter", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[168966] = {
-					"闪花", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[184651] = {
-					"征服者泽尔托兹", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[152905] = {
-					"塔楼哨卫", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[171656] = {
-					"Venomous Sniper Captain", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[162039] = {
-					"Wicked Oppressor", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[185581] = {
-					"永恒锻工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184623] = {
-					"远古元鸟", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[166920] = {
-					"枯败仆从", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[167532] = {
-					"Heavin the Breaker", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[166919] = {
-					"污秽的屠戮者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[164338] = {
-					"渊誓卫兵", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[168591] = {
-					"贪婪的恐惧蝠", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[164567] = {
-					"英格拉·马洛克", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[185582] = {
-					"永恒装配工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[165076] = {
-					"Gluttonous Tick", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[183919] = {
-					"被统御的哨卫", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[162298] = {
-					"残忍的约卡塔", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[184522] = {
-					"警戒监护者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184880] = {
-					"被统御的干扰者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183947] = {
-					"强化的护卫", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185008] = {
-					"不稳定的哨兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[155945] = {
-					"束链者格鲁斯", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[164185] = {
-					"艾谢朗", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[151818] = {
-					"丧魂畸形造物", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[165816] = {
-					"辛达妮侯爵", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[163145] = {
-					"通灵祭师", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[184539] = {
-					"自动抹除者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183412] = {
-					"被统御的破坏者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[166266] = {
-					"备用部件", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[165560] = {
-					"未知目标", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[182071] = {
-					"护卫自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[154030] = {
-					"大得出奇的噬渊鼠", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[151817] = {
-					"丧魂恶鬼", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[167955] = {
-					"Sanguine Cadet", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[163506] = {
-					"Forsworn Stealthclaw", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[168594] = {
-					"Chamber Sentinel", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[185010] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[170572] = {
-					"Atal'ai Hoodoo Hexxer", -- [1]
-					"De Other Side", -- [2]
-				},
-				[416] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183669] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167892] = {
-					"被折磨的灵魂", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[167956] = {
-					"Dark Acolyte", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[166079] = {
-					"脆骨弩手", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[165529] = {
-					"Depraved Collector", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[184627] = {
-					"被统御的塑形者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[169893] = {
-					"Nefarious Darkspeaker", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[151816] = {
-					"丧魂清道夫", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[163122] = {
-					"脆骨战士", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[163058] = {
-					"Mistveil Defender", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[165913] = {
-					"阴森的教民", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[162689] = {
-					"外科医生缝肉", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[185268] = {
-					"檀钢构造体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[55659] = {
-					"野生小鬼", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[173066] = {
-					"克尔苏加德", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[171343] = {
-					"Bladebeak Matriarch", -- [1]
-					"De Other Side", -- [2]
-				},
-				[153011] = {
-					"束缚者巴里塔司", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[165339] = {
-					"强化的妮娜达尔女男爵", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[181244] = {
-					"统御核心", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[151815] = {
-					"丧魂回响", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183416] = {
-					"受缚的国度碎裂者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[173114] = {
-					"入侵的葬秋萤", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183033] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[163121] = {
-					"Stitched Vanguard", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[169875] = {
-					"Shackled Soul", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[185030] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[182778] = {
-					"坍缩的类星体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[186484] = {
-					"笨重造物", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[173708] = {
-					"锚点符文", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[185014] = {
-					"死亡观察者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[164343] = {
-					"未知目标", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[164702] = {
-					"未知目标", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[166299] = {
-					"Mistveil Tender", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[58965] = {
-					"吉格-萨克", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183463] = {
-					"陨落君王的残迹", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164447] = {
-					"斯库尔德", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[155824] = {
-					"笨重造物", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185015] = {
-					"束缚者巴里塔司", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[151353] = {
-					"噬渊鼠", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[135002] = {
-					"恶魔暴君", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164427] = {
-					"未知目标", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[185271] = {
-					"星辰微粒", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[186357] = {
-					"星辰微粒", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[163621] = {
-					"Goregrind", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[183406] = {
-					"硕大的国度打造者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168153] = {
-					"Plagueroc", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[163618] = {
-					"Zolramus Necromancer", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[185029] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[153015] = {
-					"未知目标", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[167898] = {
-					"未知目标", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[163503] = {
-					"Etherdiver", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[166301] = {
-					"纱雾追猎者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[183931] = {
-					"被统御的卫士", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[184010] = {
-					"折磨先知", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[163619] = {
-					"Zolramus Bonecarver", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[163110] = {
-					"德拉卡女男爵", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[166302] = {
-					"Corpse Harvester", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[169753] = {
-					"饥饿的虱子", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[165919] = {
-					"Skeletal Marauder", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[157807] = {
-					"渊誓织魂者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[184954] = {
-					"远古塑形者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164578] = {
-					"缝肉的造物", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[163620] = {
-					"Rotspew", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[170838] = {
-					"Unyielding Contender", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[167965] = {
-					"Lubricator", -- [1]
-					"De Other Side", -- [2]
-				},
-				[185274] = {
-					"星界粒子", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168986] = {
-					"Skeletal Raptor", -- [1]
-					"De Other Side", -- [2]
-				},
-				[164451] = {
-					"Dessia the Decapitator", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[155828] = {
-					"刻符巨像", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[163366] = {
-					"亡者魔导师", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[98035] = {
-					"恐惧猎犬", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183934] = {
-					"被统御的核心", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[165793] = {
-					"费尔恩戴", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[167612] = {
-					"石裔掠夺者", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[165410] = {
-					"高阶裁决官阿丽兹", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[171799] = {
-					"Depths Warden", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[171159] = {
-					"瓦解之魂残迹", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185020] = {
-					"黑暗晋升者科鲁斯", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[163622] = {
-					"碎淤残块", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[184126] = {
-					"防御矩阵自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185212] = {
-					"渊誓弓手", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185347] = {
-					"被统御的根除者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168988] = {
-					"蔓生藤条", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[173140] = {
-					"未知目标", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[155830] = {
-					"渊誓信徒", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185021] = {
-					"长者漫枝", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[31216] = {
-					"大少爷的剑", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[163623] = {
-					"烂吐残渣", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[162729] = {
-					"帕奇维克士兵", -- [1]
-					"暗影界", -- [2]
-				},
-				[165408] = {
-					"哈尔吉亚斯", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[167967] = {
-					"Sentient Oil", -- [1]
-					"De Other Side", -- [2]
-				},
-				[151814] = {
-					"丧魂影魔", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[155831] = {
-					"渊誓缚魂者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[174802] = {
-					"Venomous Sniper", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[152898] = {
-					"丧魂合声", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185181] = {
-					"自动抹除者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[171166] = {
-					"瓦解之魂残迹", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183745] = {
-					"征用自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[165211] = {
-					"克尔苏加德", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[163126] = {
-					"Brittlebone Mage", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[160495] = {
-					"Maniacal Soulbinder", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[185023] = {
-					"西诺德", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[172312] = {
-					"锥喉饕餮者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[165222] = {
-					"Zolramus Bonemender", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[164589] = {
-					"康复中的灵茧", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183499] = {
-					"雇佣打手", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[165414] = {
-					"Depraved Obliterator", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[163882] = {
-					"Decaying Flesh Giant", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[162549] = {
-					"瓦丝琪女男爵", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[185024] = {
-					"帕特里西安·克伦威尔", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183429] = {
-					"黑檀链卫", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[167806] = {
-					"未知目标", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[165798] = {
-					"通灵祭师", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[173016] = {
-					"Corpse Collector", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[168992] = {
-					"Risen Cultist", -- [1]
-					"De Other Side", -- [2]
-				},
-				[173655] = {
-					"Mistveil Matriarch", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[184961] = {
-					"多瘤的掠行者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183988] = {
-					"强化的侍者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[166275] = {
-					"Mistveil Shaper", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[181954] = {
-					"安度因·乌瑞恩", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[173714] = {
-					"Mistveil Nightblossom", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[168418] = {
-					"Forsworn Inquisitor", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[173720] = {
-					"Mistveil Gorgegullet", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[165415] = {
-					"劳苦的管理员", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[184962] = {
-					"多瘤的吞噬食腐者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185537] = {
-					"恶心的操控魔", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168580] = {
-					"Plagueborer", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[185154] = {
-					"玛尔加尼斯", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183992] = {
-					"自动防御矩阵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[17252] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185346] = {
-					"被统御的根除者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[100943] = {
-					"大地之墙图腾", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[163501] = {
-					"Forsworn Skirmisher", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[165911] = {
-					"Loyal Creation", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[171805] = {
-					"研究铭文师", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[185155] = {
-					"被颠覆的守护者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[170690] = {
-					"Diseased Horror", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[168420] = {
-					"Forsworn Champion", -- [1]
-					"Spires of Ascension", -- [2]
-				},
-				[120651] = {
-					"未知目标", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[164517] = {
-					"特雷德奥瓦", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[168101] = {
-					"强化的丧魂影魔", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183495] = {
-					"扭曲的噬界者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[173339] = {
-					"Plaguebelcher", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[166304] = {
-					"纱雾钉刺蛾", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[168357] = {
-					"Zolramus Sorcerer", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[167963] = {
-					"Headless Client", -- [1]
-					"De Other Side", -- [2]
-				},
-				[152644] = {
-					"丧魂飘浮者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[152708] = {
-					"渊誓寻猎者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183432] = {
-					"黑檀统御者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183496] = {
-					"恶心的饕餮者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164920] = {
-					"Drust Soulcleaver", -- [1]
-					"Mists of Tirna Scithe", -- [2]
-				},
-				[164348] = {
-					"游荡的影魔", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[183688] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[186127] = {
-					"檀钢构造体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184738] = {
-					"护卫自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[182074] = {
-					"征用自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[181850] = {
-					"预制哨兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183497] = {
-					"恶心的操控魔", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[162099] = {
-					"卡尔将军", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[183500] = {
-					"行窃的特工", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184733] = {
-					"被统御的步兵", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[182777] = {
-					"莱葛隆", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183409] = {
-					"压制武器", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164506] = {
-					"Ancient Captain", -- [1]
-					"Theater of Pain", -- [2]
-				},
-				[183945] = {
-					"不稳定的物质", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[183498] = {
-					"违法收集者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[162100] = {
-					"贪食的克里克西斯", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[167607] = {
-					"Stoneborn Slasher", -- [1]
-					"Halls of Atonement", -- [2]
-				},
-				[24207] = {
-					"亡者大军", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[182823] = {
-					"宇宙核心", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[164218] = {
-					"宫务大臣", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[183413] = {
-					"被统御的根除者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[171171] = {
-					"渊誓弓手", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[185032] = {
-					"监工赛·普洛", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168310] = {
-					"Plagueroc", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[184737] = {
-					"征用自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[155908] = {
-					"亡语者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[166913] = {
-					"被腐化的卫士", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[162693] = {
-					"缚霜者纳尔佐", -- [1]
-					"通灵战潮", -- [2]
-				},
-				[181549] = {
-					"征战原型体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[171172] = {
-					"渊誓禁锢者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[162038] = {
-					"Regal Mistdancer", -- [1]
-					"Sanguine Depths", -- [2]
-				},
-				[162102] = {
-					"大学监贝律莉娅", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[184734] = {
-					"神圣矩阵自动体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185225] = {
-					"焰炉大师", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[95072] = {
-					"巨型土元素", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[163891] = {
-					"Rotmarrow Slime", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[174175] = {
-					"忠诚的石裔魔", -- [1]
-					"赎罪大厅", -- [2]
-				},
-				[171173] = {
-					"渊誓阴影追猎者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[183501] = {
-					"圣物匠赛·墨克斯", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[162103] = {
-					"执行者塔沃德", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[184140] = {
-					"未知目标", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[185226] = {
-					"焰炉执行者", -- [1]
-					"托加斯特，罪魂之塔", -- [2]
-				},
-				[164339] = {
-					"渊誓弓箭手", -- [1]
-					"炽蓝仙野盟约第二章场景战役", -- [2]
-				},
-				[168960] = {
-					"疤躯者富尔菲尔", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[171520] = {
-					"枯败潜伏者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[183438] = {
-					"链缚构造体", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168683] = {
-					"高莱克·扎尔", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[185610] = {
-					"寂灭主管", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168961] = {
-					"饥饿之众", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[171521] = {
-					"恐惧唤魔师", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[168967] = {
-					"戈尔韦恩", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-				[181395] = {
-					"司垢莱克斯", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[184908] = {
-					"维型拦截者", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[183439] = {
-					"渊誓歼灭者", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[162041] = {
-					"肮脏的嚼土者", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[65310] = {
-					"芜菁沙袋", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[162046] = {
-					"饥饿的虱子", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[184206] = {
-					"恶毒的小鬼", -- [1]
-					"初诞者圣墓", -- [2]
-				},
-				[168446] = {
-					"Skeletal Monstrosity", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[163894] = {
-					"Blighted Spinebreaker", -- [1]
-					"Plaguefall", -- [2]
-				},
-				[171384] = {
-					"研究铭文师", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[162133] = {
-					"卡尔将军", -- [1]
-					"赤红深渊", -- [2]
-				},
-				[165108] = {
-					"未知目标", -- [1]
-					"塞兹仙林的迷雾", -- [2]
-				},
-				[163128] = {
-					"Zolramus Sorcerer", -- [1]
-					"The Necrotic Wake", -- [2]
-				},
-				[163199] = {
-					"图尔塔因", -- [1]
-					"玛卓克萨斯盟约终幕场景战役", -- [2]
-				},
-				[166917] = {
-					"林地破坏者", -- [1]
-					"炽蓝仙野盟约终幕德鲁斯特场景战役", -- [2]
-				},
-			},
-			["aura_grow_direction"] = 1,
-			["aura_stack_shadow_color"] = {
-				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				0, -- [4]
-			},
-			["minor_height_scale"] = 0.99999994039536,
-			["aura_padding"] = 2,
-			["last_news_time"] = 1551553489,
-			["aura_width2"] = 16,
-			["aura_stack_size"] = 9,
-			["castbar_target_anchor"] = {
-				["side"] = 11,
-			},
-			["hook_data_trash"] = {
-				{
-					["LastHookEdited"] = "",
-					["UID"] = "0x62229f65202d123",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local vyColor = modTable.config.vyColor\n    local woColor = modTable.config.woColor\n    local urhColor = modTable.config.urhColor\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    \n    envTable.NpcColors = {\n        \n        [\"维型圣物\"] = vyColor,  --haste & proc\n        [\"维型拦截者\"] = vyColor,\n        \n        [\"沃型圣物\"] = woColor, --movespeed & stealth\n        [\"沃型飘移者\"] = woColor,\n        \n        [\"尤型圣物\"] = urhColor, --cdr & mana\n        [\"尤型拆卸者\"] = urhColor,\n        \n    } \n    \n    envTable.NpcNames = {\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName,\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth\n        [\"沃型飘移者\"] = woName,\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName,\n        \n    } \n    \nend\n\n\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    local setColor = modTable.config.setColor\n    \n    if color and setColor then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["__TrashAt"] = 1648710074,
-					["Time"] = 1646580210,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["url"] = "",
-					["Icon"] = 4224736,
-					["Enabled"] = true,
-					["Revision"] = 212,
-					["semver"] = "",
-					["Author"] = "Ilrieth-Argent Dawn",
-					["Desc"] = "使用自定义值修改加密圣物的名称和血条颜色",
-					["Prio"] = 99,
-					["Name"] = "加密词缀改名和颜色",
-					["PlaterCore"] = 1,
-					["version"] = -1,
-					["HooksTemp"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    local setColor = modTable.config.setColor\n    \n    if color and setColor then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local vyColor = modTable.config.vyColor\n    local woColor = modTable.config.woColor\n    local urhColor = modTable.config.urhColor\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    \n    envTable.NpcColors = {\n        \n        [\"维型圣物\"] = vyColor,  --haste & proc\n        [\"维型拦截者\"] = vyColor,\n        \n        [\"沃型圣物\"] = woColor, --movespeed & stealth\n        [\"沃型飘移者\"] = woColor,\n        \n        [\"尤型圣物\"] = urhColor, --cdr & mana\n        [\"尤型拆卸者\"] = urhColor,\n        \n    } \n    \n    envTable.NpcNames = {\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName,\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth\n        [\"沃型飘移者\"] = woName,\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName,\n        \n    } \n    \nend\n\n\n\n\n",
-					},
-					["Options"] = {
-						{
-							["Type"] = 4,
-							["Key"] = "setColor",
-							["Value"] = true,
-							["Name"] = "启用血条变色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "是否更改血条颜色?",
-						}, -- [1]
-						{
-							["Type"] = 1,
-							["Key"] = "vyColor",
-							["Value"] = {
-								0, -- [1]
-								0.9921568627451, -- [2]
-								1, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "维型圣物血条颜色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "",
-						}, -- [2]
-						{
-							["Type"] = 1,
-							["Name"] = "沃型圣物血条颜色",
-							["Value"] = {
-								0.33725490196078, -- [1]
-								1, -- [2]
-								0.42352941176471, -- [3]
-								1, -- [4]
-							},
-							["Key"] = "woColor",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "",
-						}, -- [3]
-						{
-							["Type"] = 1,
-							["Key"] = "urhColor",
-							["Value"] = {
-								0.63137254901961, -- [1]
-								0.34901960784314, -- [2]
-								1, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "尤型圣物血条颜色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "",
-						}, -- [4]
-						{
-							["Type"] = 6,
-							["Key"] = "pog",
-							["Value"] = 0,
-							["Name"] = "Divider",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [5]
-						{
-							["Type"] = 4,
-							["Key"] = "setName",
-							["Value"] = true,
-							["Name"] = "启用更改姓名",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "是否更改名字?",
-						}, -- [6]
-						{
-							["Type"] = 3,
-							["Key"] = "vyName",
-							["Value"] = "维『急速 / 召唤宝珠』",
-							["Name"] = "维型圣物改名",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "",
-						}, -- [7]
-						{
-							["Type"] = 3,
-							["Name"] = "沃型圣物改名",
-							["Value"] = "沃『移速 / 减伤 / 隐身』",
-							["Key"] = "woName",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "",
-						}, -- [8]
-						{
-							["Type"] = 3,
-							["Name"] = "尤型圣物改名",
-							["Value"] = "尤『减CD / 回血 / 回蓝』",
-							["Key"] = "urhName",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "",
-						}, -- [9]
-					},
-				}, -- [1]
-			},
-			["enable_masque_support"] = true,
-			["extra_icon_anchor"] = {
-				["x"] = 4,
-			},
-			["use_playerclass_color"] = false,
-			["range_check_alpha"] = 1,
-			["semver"] = "1.0.2",
-			["aura_frame2_anchor"] = {
-				["y"] = 0,
-				["x"] = 7,
-				["side"] = 6,
-			},
-			["cast_statusbar_texture"] = "003",
-			["auto_toggle_friendly"] = {
-				["party"] = true,
-			},
-			["aura_cooldown_edge_texture"] = "Interface\\GLUES\\loadingOld",
-			["aura_consolidate"] = true,
-			["extra_icon_width"] = 16,
-			["health_statusbar_texture"] = "Melli",
-			["hook_auto_imported"] = {
-				["Color Automation"] = 1,
-				["Blockade Encounter"] = 1,
-				["Cast Bar Icon Config"] = 2,
-				["Hide Neutral Units"] = 1,
-				["Attacking Specific Unit"] = 2,
-				["Reorder Nameplate"] = 4,
-				["Dont Have Aura"] = 1,
-				["Monk Statue"] = 2,
-				["Bwonsamdi Reaping"] = 1,
-				["Jaina Encounter"] = 6,
-				["Aura Reorder"] = 3,
-				["Players Targetting Amount"] = 4,
-				["Combo Points"] = 6,
-				["Targetting Alpha"] = 3,
-				["Target Color"] = 3,
-				["Extra Border"] = 2,
-				["Execute Range"] = 1,
-			},
-			["minor_width_scale"] = 0.99999994039536,
-			["castbar_target_text_size"] = 9,
-			["aura_frame1_anchor"] = {
-				["y"] = 4.2299957275391,
-				["side"] = 7,
-			},
-			["aura_timer_text_font"] = "Accidental Presidency",
-			["extra_icon_stack_font"] = "Accidental Presidency",
-			["cast_statusbar_bgtexture"] = "PlaterBackground",
-			["aura2_x_offset"] = 7,
-			["target_indicator"] = "Composite Reversed",
-			["saved_cvars"] = {
-				["ShowClassColorInNameplate"] = "1",
-				["nameplateOverlapV"] = "1.2000000476837",
-				["nameplateLargeTopInset"] = "0.085",
-				["nameplateShowEnemyMinus"] = "1",
-				["NamePlateClassificationScale"] = "1",
-				["nameplateShowFriendlyTotems"] = "0",
-				["nameplatePersonalHideDelaySeconds"] = "0.2",
-				["nameplateShowFriendlyPets"] = "0",
-				["nameplatePersonalShowInCombat"] = "1",
-				["nameplatePersonalShowWithTarget"] = "0",
-				["nameplateResourceOnTarget"] = "0",
-				["clampTargetNameplateToScreen"] = "1",
-				["nameplateShowAll"] = "1",
-				["nameplateMaxDistance"] = "100",
-				["nameplateShowFriendlyMinions"] = "0",
-				["nameplateSelfScale"] = "1.0",
-				["nameplateTargetBehindMaxDistance"] = "30",
-				["nameplateShowEnemies"] = "1",
-				["NamePlateVerticalScale"] = "1",
-				["nameplateSelectedAlpha"] = "1",
-				["nameplateShowSelf"] = "0",
-				["nameplateSelfTopInset"] = "0.5",
-				["nameplateMotionSpeed"] = "0.05",
-				["nameplateGlobalScale"] = "1.0",
-				["nameplateShowEnemyMinions"] = "1",
-				["nameplateShowFriendlyNPCs"] = "0",
-				["nameplateSelectedScale"] = "1.15",
-				["nameplateShowFriends"] = "1",
-				["nameplateMotion"] = "1",
-				["nameplateMinScale"] = "1",
-				["nameplateOtherTopInset"] = "0.085",
-				["nameplateTargetRadialPosition"] = "1",
-				["nameplateSelfBottomInset"] = "0.2",
-				["nameplateOccludedAlphaMult"] = "1",
-				["nameplateShowFriendlyGuardians"] = "0",
-				["NamePlateHorizontalScale"] = "1",
-				["nameplatePersonalShowAlways"] = "0",
-				["nameplateSelfAlpha"] = "0.75",
-				["nameplateShowOnlyNames"] = "1",
-				["ShowNamePlateLoseAggroFlash"] = "1",
-			},
-			["login_counter"] = 10924,
-			["extra_icon_caster_name"] = false,
-			["click_space_friendly"] = {
-				120, -- [1]
-				20, -- [2]
-			},
-			["aura_stack_font"] = "Accidental Presidency",
-			["hide_friendly_castbars"] = true,
-			["OptionsPanelDB"] = {
-				["PlaterOptionsPanelFrame"] = {
-					["scale"] = 1,
-				},
-			},
-			["aura_timer_text_shadow_color"] = {
-				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				0, -- [4]
-			},
-			["target_highlight_texture"] = "Interface\\AddOns\\Plater\\images\\selection_indicator2",
-			["plater_resources_show_depleted"] = false,
-			["plate_config"] = {
-				["global_health_height"] = 12,
-				["friendlyplayer"] = {
-					["big_actorname_text_size"] = 10,
-					["spellpercent_text_font"] = "Accidental Presidency",
-					["level_text_size"] = 8,
-					["actorname_use_class_color"] = true,
-					["cast"] = {
-						110, -- [1]
-					},
-					["spellpercent_text_anchor"] = {
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["big_actorname_text_shadow_color"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["spellpercent_text_outline"] = "NONE",
-					["level_text_font"] = "Accidental Presidency",
-					["actorname_text_font"] = "Accidental Presidency",
-					["big_actorname_text_shadow_color_offset"] = {
-						1, -- [1]
-						-1, -- [2]
-					},
-					["mana_incombat"] = {
-						nil, -- [1]
-						4, -- [2]
-					},
-					["all_names"] = true,
-					["big_actortitle_text_outline"] = "OUTLINE",
-					["only_damaged"] = false,
-					["quest_color_enemy"] = {
-						1, -- [1]
-						0.369, -- [2]
-						0, -- [3]
-					},
-					["only_thename"] = true,
-					["big_actortitle_text_font"] = "Accidental Presidency",
-					["spellpercent_text_size"] = 9,
-					["level_text_anchor"] = {
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["big_actortitle_text_shadow_color_offset"] = {
-						1, -- [1]
-						-1, -- [2]
-					},
-					["percent_text_size"] = 8,
-					["cast_incombat"] = {
-						110, -- [1]
-					},
-					["spellname_text_anchor"] = {
-						["y"] = 1,
-						["side"] = 3,
-					},
-					["big_actortitle_text_shadow_color"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["percent_text_anchor"] = {
-						["y"] = 1,
-						["side"] = 3,
-					},
-					["spellname_text_font"] = "Accidental Presidency",
-					["big_actorname_text_outline"] = "OUTLINE",
-					["health_incombat"] = {
-						110, -- [1]
-						12, -- [2]
-					},
-					["big_actortitle_text_size"] = 10,
-					["quest_color_neutral"] = {
-						1, -- [1]
-						0.65, -- [2]
-						0, -- [3]
-					},
-					["actorname_text_size"] = 11,
-					["power_percent_text_font"] = "Accidental Presidency",
-					["percent_text_ooc"] = true,
-					["percent_show_health"] = true,
-					["spellpercent_text_enabled"] = true,
-					["mana"] = {
-						nil, -- [1]
-						4, -- [2]
-					},
-					["percent_text_font"] = "Accidental Presidency",
-					["buff_frame_y_offset"] = 0,
-					["quest_enabled"] = true,
-					["big_actorname_text_font"] = "Accidental Presidency",
-					["spellname_text_color"] = {
-						0.95294117647059, -- [1]
-						[3] = 0.9921568627451,
-					},
-					["spellname_text_size"] = 9,
-					["health"] = {
-						110, -- [1]
-						12, -- [2]
-					},
-					["percent_text_enabled"] = true,
-					["actorname_text_anchor"] = {
-						["y"] = -3,
-						["x"] = -1,
-						["side"] = 1,
-					},
-					["level_text_alpha"] = 0.29999998211861,
-					["percent_text_outline"] = "NONE",
-				},
-				["friendlynpc"] = {
-					["spellpercent_text_font"] = "Accidental Presidency",
-					["level_text_size"] = 8,
-					["cast"] = {
-						110, -- [1]
-						8, -- [2]
-					},
-					["spellpercent_text_anchor"] = {
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["spellpercent_text_outline"] = "NONE",
-					["level_text_font"] = "Accidental Presidency",
-					["actorname_text_font"] = "Accidental Presidency",
-					["actorname_text_outline"] = "OUTLINE",
-					["actorname_text_spacing"] = 9,
-					["quest_color_enemy"] = {
-						1, -- [1]
-						0.369, -- [2]
-						0, -- [3]
-					},
-					["big_actortitle_text_font"] = "Accidental Presidency",
-					["spellpercent_text_size"] = 9,
-					["level_text_anchor"] = {
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["spellname_text_size"] = 9,
-					["cast_incombat"] = {
-						110, -- [1]
-					},
-					["spellname_text_anchor"] = {
-						["y"] = 1,
-						["side"] = 3,
-					},
-					["spellname_text_font"] = "Accidental Presidency",
-					["only_names"] = false,
-					["big_actorname_text_font"] = "Accidental Presidency",
-					["quest_color_neutral"] = {
-						1, -- [1]
-						0.65, -- [2]
-						0, -- [3]
-					},
-					["big_actortitle_text_size"] = 10,
-					["percent_text_enabled"] = true,
-					["big_actorname_text_size"] = 10,
-					["percent_text_ooc"] = true,
-					["actorname_text_anchor"] = {
-						["y"] = 1,
-						["side"] = 1,
-					},
-					["spellpercent_text_enabled"] = true,
-					["percent_text_font"] = "Accidental Presidency",
-					["spellname_text_color"] = {
-						0.95294117647059, -- [1]
-						[3] = 0.9921568627451,
-					},
-					["health_incombat"] = {
-						110, -- [1]
-						12, -- [2]
-					},
-					["health"] = {
-						110, -- [1]
-					},
-					["power_percent_text_font"] = "Accidental Presidency",
-					["percent_show_health"] = true,
-					["percent_text_size"] = 10,
-					["level_text_alpha"] = 0.29999998211861,
-				},
-				["player"] = {
-					["spellpercent_text_font"] = "Accidental Presidency",
-					["power_percent_text_enabled"] = false,
-					["level_text_font"] = "Accidental Presidency",
-					["actorname_text_font"] = "Accidental Presidency",
-					["big_actortitle_text_font"] = "Accidental Presidency",
-					["spellname_text_font"] = "Accidental Presidency",
-					["click_through"] = true,
-					["power_percent_text_font"] = "Accidental Presidency",
-					["power_percent_text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-					},
-					["percent_text_font"] = "Accidental Presidency",
-					["big_actorname_text_font"] = "Accidental Presidency",
-				},
-				["enemynpc"] = {
-					["spellpercent_text_font"] = "ViklunD's SexFont",
-					["cast"] = {
-						110, -- [1]
-						8, -- [2]
-					},
-					["spellpercent_text_anchor"] = {
-						["y"] = -0.80000305175781,
-						["x"] = 3.8999938964844,
-						["side"] = 5,
-					},
-					["spellpercent_text_outline"] = "NONE",
-					["level_text_font"] = "Accidental Presidency",
-					["spellname_text_color"] = {
-						0.95294117647059, -- [1]
-						[3] = 0.9921568627451,
-					},
-					["actorname_text_outline"] = "OUTLINE",
-					["actorname_text_spacing"] = 8,
-					["big_actortitle_text_font"] = "Accidental Presidency",
-					["spellpercent_text_size"] = 9,
-					["level_text_anchor"] = {
-						["y"] = 100,
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["cast_incombat"] = {
-						110, -- [1]
-						8, -- [2]
-					},
-					["actorname_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["spellname_text_anchor"] = {
-						["y"] = 0.099998474121094,
-						["x"] = -0.80000305175781,
-						["side"] = 3,
-					},
-					["percent_text_anchor"] = {
-						["y"] = -0.029998779296875,
-					},
-					["spellpercent_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["actorname_text_size"] = 9,
-					["big_actorname_text_font"] = "Accidental Presidency",
-					["percent_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["actorname_text_anchor"] = {
-						["y"] = 1.0699996948242,
-						["side"] = 1,
-					},
-					["percent_text_font"] = "Accidental Presidency",
-					["actorname_text_font"] = "Accidental Presidency",
-					["spellname_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["health_incombat"] = {
-						110, -- [1]
-						12, -- [2]
-					},
-					["health"] = {
-						110, -- [1]
-					},
-					["power_percent_text_font"] = "Accidental Presidency",
-					["level_text_alpha"] = 0.29999998211861,
-					["spellname_text_font"] = "Accidental Presidency",
-					["spellname_text_size"] = 9,
-					["level_text_enabled"] = false,
-				},
-				["enemyplayer"] = {
-					["big_actorname_text_size"] = 10,
-					["spellpercent_text_font"] = "ViklunD's SexFont",
-					["level_text_size"] = 8,
-					["cast"] = {
-						110, -- [1]
-						8, -- [2]
-					},
-					["big_actortitle_text_size"] = 10,
-					["spellpercent_text_anchor"] = {
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["percent_text_show_decimals"] = false,
-					["spellpercent_text_outline"] = "NONE",
-					["level_text_font"] = "Accidental Presidency",
-					["actorname_text_font"] = "Accidental Presidency",
-					["mana_incombat"] = {
-						120, -- [1]
-						1, -- [2]
-					},
-					["all_names"] = true,
-					["actorname_text_outline"] = "OUTLINE",
-					["actorname_text_spacing"] = 9,
-					["quest_color_enemy"] = {
-						1, -- [1]
-						0.369, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["big_actortitle_text_font"] = "Accidental Presidency",
-					["spellpercent_text_size"] = 9,
-					["level_text_anchor"] = {
-						["y"] = 100,
-						["x"] = 1,
-						["side"] = 5,
-					},
-					["cast_incombat"] = {
-						110, -- [1]
-						8, -- [2]
-					},
-					["actorname_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["spellname_text_anchor"] = {
-						["y"] = 1,
-						["side"] = 3,
-					},
-					["percent_text_anchor"] = {
-						["y"] = 4.6499938964844,
-						["side"] = 5,
-					},
-					["spellname_text_font"] = "Accidental Presidency",
-					["spellname_text_color"] = {
-						0.95294117647059, -- [1]
-						[3] = 0.9921568627451,
-					},
-					["quest_color_neutral"] = {
-						1, -- [1]
-						0.65, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["actorname_text_size"] = 10,
-					["big_actorname_text_font"] = "Accidental Presidency",
-					["percent_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["level_text_alpha"] = 0.29999998211861,
-					["percent_text_size"] = 10,
-					["percent_text_font"] = "Accidental Presidency",
-					["quest_enabled"] = true,
-					["power_percent_text_font"] = "Accidental Presidency",
-					["spellname_text_shadow_color"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["quest_color_enabled"] = true,
-					["health_incombat"] = {
-						110, -- [1]
-						12, -- [2]
-					},
-					["health"] = {
-						110, -- [1]
-					},
-					["percent_show_health"] = false,
-					["percent_show_percent"] = false,
-					["actorname_text_anchor"] = {
-						["y"] = -0.40000152587891,
-						["x"] = -1,
-						["side"] = 1,
-					},
-					["mana"] = {
-						120, -- [1]
-						1, -- [2]
-					},
-					["level_text_enabled"] = false,
-				},
-				["global_health_width"] = 110,
-			},
-			["aura_y_offset"] = 4.2299957275391,
-			["use_ui_parent"] = true,
-			["aura_show_tooltip"] = true,
-			["resources_settings"] = {
-				["chr"] = {
-					["Player-2133-0E85E2A6"] = "HolyPower",
-					["Player-1933-07B9AD6F"] = "Runes",
-				},
-			},
-			["number_region"] = "eastasia",
-			["npc_colors"] = {
-				[131670] = {
-					false, -- [1]
-					false, -- [2]
-					"palegreen", -- [3]
-				},
-				[162047] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[134284] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[133870] = {
-					false, -- [1]
-					false, -- [2]
-					"lightcoral", -- [3]
-				},
-				[134157] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[173714] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[136006] = {
-					false, -- [1]
-					false, -- [2]
-					"blue", -- [3]
-				},
-				[132532] = {
-					false, -- [1]
-					false, -- [2]
-					"palegreen", -- [3]
-				},
-				[144071] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[134158] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[122973] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[136005] = {
-					false, -- [1]
-					false, -- [2]
-					"blue", -- [3]
-				},
-				[172981] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[167532] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[136549] = {
-					false, -- [1]
-					false, -- [2]
-					"lightcoral", -- [3]
-				},
-				[134701] = {
-					false, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[168393] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[136295] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[171772] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[173016] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[167534] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[174802] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[174197] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[138465] = {
-					false, -- [1]
-					false, -- [2]
-					"lightcoral", -- [3]
-				},
-				[169159] = {
-					true, -- [1]
-					false, -- [2]
-					"darkcyan", -- [3]
-				},
-				[162051] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[170882] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[164920] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[171799] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[136934] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[164506] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[169893] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[170690] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[128967] = {
-					false, -- [1]
-					false, -- [2]
-					"palegreen", -- [3]
-				},
-				[169927] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[164921] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[168420] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[173655] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[134417] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[134514] = {
-					false, -- [1]
-					false, -- [2]
-					"lightgreen", -- [3]
-				},
-				[168396] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[165911] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[129366] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[139422] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[136139] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[165529] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[134418] = {
-					false, -- [1]
-					false, -- [2]
-					"dodgerblue", -- [3]
-				},
-				[173720] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[131677] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[126928] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[136076] = {
-					false, -- [1]
-					false, -- [2]
-					"lightcoral", -- [3]
-				},
-				[129559] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[135365] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[127757] = {
-					false, -- [1]
-					false, -- [2]
-					"lightcoral", -- [3]
-				},
-				[168844] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[137511] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[163128] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[137830] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[129367] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[173339] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[168942] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[167538] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[131585] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[133432] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[135474] = {
-					false, -- [1]
-					false, -- [2]
-					"dodgerblue", -- [3]
-				},
-				[128969] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[163618] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[139425] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[167955] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[163459] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[132126] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[168578] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[160495] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[162057] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[163619] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[167731] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[133593] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[130436] = {
-					false, -- [1]
-					false, -- [2]
-					"aqua", -- [3]
-				},
-				[153292] = {
-					false, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[163524] = {
-					true, -- [1]
-					false, -- [2]
-					"olivedrab", -- [3]
-				},
-				[172991] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[164737] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[163620] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[129369] = {
-					false, -- [1]
-					false, -- [2]
-					"lightsalmon", -- [3]
-				},
-				[131587] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[131586] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[166299] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[129600] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[134232] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[167876] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[167956] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[137516] = {
-					false, -- [1]
-					false, -- [2]
-					"lightsalmon", -- [3]
-				},
-				[127106] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[134137] = {
-					false, -- [1]
-					false, -- [2]
-					"dodgerblue", -- [3]
-				},
-				[137484] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[133436] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[130485] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[165872] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[131492] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[133685] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[129529] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[168627] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[163126] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[137517] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[170572] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[171656] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[137103] = {
-					false, -- [1]
-					false, -- [2]
-					"lightsalmon", -- [3]
-				},
-				[130661] = {
-					false, -- [1]
-					false, -- [2]
-					"lightgreen", -- [3]
-				},
-				[133852] = {
-					false, -- [1]
-					false, -- [2]
-					"olivedrab", -- [3]
-				},
-				[134139] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[137486] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[129227] = {
-					false, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[131685] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[134012] = {
-					false, -- [1]
-					false, -- [2]
-					"lightsalmon", -- [3]
-				},
-				[165919] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[134331] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[135258] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[168310] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[166302] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[136470] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[138061] = {
-					false, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[127315] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[125977] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[134174] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[134364] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[171181] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[138063] = {
-					false, -- [1]
-					false, -- [2]
-					"blue", -- [3]
-				},
-				[167610] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[168058] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[168949] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[169875] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[126918] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[133345] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[129547] = {
-					false, -- [1]
-					false, -- [2]
-					"olivedrab", -- [3]
-				},
-				[136214] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[137521] = {
-					false, -- [1]
-					false, -- [2]
-					"cornflowerblue", -- [3]
-				},
-				[168153] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[172265] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[163882] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[167994] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[134150] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[137713] = {
-					false, -- [1]
-					false, -- [2]
-					"paleturquoise", -- [3]
-				},
-				[174210] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[164552] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[130488] = {
-					false, -- [1]
-					false, -- [2]
-					"lightsalmon", -- [3]
-				},
-				[164451] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[167963] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[165222] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[131817] = {
-					false, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[141284] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[163501] = {
-					true, -- [1]
-					false, -- [2]
-					"olivedrab", -- [3]
-				},
-				[171343] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[141285] = {
-					false, -- [1]
-					false, -- [2]
-					"lightgreen", -- [3]
-				},
-				[136249] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[165414] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[126919] = {
-					false, -- [1]
-					false, -- [2]
-					"dodgerblue", -- [3]
-				},
-				[131818] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[166275] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[171376] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[171184] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[131436] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[168443] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[167965] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[164555] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[129788] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[137716] = {
-					false, -- [1]
-					false, -- [2]
-					"blue", -- [3]
-				},
-				[163503] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[167615] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[135007] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[163121] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[168986] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[134338] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[127111] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[135167] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[135263] = {
-					false, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[128434] = {
-					false, -- [1]
-					false, -- [2]
-					"palegreen", -- [3]
-				},
-				[162038] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[167607] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[167967] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[139949] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[132491] = {
-					false, -- [1]
-					false, -- [2]
-					"palegreen", -- [3]
-				},
-				[168318] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[122972] = {
-					false, -- [1]
-					false, -- [2]
-					"lightsalmon", -- [3]
-				},
-				[163621] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[162039] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[168446] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[122984] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[163058] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[168572] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[136186] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[163506] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[128435] = {
-					false, -- [1]
-					false, -- [2]
-					"aqua", -- [3]
-				},
-				[162040] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[166276] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[135329] = {
-					false, -- [1]
-					false, -- [2]
-					"plum", -- [3]
-				},
-				[134144] = {
-					false, -- [1]
-					false, -- [2]
-					"lightgreen", -- [3]
-				},
-				[170838] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[165515] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[138064] = {
-					false, -- [1]
-					false, -- [2]
-					"blue", -- [3]
-				},
-				[138255] = {
-					false, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[122969] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[170480] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[168886] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[165197] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[134629] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[141283] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[138187] = {
-					false, -- [1]
-					false, -- [2]
-					"paleturquoise", -- [3]
-				},
-				[135235] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[133482] = {
-					false, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[129370] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[163891] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[167493] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[174071] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[134990] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[135204] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[167111] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[168418] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[170490] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[168992] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[134599] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[131666] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[131858] = {
-					false, -- [1]
-					false, -- [2]
-					"dodgerblue", -- [3]
-				},
-				[168594] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[164562] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[133912] = {
-					false, -- [1]
-					false, -- [2]
-					"dodgerblue", -- [3]
-				},
-				[130404] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[136353] = {
-					false, -- [1]
-					false, -- [2]
-					"royalblue", -- [3]
-				},
-				[133835] = {
-					false, -- [1]
-					false, -- [2]
-					"goldenrod", -- [3]
-				},
-				[163458] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[134600] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-				[130435] = {
-					false, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[164563] = {
-					true, -- [1]
-					false, -- [2]
-					"maroon", -- [3]
-				},
-				[122971] = {
-					false, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[133430] = {
-					false, -- [1]
-					false, -- [2]
-					"cornflowerblue", -- [3]
-				},
-				[163894] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[137478] = {
-					false, -- [1]
-					false, -- [2]
-					"lightskyblue", -- [3]
-				},
-				[173360] = {
-					true, -- [1]
-					false, -- [2]
-					"WARRIOR", -- [3]
-				},
-				[168580] = {
-					true, -- [1]
-					false, -- [2]
-					"darkcyan", -- [3]
-				},
-				[168357] = {
-					true, -- [1]
-					false, -- [2]
-					"fuchsia", -- [3]
-				},
-				[135239] = {
-					false, -- [1]
-					false, -- [2]
-					"paleturquoise", -- [3]
-				},
-				[134251] = {
-					false, -- [1]
-					false, -- [2]
-					"honeydew", -- [3]
-				},
-				[129602] = {
-					false, -- [1]
-					false, -- [2]
-					"navajowhite", -- [3]
-				},
-				[165076] = {
-					true, -- [1]
-					false, -- [2]
-					"magenta", -- [3]
-				},
-				[135241] = {
-					false, -- [1]
-					false, -- [2]
-					"peru", -- [3]
-				},
-			},
-			["cast_statusbar_spark_half"] = true,
-			["hook_data"] = {
-				{
-					["OptionsValues"] = {
-					},
-					["HooksTemp"] = {
-					},
-					["Hooks"] = {
-						["Initialization"] = "function (modTable)\n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    modTable.changeBarColor = modTable.config.changeBarColor\n    modTable.changeBorderColor = modTable.config.changeBorderColor\n    modTable.resetColors = modTable.config.resetColors\n    \n    modTable.ListOfNpcs = {\n        [61146] = modTable.config.color, --\"olive\", --monk statue npcID\n        [103822] = modTable.config.color, --\"olive\", --druid treant npcID\n        [15352] = modTable.config.color, --\"olive\", --shaman elemental\n        [95072] = modTable.config.color, --\"olive\", --shaman greater earth elemental npcID\n        [61056] = modTable.config.color, --\"olive\", --shaman primal earth elemental npcID\n        \n    }\nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    if not unitId then\n        return\n    end\n    --get the GUID of the target of the unit\n    local targetGUID = UnitGUID (unitId .. \"target\")\n    \n    if (targetGUID) then\n        \n        --get the npcID of the target\n        local npcID = Plater.GetNpcIDFromGUID (targetGUID)\n        local unitName = UnitName (unitId .. \"target\")\n        local unitNameLower = string.lower (unitName)\n        \n        --check if the npcID of this unit is in the npc list \n        local color = modTable.ListOfNpcs [npcID] or modTable.ListOfNpcs [unitName] or modTable.ListOfNpcs [unitNameLower]\n        \n        if color then\n            if modTable.changeBarColor then\n                Plater.SetNameplateColor (unitFrame, color)\n            end\n            if modTable.changeBorderColor then\n                Plater.SetBorderColor (unitFrame, color)\n            end\n            unitFrame.attackingSpecificUnitFromMod = true\n        elseif unitFrame.attackingSpecificUnitFromMod and modTable.resetColors then\n            if modTable.changeBorderColor then\n                Plater.SetBorderColor (unitFrame)\n            end\n            if modTable.changeBarColor then\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n            unitFrame.attackingSpecificUnitFromMod = false\n        end\n    end\nend",
-					},
-					["Time"] = 1620377377,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-					["url"] = "",
-					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_attacking_unit",
-					["Enabled"] = false,
-					["Revision"] = 363,
-					["semver"] = "",
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Change the nameplate color if the unit is attacking a specific unit like Monk's Ox Statue or Druid's Treants. You may edit which units it track in the constructor script.",
-					["Name"] = "Attacking Specific Unit [Plater]",
-					["PlaterCore"] = 1,
-					["version"] = -1,
-					["LastHookEdited"] = "",
-					["Options"] = {
-						{
-							["Type"] = 1,
-							["Key"] = "color",
-							["Value"] = {
-								0.50196078431373, -- [1]
-								0.50196078431373, -- [2]
-								0, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "Color",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "",
-						}, -- [1]
-						{
-							["Type"] = 4,
-							["Name"] = "Change Bar Color",
-							["Value"] = true,
-							["Key"] = "changeBarColor",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "",
-						}, -- [2]
-						{
-							["Type"] = 4,
-							["Key"] = "changeBorderColor",
-							["Value"] = false,
-							["Name"] = "Change Border Color",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "",
-						}, -- [3]
-						{
-							["Type"] = 4,
-							["Key"] = "resetColors",
-							["Value"] = true,
-							["Name"] = "Reset Colors",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "",
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["Enabled"] = false,
-					["Revision"] = 95,
-					["LastHookEdited"] = "Constructor",
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Hide neutral units, show when selected, see the constructor script for options.",
-					["Hooks"] = {
-						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end\n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat and InCombatLockdown()) then\n            return\n        end\n        \n        envTable.HideNameplate (unitFrame)\n    end\n    \nend\n\n\n\n\n\n\n",
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat and InCombatLockdown()) then\n            return\n        end\n        \n        --check the unit reaction\n        if (unitFrame.namePlateIsTarget) then\n            envTable.ShowNameplate (unitFrame)\n            \n        else\n            envTable.HideNameplate (unitFrame)\n            \n        end    \n    end\n    \nend\n\n\n\n\n\n\n",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        envTable.ShowNameplate (unitFrame)\n    end\n    \nend\n\n\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --when plater finishes an update on the nameplate\n    --check within the envTable if the healthBar of this nameplate should be hidden\n    if (envTable.IsHidden) then\n        if (unitFrame.healthBar:IsShown()) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\n    \nend\n\n\n\n\n",
-						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.ShowNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.OnlyInOpenWorld = true;\n    envTable.ShowInCombat = true;\n    \n    --consts\n    envTable.REACTION_NEUTRAL = 4;\n    \n    --functions to hide and show the healthBar\n    function envTable.HideNameplate (unitFrame)\n        Plater.HideHealthBar (unitFrame)\n        Plater.DisableHighlight (unitFrame)\n        envTable.IsHidden = true\n    end\n    \n    function envTable.ShowNameplate (unitFrame)\n        Plater.ShowHealthBar (unitFrame)\n        Plater.EnableHighlight (unitFrame)\n        envTable.IsHidden = false\n    end\n    \nend\n\n\n\n\n",
-					},
-					["Name"] = "Hide Neutral Units [Plater]",
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-					["Icon"] = 1990989,
-					["Time"] = 1553450458,
-				}, -- [2]
-				{
-					["Enabled"] = false,
-					["Revision"] = 185,
-					["HooksTemp"] = {
-					},
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Show how many raid members are targeting the unit",
-					["Hooks"] = {
-						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShow = false;\n    envTable.TargetAmount:SetText (\"\")\nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --when a nameplate is added to the screen check if the player is in combat\n    if (InCombatLockdown()) then\n        --player is in combat, check if can check amount of targets\n        envTable.CanShow = envTable.CanShowTargetAmount();\n        \n    else\n        envTable.CanShow = false; \n    end\n    \n    envTable.TargetAmount:SetText (\"\");\n    \nend",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.TargetAmount:SetText (\"\");\n    envTable.CanShow = false;\n    \nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --if the script is allowed to show the amount of targets\n    --also check if the unit is in combat\n    if (envTable.CanShow and UnitAffectingCombat (unitId)) then\n        \n        --check if can update the amount of targets following the cooldown set in the constructor script\n        --by default Plater updates the nameplate every 250ms, by default the cooldown is 2, so it'll update the amuont of target every 1/2 of a second\n        envTable.UpdateCooldown = envTable.UpdateCooldown + 1\n        if (envTable.UpdateCooldown < envTable.UpdateInterval) then\n            return\n        else\n            \n            --reset the cooldown interval to check the amount of target again\n            envTable.UpdateCooldown = 0\n            \n            --get the amount of targets\n            local amount;\n            if (envTable.InRaid) then\n                amount = envTable.NumTargetsInRaid (unitFrame)      \n                \n            elseif (envTable.InParty) then\n                amount = envTable.NumTargetsInParty (unitFrame)   \n                \n            else\n                envTable.TargetAmount:SetText (\"\")\n                return\n            end\n            \n            --update the amount text\n            if (amount == 0) then\n                envTable.TargetAmount:SetText (\"\")\n            else\n                envTable.TargetAmount:SetText (amount)\n            end\n            \n        end\n    end\nend\n\n\n",
-						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if can show the amount of targets\n    envTable.CanShow = envTable.CanShowTargetAmount();\n    \n    if (not envTable.CanShow) then\n        envTable.TargetAmount:SetText (\"\") \n    end\nend\n\n\n\n\n",
-						["Constructor"] = "--all gray text like this are comments and do not run as code\n--build the settings and basic functions for the hook\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --declare setting variables:\n    local textColor = \"orange\";\n    local textSize = 12;\n    \n    local showInRaid = true;\n    local showInDungeon = true;\n    local showInArena = false;\n    local showInBattleground = false;\n    local showInOpenWorld = true;\n    \n    envTable.UpdateInterval = 2; --each 2 updates in the nameplate it'll update the amount of targets\n    \n    local anchor = {\n        side = 6, --1 = topleft 2 = left 3 = bottomleft 4 = bottom 5 = bottom right 6 = right 7 = topright 8 = top\n        x = 4, --x offset\n        y = 0, --y offset\n    };\n    \n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------\n    \n    \n    --frames:\n    \n    --create the text that will show the amount of people targeting the unit\n    if (not  unitFrame.healthBar.TargetAmount) then\n        envTable.TargetAmount = Plater:CreateLabel (unitFrame.healthBar, \"\", textSize, textColor);\n        Plater.SetAnchor (envTable.TargetAmount, anchor);\n        unitFrame.healthBar.TargetAmount = envTable.TargetAmount\n    end\n    \n    --in case Plater wipes the envTable\n    envTable.TargetAmount = unitFrame.healthBar.TargetAmount\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --private variables (they will be used in the other scripts within this hook)\n    envTable.CanShow = false;\n    envTable.UpdateCooldown = 0;\n    envTable.InRaid = false;\n    envTable.InParty = false;\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --functions\n    \n    --update the InRaid or InParty proprieties\n    function envTable.UpdateGroupType()\n        if (IsInRaid()) then\n            envTable.InRaid = true;\n            envTable.InParty = false;     \n            \n        elseif (IsInGroup()) then\n            envTable.InRaid = false;\n            envTable.InParty = true;   \n            \n        else\n            envTable.InRaid = false;            \n            envTable.InParty = false;\n        end\n    end\n    \n    --this function controls if the amount of targets can show following the settings in the top of this script\n    function envTable.CanShowTargetAmount()\n        \n        local _, instanceType, difficultyID, _, _, _, _, instanceMapID, instanceGroupSize = GetInstanceInfo()\n        \n        if (showInRaid and instanceType == \"raid\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInDungeon and instanceType == \"party\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInArena and instanceType == \"arena\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInBattleground and instanceType == \"pvp\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInOpenWorld and instanceType == \"none\") then\n            envTable.UpdateGroupType()\n            if (envTable.InRaid or envTable.InParty) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    --get the amount of player targetting the unit in raid or party\n    function envTable.NumTargetsInRaid (unitFrame)\n        local amount = 0\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        return amount\n    end\n    \n    function envTable.NumTargetsInParty()\n        local amount = 0\n        for i = 1, GetNumGroupMembers() - 1 do\n            local unit = \"party\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        local unit = \"playertarget\"\n        if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n            amount = amount + 1\n        end        \n        \n        return amount\n    end\n    \nend",
-					},
-					["Name"] = "Players Targeting a Target [Plater]",
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "Constructor",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-					["Icon"] = 1966587,
-					["Time"] = 1551825362,
-				}, -- [3]
-				{
-					["Enabled"] = false,
-					["Revision"] = 94,
-					["Options"] = {
-					},
-					["HooksTemp"] = {
-					},
-					["Author"] = "Izimode-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Changes the target color to the color set in the constructor script.",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend",
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --usage: color name e.g \"red\" \"yellow\"; color table e.g {1, 0, 0} {1, 1, 0}; hex string e.g. \"#FF0000\" \"FFFF00\"\n    \n    envTable.TargetColor = \"purple\"\n    --envTable.TargetColor = \"#FF00FF\"\n    --envTable.TargetColor = {252/255, 0/255, 254/255}\n    \n    function envTable.UpdateColor (unitFrame)\n        --do not change the color of the personal bar\n        if (not unitFrame.IsSelf) then\n            \n            --if this nameplate the current target of the player?\n            if (unitFrame.namePlateIsTarget) then\n                Plater.SetNameplateColor (unitFrame, envTable.TargetColor)  --rgb\n            else\n                --refresh the nameplate color\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n        end\n    end\n    \nend\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Name"] = "Current Target Color [Plater]",
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "",
-					["Time"] = 1613211428,
-					["Icon"] = 878211,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-				}, -- [4]
-				{
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Hooks"] = {
-						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    --constructor is executed only once when any script of the hook runs.\n    \nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if need update the amount of combo points shown\n    if (envTable.LastPlayerTalentUpdate > envTable.LastUpdate) then\n        envTable.UpdateComboPointAmount()\n    end    \n    \n    if (unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.ComboPointFrame:Show()\n        envTable.UpdateComboPoints()\n        \n    else\n        envTable.ComboPointFrame:Hide()\n    end    \n    \nend\n\n\n",
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if this nameplate is the current target\n    if (unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.ComboPointFrame:Show()\n        envTable.UpdateComboPoints()\n    else\n        envTable.ComboPointFrame:Hide()\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Player Power Update"] = "function (self, unitId, unitFrame, envTable, modTable, ...)\n    local powerType = ...\n    \n    if (powerType and powerType == \"COMBO_POINTS\" and unitFrame.namePlateIsTarget and not unitFrame.IsSelf) then\n        envTable.UpdateComboPoints()\n    end\n    \n    \nend",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.ComboPointFrame:Hide()\n    \nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.ComboPointFrame:Hide()\n    \nend\n\n\n\n\n",
-						["Player Talent Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    --update the amount of comboo points shown when the player changes talents or specialization\n    envTable.UpdateComboPointAmount()\n    \n    --save the time of the last talent change\n    envTable.LastPlayerTalentUpdate = GetTime()\n    \n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --settings\n    local anchors = {\n        {\"bottom\", unitFrame.healthBar, \"top\", 0, 24},\n    }\n    \n    local sizes = {\n        width = 12,\n        height = 12,\n        scale = 1,\n    }\n    \n    local textures = {\n        backgroundTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n        backgroundTexCoords = {0/128, 21/128, 101/128, 122/128},\n        \n        comboPointTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n        comboPointTexCoords = {3/128, 18/128, 81/128, 96/128},\n    }\n    if WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE then\n        textures = {\n            backgroundTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n            backgroundTexCoords = {78/128, 98/128, 21/64, 41/64},\n            \n            comboPointTexture = [[Interface\\PLAYERFRAME\\ClassOverlayComboPoints]],\n            comboPointTexCoords = {100/128, 120/128, 21/64, 41/64},\n        }\n    end\n    \n    local frameLevel = 1000\n    local frameStrata = \"high\"    \n    \n    --private\n    do\n        --store combo points frames on this table\n        envTable.ComboPoints = {}\n        --save when the player changed talents or spec\n        envTable.LastPlayerTalentUpdate = GetTime()\n        --save when this nameplate got a combo point amount and alignment update        \n        \n        --build combo points frame anchor (combo point are anchored to this)\n        if (not unitFrame.PlaterComboPointFrame) then\n            local hostFrame = CreateFrame (\"frame\", nil, unitFrame)\n            hostFrame.ComboPointFramesPool = {}\n            unitFrame.PlaterComboPointFrame = hostFrame\n            envTable.ComboPointFrame = hostFrame\n            envTable.ComboPointFrame:SetScale (sizes.scale)\n            \n            --DetailsFramework:ApplyStandardBackdrop (envTable.ComboPointFrame) --debug anchor size\n            \n            --animations\n            local onPlayShowAnimation = function (animation)\n                --stop the hide animation if it's playing\n                if (animation:GetParent():GetParent().HideAnimation:IsPlaying()) then\n                    animation:GetParent():GetParent().HideAnimation:Stop()\n                end\n                \n                animation:GetParent():Show()\n            end\n            \n            local onPlayHideAnimation = function (animation)\n                --stop the show animation if it's playing\n                if (animation:GetParent():GetParent().ShowAnimation:IsPlaying()) then\n                    animation:GetParent():GetParent().ShowAnimation:Stop()\n                end\n            end        \n            local onStopHideAnimation = function (animation)\n                animation:GetParent():Hide()       \n            end\n            \n            local createAnimations = function (comboPoint)\n                --on show\n                comboPoint.ShowAnimation = Plater:CreateAnimationHub (comboPoint.comboPointTexture, onPlayShowAnimation, nil)\n                Plater:CreateAnimation (comboPoint.ShowAnimation, \"scale\", 1, 0.1, 0, 0, 1, 1)\n                Plater:CreateAnimation (comboPoint.ShowAnimation, \"alpha\", 1, 0.1, .5, 1)\n                Plater:CreateAnimation (comboPoint.ShowAnimation, \"scale\", 2, 0.1, 1.2, 1.2, 1, 1)\n                \n                --on hide\n                comboPoint.HideAnimation = Plater:CreateAnimationHub (comboPoint.comboPointTexture, onPlayHideAnimation, onStopHideAnimation)\n                Plater:CreateAnimation (comboPoint.HideAnimation, \"scale\", 1, 0.1, 1, 1, 0, 0)\n                Plater:CreateAnimation (comboPoint.HideAnimation, \"alpha\", 1, 0.1, 1, 0)\n            end\n            \n            --build combo point frame        \n            for i =1, 10 do \n                local f = CreateFrame (\"frame\", nil, envTable.ComboPointFrame)\n                f:SetSize (sizes.width, sizes.height)\n                tinsert (envTable.ComboPoints, f)\n                tinsert (unitFrame.PlaterComboPointFrame.ComboPointFramesPool, f)\n                \n                local backgroundTexture = f:CreateTexture (nil, \"background\")\n                backgroundTexture:SetTexture (textures.backgroundTexture)\n                backgroundTexture:SetTexCoord (unpack (textures.backgroundTexCoords))\n                backgroundTexture:SetSize (sizes.width, sizes.height)\n                backgroundTexture:SetPoint (\"center\")\n                \n                local comboPointTexture = f:CreateTexture (nil, \"artwork\")\n                comboPointTexture:SetTexture (textures.comboPointTexture)\n                comboPointTexture:SetTexCoord (unpack (textures.comboPointTexCoords))\n                \n                comboPointTexture:SetSize (sizes.width, sizes.height)\n                comboPointTexture:SetPoint (\"center\")\n                comboPointTexture:Hide()            \n                \n                f.IsActive = false\n                \n                f.backgroundTexture = backgroundTexture\n                f.comboPointTexture = comboPointTexture\n                \n                createAnimations (f)\n            end\n            \n        else\n            envTable.ComboPointFrame = unitFrame.PlaterComboPointFrame\n            envTable.ComboPointFrame:SetScale (sizes.scale)\n            envTable.ComboPoints = unitFrame.PlaterComboPointFrame.ComboPointFramesPool\n            \n        end            \n        \n        envTable.ComboPointFrame:SetFrameLevel (frameLevel)\n        envTable.ComboPointFrame:SetFrameStrata (frameStrata)\n        \n        function envTable.UpdateComboPoints()\n            local comboPoints = GetComboPoints(\"player\", \"target\")\n            --UnitPower (\"player\", Enum.PowerType.ComboPoints)\n            \n            for i = 1, envTable.TotalComboPoints do\n                local thisComboPoint = envTable.ComboPoints [i]\n                \n                if (i <= comboPoints ) then\n                    --combo point enabled\n                    if (not thisComboPoint.IsActive) then\n                        thisComboPoint.ShowAnimation:Play()\n                        thisComboPoint.IsActive = true\n                        \n                    end\n                    \n                else\n                    --combo point disabled\n                    if (thisComboPoint.IsActive) then\n                        thisComboPoint.HideAnimation:Play()\n                        thisComboPoint.IsActive = false\n                        \n                    end\n                end\n            end\n            \n            \n        end\n        \n        function envTable.UpdateComboPointAmount()\n            local namePlateWidth = Plater.db.profile.plate_config.enemynpc.health_incombat[1]\n            local comboPoints = UnitPowerMax (\"player\", Enum.PowerType.ComboPoints)\n            local reservedSpace = (namePlateWidth - sizes.width * comboPoints)  / comboPoints \n            \n            --store the total amount of combo points\n            envTable.TotalComboPoints = comboPoints\n            \n            --update anchor frame\n            envTable.ComboPointFrame:SetWidth (namePlateWidth)\n            envTable.ComboPointFrame:SetHeight (20)\n            envTable.ComboPointFrame:ClearAllPoints()\n            for i = 1, #anchors do\n                local anchor = anchors[i]\n                envTable.ComboPointFrame:SetPoint (unpack (anchor))\n            end        \n            \n            --\n            for i = 1, #envTable.ComboPoints do\n                envTable.ComboPoints[i]:Hide()\n                envTable.ComboPoints[i]:ClearAllPoints()\n            end\n            \n            for i = 1, comboPoints do\n                local comboPoint = envTable.ComboPoints[i]\n                if i == 1 then\n                    comboPoint:SetPoint (\"left\", envTable.ComboPointFrame, \"left\", reservedSpace/2, 0)\n                else\n                    comboPoint:SetPoint (\"left\", envTable.ComboPoints[i-1], \"right\", reservedSpace, 0)\n                end\n                \n                comboPoint:Show()\n            end\n            \n            envTable.LastUpdate = GetTime()\n            \n            envTable.UpdateComboPoints()\n        end\n        \n        --initialize\n        envTable.UpdateComboPointAmount()\n        envTable.ComboPointFrame:Hide()\n    end\n    \n    \nend",
-					},
-					["Time"] = 1621935143,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-							["Enabled"] = true,
-							["103"] = true,
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-							["Enabled"] = true,
-							["DRUID"] = true,
-							["ROGUE"] = true,
-						},
-					},
-					["url"] = "",
-					["Icon"] = 135426,
-					["Enabled"] = false,
-					["Revision"] = 284,
-					["semver"] = "",
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Show combo points above the nameplate for Druid Feral and Rogues.",
-					["Name"] = "Combo Points [Plater]",
-					["PlaterCore"] = 1,
-					["Options"] = {
-					},
-					["version"] = -1,
-					["HooksTemp"] = {
-					},
-				}, -- [5]
-				{
-					["Enabled"] = false,
-					["Revision"] = 197,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Tecno-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Add another border with more customizations. This border can also be manipulated by other scripts.",
-					["Hooks"] = {
-						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    if (envTable.IsEnabled and unitFrame.ActorType == \"enemyplayer\") then\n        \n        if (unitFrame.IsSelf) then\n            if (envTable.ShowOnPersonalBar) then\n                envTable.BorderFrame:Show()\n            else\n                envTable.BorderFrame:Hide() \n            end\n        else\n            envTable.BorderFrame:Show()\n        end   \n        \n    else\n        envTable.BorderFrame:Hide() \n    end\n    \nend   \n\n\n\n",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BorderFrame:Hide()\n    \nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BorderFrame:Hide()\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border color\n    local borderColor = \"yellow\"\n    \n    --size of the border\n    local borderSize = 1\n    \n    --transparency\n    local borderAlpha = 1\n    \n    --enabled (set to false it you only want to use the extra border in other scripts)\n    local isEnabled = true\n    \n    --export border (allow the border to be used by other scripts)\n    --other scripts can use:\n    --unitFrame.healthBar.extraBorder:Show()\n    --unitFrame.healthBar.extraBorder:SetVertexColor (r, g, b)\n    --unitFrame.healthBar.extraBorder:SetBorderSizes (borderSize)\n    local canExportBorder = true\n    \n    --do not add the border to personal bar\n    local noPersonalBar = true\n    \n    --private\n    do\n        \n        local newBorder = CreateFrame (\"frame\", nil, unitFrame.healthBar, \"NamePlateFullBorderTemplate\")\n        envTable.BorderFrame = newBorder\n        \n        newBorder:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n        newBorder:UpdateSizes()\n        \n        local r, g, b = DetailsFramework:ParseColors (borderColor)\n        newBorder:SetVertexColor (r, g, b, borderAlpha)\n        \n        envTable.ShowOnPersonalBar = not noPersonalBar\n        \n        if (canExportBorder) then\n            unitFrame.healthBar.extraBorder = newBorder\n        end\n        \n        if (not isEnabled) then\n            envTable.IsEnabled = false\n        else\n            envTable.IsEnabled = true\n        end\n    end\n    \nend\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1613211728,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["Name"] = "Extra Border [Plater]",
-					["Icon"] = 133689,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-				}, -- [6]
-				{
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Hooks"] = {
-						["Nameplate Added"] = "\n\n-- exported function Plater.UpdatePlateSize() from Plater.lua\n--this is for advanced users which wants to reorder the nameplate frame at their desire\n\n\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --check if there's a type of unit on this nameplate\n    local plateFrame = unitFrame:GetParent()\n    if (not plateFrame.actorType) then\n        return\n    end\n    \n    --get all the frames and cache some variables\n    local ACTORTYPE_ENEMY_PLAYER = \"enemyplayer\"\n    local profile = Plater.db.profile\n    local DB_PLATE_CONFIG = profile.plate_config\n    local isInCombat = Plater.IsInCombat()\n    local actorType = plateFrame.actorType\n    \n    local unitFrame = plateFrame.unitFrame\n    local healthBar = unitFrame.healthBar\n    local castBar = unitFrame.castBar\n    local powerBar = unitFrame.powerBar\n    local buffFrame1 = unitFrame.BuffFrame\n    local buffFrame2 = unitFrame.BuffFrame2\n    \n    --use in combat bars when in pvp\n    if (plateFrame.actorType == ACTORTYPE_ENEMY_PLAYER) then\n        if ((Plater.ZoneInstanceType == \"pvp\" or Plater.ZoneInstanceType == \"arena\") and DB_PLATE_CONFIG.player.pvp_always_incombat) then\n            isInCombat = true\n        end\n    end\n    \n    --get the config for this actor type\n    local plateConfigs = DB_PLATE_CONFIG [actorType]\n    --get the config key based if the player is in combat\n    local castBarConfigKey, healthBarConfigKey, manaConfigKey = Plater.GetHashKey (isInCombat)\n    \n    --get the width and height from what the user set in the options panel\n    local healthBarWidth, healthBarHeight = unitFrame.customHealthBarWidth or plateConfigs [healthBarConfigKey][1], unitFrame.customHealthBarHeight or plateConfigs [healthBarConfigKey][2]\n    local castBarWidth, castBarHeight = unitFrame.customCastBarWidth or plateConfigs [castBarConfigKey][1], unitFrame.customCastBarHeight or plateConfigs [castBarConfigKey][2]\n    local powerBarWidth, powerBarHeight = unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][1], unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][2]\n    \n    --calculate the offset for the cast bar, this is done due to the cast bar be anchored to topleft and topright\n    local castBarOffSetX = (healthBarWidth - castBarWidth) / 2\n    local castBarOffSetY = plateConfigs.castbar_offset\n    \n    --calculate offsets for the power bar\n    local powerBarOffSetX = (healthBarWidth - powerBarWidth) / 2\n    local powerBarOffSetY = 0\n    \n    --calculate the size deviation for pets\n    local unitType = Plater.GetUnitType (plateFrame)\n    if (unitType == \"pet\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.pet_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.pet_width_scale\n        \n    elseif (unitType == \"minus\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.minor_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.minor_width_scale\n    end\n    \n    --unit frame - is set to be the same size as the plateFrame\n    unitFrame:ClearAllPoints()\n    unitFrame:SetAllPoints()\n    \n    --calculates the health bar anchor points\n    --it will always be placed in the center of the nameplate area (where it accepts mouse clicks) \n    local xOffSet = (plateFrame:GetWidth() - healthBarWidth) / 2\n    local yOffSet = (plateFrame:GetHeight() - healthBarHeight) / 2\n    \n    --set the health bar point\n    healthBar:ClearAllPoints()\n    PixelUtil.SetPoint (healthBar, \"topleft\", unitFrame, \"topleft\", xOffSet + profile.global_offset_x, -yOffSet + profile.global_offset_y)\n    PixelUtil.SetPoint (healthBar, \"bottomright\", unitFrame, \"bottomright\", -xOffSet + profile.global_offset_x, yOffSet + profile.global_offset_y)\n    \n    --set the cast bar point and size\n    castBar:ClearAllPoints()\n    PixelUtil.SetPoint (castBar, \"topleft\", healthBar, \"bottomleft\", castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetPoint (castBar, \"topright\", healthBar, \"bottomright\", -castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetHeight (castBar, castBarHeight)\n    PixelUtil.SetSize (castBar.Icon, castBarHeight, castBarHeight)\n    PixelUtil.SetSize (castBar.BorderShield, castBarHeight * 1.4, castBarHeight * 1.4)\n    \n    --set the power bar point and size\n    powerBar:ClearAllPoints()\n    PixelUtil.SetPoint (powerBar, \"topleft\", healthBar, \"bottomleft\", powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetPoint (powerBar, \"topright\", healthBar, \"bottomright\", -powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetHeight (powerBar, powerBarHeight)\n    \n    --power bar are hidden by default, show it if there's a custom size for it\n    if (unitFrame.customPowerBarWidth and unitFrame.customPowerBarHeight) then\n        powerBar:SetUnit (unitFrame.unit)\n    end\n    \n    --aura frames\n    local bf1Anchor = Plater.db.profile.aura_frame1_anchor\n    Plater.SetAnchor (buffFrame1, {side = bf1Anchor.side, x = bf1Anchor.x, y = bf1Anchor.y + plateConfigs.buff_frame_y_offset}, unitFrame.healthBar, (Plater.db.profile.aura_grow_direction or 2) == 2)\n    \n    local bf2Anchor = Plater.db.profile.aura_frame2_anchor\n    Plater.SetAnchor (buffFrame2, {side = bf2Anchor.side, x = bf2Anchor.x, y = bf2Anchor.y + plateConfigs.buff_frame_y_offset}, unitFrame.healthBar, (Plater.db.profile.aura2_grow_direction or 2) == 2)\n    \nend\n\n\n",
-					},
-					["Time"] = 1596791840,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["url"] = "",
-					["Icon"] = 574574,
-					["Enabled"] = false,
-					["Revision"] = 93,
-					["Options"] = {
-					},
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Function Plater.UpdatePlateSize from Plater.lua exported to scritps.",
-					["Name"] = "Reorder Nameplate [Plater]",
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["semver"] = "",
-					["version"] = -1,
-				}, -- [7]
-				{
-					["Enabled"] = true,
-					["Revision"] = 108,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Kastfall-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Easy way to change the color of an unit. Open the constructor script and follow the examples.",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1643278701,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
-					},
-					["Name"] = "Color Automation [Plater]",
-					["Icon"] = -8568,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["race"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["affix"] = {
-						},
-					},
-				}, -- [8]
-				{
-					["Enabled"] = false,
-					["Revision"] = 140,
-					["Options"] = {
-					},
-					["HooksTemp"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        local percent = healthBar.CurrentHealth / healthBar.CurrentHealthMax\n        \n        if (percent <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.ExecutePercent)\n            envTable.InExecuteRange = true\n            \n        elseif (percent < envTable.SecondRangeStart and percent >= envTable.SecondRangeEnd) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.SecondRangeEnd)\n            envTable.InExecuteRange = true\n            \n        else\n            if (envTable.InExecuteRange) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                Plater.RefreshNameplateColor (unitFrame)\n                Plater.SetBorderColor (unitFrame)\n                envTable.InExecuteRange = false\n            end\n        end\n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame, 0)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = true\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --second execute range (UseCustomExecutePercent must be enabled)\n    envTable.SecondRangeStart = 0.999\n    envTable.SecondRangeEnd = 0.8\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame, divisorPercent)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * divisorPercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
-					},
-					["Author"] = "Ahwa-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Adds extra effects to execute range and allow to setup two execute ranges for classes with execute when the unit has almost full healh. See the constructor script for options.",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = true\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --second execute range (UseCustomExecutePercent must be enabled)\n    envTable.SecondRangeStart = 0.999\n    envTable.SecondRangeEnd = 0.8\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame, divisorPercent)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame, divisorPercent)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * divisorPercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        local percent = healthBar.CurrentHealth / healthBar.CurrentHealthMax\n        \n        if (percent <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.ExecutePercent)\n            envTable.InExecuteRange = true\n            \n        elseif (percent < envTable.SecondRangeStart and percent >= envTable.SecondRangeEnd) then\n            envTable.UnitInExecuteRange (unitFrame, envTable.SecondRangeEnd)\n            envTable.InExecuteRange = true\n            \n        else\n            if (envTable.InExecuteRange) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                Plater.RefreshNameplateColor (unitFrame)\n                Plater.SetBorderColor (unitFrame)\n                envTable.InExecuteRange = false\n            end\n        end\n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame, 0)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1643278703,
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "",
-					["Name"] = "Advanced Execute Range",
-					["Icon"] = 135358,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["class"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-				}, -- [9]
-				{
-					["OptionsValues"] = {
-					},
-					["HooksTemp"] = {
-						["Initialization"] = "function (modTable)\n    \n    --ATTENTION: after enabling this mod, you may have to adjust the anchor point at the Buff Settings tab\n    \n    local sortByTime = false\n    local invertSort = false\n    \n    --which auras goes first, assign a value (any number), bigger value goes first\n    local priority = {\n        [\"Vampiric Touch\"] = 50,\n        [\"Shadow Word: Pain\"] = 22,\n        [\"Mind Flay\"] = 5,\n        [\"Pistol Shot\"] = 50,\n        [\"Marked for Death\"] = 99,\n    }\n    \n    -- Sort function - do not touch\n    Plater.db.profile.aura_sort = true\n    \n    \n    function Plater.AuraIconsSortFunction (aura1, aura2)\n        local p1 = priority[aura1.SpellId] or priority[aura1.SpellName] or 1\n        local p2 = priority[aura2.SpellId] or priority[aura2.SpellName] or 1\n        \n        if sortByTime and p1 == p2 then\n            if invertSort then\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) > (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            else\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) < (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            end\n        else\n            if invertSort then\n                 return p1 < p2\n            else\n                return p1 > p2\n            end\n        end\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Hooks"] = {
-						["Initialization"] = "function (modTable)\n    \n    --ATTENTION: after enabling this mod, you may have to adjust the anchor point at the Buff Settings tab\n    \n    local sortByTime = false\n    local invertSort = false\n    \n    --which auras goes first, assign a value (any number), bigger value goes first\n    local priority = {\n        [\"Vampiric Touch\"] = 50,\n        [\"Shadow Word: Pain\"] = 22,\n        [\"Mind Flay\"] = 5,\n        [\"Pistol Shot\"] = 50,\n        [\"Marked for Death\"] = 99,\n    }\n    \n    -- Sort function - do not touch\n    Plater.db.profile.aura_sort = true\n    \n    \n    function Plater.AuraIconsSortFunction (aura1, aura2)\n        local p1 = priority[aura1.SpellId] or priority[aura1.SpellName] or 1\n        local p2 = priority[aura2.SpellId] or priority[aura2.SpellName] or 1\n        \n        if sortByTime and p1 == p2 then\n            if invertSort then\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) > (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            else\n                return (aura1.Duration == 0 and 99999999 or aura1.RemainingTime or 0) < (aura2.Duration == 0 and 99999999 or aura2.RemainingTime or 0)\n            end\n        else\n            if invertSort then\n                 return p1 < p2\n            else\n                return p1 > p2\n            end\n        end\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Time"] = 1643278699,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["url"] = "",
-					["Icon"] = -8591,
-					["Enabled"] = true,
-					["Revision"] = 360,
-					["Options"] = {
-					},
-					["Author"] = "Ditador-Azralon",
-					["Desc"] = "Reorder buffs and debuffs following the settings set in the constructor.",
-					["Prio"] = 99,
-					["Name"] = "Aura Reorder [Plater]",
-					["PlaterCore"] = 1,
-					["version"] = -1,
-					["semver"] = "",
-					["LastHookEdited"] = "",
-				}, -- [10]
-				{
-					["Enabled"] = false,
-					["Revision"] = 236,
-					["LastHookEdited"] = "Constructor",
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Script for the Jaina encounter on Battle for Dazzar'alor",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --Unexploded Ordinance\n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.UnexplodedOrdinance) then\n        \n        --make the life percent be bigger than the regular size\n        --so it's better to see the health percent of the barrel\n        local currentSize = Plater.db.profile.plate_config.enemynpc.percent_text_size\n        Plater:SetFontSize (unitFrame.healthBar.lifePercent, currentSize + envTable.UnexplodedOrdinanceTextSizeIncrease)\n    end\n    \n    if (envTable.IncreaseSize [unitFrame.namePlateNpcId]) then\n        local currentHeight = unitFrame.healthBar:GetHeight()\n        Plater.SetNameplateSize (unitFrame, nil, currentHeight + envTable.IncreaseSize [unitFrame.namePlateNpcId])\n    end\n    \nend\n\n\n\n\n\n\n",
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    if (envTable.UnexplodedOrdinanceCast and envTable._SpellID == envTable.UnexplodedOrdinanceSpellID) then\n        Plater.SetCastBarSize (unitFrame, nil, envTable.UnexplodedOrdinanceCastBarHeight)\n        Plater:SetFontSize (unitFrame.castBar.percentText, envTable.UnexplodedOrdinanceTimerSize)\n    end\nend\n\n\n",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    \n    --reset the health percent text size\n    local currentSize = Plater.db.profile.plate_config.enemynpc.percent_text_size\n    Plater:SetFontSize (unitFrame.healthBar.lifePercent, currentSize)    \n    \nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --Override the color\n    if (envTable.Colors [unitFrame.namePlateNpcId]) then\n        Plater.SetNameplateColor (unitFrame, envTable.Colors [unitFrame.namePlateNpcId])\n    end    \n    \n    --Show the name of the unit in the Ice Block nameplate\n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.IceBlock) then\n        --find which player this block are holding\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i\n            if (UnitExists (unit)) then\n                for debuffId = 1, 40 do\n                    local name, texture, count, debuffType, duration, expirationTime, caster = UnitDebuff (unit, debuffId)\n                    \n                    --cancel the loop if there's no more debuffs on the player\n                    if (not name) then \n                        break \n                    end                    \n                    \n                    --check if who casted this debuff is the unit shown on this nameplate\n                    if (UnitIsUnit (caster or \"\", unitId)) then\n                        local unitName = UnitName (unit)\n                        \n                        --color the text by the class\n                        unitName = Plater.SetTextColorByClass (unit, unitName)\n                        \n                        --add the role icon\n                        if (Details) then\n                            local role = UnitGroupRolesAssigned (unit)\n                            unitName = Details:AddRoleIcon (unitName, role, 12)\n                        end\n                        \n                        unitFrame.unitName:SetText (unitName)\n                        unitFrame.castBar.Text:SetText (unitName)\n                        break\n                    end\n                    \n                end\n            else\n                break\n            end\n        end\n    end\nend",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --nameplate colors for unit\n    envTable.Colors = {}\n    envTable.Colors [148631] = \"orange\" --Unexploded Ordinance\n    envTable.Colors [148522] = \"white\" --Ice Block\n    \n    --increase the nameplate height for these units\n    envTable.IncreaseSize = {}\n    envTable.IncreaseSize [148522] = 4 --Ice Block (increase in 4 pixels)\n    \n    --increase the size of the life percent for the nameplate of the barrel\n    envTable.UnexplodedOrdinanceTextSizeIncrease = 3\n    \n    --increase the castbar size for the unexploded ordinance explosion cast\n    envTable.UnexplodedOrdinanceCast = true\n    envTable.UnexplodedOrdinanceSpellID = 288221 --12058 --(debug)\n    envTable.UnexplodedOrdinanceCastBarHeight = 18\n    envTable.UnexplodedOrdinanceTimerSize = 18\n    \n    --npcIDs\n    envTable.NpcIDs = {}\n    envTable.NpcIDs.UnexplodedOrdinance = 148631\n    envTable.NpcIDs.IceBlock = 148522\nend\n\n--tests 126023 --harbor saurid - dazar'alor harbor\n--tests 3127 venomtail scorpid - durotar\n--tests 12058 dustwind storm witch - durotar\n--Load Condition: EncounterID 2281\n\n\n",
-						["Cast Stop"] = "function (self, unitId, unitFrame, envTable)\n    if (envTable.UnexplodedOrdinanceCast and envTable._SpellID == envTable.UnexplodedOrdinanceSpellID) then\n        Plater.SetCastBarSize (unitFrame)\n        Plater:SetFontSize (unitFrame.castBar.percentText, Plater.db.profile.plate_config.enemynpc.spellpercent_text_size)\n    end\nend\n\n\n",
-					},
-					["Name"] = "Jaina Encounter [Plater]",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-							["1"] = 2281,
-							["Enabled"] = true,
-						},
-						["race"] = {
-						},
-					},
-					["PlaterCore"] = 1,
-					["Time"] = 1551894760,
-					["Icon"] = "Interface\\AddOns\\Plater\\images\\encounter_jaina",
-					["HooksTemp"] = {
-					},
-				}, -- [11]
-				{
-					["Enabled"] = false,
-					["Revision"] = 81,
-					["LastHookEdited"] = "Constructor",
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Script for Stormwall Blockade encounter on Battle for Dazzar'alor",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.TemptingSiren) then\n        \n        if (envTable.NameplateHeight.TemptingSiren) then\n            \n            Plater.SetNameplateSize (unitFrame, nil, envTable.NameplateHeight.TemptingSiren)\n            \n        end\n        \n    end    \n    \nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.TemptingSiren) then\n        \n        if (envTable.Colors.TemptingSiren) then\n            Plater.SetNameplateColor (unitFrame, envTable.Colors.TemptingSiren)\n        end\n        \n    end\n    \n    \nend\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --nameplate colors for unit\n    envTable.Colors = {}\n    envTable.Colors.TemptingSiren = \"orange\"\n    \n    --npcID\n    envTable.NpcIDs = {}\n    envTable.NpcIDs.TemptingSiren = 146436\n    \n    --nameplate height for each unit\n    envTable.NameplateHeight = {}\n    envTable.NameplateHeight.TemptingSiren = 18\n    \n    \n    \nend\n\n\n",
-					},
-					["Name"] = "Stormwall Encounter [Plater]",
-					["PlaterCore"] = 1,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-							["Enabled"] = true,
-							["1"] = 2280,
-						},
-						["spec"] = {
-						},
-					},
-					["Time"] = 1551887545,
-					["Icon"] = "Interface\\AddOns\\Plater\\images\\encounter_stormwall_blockade",
-					["HooksTemp"] = {
-					},
-				}, -- [12]
-				{
-					["Enabled"] = false,
-					["Revision"] = 58,
-					["LastHookEdited"] = "Constructor",
-					["Author"] = "Herith�gue-Proudmoore",
-					["Desc"] = "Change the border of the focus target.",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateBorder (unitFrame, unitId)\nend\n\n\n",
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateBorder (unitFrame, unitId)\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.BorderThickness = 3\n    envTable.BorderColor = \"black\"\n    \n    --private\n    function envTable.UpdateBorder (unitFrame, unit)\n        local plateFrame = unitFrame:GetParent()\n        \n        if (UnitIsUnit (\"focus\", unit)) then\n            Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            local borderSize = envTable.BorderThickness\n            unitFrame.healthBar.border:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n            unitFrame.healthBar.border:UpdateSizes()        \n            \n        else\n            Plater.SetBorderColor (unitFrame)\n            Plater.UpdatePlateBorderThickness (unitFrame.PlateFrame)\n            unitFrame.healthBar.border:UpdateSizes()\n        end\n    end\nend\n\n\n\n",
-					},
-					["Time"] = 1552962607,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["race"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["Icon"] = 133006,
-					["Name"] = "Focus Target Border",
-				}, -- [13]
-				{
-					["Enabled"] = false,
-					["Revision"] = 48,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Izimode-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Change the nameplate color when a nameplate does not have the auras set in the constructor script.",
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --do nothing if the player isn't in combat\n    if (not Plater.IsInCombat()) then\n        return \n    end\n    \n    --do nothing if the unit isn't in combat\n    if (not unitFrame.InCombat) then\n        return\n    end\n    \n    --check the auras\n    local hasAura = false\n    \n    for auraName, _ in pairs (envTable.TrackingAuras) do\n        if (Plater.NameplateHasAura (unitFrame, auraName)) then\n            hasAura = true\n            break\n        end\n    end\n    \n    if (not hasAura) then\n        Plater.SetNameplateColor (unitFrame, envTable.NameplateColor)\n    end    \n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --Important: lines starting with double dashes are comments and are not part of the script\n    \n    --if the unit does not have any of the following auras, it will be painted with the color listed below\n    --list of spells to track, can be the spell name (case-sensitive) or the spellID\n    envTable.TrackingAuras = {\n        --[\"Nightblade\"] = true, --this is an example using the spell name\n        --[195452] = true, --this is an example using the spellID\n        \n    }\n    \n    --which color the nameplate wil be changed\n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    --you may also use /plater colors\n    envTable.NameplateColor = \"pink\"\n    \nend\n\n\n",
-					},
-					["Prio"] = 99,
-					["Name"] = "Don't Have Aura [Plater]",
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["Time"] = 1613211434,
-					["Icon"] = 136207,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["role"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["affix"] = {
-						},
-					},
-				}, -- [14]
-				{
-					["Enabled"] = false,
-					["Revision"] = 55,
-					["HooksTemp"] = {
-					},
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Tint nameplates of Reaping Soul units (Mythic Dungeon Affix) depending on its target and role of the player",
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --can detect the reaping souls aggro?\n    if (envTable.detectAggro and Plater.IsInCombat()) then\n        \n        --is this npc a reaping soul?\n        if (envTable.npcIDs [unitFrame.namePlateNpcId]) then\n            \n            --check if the mob is attacking the player\n            if (UnitIsUnit (unitFrame.targetUnitID, \"player\")) then\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateAggroColor)\n                \n            else\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateNoAggroColor)\n            end\n            \n        end\n        \n    end\n    \nend",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --when the nameplate is added and the npcID matches, cache the color for the nameplate\n    if (envTable.detectAggro) then\n        if (envTable.npcIDs [unitFrame.namePlateNpcId]) then\n            local profile = Plater.db.profile\n            local role = Plater:GetPlayerRole()\n            \n            if (role == \"TANK\") then\n                envTable.NameplateAggroColor = profile.tank.colors.aggro\n                envTable.NameplateNoAggroColor = profile.tank.colors.noaggro\n            else\n                envTable.NameplateAggroColor = profile.dps.colors.aggro\n                envTable.NameplateNoAggroColor = profile.dps.colors.noaggro\n            end\n            \n        end\n    end\n    \n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --npcs affected by this script\n    \n    envTable.npcIDs = {\n        [148716] = true, --risen soul\n        [148893] = true, --tormented soul\n        [148894] = true, --lost soul\n        \n        [127278] = true, --skittering feeder (tests and debug, also need to disable the load conditions)\n    }\n    \n    --detect aggro, if true it will see which group member the soul is attacking and override the color\n    envTable.detectAggro = true\n    \n    \nend\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1579030189,
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "Constructor",
-					["Name"] = "M+ Bwonsamdi Reaping",
-					["Icon"] = 2446016,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-							["Enabled"] = true,
-							["party"] = true,
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["race"] = {
-						},
-						["affix"] = {
-							["Enabled"] = true,
-							["117"] = true,
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-				}, -- [15]
-				{
-					["Enabled"] = false,
-					["Revision"] = 36,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Kastfall-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Show the name of the unit current target ",
-					["Hooks"] = {
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateSpellNameText (unitFrame)\n    \nend\n\n\n",
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateSpellNameText (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --max length of the text\n    envTable.TextMaxLength = 100\n    \n    --update the spell name text\n    function envTable.UpdateSpellNameText (unitFrame)\n        \n        local castBar = unitFrame.castBar\n        local textString = castBar.Text\n        local spellName = castBar.SpellName\n        \n        if (unitFrame.targetUnitID) then\n            local targetName = UnitName (unitFrame.targetUnitID)\n            \n            if (targetName) then\n                textString:SetText (spellName .. \" > \" .. targetName) \n                \n                if (envTable.TextMaxLength) then\n                    Plater.LimitTextSize (textString, envTable.TextMaxLength)\n                end\n                \n            else\n                textString:SetText (spellName)\n            end\n        else\n            textString:SetText (spellName)\n        end\n    end\nend",
-					},
-					["Prio"] = 99,
-					["Name"] = "Cast Target",
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["Time"] = 1620347099,
-					["Icon"] = 413580,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["role"] = {
-						},
-						["class"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-				}, -- [16]
-				{
-					["Enabled"] = false,
-					["Revision"] = 43,
-					["HooksTemp"] = {
-					},
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "Only show nameplates while in combat, see the constructor for more options.",
-					["Hooks"] = {
-						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.CheckIfCanShowNameplate (unitFrame)\n    \nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.CheckIfCanShowNameplate (unitFrame)\n    \nend\n\n\n",
-						["Zone Changed"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.CheckIfCanShowNameplate (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    function envTable.CheckIfCanShowNameplate (unitFrame)\n        if (Plater.IsInCombat()) then\n            \n            if (not unitFrame.healthBar:IsShown()) then\n                Plater.ShowHealthBar (unitFrame)\n                Plater.EnableHighlight (unitFrame)\n            end\n            \n        else\n            \n            if (unitFrame.healthBar:IsShown()) then\n                Plater.HideHealthBar (unitFrame)\n                Plater.DisableHighlight (unitFrame)\n            end\n            \n        end        \n    end\n    \nend\n\n\n\n\n\n\n\n\n",
-					},
-					["Name"] = "Only in Combat",
-					["PlaterCore"] = 1,
-					["Time"] = 1551825361,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["role"] = {
-						},
-					},
-					["Icon"] = 135473,
-					["LastHookEdited"] = "Constructor",
-				}, -- [17]
-				{
-					["Enabled"] = false,
-					["Revision"] = 35,
-					["LastHookEdited"] = "Constructor",
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Add an exclamation icon on units with color set in the Npc Colors tab with the \"Only Script\" box selected.",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.NpcColorCodeTexture:SetSize (unitFrame.healthBar:GetHeight(), unitFrame.healthBar:GetHeight())\n    \nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    local npcColor = Plater.GetNpcColor (unitFrame)\n    if (npcColor) then\n        unitFrame.NpcColorCodeTexture:SetVertexColor (DetailsFramework:ParseColors (npcColor))\n        unitFrame.NpcColorCodeTexture:SetAlpha (envTable.Alpha)        \n        unitFrame.NpcColorCodeTexture:Show()\n        \n    else\n        unitFrame.NpcColorCodeTexture:Hide()\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.IconTexture = [[Interface\\AddOns\\Plater\\media\\exclamation_64]]\n    envTable.Alpha = 0.8\n    \n    --private\n    if (not unitFrame.NpcColorCodeTexture) then\n        unitFrame.NpcColorCodeTexture = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        unitFrame.NpcColorCodeTexture:SetTexture (envTable.IconTexture)\n        \n        --texture side | anchor to which frame | frame side | x offset | y offset\n        unitFrame.NpcColorCodeTexture:SetPoint (\"right\", unitFrame.healthBar, \"right\", -2, 0)\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Time"] = 1553450716,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["Icon"] = "Interface\\AddOns\\Plater\\media\\exclamation_64",
-					["Name"] = "Npc Colors Icon",
-				}, -- [18]
-				{
-					["Enabled"] = false,
-					["Revision"] = 68,
-					["HooksTemp"] = {
-					},
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Add a color tag on units with color set in the Npc Colors tab with the \"Only Script\" box selected.",
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateColorTag (unitFrame)   \n    \nend\n\n\n\n\n\n\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateTexture (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.Alpha = 0.75\n    \n    envTable.Anchor = {\n        side = 11, --right side inside the nameplate\n        x = -3,\n        y = 0\n    }\n    \n    --private\n    if (not unitFrame.NpcColorCodeTexture) then\n        unitFrame.NpcColorCodeTexture = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        unitFrame.NpcColorCodeTexture:SetColorTexture (1, 1, 1, 1)\n        \n    end\n    \n    function  envTable.UpdateColorTag (unitFrame)\n        local npcColor = Plater.GetNpcColor (unitFrame)\n        if (npcColor) then\n            unitFrame.NpcColorCodeTexture:SetVertexColor (DetailsFramework:ParseColors (npcColor))\n            unitFrame.NpcColorCodeTexture:SetAlpha (envTable.Alpha)           \n            unitFrame.NpcColorCodeTexture:Show()        \n        end\n    end\n    \n    function  envTable.UpdateTexture (unitFrame)\n        Plater.SetAnchor (unitFrame.NpcColorCodeTexture, envTable.Anchor)\n        unitFrame.NpcColorCodeTexture:SetSize (unitFrame.healthBar:GetHeight() - 4, unitFrame.healthBar:GetHeight() - 4)\n        unitFrame.NpcColorCodeTexture:Hide()\n        \n        envTable.UpdateColorTag (unitFrame)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Name"] = "Npc Colors Tag",
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "Constructor",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["affix"] = {
-						},
-					},
-					["Icon"] = "Interface\\AddOns\\Plater\\media\\radio_64",
-					["Time"] = 1553450705,
-				}, -- [19]
-				{
-					["Enabled"] = false,
-					["Revision"] = 44,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Ditador-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Change the color of the aura timer by it's time left",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --colors for each time bracket\n    envTable.Colors = {\n        critical = \"red\",\n        warning = \"yellow\",\n        okay = \"white\",\n    }\n    \n    --time amount to enter in warning or critical state\n    envTable.Timers = {\n        critical = 4.9,\n        warning = 8,\n    }\n    \nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    local auras = unitFrame.BuffFrame.PlaterBuffList\n    \n    for _, auraIcon in ipairs (auras) do\n        if (auraIcon:IsVisible()) then\n            if (auraIcon.RemainingTime < envTable.Timers.critical) then\n                Plater:SetFontColor (auraIcon.TimerText, envTable.Colors.critical)\n                \n            elseif (auraIcon.RemainingTime < envTable.Timers.warning) then\n                Plater:SetFontColor (auraIcon.TimerText, envTable.Colors.warning)\n                \n            else\n                Plater:SetFontColor (auraIcon.TimerText, envTable.Colors.okay)\n            end \n        end\n        \n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1613211753,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["HooksTemp"] = {
-					},
-					["Name"] = "Paint Aura Timers",
-					["Icon"] = "Interface\\Timer\\Challenges-Logo",
-					["PlaterCore"] = 1,
-				}, -- [20]
-				{
-					["Enabled"] = true,
-					["Revision"] = 130,
-					["OptionsValues"] = {
-					},
-					["HooksTemp"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border thickness\n    local size = 1 \n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()\n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end\n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame2.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()            \n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end    \nend",
-					},
-					["Author"] = "????????-Illidan",
-					["Options"] = {
-					},
-					["Desc"] = "Config aura borders",
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border thickness\n    local size = 1 \n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()\n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end\n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame2.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            \n            if (not auraIcon.PixelPerfectBorder) then\n                auraIcon.PixelPerfectBorder = CreateFrame (\"frame\", nil, auraIcon, \"NamePlateFullBorderTemplate\")\n            end\n            \n            local r, g, b = auraIcon:GetBackdropBorderColor()\n            auraIcon:SetBackdropBorderColor (0, 0, 0, 0)\n            \n            auraIcon.PixelPerfectBorder:SetVertexColor (r, g, b)\n            auraIcon.PixelPerfectBorder:SetBorderSizes (size, size, size, size)\n            auraIcon.PixelPerfectBorder:UpdateSizes()            \n            \n            auraIcon.Icon:ClearAllPoints()\n            auraIcon.Icon:SetAllPoints()\n            \n            auraIcon.Border:Hide() --hide plater default border\n        end\n    end    \nend",
-					},
-					["Prio"] = 99,
-					["Time"] = 1643278698,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-					["LastHookEdited"] = "",
-					["Name"] = "Advanced Debuff Border",
-					["Icon"] = 133006,
-					["PlaterCore"] = 1,
-				}, -- [21]
-				{
-					["Enabled"] = false,
-					["Revision"] = 35,
-					["HooksTemp"] = {
-					},
-					["Author"] = "�r��ne-Kel'thuzad",
-					["Desc"] = "Show yellow star for elite; Silver star for rares",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame, unitId)\n    \nend\n\n\n\n\n\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame, unitId)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    function envTable.UpdateIndicator (unitFrame, unitId)\n        local unitClassification = UnitClassification (unitId)\n        local unitName = UnitName (unitId)\n        unitName = unitName or UNKNOWN\n        \n        if (unitClassification == \"rareelite\") then\n            unitFrame.unitName:SetText (\"|TInterface\\\\AddOns\\\\Plater\\\\media\\\\star_full_64:12:12:0:0:64:64:0:64:0:64|t\" .. \"|TInterface\\\\GLUES\\\\CharacterSelect\\\\Glues-AddOn-Icons:12:12:0:0:64:16:48:64:0:16|t \" .. unitName)\n            \n        elseif (unitClassification == \"rare\") then\n            unitFrame.unitName:SetText (\"|TInterface\\\\AddOns\\\\Plater\\\\media\\\\star_full_64:12:12:0:0:64:64:0:64:0:64|t\" .. unitName)\n            \n        elseif (unitClassification == \"elite\") then\n            unitFrame.unitName:SetText (\"|TInterface\\\\GLUES\\\\CharacterSelect\\\\Glues-AddOn-Icons:12:12:0:0:64:16:48:64:0:16|t\" .. unitName)\n            \n        end\n    end\n    \nend\n\n\n\n\n",
-					},
-					["Time"] = 1551825364,
-					["PlaterCore"] = 1,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["class"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-					["LastHookEdited"] = "Constructor",
-					["Icon"] = "Interface\\AddOns\\Plater\\media\\star_full_64",
-					["Name"] = "Rarity in the Name",
-				}, -- [22]
-				{
-					["Enabled"] = true,
-					["Revision"] = 73,
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Cyclopes-Turalyon",
-					["Options"] = {
-					},
-					["Desc"] = "Add an icon to indicate an unit has Aggro on you. By default only show for units using a custom color from Npc Colors.",
-					["Hooks"] = {
-						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame)\n    \nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end    \nend\n\n\n",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateThreatState (unitFrame, unitId)\n    \nend\n\n\n",
-						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.Anchor = {side = 11, x = -2, y = 0}\n    envTable.Texture = \"Interface\\\\AddOns\\\\Plater\\\\media\\\\exclamation2_64\"\n    \n    --it'll only use the icon if the nameplate has a color from the Npc Colors tab and \"Only Scripts\" disabled.\n    envTable.OnlyWhenUsingNpcColor = true --if false, it'll always use the icon\n    \n    --private\n    envTable.PlayerRole = \"NONE\" --automatically changed by the script\n    \n    function envTable.CreateIndicator (unitFrame)\n        if (not unitFrame.ThreatIcon) then\n            unitFrame.ThreatIcon = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        end\n    end\n    \n    function envTable.UpdateIndicator (unitFrame)\n        envTable.CreateIndicator (unitFrame)\n        \n        unitFrame.ThreatIcon:SetTexture (envTable.Texture)\n        Plater.SetAnchor (unitFrame.ThreatIcon, envTable.Anchor)\n        unitFrame.ThreatIcon:SetSize (unitFrame.healthBar:GetHeight(), unitFrame.healthBar:GetHeight())\n    end\n    \n    function envTable.UpdateThreatState (unitFrame, unitId)\n        if (not unitFrame.ThreatIcon) then --if there's no icon created yet\n            return\n            \n        elseif (not Plater.IsInCombat()) then --not in combat\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (unitFrame.IsSelf) then --personal bar\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (envTable.OnlyWhenUsingNpcColor) then --must be using a npc color?\n            if (not unitFrame.UsingCustomColor) then\n                unitFrame.ThreatIcon:Hide()\n                return\n            end\n        end\n        \n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation (\"player\", unitId)\n        \n        if (isTanking) then\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Hide()\n            else\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateAggroColor))\n            end\n        else\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateNoAggroColor))                \n            else\n                unitFrame.ThreatIcon:Hide()                \n            end\n        end\n    end\n    \n    function envTable.UpdatePlayerRole (unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            envTable.NameplateAggroColor = profile.tank.colors.aggro\n            envTable.NameplateNoAggroColor = profile.tank.colors.noaggro\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n            envTable.NameplateAggroColor = profile.dps.colors.aggro\n            envTable.NameplateNoAggroColor = profile.dps.colors.noaggro\n            \n        end        \n    end\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend",
-					},
-					["Prio"] = 99,
-					["Name"] = "Aggro Indicator",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["class"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["role"] = {
-						},
-					},
-					["HooksTemp"] = {
-						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIndicator (unitFrame)\n    \nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateThreatState (unitFrame, unitId)\n    \nend\n\n\n",
-						["Nameplate Removed"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end\nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.ThreatIcon) then\n        unitFrame.ThreatIcon:Hide()\n    end    \nend\n\n\n",
-						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.Anchor = {side = 11, x = -2, y = 0}\n    envTable.Texture = \"Interface\\\\AddOns\\\\Plater\\\\media\\\\exclamation2_64\"\n    \n    --it'll only use the icon if the nameplate has a color from the Npc Colors tab and \"Only Scripts\" disabled.\n    envTable.OnlyWhenUsingNpcColor = true --if false, it'll always use the icon\n    \n    --private\n    envTable.PlayerRole = \"NONE\" --automatically changed by the script\n    \n    function envTable.CreateIndicator (unitFrame)\n        if (not unitFrame.ThreatIcon) then\n            unitFrame.ThreatIcon = unitFrame.healthBar:CreateTexture (nil, \"overlay\")\n        end\n    end\n    \n    function envTable.UpdateIndicator (unitFrame)\n        envTable.CreateIndicator (unitFrame)\n        \n        unitFrame.ThreatIcon:SetTexture (envTable.Texture)\n        Plater.SetAnchor (unitFrame.ThreatIcon, envTable.Anchor)\n        unitFrame.ThreatIcon:SetSize (unitFrame.healthBar:GetHeight(), unitFrame.healthBar:GetHeight())\n    end\n    \n    function envTable.UpdateThreatState (unitFrame, unitId)\n        if (not unitFrame.ThreatIcon) then --if there's no icon created yet\n            return\n            \n        elseif (not Plater.IsInCombat()) then --not in combat\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (unitFrame.IsSelf) then --personal bar\n            unitFrame.ThreatIcon:Hide()\n            return\n            \n        elseif (envTable.OnlyWhenUsingNpcColor) then --must be using a npc color?\n            if (not unitFrame.UsingCustomColor) then\n                unitFrame.ThreatIcon:Hide()\n                return\n            end\n        end\n        \n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation (\"player\", unitId)\n        \n        if (isTanking) then\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Hide()\n            else\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateAggroColor))\n            end\n        else\n            if (envTable.PlayerRole == \"TANK\") then\n                unitFrame.ThreatIcon:Show()\n                unitFrame.ThreatIcon:SetVertexColor (unpack (envTable.NameplateNoAggroColor))                \n            else\n                unitFrame.ThreatIcon:Hide()                \n            end\n        end\n    end\n    \n    function envTable.UpdatePlayerRole (unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            envTable.NameplateAggroColor = profile.tank.colors.aggro\n            envTable.NameplateNoAggroColor = profile.tank.colors.noaggro\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n            envTable.NameplateAggroColor = profile.dps.colors.aggro\n            envTable.NameplateNoAggroColor = profile.dps.colors.noaggro\n            \n        end        \n    end\n    \n    envTable.UpdatePlayerRole (unitFrame)\n    \nend",
-					},
-					["Time"] = 1643278699,
-					["Icon"] = 132344,
-					["PlaterCore"] = 1,
-				}, -- [23]
-				{
-					["Enabled"] = false,
-					["Revision"] = 20,
-					["HooksTemp"] = {
-					},
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Edit the Constructor script setting the font you want in the FONT = \"\", then /reload.",
-					["Hooks"] = {
-						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --added this event just to run the constructor script\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --insert here the font you want to change then /reeload\n    --after the reload, check if the font has changed and disable this script\n    \n    local FONT = \"Accidental Presidency\"\n    \n    local profile = Plater.db.profile\n    local actorTables = profile.plate_config\n    \n    for plateType, plateTable in pairs (actorTables) do\n        \n        plateTable.actorname_text_font = FONT\n        plateTable.spellname_text_font = FONT\n        plateTable.spellpercent_text_font = FONT\n        plateTable.level_text_font = FONT\n        plateTable.percent_text_font = FONT\n        plateTable.big_actortitle_text_font = FONT\n        plateTable.big_actorname_text_font = FONT\n        plateTable.power_percent_text_font = FONT\n        \n    end\n    \n    profile.castbar_target_font = FONT\n    profile.aura_timer_text_font = FONT    \n    profile.aura_stack_font = FONT    \n    \nend\n\n\n",
-					},
-					["Time"] = 1551825316,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["race"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-					["Name"] = "Change All Fonts",
-					["LastHookEdited"] = "Constructor",
-					["Icon"] = 134331,
-					["PlaterCore"] = 1,
-				}, -- [24]
-				{
-					["Enabled"] = false,
-					["Revision"] = 50,
-					["LastHookEdited"] = "Constructor",
-					["Author"] = "Izimode-Azralon",
-					["Desc"] = "Show the power bar for specific units",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.PowerBarAnchor = {side = 4, x = 0, y = -10}\n    \n    function envTable.UpdatePowerBar (unitFrame)\n        unitFrame.powerBar:SetUnit (unitFrame.unit)\n        Plater.SetAnchor (unitFrame.powerBar, envTable.PowerBarAnchor)\n        \n    end\n    \nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (Plater.ZoneInstanceType == \"arena\") then\n        \n        local arenaEnemies = GetNumArenaOpponentSpecs()\n        local found = false\n        for i = 1, arenaEnemies do\n            local guid = UnitGUID (\"arena\" .. i)\n            print (guid)\n            if (guid == unitFrame.namePlateUnitGUID) then\n                \n                local spec = GetArenaOpponentSpec (i)\n                print (spec)\n                if (spec) then\n                    local id, name, description, icon, role, class = GetSpecializationInfoByID (spec)\n                    print (name)\n                    if (role == \"HEALER\") then\n                        envTable.UpdatePowerBar (unitFrame)\n                    end\n                    print (role)\n                end\n                \n                break\n            end\n        end\n        \n        return\n    end\n    \n    --show for enemy players\n    if (unitFrame.ActorType == \"enemyplayer\") then\n        envTable.UpdatePowerBar (unitFrame)\n        return\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-					["Name"] = "Power Bar",
-					["PlaterCore"] = 1,
-					["Time"] = 1553450521,
-					["HooksTemp"] = {
-					},
-					["Icon"] = 1375677,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-				}, -- [25]
-				{
-					["Enabled"] = false,
-					["Revision"] = 140,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Ditador-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
-					["Hooks"] = {
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    self.ThrottleUpdate = -1\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings:\n    --show cast icon\n    envTable.ShowIcon = true\n    --anchor icon on what side\n    envTable.IconAnchor = \"left\" --accep 'left' 'right'\n    --fine tune the size of the icon\n    envTable.IconSizeOffset = 1\n    \n    --shield for non interruptible casts\n    envTable.ShowShield = false\n    envTable.ShieldTexture = [[Interface\\GROUPFRAME\\UI-GROUP-MAINTANKICON]]\n    envTable.ShieldDesaturated = true\n    envTable.ShieldColor = {1, 1, 1 ,1}\n    envTable.ShieldSize = {10, 12}\n    \n    --private:\n    function envTable.UpdateIconPosition (unitFrame)\n        local castBar = unitFrame.castBar\n        local icon = castBar.Icon\n        local shield = castBar.BorderShield\n        \n        if (envTable.ShowIcon) then\n            icon:ClearAllPoints()\n            \n            if (envTable.IconAnchor == \"left\") then\n                icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", -1, envTable.IconSizeOffset)\n                icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", -1, 0)    \n                \n            elseif (envTable.IconAnchor == \"right\") then\n                icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", 1, envTable.IconSizeOffset)\n                icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", 1, 0)\n                \n            end\n            \n            icon:SetWidth (icon:GetHeight())\n            icon:Show()\n            \n        else\n            icon:Hide()\n            \n        end\n        \n        if (envTable.ShowShield and not castBar.canInterrupt) then\n            shield:Show()\n            shield:SetAlpha (1)\n            shield:SetTexCoord (0, 1, 0, 1)\n            shield:SetVertexColor (1, 1, 1, 1)\n            \n            shield:SetTexture (envTable.ShieldTexture)\n            shield:SetDesaturated (envTable.ShieldDesaturated)\n            \n            if (not envTable.ShieldDesaturated) then\n                shield:SetVertexColor (DetailsFramework:ParseColors (envTable.ShieldColor))\n            end\n            \n            shield:SetSize (unpack (envTable.ShieldSize))\n            \n            shield:ClearAllPoints()\n            shield:SetPoint (\"center\", castBar, \"left\", 0, 0)\n            \n        else\n            shield:Hide()\n            \n        end\n        \n    end\nend",
-					},
-					["Prio"] = 99,
-					["Time"] = 1620346604,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["Name"] = "Cast Icon Anchor",
-					["Icon"] = "Interface\\Buttons\\UI-Quickslot2",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-				}, -- [26]
-				{
-					["Enabled"] = false,
-					["Revision"] = 65,
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Izimode-Azralon",
-					["Options"] = {
-					},
-					["Desc"] = "Adds a pixels perfect border around the cast bar spell icon.",
-					["Hooks"] = {
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BuildFrames (unitFrame)\n    \nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.castBar.IconOverlayFrame) then\n        unitFrame.castBar.IconOverlayFrame:Hide()\n    end\n    \nend\n\n\n\n\n",
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BuildFrames (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.AnchorSide = \"left\"\n    envTable.BorderThickness = 1\n    envTable.BorderColor = \"black\"\n    \n    --private\n    function envTable.BuildFrames (unitFrame)\n        local castBar = unitFrame.castBar\n        \n        local r, g, b, a = DetailsFramework:ParseColors (envTable.BorderColor)\n        castBar.IconBorder:SetVertexColor (r, g, b, a)\n        \n        local size = envTable.BorderThickness\n        castBar.IconBorder:SetBorderSizes (size, size, size, size)\n        castBar.IconBorder:UpdateSizes()\n        \n        local icon = castBar.Icon\n        if (envTable.AnchorSide == \"left\") then\n            icon:ClearAllPoints()\n            icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", -1, 0)\n            icon:SetPoint (\"bottomright\", castBar, \"bottomleft\", -1, 0)\n            icon:SetWidth (icon:GetHeight())\n            \n        elseif (envTable.AnchorSide == \"right\") then\n            icon:ClearAllPoints()\n            icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", 1, 0)\n            icon:SetPoint (\"bottomleft\", castBar, \"bottomright\", 1, 0)\n            icon:SetWidth (icon:GetHeight())\n            \n        end\n        \n        icon:Show()\n        castBar.IconOverlayFrame:Show()\n    end\n    \n    if (not unitFrame.castBar.IconOverlayFrame) then\n        --icon support frame\n        unitFrame.castBar.IconOverlayFrame = CreateFrame (\"frame\", nil, unitFrame.castBar)\n        unitFrame.castBar.IconOverlayFrame:SetPoint (\"topleft\", unitFrame.castBar.Icon, \"topleft\")\n        unitFrame.castBar.IconOverlayFrame:SetPoint (\"bottomright\", unitFrame.castBar.Icon, \"bottomright\")\n        \n        unitFrame.castBar.IconBorder = CreateFrame (\"frame\", nil,  unitFrame.castBar.IconOverlayFrame, \"NamePlateFullBorderTemplate\")\n    end    \n    \nend\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Name"] = "Cast Icon Border",
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["Time"] = 1620346604,
-					["Icon"] = 133004,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-				}, -- [27]
-				{
-					["Enabled"] = true,
-					["Revision"] = 93,
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Izimode-Azralon",
-					["Options"] = {
-					},
-					["Desc"] = "Adds a pixels perfect border around the cast bar.",
-					["Hooks"] = {
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder:Hide()\n    end    \nend",
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    \n    --hide the icon of the spell, may require /reload after changing\n    envTable.HideIcon = false\n    \n    --border settings\n    envTable.BorderThickness = 1\n    envTable.BorderColor = \"black\"\n    \n    --private\n    --create the border\n    if (not unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder = CreateFrame (\"frame\", nil, unitFrame.castBar, \"NamePlateFullBorderTemplate\")\n    end    \n    \n    --update the border\n    function envTable.UpdateBorder (unitFrame)\n        local castBar = unitFrame.castBar\n        \n        local r, g, b, a = DetailsFramework:ParseColors (envTable.BorderColor)\n        castBar.CastBarBorder:SetVertexColor (r, g, b, a)\n        \n        local size = envTable.BorderThickness\n        castBar.CastBarBorder:SetBorderSizes (size, size, size, size)\n        castBar.CastBarBorder:UpdateSizes()        \n        \n        if (envTable.HideIcon) then\n            castBar.Icon:Hide()\n        end\n        \n        castBar.CastBarBorder:Show()\n    end\n    \nend\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1643278700,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
-						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder:Hide()\n    end    \nend",
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateBorder (unitFrame)\n    \nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    \n    --hide the icon of the spell, may require /reload after changing\n    envTable.HideIcon = false\n    \n    --border settings\n    envTable.BorderThickness = 1\n    envTable.BorderColor = \"black\"\n    \n    --private\n    --create the border\n    if (not unitFrame.castBar.CastBarBorder) then\n        unitFrame.castBar.CastBarBorder = CreateFrame (\"frame\", nil, unitFrame.castBar, \"NamePlateFullBorderTemplate\")\n    end    \n    \n    --update the border\n    function envTable.UpdateBorder (unitFrame)\n        local castBar = unitFrame.castBar\n        \n        local r, g, b, a = DetailsFramework:ParseColors (envTable.BorderColor)\n        castBar.CastBarBorder:SetVertexColor (r, g, b, a)\n        \n        local size = envTable.BorderThickness\n        castBar.CastBarBorder:SetBorderSizes (size, size, size, size)\n        castBar.CastBarBorder:UpdateSizes()        \n        \n        if (envTable.HideIcon) then\n            castBar.Icon:Hide()\n        end\n        \n        castBar.CastBarBorder:Show()\n    end\n    \nend\n\n\n\n\n",
-					},
-					["Name"] = "Cast Bar Border",
-					["Icon"] = 133004,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["race"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-				}, -- [28]
-				{
-					["Enabled"] = false,
-					["Revision"] = 46,
-					["OptionsValues"] = {
-					},
-					["HooksTemp"] = {
-					},
-					["Author"] = "????????-Illidan",
-					["Options"] = {
-					},
-					["Desc"] = "Debuff timer show decimal values",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --minimum time left to take effect\n    envTable.MinTime = 9.999\n    \nend",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    for index, auraIcon in ipairs (unitFrame.BuffFrame.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            if (auraIcon.RemainingTime < envTable.MinTime) then\n                auraIcon.TimerText:SetText (format (\"%.1f\", auraIcon.RemainingTime))\n            end\n        end\n    end\n    \n    for index, auraIcon in ipairs (unitFrame.BuffFrame2.PlaterBuffList) do\n        if (auraIcon:IsShown()) then\n            if (auraIcon.RemainingTime < envTable.MinTime) then            \n                auraIcon.TimerText:SetText (format (\"%.1f\", auraIcon.RemainingTime))\n            end\n        end        \n    end    \nend",
-					},
-					["Prio"] = 99,
-					["Time"] = 1613211431,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["LastHookEdited"] = "",
-					["Name"] = "Decimal Debuff Timer",
-					["Icon"] = 609811,
-					["PlaterCore"] = 1,
-				}, -- [29]
-				{
-					["Enabled"] = true,
-					["Revision"] = 86,
-					["Options"] = {
-					},
-					["HooksTemp"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --    if false then return end\n    \n    for _, iconFrame in ipairs (unitFrame.ExtraIconFrame.IconPool) do\n        \n        unitFrame.ExtraIconFrame.options.show_text = true\n        \n        local profile = Plater.db.profile\n        \n        Plater.SetAnchor (iconFrame.CountdownText, profile.aura_timer_text_anchor)\n        Plater:SetFontSize (iconFrame.CountdownText, profile.aura_timer_text_size)\n        Plater:SetFontFace (iconFrame.CountdownText, profile.aura_timer_text_font)\n        \n        Plater.SetFontOutlineAndShadow (iconFrame.CountdownText, profile.aura_timer_text_outline, profile.aura_timer_text_shadow_color, profile.aura_timer_text_shadow_color_offset[1], profile.aura_timer_text_shadow_color_offset[2])\n        \n        iconFrame.Cooldown:SetEdgeTexture (profile.aura_cooldown_edge_texture)\n        iconFrame.Cooldown:SetReverse (profile.aura_cooldown_reverse)\n        iconFrame.Cooldown:SetDrawSwipe (profile.aura_cooldown_show_swipe)        \n        \n    end\n    \nend",
-					},
-					["Author"] = "?????-Illidan",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Format Buff Special icons like the regular aura icons.",
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --    if false then return end\n    \n    for _, iconFrame in ipairs (unitFrame.ExtraIconFrame.IconPool) do\n        \n        unitFrame.ExtraIconFrame.options.show_text = true\n        \n        local profile = Plater.db.profile\n        \n        Plater.SetAnchor (iconFrame.CountdownText, profile.aura_timer_text_anchor)\n        Plater:SetFontSize (iconFrame.CountdownText, profile.aura_timer_text_size)\n        Plater:SetFontFace (iconFrame.CountdownText, profile.aura_timer_text_font)\n        \n        Plater.SetFontOutlineAndShadow (iconFrame.CountdownText, profile.aura_timer_text_outline, profile.aura_timer_text_shadow_color, profile.aura_timer_text_shadow_color_offset[1], profile.aura_timer_text_shadow_color_offset[2])\n        \n        iconFrame.Cooldown:SetEdgeTexture (profile.aura_cooldown_edge_texture)\n        iconFrame.Cooldown:SetReverse (profile.aura_cooldown_reverse)\n        iconFrame.Cooldown:SetDrawSwipe (profile.aura_cooldown_show_swipe)        \n        \n    end\n    \nend",
-					},
-					["Prio"] = 99,
-					["Time"] = 1643278700,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["race"] = {
-						},
-					},
-					["LastHookEdited"] = "",
-					["Name"] = "Buff Special Mod",
-					["Icon"] = 136139,
-					["PlaterCore"] = 1,
-				}, -- [30]
-				{
-					["Enabled"] = false,
-					["Revision"] = 32,
-					["Options"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Izimode-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Adds two arrows into the target indicators options.",
-					["Hooks"] = {
-						["Player Talent Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    --after editing this script, save it and /reload\n    \n    --adds two target indicators in arrow format\n    --to change the texture you may replace the path with another texture path\n    --or you can copy and paste more options here\n    \n    Plater.TargetIndicators    [\"SmallArrow\"] = {\n        path = [[Interface\\MONEYFRAME\\Arrow-Right-Up]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 12,\n        height = 12,\n        x = 8,\n        y = 0,\n        blend = \"ADD\",\n    }\n    \n    Plater.TargetIndicators    [\"BigArrow\"] = {\n        path = [[Interface\\AddOns\\Plater\\media\\arrow_right_64]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 18,\n        height = 16,\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        color = \"yellow\",\n    }\n    \n    \n    \nend\n\n\n",
-					},
-					["Prio"] = 99,
-					["Name"] = "Arrow Target Indicators",
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-						["Player Talent Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    --after editing this script, save it and /reload\n    \n    --adds two target indicators in arrow format\n    --to change the texture you may replace the path with another texture path\n    --or you can copy and paste more options here\n    \n    Plater.TargetIndicators    [\"SmallArrow\"] = {\n        path = [[Interface\\MONEYFRAME\\Arrow-Right-Up]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 12,\n        height = 12,\n        x = 8,\n        y = 0,\n        blend = \"ADD\",\n    }\n    \n    Plater.TargetIndicators    [\"BigArrow\"] = {\n        path = [[Interface\\AddOns\\Plater\\media\\arrow_right_64]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        width = 18,\n        height = 16,\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        color = \"yellow\",\n    }\n    \n    \n    \nend\n\n\n",
-					},
-					["Time"] = 1643278854,
-					["Icon"] = "Interface\\AddOns\\Plater\\media\\arrow_right_64",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-				}, -- [31]
-				{
-					["Enabled"] = true,
-					["Revision"] = 14,
-					["Options"] = {
-					},
-					["HooksTemp"] = {
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    unitFrame.unitName:SetDrawLayer (\"overlay\", 7)\nend\n\n\n\n\n\n\n\n\n",
-					},
-					["Author"] = "Ditador-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Set the unit name to be above the target shading texture.",
-					["Hooks"] = {
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    unitFrame.unitName:SetDrawLayer (\"overlay\", 7)\nend\n\n\n\n\n\n\n\n\n",
-					},
-					["Prio"] = 99,
-					["Name"] = "Unit Name Over Target Shading",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["race"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["affix"] = {
-						},
-					},
-					["LastHookEdited"] = "",
-					["Time"] = 1643278702,
-					["Icon"] = 237377,
-					["PlaterCore"] = 1,
-				}, -- [32]
-				{
-					["Enabled"] = false,
-					["Revision"] = 26,
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Author"] = "Ditador-Azralon",
-					["Options"] = {
-					},
-					["Desc"] = "Set the spark height to the same size of the cast bar.",
-					["Hooks"] = {
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
-					},
-					["Prio"] = 99,
-					["Time"] = 1643278702,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    self.Spark:SetHeight (self:GetHeight())\n    \nend\n\n\n",
-					},
-					["Name"] = "Adjust Spark Size",
-					["Icon"] = -8630,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["role"] = {
-						},
-					},
-				}, -- [33]
-				{
-					["Enabled"] = false,
-					["Revision"] = 71,
-					["Options"] = {
-					},
-					["HooksTemp"] = {
-					},
-					["Author"] = "Izimode-Azralon",
-					["OptionsValues"] = {
-					},
-					["Desc"] = "Show power bar for some units.",
-					["Hooks"] = {
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --power bar options:\n    \n    --for which units it should\n    envTable.ShowForEnemyPlayers = true\n    envTable.ShowForEnemyNpcs = false\n    \n    --specific npcs, can be the npc name or npcId\n    --this list work even if the ShowForEnemyNpcs is false\n    envTable.SpecificNpcs = {\n        [\"the rock\"] = true, --npc name\n        [225] = true, --npcId\n    }\n    \n    --anchor the power bar to\n    envTable.Anchor = {\n        side = 13, --inside the healthbar, bottom side\n        x = 0, \n        y = 0,\n    }\n    \n    --power bar height\n    envTable.Height = 1\n    \n    --power bar percent text\n    envTable.PercentTextEnabled = false\n    envTable.PercentTextAnchor = {\n        side = 7, --top right\n        x = 2, \n        y = 0,\n    }\n    \n    \n    --private\n    function envTable.ShowPowerbar (unitFrame)\n        unitFrame.powerBar:SetUnit (unitFrame.unit)\n        envTable.UpdatePowerbar (unitFrame)\n    end\n    \n    function envTable.UpdatePowerbar (unitFrame)\n        local powerBar = unitFrame.powerBar\n        Plater.SetAnchor (powerBar, envTable.Anchor, unitFrame.healthBar)\n        powerBar:SetSize (unitFrame.healthBar:GetWidth(), envTable.Height)\n        \n        envTable.SavePowerBarSize (unitFrame, envTable.Height)\n        \n        if (envTable.PercentTextEnabled) then\n            powerBar.percentText:Show()\n            --copy the font from the health percent\n            Plater:SetFontFace (powerBar.percentText, Plater.GetConfig (unitFrame).percent_text_font)\n            Plater:SetFontSize (powerBar.percentText, Plater.GetConfig (unitFrame).percent_text_size)\n            Plater.SetAnchor (powerBar.percentText, envTable.PercentTextAnchor)\n        else\n            powerBar.percentText:Hide()\n        end\n    end\n    \n    function envTable.CanShowPowerBarForUnit (unitFrame)\n        --check if the is in the special list to force show\n        local forceShowPowerBar = envTable.SpecificNpcs [unitFrame.namePlateNpcId] or envTable.SpecificNpcs [unitFrame.namePlateUnitName] or envTable.SpecificNpcs [unitFrame.namePlateUnitNameLower]\n        if (forceShowPowerBar) then\n            envTable.ShowPowerbar (unitFrame)\n            \n            --check if the unit is a enemy player\n        elseif (unitFrame.ActorType == \"enemyplayer\") then\n            if (envTable.ShowForEnemyPlayers) then\n                envTable.ShowPowerbar (unitFrame)\n            end\n            \n            --check if the unit is a enemy npc\n        elseif (unitFrame.ActorType == \"enemynpc\") then\n            if (envTable.ShowForEnemyNpcs) then\n                envTable.ShowPowerbar (unitFrame)\n            end\n        end\n    end\n    \n    function envTable.SavePowerBarSize (unitFrame, height)\n        local plateConfigs = Plater.db.profile.plate_config [unitFrame.ActorType]\n        plateConfigs.mana[1] = plateConfigs.health[1]\n        plateConfigs.mana[2] = height\n        plateConfigs.mana_incombat[1] = plateConfigs.health_incombat[1]\n        plateConfigs.mana_incombat[2] = height\n    end\nend\n\n\n\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShowPowerBarForUnit (unitFrame)    \nend",
-					},
-					["Prio"] = 99,
-					["Name"] = "Power Bar",
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["role"] = {
-						},
-						["class"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-					["LastHookEdited"] = "",
-					["Time"] = 1620346758,
-					["Icon"] = "Interface/Addons/Plater/Media/fire_64",
-					["PlaterCore"] = 1,
-				}, -- [34]
-				{
-					["OptionsValues"] = {
-						["showIcon"] = false,
-						["useFullSize"] = false,
-						["iconOnLeftSide"] = false,
-					},
-					["HooksTemp"] = {
-					},
-					["Hooks"] = {
-						["Cast Update"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.UpdateIconPosition (unitFrame)\n    self.ThrottleUpdate = -1\n    \nend\n\n\n",
-						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.castBar.BorderShield:SetDrawLayer(\"artwork\")\n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    --private:\n    function envTable.UpdateIconPosition (unitFrame)\n        local castBar = unitFrame.castBar\n        local icon = castBar.Icon\n        local noInterruptTexture = castBar.BorderShield\n        \n        if (modTable.config.showIcon) then\n            icon:ClearAllPoints()\n            \n            if (modTable.config.iconOnLeftSide) then\n                if (modTable.config.useFullSize) then\n                    icon:SetPoint (\"topright\", unitFrame.healthBar, \"topleft\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                    \n                else\n                    \n                    icon:SetPoint (\"topright\", unitFrame.castBar, \"topleft\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomright\", unitFrame.castBar, \"bottomleft\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                end\n                \n            else\n                if (modTable.config.useFullSize) then\n                    icon:SetPoint (\"topleft\", unitFrame.healthBar, \"topright\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                    \n                else\n                    \n                    icon:SetPoint (\"topleft\", unitFrame.castBar, \"topright\", modTable.config.iconPadding, modTable.config.iconSizeOffset)\n                    icon:SetPoint (\"bottomleft\", unitFrame.castBar, \"bottomright\", modTable.config.iconPadding, -modTable.config.iconSizeOffset)\n                end\n            end\n            \n            icon:SetWidth (icon:GetHeight())\n            icon:Show()\n        else\n            icon:Hide()\n        end\n        \n        if (modTable.config.showTexture and not castBar.canInterrupt) then\n            noInterruptTexture:Show()\n            \n            local texturePath = modTable.config.iconTexturePath\n            texturePath = texturePath:gsub(\"//\", \"/\")\n            texturePath = texturePath:gsub(\"\\\\\", \"/\")\n            \n            noInterruptTexture:SetTexture (texturePath)\n            noInterruptTexture:SetTexCoord (0, 1, 0, 1)\n            \n            if (modTable.config.desaturatedTexture) then\n                noInterruptTexture:SetDesaturated (modTable.config.desaturatedTexture)\n            else\n                noInterruptTexture:SetVertexColor (DetailsFramework:ParseColors (modTable.config.textureColor))\n            end\n            \n            noInterruptTexture:SetSize (modTable.config.textureWidth, castBar:GetHeight() + modTable.config.textureHeightMod)\n            noInterruptTexture:ClearAllPoints()\n            noInterruptTexture:SetPoint (\"center\", castBar, \"left\", modTable.config.texturePosition, 0)\n            noInterruptTexture:SetAlpha (modTable.config.textureAlpha)\n        else\n            noInterruptTexture:Hide()\n        end\n    end\nend",
-					},
-					["Time"] = 1620347016,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["affix"] = {
-						},
-						["class"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["role"] = {
-						},
-					},
-					["url"] = "",
-					["Icon"] = "Interface\\AddOns\\Plater\\images\\castbar_icon",
-					["Enabled"] = false,
-					["Revision"] = 352,
-					["semver"] = "",
-					["Author"] = "Ditador-Azralon",
-					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
-					["Prio"] = 99,
-					["version"] = -1,
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "",
-					["Options"] = {
-						{
-							["Type"] = 5,
-							["Key"] = "option4",
-							["Value"] = "Icon Settings:",
-							["Name"] = "Icon Settings",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [1]
-						{
-							["Type"] = 4,
-							["Name"] = "Show Icon",
-							["Value"] = true,
-							["Key"] = "showIcon",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "Show the castbar icon when enabled",
-						}, -- [2]
-						{
-							["Type"] = 4,
-							["Key"] = "iconOnLeftSide",
-							["Value"] = true,
-							["Name"] = "Icon on Left Side",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "If enabled it anchor the icon on the left side, right otherwise",
-						}, -- [3]
-						{
-							["Type"] = 4,
-							["Key"] = "useFullSize",
-							["Value"] = false,
-							["Name"] = "Use Big Icon",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "If enabled the icon has the size of the cast bar plus the healthbar",
-						}, -- [4]
-						{
-							["Type"] = 2,
-							["Max"] = 5,
-							["Desc"] = "Fine tune the icon size",
-							["Min"] = 0,
-							["Fraction"] = true,
-							["Value"] = 0,
-							["Key"] = "iconSizeOffset",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Name"] = "Icon Size Offset",
-						}, -- [5]
-						{
-							["Type"] = 2,
-							["Max"] = 5,
-							["Desc"] = "Space between the icon and the cast bar",
-							["Min"] = -5,
-							["Fraction"] = false,
-							["Value"] = 0,
-							["Name"] = "Icon Padding",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Key"] = "iconPadding",
-						}, -- [6]
-						{
-							["Type"] = 6,
-							["Name"] = "Blank Space",
-							["Value"] = 0,
-							["Key"] = "option6",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [7]
-						{
-							["Type"] = 5,
-							["Key"] = "option5",
-							["Value"] = "Can't Interrupt Texture:",
-							["Name"] = "Interrupt Texture",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [8]
-						{
-							["Type"] = 4,
-							["Key"] = "showTexture",
-							["Value"] = true,
-							["Name"] = "Show Texture",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "If enabled show a texture to tell the cast can't be interrupted",
-						}, -- [9]
-						{
-							["Type"] = 3,
-							["Key"] = "iconTexturePath",
-							["Value"] = "Interface\\GROUPFRAME\\UI-GROUP-MAINTANKICON",
-							["Name"] = "Texture Path",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "Insert the path for the texture",
-						}, -- [10]
-						{
-							["Type"] = 4,
-							["Key"] = "desaturatedTexture",
-							["Value"] = true,
-							["Name"] = "Texture Desaturated",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "If enbaled, texture is shown in black & white",
-						}, -- [11]
-						{
-							["Type"] = 1,
-							["Key"] = "textureColor",
-							["Value"] = {
-								1, -- [1]
-								1, -- [2]
-								1, -- [3]
-								0.30567157268524, -- [4]
-							},
-							["Name"] = "Texture Color",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "Select the color of the texture",
-						}, -- [12]
-						{
-							["Type"] = 2,
-							["Max"] = 32,
-							["Desc"] = "Adjust the texture width",
-							["Min"] = 1,
-							["Fraction"] = false,
-							["Value"] = 10,
-							["Key"] = "textureWidth",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Name"] = "Texture Width",
-						}, -- [13]
-						{
-							["Type"] = 2,
-							["Max"] = 16,
-							["Desc"] = "The texture is set to be the same size as the cast bar, fine tune the height as wanted",
-							["Min"] = -16,
-							["Name"] = "Texture Height Mod",
-							["Value"] = 0,
-							["Fraction"] = true,
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Key"] = "textureHeightMod",
-						}, -- [14]
-						{
-							["Type"] = 2,
-							["Max"] = 32,
-							["Desc"] = "Adjust the texture position",
-							["Min"] = -32,
-							["Fraction"] = false,
-							["Value"] = 0,
-							["Key"] = "texturePosition",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Name"] = "Texture Position",
-						}, -- [15]
-						{
-							["Type"] = 2,
-							["Max"] = 1,
-							["Desc"] = "Adjust the texture transparency",
-							["Min"] = 0,
-							["Key"] = "textureAlpha",
-							["Value"] = 1,
-							["Name"] = "Texture Alpha",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Fraction"] = true,
-						}, -- [16]
-					},
-					["Name"] = "Cast Bar Icon Settings [P]",
-				}, -- [35]
-				{
-					["OptionsValues"] = {
-					},
-					["HooksTemp"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    local name = unitFrame.healthBar.unitName:GetText()\n    \n    if (name) then\n        unitFrame.healthBar.unitName:SetText(name:gsub('(%S+) ',function(t) return t:sub(0,0)..'' end))\n    end\nend\n\n\n\n\n\n\n\n",
-					},
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    local name = unitFrame.healthBar.unitName:GetText()\n    \n    if (name) then\n        unitFrame.healthBar.unitName:SetText(name:gsub('(%S+) ',function(t) return t:sub(0,0)..'' end))\n    end\nend\n\n\n\n\n\n\n\n",
-					},
-					["Time"] = 1643278698,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["class"] = {
-						},
-						["spec"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["role"] = {
-						},
-					},
-					["url"] = "https://wago.io/Rcm39UnZV/2",
-					["Icon"] = 132319,
-					["Enabled"] = true,
-					["Revision"] = 446,
-					["Options"] = {
-					},
-					["Author"] = "Zenshoes-Area 52",
-					["Desc"] = "Abbreviates names on nameplates",
-					["Prio"] = 99,
-					["version"] = 2,
-					["PlaterCore"] = 1,
-					["LastHookEdited"] = "",
-					["Name"] = "Abbreviated Names",
-					["semver"] = "1.0.1",
-				}, -- [36]
-				{
-					["OptionsValues"] = {
-					},
-					["LastHookEdited"] = "",
-					["Hooks"] = {
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CheckAggro (unitFrame)\nend\n\n\n",
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CheckAggro (unitFrame)\nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    function envTable.CheckAggro (unitFrame)\n        --if the player isn't in combat, ignore this check\n        if (not Plater.IsInCombat()) then\n            return\n        end\n        \n        --if this unit isn't in combat, ignore\n        if (not unitFrame.InCombat) then\n            return \n        end\n        \n        --player is a tank?\n        if (Plater.PlayerIsTank) then\n            --player isn't tanking this unit?\n            if (not unitFrame.namePlateThreatIsTanking) then\n                --check if a second tank is tanking it\n                if (Plater.ZoneInstanceType == \"raid\") then\n                    --return a list with the name of tanks in the raid\n                    local tankPlayersInTheRaid = Plater.GetTanks()\n                    \n                    --get the target name of this unit\n                    local unitTargetName = UnitName (unitFrame.targetUnitID)\n                    \n                    --check if the unit isn't targeting another tank in the raid and paint the color\n                    if (not tankPlayersInTheRaid [unitTargetName]) then\n                        Plater.SetNameplateColor (unitFrame, Plater.db.profile.tank.colors.noaggro)\n                    else\n                        --another tank is tanking this unit\n                        --do nothing\n                    end\n                    \n                else\n                    Plater.SetNameplateColor (unitFrame, Plater.db.profile.tank.colors.noaggro)\n                end\n            end\n            \n        else\n            --player is a dps or healer\n            if (unitFrame.namePlateThreatIsTanking) then\n                Plater.SetNameplateColor (unitFrame, Plater.db.profile.dps.colors.aggro)\n            end\n            \n        end        \n    end\nend\n\n\n\n\n\n\n",
-					},
-					["Time"] = 1620346605,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["affix"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["spec"] = {
-						},
-						["role"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["url"] = "https://wago.io/id_wRWfKp/2",
-					["Icon"] = "Interface\\AddOns\\Plater\\media\\checked_64",
-					["Enabled"] = false,
-					["Revision"] = 34,
-					["semver"] = "1.0.1",
-					["Author"] = "Kastfall-Azralon",
-					["Desc"] = "When a mob is attacking you, force show the threat color. For tanks, force threat color if the mob is not attacking you.",
-					["Prio"] = 99,
-					["version"] = 2,
-					["PlaterCore"] = 1,
-					["HooksTemp"] = {
-					},
-					["Name"] = "Force Threat Color",
-					["Options"] = {
-					},
-				}, -- [37]
-				{
-					["OptionsValues"] = {
-						["indicatorColor"] = {
-							0, -- [1]
-							1, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-						["indicatorHeight"] = 15,
-						["indicatorOsX"] = 15,
-						["indicatorWidth"] = 15,
-					},
-					["HooksTemp"] = {
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    -- Currently selected target indicator\n    local selectedIndicator = Plater.TargetIndicators[Plater.db.profile.target_indicator]\n    -- Do not proceed if the selected indicator does not have a color setting\n    if not selectedIndicator.color then return end\n    \n    -- Receive variables from the Plater options of this mod\n    local indicatorColor = modTable.config.indicatorColor\n    local indicatorAlpha = modTable.config.indicatorAlpha\n    local indicatorWidth = modTable.config.indicatorWidth\n    local indicatorHeight = modTable.config.indicatorHeight\n    local indicatorOsX = modTable.config.indicatorOsX\n    local indicatorOsY = modTable.config.indicatorOsY\n    \n    -- Apply variables from Plater options  to the selected target indicator\n    selectedIndicator.color = indicatorColor\n    selectedIndicator.alpha = indicatorAlpha\n    selectedIndicator.width = indicatorWidth\n    selectedIndicator.height = indicatorHeight\n    selectedIndicator.x = indicatorOsX\n    selectedIndicator.y = indicatorOsY\n    \nend\n\n\n\n\n",
-						["Player Logon"] = "function()\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    RELOAD UI AFTER IMPORTING THE MOD   ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    ---- SELECT AN INDICATOR IN THE PLATER TARGET OPTIONS (Target Bracket Indicator Dropdown)----\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    CUSTOMIZE MOD INDICATOR OPTIONS    ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    \n    Plater.TargetIndicators    [\"Composite\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Composite Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20, \n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin\"] = {\n        path = [[Interface\\ICONS\\ArrowThinLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowThinRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Double\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Double Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full\"] = {\n        path = [[Interface\\ICONS\\ArrowFullRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowFullLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket\"] = {\n        path = [[Interface\\ICONS\\Bracket]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 16,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket Thin\"] = {\n        path = [[Interface\\ICONS\\BracketThin]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Hinge\"] = {\n        path = [[Interface\\ICONS\\Hinge]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 5,\n        height = 5,\n        --customizable texture position (offset to nameplate)\n        x = 2,\n        y = 2,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    }    \n    \n    Plater.TargetIndicators    [\"Half Hinge\"] = {\n        path = [[Interface\\ICONS\\HingeThin]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 15,\n        height = 15,\n        --customizable texture position (offset to nameplate)\n        x = 3,\n        y = 3,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    } \n    \nend",
-					},
-					["Hooks"] = {
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    -- Currently selected target indicator\n    local selectedIndicator = Plater.TargetIndicators[Plater.db.profile.target_indicator]\n    -- Do not proceed if the selected indicator does not have a color setting\n    if not selectedIndicator.color then return end\n    \n    -- Receive variables from the Plater options of this mod\n    local indicatorColor = modTable.config.indicatorColor\n    local indicatorAlpha = modTable.config.indicatorAlpha\n    local indicatorWidth = modTable.config.indicatorWidth\n    local indicatorHeight = modTable.config.indicatorHeight\n    local indicatorOsX = modTable.config.indicatorOsX\n    local indicatorOsY = modTable.config.indicatorOsY\n    \n    -- Apply variables from Plater options  to the selected target indicator\n    selectedIndicator.color = indicatorColor\n    selectedIndicator.alpha = indicatorAlpha\n    selectedIndicator.width = indicatorWidth\n    selectedIndicator.height = indicatorHeight\n    selectedIndicator.x = indicatorOsX\n    selectedIndicator.y = indicatorOsY\n    \nend\n\n\n\n\n",
-						["Player Logon"] = "function()\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    RELOAD UI AFTER IMPORTING THE MOD   ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    ---- SELECT AN INDICATOR IN THE PLATER TARGET OPTIONS (Target Bracket Indicator Dropdown)----\n    ------------------------------------------------------------------------------------------------------\n    ----------------------------    CUSTOMIZE MOD INDICATOR OPTIONS    ----------------------------\n    ------------------------------------------------------------------------------------------------------\n    \n    Plater.TargetIndicators    [\"Composite\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Composite Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowCompositeRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20, \n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Broken Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowBrokenLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 24,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin\"] = {\n        path = [[Interface\\ICONS\\ArrowThinLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Thin Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowThinRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Double\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Double Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowDoubleRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full\"] = {\n        path = [[Interface\\ICONS\\ArrowFullRight]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Full Reversed\"] = {\n        path = [[Interface\\ICONS\\ArrowFullLeft]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 20,\n        --customizable texture position (offset to nameplate)\n        x = 30,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket\"] = {\n        path = [[Interface\\ICONS\\Bracket]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 16,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    }    \n    \n    Plater.TargetIndicators    [\"Bracket Thin\"] = {\n        path = [[Interface\\ICONS\\BracketThin]],\n        coords = {\n            {0, 1, 0, 1}, \n            {1, 0, 0, 1}\n        },\n        desaturated = false,\n        --customizable texture sizing\n        width = 20,\n        height = 16,\n        --customizable texture position (offset to nameplate)\n        x = 10,\n        y = 0,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 0.9},\n    } \n    \n    Plater.TargetIndicators    [\"Hinge\"] = {\n        path = [[Interface\\ICONS\\Hinge]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 5,\n        height = 5,\n        --customizable texture position (offset to nameplate)\n        x = 2,\n        y = 2,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    }    \n    \n    Plater.TargetIndicators    [\"Half Hinge\"] = {\n        path = [[Interface\\ICONS\\HingeThin]],\n        coords = {{0, .5, 0, .5}, {0, .5, .5, 1}, {.5, 1, .5, 1}, {.5, 1, 0, .5}},\n        desaturated = false,\n        --customizable texture sizing\n        width = 15,\n        height = 15,\n        --customizable texture position (offset to nameplate)\n        x = 3,\n        y = 3,\n        blend = \"ADD\",\n        --customizable texture color { r, g, b, a } format\n        color = {0.36, 0.73, 1, 1},\n    } \n    \nend",
-					},
-					["Time"] = 1643278701,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["class"] = {
-						},
-						["map_ids"] = {
-						},
-						["role"] = {
-						},
-						["pvptalent"] = {
-						},
-						["race"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["spec"] = {
-						},
-					},
-					["url"] = "https://wago.io/46Vep3lTJ/11",
-					["Icon"] = -10913,
-					["Enabled"] = true,
-					["Revision"] = 622,
-					["Options"] = {
-						{
-							["Type"] = 5,
-							["Name"] = "Install Instructions",
-							["Value"] = "INSTALL INSTRUCTIONS:",
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [1]
-						{
-							["Type"] = 5,
-							["Key"] = "",
-							["Value"] = "1.) Reload UI after importing the mod.",
-							["Name"] = "Install Instructions",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [2]
-						{
-							["Type"] = 5,
-							["Name"] = "Install Instructions",
-							["Value"] = "2.) Select an indicator in the Plater Target options (Target Bracket Indicator Dropdown).",
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [3]
-						{
-							["Type"] = 5,
-							["Name"] = "Install Instructions",
-							["Value"] = "3.) Customize color, size, position settings in the options menu below.",
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [4]
-						{
-							["Type"] = 5,
-							["Name"] = "Install Instructions",
-							["Value"] = "4.) Save.",
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [5]
-						{
-							["Type"] = 6,
-							["Name"] = "Blank",
-							["Value"] = 0,
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [6]
-						{
-							["Type"] = 5,
-							["Name"] = "Target Indicator Options",
-							["Value"] = "TARGET INDICATOR OPTIONS:",
-							["Key"] = "label1",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [7]
-						{
-							["Type"] = 5,
-							["Name"] = "Target Indicator Options",
-							["Value"] = "Switch target to see changes. No reloading necessary.",
-							["Key"] = "label1",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [8]
-						{
-							["Type"] = 6,
-							["Name"] = "Blank",
-							["Value"] = 0,
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [9]
-						{
-							["Type"] = 1,
-							["Key"] = "indicatorColor",
-							["Value"] = {
-								0.36862745098039, -- [1]
-								0.72549019607843, -- [2]
-								1, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "Color",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "Set color for the selected target indicator.",
-						}, -- [10]
-						{
-							["Type"] = 2,
-							["Max"] = 1,
-							["Desc"] = "Set opacity for the selected target indicator.",
-							["Min"] = 0,
-							["Name"] = "Opacity",
-							["Value"] = 1,
-							["Fraction"] = true,
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Key"] = "indicatorAlpha",
-						}, -- [11]
-						{
-							["Type"] = 6,
-							["Key"] = "",
-							["Value"] = 0,
-							["Name"] = "Blank",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [12]
-						{
-							["Type"] = 2,
-							["Max"] = 50,
-							["Desc"] = "Set width for the selected target indicator.",
-							["Min"] = 1,
-							["Name"] = "Width",
-							["Value"] = 20,
-							["Fraction"] = false,
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Key"] = "indicatorWidth",
-						}, -- [13]
-						{
-							["Type"] = 2,
-							["Max"] = 50,
-							["Desc"] = "Set height for the selected target indicator.",
-							["Min"] = 1,
-							["Fraction"] = false,
-							["Value"] = 20,
-							["Name"] = "Height",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Key"] = "indicatorHeight",
-						}, -- [14]
-						{
-							["Type"] = 6,
-							["Key"] = "",
-							["Value"] = 0,
-							["Name"] = "Blank",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [15]
-						{
-							["Type"] = 2,
-							["Max"] = 50,
-							["Desc"] = "Set x-offset (horizontal distance from nameplate) for the selected target indicator.",
-							["Min"] = -50,
-							["Key"] = "indicatorOsX",
-							["Value"] = 30,
-							["Name"] = "X Offset",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Fraction"] = false,
-						}, -- [16]
-						{
-							["Type"] = 2,
-							["Max"] = 20,
-							["Desc"] = "Set y-offset (vertical distance from nameplate) for the selected target indicator.",
-							["Min"] = -20,
-							["Fraction"] = false,
-							["Value"] = 0,
-							["Key"] = "indicatorOsY",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_number",
-							["Name"] = "Y Offset",
-						}, -- [17]
-						{
-							["Type"] = 6,
-							["Name"] = "Blank",
-							["Value"] = 0,
-							["Key"] = "",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [18]
-						{
-							["Type"] = 5,
-							["Key"] = "",
-							["Value"] = "*Y Offset is not necessary for most textures and should be 0 (except for \"Hinge\" and \"Half Hinge\" indicators).",
-							["Name"] = "Disclaimer",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_label",
-							["Desc"] = "",
-						}, -- [19]
-					},
-					["Author"] = "Revanbane-Tarren Mill",
-					["Desc"] = "Adds more options to Target indicator. Customizable color, size and positioning.",
-					["Prio"] = 99,
-					["Name"] = "Revan's Target Indicators",
-					["PlaterCore"] = 1,
-					["semver"] = "1.0.10",
-					["LastHookEdited"] = "",
-					["version"] = 11,
-				}, -- [38]
-				{
-					["HooksTemp"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor(unitFrame, unitId)\nend",
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame, unitId)\nend\n\n\n",
-						["Initialization"] = "function (modTable)\n    \n    modTable.ConditionType = {\n        Specified               = 1,\n    }\n    \n    modTable.TypeShow = {\n        Color       = 1,\n        Flash       = 2,\n    }\n    \n    modTable.Conditions = {\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"尤型圣物\", \"尤型拆卸者\"},},\n            typeshow = 1, typevalue = modTable.config.urhColor --\"#e3d4bd\"\n        },\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"沃型圣物\", \"沃型飘移者\"},},\n            typeshow = 1, typevalue = modTable.config.woColor --\"#a159f0\"\n        },\n        \n        -- name = \"维型加密\",\n        {enable = modTable.config.setColor, condition = {1}, \n            value = {{\"维型圣物\", \"维型拦截者\"},},\n            typeshow = 1, typevalue = modTable.config.vyColor --\"#00ffff\"\n        },\n        \n    }\n    \n    \n    local specifiedCondition = {\n        name = \"默认特定单位条件\",\n        enable = true,\n        \n        condition = {1},\n        value = {{}},--{specifiedConditionList},\n        \n        --typeshow = modTable.TypeShow.Color,\n        typevalue = modTable.config._typeValueSpecified\n    }\n    \n    -- 默认的条件组\n    table.insert(modTable.Conditions, specifiedCondition) -- 默认特定单位条件\n    \n    function modTable.CheckCondition(conditionGroup, unitFrame)\n        if conditionGroup.enable ~= true then\n            return false\n        end\n        if type(conditionGroup.condition) ~= \"table\" then\n            return false\n        end\n        \n        local pass = true\n        for i, v in ipairs(conditionGroup.condition) do\n            if v == modTable.ConditionType.Specified then\n                -- print(\"CheckCondition -- Enter Specified\")\n                pass = modTable.CheckSpecifiedCondition(unitFrame, conditionGroup.value[i], conditionGroup)\n            else\n                print(\"Plater Mod -- Extened Color -- Unknown Condition: \" .. tostring(v))\n                pass = false\n            end\n            \n            if pass == false then\n                -- print(\"--------------- CheckCondition End False ---------------\")\n                modTable.Clear(unitFrame)\n                return pass\n            end\n        end\n        \n        -- print(\"--------------- CheckCondition End True ---------------\")\n        return pass\n    end\n    \n    function modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n        if conditionGroup.typeshow == modTable.TypeShow.Color then\n            envTable.FullBarFlash:Stop()\n            if unitFrame._SelfMarkType ~= nil and (conditionGroup.typevalue == \"\" or conditionGroup.typevalue == nil) then\n                Plater.SetNameplateColor(unitFrame, modTable.MarkColor[unitFrame._SelfMarkType])\n            else\n                Plater.SetNameplateColor(unitFrame, conditionGroup.typevalue)\n            end\n        elseif conditionGroup.typeshow == modTable.TypeShow.Flash then\n            Plater.SetNameplateColor(unitFrame, \"red\")\n            envTable.FullBarFlash:Play()\n        end\n        \n        modTable.Clear(unitFrame)\n    end\n    \n    function modTable.CheckSpecifiedCondition(unitFrame, param, conditionGroup)\n        for _, v in ipairs(param) do\n            if v == unitFrame.namePlateUnitNameLower or v == unitFrame.namePlateUnitName or v == unitFrame.namePlateNpcId then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function modTable.Clear(unitFrame)\n        unitFrame._SelfMarkType = nil;\n    end\nend",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdatePlayerRole (unitFrame)\nend\n\n\n",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    envTable.FullBarFlash = envTable.FullBarFlash or Plater.CreateFlash(unitFrame.healthBar, 0.2, 100, \"white\")\n    \n    --------------------------------------------------------------------------\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    envTable.NpcNames = {\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName, --尤『减CD / 回血 / 回蓝』\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth  \n        [\"沃型飘移者\"] = woName, --沃『移速 / 减伤 / 隐身』\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName, --维『急速』\n        \n    } \n    \n    --------------------------------------------------------------------------\n    function envTable.UpdateColor(unitFrame, unitId)\n        if (unitFrame.IsSelf) then\n            return\n        end\n        \n        if IsInGroup() and\n        envTable.IfAggroAbnormal(unitFrame, unitId) then\n            -- 应用Plater仇恨颜色\n        else\n            for _, conditionGroup in ipairs(modTable.Conditions) do\n                if modTable.CheckCondition(conditionGroup, unitFrame) then\n                    modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n                    return;\n                end\n            end\n        end\n        \n        envTable.FullBarFlash:Stop()\n        Plater.RefreshNameplateColor(unitFrame)\n    end\n    \n    function envTable.IfAggroAbnormal(unitFrame, unitId)\n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation(\"player\", unitId)\n        \n        if envTable.PlayerRole == \"TANK\" then\n            -- 作为坦克却没抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking == false or (threatStatus == 2 or threatStatus == 1 or threatStatus == 0) then\n                return true\n            end\n        elseif envTable.PlayerRole == \"DAMAGER\" then\n            -- 作为DPS在抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking or (threatStatus == 3 or threatStatus == 2 or threatStatus == 1) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function envTable.UpdatePlayerRole(unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n        end\n    end\n    \nend",
-					},
-					["UID"] = "0x62229f65202d123",
-					["Hooks"] = {
-						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor(unitFrame, unitId)\nend",
-						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame, unitId)\nend\n\n\n",
-						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdatePlayerRole (unitFrame)\nend\n\n\n",
-						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable, modTable)\n    \n    local name = envTable.NpcNames [unitFrame.namePlateUnitNameLower] or envTable.NpcNames [unitFrame.namePlateUnitName] or envTable.NpcNames [unitFrame.namePlateNpcId]\n    \n    local setName = modTable.config.setName\n    \n    if name and setName then\n        unitFrame.PlateFrame.CurrentUnitNameString:SetText(name)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
-						["Initialization"] = "function (modTable)\n    \n    modTable.ConditionType = {\n        Specified               = 1,\n    }\n    \n    modTable.TypeShow = {\n        Color       = 1,\n        Flash       = 2,\n    }\n    \n    modTable.Conditions = {\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"尤型圣物\", \"尤型拆卸者\"},},\n            typeshow = 1, typevalue = modTable.config.urhColor --\"#e3d4bd\"\n        },\n        \n        {enable = modTable.config.setColor, condition = {1},\n            value = {{\"沃型圣物\", \"沃型飘移者\"},},\n            typeshow = 1, typevalue = modTable.config.woColor --\"#a159f0\"\n        },\n        \n        -- name = \"维型加密\",\n        {enable = modTable.config.setColor, condition = {1}, \n            value = {{\"维型圣物\", \"维型拦截者\"},},\n            typeshow = 1, typevalue = modTable.config.vyColor --\"#00ffff\"\n        },\n        \n    }\n    \n    \n    local specifiedCondition = {\n        name = \"默认特定单位条件\",\n        enable = true,\n        \n        condition = {1},\n        value = {{}},--{specifiedConditionList},\n        \n        --typeshow = modTable.TypeShow.Color,\n        typevalue = modTable.config._typeValueSpecified\n    }\n    \n    -- 默认的条件组\n    table.insert(modTable.Conditions, specifiedCondition) -- 默认特定单位条件\n    \n    function modTable.CheckCondition(conditionGroup, unitFrame)\n        if conditionGroup.enable ~= true then\n            return false\n        end\n        if type(conditionGroup.condition) ~= \"table\" then\n            return false\n        end\n        \n        local pass = true\n        for i, v in ipairs(conditionGroup.condition) do\n            if v == modTable.ConditionType.Specified then\n                -- print(\"CheckCondition -- Enter Specified\")\n                pass = modTable.CheckSpecifiedCondition(unitFrame, conditionGroup.value[i], conditionGroup)\n            else\n                print(\"Plater Mod -- Extened Color -- Unknown Condition: \" .. tostring(v))\n                pass = false\n            end\n            \n            if pass == false then\n                -- print(\"--------------- CheckCondition End False ---------------\")\n                modTable.Clear(unitFrame)\n                return pass\n            end\n        end\n        \n        -- print(\"--------------- CheckCondition End True ---------------\")\n        return pass\n    end\n    \n    function modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n        if conditionGroup.typeshow == modTable.TypeShow.Color then\n            envTable.FullBarFlash:Stop()\n            if unitFrame._SelfMarkType ~= nil and (conditionGroup.typevalue == \"\" or conditionGroup.typevalue == nil) then\n                Plater.SetNameplateColor(unitFrame, modTable.MarkColor[unitFrame._SelfMarkType])\n            else\n                Plater.SetNameplateColor(unitFrame, conditionGroup.typevalue)\n            end\n        elseif conditionGroup.typeshow == modTable.TypeShow.Flash then\n            Plater.SetNameplateColor(unitFrame, \"red\")\n            envTable.FullBarFlash:Play()\n        end\n        \n        modTable.Clear(unitFrame)\n    end\n    \n    function modTable.CheckSpecifiedCondition(unitFrame, param, conditionGroup)\n        for _, v in ipairs(param) do\n            if v == unitFrame.namePlateUnitNameLower or v == unitFrame.namePlateUnitName or v == unitFrame.namePlateNpcId then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function modTable.Clear(unitFrame)\n        unitFrame._SelfMarkType = nil;\n    end\nend",
-						["Constructor"] = "function (self, unitId, unitFrame, envTable, modTable)\n    envTable.FullBarFlash = envTable.FullBarFlash or Plater.CreateFlash(unitFrame.healthBar, 0.2, 100, \"white\")\n    \n    --------------------------------------------------------------------------\n    local vyName = modTable.config.vyName\n    local woName = modTable.config.woName\n    local urhName = modTable.config.urhName\n    \n    envTable.NpcNames = {\n        \n        [\"尤型圣物\"] = urhName, --cdr & mana\n        [\"尤型拆卸者\"] = urhName, --尤『减CD / 回血 / 回蓝』\n        \n        [\"沃型圣物\"] = woName, --movespeed & stealth  \n        [\"沃型飘移者\"] = woName, --沃『移速 / 减伤 / 隐身』\n        \n        [\"维型圣物\"] = vyName,  --haste & proc\n        [\"维型拦截者\"] = vyName, --维『急速』\n        \n    } \n    \n    --------------------------------------------------------------------------\n    function envTable.UpdateColor(unitFrame, unitId)\n        if (unitFrame.IsSelf) then\n            return\n        end\n        \n        if IsInGroup() and\n        envTable.IfAggroAbnormal(unitFrame, unitId) then\n            -- 应用Plater仇恨颜色\n        else\n            for _, conditionGroup in ipairs(modTable.Conditions) do\n                if modTable.CheckCondition(conditionGroup, unitFrame) then\n                    modTable.ApplyCondition(conditionGroup, unitFrame, envTable)\n                    return;\n                end\n            end\n        end\n        \n        envTable.FullBarFlash:Stop()\n        Plater.RefreshNameplateColor(unitFrame)\n    end\n    \n    function envTable.IfAggroAbnormal(unitFrame, unitId)\n        local isTanking, threatStatus, threatpct = UnitDetailedThreatSituation(\"player\", unitId)\n        \n        if envTable.PlayerRole == \"TANK\" then\n            -- 作为坦克却没抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking == false or (threatStatus == 2 or threatStatus == 1 or threatStatus == 0) then\n                return true\n            end\n        elseif envTable.PlayerRole == \"DAMAGER\" then\n            -- 作为DPS在抗怪，或者怪物仇恨不稳时,将应用Plater默认仇恨颜色\n            if isTanking or (threatStatus == 3 or threatStatus == 2 or threatStatus == 1) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    function envTable.UpdatePlayerRole(unitFrame)\n        local profile = Plater.db.profile\n        local role = Plater:GetPlayerRole()\n        \n        if (role == \"TANK\") then\n            envTable.PlayerRole = \"TANK\"\n            \n        else\n            envTable.PlayerRole = \"DAMAGER\"\n        end\n    end\n    \nend",
-					},
-					["Time"] = 1648710085,
-					["LoadConditions"] = {
-						["talent"] = {
-						},
-						["group"] = {
-						},
-						["spec"] = {
-						},
-						["map_ids"] = {
-						},
-						["race"] = {
-						},
-						["pvptalent"] = {
-						},
-						["role"] = {
-						},
-						["affix"] = {
-						},
-						["encounter_ids"] = {
-						},
-						["class"] = {
-						},
-					},
-					["url"] = "",
-					["Icon"] = 4224736,
-					["Enabled"] = true,
-					["Revision"] = 625,
-					["Options"] = {
-						{
-							["Type"] = 4,
-							["Key"] = "setColor",
-							["Value"] = true,
-							["Name"] = "启用血条变色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "是否更改血条颜色?",
-						}, -- [1]
-						{
-							["Type"] = 1,
-							["Key"] = "urhColor",
-							["Value"] = {
-								0.63137254901961, -- [1]
-								0.34901960784314, -- [2]
-								1, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "尤型圣物血条颜色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "选择颜色",
-						}, -- [2]
-						{
-							["Type"] = 1,
-							["Key"] = "woColor",
-							["Value"] = {
-								0.33725490196078, -- [1]
-								1, -- [2]
-								0.42352941176471, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "沃型圣物血条颜色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "选择颜色",
-						}, -- [3]
-						{
-							["Type"] = 1,
-							["Key"] = "vyColor",
-							["Value"] = {
-								0, -- [1]
-								0.9921568627451, -- [2]
-								1, -- [3]
-								1, -- [4]
-							},
-							["Name"] = "维型圣物血条颜色",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_color",
-							["Desc"] = "选择颜色",
-						}, -- [4]
-						{
-							["Type"] = 6,
-							["Key"] = "pog",
-							["Value"] = 0,
-							["Name"] = "Divider",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_blank",
-							["Desc"] = "",
-						}, -- [5]
-						{
-							["Type"] = 4,
-							["Key"] = "setName",
-							["Value"] = true,
-							["Name"] = "启用更改姓名",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_bool",
-							["Desc"] = "是否更改名字?",
-						}, -- [6]
-						{
-							["Type"] = 3,
-							["Key"] = "urhName",
-							["Value"] = "尤『减CD / 回血 / 回蓝』",
-							["Name"] = "尤型圣物改名",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "输入需要更改的名字",
-						}, -- [7]
-						{
-							["Type"] = 3,
-							["Name"] = "沃型圣物改名",
-							["Value"] = "沃『移速 / 减伤 / 隐身』",
-							["Key"] = "woName",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "输入需要更改的名字",
-						}, -- [8]
-						{
-							["Type"] = 3,
-							["Name"] = "维型圣物改名",
-							["Value"] = "维『急速 / 召唤宝珠』",
-							["Key"] = "vyName",
-							["Icon"] = "Interface\\AddOns\\Plater\\images\\option_text",
-							["Desc"] = "输入需要更改的名字",
-						}, -- [9]
-					},
-					["Author"] = "Ilrieth-Argent Dawn",
-					["Desc"] = "使用自定义值修改加密圣物的名称和血条颜色",
-					["Prio"] = 99,
-					["Name"] = "加密改名及颜色",
-					["PlaterCore"] = 1,
-					["semver"] = "",
-					["version"] = -1,
-					["LastHookEdited"] = "Constructor",
-				}, -- [39]
-			},
-			["auras_per_row_amount2"] = 5,
-			["aura_width"] = 16,
-			["ghost_auras"] = {
-				["auras"] = {
-					["PRIEST"] = {
-						[3] = {
-							[589] = true,
-							[34914] = true,
-						},
-					},
-					["WARLOCK"] = {
-						{
-							[980] = true,
-							[172] = true,
-						}, -- [1]
-					},
-				},
-			},
-			["buff_frame_anchor_and_size_migrated"] = true,
-			["pet_width_scale"] = 0.99999994039536,
-			["quick_hide"] = true,
-			["target_highlight_color"] = {
-				0.15686274509804, -- [1]
-				1, -- [2]
-				0.45098039215686, -- [3]
-			},
-			["resources"] = {
-				["y_offset"] = 1,
-				["y_offset_target"] = 9,
-				["scale"] = 0.79999995231628,
-			},
-			["click_space"] = {
-				115, -- [1]
-			},
-			["aura2_grow_direction"] = 3,
-			["extra_icon_show_enrage"] = true,
-			["cast_statusbar_spark_texture"] = "Interface\\AddOns\\Plater\\images\\spark2",
-			["cast_statusbar_spark_color"] = {
-				0.98823529411765, -- [1]
-				[3] = 0.94117647058823,
-			},
-			["pet_height_scale"] = 0.99999994039536,
-			["aura_x_offset"] = 0,
-			["first_run3"] = true,
-			["ui_parent_scale_tune"] = 1.6666666004393,
-			["ui_parent_buff_strata"] = "LOW",
-			["healthbar_framelevel"] = 0,
-			["cast_statusbar_spark_offset"] = -13,
-			["health_statusbar_bgtexture"] = "PlaterBackground",
-			["indicator_raidmark_anchor"] = {
-				["y"] = 1.4000015258789,
-				["x"] = -8.6800003051758,
-			},
-			["tank"] = {
-				["colors"] = {
-					["aggro"] = {
-						0.094117647058824, -- [1]
-						1, -- [2]
-						0.33725490196078, -- [3]
-					},
-					["noaggro"] = {
-						[3] = 0.19607843137255,
-					},
-					["pulling"] = {
-						nil, -- [1]
-						0, -- [2]
-						0.77647058823529, -- [3]
-					},
-				},
-			},
-			["aura_tracker"] = {
-				["buff_tracked"] = {
-					["280001"] = true,
-					["329181"] = false,
-					["328501"] = false,
-				},
-				["debuff"] = {
-					224991, -- [1]
-					277950, -- [2]
-				},
-				["debuff_banned"] = {
-					["331653"] = true,
-					["299151"] = true,
-					["330911"] = true,
-					["327980"] = true,
-					["284678"] = true,
-					["281242"] = true,
-					["342938"] = true,
-					["340007"] = true,
-				},
-				["debuff_tracked"] = {
-					["341408"] = true,
-					["324652"] = false,
-					["342938"] = true,
-					["281242"] = true,
-				},
-				["buff_banned"] = {
-					["333553"] = true,
-					["281242"] = true,
-					["61573"] = true,
-					["206150"] = true,
-					["61574"] = true,
-				},
-			},
-			["castbar_target_show"] = true,
-			["cast_statusbar_color"] = {
-				nil, -- [1]
-				0.85882352941176, -- [2]
-				nil, -- [3]
-				0.96000000089407, -- [4]
-			},
-			["update_throttle"] = 0.099999994039536,
-			["color_override"] = false,
-			["indicator_extra_raidmark"] = false,
-			["aura_cooldown_show_swipe"] = false,
-			["not_affecting_combat_alpha"] = 0.79999995231628,
-			["use_health_animation"] = true,
-			["target_highlight_alpha"] = 1,
-			["news_frame"] = {
-				["PlaterNewsFrame"] = {
-					["scale"] = 1,
-				},
-			},
-			["aura_sort"] = true,
 			["target_shady_alpha"] = 0.59999996423721,
 			["hover_highlight_alpha"] = 0.29999998211861,
 			["indicator_raidmark_scale"] = 0.99999994039536,
@@ -19875,7 +19795,10 @@ PlaterDB = {
 			["cast_statusbar_spark_alpha"] = 0.71999996900558,
 			["castbar_framelevel"] = 0,
 			["version"] = 3,
-			["castbar_icon_customization_enabled"] = false,
+			["click_space_friendly"] = {
+				120, -- [1]
+				20, -- [2]
+			},
 			["cast_statusbar_bgcolor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -19910,7 +19833,6 @@ PlaterDB = {
 			["aura_timer_text_size"] = 12,
 			["extra_icon_show_timer"] = false,
 			["number_region_first_run"] = true,
-			["health_selection_overlay_alpha"] = 0.29999998211861,
 			["cast_statusbar_fadeout_time"] = 0.48999997973442,
 			["health_statusbar_bgcolor"] = {
 				0.0431372, -- [1]
@@ -19931,11 +19853,11 @@ PlaterDB = {
 				["Cast - Castbar is Timer [P]"] = 2,
 				["Blink by Time Left"] = 1,
 				["Cast - Big Alert"] = 12,
-				["Spiteful Affix"] = 3,
-				["Cast - Small Alert"] = 11,
 				["Auto Set Skull"] = 11,
-				["Aura - Invalidate Unit"] = 1,
+				["Cast - Small Alert"] = 11,
 				["Color Change"] = 1,
+				["Aura - Invalidate Unit"] = 1,
+				["Spiteful Affix"] = 3,
 				["Unit - Health Markers"] = 12,
 				["Unit - Main Target"] = 11,
 				["Aura - Blink Time Left"] = 13,
@@ -19970,9 +19892,7 @@ PlaterDB = {
 			["castbar_target_font"] = "Accidental Presidency",
 			["aura_alpha"] = 0.84999996423721,
 			["extra_icon_height"] = 16,
-			["indicator_pet"] = false,
 			["cast_statusbar_spark_width"] = 25,
-			["aura_cooldown_reverse"] = false,
 		},
 	},
 }

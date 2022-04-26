@@ -193,7 +193,7 @@ DataStore_StatsDB = {
 					["name"] = "赤红深渊",
 					["timeInSeconds"] = 2941,
 				},
-				["lastUpdate"] = 1650893366,
+				["lastUpdate"] = 1650974610,
 				["SeasonBestMapsOvertime"] = {
 					[380] = {
 						["texture"] = 3759932,

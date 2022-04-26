@@ -55,11 +55,11 @@ MEETINGSTONE_UI_DB = {
 		},
 		["version"] = "90200.01",
 		["ActivityProfiles"] = {
-			["炽蓝仙野"] = {
+			["自定义PvE"] = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["自定义PvE"] = {
+			["炽蓝仙野"] = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
@@ -101,8 +101,8 @@ MEETINGSTONE_UI_DB = {
 	["FILTER_DAMAGE"] = true,
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = 129.2934875488281,
-	["x"] = 223.0309295654297,
+	["y"] = 149.2262420654297,
+	["x"] = -225.7232513427734,
 	["a2"] = "CENTER",
 	["a1"] = "CENTER",
 	["QuickJoin"] = true,

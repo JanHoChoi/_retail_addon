@@ -33,6 +33,10 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 		},
+		["BigWigs_Bosses_Tazavesh Trash"] = {
+		},
+		["BigWigs_Bosses_So'azmi"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
@@ -42,6 +46,10 @@ BigWigs3DB = {
 					["exitCombat"] = 1,
 				},
 			},
+		},
+		["BigWigs_Bosses_Zo'phex the Sentinel"] = {
+		},
+		["BigWigs_Bosses_Mailroom Mayhem"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -71,13 +79,17 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0010681152344,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
 					["BigWigsAnchor_height"] = 15.99989318847656,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
+		["BigWigs_Bosses_The Grand Menagerie"] = {
+		},
 		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Bosses_Myza's Oasis"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},

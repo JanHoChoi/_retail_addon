@@ -35,8 +35,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Prototype Pantheon"] = {
-		},
 		["BigWigs_Plugins_AutoReply"] = {
 			["profiles"] = {
 				["薇羽Anne"] = {
@@ -44,8 +42,6 @@ BigWigs3DB = {
 					["exitCombat"] = 1,
 				},
 			},
-		},
-		["BigWigs_Bosses_Lihuvim, Principal Architect"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -75,9 +71,9 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0010681152344,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
 					["BigWigsAnchor_height"] = 15.99989318847656,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
@@ -86,8 +82,6 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Bosses_Dausegne, the Fallen Oracle"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 		},

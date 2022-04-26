@@ -68,28 +68,28 @@ MEETINGSTONE_UI_DB = {
 			[6] = {
 				["LeaderScore"] = {
 					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
+					["max"] = 0,
 				},
 				["BossKilled"] = {
 					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
-				},
-				["ItemLevel"] = {
-					["min"] = 0,
 					["max"] = 0,
-					["enable"] = false,
-				},
-				["Age"] = {
-					["min"] = 0,
-					["max"] = 1,
-					["enable"] = true,
 				},
 				["Members"] = {
 					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
+					["max"] = 0,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["enable"] = true,
+					["max"] = 1,
+				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
 				},
 			},
 		},
@@ -101,8 +101,8 @@ MEETINGSTONE_UI_DB = {
 	["FILTER_DAMAGE"] = true,
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = 129.2934875488281,
-	["x"] = 223.0309295654297,
+	["y"] = 149.2262420654297,
+	["x"] = -225.7232513427734,
 	["a2"] = "CENTER",
 	["a1"] = "CENTER",
 	["QuickJoin"] = true,
