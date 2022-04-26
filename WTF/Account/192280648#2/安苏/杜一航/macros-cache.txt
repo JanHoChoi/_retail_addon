@@ -1,6 +1,6 @@
 VER 3 0100000000000003 "战复" "INV_MISC_QUESTIONMARK"
 #showtooltips
-/cast [target=focus,exists] 复活盟友;复活盟友
+/cast [target=mouseover,exists] 复活盟友;复活盟友
 END
 VER 3 0100000000000001 "龙喷防手滑宏" "1029007"
 #showtooltips

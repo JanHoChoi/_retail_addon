@@ -10,15 +10,15 @@ BigWigs3DB = {
 		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
 		["雪舞薇薇 - 阿比迪斯"] = "薇羽Anne",
 		["柳絮菲菲 - 冰风岗"] = "薇羽Anne",
-		["试玩下哦 - 冰风岗"] = "薇羽Anne",
-		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
-		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
-		["薇羽 - 冰风岗"] = "薇羽Anne",
-		["杜一航 - 安苏"] = "薇羽Anne",
-		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
-		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
-		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
 		["薇羽 - 影之哀伤"] = "薇羽Anne",
+		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
+		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
+		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
+		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
+		["杜一航 - 安苏"] = "薇羽Anne",
+		["薇羽 - 冰风岗"] = "薇羽Anne",
+		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
+		["试玩下哦 - 冰风岗"] = "薇羽Anne",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -35,6 +35,8 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
+		["BigWigs_Bosses_Prototype Pantheon"] = {
+		},
 		["BigWigs_Plugins_AutoReply"] = {
 			["profiles"] = {
 				["薇羽Anne"] = {
@@ -43,24 +45,22 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
+		["BigWigs_Bosses_Lihuvim, Principal Architect"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
 				["薇羽Anne"] = {
 					["fontSize"] = 70,
 					["fontColor"] = {
-						["r"] = 0,
-						["g"] = 0.79607843137255,
 						["b"] = 1,
+						["g"] = 0.79607843137255,
+						["r"] = 0,
 					},
 					["voice"] = "zhTW: Default (Female)",
 				},
 			},
+		},
+		["BigWigs_Plugins_AltPower"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -75,23 +75,29 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0010681152344,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
 					["BigWigsAnchor_height"] = 15.99989318847656,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_AltPower"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Bosses_Dausegne, the Fallen Oracle"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["LibDualSpec-1.0"] = {
 		},
 	},
 	["global"] = {
@@ -113,9 +119,14 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 	[2450] = {
-		[2439] = {
+		[2435] = {
+			["mythic"] = {
+				["kills"] = 2,
+				["best"] = 482.091,
+				["wipes"] = 2,
+			},
 			["heroic"] = {
-				["best"] = 267.315,
+				["best"] = 225.959,
 				["kills"] = 1,
 			},
 		},
@@ -145,11 +156,10 @@ BigWigsStatsDB = {
 				["kills"] = 1,
 			},
 		},
-		[2446] = {
+		[2439] = {
 			["heroic"] = {
+				["best"] = 267.315,
 				["kills"] = 1,
-				["best"] = 234.909,
-				["wipes"] = 2,
 			},
 		},
 		[2447] = {
@@ -157,15 +167,11 @@ BigWigsStatsDB = {
 				["wipes"] = 1,
 			},
 		},
-		[2435] = {
-			["mythic"] = {
-				["kills"] = 2,
-				["best"] = 482.091,
-				["wipes"] = 2,
-			},
+		[2446] = {
 			["heroic"] = {
-				["best"] = 225.959,
 				["kills"] = 1,
+				["best"] = 234.909,
+				["wipes"] = 2,
 			},
 		},
 	},
@@ -239,6 +245,10 @@ BigWigsStatsDB = {
 				["best"] = 424.6800000000512,
 				["kills"] = 1,
 			},
+			["LFR"] = {
+				["best"] = 425.7800000000279,
+				["kills"] = 1,
+			},
 		},
 		[2469] = {
 			["heroic"] = {
@@ -310,6 +320,10 @@ BigWigsStatsDB = {
 				["best"] = 227.1969999999856,
 				["kills"] = 1,
 			},
+			["LFR"] = {
+				["best"] = 293.3369999999413,
+				["kills"] = 1,
+			},
 		},
 		[2467] = {
 			["heroic"] = {
@@ -326,6 +340,10 @@ BigWigsStatsDB = {
 		[2460] = {
 			["heroic"] = {
 				["best"] = 359.8680000000168,
+				["kills"] = 1,
+			},
+			["LFR"] = {
+				["best"] = 342.2610000000568,
 				["kills"] = 1,
 			},
 		},

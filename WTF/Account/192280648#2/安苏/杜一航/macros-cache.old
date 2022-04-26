@@ -2,14 +2,8 @@ VER 3 0100000000000003 "战复" "INV_MISC_QUESTIONMARK"
 #showtooltips
 /cast [target=focus,exists] 复活盟友;复活盟友
 END
-VER 3 0100000000000002 "爆发" "INV_MISC_QUESTIONMARK"
-#showtooltips
-/cast 符文武器增效
-/cast 亡者复生
-/use 13
-/use 14
-END
 VER 3 0100000000000001 "龙喷防手滑宏" "1029007"
 #showtooltips
 /cast !冰龙吐息
+/cast 亡者复生
 END

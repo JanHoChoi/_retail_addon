@@ -3,9 +3,9 @@ VER 3 000000000000000C "Decursive" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000000D "寒冰锁链" "INV_MISC_QUESTIONMARK"
 #showtooltips
-/cast [target=focus,exists] 心灵冰冻;心灵冰冻
+/cast [target=mouseover,exists] 心灵冰冻;心灵冰冻
 END
 VER 3 000000000000000E "死亡之握" "INV_MISC_QUESTIONMARK"
 #showtooltips
-/cast [target=focus,exists] 死亡之握;死亡之握
+/cast [target=mouseover,exists] 死亡之握;死亡之握
 END
