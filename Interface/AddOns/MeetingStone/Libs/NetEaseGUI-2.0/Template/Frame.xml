@@ -101,10 +101,9 @@
                         <Offset x="4" y="5" />
                     </Anchor>
                 </Anchors>
-				<Scripts>
-				  <!-- You are NOT TRUE UI Panel!!!!!!!! Don't use HideParentPanel @ynyzyfy note -->
-				  <OnClick>self:GetParent():Hide()</OnClick>
-				</Scripts>
+                <Scripts>
+                    <OnClick function="HideParentPanel" />
+                </Scripts>
             </Button>
             <Frame parentKey="Inset" inherits="InsetFrameTemplate" useParentLevel="true">
                 <Anchors>
@@ -131,13 +130,17 @@
                     <OnMouseDown>
                         if self:IsEnabled() then
                             self:GetParent().Portrait:SetSize(58, 58)
-                        end</OnMouseDown>
-          <OnMouseUp>self:GetParent().Portrait:SetSize(60, 60)</OnMouseUp>
-        </Scripts>
-      </Button>
-    </Frames>
-    <Scripts>
-      <OnLoad>self.PortraitFrame:EnableMouse(false)
+                        end
+                    </OnMouseDown>
+                    <OnMouseUp>
+                        self:GetParent().Portrait:SetSize(60, 60)
+                    </OnMouseUp>
+                </Scripts>
+            </Button>
+        </Frames>
+        <Scripts>
+            <OnLoad>
+                self.PortraitFrame:EnableMouse(false)
                 self.PortraitFrame:Disable()
                 self.Portrait:SetParent(self.PortraitFrame)
                 self.Portrait:ClearAllPoints()
@@ -147,26 +150,31 @@
                 self._PortraitFrame:SetAllPoints(self.PortraitFrame)
                 self._PortraitFrame = nil
                 self.BotLeftCorner = nil
-                self.BotRightCorner = nil</OnLoad>
-    </Scripts>
-  </Frame>
-  <Frame virtual="true" hidden="true" name="NetEaseLoadingTemplate">
-    <Size x="64" y="64" />
-    <Animations>
-      <AnimationGroup looping="REPEAT" parentKey="Anim">
-        <Rotation targetKey="Icon" duration="2" degrees="-360" />
-      </AnimationGroup>
-    </Animations>
-    <Layers>
-      <Layer level="ARTWORK">
-        <Texture alphaMode="ADD" parentKey="Icon" file="INTERFACE\COMMON\StreamCircle" setAllPoints="true">
-          <Color r="0.5" a="0.8" g="1" b="0.5" />
-        </Texture>
-      </Layer>
-    </Layers>
-    <Scripts>
-      <OnShow>self.Anim:Play()</OnShow>
-      <OnHide>self.Anim:Stop()</OnHide>
-    </Scripts>
-  </Frame>
+                self.BotRightCorner = nil
+            </OnLoad>
+        </Scripts>
+    </Frame>
+    <Frame name="NetEaseLoadingTemplate" virtual="true" hidden="true">
+        <Size x="64" y="64" />
+        <Animations>
+            <AnimationGroup parentKey="Anim" looping="REPEAT">
+                <Rotation targetKey="Icon" degrees="-360" duration="2" />
+            </AnimationGroup>
+        </Animations>
+        <Layers>
+            <Layer level="ARTWORK">
+                <Texture parentKey="Icon" file="INTERFACE\COMMON\StreamCircle" alphaMode="ADD" setAllPoints="true">
+                    <Color r="0.5" g="1" b="0.5" a="0.8" />
+                </Texture>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnShow>
+                self.Anim:Play()
+            </OnShow>
+            <OnHide>
+                self.Anim:Stop()
+            </OnHide>
+        </Scripts>
+    </Frame>
 </Ui>

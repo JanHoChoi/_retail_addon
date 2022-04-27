@@ -159,7 +159,7 @@ function SettingPanel:OnInitialize()
         }
     }
 
-    local filters = not NO_SCAN_WORD and {
+    local filters = NO_SCAN_WORD and {
         type = 'group',
         name = L['过滤器'],
         get = function(item)

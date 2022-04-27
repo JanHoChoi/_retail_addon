@@ -2,8 +2,6 @@
 BuildEnv(...)
 
 ManagerPanel = Addon:NewModule(CreateFrame('Frame'), 'ManagerPanel', 'AceEvent-3.0', 'AceBucket-3.0')
-local ApplicantsListFrame = nil
-local ApplicantsListEditBox = nil
 
 local CHECK_USEABLE_EVENTS = {
     'PARTY_LEADER_CHANGED',
@@ -33,15 +31,12 @@ function ManagerPanel:OnInitialize()
     end
 
     local ApplicantListBlocker = Addon:GetClass('Cover'):New(self) do
-	-- 遮罩层宽度
-	-- 20220301 by 易安玥 修改遮罩层宽度，匹配VV修改
-        ApplicantListBlocker:SetPoint('TOPLEFT', 180, 0)
+        ApplicantListBlocker:SetPoint('TOPLEFT', 219, 0)
         ApplicantListBlocker:SetPoint('BOTTOMRIGHT')
         ApplicantListBlocker:SetStyle('LINE')
         ApplicantListBlocker:Hide()
     end
 
-	--创建界面的刷新按钮
     local RefreshButton = Addon:GetClass('RefreshButton'):New(self) do
         RefreshButton:SetPoint('TOPRIGHT', self:GetOwner(), 'TOPRIGHT', -10, -23)
         RefreshButton:SetTooltip(LFG_LIST_REFRESH)

@@ -8,8 +8,7 @@ function CreatePanel:OnInitialize()
 
     self:SetPoint('TOPLEFT')
     self:SetPoint('BOTTOMLEFT')
-    local panelWidth=169 --219
-    self:SetWidth(panelWidth)
+    self:SetWidth(219)
 
     local line = GUI:GetClass('VerticalLine'):New(self) do
         line:SetPoint('TOPLEFT', self, 'TOPRIGHT', -3, 5)
@@ -27,7 +26,7 @@ function CreatePanel:OnInitialize()
     --- frames
     local InfoWidget = CreateFrame('Frame', nil, ViewBoardWidget) do
         InfoWidget:SetPoint('TOPLEFT')
-        InfoWidget:SetSize(panelWidth, 120)
+        InfoWidget:SetSize(219, 120)
 
         local bg = InfoWidget:CreateTexture(nil, 'BACKGROUND', nil, 1)
         bg:SetPoint('TOPLEFT', -2, 2)
@@ -62,7 +61,7 @@ function CreatePanel:OnInitialize()
 
         local privateGroupLabel = InfoWidget:CreateFontString(nil, 'OVERLAY', 'GameFontNormalLeft') do
             privateGroupLabel:SetPoint('TOPLEFT', summary, 'BOTTOMLEFT', -10, -4)
-            privateGroupLabel:SetText(L['仅好友和公会可见'])
+            privateGroupLabel:SetText(L['仅战网好友和公会成员可见'])
             privateGroupLabel:SetTextColor(0.51, 0.77, 1)
         end
 
@@ -175,7 +174,7 @@ function CreatePanel:OnInitialize()
     --- options
     local ActivityOptions = GUI:GetClass('TitleWidget'):New(CreateWidget) do
         ActivityOptions:SetPoint('TOPLEFT')
-        ActivityOptions:SetSize(panelWidth, 66)
+        ActivityOptions:SetSize(219, 66)
         ActivityOptions:SetText(L['请选择活动属性'])
     end
 
@@ -208,38 +207,37 @@ function CreatePanel:OnInitialize()
     --- voice and item level
     local VoiceItemLevelWidget = GUI:GetClass('TitleWidget'):New(CreateWidget) do
         VoiceItemLevelWidget:SetPoint('BOTTOMLEFT')
-        VoiceItemLevelWidget:SetSize(panelWidth, 100)
+        VoiceItemLevelWidget:SetSize(219, 100)
     end
 
     local ItemLevel = GUI:GetClass('NumericBox'):New(VoiceItemLevelWidget) do
         ItemLevel:SetPoint('TOP', VoiceItemLevelWidget, 30, -3)
-        ItemLevel:SetSize(88, 23)
+        ItemLevel:SetSize(108, 23)
         ItemLevel:SetLabel(L['最低装等'])
         ItemLevel:SetValueStep(10)
         ItemLevel:SetMinMaxValues(0, 2000)
     end
 
-    local Score = GUI:GetClass('NumericBox'):New(VoiceItemLevelWidget) do
-        Score:SetPoint('TOP', ItemLevel, 'BOTTOM', 0, -1)
-        Score:SetSize(88, 23)
-        Score:SetLabel(L['最低分数'])
-        Score:SetValueStep(1)
-        Score:SetMinMaxValues(0, 4000)
+    local HonorLevel = GUI:GetClass('NumericBox'):New(VoiceItemLevelWidget) do
+        HonorLevel:SetPoint('TOP', ItemLevel, 'BOTTOM', 0, -1)
+        HonorLevel:SetSize(108, 23)
+        HonorLevel:SetLabel(L['荣誉等级'])
+        HonorLevel:SetValueStep(1)
+        HonorLevel:SetMinMaxValues(0, 2000)
     end
 
     local VoiceBox = LFGListFrame.EntryCreation.VoiceChat.EditBox do
         VoiceItemLevelWidget:SetScript('OnShow', function(VoiceItemLevelWidget)
             VoiceBox:ClearAllPoints()
             VoiceBox:SetParent(VoiceItemLevelWidget)
-            VoiceBox:SetPoint('TOP', Score, 'BOTTOM', 0, -3)
-			--与其他条件同步大小
-            VoiceBox:SetSize(84, 18)
+            VoiceBox:SetPoint('TOP', HonorLevel, 'BOTTOM', 2, -1)
+            VoiceBox:SetSize(103, 23)
         end)
         VoiceBox:SetScript('OnTextChanged', nil)
         VoiceBox:SetScript('OnEditFocusLost', nil)
 
         local label = VoiceBox:CreateFontString(nil, 'OVERLAY', 'GameFontHighlight')
-        label:SetPoint('RIGHT', VoiceBox, 'LEFT', -8, 0)
+        label:SetPoint('RIGHT', VoiceBox, 'LEFT', -11, 0)
         label:SetText(L['语音聊天'])
 
         VoiceBox:SetScript('OnEnable', function()
@@ -260,14 +258,14 @@ function CreatePanel:OnInitialize()
         PrivateGroup:SetCheckedTexture([[Interface\Buttons\UI-CheckBox-Check]])
         PrivateGroup:SetDisabledCheckedTexture([[Interface\Buttons\UI-CheckBox-Check-Disabled]])
         PrivateGroup:SetSize(22, 22)
-        PrivateGroup:SetPoint('TOPLEFT', VoiceBox, 'BOTTOMLEFT', -68, 0)
+        PrivateGroup:SetPoint('TOPLEFT', VoiceBox, 'BOTTOMLEFT', -83, 0)
         local text = PrivateGroup:CreateFontString(nil, 'ARTWORK')
         text:SetPoint('LEFT', PrivateGroup, 'RIGHT', 2, 0)
         PrivateGroup:SetFontString(text)
         PrivateGroup:SetNormalFontObject('GameFontHighlightSmall')
         PrivateGroup:SetHighlightFontObject('GameFontNormalSmall')
         PrivateGroup:SetDisabledFontObject('GameFontDisableSmall')
-        PrivateGroup:SetText(L['仅好友和公会成员可见'])
+        PrivateGroup:SetText(L['仅战网好友和公会成员可见'])
     end
 
     --- summary
@@ -304,21 +302,6 @@ function CreatePanel:OnInitialize()
         MagicButton_OnLoad(CreateButton)
     end
 
-
-    -- local LeavePartyButton = CreateFrame('Button', nil, self, 'UIPanelButtonTemplate') do
-		-- LeavePartyButton:SetPoint('RIGHT', CreateButton, 'LEFT')
-        -- LeavePartyButton:SetSize(120, 22)
-        -- LeavePartyButton:SetText(L['离开队伍'])		
-        -- LeavePartyButton:SetNormalFontObject('GameFontNormal')
-        -- LeavePartyButton:SetHighlightFontObject('GameFontHighlight')
-        -- LeavePartyButton:SetDisabledFontObject('GameFontDisable')
-        -- LeavePartyButton:Enable()
-        -- LeavePartyButton:SetScript('OnClick', function()
-            -- LeaveParty()
-        -- end)
-        -- MagicButton_OnLoad(LeavePartyButton)
-    -- end
-    
     -- local CreateHelpPlate do
     --     CreateHelpPlate = {
     --         FramePos = { x = -10,          y = 55 },
@@ -402,7 +385,7 @@ function CreatePanel:OnInitialize()
     self.CreateButton = CreateButton
     self.DisbandButton = DisbandButton
     self.ActivityType = ActivityType
-    self.Score = Score
+    self.HonorLevel = HonorLevel
     self.PrivateGroup = PrivateGroup
 
     self.ViewBoardWidget = ViewBoardWidget
@@ -414,7 +397,7 @@ function CreatePanel:OnInitialize()
     self:RegisterInputBox(TitleBox)
     self:RegisterInputBox(self.SummaryBox)
     self:RegisterInputBox(ItemLevel)
-    self:RegisterInputBox(Score)
+    self:RegisterInputBox(HonorLevel)
     self:RegisterInputBox(VoiceBox)
 
     self:RegisterEvent('LFG_LIST_ACTIVE_ENTRY_UPDATE')
@@ -452,32 +435,14 @@ function CreatePanel:UpdateControlState()
     self.VoiceBox:SetEnabled(editable)
     self.TitleBox:SetEnabled(editable)
     self.SummaryBox:SetEnabled(editable)
-    --self.HonorLevel:SetEnabled(editable and IsUseHonorLevel(activityItem and activityItem.activityId))
-	self.Score:SetEnabled(editable)
+    self.HonorLevel:SetEnabled(editable and IsUseHonorLevel(activityItem and activityItem.activityId))
 
     self.DisbandButton:SetEnabled(isCreated and isLeader)
     self.CreateButton:SetEnabled(enable and isLeader and self.TitleBox:GetText():trim() ~= '')
 
     if enable then
         self.ItemLevel:SetMinMaxValues(0, GetPlayerItemLevel())
-        --self.HonorLevel:SetMinMaxValues(0, UnitHonorLevel('player'))
-		
-		if IsMythicPlusActivity(activityItem and activityItem.activityId) then
-			self.Score:SetMinMaxValues(0, C_ChallengeMode.GetOverallDungeonScore())
-		end
-		if IsRatedPvpActivity(activityItem and activityItem.activityId) then
-			if activityItem.activityId == 6 then --22  /dump GetPersonalRatedInfo(4)
-				self.Score:SetMinMaxValues(0, select(1,GetPersonalRatedInfo(1)))
-			end
-			if activityItem.activityId == 7 then --33
-				self.Score:SetMinMaxValues(0, select(1,GetPersonalRatedInfo(2)))
-			end
-			if activityItem.activityId == 19 then --pj
-				self.Score:SetMinMaxValues(0, select(1,GetPersonalRatedInfo(4)))
-			end
-		end
-		
-		--self.HonorLevel:SetMinMaxValues(0, 4000)
+        self.HonorLevel:SetMinMaxValues(0, UnitHonorLevel('player'))
     end
 
     self.CreateButton:SetText(isCreated and L['更新活动'] or L['创建活动'])
@@ -493,7 +458,7 @@ function CreatePanel:InitProfile()
     local customId = activityItem.customId
 
     local profile, voice = Profile:GetActivityProfile(activityItem.text)
-    local iLvl, summary, minLvl, maxLvl, pvpRating, honorLevel ,dungeonScore = 0, '', 10, MAX_PLAYER_LEVEL, 0, 0 ,0
+    local iLvl, summary, minLvl, maxLvl, pvpRating, honorLevel = 0, '', 10, MAX_PLAYER_LEVEL, 0, 0
 
     if IsSoloCustomID(customId) then
         iLvl = min(100, GetPlayerItemLevel())
@@ -501,8 +466,7 @@ function CreatePanel:InitProfile()
     elseif profile then
         iLvl = profile.ItemLevel
         summary = profile.Summary
-        pvpRating = profile.PvpRating or 0
-		dungeonScore = profile.DungeonScore or 0
+        honorLevel = profile.HonorLevel or 0
     else
         local fullName, shortName, categoryID, groupID, iLevel, filters, minLevel, maxPlayers, displayType = C_LFGList.GetActivityInfo(activityId)
         iLvl = min(iLevel, GetPlayerItemLevel())
@@ -511,13 +475,7 @@ function CreatePanel:InitProfile()
     end
 
     self.ItemLevel:SetText(iLvl)
-	if IsMythicPlusActivity(activityItem and activityItem.activityId) then
-		self.Score:SetText(dungeonScore)
-	end
-	if IsRatedPvpActivity(activityItem and activityItem.activityId) then
-		self.Score:SetText(pvpRating)
-	end
-    --self.HonorLevel:SetText(honorLevel)
+    self.HonorLevel:SetText(honorLevel)
 end
 
 function CreatePanel:ChooseWidget()
@@ -538,15 +496,6 @@ function CreatePanel:CreateActivity()
     self:ClearInputBoxFocus()
 
     local activityItem = self.ActivityType:GetItem()
-	local mScore,pScore = 0,0
-	if IsMythicPlusActivity(activityItem and activityItem.activityId) then
-		mScore = self.Score:GetNumber()
-	end
-	
-	if IsRatedPvpActivity(activityItem and activityItem.activityId) then
-		pScore = self.Score:GetNumber()
-	end
-
 
     local activity = CurrentActivity:FromAddon({
         ActivityID = activityItem.activityId,
@@ -554,9 +503,7 @@ function CreatePanel:CreateActivity()
 
         ItemLevel = self.ItemLevel:GetNumber(),
 
-        HonorLevel = 0,
-		MythicPlusRating = mScore,
-		PvpRating = pScore,
+        HonorLevel = self.HonorLevel:GetNumber(),
         PrivateGroup = self.PrivateGroup:GetChecked(),
     })
     if self:Create(activity, true) then
@@ -592,7 +539,7 @@ end
 
 function CreatePanel:ClearAllContent()
     self.ItemLevel:SetNumber(0)
-    self.Score:SetNumber(0)
+    self.HonorLevel:SetNumber(0)
     self.ActivityType:SetValue(nil)
     self.PrivateGroup:SetChecked(false)
 end
@@ -605,12 +552,11 @@ function CreatePanel:UpdateActivity()
     local activity = self:GetCurrentActivity()
     if not activity then
         return
-    end 
+    end
+
     self.ActivityType:SetValue(activity:GetCode())
     self.ItemLevel:SetText(activity:GetItemLevel())
-    --self.HonorLevel:SetText(activity:GetHonorLevel() or '')
-	  
-	self.Score:SetText(activity:GetMythicPlusRating() or activity:GetPvpRating() or '')
+    self.HonorLevel:SetText(activity:GetHonorLevel() or '')
     self.PrivateGroup:SetChecked(activity:GetPrivateGroup())
 end
 
@@ -698,7 +644,7 @@ function CreatePanel:PARTY_LEADER_CHANGED()
     end
 
     activity:SetItemLevel(min(activity:GetItemLevel(), GetPlayerItemLevel(activity:IsUseHonorLevel())))
-    --activity:SetHonorLevel(min(activity:GetHonorLevel(), 0))
+    activity:SetHonorLevel(min(activity:GetHonorLevel(), 0))
 
     self:Create(activity)
 end

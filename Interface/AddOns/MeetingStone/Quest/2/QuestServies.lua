@@ -11,7 +11,6 @@ end
 
 ---@class QuestServies: AceAddon, AceEvent
 QuestServies = Addon:NewModule('QuestServies', 'NetEaseSocket-2.0', 'AceEvent-3.0')
-local QuestType = {Challenge = 1, GoldLeader = 2}
 
 function QuestServies:OnInitialize()
     self:ListenSocket('NERB', ADDON_SERVER)
@@ -22,7 +21,6 @@ function QuestServies:OnEnable()
     self:RegisterServer('QSQ')
     self:RegisterServer('QSP')
     self:RegisterServer('QSF')
-    self:RegisterServer('QCS')
     self:RegisterServer('SERVER_CONNECTED')
 end
 
@@ -45,18 +43,14 @@ end
 
 function QuestServies:QSQ(_, active, questGroupData, progressData)
     self.active = active
-    self.questGroup = questGroupData and QuestGroup:FromProto(questGroupData)
-    if self.questGroup then
-        if self.questGroup.id ~= QuestType.GoldLeader then
-            if progressData then
-                self:QSP(nil, progressData)
-            else
-                self:SendMessage('MEETINGSTONE_QUEST_UPDATE')
-            end
-        else
-            self:QueryScore()
-        end
+    self.questGroup = QuestGroup:FromProto(questGroupData)
+
+    if progressData then
+        self:QSP(nil, progressData)
+    else
+        self:SendMessage('MEETINGSTONE_QUEST_UPDATE')
     end
+
     self.fetched = true
     self.quering = nil
     if self.queringTimer then
@@ -97,19 +91,9 @@ function QuestServies:QueryQuestList()
         self.queringTimer = nil
     end)
 
-    self:SendServer('QCQ', UnitGUID('player'), ADDON_VERSION)
+    self:SendServer('QCQ', UnitGUID('player'))
 end
 
 function QuestServies:QueryQuestProgress()
     self:SendServer('QCP', UnitGUID('player'))
 end
-
-function QuestServies:QueryScore()
-    self:SendServer('QCS', UnitGUID('player'))
-end
-
-function QuestServies:QCS(_, score)
-    self:SendMessage("MEETINGSTONE_UPDATE_SCORE", score)
-end
-
-QuestServies.QuestType = QuestType

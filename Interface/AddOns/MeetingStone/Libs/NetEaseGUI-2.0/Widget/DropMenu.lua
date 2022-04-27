@@ -9,9 +9,9 @@ end
 
 local Tooltip = GUI:GetClass('Tooltip')
 
-DropMenu._Objects = DropMenu._Objects or {}
-
 BuildEnv(...)
+
+DropMenu._Objects = DropMenu._Objects or {}
 
 local function check(value, data, owner)
     if type(value) == 'function' then
@@ -141,13 +141,12 @@ function DropMenu:Open(level, menuTable, owner, ...)
     menu:SetPoint(self:GetOpenPosition(owner, select(hasMaxItem and 2 or 1, ...)))
     menu:Show()
     menu:Refresh()
-     -- Should not modify this.Too bad
+    -- Should not modify this.Too bad
     local scale = Profile:GetSetting('uiscale')
     if(scale == nil or scale < 1.0) then
         scale = 1.0
     end
-    local listCount=#self.menuList[1]:GetItemList()
-    if  listCount == 5 or listCount == 6 or listCount == 7 then
+    if #self.menuList[1]:GetItemList() == 5 then
         local sysScale = menu:GetParent() and 1
         or GetCVarBool('useUIScale') and min(UIParent:GetScale(), tonumber(GetCVar('uiscale')))
         or UIParent:GetScale()

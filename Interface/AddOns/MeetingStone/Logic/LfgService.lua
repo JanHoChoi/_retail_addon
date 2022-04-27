@@ -96,13 +96,9 @@ function LfgService:_CacheActivity(id)
     if not activity:IsValidCustomActivity() then
         return
     end
-	
-	--修复刷新显示2条的问题
-    if not self.activityHash[id] then
+
     tinsert(self.activityList, activity)
     self.activityHash[id] = activity
-	end
-
 
     return true
 end
