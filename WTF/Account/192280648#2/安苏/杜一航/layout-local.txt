@@ -90,10 +90,3 @@ X: 0
 Y: -20
 W: 200
 H: 324
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOP
-X: 181
-Y: -62
-W: 1210
-H: 673

@@ -1,7 +1,21 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastVersionAnnounce"] = 1650986939,
+	["profileKeys"] = {
+		["薇羽 - 影之哀伤"] = "Default",
+		["雪舞薇薇 - 阿比迪斯"] = "Default",
+		["柳絮菲菲 - 影之哀伤"] = "Default",
+		["蝶舞菲菲 - 冰风岗"] = "Default",
+		["柳絮菲菲 - 冰风岗"] = "Default",
+		["赵丽颖 - 阿比迪斯"] = "Default",
+		["薇羽 - 冰风岗"] = "Default",
+		["弄着玩的 - 冰风岗"] = "Default",
+		["李英爱 - 阿比迪斯"] = "Default",
+		["弄着玩玩的 - 冰风岗"] = "Default",
+		["试玩下哦 - 冰风岗"] = "Default",
+		["Weiyuanne - 阿比迪斯"] = "Default",
+		["郭可盈 - 冰风岗"] = "Default",
+		["雪舞霏霏 - 阿比迪斯"] = "Default",
+		["杜一航 - 安苏"] = "Default",
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -184,16 +198,16 @@ DecursiveDB = {
 				-16, -- [32]
 			},
 		},
-		["PALADIN"] = {
+		["SHAMAN"] = {
 			["CureOrder"] = {
-				3, -- [1]
-				-15, -- [2]
+				4, -- [1]
+				2, -- [2]
 				nil, -- [3]
-				-14, -- [4]
+				1, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
-				1, -- [8]
+				-15, -- [8]
 				nil, -- [9]
 				nil, -- [10]
 				nil, -- [11]
@@ -201,7 +215,7 @@ DecursiveDB = {
 				nil, -- [13]
 				nil, -- [14]
 				nil, -- [15]
-				2, -- [16]
+				-16, -- [16]
 				nil, -- [17]
 				nil, -- [18]
 				nil, -- [19]
@@ -217,7 +231,7 @@ DecursiveDB = {
 				nil, -- [29]
 				nil, -- [30]
 				nil, -- [31]
-				-16, -- [32]
+				3, -- [32]
 			},
 		},
 		["WARLOCK"] = {
@@ -400,16 +414,16 @@ DecursiveDB = {
 				-16, -- [32]
 			},
 		},
-		["SHAMAN"] = {
+		["PALADIN"] = {
 			["CureOrder"] = {
-				4, -- [1]
-				2, -- [2]
+				3, -- [1]
+				-15, -- [2]
 				nil, -- [3]
-				1, -- [4]
+				-14, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
-				-15, -- [8]
+				1, -- [8]
 				nil, -- [9]
 				nil, -- [10]
 				nil, -- [11]
@@ -417,7 +431,7 @@ DecursiveDB = {
 				nil, -- [13]
 				nil, -- [14]
 				nil, -- [15]
-				-16, -- [16]
+				2, -- [16]
 				nil, -- [17]
 				nil, -- [18]
 				nil, -- [19]
@@ -433,26 +447,12 @@ DecursiveDB = {
 				nil, -- [29]
 				nil, -- [30]
 				nil, -- [31]
-				3, -- [32]
+				-16, -- [32]
 			},
 		},
 	},
-	["profileKeys"] = {
-		["薇羽 - 影之哀伤"] = "Default",
-		["雪舞薇薇 - 阿比迪斯"] = "Default",
-		["杜一航 - 安苏"] = "Default",
-		["弄着玩的 - 冰风岗"] = "Default",
-		["柳絮菲菲 - 冰风岗"] = "Default",
-		["李英爱 - 阿比迪斯"] = "Default",
-		["薇羽 - 冰风岗"] = "Default",
-		["蝶舞菲菲 - 冰风岗"] = "Default",
-		["赵丽颖 - 阿比迪斯"] = "Default",
-		["Weiyuanne - 阿比迪斯"] = "Default",
-		["试玩下哦 - 冰风岗"] = "Default",
-		["弄着玩玩的 - 冰风岗"] = "Default",
-		["郭可盈 - 冰风岗"] = "Default",
-		["雪舞霏霏 - 阿比迪斯"] = "Default",
-		["柳絮菲菲 - 影之哀伤"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1650986939,
 	},
 	["profiles"] = {
 		["Default"] = {

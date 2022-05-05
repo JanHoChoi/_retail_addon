@@ -1,10 +1,10 @@
 
 WhisperPopDB = {
 	["listHeight"] = 320,
-	["time"] = 1,
+	["listWidth"] = 200,
 	["save"] = 1,
-	["notifyButton"] = 1,
-	["listScale"] = 100,
+	["sound"] = 1,
+	["ignoreTags"] = 1,
 	["buttonScale"] = 120,
 	["history"] = {
 		{
@@ -165,10 +165,10 @@ WhisperPopDB = {
 			},
 		}, -- [17]
 	},
-	["applyFilters"] = 1,
+	["time"] = 1,
 	["version"] = 4.12,
 	["foreignOnly"] = 1,
-	["ignoreTags"] = 1,
-	["sound"] = 1,
-	["listWidth"] = 200,
+	["applyFilters"] = 1,
+	["notifyButton"] = 1,
+	["listScale"] = 100,
 }

@@ -10,15 +10,15 @@ BigWigs3DB = {
 		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
 		["雪舞薇薇 - 阿比迪斯"] = "薇羽Anne",
 		["柳絮菲菲 - 冰风岗"] = "薇羽Anne",
-		["薇羽 - 影之哀伤"] = "薇羽Anne",
-		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
-		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
-		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
-		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
-		["杜一航 - 安苏"] = "薇羽Anne",
-		["薇羽 - 冰风岗"] = "薇羽Anne",
-		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
 		["试玩下哦 - 冰风岗"] = "薇羽Anne",
+		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
+		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
+		["薇羽 - 冰风岗"] = "薇羽Anne",
+		["杜一航 - 安苏"] = "薇羽Anne",
+		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
+		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
+		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
+		["薇羽 - 影之哀伤"] = "薇羽Anne",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -48,9 +48,9 @@ BigWigs3DB = {
 				["薇羽Anne"] = {
 					["fontSize"] = 70,
 					["fontColor"] = {
-						["b"] = 1,
-						["g"] = 0.79607843137255,
 						["r"] = 0,
+						["g"] = 0.79607843137255,
+						["b"] = 1,
 					},
 					["voice"] = "zhTW: Default (Female)",
 				},
@@ -77,21 +77,21 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["global"] = {
@@ -113,22 +113,17 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 	[2450] = {
+		[2439] = {
+			["heroic"] = {
+				["best"] = 267.315,
+				["kills"] = 1,
+			},
+		},
 		[2442] = {
 			["heroic"] = {
 				["kills"] = 1,
 				["wipes"] = 1,
 				["best"] = 240.832,
-			},
-		},
-		[2435] = {
-			["mythic"] = {
-				["kills"] = 2,
-				["best"] = 482.091,
-				["wipes"] = 2,
-			},
-			["heroic"] = {
-				["best"] = 225.959,
-				["kills"] = 1,
 			},
 		},
 		[2443] = {
@@ -162,9 +157,14 @@ BigWigsStatsDB = {
 				["wipes"] = 1,
 			},
 		},
-		[2439] = {
+		[2435] = {
+			["mythic"] = {
+				["kills"] = 2,
+				["best"] = 482.091,
+				["wipes"] = 2,
+			},
 			["heroic"] = {
-				["best"] = 267.315,
+				["best"] = 225.959,
 				["kills"] = 1,
 			},
 		},
