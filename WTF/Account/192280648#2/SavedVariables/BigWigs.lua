@@ -10,15 +10,15 @@ BigWigs3DB = {
 		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
 		["雪舞薇薇 - 阿比迪斯"] = "薇羽Anne",
 		["柳絮菲菲 - 冰风岗"] = "薇羽Anne",
-		["薇羽 - 影之哀伤"] = "薇羽Anne",
-		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
-		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
-		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
-		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
-		["杜一航 - 安苏"] = "薇羽Anne",
-		["薇羽 - 冰风岗"] = "薇羽Anne",
-		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
 		["试玩下哦 - 冰风岗"] = "薇羽Anne",
+		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
+		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
+		["薇羽 - 冰风岗"] = "薇羽Anne",
+		["杜一航 - 安苏"] = "薇羽Anne",
+		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
+		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
+		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
+		["薇羽 - 影之哀伤"] = "薇羽Anne",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Alt Power"] = {
@@ -31,25 +31,11 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Bosses_Tred'ova"] = {
-		},
-		["BigWigs_Bosses_Mistcaller"] = {
-		},
 		["BigWigs_Plugins_Messages"] = {
-		},
-		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
-		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
-		},
-		["BigWigs_Bosses_Ingra Maloch"] = {
-		},
-		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Theater Of Pain Trash"] = {
-		},
-		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
@@ -59,51 +45,24 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Blightbone"] = {
-		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
 				["薇羽Anne"] = {
 					["fontSize"] = 70,
 					["fontColor"] = {
-						["b"] = 1,
-						["g"] = 0.79607843137255,
 						["r"] = 0,
+						["g"] = 0.79607843137255,
+						["b"] = 1,
 					},
 					["voice"] = "zhTW: Default (Female)",
 				},
 			},
 		},
-		["BigWigs_Bosses_Amarth, The Reanimator"] = {
-		},
 		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-		},
-		["BigWigs_Plugins_Bars"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BigWigsEmphasizeAnchor_height"] = 21.999956130981,
-				},
-				["薇羽Anne"] = {
-					["BigWigsAnchor_width"] = 220.0010681152344,
-					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
-					["BigWigsAnchor_height"] = 15.99989318847656,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
-				},
-			},
-		},
-		["BigWigs_Bosses_Gorechop"] = {
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Bosses_Xav the Unfallen"] = {
-		},
-		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
+		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 			["profiles"] = {
@@ -113,15 +72,26 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_The Necrotic Wake Trash"] = {
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BigWigsEmphasizeAnchor_height"] = 21.999956130981,
+				},
+				["薇羽Anne"] = {
+					["BigWigsAnchor_width"] = 220.0010681152344,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
+					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
+					["BigWigsAnchor_height"] = 15.99989318847656,
+				},
+			},
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Plugins_InfoBox"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 		},
-		["BigWigs_Bosses_Kul'tharok"] = {
-		},
 		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["global"] = {
@@ -143,6 +113,13 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 	[2450] = {
+		[2446] = {
+			["heroic"] = {
+				["kills"] = 1,
+				["best"] = 234.909,
+				["wipes"] = 2,
+			},
+		},
 		[2435] = {
 			["mythic"] = {
 				["kills"] = 2,
@@ -152,13 +129,6 @@ BigWigsStatsDB = {
 			["heroic"] = {
 				["best"] = 225.959,
 				["kills"] = 1,
-			},
-		},
-		[2442] = {
-			["heroic"] = {
-				["kills"] = 1,
-				["wipes"] = 1,
-				["best"] = 240.832,
 			},
 		},
 		[2443] = {
@@ -191,11 +161,11 @@ BigWigsStatsDB = {
 				["wipes"] = 1,
 			},
 		},
-		[2446] = {
+		[2442] = {
 			["heroic"] = {
 				["kills"] = 1,
-				["best"] = 234.909,
-				["wipes"] = 2,
+				["wipes"] = 1,
+				["best"] = 240.832,
 			},
 		},
 	},

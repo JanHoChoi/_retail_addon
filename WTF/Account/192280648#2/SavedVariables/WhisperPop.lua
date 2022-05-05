@@ -1,24 +1,24 @@
 
 WhisperPopDB = {
 	["listHeight"] = 320,
+	["ignoreTags"] = 1,
 	["listWidth"] = 200,
-	["save"] = 1,
-	["sound"] = 1,
-	["listScale"] = 100,
+	["notifyButton"] = 1,
+	["time"] = 1,
 	["buttonScale"] = 120,
 	["history"] = {
 		{
+			["class"] = "WARLOCK",
 			["messages"] = {
 				"15 22:36:气氛不再融洽, 感谢你使用 |cff71d5ff|Hspell:20707:0|h[灵魂石]|h|r 复活我. :)", -- [1]
 				"15 23:17:气氛不再融洽, 感谢你使用 |cff71d5ff|Hspell:20707:0|h[灵魂石]|h|r 复活我. :)", -- [2]
 				"16 00:01:气氛不再融洽, 感谢你使用 |cff71d5ff|Hspell:20707:0|h[灵魂石]|h|r 复活我. :)", -- [3]
 			},
-			["class"] = "WARLOCK",
 			["name"] = "气氛不再融洽-燃烧之刃",
 		}, -- [1]
 		{
-			["name"] = "Varvalian-布兰卡德",
 			["class"] = "PALADIN",
+			["name"] = "Varvalian-布兰卡德",
 			["messages"] = {
 				"14 21:01:Varvalian, 感谢你使用 |cff71d5ff|Hspell:7328:0|h[救赎]|h|r 复活我. :)", -- [1]
 				"15 23:05:Varvalian, 感谢你使用 |cff71d5ff|Hspell:7328:0|h[救赎]|h|r 复活我. :)", -- [2]
@@ -175,10 +175,10 @@ WhisperPopDB = {
 			},
 		}, -- [18]
 	},
-	["applyFilters"] = 1,
+	["listScale"] = 100,
 	["version"] = 4.12,
 	["foreignOnly"] = 1,
-	["time"] = 1,
-	["notifyButton"] = 1,
-	["ignoreTags"] = 1,
+	["applyFilters"] = 1,
+	["sound"] = 1,
+	["save"] = 1,
 }

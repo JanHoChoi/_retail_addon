@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 3900,
 	["lastSanitation"] = 3,
-	["session"] = 3899,
 	["errors"] = {
 		{
 			["message"] = "[string \"Error in: M+ DungeonScore':'custom text\"]:6: attempt to compare number with nil",
@@ -217,8 +217,8 @@ BugGrabberDB = {
 		}, -- [29]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingStone\\Cache\\Cache.xml",
-			["session"] = 3888,
 			["time"] = "2022/04/26 12:39:22",
+			["session"] = 3888,
 			["counter"] = 4,
 		}, -- [30]
 		{
