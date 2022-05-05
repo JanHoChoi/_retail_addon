@@ -10,15 +10,15 @@ BigWigs3DB = {
 		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
 		["雪舞薇薇 - 阿比迪斯"] = "薇羽Anne",
 		["柳絮菲菲 - 冰风岗"] = "薇羽Anne",
-		["试玩下哦 - 冰风岗"] = "薇羽Anne",
-		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
-		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
-		["薇羽 - 冰风岗"] = "薇羽Anne",
-		["杜一航 - 安苏"] = "薇羽Anne",
-		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
-		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
-		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
 		["薇羽 - 影之哀伤"] = "薇羽Anne",
+		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
+		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
+		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
+		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
+		["杜一航 - 安苏"] = "薇羽Anne",
+		["薇羽 - 冰风岗"] = "薇羽Anne",
+		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
+		["试玩下哦 - 冰风岗"] = "薇羽Anne",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -33,10 +33,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 		},
-		["BigWigs_Bosses_Tazavesh Trash"] = {
-		},
-		["BigWigs_Bosses_So'azmi"] = {
-		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
@@ -47,18 +43,14 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Zo'phex the Sentinel"] = {
-		},
-		["BigWigs_Bosses_Mailroom Mayhem"] = {
-		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
 				["薇羽Anne"] = {
 					["fontSize"] = 70,
 					["fontColor"] = {
-						["r"] = 0,
-						["g"] = 0.79607843137255,
 						["b"] = 1,
+						["g"] = 0.79607843137255,
+						["r"] = 0,
 					},
 					["voice"] = "zhTW: Default (Female)",
 				},
@@ -79,31 +71,27 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0010681152344,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
 					["BigWigsAnchor_height"] = 15.99989318847656,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
-		["BigWigs_Bosses_The Grand Menagerie"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Myza's Oasis"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Proximity"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 		},
-		["BigWigs_Plugins_Proximity"] = {
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 	},
 	["global"] = {
@@ -125,11 +113,11 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 	[2450] = {
-		[2446] = {
+		[2442] = {
 			["heroic"] = {
 				["kills"] = 1,
-				["best"] = 234.909,
-				["wipes"] = 2,
+				["wipes"] = 1,
+				["best"] = 240.832,
 			},
 		},
 		[2435] = {
@@ -162,10 +150,11 @@ BigWigsStatsDB = {
 				["kills"] = 1,
 			},
 		},
-		[2439] = {
+		[2446] = {
 			["heroic"] = {
-				["best"] = 267.315,
 				["kills"] = 1,
+				["best"] = 234.909,
+				["wipes"] = 2,
 			},
 		},
 		[2447] = {
@@ -173,11 +162,10 @@ BigWigsStatsDB = {
 				["wipes"] = 1,
 			},
 		},
-		[2442] = {
+		[2439] = {
 			["heroic"] = {
+				["best"] = 267.315,
 				["kills"] = 1,
-				["wipes"] = 1,
-				["best"] = 240.832,
 			},
 		},
 	},

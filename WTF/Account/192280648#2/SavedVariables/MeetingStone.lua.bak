@@ -53,13 +53,13 @@ MEETINGSTONE_UI_DB = {
 				["new"] = false,
 			},
 		},
-		["version"] = "90200.01",
+		["version"] = "90005.03",
 		["ActivityProfiles"] = {
-			["自定义PvE"] = {
+			["炽蓝仙野"] = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["炽蓝仙野"] = {
+			["自定义PvE"] = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
@@ -68,28 +68,28 @@ MEETINGSTONE_UI_DB = {
 			[6] = {
 				["LeaderScore"] = {
 					["min"] = 0,
-					["enable"] = false,
 					["max"] = 0,
+					["enable"] = false,
 				},
 				["BossKilled"] = {
 					["min"] = 0,
-					["enable"] = false,
 					["max"] = 0,
-				},
-				["Age"] = {
-					["min"] = 0,
-					["enable"] = true,
-					["max"] = 1,
-				},
-				["Members"] = {
-					["min"] = 0,
 					["enable"] = false,
-					["max"] = 0,
 				},
 				["ItemLevel"] = {
 					["min"] = 0,
-					["enable"] = false,
 					["max"] = 0,
+					["enable"] = false,
+				},
+				["Members"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["max"] = 1,
+					["enable"] = true,
 				},
 			},
 		},
@@ -109,3 +109,4 @@ MEETINGSTONE_UI_E_POINTS = {
 }
 MEETINGSTONE_UI_BLACKLISTEDLEADERS = {
 }
+MEETINGSTONE_UI_E_FILTERAD = false
