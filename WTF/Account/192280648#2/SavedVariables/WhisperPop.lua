@@ -1,36 +1,36 @@
 
 WhisperPopDB = {
 	["listHeight"] = 320,
-	["ignoreTags"] = 1,
+	["save"] = 1,
 	["listWidth"] = 200,
-	["notifyButton"] = 1,
-	["time"] = 1,
+	["sound"] = 1,
+	["applyFilters"] = 1,
 	["buttonScale"] = 120,
 	["history"] = {
 		{
 			["received"] = 1,
-			["name"] = "先生丶加个钟嘛#5878",
 			["class"] = "BN",
+			["name"] = "先生丶加个钟嘛#5878",
 			["messages"] = {
 				"07 00:02:材宝 快睡觉了", -- [1]
 				"17 00:02:溜了溜了", -- [2]
 			},
 		}, -- [1]
 		{
+			["class"] = "PRIEST",
 			["messages"] = {
 				"16 23:19:芝士麦尔酱, 感谢你使用 |cff71d5ff|Hspell:2006:0|h[复活术]|h|r 复活我. :)", -- [1]
 			},
-			["class"] = "PRIEST",
 			["name"] = "芝士麦尔酱-燃烧之刃",
 		}, -- [2]
 		{
 			["received"] = 1,
+			["class"] = "BN",
 			["messages"] = {
 				"04 22:45:15低保来吗靓仔", -- [1]
 				"04 22:45:dk老师在", -- [2]
 				"16 22:49:有位置吗马老师", -- [3]
 			},
-			["class"] = "BN",
 			["name"] = "Leolee#52403",
 		}, -- [3]
 		{
@@ -165,10 +165,10 @@ WhisperPopDB = {
 			},
 		}, -- [17]
 	},
-	["listScale"] = 100,
+	["ignoreTags"] = 1,
 	["version"] = 4.12,
 	["foreignOnly"] = 1,
-	["applyFilters"] = 1,
-	["sound"] = 1,
-	["save"] = 1,
+	["listScale"] = 100,
+	["notifyButton"] = 1,
+	["time"] = 1,
 }

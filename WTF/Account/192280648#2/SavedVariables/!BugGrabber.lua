@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 3892,
 	["lastSanitation"] = 3,
+	["session"] = 3893,
 	["errors"] = {
 		{
 			["message"] = "[string \"Error in: M+ DungeonScore':'custom text\"]:6: attempt to compare number with nil",
@@ -63,28 +63,20 @@ BugGrabberDB = {
 			["counter"] = 484,
 		}, -- [8]
 		{
-			["message"] = "TexCoord out of range",
-			["time"] = "2022/04/14 22:26:54",
-			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = 0.257813\n(*temporary) = 35485.364296\n(*temporary) = 0.367188\n(*temporary) = 35485.364296\n(*temporary) = 0.257813\n(*temporary) = 0.062500\n(*temporary) = 0.367188\n(*temporary) = 0.062500\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetTexCoord'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:200: in function <Interface\\SharedXML\\Backdrop.lua:199>\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:232: in function `SetupTextureCoordinates'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:176: in function <Interface\\SharedXML\\Backdrop.lua:174>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\MoverSizer.lua\"]:513: in function `SetToRegion'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:1529: in function `SetMoverSizer'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:1234: in function `PickDisplay'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:1204: in function `PickDisplay'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIWidget-WeakAurasDisplayButton.lua\"]:506: in function <...eGUI-Widgets\\AceGUIWidget-WeakAurasDisplayButton.lua:464>",
-			["session"] = 3863,
-			["counter"] = 1,
-		}, -- [9]
-		{
 			["message"] = "Interface\\SharedXML\\C_TimerAugment.lua:30: C_Timer.After requires a non-negative duration",
 			["time"] = "2022/04/14 23:52:36",
 			["locals"] = "(*temporary) = -0.001000\n(*temporary) = <function> defined @Interface\\SharedXML\\C_TimerAugment.lua:14\n",
 			["stack"] = "[string \"=[C]\"]: in function `After'\n[string \"@Interface\\SharedXML\\C_TimerAugment.lua\"]:30: in function <Interface\\SharedXML\\C_TimerAugment.lua:11>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\BigWigs_Plugins\\Bars.lua\"]:2404: in function `?'\n[string \"@Interface\\AddOns\\BigWigs_Core\\Core.lua\"]:59: in function <Interface\\AddOns\\BigWigs_Core\\Core.lua:54>",
 			["session"] = 3863,
 			["counter"] = 1,
-		}, -- [10]
+		}, -- [9]
 		{
 			["message"] = "BigWigs: One of your addons caused an error on the \"BigWigs_OnBossDisable\" callback:\nInterface\\AddOns\\BigWigs_Plugins\\Bars.lua:1875: attempt to index field 'deletionTimer' (a nil value)",
 			["time"] = "2022/04/15 00:00:39",
 			["stack"] = "[string \"@Interface\\AddOns\\BigWigs_Core\\BossPrototype.lua\"]:390: in function `Disable'\n[string \"@Interface\\AddOns\\BigWigs_Core\\Core.lua\"]:338: in function <Interface\\AddOns\\BigWigs_Core\\Core.lua:336>\n[string \"@Interface\\AddOns\\BigWigs_Core\\Core.lua\"]:362: in function `v'\n[string \"@Interface\\AddOns\\BigWigs_Core\\Core.lua\"]:57: in function <Interface\\AddOns\\BigWigs_Core\\Core.lua:54>",
 			["session"] = 3863,
 			["counter"] = 1,
-		}, -- [11]
+		}, -- [10]
 		{
 			["message"] = "...ce\\AddOns\\Blizzard_Collections\\Blizzard_Wardrobe.lua:983: Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: WardrobeCollectionFrame:SetPoint.",
 			["time"] = "2022/04/19 20:59:40",
@@ -92,7 +84,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Wardrobe.lua\"]:983: in function `SetContainer'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Collections-1.0.lua\"]:57: in function `CollectionsJournal_UpdateSelectedTab'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Collections-1.0.lua\"]:6: in function `CollectionsJournal_SetTab'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Wardrobe.lua\"]:1432: in function `CheckLatestAppearance'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Wardrobe.lua\"]:1414: in function <...ce\\AddOns\\Blizzard_Collections\\Blizzard_Wardrobe.lua:1397>",
 			["session"] = 3871,
 			["counter"] = 2,
-		}, -- [12]
+		}, -- [11]
 		{
 			["message"] = "Interface\\SharedXML\\FrameUtil.lua:57: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetScaledRect().",
 			["time"] = "2022/04/20 22:15:45",
@@ -100,21 +92,21 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetScaledRect'\n[string \"@Interface\\SharedXML\\FrameUtil.lua\"]:57: in function `GetUnscaledFrameRect'\n[string \"@Interface\\SharedXML\\LayoutFrame.lua\"]:299: in function <Interface\\SharedXML\\LayoutFrame.lua:298>\n[string \"@Interface\\SharedXML\\LayoutFrame.lua\"]:336: in function `Layout'\n[string \"@Interface\\AddOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetManager.lua\"]:166: in function `layoutFunc'\n[string \"@Interface\\AddOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetManager.lua\"]:530: in function `UpdateWidgetLayout'\n[string \"@Interface\\AddOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetManager.lua\"]:502: in function `ProcessAllWidgets'\n[string \"@Interface\\AddOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetManager.lua\"]:48: in function <...dOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetManager.lua:46>",
 			["session"] = 3873,
 			["counter"] = 7,
-		}, -- [13]
+		}, -- [12]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'Masque' 尝试调用保护功能 'UNKNOWN()'。",
 			["time"] = "2022/04/19 19:37:20",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `CreateFrame'\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:171: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:130>\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:495: in function `SecureGroupHeader_Update'\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:62: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:60>",
 			["session"] = 3877,
 			["counter"] = 2,
-		}, -- [14]
+		}, -- [13]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'ElvUI' 尝试调用保护功能 'ElvUF_TankUnitButton2:SetSize()'。",
 			["time"] = "2022/04/19 19:37:20",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetSize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Toolkit.lua\"]:86: in function `Size'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\UnitFrames\\Groups\\Tank-坦克.lua\"]:115: in function `Update_TankFrames'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\UnitFrames\\UnitFrames.lua\"]:1632: in function `func'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua\"]:363: in function <Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua:273>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\FrameXML\\RestrictedFrames.lua\"]:791: in function <Interface\\FrameXML\\RestrictedFrames.lua:783>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface\\FrameXML\\RestrictedFrames.lua\"]:810: in function `CallMethod'\n[string \"		local header = self:GetParent()\n		local frames = table.new()\n		table.insert(frames, self)\n		self:GetChildList(frames)\n		for i = 1, #frames do\n			local frame = frames[i]\n			local unit\n			-- There's no need to do anything on frames with onlyProcessChildren\n			if(not frame:GetAttribute('oUF-onlyProcessChildren')) then\n				RegisterUnitWatch(frame)\n\n				-- Attempt to guess what the header is set to spawn.\n				local groupFilter = header:GetAttribute('groupFilter')\n\n				if(type(groupFilter) == 'string' and groupFilter:match('MAIN[AT]')) then\n					local role = groupFilter:match('MAIN([AT])')\n					if(role == 'T') then\n						unit = 'maintank'\n					else\n						unit = 'mainassist'\n					end\n				elseif(header:GetAttribute('showRaid')) then\n					unit = 'raid'\n				elseif(header:GetAttribute('showParty')) then\n					unit = 'party'\n				end\n\n				local headerType = header:GetAttribute('oUF-headerType')\n				local suffix = frame:GetAttribute('unitsuffix')\n				if(unit and suffix) then\n					if(headerType == 'pet' and suffix == 'target') then\n						unit = unit .. headerType .. suffix\n					else\n						unit = unit .. suffix\n					end\n				elseif(unit and headerType == 'pet') then\n					unit = unit .. headerType\n				end\n\n				frame:SetAttribute('*type1', 'target')\n				frame:SetAttribute('*type2', 'togglemenu')\n				frame:SetAttribute('oUF-guessUnit', unit)\n			end\n\n			local body = header:GetAttribute('oUF-initialConfigFunction')\n			if(body) then\n				frame:Run(body, unit)\n			end\n		end\n\n		header:CallMethod('styleFunction', self:GetName())\n\n		local clique = header:GetFrameRef('clickcast_header')\n		if(clique) then\n			clique:SetAttribute('clickcast_button', self)\n			clique:RunAttribute('clickcast_register')\n		end\n	\"]:51: in function <[string \"		local header = self:GetParent()...\"]:1>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface\\FrameXML\\RestrictedExecution.lua\"]:484: in function <Interface\\FrameXML\\RestrictedExecution.lua:447>\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:116: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:110>\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:173: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:130>\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:495: in function `SecureGroupHeader_Update'\n[string \"@Interface\\FrameXML\\SecureGroupHeaders.lua\"]:62: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:60>",
 			["session"] = 3877,
 			["counter"] = 2,
-		}, -- [15]
+		}, -- [14]
 		{
 			["message"] = "Interface\\AddOns\\WhisperPop\\Core.lua:111: attempt to index global 'BNetAccountInfo' (a nil value)",
 			["time"] = "2022/04/21 19:50:46",
@@ -122,21 +114,21 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\WhisperPop\\Core.lua\"]:111: in function `GetBNInfoFromTag'\n[string \"@Interface\\AddOns\\WhisperPop\\Core.lua\"]:82: in function `GetDisplayName'\n[string \"@Interface\\AddOns\\WhisperPop\\Frames\\Templates.lua\"]:129: in function `ShowPlayerInfo'\n[string \"@Interface\\AddOns\\WhisperPop\\Frames\\MainFrame.lua\"]:85: in function <Interface\\AddOns\\WhisperPop\\Frames\\MainFrame.lua:84>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\VirtualScrollList-1.0.lua\"]:181: in function <...AddOns\\WhisperPop\\Includes\\VirtualScrollList-1.0.lua:170>\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\VirtualScrollList-1.0.lua\"]:511: in function <...AddOns\\WhisperPop\\Includes\\VirtualScrollList-1.0.lua:489>\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\VirtualScrollList-1.0.lua\"]:548: in function `RefreshContents'\n[string \"@Interface\\AddOns\\WhisperPop\\Frames\\MainFrame.lua\"]:167: in function `func'\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\LibAddonManager-1.22.nil.lua\"]:472: in function `BroadcastEvent'\n[string \"@Interface\\AddOns\\WhisperPop\\Frames\\MainFrame.lua\"]:171: in function `func'\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\LibAddonManager-1.22.nil.lua\"]:472: in function <...rface\\AddOns\\WhisperPop\\Includes\\LibAddonManager.lua:460>\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\LibAddonManager-1.22.nil.lua\"]:496: in function `BroadcastOptionEvent'\n[string \"@Interface\\AddOns\\WhisperPop\\Core.lua\"]:243: in function `OnInitialize'\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\LibAddonManager-1.22.nil.lua\"]:973: in function <...rface\\AddOns\\WhisperPop\\Includes\\LibAddonManager.lua:953>\n[string \"@Interface\\AddOns\\WhisperPop\\Includes\\LibAddonManager-1.22.nil.lua\"]:1011: in function <...rface\\AddOns\\WhisperPop\\Includes\\LibAddonManager.lua:1004>",
 			["session"] = 3883,
 			["counter"] = 3,
-		}, -- [16]
+		}, -- [15]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'WeakAuras' 尝试调用保护功能 'SetFrameLevel()'。",
 			["time"] = "2022/04/24 21:06:29",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\Icon.lua\"]:257: in function `SetFrameLevel'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\Background.lua\"]:14: in function `SetFrameLevel'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3550: in function `ApplyFrameLevel'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:831: in function `Expand'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3811: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1557: in function `ScanForLoads'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1627: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1624>",
 			["session"] = 3885,
 			["counter"] = 1,
-		}, -- [17]
+		}, -- [16]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 '*** ForceTaint_Strong ***' 尝试调用保护功能 '饰品1Button:SetAttribute()'。",
 			["time"] = "2022/04/24 21:06:29",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"Error in: 饰品1':'show action\"]:12: in function <[string \"Error in: 饰品1':'show action\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3168: in function `PerformActions'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:833: in function `Expand'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3811: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1557: in function `ScanForLoads'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1627: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1624>",
 			["session"] = 3885,
 			["counter"] = 1,
-		}, -- [18]
+		}, -- [17]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\class_instance.lua:3175: 'for' limit must be a number",
 			["time"] = "2022/04/24 21:21:40",
@@ -144,7 +136,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Details\\classes\\class_instance.lua\"]:3175: in function `monta_relatorio'\n[string \"@Interface\\AddOns\\Details\\frames\\window_report.lua\"]:226: in function <Interface\\AddOns\\Details\\frames\\window_report.lua:226>",
 			["session"] = 3885,
 			["counter"] = 1,
-		}, -- [19]
+		}, -- [18]
 		{
 			["message"] = "Interface\\SharedXML\\Backdrop.lua:207: Attempt to access forbidden object from code tainted by an AddOn",
 			["time"] = "2022/04/24 21:29:18",
@@ -152,104 +144,104 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetWidth'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:207: in function `SetupTextureCoordinates'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:176: in function <Interface\\SharedXML\\Backdrop.lua:174>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface\\AddOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetTemplateBase.lua\"]:102: in function `OnEnter'\n[string \"@Interface\\AddOns\\Blizzard_UIWidgets\\Blizzard_UIWidgetTemplateBase.lua\"]:590: in function <...Blizzard_UIWidgets\\Blizzard_UIWidgetTemplateBase.lua:589>",
 			["session"] = 3885,
 			["counter"] = 11,
-		}, -- [20]
+		}, -- [19]
 		{
 			["message"] = "[string \"Error in: Breath_of_Syndragosa':'custom tex...\"]:6: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/25 21:52:22",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:567: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:565>",
 			["session"] = 3887,
 			["counter"] = 1,
-		}, -- [21]
+		}, -- [20]
 		{
 			["message"] = "[string \"Error in: Breath_of_Syndragosa':'custom tex...\"]:8: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/25 21:55:59",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:567: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:565>",
 			["session"] = 3887,
 			["counter"] = 73,
-		}, -- [22]
+		}, -- [21]
 		{
 			["message"] = "[string \"Error in: Breath_of_Syndragosa':'custom tex...\"]:7: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/25 22:07:46",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3745: in function <Interface\\FrameXML\\UIParent.lua:3740>\n[string \"@Interface\\AddOns\\AddOnSkins\\Libs\\Ace3\\AceConfig-3.0-3\\AceConfigDialog-3.0\\AceConfigDialog-3.0-82.lua\"]:1859: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:1858>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3783: in function `CloseWindows'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3808: in function <Interface\\FrameXML\\UIParent.lua:3798>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:4451: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
 			["session"] = 3887,
 			["counter"] = 803,
-		}, -- [23]
+		}, -- [22]
 		{
 			["message"] = "[string \"Error in: 冰龙吐息/龙喷':'custom text\"]:7: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/26 00:00:09",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3745: in function <Interface\\FrameXML\\UIParent.lua:3740>\n[string \"@Interface\\AddOns\\AddOnSkins\\Libs\\Ace3\\AceConfig-3.0-3\\AceConfigDialog-3.0\\AceConfigDialog-3.0-82.lua\"]:1859: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:1858>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3783: in function `CloseWindows'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3808: in function <Interface\\FrameXML\\UIParent.lua:3798>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:4451: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
 			["session"] = 3887,
 			["counter"] = 29,
-		}, -- [24]
+		}, -- [23]
 		{
 			["message"] = "[string \"Error in: 冰龙吐息/龙喷':'custom text\"]:6: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/26 00:02:19",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3745: in function <Interface\\FrameXML\\UIParent.lua:3740>\n[string \"@Interface\\AddOns\\AddOnSkins\\Libs\\Ace3\\AceConfig-3.0-3\\AceConfigDialog-3.0\\AceConfigDialog-3.0-82.lua\"]:1859: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:1858>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3783: in function `CloseWindows'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3808: in function <Interface\\FrameXML\\UIParent.lua:3798>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:4451: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
 			["session"] = 3887,
 			["counter"] = 7,
-		}, -- [25]
+		}, -- [24]
 		{
 			["message"] = "[string \"Error in: 冷酷严冬/洗衣机 2':'custom...\"]:6: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/26 00:04:48",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:567: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:565>",
 			["session"] = 3887,
 			["counter"] = 439,
-		}, -- [26]
+		}, -- [25]
 		{
 			["message"] = "[string \"Error in: 龙喷计时':'custom text\"]:6: attempt to call field 'round' (a nil value)",
 			["time"] = "2022/04/26 00:25:46",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:834: in function `ScanWithFakeEvent'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1142: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1704: in function `LoadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1520: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1688: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:191: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:173>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3745: in function <Interface\\FrameXML\\UIParent.lua:3740>\n[string \"@Interface\\AddOns\\AddOnSkins\\Libs\\Ace3\\AceConfig-3.0-3\\AceConfigDialog-3.0\\AceConfigDialog-3.0-82.lua\"]:1859: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:1858>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3783: in function `CloseWindows'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3808: in function <Interface\\FrameXML\\UIParent.lua:3798>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:4451: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
 			["session"] = 3887,
 			["counter"] = 6,
-		}, -- [27]
+		}, -- [26]
 		{
 			["message"] = "[string \"Error in: 冰龙吐息/龙喷计时':'custo...\"]:6: attempt to perform arithmetic on a string value",
 			["time"] = "2022/04/26 00:44:07",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
 			["session"] = 3887,
 			["counter"] = 51,
-		}, -- [28]
+		}, -- [27]
 		{
 			["message"] = "[string \"Error in: 冰龙吐息/龙喷计时':'custo...\"]:6: attempt to call global 'GetPower' (a nil value)",
 			["time"] = "2022/04/26 00:49:11",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
 			["session"] = 3887,
 			["counter"] = 26,
-		}, -- [29]
+		}, -- [28]
 		{
 			["message"] = "[string \"Error in: 龙喷计时':'custom text\"]:6: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/21 02:59:07",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
 			["session"] = 3887,
 			["counter"] = 59,
-		}, -- [30]
+		}, -- [29]
 		{
 			["message"] = "Interface\\AddOns\\MeetingStone\\Logic\\Recent.lua:45: attempt to index global 'RecentManager' (a nil value)",
 			["time"] = "2022/04/26 12:38:49",
 			["stack"] = "[string \"@Interface\\AddOns\\MeetingStone\\Logic\\Recent.lua\"]:45: in function `NewRecentManager'\n[string \"@Interface\\AddOns\\MeetingStone\\Logic\\Recent.lua\"]:40: in function `InitRecentManagers'\n[string \"@Interface\\AddOns\\MeetingStone\\Logic\\Recent.lua\"]:19: in function <Interface\\AddOns\\MeetingStone\\Logic\\Recent.lua:11>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...ace\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:498: in function `InitializeAddon'\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:623: in function <...ace\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
 			["session"] = 3888,
 			["counter"] = 1,
-		}, -- [31]
+		}, -- [30]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingStone\\Cache\\Cache.xml",
-			["time"] = "2022/04/26 12:39:22",
 			["session"] = 3888,
+			["time"] = "2022/04/26 12:39:22",
 			["counter"] = 4,
-		}, -- [32]
+		}, -- [31]
 		{
 			["message"] = "Interface\\AddOns\\MeetingStone\\Logic\\Logic.lua:76: attempt to index global 'DataCache' (a nil value)",
 			["time"] = "2022/04/26 12:39:32",
 			["stack"] = "[string \"@Interface\\AddOns\\MeetingStone\\Logic\\Logic.lua\"]:76: in function `?'\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `FireServer'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseSocket-2.0-2\\SocketHandler-2.0-20.lua\"]:119: in function `PreServer'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseSocket-2.0-2\\SocketHandler-2.0-20.lua\"]:132: in function `?'\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseSocketMiddleware-2.0\\NetEaseSocketMiddleware-2.0-1.lua\"]:34: in function `DealPacket'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseSocketMiddleware-2.0\\NetEaseSocketMiddleware-2.0-1.lua\"]:27: in function `?'\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\Ace\\AceComm-3.0\\AceComm-3.0-12.lua\"]:264: in function <...ElvUI\\Libraries\\Core\\Ace\\AceComm-3.0\\AceComm-3.0.lua:246>",
 			["session"] = 3888,
 			["counter"] = 1,
-		}, -- [33]
+		}, -- [32]
 		{
 			["message"] = "SendChatMessage(): Whisper message missing target player!",
 			["time"] = "2022/04/18 23:01:33",
 			["stack"] = "[string \"=[C]\"]: in function `SendChatMessage'\n[string \"Error in: 能量灌注 Power Infusion':'condition\"]:12: in function <[string \"Error in: 能量灌注 Power Infusion':'con...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:276: in function `RunCode'\n[string \"Error in: 能量灌注 Power Infusion':'condition checks\"]:34: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\Conditions.lua\"]:651: in function `RunConditions'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3901: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
 			["session"] = 3888,
 			["counter"] = 2,
-		}, -- [34]
+		}, -- [33]
 		{
 			["message"] = "Interface\\AddOns\\MeetingStone\\Main.lua:79: attempt to index global 'DataCache' (a nil value)",
 			["time"] = "2022/04/26 12:40:30",
@@ -257,48 +249,56 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\MeetingStone\\Main.lua\"]:79: in function `Toggle'\n[string \"@Interface\\AddOns\\ElvUI_WindTools\\Modules\\Misc\\GameBar.lua\"]:574: in function `func'\n[string \"@Interface\\AddOns\\ElvUI_WindTools\\Modules\\Misc\\GameBar.lua\"]:1059: in function `Click'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:561: in function `handler'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:677: in function <Interface\\FrameXML\\SecureTemplates.lua:621>",
 			["session"] = 3888,
 			["counter"] = 17,
-		}, -- [35]
+		}, -- [34]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 '*** ForceTaint_Strong ***' 尝试调用保护功能 '饰品1Button:Hide()'。",
 			["time"] = "2022/04/11 13:17:58",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `Hide'\n[string \"Error in: 披风':'hide action\"]:4: in function <[string \"Error in: 披风':'hide action\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3168: in function `PerformActions'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:808: in function `Collapse'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1737: in function `UnloadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1521: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1557: in function `ScanForLoads'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1610: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1608>",
 			["session"] = 3891,
 			["counter"] = 7,
-		}, -- [36]
+		}, -- [35]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'WeakAuras' 尝试调用保护功能 '<unnamed>:Hide()'。",
 			["time"] = "2022/04/11 13:53:02",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:774: in function <...ace\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua:767>\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:810: in function `Collapse'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1737: in function `UnloadDisplays'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1521: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1393>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1557: in function `ScanForLoads'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:1610: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1608>",
 			["session"] = 3891,
 			["counter"] = 4,
-		}, -- [37]
+		}, -- [36]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'MeetingStone' 尝试调用保护功能 'InviteApplicant()'。",
 			["time"] = "2022/04/18 23:03:26",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `InviteApplicant'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\ApplicantPanel.lua\"]:364: in function `UpdateAutoInvite'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\ApplicantPanel.lua\"]:250: in function `?'\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\Ace\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...vUI\\Libraries\\Core\\Ace\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 3891,
 			["counter"] = 7,
-		}, -- [38]
+		}, -- [37]
 		{
 			["message"] = "[string \"Error in: 冰龙吐息/龙喷计时':'custo...\"]:5: attempt to perform arithmetic on field 'startTime' (a nil value)",
 			["time"] = "2022/04/26 19:31:35",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
 			["session"] = 3892,
 			["counter"] = 4,
-		}, -- [39]
+		}, -- [38]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'WeakAuras' 尝试调用保护功能 '<unnamed>:ClearAllPoints()'。",
 			["time"] = "2022/04/08 23:13:11",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:45: in function `SetAnchorPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1078: in function `DoPositionChildrenPerFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1194: in function `DoPositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1056: in function `PositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1037: in function `SortUpdatedChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:842: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3906: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4000: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:752: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:708: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:2386: in function `CheckItemSlotCooldowns'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1970: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:1946>",
 			["session"] = 3892,
 			["counter"] = 26,
-		}, -- [40]
+		}, -- [39]
 		{
 			["message"] = "integer overflow attempting to store 3243268697",
 			["time"] = "2022/04/21 20:22:11",
 			["stack"] = "[string \"=[C]\"]: in function `format'\n[string \"@Interface\\AddOns\\DataStore_Agenda\\DataStore_Agenda-9.2.001.lua\"]:104: in function <...terface\\AddOns\\DataStore_Agenda\\DataStore_Agenda.lua:88>\n[string \"@Interface\\AddOns\\DataStore_Agenda\\DataStore_Agenda-9.2.001.lua\"]:249: in function <...terface\\AddOns\\DataStore_Agenda\\DataStore_Agenda.lua:248>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\LibSharedMedia-3.0-8020003\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\Ace\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...vUI\\Libraries\\Core\\Ace\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 3892,
 			["counter"] = 1056,
+		}, -- [40]
+		{
+			["message"] = "TexCoord out of range",
+			["time"] = "2022/04/14 22:26:54",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = 0.257813\n(*temporary) = 35485.364296\n(*temporary) = 0.367188\n(*temporary) = 35485.364296\n(*temporary) = 0.257813\n(*temporary) = 0.062500\n(*temporary) = 0.367188\n(*temporary) = 0.062500\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetTexCoord'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:200: in function <Interface\\SharedXML\\Backdrop.lua:199>\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:232: in function `SetupTextureCoordinates'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:176: in function <Interface\\SharedXML\\Backdrop.lua:174>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\MoverSizer.lua\"]:513: in function `SetToRegion'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:1529: in function `SetMoverSizer'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua\"]:1234: in function `PickDisplay'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\WeakAurasOptions-3.7.16.lua\"]:1204: in function `PickDisplay'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIWidget-WeakAurasDisplayButton.lua\"]:506: in function <...eGUI-Widgets\\AceGUIWidget-WeakAurasDisplayButton.lua:464>",
+			["session"] = 3893,
+			["counter"] = 2,
 		}, -- [41]
 	},
 }
