@@ -187,13 +187,19 @@ DataStore_StatsDB = {
 					["name"] = "伤逝剧场",
 					["timeInSeconds"] = 2523,
 				},
-				["lastUpdate"] = 1651757381,
+				["lastUpdate"] = 1651758603,
 				["SeasonBestMaps"] = {
 					[380] = {
 						["texture"] = 3759932,
 						["level"] = 17,
 						["name"] = "赤红深渊",
 						["timeInSeconds"] = 2356,
+					},
+					[376] = {
+						["texture"] = 3759930,
+						["level"] = 16,
+						["name"] = "通灵战潮",
+						["timeInSeconds"] = 1573,
 					},
 					[382] = {
 						["texture"] = 3759934,
@@ -206,12 +212,6 @@ DataStore_StatsDB = {
 						["level"] = 17,
 						["name"] = "塔扎维什：琳彩天街",
 						["timeInSeconds"] = 1948,
-					},
-					[376] = {
-						["texture"] = 3759930,
-						["level"] = 16,
-						["name"] = "通灵战潮",
-						["timeInSeconds"] = 1573,
 					},
 				},
 				["WeeklyBestMaps"] = {

@@ -1126,29 +1126,6 @@ DataStore_GarrisonsDB = {
 			},
 			["Default.阿比迪斯.雪舞霏霏"] = {
 				["numRareFollowers"] = 5,
-				["AvailableWarCampaignMissions"] = {
-					2092, -- [1]
-					2094, -- [2]
-					2133, -- [3]
-					2095, -- [4]
-				},
-				["avgArmoriLevel"] = 675,
-				["lastUpdate"] = 1633144025,
-				["numFollowersAtiLevel645"] = 28,
-				["numFollowersAtiLevel660"] = 28,
-				["numFollowersAtiLevel615"] = 31,
-				["AbilityCounters"] = {
-					4, -- [1]
-					9, -- [2]
-					6, -- [3]
-					3, -- [4]
-					nil, -- [5]
-					12, -- [6]
-					14, -- [7]
-					6, -- [8]
-					9, -- [9]
-					16, -- [10]
-				},
 				["Followers"] = {
 					[211] = {
 						["levelXP"] = 0,
@@ -1312,11 +1289,11 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["link"] = "|cffa335ee|Hgarrfollower:400:4:40:675:178:180:0:0:255:49:46:0:0|h[诺古克·腐颅]|h|r",
 					},
-					[286] = {
-						["link"] = "|cff0070dd|Hgarrfollower:286:3:30:600:167:0:0:0:79:75:0:0:0|h[卡玛·箭泉]|h|r",
+					[412] = {
+						["link"] = "|cffa335ee|Hgarrfollower:412:4:40:630:181:177:0:0:60:36:7:0:0|h[娜迪娅·暗日]|h|r",
+						["levelXP"] = 0,
+						["xp"] = 0,
 						["isInactive"] = true,
-						["xp"] = 160,
-						["levelXP"] = 400,
 					},
 					[170] = {
 						["link"] = "|cff1eff00|Hgarrfollower:170:2:40:600:160:0:0:0:62:0:0:0:0|h[剥皮者金鬃]|h|r",
@@ -1335,11 +1312,11 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 0,
 					},
-					[412] = {
-						["link"] = "|cffa335ee|Hgarrfollower:412:4:40:630:181:177:0:0:60:36:7:0:0|h[娜迪娅·暗日]|h|r",
-						["levelXP"] = 0,
-						["xp"] = 0,
+					[208] = {
+						["link"] = "|cff1eff00|Hgarrfollower:208:2:40:600:102:0:0:0:56:0:0:0:0|h[阿姆]|h|r",
 						["isInactive"] = true,
+						["xp"] = 24549,
+						["levelXP"] = 60000,
 					},
 					[466] = {
 						["link"] = "|cffff8000|Hgarrfollower:466:5:40:675:162:160:0:0:47:76:4:0:0|h[半兽人迦罗娜]|h|r",
@@ -1390,11 +1367,11 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["isInactive"] = true,
 					},
-					[208] = {
-						["link"] = "|cff1eff00|Hgarrfollower:208:2:40:600:102:0:0:0:56:0:0:0:0|h[阿姆]|h|r",
+					[286] = {
+						["link"] = "|cff0070dd|Hgarrfollower:286:3:30:600:167:0:0:0:79:75:0:0:0|h[卡玛·箭泉]|h|r",
 						["isInactive"] = true,
-						["xp"] = 24549,
-						["levelXP"] = 60000,
+						["xp"] = 160,
+						["levelXP"] = 400,
 					},
 					[177] = {
 						["link"] = "|cffa335ee|Hgarrfollower:177:4:40:675:124:131:0:0:70:37:39:0:0|h[考尔曼]|h|r",
@@ -1417,6 +1394,30 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["link"] = "|cffa335ee|Hgarrfollower:244:4:40:675:116:117:0:0:70:80:256:0:0|h[卡萨·凋蹄]|h|r",
 					},
+				},
+				["avgArmoriLevel"] = 675,
+				["lastUpdate"] = 1633144025,
+				["numFollowersAtiLevel645"] = 28,
+				["numFollowersAtiLevel630"] = 29,
+				["numFollowersAtiLevel615"] = 31,
+				["AbilityCounters"] = {
+					4, -- [1]
+					9, -- [2]
+					6, -- [3]
+					3, -- [4]
+					nil, -- [5]
+					12, -- [6]
+					14, -- [7]
+					6, -- [8]
+					9, -- [9]
+					16, -- [10]
+				},
+				["ActiveMissions"] = {
+					324, -- [1]
+					446, -- [2]
+					391, -- [3]
+					398, -- [4]
+					444, -- [5]
 				},
 				["AvailableMissions"] = {
 					114, -- [1]
@@ -1538,13 +1539,7 @@ DataStore_GarrisonsDB = {
 					[49] = 5,
 					[231] = 5,
 				},
-				["ActiveMissions"] = {
-					324, -- [1]
-					446, -- [2]
-					391, -- [3]
-					398, -- [4]
-					444, -- [5]
-				},
+				["numFollowersAtiLevel660"] = 28,
 				["numFollowers"] = 47,
 				["ActiveOrderHallMissions"] = {
 					929, -- [1]
@@ -1602,7 +1597,12 @@ DataStore_GarrisonsDB = {
 				["numFollowersAtiLevel675"] = 28,
 				["numFollowersAtLevel40"] = 37,
 				["numEpicFollowers"] = 31,
-				["numFollowersAtiLevel630"] = 29,
+				["AvailableWarCampaignMissions"] = {
+					2092, -- [1]
+					2094, -- [2]
+					2133, -- [3]
+					2095, -- [4]
+				},
 			},
 			["Default.冰风岗.薇羽"] = {
 				["numRareFollowers"] = 11,
@@ -1687,7 +1687,7 @@ DataStore_GarrisonsDB = {
 					[72] = 1,
 					[56] = 1,
 					[256] = 3,
-					[231] = 5,
+					[52] = 1,
 					[37] = 1,
 					[75] = 2,
 					[76] = 2,
@@ -1703,10 +1703,10 @@ DataStore_GarrisonsDB = {
 					[49] = 2,
 					[314] = 5,
 					[69] = 4,
-					[71] = 1,
+					[231] = 5,
 					[53] = 1,
 					[54] = 1,
-					[52] = 1,
+					[71] = 1,
 					[79] = 2,
 					[57] = 1,
 					[60] = 1,
@@ -1915,7 +1915,7 @@ DataStore_GarrisonsDB = {
 					2176, -- [1]
 					2261, -- [2]
 				},
-				["lastUpdate"] = 1651757948,
+				["lastUpdate"] = 1651766883,
 				["ReservoirTalents"] = {
 					{
 						["treeID"] = 311,
@@ -1962,6 +1962,7 @@ DataStore_GarrisonsDB = {
 					2312, -- [3]
 					2262, -- [4]
 					2180, -- [5]
+					2194, -- [6]
 				},
 			},
 			["Default.冰风岗.柳絮菲菲"] = {
@@ -2089,10 +2090,10 @@ DataStore_GarrisonsDB = {
 						["xp"] = 50025,
 						["link"] = "|cff1eff00|Hgarrfollower:453:2:40:600:166:0:0:0:62:0:0:0:0|h[黑暗游侠维罗娜拉]|h|r",
 					},
-					[337] = {
-						["levelXP"] = 6000,
-						["xp"] = 4803,
-						["link"] = "|cff1eff00|Hgarrfollower:337:2:39:600:124:0:0:0:70:0:0:0:0|h[塔瑞尔·伊图麦崔]|h|r",
+					[157] = {
+						["link"] = "|cff1eff00|Hgarrfollower:157:2:40:600:102:0:0:0:52:0:0:0:0|h[兰特瑞索·火刃]|h|r",
+						["xp"] = 58944,
+						["levelXP"] = 60000,
 					},
 					[177] = {
 						["levelXP"] = 0,
@@ -2115,10 +2116,10 @@ DataStore_GarrisonsDB = {
 						["xp"] = 956,
 						["link"] = "|cff1eff00|Hgarrfollower:153:2:35:600:159:0:0:0:60:0:0:0:0|h[卡拉]|h|r",
 					},
-					[219] = {
-						["link"] = "|cffa335ee|Hgarrfollower:219:4:40:600:106:155:0:0:231:46:38:0:0|h[利奥拉]|h|r",
-						["xp"] = 0,
-						["levelXP"] = 0,
+					[337] = {
+						["levelXP"] = 6000,
+						["xp"] = 4803,
+						["link"] = "|cff1eff00|Hgarrfollower:337:2:39:600:124:0:0:0:70:0:0:0:0|h[塔瑞尔·伊图麦崔]|h|r",
 					},
 					[192] = {
 						["link"] = "|cff1eff00|Hgarrfollower:192:2:40:600:160:0:0:0:57:0:0:0:0|h[基姆兹·宾奇维斯]|h|r",
@@ -2145,10 +2146,10 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 3000,
 					},
-					[157] = {
-						["link"] = "|cff1eff00|Hgarrfollower:157:2:40:600:102:0:0:0:52:0:0:0:0|h[兰特瑞索·火刃]|h|r",
-						["xp"] = 58944,
-						["levelXP"] = 60000,
+					[219] = {
+						["link"] = "|cffa335ee|Hgarrfollower:219:4:40:600:106:155:0:0:231:46:38:0:0|h[利奥拉]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 0,
 					},
 					[216] = {
 						["link"] = "|cff0070dd|Hgarrfollower:216:3:38:600:5:0:0:0:231:77:0:0:0|h[薇薇安]|h|r",
@@ -2669,25 +2670,25 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["link"] = "|cff1eff00|Hgarrfollower:182:2:31:600:105:0:0:0:54:0:0:0:0|h[穆维里克]|h|r",
 					},
+					[34] = {
+						["levelXP"] = 800,
+						["xp"] = 200,
+						["link"] = "|cff1eff00|Hgarrfollower:34:2:31:600:100:0:0:0:59:0:0:0:0|h[欧林·棕皮]|h|r",
+					},
 					[463] = {
 						["levelXP"] = 800,
 						["xp"] = 0,
 						["link"] = "|cff0070dd|Hgarrfollower:463:3:31:600:148:0:0:0:77:7:0:0:0|h[乌娜·斯莱舍]|h|r",
-					},
-					[216] = {
-						["levelXP"] = 1200,
-						["xp"] = 0,
-						["link"] = "|cff0070dd|Hgarrfollower:216:3:32:600:5:0:0:0:231:37:0:0:0|h[薇薇安]|h|r",
 					},
 					[153] = {
 						["link"] = "|cff0070dd|Hgarrfollower:153:3:31:600:159:0:0:0:60:71:0:0:0|h[卡拉]|h|r",
 						["xp"] = 300,
 						["levelXP"] = 800,
 					},
-					[34] = {
-						["levelXP"] = 800,
-						["xp"] = 200,
-						["link"] = "|cff1eff00|Hgarrfollower:34:2:31:600:100:0:0:0:59:0:0:0:0|h[欧林·棕皮]|h|r",
+					[216] = {
+						["levelXP"] = 1200,
+						["xp"] = 0,
+						["link"] = "|cff0070dd|Hgarrfollower:216:3:32:600:5:0:0:0:231:37:0:0:0|h[薇薇安]|h|r",
 					},
 				},
 			},
@@ -4199,6 +4200,27 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["cost"] = 100,
 				},
+				[2194] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 25,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 181609,
+							["itemLink"] = "|cffa335ee|Hitem:181609::::::::60:251::25:3:1472:5904:6646::::::|h[盾卫的巨盔]|h|r",
+						}, -- [1]
+						{
+							["title"] = "货币奖励",
+							["quantity"] = 1,
+							["icon"] = 255347,
+							["currencyID"] = 1889,
+						}, -- [2]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
+				},
 				[118] = {
 					["durationSeconds"] = 28800,
 					["type"] = "战斗",
@@ -4435,7 +4457,7 @@ DataStore_GarrisonsDB = {
 						{
 							["quantity"] = 6,
 							["itemID"] = 184148,
-							["itemLink"] = "|cffffffff|Hitem:184148::::::::60:251:::::::::|h[]|h|r",
+							["itemLink"] = "|cff1eff00|Hitem:184148::::::::60:251:::::::::|h[密封的罪钒之瓶]|h|r",
 						}, -- [1]
 					},
 					["level"] = 60,
@@ -4889,7 +4911,7 @@ DataStore_GarrisonsDB = {
 						{
 							["quantity"] = 1,
 							["itemID"] = 187575,
-							["itemLink"] = "|cffffffff|Hitem:187575::::::::60:251::31:::::::|h[]|h|r",
+							["itemLink"] = "|cff0070dd|Hitem:187575::::::::60:251::31:::::::|h[刻希亚钓鱼箱]|h|r",
 						}, -- [1]
 						{
 							["title"] = "货币奖励",
@@ -5092,7 +5114,7 @@ DataStore_GarrisonsDB = {
 						{
 							["quantity"] = 1,
 							["itemID"] = 184636,
-							["itemLink"] = "|cffffffff|Hitem:184636::::::::60:251::31:::::::|h[]|h|r",
+							["itemLink"] = "|cffffffff|Hitem:184636::::::::60:251::31:::::::|h[冒险者的剥皮箱]|h|r",
 						}, -- [1]
 					},
 					["level"] = 60,
@@ -5139,7 +5161,7 @@ DataStore_GarrisonsDB = {
 						{
 							["quantity"] = 1,
 							["itemID"] = 181667,
-							["itemLink"] = "|cffffffff|Hitem:181667::::::::60:251::25:3:1472:5904:6646::::::|h[]|h|r",
+							["itemLink"] = "|cffa335ee|Hitem:181667::::::::60:251::25:3:1472:5904:6646::::::|h[钢核护腿]|h|r",
 						}, -- [1]
 					},
 					["level"] = 60,
@@ -5348,22 +5370,19 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
-				[146] = {
-					["durationSeconds"] = 3600,
-					["type"] = "战斗",
+				[493] = {
+					["durationSeconds"] = 14400,
+					["type"] = "裁缝",
 					["iLevel"] = 0,
-					["cost"] = 10,
+					["level"] = 40,
 					["rewards"] = {
 						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 200,
-							["tooltip"] = "+200经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+200经验值",
+							["itemID"] = 122594,
+							["quantity"] = 2,
 						}, -- [1]
 					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["level"] = 31,
+					["typeAtlas"] = "GarrMission_MissionIcon-Tailoring",
+					["cost"] = 20,
 				},
 				[1341] = {
 					["durationSeconds"] = 34560,
@@ -5382,6 +5401,23 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["cost"] = 100,
 				},
+				[146] = {
+					["durationSeconds"] = 3600,
+					["type"] = "战斗",
+					["iLevel"] = 0,
+					["cost"] = 10,
+					["rewards"] = {
+						{
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 200,
+							["tooltip"] = "+200经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+200经验值",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 31,
+				},
 				[2176] = {
 					["durationSeconds"] = 27000,
 					["type"] = "9.0 Encounter - Ardenweald",
@@ -5396,20 +5432,6 @@ DataStore_GarrisonsDB = {
 					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
-				},
-				[493] = {
-					["durationSeconds"] = 14400,
-					["type"] = "裁缝",
-					["iLevel"] = 0,
-					["level"] = 40,
-					["rewards"] = {
-						{
-							["itemID"] = 122594,
-							["quantity"] = 2,
-						}, -- [1]
-					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Tailoring",
-					["cost"] = 20,
 				},
 				[2293] = {
 					["durationSeconds"] = 10800,
@@ -5575,22 +5597,20 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
 					["iLevel"] = 760,
 				},
-				[117] = {
-					["durationSeconds"] = 28800,
-					["type"] = "战斗",
-					["iLevel"] = 0,
-					["cost"] = 10,
+				[2170] = {
+					["durationSeconds"] = 46800,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 50,
+					["iLevel"] = 800,
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["rewards"] = {
 						{
-							["title"] = "奖励追随者经验",
-							["followerXP"] = 8000,
-							["tooltip"] = "+8000经验值",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+8000经验值",
+							["quantity"] = 1,
+							["itemID"] = 184631,
+							["itemLink"] = "|cffffffff|Hitem:184631::::::::60:251::31:::::::|h[冒险者的附魔箱]|h|r",
 						}, -- [1]
 					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["level"] = 40,
 				},
 				[2171] = {
 					["durationSeconds"] = 36000,
@@ -5609,20 +5629,22 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["iLevel"] = 800,
 				},
-				[2170] = {
-					["durationSeconds"] = 46800,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 50,
-					["iLevel"] = 800,
-					["level"] = 60,
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+				[117] = {
+					["durationSeconds"] = 28800,
+					["type"] = "战斗",
+					["iLevel"] = 0,
+					["cost"] = 10,
 					["rewards"] = {
 						{
-							["quantity"] = 1,
-							["itemID"] = 184631,
-							["itemLink"] = "|cffffffff|Hitem:184631::::::::60:251::31:::::::|h[冒险者的附魔箱]|h|r",
+							["title"] = "奖励追随者经验",
+							["followerXP"] = 8000,
+							["tooltip"] = "+8000经验值",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+8000经验值",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 40,
 				},
 				[1345] = {
 					["durationSeconds"] = 10800,

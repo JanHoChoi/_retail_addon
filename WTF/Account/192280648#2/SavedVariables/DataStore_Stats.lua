@@ -175,11 +175,11 @@ DataStore_StatsDB = {
 					["Defense"] = "0|0|3|14.10359287262|0|0",
 				},
 				["SeasonBestMaps"] = {
-					[380] = {
-						["texture"] = 3759932,
+					[382] = {
+						["texture"] = 3759934,
 						["level"] = 17,
-						["name"] = "赤红深渊",
-						["timeInSeconds"] = 2356,
+						["name"] = "伤逝剧场",
+						["timeInSeconds"] = 2157,
 					},
 					[376] = {
 						["texture"] = 3759930,
@@ -187,25 +187,31 @@ DataStore_StatsDB = {
 						["name"] = "通灵战潮",
 						["timeInSeconds"] = 1573,
 					},
-					[382] = {
-						["texture"] = 3759934,
-						["level"] = 17,
-						["name"] = "伤逝剧场",
-						["timeInSeconds"] = 2157,
-					},
 					[391] = {
 						["texture"] = 4181531,
 						["level"] = 17,
 						["name"] = "塔扎维什：琳彩天街",
 						["timeInSeconds"] = 1948,
 					},
+					[380] = {
+						["texture"] = 3759932,
+						["level"] = 17,
+						["name"] = "赤红深渊",
+						["timeInSeconds"] = 2356,
+					},
+					[375] = {
+						["texture"] = 3759929,
+						["level"] = 17,
+						["name"] = "塞兹仙林的迷雾",
+						["timeInSeconds"] = 1551,
+					},
 				},
 				["WeeklyBestKeystone"] = {
 					["level"] = 18,
 					["name"] = "伤逝剧场",
-					["timeInSeconds"] = 2523,
+					["timeInSeconds"] = 2467,
 				},
-				["lastUpdate"] = 1651757948,
+				["lastUpdate"] = 1651766962,
 				["SeasonBestMapsOvertime"] = {
 					[375] = {
 						["texture"] = 3759929,
@@ -215,9 +221,9 @@ DataStore_StatsDB = {
 					},
 					[376] = {
 						["texture"] = 3759930,
-						["level"] = 15,
+						["level"] = 17,
 						["name"] = "通灵战潮",
-						["timeInSeconds"] = 2550,
+						["timeInSeconds"] = 2241,
 					},
 					[391] = {
 						["texture"] = 4181531,
@@ -241,7 +247,7 @@ DataStore_StatsDB = {
 						["texture"] = 3759934,
 						["level"] = 18,
 						["name"] = "伤逝剧场",
-						["timeInSeconds"] = 2523,
+						["timeInSeconds"] = 2467,
 					},
 				},
 				["WeeklyBestMaps"] = {
@@ -249,7 +255,19 @@ DataStore_StatsDB = {
 						["texture"] = 3759934,
 						["level"] = 18,
 						["name"] = "伤逝剧场",
-						["timeInSeconds"] = 2523,
+						["timeInSeconds"] = 2467,
+					},
+					[375] = {
+						["texture"] = 3759929,
+						["level"] = 17,
+						["name"] = "塞兹仙林的迷雾",
+						["timeInSeconds"] = 1551,
+					},
+					[376] = {
+						["texture"] = 3759930,
+						["level"] = 17,
+						["name"] = "通灵战潮",
+						["timeInSeconds"] = 2241,
 					},
 					[391] = {
 						["texture"] = 4181531,
@@ -258,7 +276,7 @@ DataStore_StatsDB = {
 						["timeInSeconds"] = 2307,
 					},
 				},
-				["dungeonScore"] = 1417,
+				["dungeonScore"] = 1453,
 			},
 			["Default.阿比迪斯.赵丽颖"] = {
 				["Stats"] = {

@@ -5,11 +5,7 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["杜一航 - 安苏"] = {
-			["searchHistoryList"] = {
-				"2-259-691-0", -- [1]
-				"6-0-16-0", -- [2]
-				"6-0-0-0", -- [3]
-			},
+			["lastSearchCode"] = "2-259-691-0",
 			["createHistoryList"] = {
 				"6-0-16-0", -- [1]
 				"1-270-738-0", -- [2]
@@ -24,7 +20,6 @@ MEETINGSTONE_CHARACTER_DB = {
 					["scale"] = 1,
 				},
 			},
-			["lastSearchCode"] = "2-259-691-0",
 			["recent"] = {
 				["2-263-705-0"] = {
 					{
@@ -5813,6 +5808,11 @@ MEETINGSTONE_CHARACTER_DB = {
 						["bTag"] = "郭治#5638",
 					}, -- [739]
 				},
+			},
+			["searchHistoryList"] = {
+				"2-259-691-0", -- [1]
+				"6-0-16-0", -- [2]
+				"6-0-0-0", -- [3]
 			},
 		},
 	},

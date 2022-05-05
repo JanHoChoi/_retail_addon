@@ -21,6 +21,36 @@ BigWigs3DB = {
 		["试玩下哦 - 冰风岗"] = "薇羽Anne",
 	},
 	["namespaces"] = {
+		["BigWigs_Plugins_Alt Power"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_AltPower"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Bosses_Tred'ova"] = {
+		},
+		["BigWigs_Bosses_Mistcaller"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+		},
+		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
+		},
+		["BigWigs_Bosses_An Affront of Challengers"] = {
+		},
+		["BigWigs_Bosses_Ingra Maloch"] = {
+		},
+		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Theater Of Pain Trash"] = {
+		},
+		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
+		},
 		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
 				["薇羽Anne"] = {
@@ -29,19 +59,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Alt Power"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["薇羽Anne"] = {
-					["disabled"] = false,
-					["exitCombat"] = 1,
-				},
-			},
+		["BigWigs_Bosses_Blightbone"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -56,11 +74,13 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_AltPower"] = {
+		["BigWigs_Bosses_Amarth, The Reanimator"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
@@ -71,27 +91,37 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0010681152344,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99992179870606,
 					["BigWigsAnchor_height"] = 15.99989318847656,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
+		["BigWigs_Bosses_Gorechop"] = {
+		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Bosses_Xav the Unfallen"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["薇羽Anne"] = {
+					["disabled"] = false,
+					["exitCombat"] = 1,
+				},
+			},
 		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Bosses_The Necrotic Wake Trash"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 		},
+		["BigWigs_Bosses_Kul'tharok"] = {
+		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["global"] = {
