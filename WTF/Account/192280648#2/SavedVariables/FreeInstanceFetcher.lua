@@ -1,6 +1,6 @@
 
 FIFConfig = {
-	["EnableSound"] = false,
+	["EnableSound"] = true,
 	["DBVer"] = 2,
 	["Skin"] = 5,
 	["QuickAccess"] = false,

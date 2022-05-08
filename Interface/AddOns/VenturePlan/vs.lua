@@ -1,6 +1,8 @@
 local _, T = ...
 local SpellInfo = T.KnownSpells
 
+local isSimLogTurnOn = false
+
 local band, bor, floor = bit.band, bit.bor, math.floor
 local f32_ne, f32_perc, f32_pim, f32_fpim do
 	local frexp, lt = math.frexp, {
@@ -126,7 +128,7 @@ end
 local forkTargets = {["random-enemy"]="all-enemies", ["random-ally"]="all-allies", ["random-all"]="all"}
 local forkTargetBits= {["all-enemies"]=1, ["all-allies"]=2, ["all"]=4}
 do -- targets
-	local overrideAA = {[57]=0, [181]=0, [209]=0, [341]=0, [409]=1, [777]=0, [1213]=0, [69424]=0, [69426]=0, [69432]=0, [69434]=0, [69518]=0, [69522]=0, [69524]=0, [69530]=0, [69646]=0, [69648]=0, [69650]=0, [69652]=0, [70286]=0, [70288]=0, [70290]=0, [70292]=0, [70456]=0, [70478]=0, [70550]=0, [70556]=0, [70584]=0, [70586]=0, [70638]=0, [70640]=0, [70642]=0, [70644]=0, [70678]=0, [70682]=0, [70684]=0, [70702]=0, [70704]=0, [70706]=0, [70708]=0, [70714]=0, [70806]=0, [70808]=0, [70812]=0, [70832]=0, [70862]=0, [70868]=0, [70874]=0, [70908]=0, [71194]=0, [71606]=0, [71612]=0, [71640]=0, [71670]=0, [71672]=0, [71674]=0, [71676]=0, [71736]=0, [71800]=0, [71802]=0, [72086]=0, [72088]=0, [72090]=0, [72092]=0, [72310]=0, [72314]=0, [72336]=0, [72338]=0, [72942]=0, [72944]=0, [72946]=0, [72948]=0, [72954]=0, [73210]=0, [73398]=0, [73404]=0, [73558]=0, [73560]=0, [73564]=0}
+	local overrideAA = {[57]=0, [181]=0, [341]=0, [777]=0, [1213]=0, [1225]=0, [1237]=0, [1257]=0, [1301]=0}
 	local targetLists do
 		targetLists = {
 		[0]={
@@ -142,7 +144,7 @@ do -- targets
 		[3]={
 			[0]="23104", "03421", "03214", "20143", "31204",
 			"56a79b8c", "5a7b69c8", "6bac8759", "768bc95a",
-			"5a6978bc", "96b57a8c", "a78c69b5", "56a79b8c"
+			"5a6978bc", "96b57a8c", "a78c69b5", "8b7c65a9"
 		},
 		[4]={
 			[0]="0", "1", "2", "3", "4",
@@ -161,10 +163,14 @@ do -- targets
 		end
 	end
 	local adjCleave = {
-		[0x50]=3, [0x83]=1,
-		[0x62]=3, [0x63]=2, [0xa2]=3, [0xa3]=2,
-		[0x73]=4, [0x74]=3, [0xb3]=4, [0xb4]=3,
-		[0x51]=4, [0x70]=1, [0x82]=0,
+		[0x50]=3, [0x51]=4,
+		[0x62]=3, 
+		[0x70]=1, [0x73]=4, [0x74]=3,
+		[0x82]=0, [0x83]=1,
+		[0x91]=4,
+		[0xa3]=2,
+		[0xb0]=1, [0xb2]=3,
+		[0xc3]=4, [0xc0]=1,
 	}
 	local adjCleaveN = {
 		[0]={5,6,32,7,9,10,11,32,8,12},
@@ -191,15 +197,256 @@ do -- targets
 		[0x30]=1, [0x31]=1, [0x32]=1, [0x34]=1,
 		[0x41]=1, [0x43]=1,
 	}
+--[[
+	-- eviroment belongs to enemy
+	-- follower : 1 enemy,env : 2
+	local CampFollower = 1
+	local CampEnemy = 2
+	local unitCamp = {
+		[0] = 1,[1] = 1,[2] = 1,[3] = 1,[4] = 1,
+		[-1] = 2,
+		[5] = 2,[6] = 2,[7] = 2,[8] = 2,
+		[9] = 2,[10] = 2,[11] = 2,[12] = 2,
+	}
+	local friendSurroundTable = {
+		[0] = {1,2,3},
+		[1] = {0,3,4},
+		[2] = {0,3},
+		[3] = {0,1,2,4},
+		[4] = {1,3},
+		[5] = {5,6,7,8,9,10,11,12},
+		[6] = {5,6,7,8,9,10,11,12},
+		[7] = {5,6,7,8,9,10,11,12},
+		[8] = {5,6,7,8,9,10,11,12},
+		[9] = {5,6,7,8,9,10,11,12},
+		[10] = {5,6,7,8,9,10,11,12},
+		[11] = {5,6,7,8,9,10,11,12},
+		[12] = {5,6,7,8,9,10,11,12},
+	}
+	local friendSurroundDefaultTable = {
+		[0] = {0},
+		[1] = {1,2},
+		[2] = {1,2,4},
+		[3] = {3},
+		[4] = {0,2,4},
+	}
+	local cleaveTable = {
+		--[0]="56a79b8c", 
+		--[1]="67b8ac59", 
+		--[2]="569a7b8c", 
+		--[3]="675a9b8c", 
+		--[4]="786bac59",
+		--[5]="20314", 
+		--[6]="23014", 
+		--[7]="34201", 
+		--[8]="43120",
+		--[9]="23014", 
+		--[10]="23401", 
+		--[11]="23401", 
+		--[12]="34201"
+	}
+	local function GetCampByUnitIndex(unitIdx)
+		if unitIdx >= 0 and unitIdx < 5 then
+			return CampFollower
+		end
+		return CampEnemy
+	end
+	local function IsInSameCamp(unitIdx0,unitIdx1)
+		return GetCampByUnitIndex(unitIdx0) == GetCampByUnitIndex(unitIdx1)
+	end
+	
+	local availableTargetList = {}
+	local function GetAvailableTargets(sourceIdx,targetType,board)
+		local ret,retIdx = availableTargetList,1
+		local sourceUnit = board[sourceIdx]
+		local checkTargetList = targetLists[targetType] and targetLists[targetType][sourceIdx]
+		local sourceUnitCamp = unitCamp[sourceIdx]
+		local tauntIdx = sourceUnit and sourceUnit.taunt
+		-- target = 0,1,2,3
+		if checkTargetList then
+			-- meele or range,check if there is taunt unit
+			if targetType == 0 or targetType == 1 then
+				local tauntUnit = tauntIdx and board[tauntIdx]
+				if tauntUnit and tauntUnit.curHP > 0 and not tauntUnit.shroud then
+					ret[retIdx], retIdx = tauntIdx, retIdx + 1
+				end
+			end
+			-- no tauntUnit
+			if retIdx == 1 then
+				for i=1,#checkTargetList do
+					local targetIdx = checkTargetList[i]
+					local targetUnit = board[targetIdx]
+					if targetUnit and targetUnit.curHP > 0 then
+						if IsInSameCamp(sourceIdx,targetIdx) then
+							ret[retIdx], retIdx = targetIdx, retIdx + 1
+							break
+						else
+							if not targetUnit.shroud then
+								ret[retIdx], retIdx = tauntUnit or targetIdx, retIdx + 1
+								break
+							end
+						end
+					end
+				end
+			end
+		elseif targetType == "all-enemies" then
+			if sourceUnitCamp == CampFollower then
+				for i=5,12 do
+					local targetUnit = board[i]
+					if targetUnit and targetUnit.curHP > 0 and not targetUnit.shroud then
+						ret[retIdx], retIdx = i, retIdx + 1
+					end
+				end
+			elseif sourceUnitCamp == CampEnemy then
+				for i=0,4 do
+					local targetUnit = board[i]
+					if targetUnit and targetUnit.curHP > 0 and not targetUnit.shroud then
+						ret[retIdx], retIdx = i, retIdx + 1
+					end
+				end
+			end
+		elseif targetType == "all-other-allies" then
+			if sourceUnitCamp == CampFollower then
+				for i=0,4 do
+					local targetUnit = board[i]
+					if i ~= sourceIdx and targetUnit and targetUnit.curHP > 0 then
+						ret[retIdx], retIdx = i, retIdx + 1
+					end
+				end
+			elseif sourceUnitCamp == CampEnemy then
+				for i=5,12 do
+					local targetUnit = board[i]
+					if i ~= sourceIdx and targetUnit and targetUnit.curHP > 0 then
+						ret[retIdx], retIdx = i, retIdx + 1
+					end
+				end
+			end
+		elseif targetType == "all" then
+			for i=0,12 do
+				local targetUnit = board[i]
+				if targetUnit and targetUnit.curHP > 0 and not targetUnit.shroud then
+					ret[retIdx], retIdx = i, retIdx + 1
+				end
+			end
+		elseif targetType == "friend-surround" then
+			local surroundTable = friendSurroundTable[sourceIdx]
+			for i=1,#surroundTable do
+				local targetUnit = board[i]
+				if targetUnit and targetUnit.curHP > 0 then
+					ret[retIdx], retIdx = i, retIdx + 1
+				end
+			end
+			-- no friend surrounded
+			if retIdx == 1 then
+				surroundTable = friendSurroundDefaultTable[sourceIdx]
+				for i=1,#surroundTable do
+					local targetUnit = board[i]
+					if targetUnit and targetUnit.curHP > 0 then
+						ret[retIdx], retIdx = i, retIdx + 1
+					end
+				end
+			end
+		elseif targetType == "cone" then
+			local originalTargetIdx
+			checkTargetList = targetLists[0][source]
+			for i=1,#checkTargetList do
+				local targetIdx = checkTargetList[i]
+				local targetUnit = board[targetIdx]
+				if targetUnit and targetUnit.curHP > 0 and not targetUnit.shroud then
+					ret[retIdx], retIdx = tauntIdx or targetIdx, retIdx + 1
+					originalTargetIdx = targetIdx
+					break
+				end
+			end
+			if originalTargetIdx then
+				local f = ret[1]*16
+				if sourceUnitCamp == CampFollower then
+					for i=5,12 do
+						if coneCleave[f+i] then
+							local targetUnit = board[i]
+							if targetUnit and targetUnit.curHP > 0 and not targetUnit.shroud then
+								ret[retIdx], retIdx = i, retIdx + 1
+							end
+						end
+					end
+				else
+					for i=0,4 do
+						if coneCleave[f+i] then
+							local targetUnit = board[i]
+							if targetUnit and targetUnit.curHP > 0 and not targetUnit.shroud then
+								ret[retIdx], retIdx = i, retIdx + 1
+							end
+						end
+					end
+				end
+			end
+		elseif targetType == "cleave" then
+			local coa, cot = adjCleaveN[source], adjCleaveT[taunt]
+			if cot then
+				for i=1,#cot do
+					i = cot[i]
+					if i <= 12 then
+						local tu = board[i]
+						if tu and tu.curHP > 0 and not tu.shroud then
+							stt[ni], ni = i, ni + 1
+						end
+					elseif i >= 16 then
+						local tu = board[i-16]
+						if tu and tu.curHP > 0 and not tu.shroud then
+							break
+						end
+					end
+				end
+			elseif coa then
+				for i=1,#coa do
+					i = coa[i]
+					if i <= 12 then
+						local tu = board[i]
+						if tu and tu.curHP > 0 and not tu.shroud then
+							stt[ni], ni = i, ni + 1
+						end
+					elseif i == 32 and ni > 1 then
+						break
+					end
+				end
+				if taunt and (ni < 2 or stt[1] ~= taunt) then
+					stt[1], ni = taunt, 2
+				elseif taunt and ni > 3 then
+					ni = 3
+				end
+			elseif taunt then
+				stt[1], ni = taunt, 2
+			else
+				GetTargets(source, 0, board)
+				if #stt > 0 then
+					local s1 = stt[1]
+					local t = adjCleave[source*16+s1]
+					local tu = board[t]
+					local s2 = tu and tu.curHP > 0 and not tu.shroud and t or nil
+					stt[2], ni = s2, s2 and 3 or 2
+					if s2 and s2 < s1 then
+						stt[1], stt[2] = s2, s1
+					end
+				end
+			end
+		end
+		for i=#ret,retIdx,-1 do
+			ret[i] = nil
+		end
+		return ret
+	end
+--]]
 	local stt = {}
 	local function GetTargets(source, tt, board)
 		local ni, su, tl, lo, taunt = 1, board[source], targetLists[tt], source < 5 and source >= 0
 		taunt, tl = su and su.taunt, tl and tl[source]
 		if tl then
+			-- it will not check shroud if target and source belong to a same camp
+			local checkShroud = (tt == 0 or tt == 1) and true or false
 			for i=1,#tl do
 				local t = tl[i]
 				local tu = board[t]
-				if tu and tu.curHP > 0 and not tu.shroud then
+				if tu and tu.curHP > 0 and (not checkShroud or not tu.shroud) then
 					stt[ni], ni = source < 5 and t > 4 and taunt or t, ni + 1
 					break
 				end
@@ -261,6 +508,7 @@ do -- targets
 				end
 			end
 			if taunt == 6 and source == 4 and ot ~= taunt then
+				print("check targettype cone!!!")
 				local tu = board[0]
 				if tu and tu.curHP > 0 and not tu.shroud then
 					stt[1], ni, ot = 0, 2
@@ -412,7 +660,7 @@ do -- targets
 	function VS:GetAutoAttack(role, slot, mid, firstSpell)
 		local a1 = slot and mid and overrideAA[4+2*slot+32*mid]
 		local a2 = (slot or 0) < 5 and firstSpell and overrideAA[1+4*firstSpell]
-		return (a1 or a2 or (role == 1 or role == 5) and 0 or 1) == 0 and 11 or 15
+		return (a1 or a2 or (firstSpell == 11 or role == 1 or role == 5) and 0 or 1) == 0 and 11 or 15
 	end
 	VS.GetTargets = GetTargets
 	VS.targetLists = targetLists
@@ -520,9 +768,8 @@ function mu:damage(sourceIndex, targetIndex, baseDamage, causeTag, causeSID, eDN
 		points, pointsR = 0, points2
 	end
 	if points2 > 0 or (causeTag == "Thorn" and (points ~= 0 or points2 ~= 0)) then
-		local tracer = self.trace
-		if tracer then
-			tracer(self, "HIT", sourceIndex, targetIndex, points, tHP, causeTag, causeSID, pointsR)
+		if self:IsSimLogTurnOn() then
+			self:LogDamage("HIT", sourceIndex, targetIndex, points, tHP, causeTag, causeSID, pointsR)
 		end
 		if points < 0 then
 			local nHP, maxHP, nrHP = tHP-points2, tu.maxHP, rHP + pointsR
@@ -604,9 +851,8 @@ function mu:mend(sourceIndex, targetIndex, halfPoints, causeTag, causeSID)
 			else
 				tu.curHP = nhp
 			end
-			local tracer = self.trace
-			if tracer then
-				tracer(self, "HEAL", sourceIndex, targetIndex, points, cHP, causeTag, causeSID)
+			if self:IsSimLogTurnOn() then
+				self:LogDamage("HEAL", sourceIndex, targetIndex, points, cHP, causeTag, causeSID)
 			end
 		end
 	end
@@ -759,6 +1005,11 @@ function mu:aura(sourceIndex, targetIndex, targetSeq, ord, si, sid, eid)
 		tu.curHP, tu.maxHP = tu.curHP+d, tu.maxHP+d
 		enq(self.queue, fadeTurn, {"statDelta", sourceIndex, targetIndex, "maxHP", -d, ord=ordf})
 	end
+	if mdd or mdt or pdd or pdt then
+		if self:IsSimLogTurnOn() then
+			self:LogAura(sourceIndex,targetIndex,mdd,mdt,pdd,pdt)
+		end
+	end
 	if thornsp then
 		tu.thornsDamage = tu.thornsDamage + thornsp
 		tu.thornsSID = tu.thornsSID or sid
@@ -803,7 +1054,7 @@ end
 function mu:heal(sourceIndex, targetIndex, _targetSeq, ord, si, sid, _eid)
 	local board = self.board
 	local su, tu = board[sourceIndex], board[targetIndex]
-	local hPerc, hatk = si.healPercent, si.healATK
+	local hPerc, hatk = si.healPerc, si.healATK
 	local points = (hatk and f32_pim(hatk, su.atk) or 0) + (hPerc and floor(hPerc*tu.maxHP/100) or 0)
 	mu.mend(self, sourceIndex, targetIndex, points, "Spell", sid)
 	if si.shroudTurns then
@@ -829,9 +1080,49 @@ function mu:cast(sourceIndex, sid, recast, qe)
 	if si.type == "passive" then
 		return mu.passive(self, sourceIndex, sid)
 	else
-		enqc(self.queue, self.turn+recast, {"cast", sourceIndex, sid, recast, ord=ord, ord0=qe.ord0})
+		local checkCast = mu.CheckCast(self,sourceIndex,sid)
+		if checkCast then
+			--cast success,enqueue after recast(cooldown) turn
+			enqc(self.queue, self.turn+recast, {"cast", sourceIndex, sid, recast, ord=ord, ord0=qe.ord0})
+			return mu.qcast(self, sourceIndex, sid, si[1] and 1 or 0, ord-1)
+		else
+			--cast fail,enqueue next turn
+			enqc(self.queue, self.turn+1, {"cast", sourceIndex, sid, recast, ord=ord, ord0=qe.ord0})
+			return
+		end
 	end
-	return mu.qcast(self, sourceIndex, sid, si[1] and 1 or 0, ord-1)
+	--return mu.qcast(self, sourceIndex, sid, si[1] and 1 or 0, ord-1)
+end
+function mu:CheckCast(sourceIndex,sid)
+	local spellInfo,board = SpellInfo[sid], self.board
+	--only heal spell with single effect needs to be check
+	if spellInfo == nil or spellInfo[1] ~= nil then
+		return true
+	end
+	local forkTargets = forkTargets[spellInfo.target]
+	local oracle = self.forkOracle
+	if forkTargets and oracle then
+		return true
+	end
+	local targets = VS.GetTargets(sourceIndex, forkTargets or spellInfo.target, board)
+	if targets and #targets == 0 then
+		if spellInfo.type == "nuke" and spellInfo.selfhealATK then
+			return true
+		end
+		return false
+	end
+	if spellInfo.healATK == nil and spellInfo.healPerc == nil then
+		return true
+	end
+	local cast = false
+	for i=1,targets and #targets or 0 do
+		local targetUnit = board[targets[i]]
+		if targetUnit.curHP > 0 and targetUnit.curHP < targetUnit.maxHP then
+			cast = true
+			break
+		end
+	end
+	return cast
 end
 function mu:qcast(sourceIndex, sid, eid, ord1, forkTarget)
 	local si, board = SpellInfo[sid], self.board
@@ -1346,7 +1637,7 @@ function VS:New(team, encounters, envSpell, mid, mscalar, forkLimit)
 	for i=1,#encounters do
 		local e = encounters[i]
 		local rf, sa = {maxHP=e.maxHealth, curHP=e.maxHealth, atk=e.attack, slot=e.boardIndex}, e.autoCombatSpells
-		local aa = VS:GetAutoAttack(e.role, rf.slot, mid, sa and sa[1] and sa[1].autoCombatSpellID)
+		local aa = VS:GetAutoAttack(e.role, rf.slot, mid, e.autoCombatAutoAttack and e.autoCombatAutoAttack.autoCombatSpellID)
 		missingSpells, pmask = addCasts(q, rf.slot, sa, aa, missingSpells, pmask)
 		board[e.boardIndex] = addActorProps(rf)
 	end
@@ -1377,6 +1668,8 @@ function VS:New(team, encounters, envSpell, mid, mscalar, forkLimit)
 		res={min={}, max={}, hadWins=false, hadLosses=false, hadDrops=false, isFinished=false, n=0},
 		pmask=pmask,
 		forkLimit=forkLimit,
+		isSimLogTurnOn = false,
+		simLog = {},
 	}, VSIm)
 	ii.checkpoints[0] = ii:CheckpointBoard()
 	if ii.over then
@@ -1387,5 +1680,57 @@ end
 function VS:SetSpellInfo(t)
 	SpellInfo = t
 end
+
+function VSI:IsSimLogTurnOn()
+	return self.isSimLogTurnOn
+end
+
+function VSI:TurnOnSimLog()
+	self.isSimLogTurnOn = true
+	self.simLog = {}
+end
+
+function VSI:TurnOffSimLog()
+	self.isSimLogTurnOn = false
+end
+
+function VSI:LogDamage(typeStr, sourceIndex, targetIndex, points, tHP, causeTag, causeSID, pointsR)
+	--local s = "[Turn " .. self.turn .. "][" .. typeStr .. "] "
+	--local sourceUnit = self.board[sourceIndex]
+	--local targetUnit = self.board[targetIndex]
+	--s = s .. sourceIndex .. " --> " .. targetIndex .. "(" .. tHP .. ") " .. points .. "\n"
+	local s = string.format("[Turn %d][%s] %d --> %d (%d) %d\n",
+		self.turn,typeStr,
+		sourceIndex,targetIndex,
+		tHP,points)
+	--self.simLogString = self.simLogString .. s
+	table.insert(self.simLog,s)
+end
+
+function VSI:LogAura(sourceIndex, targetIndex, mdd, mdt, pdd, pdt)
+	local s = "[Turn " .. self.turn .. "][aura] "
+	--local sourceUnit = self.board[sourceIndex]
+	--local targetUnit = self.board[targetIndex]
+	if mdd then
+		s = s .. targetIndex .. " modify damage dealt by " .. mdd .. "% from " .. sourceIndex .. " "
+	end
+	if mdt then
+		s = s .. targetIndex .. " modify damage taken by " .. mdt .. "% from " .. sourceIndex .. " "
+	end
+	if pdd then
+		s = s .. targetIndex .. " plus damage dealt by " .. pdd .. " from " .. sourceIndex .. " "
+	end
+	if pdt then
+		s = s .. targetIndex .. " plus damage taken by " .. pdt .. " from " .. sourceIndex .. " "
+	end
+	s = s .. "\n"
+	table.insert(self.simLog,s)
+	--self.simLogString = self.simLogString .. s
+end
+
+function VSI:GetSimLog()
+	return self.isSimLogTurnOn and table.concat(self.simLog) or ""
+end
+
 
 T.VSim, VS.VSI, VS.mu = VS, VSI, mu

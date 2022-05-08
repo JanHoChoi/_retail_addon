@@ -9,6 +9,9 @@ HEYBOX_SAVED_PLAYER_INFOS = {
 	["杜一航-安苏"] = {
 		["class"] = "DEATHKNIGHT",
 	},
+	["杜一航-燃烧之刃"] = {
+		["class"] = "DEATHKNIGHT",
+	},
 	["薇羽-冰风岗"] = {
 		["class"] = "MAGE",
 	},

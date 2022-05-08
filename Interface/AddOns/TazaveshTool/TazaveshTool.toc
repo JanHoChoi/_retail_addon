@@ -1,0 +1,11 @@
+## Interface: 90200
+## Title: |cff0080ffTazaveshTool|r
+## Title-zhCN: |cff0080ffTazaveshTool|r 集市交易助手
+## Author: Siweia
+## Version: 6
+## X-Support: SL
+## SavedVariables: TTdb
+## X-Website: https://github.com/siweia/TazaveshTool
+
+TradeGoods.lua
+RunesNotification.lua

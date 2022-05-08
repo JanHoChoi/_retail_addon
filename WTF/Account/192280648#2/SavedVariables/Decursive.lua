@@ -1,24 +1,25 @@
 
 DecursiveDB = {
 	["profileKeys"] = {
-		["薇羽 - 影之哀伤"] = "Default",
+		["弄着玩玩的 - 冰风岗"] = "Default",
 		["雪舞薇薇 - 阿比迪斯"] = "Default",
-		["柳絮菲菲 - 影之哀伤"] = "Default",
-		["蝶舞菲菲 - 冰风岗"] = "Default",
-		["柳絮菲菲 - 冰风岗"] = "Default",
-		["赵丽颖 - 阿比迪斯"] = "Default",
 		["薇羽 - 冰风岗"] = "Default",
+		["杜一航 - 燃烧之刃"] = "Default",
+		["试玩下哦 - 冰风岗"] = "Default",
+		["柳絮菲菲 - 冰风岗"] = "Default",
+		["陶小桃 - 影之哀伤"] = "Default",
+		["Weiyuanne - 阿比迪斯"] = "Default",
 		["弄着玩的 - 冰风岗"] = "Default",
 		["李英爱 - 阿比迪斯"] = "Default",
-		["弄着玩玩的 - 冰风岗"] = "Default",
-		["试玩下哦 - 冰风岗"] = "Default",
-		["Weiyuanne - 阿比迪斯"] = "Default",
+		["柳絮菲菲 - 影之哀伤"] = "Default",
+		["赵丽颖 - 阿比迪斯"] = "Default",
+		["薇羽 - 影之哀伤"] = "Default",
 		["郭可盈 - 冰风岗"] = "Default",
 		["雪舞霏霏 - 阿比迪斯"] = "Default",
-		["杜一航 - 安苏"] = "Default",
+		["蝶舞菲菲 - 冰风岗"] = "Default",
 	},
 	["class"] = {
-		["DEATHKNIGHT"] = {
+		["HUNTER"] = {
 			["CureOrder"] = {
 				-11, -- [1]
 				-15, -- [2]
@@ -198,16 +199,16 @@ DecursiveDB = {
 				-16, -- [32]
 			},
 		},
-		["SHAMAN"] = {
+		["PALADIN"] = {
 			["CureOrder"] = {
-				4, -- [1]
-				2, -- [2]
+				3, -- [1]
+				-15, -- [2]
 				nil, -- [3]
-				1, -- [4]
+				-14, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
-				-15, -- [8]
+				1, -- [8]
 				nil, -- [9]
 				nil, -- [10]
 				nil, -- [11]
@@ -215,7 +216,7 @@ DecursiveDB = {
 				nil, -- [13]
 				nil, -- [14]
 				nil, -- [15]
-				-16, -- [16]
+				2, -- [16]
 				nil, -- [17]
 				nil, -- [18]
 				nil, -- [19]
@@ -231,19 +232,19 @@ DecursiveDB = {
 				nil, -- [29]
 				nil, -- [30]
 				nil, -- [31]
-				3, -- [32]
+				-16, -- [32]
 			},
 		},
 		["WARLOCK"] = {
 			["CureOrder"] = {
-				-12, -- [1]
-				-16, -- [2]
+				-13, -- [1]
+				-12, -- [2]
 				nil, -- [3]
-				-13, -- [4]
+				-14, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
-				-14, -- [8]
+				-15, -- [8]
 				nil, -- [9]
 				nil, -- [10]
 				nil, -- [11]
@@ -251,7 +252,7 @@ DecursiveDB = {
 				nil, -- [13]
 				nil, -- [14]
 				nil, -- [15]
-				-15, -- [16]
+				-16, -- [16]
 				nil, -- [17]
 				nil, -- [18]
 				nil, -- [19]
@@ -306,16 +307,16 @@ DecursiveDB = {
 				-16, -- [32]
 			},
 		},
-		["HUNTER"] = {
+		["SHAMAN"] = {
 			["CureOrder"] = {
-				-11, -- [1]
-				-15, -- [2]
+				4, -- [1]
+				2, -- [2]
 				nil, -- [3]
-				-12, -- [4]
+				1, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
-				-13, -- [8]
+				-15, -- [8]
 				nil, -- [9]
 				nil, -- [10]
 				nil, -- [11]
@@ -323,7 +324,7 @@ DecursiveDB = {
 				nil, -- [13]
 				nil, -- [14]
 				nil, -- [15]
-				-14, -- [16]
+				-16, -- [16]
 				nil, -- [17]
 				nil, -- [18]
 				nil, -- [19]
@@ -339,7 +340,7 @@ DecursiveDB = {
 				nil, -- [29]
 				nil, -- [30]
 				nil, -- [31]
-				-16, -- [32]
+				3, -- [32]
 			},
 		},
 		["DRUID"] = {
@@ -414,16 +415,16 @@ DecursiveDB = {
 				-16, -- [32]
 			},
 		},
-		["PALADIN"] = {
+		["DEATHKNIGHT"] = {
 			["CureOrder"] = {
-				3, -- [1]
+				-11, -- [1]
 				-15, -- [2]
 				nil, -- [3]
-				-14, -- [4]
+				-12, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
-				1, -- [8]
+				-13, -- [8]
 				nil, -- [9]
 				nil, -- [10]
 				nil, -- [11]
@@ -431,7 +432,7 @@ DecursiveDB = {
 				nil, -- [13]
 				nil, -- [14]
 				nil, -- [15]
-				2, -- [16]
+				-14, -- [16]
 				nil, -- [17]
 				nil, -- [18]
 				nil, -- [19]
@@ -452,14 +453,14 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1651766692,
+		["LastVersionAnnounce"] = 1651757200,
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DebuffsFrameContainer_y"] = 330.80538423877,
+			["DebuffsFrameContainer_y"] = 352.13874690289,
 			["MainBarX"] = 682.66672634549,
 			["MainBarY"] = -96.000003814697,
-			["DebuffsFrameContainer_x"] = 1063.4697932351,
+			["DebuffsFrameContainer_x"] = 1052.8031668346,
 		},
 	},
 }

@@ -35,7 +35,7 @@ local function isCategoryValid(categoryId)
 end
 
 local function MakeActivityMenuTable(activityId, baseFilter, customId, menuType)
-    local fullName, _, categoryId, groupId, _, filters = C_LFGList.GetActivityInfo(activityId)
+    local fullName, shortName, categoryId, groupId, _, filters = C_LFGList.GetActivityInfo(activityId)
 
     if customId then
         fullName = ACTIVITY_CUSTOM_NAMES[customId]
@@ -43,7 +43,14 @@ local function MakeActivityMenuTable(activityId, baseFilter, customId, menuType)
 
     local data = {}
 
+    -- 2 普通, 凋魂之殇（普通）  --print(categoryId, groupId, shortName, "," , fullName)
+    -- 3 英雄,  尼奥罗萨，觉醒之城（英雄）
+    -- 113 难度1, 扭曲回廊
+    -- 4 2v2 竞技场（2v2）
     data.text = fullName
+    if categoryId == 113 then
+        data.text = fullName .. " " .. shortName
+    end
     data.fullName = fullName
     data.categoryId = categoryId
     data.groupId = groupId

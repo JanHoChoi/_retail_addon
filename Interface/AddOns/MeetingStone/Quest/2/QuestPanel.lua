@@ -52,9 +52,14 @@ function QuestPanel:OnInitialize()
 end
 
 function QuestPanel:MEETINGSTONE_QUEST_FETCHED()
+    if not self:IsVisible() then
+        return
+    end
     local questGroup = QuestServies.questGroup
-    self.Body.Time:SetFormattedText('活动时间：%s - %s', date('%Y/%m/%d %H:%M', questGroup.startTime),
-                                    date('%Y/%m/%d %H:%M', questGroup.endTime))
-    self.Quests:SetItemList(questGroup.quests)
-    self.Quests:Refresh()
+    if questGroup.id ~= QuestServies.QuestType.GoldLeader then
+        self.Body.Time:SetFormattedText('活动时间：%s - %s', date('%Y/%m/%d %H:%M', questGroup.startTime),
+                                        date('%Y/%m/%d %H:%M', questGroup.endTime))
+        self.Quests:SetItemList(questGroup.quests)
+        self.Quests:Refresh()
+    end
 end

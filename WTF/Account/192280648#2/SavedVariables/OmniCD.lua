@@ -1,23 +1,24 @@
 
 OmniCDDB = {
-	["global"] = {
-		["oodVer"] = 2711,
-		["oodChk"] = 220408,
-		["oodMsg"] = "|cfff16436 有新版本可以使用。|cff99cdff(次要更新)",
-		["disableElvMsg"] = true,
+	["profileKeys"] = {
+		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
+		["杜一航 - 燃烧之刃"] = "薇羽Anne",
+		["蝶舞菲菲 - 冰风岗"] = "Default",
+		["陶小桃 - 影之哀伤"] = "Default",
+		["薇羽 - 影之哀伤"] = "薇羽Anne",
+		["薇羽 - 冰风岗"] = "Default",
 	},
-	["cooldowns"] = {
-	},
+	["version"] = 2.51,
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["version"] = 2.51,
-	["profileKeys"] = {
-		["薇羽 - 影之哀伤"] = "薇羽Anne",
-		["杜一航 - 安苏"] = "薇羽Anne",
-		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
-		["薇羽 - 冰风岗"] = "Default",
+	["cooldowns"] = {
+	},
+	["global"] = {
+		["oodVer"] = 2700,
+		["oodChk"] = 220323,
+		["disableElvMsg"] = true,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -32,8 +33,8 @@ OmniCDDB = {
 					},
 					["manualPos"] = {
 						["interruptBar"] = {
-							["y"] = 481.1890034957323,
-							["x"] = 136.9444665012543,
+							["y"] = 532.03335854345,
+							["x"] = 270.63337257041,
 						},
 						["raidCDBar"] = {
 							["y"] = 591.23329986069,
@@ -45,9 +46,9 @@ OmniCDDB = {
 						["showTooltip"] = true,
 					},
 					["position"] = {
-						["layout"] = "doubleRow",
-						["attach"] = "TOPLEFT",
 						["preset"] = "TOPLEFT",
+						["attach"] = "TOPLEFT",
+						["layout"] = "doubleRow",
 						["uf"] = "ElvUI",
 						["anchor"] = "TOPRIGHT",
 					},

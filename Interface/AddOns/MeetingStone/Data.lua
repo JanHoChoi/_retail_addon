@@ -2,14 +2,14 @@ BuildEnv(...)
 
 L = LibStub('AceLocale-3.0'):GetLocale('MeetingStone')
 
-ADDON_NAME          = ...
-ADDON_LOGO          = [[Interface\AddOns\]] .. ADDON_NAME .. [[\Media\Logo]]
-ADDON_VERSION       = GetAddOnMetadata(ADDON_NAME, 'Version')
-ADDON_VERSION_SHORT = ADDON_VERSION:gsub('(%d)%d(%d)%d%d%.(%d%d)','%1%2%3')
-ADDON_REGIONSUPPORT = true --GetCurrentRegion() == 5 , Fix ProfanityFilter WA bug
-ADDON_SERVER        = (NETEASE_SERVER_PREFIX or 'S1') .. UnitFactionGroup('player')
-SERVER_TIMEOUT      = 120
-NO_SCAN_WORD        = true
+ADDON_NAME = ...
+ADDON_LOGO = [[Interface\AddOns\]] .. ADDON_NAME .. [[\Media\Logo]]
+ADDON_VERSION = GetAddOnMetadata(ADDON_NAME, 'Version')
+ADDON_VERSION_SHORT = ADDON_VERSION:gsub('(%d)%d(%d)%d%d%.(%d%d)', '%1%2%3')
+ADDON_REGIONSUPPORT = GetCurrentRegion() == 5 or true --GetCurrentRegion() == 4 and GetLocale() == "zhCN"
+ADDON_SERVER = (NETEASE_SERVER_PREFIX or 'S1') .. UnitFactionGroup('player')
+SERVER_TIMEOUT = 120
+NO_SCAN_WORD = true
 
 _G.BINDING_NAME_MEETINGSTONE_TOGGLE = L['打开/关闭集合石']
 _G.BINDING_HEADER_NETEASE = '网易插件'
@@ -271,7 +271,7 @@ CATEGORY = {
             [257] = true,
             [258] = true,
         },
-        activities = {[657] = true},
+        activities = {[657] = true}, -- C_LFGList.GetActivityInfo(657) 世界首领
     },
     [8] = {
         groups = {
@@ -284,14 +284,34 @@ CATEGORY = {
             [265] = true,
             [266] = true,
             [267] = true,
-            [269] = true,
-            [270] = true,
-            [271] = true, --统御圣所
-            [272] = true, --塔扎维什，帷纱集市
+			--20220301 by 易安玥 恢复世界首领的显示
+            [269] = true, --世界首领 /dump C_LFGList.GetActivityGroupInfo(269)
+            [270] = true, --暗影国度
+            [271] = true,   --统御圣所
+            [272] = true,   --塔扎维什
+			--20220301 by 易安玥 增加 爬塔
+            [273] = true,--扭曲回廊
+            [274] = true,--斯科杜斯之厅
+            [275] = true,--上层区域
+            [276] = true,--灵魂熔炉
+            [277] = true,--莫尔特雷加
+            [278] = true,--断骨密室
+            [279] = true,--凇心间隙
+			--20220301 by 易安玥 增加 塔扎维什的两个拆分本儿
+            [280] = true,   --塔扎维什：琳彩天街
+            [281] = true,   --塔扎维什：索·莉亚的宏图
+            [282] = true,   --初诞者圣墓
         },
-        activities = {},
+        activities = {
+            [723] = true, -- 世界首领
+        },
     },
 }
+
+--/run a=LFGListFrame.EntryCreation dump(C_LFGList.GetAvailableActivityGroups(a.selectedCategory, bit.bor(a.baseFilters, a.selectedFilters)))
+--/dump C_LFGList.GetActivityGroupInfo(251)
+--/run a=LFGListFrame.EntryCreation dump(C_LFGList.GetAvailableActivities(a.selectedCategory, 0, bit.bor(a.baseFilters, a.selectedFilters)))
+--/dump C_LFGList.GetActivityInfo(657)
 
 RAID_CLASS_COLORS = {}
 CLASS_ICON_TCOORDS = {}
@@ -621,10 +641,10 @@ ZONE_ACTIVITY_MAP = {
     [1018] = '1-124-420-0', -- 瓦尔莎拉
     [1015] = '1-124-419-0', -- 阿苏纳
     [1021] = '1-124-469-0', -- 破碎海滩
-    [1170] = true, -- 马凯雷
-    [1135] = true, -- 克罗库恩
-    [1171] = true, -- 安托兰废土
-    -- [1096] = true,  -- 艾萨拉之眼
+    [1170] = '1-134-489-0', -- 玛凯雷
+    [1135] = '1-134-487-0', -- 克罗库恩
+    [1171] = '1-134-488-0', -- 安托兰废土
+    [1096] = '1-124-469-0', -- 艾萨拉之眼
 }
 
 CATEGORY_BASEFILTERS = {

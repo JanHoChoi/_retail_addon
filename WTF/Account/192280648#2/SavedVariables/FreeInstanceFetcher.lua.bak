@@ -1,8 +1,8 @@
 
 FIFConfig = {
-	["EnableSound"] = false,
+	["EnableSound"] = true,
 	["DBVer"] = 2,
-	["Skin"] = 5,
+	["Skin"] = 7,
 	["QuickAccess"] = false,
 	["ShowMinimap"] = true,
 	["ShowMainFrame"] = true,
