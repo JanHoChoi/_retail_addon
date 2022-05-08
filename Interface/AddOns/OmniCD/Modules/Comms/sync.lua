@@ -4,6 +4,7 @@ local strjoin = strjoin
 local strsplit = strsplit
 local strfind = string.find
 local strmatch = string.match
+local abs = math.abs
 
 local Comms = E["Comms"]
 local P = E["Party"]
@@ -72,7 +73,7 @@ function Comms:ToggleLazySync()
 	end
 
 	if ( next(E.lazySyncData) and P.disabled == false and (not P.isUserDisabled or next(self.syncGUIDS)) ) then
-		SYNC_ONUPDATE_INTERVAL = P.zone == "raid" and 5 or math.min(self:GetNumSyncMembers() + 1, 5);
+		SYNC_ONUPDATE_INTERVAL = math.min(self:GetNumSyncMembers(), 5);
 		if ( not LazySyncFrame.isShown ) then
 			LazySyncFrame:Show();
 		end
@@ -92,27 +93,46 @@ if ( not E.isPreBCC ) then
 		local now = GetTime();
 		while ( cdstr ) do
 			local spellID, duration, cdLeft, modRate, charges, rest = strsplit(":", cdstr, 6);
-			spellID, charges = tonumber(spellID), tonumber(charges);
 			cdstr = rest;
 			if ( spellID and cdLeft ) then
+				spellID, duration = tonumber(spellID), tonumber(duration)
 				local icon = info.spellIcons[spellID];
 				if ( icon ) then
 					local active = icon.active and info.active[spellID];
 					if ( active ) then
-						local startTime = now + cdLeft - duration;
+						modRate, charges = tonumber(modRate), tonumber(charges);
+
+						local elapsed = duration - cdLeft;
+						if ( modRate == 1 and active.totRate ) then
+							elapsed = elapsed * active.totRate;
+							duration = duration * active.totRate;
+							modRate = active.totRate;
+						elseif ( modRate ~= 1 and not active.totRate ) then
+							elapsed = elapsed / modRate;
+							duration = duration / modRate;
+							modRate = nil;
+						end
+
+						local startTime = now - elapsed;
 						icon.cooldown:SetCooldown(startTime, duration, modRate);
-						active.startTime = now + cdLeft - duration;
+						active.startTime = startTime;
 						active.duration = duration;
+						active.totRate = modRate ~= 1 and modRate;
+
 						local statusBar = icon.statusBar;
 						if ( statusBar ) then
 							P.OmniCDCastingBarFrame_OnEvent(statusBar.CastingBar, E.db.extraBars[statusBar.key].reverseFill and "UNIT_SPELLCAST_CHANNEL_UPDATE" or "UNIT_SPELLCAST_CAST_UPDATE");
 						end
+
 						if ( charges >= 0 and icon.maxcharges and charges ~= active.charges ) then
 							icon.Count:SetText(charges);
 							active.charges = charges;
 							icon.cooldown:SetDrawSwipe(false);
 							icon.cooldown:SetHideCountdownNumbers(true);
 						end
+					elseif ( duration > 0 and sync_periodic[spellID] ) then
+						P:StartCooldown(icon, duration)
+						P:UpdateCooldown(icon, duration - cdLeft)
 					end
 				end
 			end
@@ -163,7 +183,8 @@ if ( not E.isPreBCC ) then
 					if ( duration == 0 ) then
 
 
-						if ( prevStart ~= 0 or isForceUpdate ) then
+
+						if ( isForceUpdate ) then
 							lazySyncData[id][1] = start;
 							lazySyncData[id][2] = charges;
 							cdstr[#cdstr + 1] = id;
@@ -206,6 +227,10 @@ if ( not E.isPreBCC ) then
 
 			elapsedTime = 0;
 		end
+	end
+
+	function Comms:ForceSync()
+		elapsedTime = 100;
 	end
 
 	LazySyncFrame:Hide();

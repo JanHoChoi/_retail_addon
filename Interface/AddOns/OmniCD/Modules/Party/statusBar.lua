@@ -187,10 +187,18 @@ function P.CastingBarFrame_FinishSpell(self)
 	self.channeling = nil;
 end
 
-local function FindStartEndTime(self)
+local function FindStartEndTime(self, now)
 	local info = P.groupInfo[self.unit]
 	local active = info and info.active[self.spellID]
 	if active then
+
+		local modRate = active.totRate
+		self.modRate = modRate
+		if modRate then
+			now = now or GetTime()
+			local newTime = now - (now - active.startTime) / modRate
+			return newTime , newTime + active.duration / modRate
+		end
 		return active.startTime, active.startTime + active.duration
 	end
 end
@@ -264,6 +272,10 @@ end
 
 function OmniCDCastingBarFrame_OnUpdate(self, elapsed)
 	if ( self.casting ) then
+		local modRate = self.modRate
+		if modRate then
+			elapsed = elapsed / modRate
+		end
 		self.value = self.value + elapsed;
 		if ( self.value >= self.maxValue ) then
 			self:SetValue(self.maxValue);
@@ -287,6 +299,10 @@ function OmniCDCastingBarFrame_OnUpdate(self, elapsed)
 		self.nextTextUpdate = nextTextUpdate
 		self.Timer:SetText(counter)
 	elseif ( self.channeling ) then
+		local modRate = self.modRate
+		if modRate then
+			elapsed = elapsed / modRate
+		end
 		self.value = self.value - elapsed;
 		if ( self.value <= 0 ) then
 			P.CastingBarFrame_FinishSpell(self);
@@ -413,7 +429,8 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 
 	if ( event == "UNIT_SPELLCAST_START" ) then
 		local text, texture, notInterruptible = self.name
-		local startTime, endTime = FindStartEndTime(self)
+		local now = GetTime()
+		local startTime, endTime = FindStartEndTime(self, now)
 		if ( not startTime ) then
 			self:Hide();
 			return;
@@ -438,10 +455,11 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 		if ( self.isSparkEnabled ) then
 			self.Spark:Show();
 		end
-		self.value = (GetTime() - startTime);
+		self.value = (now - startTime);
 		self.maxValue = (endTime - startTime);
 		self:SetMinMaxValues(0, self.maxValue);
 		self:SetValue(self.value);
+		self.nextTextUpdate = 0
 		if ( self.Text ) then
 			self.Text:SetText(text);
 		end
@@ -527,14 +545,16 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 	elseif ( event == "UNIT_SPELLCAST_DELAYED" ) then
 		if ( self:IsShown() ) then
 			local notInterruptible
-			local startTime, endTime = FindStartEndTime(self)
+			local now = GetTime()
+			local startTime, endTime = FindStartEndTime(self, now)
 			if ( not startTime ) then
 				self:Hide();
 				return;
 			end
-			self.value = (GetTime() - startTime);
+			self.value = (now - startTime);
 			self.maxValue = (endTime - startTime);
 			self:SetMinMaxValues(0, self.maxValue);
+			self.nextTextUpdate = 0
 			if ( not self.casting ) then
 				self:SetStatusBarColor(CastingBarFrame_GetEffectiveStartColor(self, false, notInterruptible):GetRGB());
 				if ( self.isSparkEnabled ) then
@@ -552,12 +572,13 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 		end
 	elseif ( event == "UNIT_SPELLCAST_CAST_UPDATE" ) then
 		if ( self:IsShown() ) then
-			local startTime, endTime = FindStartEndTime(self)
+			local now = GetTime()
+			local startTime, endTime = FindStartEndTime(self, now)
 			if ( not startTime ) then
 				self:Hide();
 				return;
 			end
-			self.value = (GetTime() - startTime)
+			self.value = (now - startTime)
 			self.maxValue = (endTime - startTime)
 			self:SetMinMaxValues(0, self.maxValue);
 			self:SetValue(self.value);
@@ -565,7 +586,8 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 		end
 	elseif ( event == "UNIT_SPELLCAST_CHANNEL_START" ) then
 		local text, texture, notInterruptible = self.name
-		local startTime, endTime = FindStartEndTime(self)
+		local now = GetTime()
+		local startTime, endTime = FindStartEndTime(self, now)
 		if ( not startTime ) then
 			self:Hide();
 			return;
@@ -587,10 +609,11 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 			self.Text:SetTextColor(startTextColor:GetRGB())
 		end
 
-		self.value = endTime - GetTime();
+		self.value = endTime - now;
 		self.maxValue = endTime - startTime;
 		self:SetMinMaxValues(0, self.maxValue);
 		self:SetValue(self.value);
+		self.nextTextUpdate = 0
 		if ( self.Text ) then
 			self.Text:SetText(text);
 		end
@@ -623,12 +646,13 @@ function P.OmniCDCastingBarFrame_OnEvent(self, event, ...)
 		end
 	elseif ( event == "UNIT_SPELLCAST_CHANNEL_UPDATE" ) then
 		if ( self:IsShown() ) then
-			local startTime, endTime = FindStartEndTime(self)
+			local now = GetTime()
+			local startTime, endTime = FindStartEndTime(self, now)
 			if ( not startTime ) then
 				self:Hide();
 				return;
 			end
-			self.value = (endTime - GetTime())
+			self.value = (endTime - now)
 			self.maxValue = endTime - startTime
 			self:SetMinMaxValues(0, self.maxValue);
 			self:SetValue(self.value);

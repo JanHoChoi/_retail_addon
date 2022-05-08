@@ -1,113 +1,43 @@
 local E, L, C = select(2, ...):unpack()
 
 if E.isClassic then E.changelog = [=[
-v2.7.00
-	toc update - 11402
 
-v2.6.35
-	CTRL-clicking the spell in the 'Spells/RaidCD' tab will add it to the 'Spell Editor'.
-	Warlock Soulstone CD added.
-	Tooltip borders fixed.
-
-v2.6.30
-	Initial release for WoW: Classic Era.
+Previous changes can be found in the CHANGELOG file.
 ]=]
 elseif E.isBCC then E.changelog = [=[
-v2.7.00
+v2.7.15
+	Feign Death will no longer grey-out the icons.
+	Fixed an issue where logging back in would incorrectly grey-out the icons.
+	Group inspection is now done periodically until the arena match begins.
 
-
-v2.6.36
-	nil error fix
-
-Pre v2.6.36 changes can be found in the CHANGELOG file
+Previous changes can be found in the CHANGELOG file.
 ]=]
 else E.changelog = [=[
-v2.7.01
-	Encrypted event fix
+v2.7.16
+	Dancing Rune Weapon CDR fixed.
+	Observer cooldowns will no longer be tracked in the MDI setting.
+	Lib updates.
 
-v2.7.00
-	TL;DR
-		Spells with cooldown reduction that can't be detected are now directly synced with other users.
-		Fixed an issue where using an ability would incorrectly put the same ability for another unit on cooldown. <iss#322>
-		* AddOn will no longer communicate with earlier versions.
-
-
-	Revised Sync Mode
-		Spells with cooldown reduction that can't be detected are now directly synced with other users.
-		Synced Spell : Prerequisite
-			DK
-				Death Grip: Death's Reach (talent)
-				Death and Decay/Defile/Death Due): Crimson Scourge (passive)
-			DH
-				Eye Beam, Fel Devastation: Darkglare Boon (runeforge)
-				Immolation Aura, Fel Devastation: Rapacious Hunger (set bonus)
-				All Sigils & Elysian Decree: Razelikh's Defilement (runeforge)
-				Felblade: passive
-			Druid
-				Berserk/Incarnation: Heart of the Lion (Feral set bonus)
-			Hunter
-				Rapid Fire: Lethal Shots (talent)
-				Barbed Shot: Wild Call (passive)
-				Wildfire Bomb: Carve passive, Rylakstalker's Confounding Strikes (runeforge), Mad bombardier (set bonus)
-				Harpoon: Terms of Engagement (talent)
-			Monk
-				Invoke Xuen, the White Tiger: Xuen's Bond (conduit)
-				Purifying Brew: Mighty Pour (runeforge)
-				Rising Sun Kick: Teachings of the Monastery (passive)
-				All Brews: Shaohao's Might (runeforge)
-				Roll/Chi Torpedo: Tumbling Technique (conduit)
-			Paladin
-				Avenging Wrath/Avenging Crusader: Dawn Will Come (Holy set bonus)
-				Wake of Ashes: Ashes to Ashes (Ret set bonus)
-				Avenger's Shield: Grand Crusader (passive), Holy Avenger's Engraved Sigil (runeforge)
-			Shaman
-				Primordial Wave: Tumbling Waves (conduit)
-				Fire/Storm Elemental: Fire Heart (Ele set bonus)
-				All Totems: Heal the Soul (Resto set bonus)
-			Warlock
-				Summon Darkglaire: Corrupting Leer (conduit)
-			Warrior
-				Recklessness, Enraged Regeneration: Reckless Defense (runeforge)
-			Covenant Sig
-				Purify Soul: Focusing Mantra (soulbind)
-				Fleshcraft: Resourceful Fleshcrafting (soulbind), passive
-				Soulshape: Stay on the Move (soulbind)
-			Spells affected by power/resource spenders (previous sync mode)
-
-			In raid instances, only the following spells are synced:
-				Fortifying Brew, Avenging Wrath, Ashen Hallow, Spirit Link/Healing Tide/Tremor/Wind Rush Totem.
-		* AddOn will no longer communicate with earlier versions.
-	Main hand on-use abilites can be added as 'Trinket & Main Hand'.
-	Spells
-		Added Cosmic Gladiator's Echoing Resolve. (display only)
-	CD Modifiers
-		Added cooldown rate modulation by Decrypted Urh Cypher (Seasonal affix). - not tested
-		Added cooldown rate modulation by Architect's Ingenuity core (Trinket).
-	Bug Fixes
-		Fixed an issue where using an ability would incorrectly put another unit with the same ability on cooldown. <iss#322>
-		Phial of Serenity will correctly go on cooldown with Forgelite Filter (soulbind ability).
-		Fixed Sinister Teachings' CDR (runeforge) to Fallen Order for Mistweaver Monks.
-		Anger Management will no longer incorrectly be applied under the effect of Deadly Calm.
-		Black Ox Brew will correctly reset Purifying Brew.
-		Keg smash & Tiger palm will correctly reduce Black Ox Brew's CD.
-		Haunted Mask (Bwonsamdi's Pact, runeforge) will correctly affect Benevolent Faerie's initial target only.
-		Emerald Slumber will no longer incorrectly increase it's own cooldown recovery rate.
-		Door of Shadows' cooldown recovery rate will be modulated by Intimidation Tactics only.
-
+v2.7.15
 	Blizzard Hotfixes
-		MARCH 14, 2022
-			Mage
-				Fire
-					Pyrokinesis (PvP Talent) now causes Fireball to reduce the cooldown of Combustion by 2 seconds (was 3 seconds).
-		MARCH 7, 2022
-			Druid
-				Feral
-					(2) Set Bonus: Berserk’s cooldown is now reduced by 0.7 seconds per combo point spent (was 0.5 seconds).
+		APRIL 26, 2022
+			Holy Priest
+				Divine Conversation (2-set bonus) now increases the CDR by 10sec in PvP (was 15sec).
+				Miracle Worker (PvP Talent) now reduces the cooldown of Holy Word: Serenity by 10% (was 20%).
 
-v2.6.40
-	toc update 90200
-	Additional PvP trinkets added
+v2.7.14
+	Updated missing changes from patch 9.0.5 :0
+	Crimson Rune Weapon (DK, Runeforge) cooldown reduction increased to 5 seconds (was 3s).
+	Qa’pla, Eredun War Order (Hunter, Runeforge) now resets the cooldown of Kill Command (was reduces the cooldown by 5 seconds).
+	Divine Vision (Paladin, PvP Talent) now reduces the cooldown of Aura Mastery by 1 minute (was grants Shadow Resistance Aura).
+	Duskwalker’s Patch (Rogue, Runeforge) reduces Vendetta’s cooldown for every 30 Energy you expend (was 50 Energy).
+	Amplify Curse (Warlock, PvP Talent) cooldown reduced to 30 seconds (was 45 seconds).
 
-Pre v2.6.40 changes can be found in the CHANGELOG file
+v2.7.13
+	Fixed an issue where sync could incorrectly reset the CD.
+	Bwonsamdi's Pact has been added back in for non-synced units. (doesn't support multiple buffs per target)
+	Crafted Unity Legendaries added.
+
+Previous changes can be found in the CHANGELOG file.
 ]=]
 end

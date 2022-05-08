@@ -23,6 +23,10 @@ L["Dropdown.RegionPoint.TOPLEFT.Desc"] = "Top Left - The top left corner of the 
 L["Dropdown.RegionPoint.TOPRIGHT.Desc"] = "Top Right - The top right corner of the rectangle"
 L["Dropdown.Texture.arrow_tip_green.Desc"] = "녹색 3D 화살표"
 L["Dropdown.Texture.arrow_tip_red.Desc"] = "빨간색 3D 화살표"
+--[[Translation missing --]]
+L["Dropdown.Texture.Arrows_Away.Desc"] = "Arrows Away Nameplate"
+--[[Translation missing --]]
+L["Dropdown.Texture.Arrows_Towards.Desc"] = "Arrows Towards Nameplate"
 L["Dropdown.Texture.BlueArrow.Desc"] = "아래쪽을 가리키는 파란색 화살표"
 L["Dropdown.Texture.bluearrow1.Desc"] = "아래쪽을 가리키는 추상 스타일 파란색 화살표"
 --[[Translation missing --]]

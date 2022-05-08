@@ -2,18 +2,18 @@ local L = BigWigs:NewBossLocale("Vigilant Guardian", "ruRU")
 if not L then return end
 if L then
 	L.sentry = "Танк моб"
-	L.materium = "Кастер моб"
-	L.shield = "Защитное поле" -- Global locale canidate?
 end
 
 L = BigWigs:NewBossLocale("Skolex, the Insatiable Ravener", "ruRU")
 if L then
+	L.custom_on_stop_timers = "Всегда показывать таймеры"
+	L.custom_on_stop_timers_desc = "Сколекс может задерживать использование своих способностей. Выбрав эту настройку, полосы с этими заклинаниями останутся на вашем экране."
+
 	L.tank_combo_desc = "При применении Сколексом комбо из трёх ударов на 100 энергии танки должны сблизиться, чтобы по очереди принимать на себя урон от атак."
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox v2", "ruRU")
 if L then
-	L.traps = "Ловушки" -- Stasis Trap
 	L.sparknova = "Вспышка гиперсвета" -- Hyperlight Sparknova
 	L.relocation = "Стяжка" -- Glyph of Relocation
 	L.relocation_count = "%s Ф%d (%d)" -- Tank Bomb S1 (1) // Tank Bomb (stage)(count)
@@ -25,7 +25,6 @@ end
 L = BigWigs:NewBossLocale("Dausegne, the Fallen Oracle", "ruRU")
 if L then
 	L.staggering_barrage = "Обстрел" -- Staggering Barrage
-	L.domination_core = "Ад" -- Domination Core
 	L.obliteration_arc = "Дуга" -- Obliteration Arc
 
 	L.disintergration_halo = "Кольца" -- Disintegration Halo
@@ -35,8 +34,6 @@ if L then
 
 	L.custom_on_ring_timers = "Индивидуальные таймеры для колец"
 	L.custom_on_ring_timers_desc = "\"Ореол дезинтеграции\" создаёт набор колец. Выбрав эту настройку, вам будет показаны полосы для каждой полосы индивидуально. Использует настройки \"Ореол дезинтеграции\"."
-
-	L.shield_removed = "%s убран спустя %.1fс" -- "Shield removed after 1.1s" s = seconds
 end
 
 L = BigWigs:NewBossLocale("Prototype Pantheon", "ruRU")
@@ -47,6 +44,7 @@ if L then
 	L.wild_stampede = "Звери"
 	L.withering_seeds = "Семена"
 	L.hand_of_destruction = "Длань разрушения"
+	L.nighthunter_marks_additional_desc = "|cFFFF0000Отмечает игроков с приоритетом мили для первых меток.|r"
 end
 
 L = BigWigs:NewBossLocale("Lihuvim, Principal Architect", "ruRU")
@@ -81,17 +79,13 @@ if L then
 	L.remnant_active = "Тень активна"
 end
 
-L = BigWigs:NewBossLocale("Skolex, the Insatiable Ravener", "ruRU")
-if L then
-	L.tank_combo_desc = "Таймер для танковской комбы на 100 энергии."
-end
-
 L = BigWigs:NewBossLocale("Halondrus the Reclaimer", "ruRU")
 if L then
 	L.seismic_tremors = "Частицы + Толчки"
 	L.earthbreaker_missiles = "Снаряды"
 	L.crushing_prism = "Призмы"
 	L.prism = "Призма"
+	L.ephemeral_fissure = "Разлом"
 
 	L.bomb_dropped = "Бомба брошена"
 
@@ -104,7 +98,6 @@ if L then
 	L.unto_darkness = "АОЕ Фаза"
 	L.cloud_of_carrion = "Рой"
 	L.empowered_cloud_of_carrion = "Усиленный рой" -- Empowered Cloud of Carrion
-	L.manifest_shadows = "Ады"
 	L.leeching_claws = "Фронтал (M)"
 	L.infiltration_of_dread = "Амогус"
 	L.infiltration_removed = "Импостер найден спустя %.1fс" -- "Imposters found in 1.1s" s = seconds
@@ -130,36 +123,38 @@ if L then
 	L.rune_of_damnation_countdown_desc = "Отсчёт для игроков, поражённых Руной проклятия"
 	L.jump = "ПРЫГАЙ"
 
-	--L.relentless_domination = "Domination"
+	L.relentless_domination = "Подчинение"
 	L.chains_of_oppression = "Цепи страдания"
 	L.unholy_attunement = "Пилоны"
-	--L.shattering_blast = "Tank Blast"
+	L.shattering_blast = "Выстрел в танка"
 	L.rune_of_compulsion = "Подчинение"
-	--L.desolation = "Azeroth Soak"
+	L.desolation = "Лужа Азерот"
 	L.chains_of_anguish = "Цепи"
 	L.chain = "Цепи"
 	L.chain_target = "Цепь с %s!"
 	L.chains_remaining = "%d/%d цепей разорвано"
 	L.rune_of_domination = "Делёжка"
 
-	--L.final = "Final %s" -- Final Unholy Attunement/Domination (last spell of a stage)
+	L.final = "Ласт %s" -- Final Unholy Attunement/Domination (last spell of a stage) -- Used this exact word to keep gender
 
-	-- L.azeroth_health = "Azeroth Health"
-	-- L.azeroth_health_desc = "Azeroth Health Warnings"
+	L.azeroth_health = "Хп Азерот"
+	L.azeroth_health_desc = "Предупреждения о здоровье Азерот"
 
-	-- L.azeroth_new_health_plus = "Azeroth Health: +%.1f%% (%d)"
-	-- L.azeroth_new_health_minus = "Azeroth Health: -%.1f%%  (%d)"
+	L.azeroth_new_health_plus = "Хп Азерот: +%.1f%% (%d)"
+	L.azeroth_new_health_minus = "Хп Азерот: -%.1f%%  (%d)"
 
-	-- L.mythic_blood_soak_stage_1 = "Stage 1 Blood Soak timings"
-	-- L.mythic_blood_soak_stage_2 = "Stage 2 Blood Soak timings"
-	-- L.mythic_blood_soak_stage_3 = "Stage 3 Blood Soak timings"
-	-- L.mythic_blood_soak_stage_1_desc = "Show a bar for timings when healing azeroth is at a good time, used by Echo on their first kill"
-	-- L.mythic_blood_soak_bar = "Heal Azeroth"
+	L.mythic_blood_soak_stage_1 = "Таймеры крови Азерот 1 Фазы"
+	L.mythic_blood_soak_stage_1_desc = "Показывать полосы с хорошими таймингами, аналогичными первому килу Echo"
+	L.mythic_blood_soak_stage_2 = "Таймеры крови Азерот 2 Фазы"
+	L.mythic_blood_soak_stage_2_desc = L.mythic_blood_soak_stage_1_desc
+	L.mythic_blood_soak_stage_3 = "Таймеры крови Азерот 3 Фазы"
+	L.mythic_blood_soak_stage_3_desc = L.mythic_blood_soak_stage_1_desc
+	L.mythic_blood_soak_bar = "Лечить Азерот"
 
-	-- L.floors_open = "Floors Open"
-	-- L.floors_open_desc = "Time until the floors opens up and you can fall into opened holes."
+	L.floors_open = "Открытие пола"
+	L.floors_open_desc = "Время до открытия ячеек на полу, после чего можно будет упасть в пропасть."
 
-	-- L.mythic_dispel_stage_4 = "Dispel Timers"
-	-- L.mythic_dispel_stage_4_desc = "Timers for when to do dispels in the last stage, used by Echo on their first kill"
-	-- L.mythic_dispel_bar = "Dispels"
+	L.mythic_dispel_stage_4 = "Таймеры диспелов"
+	L.mythic_dispel_stage_4_desc = "Таймеры для диспелов, взятые с первого кила Echo"
+	L.mythic_dispel_bar = "Диспелы"
 end

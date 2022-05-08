@@ -1,8 +1,8 @@
 local W, F, E, L, V, P, G = unpack(select(2, ...))
 local options = W.options.misc.args
 local LSM = E.Libs.LSM
-local M = W:GetModule("Misc")
-local MF = W:GetModule("MoveFrames")
+local M = W.Modules.Misc
+local MF = W.Modules.MoveFrames
 local CT = W:GetModule("ChatText")
 local GB = W:GetModule("GameBar")
 
@@ -12,7 +12,8 @@ local tostring = tostring
 
 local GetClassInfo = GetClassInfo
 local GetNumClasses = GetNumClasses
-local GetSpellInfo = GetSpellInfo
+local Item = Item
+local Spell = Spell
 
 local C_CVar_GetCVar = C_CVar.GetCVar
 local C_CVar_GetCVarBool = C_CVar.GetCVarBool
@@ -123,6 +124,23 @@ options.general = {
                 E.db.WT.misc[info[#info]] = value
                 M:LootPanel()
             end
+        },
+        hotKeyAboveCD = {
+            order = 11,
+            type = "toggle",
+            name = L["HotKey Above CD"],
+            desc = format(
+                "%s\n%s %s",
+                L["Show hotkeys above the ElvUI cooldown animation."],
+                E.NewSign,
+                F.CreateColorString(L["Only works with ElvUI action bar and ElvUI cooldowns."], E.db.general.valuecolor)
+            )
+        },
+        guildNewsItemLevel = {
+            order = 12,
+            type = "toggle",
+            name = L["Guild News IL"],
+            desc = L["Show item level of each item in guild news."]
         }
     }
 }
@@ -270,10 +288,10 @@ options.moveFrames = {
     type = "group",
     name = L["Move Frames"],
     get = function(info)
-        return E.private.WT.misc[info[#info]]
+        return E.private.WT.misc.moveFrames[info[#info]]
     end,
     set = function(info, value)
-        E.private.WT.misc[info[#info]] = value
+        E.private.WT.misc.moveFrames[info[#info]] = value
         E:StaticPopup_Show("PRIVATE_RL")
     end,
     args = {
@@ -282,6 +300,7 @@ options.moveFrames = {
             type = "group",
             inline = true,
             name = L["Description"],
+            disabled = false,
             args = {
                 feature = {
                     order = 1,
@@ -300,7 +319,7 @@ options.moveFrames = {
                 }
             }
         },
-        moveBlizzardFrames = {
+        enable = {
             order = 1,
             type = "toggle",
             name = L["Enable"],
@@ -308,12 +327,12 @@ options.moveFrames = {
                 return MF.StopRunning
             end
         },
-        moveElvUIBags = {
+        elvUIBags = {
             order = 2,
             type = "toggle",
             name = L["Move ElvUI Bags"],
             disabled = function()
-                return MF.StopRunning
+                return MF.StopRunning or not E.private.WT.misc.moveFrames.enable
             end
         },
         remember = {
@@ -322,7 +341,7 @@ options.moveFrames = {
             inline = true,
             name = L["Remember Positions"],
             disabled = function()
-                return MF.StopRunning
+                return MF.StopRunning or not E.private.WT.misc.moveFrames.enable
             end,
             args = {
                 rememberPositions = {
@@ -330,7 +349,7 @@ options.moveFrames = {
                     type = "toggle",
                     name = L["Enable"],
                     set = function(info, value)
-                        E.private.WT.misc[info[#info]] = value
+                        E.private.WT.misc.moveFrames[info[#info]] = value
                     end
                 },
                 clearHistory = {
@@ -338,21 +357,22 @@ options.moveFrames = {
                     type = "execute",
                     name = L["Clear History"],
                     func = function()
-                        E.private.WT.misc.framePositions = {}
+                        E.private.WT.misc.moveFrames.framePositions = {}
                     end
                 },
                 notice = {
                     order = 999,
                     type = "description",
                     name = format(
-                        "|cffff0000%s|r %s",
+                        "\n|cffff0000%s|r %s",
                         L["Notice"],
                         format(
                             L["%s may cause some frames to get messed, but you can use %s button to reset frames."],
                             L["Remember Positions"],
-                            "|cff3498db" .. L["Clear History"] .. "|r"
+                            F.CreateColorString(L["Clear History"], E.db.general.valuecolor)
                         )
-                    )
+                    ),
+                    fontSize = "medium"
                 }
             }
         }
@@ -420,12 +440,16 @@ options.mute = {
                 ["Tortollan"] = {
                     order = 1,
                     type = "toggle",
-                    name = L["Tortollan"]
+                    name = L["Tortollan"],
+                    width = 1.3
                 },
-                ["Smolderheart"] = {
+                ["Crying"] = {
                     order = 2,
                     type = "toggle",
-                    name = L["Smolderheart"]
+                    name = L["Crying"],
+                    desc = L["Mute crying sounds of all races."] ..
+                        "\n|cffff0000" .. L["It will affect the cry emote sound."] .. "|r",
+                    width = 1.3
                 }
             }
         }
@@ -434,11 +458,55 @@ options.mute = {
 
 do
     for id in pairs(V.misc.mute.mount) do
-        options.mute.args.mount.args[tostring(id)] = {
-            order = id,
-            type = "toggle",
-            name = GetSpellInfo(id)
+        local spell = Spell:CreateFromSpellID(id)
+        spell:ContinueOnSpellLoad(
+            function()
+                local icon = spell:GetSpellTexture()
+                local name = spell:GetSpellName()
+
+                local iconString = F.GetIconString(icon)
+
+                options.mute.args.mount.args[tostring(id)] = {
+                    order = id,
+                    type = "toggle",
+                    name = iconString .. " " .. name,
+                    width = 1.5
+                }
+            end
+        )
+    end
+
+    local itemList = {
+        ["Smolderheart"] = {
+            id = 180873,
+            desc = nil
+        },
+        ["Elegy of the Eternals"] = {
+            id = 188270,
+            desc = "|cffff0000" .. L["It will also affect the crying sound of all female Blood Elves."] .. "|r"
         }
+    }
+
+    for name, data in pairs(itemList) do
+        local item = Item:CreateFromItemID(data.id)
+        item:ContinueOnItemLoad(
+            function()
+                local icon = item:GetItemIcon()
+                local name = item:GetItemName()
+                local color = item:GetItemQualityColor()
+
+                local iconString = F.GetIconString(icon)
+                local nameString = F.CreateColorString(name, color)
+
+                options.mute.args.other.args[name] = {
+                    order = data.id,
+                    type = "toggle",
+                    name = iconString .. " " .. nameString,
+                    desc = data.desc,
+                    width = 1.3
+                }
+            end
+        )
     end
 end
 

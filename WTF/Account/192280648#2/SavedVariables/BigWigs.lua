@@ -21,13 +21,6 @@ BigWigs3DB = {
 		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
 		["弄着玩的 - 冰风岗"] = "薇羽Anne",
 	},
-	["global"] = {
-		["watchedMovies"] = {
-			[-2000] = true,
-			[549] = true,
-			[-367] = true,
-		},
-	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
@@ -41,19 +34,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 		},
-		["BigWigs_Bosses_Hakkar the Soulflayer"] = {
-		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
-		},
 		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Zo'phex the Sentinel"] = {
-		},
-		["BigWigs_Bosses_Ingra Maloch"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -70,8 +53,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_Kryxis the Voracious"] = {
-		},
 		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
@@ -86,25 +67,21 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0007019042969,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99993133544922,
 					["BigWigsAnchor_height"] = 15.99996376037598,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
-		["BigWigs_Bosses_Kin-Tara"] = {
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Bosses_Globgrog"] = {
-		},
 		["BigWigs_Plugins_Proximity"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
@@ -117,6 +94,13 @@ BigWigs3DB = {
 					["exitCombat"] = 1,
 				},
 			},
+		},
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			[-2000] = true,
+			[549] = true,
+			[-367] = true,
 		},
 	},
 	["profiles"] = {
@@ -137,50 +121,6 @@ BigWigsStatsDB = {
 			},
 			["normal"] = {
 				["best"] = 103.873,
-				["kills"] = 1,
-			},
-		},
-	},
-	[720] = {
-		[196] = {
-			["heroic"] = {
-				["best"] = 3.0009999999997,
-				["kills"] = 1,
-			},
-		},
-		[193] = {
-			["heroic"] = {
-				["best"] = 9.3310000000001,
-				["kills"] = 1,
-			},
-		},
-		[197] = {
-			["heroic"] = {
-				["best"] = 2.1380000000001,
-				["kills"] = 6,
-			},
-		},
-		[194] = {
-			["heroic"] = {
-				["best"] = 9.5830000000001,
-				["kills"] = 6,
-			},
-		},
-		[198] = {
-			["heroic"] = {
-				["best"] = 36.948,
-				["kills"] = 6,
-			},
-		},
-		[195] = {
-			["heroic"] = {
-				["best"] = 3.105,
-				["kills"] = 1,
-			},
-		},
-		[192] = {
-			["heroic"] = {
-				["best"] = 16.363,
 				["kills"] = 1,
 			},
 		},
@@ -246,6 +186,50 @@ BigWigsStatsDB = {
 		[2439] = {
 			["heroic"] = {
 				["best"] = 267.315,
+				["kills"] = 1,
+			},
+		},
+	},
+	[720] = {
+		[196] = {
+			["heroic"] = {
+				["best"] = 3.0009999999997,
+				["kills"] = 1,
+			},
+		},
+		[193] = {
+			["heroic"] = {
+				["best"] = 9.3310000000001,
+				["kills"] = 1,
+			},
+		},
+		[197] = {
+			["heroic"] = {
+				["best"] = 2.1380000000001,
+				["kills"] = 6,
+			},
+		},
+		[194] = {
+			["heroic"] = {
+				["best"] = 9.5830000000001,
+				["kills"] = 6,
+			},
+		},
+		[198] = {
+			["heroic"] = {
+				["best"] = 36.948,
+				["kills"] = 6,
+			},
+		},
+		[195] = {
+			["heroic"] = {
+				["best"] = 3.105,
+				["kills"] = 1,
+			},
+		},
+		[192] = {
+			["heroic"] = {
+				["best"] = 16.363,
 				["kills"] = 1,
 			},
 		},

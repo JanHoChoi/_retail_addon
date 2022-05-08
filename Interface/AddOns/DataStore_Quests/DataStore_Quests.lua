@@ -29,6 +29,7 @@ local AddonDB_Defaults = {
 				Rewards = {},
 				Money = {},
 				Dailies = {},
+				Weeklies = {},
 				History = {},		-- a list of completed quests, hash table ( [questID] = true )
 				HistoryBuild = nil,	-- build version under which the history has been saved
 				HistorySize = 0,
@@ -74,6 +75,37 @@ local emissaryQuests = {
 	[50606] = 7, -- Horde War Effort
 	[56119] = 7, -- The Waveblade Ankoan
 	[56120] = 7, -- The Unshackled
+}
+
+local weeklyWorldQuests = {
+	-- Legion : https://www.wowhead.com/broken-isles-world-bosses-guide
+	[43512] = true,		-- Ana-Mouz
+	[43193] = true,		-- Calamir
+	[43448] = true,		-- Drugon the Frostblood
+	[43985] = true,		-- Flotsam
+	[42819] = true,		-- Humongris
+	[43192] = true,		-- Levantus
+	[43513] = true,		-- Na'zak the Fiend
+	[42270] = true,		-- Nithogg
+	[42779] = true,		-- Shar'thos
+	[42269] = true,		-- The Soultakers
+	[44287] = true,		-- Withered J'im
+	
+	-- BfA : https://www.wowhead.com/world-bosses-in-battle-for-azeroth
+	[52196] = true,		-- Dunegorger Kraulok
+	[52169] = true,		-- Ji'arak
+	[52181] = true,		-- T'zane
+	[52166] = true,		-- Warbringer Yenajz
+	[52163] = true,		-- Azurethos, The Winged Typhoon
+	[52157] = true,		-- Hailstone Construct
+	
+	-- Shadowlands
+	[61813] = true,		-- Bastion - Valinor, the Light of Eons
+	[61814] = true,		-- Revendreth - Nurgash Muckformed
+	[61815] = true,		-- Ardenweald - Oranomonos the Everbranching
+	[61816] = true,		-- Maldraxxus - Mortanis
+	[64531] = true,		-- The Maw - Mor'geth
+	[65143] = true,		-- Zereth Mortis - Antros
 }
 
 local covenantCampaignIDs = {
@@ -159,10 +191,23 @@ local function ClearExpiredDailies()
 		
 		for i = #dailies, 1, -1 do
 			local quest = dailies[i]
-			if (now - quest.timestamp) > gap then
+			-- if (now - quest.timestamp) > gap then
+			if quest.timestamp and quest.expiresIn and (now - quest.timestamp) > quest.expiresIn then
 				table.remove(dailies, i)
 			end
 		end
+		
+		-- Clear weeklies
+		local weeklies = character.Weeklies
+
+		for i = #weeklies, 1, -1 do
+			local quest = weeklies[i]
+			
+			-- fix the condition
+			if quest.timestamp and quest.expiresIn and (now - quest.timestamp) > quest.expiresIn then
+				table.remove(weeklies, i)
+			end
+		end		
 	end
 end
 
@@ -490,6 +535,17 @@ local function OnCovenantCallingsUpdated(event, bountyInfo)
 	ScanCallings(bountyInfo)
 end
 
+local function OnQuestTurnedIn(event, questID, xpReward, moneyReward)
+	if weeklyWorldQuests[questID] then 
+		table.insert(addon.ThisCharacter.Weeklies, { 
+			title = C_QuestLog.GetTitleForQuestID(questID), 
+			id = questID, 
+			timestamp = time(),
+			expiresIn = C_DateAndTime.GetSecondsUntilWeeklyReset()
+		})
+	end
+end
+
 local function RefreshQuestHistory()
 	local thisChar = addon.ThisCharacter
 	local history = thisChar.History
@@ -667,6 +723,19 @@ end
 
 local function _GetDailiesHistoryInfo(character, index)
 	local quest = character.Dailies[index]
+	return quest.id, quest.title, quest.timestamp
+end
+
+local function _GetWeekliesHistory(character)
+	return character.Weeklies
+end
+
+local function _GetWeekliesHistorySize(character)
+	return #character.Weeklies
+end
+
+local function _GetWeekliesHistoryInfo(character, index)
+	local quest = character.Weeklies[index]
 	return quest.id, quest.title, quest.timestamp
 end
 
@@ -856,6 +925,9 @@ local PublicMethods = {
 	GetDailiesHistory = _GetDailiesHistory,
 	GetDailiesHistorySize = _GetDailiesHistorySize,
 	GetDailiesHistoryInfo = _GetDailiesHistoryInfo,
+	GetWeekliesHistory = _GetWeekliesHistory,
+	GetWeekliesHistorySize = _GetWeekliesHistorySize,
+	GetWeekliesHistoryInfo = _GetWeekliesHistoryInfo,
 	IsCharacterOnQuest = _IsCharacterOnQuest,
 	GetCharactersOnQuest = _GetCharactersOnQuest,
 	IterateQuests = _IterateQuests,
@@ -887,6 +959,9 @@ function addon:OnInitialize()
 	DataStore:SetCharacterBasedMethod("GetDailiesHistory")
 	DataStore:SetCharacterBasedMethod("GetDailiesHistorySize")
 	DataStore:SetCharacterBasedMethod("GetDailiesHistoryInfo")
+	DataStore:SetCharacterBasedMethod("GetWeekliesHistory")
+	DataStore:SetCharacterBasedMethod("GetWeekliesHistorySize")
+	DataStore:SetCharacterBasedMethod("GetWeekliesHistoryInfo")
 	DataStore:SetCharacterBasedMethod("GetEmissaryQuestInfo")
 	DataStore:SetCharacterBasedMethod("IsCharacterOnQuest")
 	DataStore:SetCharacterBasedMethod("IterateQuests")
@@ -907,6 +982,7 @@ function addon:OnEnable()
 	addon:RegisterEvent("UNIT_QUEST_LOG_CHANGED", OnUnitQuestLogChanged)
 	addon:RegisterEvent("WORLD_QUEST_COMPLETED_BY_SPELL", ScanQuests)
 	addon:RegisterEvent("COVENANT_CALLINGS_UPDATED", OnCovenantCallingsUpdated)
+	addon:RegisterEvent("QUEST_TURNED_IN", OnQuestTurnedIn)
 
 	addon:SetupOptions()
 
@@ -961,9 +1037,25 @@ hooksecurefunc("GetQuestReward", function(choiceIndex)
 	-- track daily quests turn-ins
 	if QuestIsDaily() or emissaryQuests[questID] then
 		-- I could not find a function to test if a quest is emissary, so their id's are tracked manually
-		table.insert(addon.ThisCharacter.Dailies, { title = GetTitleText(), id = questID, timestamp = time() })
+		
+		table.insert(addon.ThisCharacter.Dailies, { 
+			title = GetTitleText(), 
+			id = questID, 
+			timestamp = time(), 
+			expiresIn = C_DateAndTime.GetSecondsUntilDailyReset()
+			-- https://wowpedia.fandom.com/wiki/API_C_DateAndTime.GetSecondsUntilDailyReset
+		})
 	end
-	-- TODO: there's also QuestIsWeekly() which should probably also be tracked
+
+	-- track weekly quests turn-ins
+	if QuestIsWeekly() then 
+		table.insert(addon.ThisCharacter.Weeklies, { 
+			title = GetTitleText(), 
+			id = questID, 
+			timestamp = time(),
+			expiresIn = C_DateAndTime.GetSecondsUntilWeeklyReset()
+		})
+	end
 
 	addon:SendMessage("DATASTORE_QUEST_TURNED_IN", questID)		-- trigger the DS event
 end)

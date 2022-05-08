@@ -29,5 +29,9 @@
 	<Script file='Previous\2.27.lua'/>
 	<Script file='Previous\2.28.lua'/>
 	<Script file='Previous\2.29.lua'/>
-	<Script file='2.30.lua'/>
+	<Script file='Previous\2.30.lua'/>
+	<Script file='Previous\2.31.lua'/>
+	<Script file='Previous\2.32.lua'/>
+	<Script file='Previous\2.33.lua'/>
+	<Script file='2.34.lua'/>
 </Ui>

@@ -1,14 +1,8 @@
 # BigWigs
 
-## [v240](https://github.com/BigWigsMods/BigWigs/tree/v240) (2022-03-30)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v239.4...v240) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v241.2](https://github.com/BigWigsMods/BigWigs/tree/v241.2) (2022-05-02)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v241.1...v241.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- SepulcherOfTheFirstOnes: Update option files  
-- bump version  
-- Update deDE (#1192)  
-- SepulcherOfTheFirstOnes/TheJailer: Add remainder of mythic stage 4 timers  
-- Sepulcher/Skolex: Fix Devouring Blood in normal and re-enable sound  
-    Resolves #1164  
-- Sepulcher/Dausegne: Set stages  
-    Resolves #1191  
-- Sepulcher/TheJailer: Add empty tables for the extra stage to prevent errors  
+- SepulcherOfTheFirstOnes/TheJailer: cleanup rename options table  
+- Update ruRU (#1215)  
+- Core/BossPrototype: Change the :GetGossipOptions return to a table  

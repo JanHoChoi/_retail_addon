@@ -5,8 +5,12 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["杜一航 - 燃烧之刃"] = {
+			["minimap"] = {
+				["hide"] = false,
+			},
+			["version"] = "90200.01",
+			["lastSearchCode"] = "6-0-0-0",
 			["settings"] = {
-				["panel"] = false,
 				["storage"] = {
 					["y"] = -3.1702880859375,
 					["x"] = 432.8998413085938,
@@ -16,8 +20,6 @@ MEETINGSTONE_CHARACTER_DB = {
 			["searchHistoryList"] = {
 				"6-0-0-0", -- [1]
 			},
-			["version"] = "90200.01",
-			["lastSearchCode"] = "6-0-0-0",
 		},
 	},
 }

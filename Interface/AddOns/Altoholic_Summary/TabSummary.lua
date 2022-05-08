@@ -749,6 +749,8 @@ addon:Controller("AltoholicUI.TabSummaryCategoriesList", {
 					{ text = COVENANT_SANCTUM_TAB_UPGRADES, profile = 21 },
 					-- Campain Progress
 					{ text = L["COLUMN_CAMPAIGNPROGRESS_TITLE"], profile = 24 },
+					-- Cypher Research
+					{ text = format("%s9.2|r %s", colors.green, CYPHER_RESEARCH_TOAST), profile = 25 },
 					-- Torghast
 					-- { text = GetCategoryInfo(15440), profile = 23 },
 				}},

@@ -8,6 +8,7 @@ mod.displayName = CL.trash
 mod:RegisterEnableMob(
 	------ Streets of Wonder ------
 	177816, -- Interrogation Specialist
+	179334, -- Portalmancer Zo'honn
 	177808, -- Armored Overseer
 	179837, -- Tracker Zo'korss
 	180091, -- Ancient Core Hound
@@ -17,6 +18,7 @@ mod:RegisterEnableMob(
 	177817, -- Support Officer
 	176396, -- Defective Sorter
 	179840, -- Market Peacekeeper
+	179841, -- Veteran Sparkcaster
 	179842, -- Commerce Enforcer
 	179821, -- Commander Zo'far
 
@@ -38,7 +40,26 @@ mod:RegisterEnableMob(
 local L = mod:GetLocale()
 if L then
 	------ Streets of Wonder ------
+	L.menagerie_warmup_trigger = "Now for the item you have all been awaiting! The allegedly demon-cursed Edge of Oblivion!"
+	L.soazmi_warmup_trigger = "Excuse our intrusion, So'leah. I hope we caught you at an inconvenient time."
+	L.trading_game = "Trading Game"
+	L.trading_game_desc = "Alerts with the right password during the Trading Game."
+	L.custom_on_autotalk = "Autotalk"
+	L.custom_on_autotalk_desc = "Instantly select the right password after the Trading Game has been completed."
+	L.password_triggers = {
+		["Ivory Shell"] = true,
+		["Sapphire Oasis"] = true,
+		["Jade Palm"] = true,
+		["Golden Sands"] = true,
+		["Amber Sunset"] = true,
+		["Emerald Ocean"] = true,
+		["Ruby Gem"] = true,
+		["Pewter Stone"] = true,
+		["Pale Flower"] = true,
+		["Crimson Knife"] = true
+	}
 	L.interrogation_specialist = "Interrogation Specialist"
+	L.portalmancer_zohonn = "Portalmancer Zo'honn"
 	L.armored_overseer_tracker_zokorss = "Armored Overseer / Tracker Zo'korss"
 	L.tracker_zokorss = "Tracker Zo'korss"
 	L.ancient_core_hound = "Ancient Core Hound"
@@ -48,6 +69,7 @@ if L then
 	L.support_officer = "Support Officer"
 	L.defective_sorter = "Defective Sorter"
 	L.market_peacekeeper = "Market Peacekeeper"
+	L.veteran_sparkcaster = "Veteran Sparkcaster"
 	L.commerce_enforcer = "Commerce Enforcer"
 	L.commerce_enforcer_commander_zofar = "Commerce Enforcer / Commander Zo'far"
 	L.commander_zofar = "Commander Zo'far"
@@ -64,14 +86,24 @@ if L then
 end
 
 --------------------------------------------------------------------------------
+-- Locals
+--
+
+local password = nil
+
+--------------------------------------------------------------------------------
 -- Initialization
 --
 
 function mod:GetOptions()
 	return {
 		------ Streets of Wonder ------
+		"trading_game",
+		"custom_on_autotalk",
 		-- Interrogation Specialist
 		356031, -- Stasis Beam
+		-- Portalmancer Zo'honn
+		356324, -- Empowered Glyph of Restraint
 		-- Armored Overseer / Tracker Zo'korss
 		356001, -- Beam Splicer
 		-- Tracker Zo'korss
@@ -81,7 +113,7 @@ function mod:GetOptions()
 		356404, -- Lava Breath
 		356407, -- Ancient Dread
 		-- Enraged Direhorn
-		357512, -- Frenzied Charge
+		{357512, "SAY"}, -- Frenzied Charge
 		-- Cartel Muscle
 		{356967, "TANK_HEALER"}, -- Hyperlight Backhand
 		-- Cartel Smuggler
@@ -93,6 +125,8 @@ function mod:GetOptions()
 		347721, -- Open Cage
 		-- Market Peacekeeper
 		355637, -- Quelling Strike
+		-- Veteran Sparkcaster
+		355642, -- Hyperlight Salvo
 		-- Commerce Enforcer
 		355782, -- Force Multiplier
 		-- Commerce Enforcer / Commander Zo'far
@@ -121,7 +155,9 @@ function mod:GetOptions()
 		357284, -- Reinvigorate
 	}, {
 		------ Streets of Wonder ------
+		["trading_game"] = L.trading_game,
 		[356031] = L.interrogation_specialist,
+		[356324] = L.portalmancer_zohonn,
 		[356001] = L.armored_overseer_tracker_zokorss,
 		[356929] = L.tracker_zokorss,
 		[356404] = L.ancient_core_hound,
@@ -131,6 +167,7 @@ function mod:GetOptions()
 		[355980] = L.support_officer,
 		[347721] = L.defective_sorter,
 		[355637] = L.market_peacekeeper,
+		[355642] = L.veteran_sparkcaster,
 		[355782] = L.commerce_enforcer,
 		[355477] = L.commerce_enforcer_commander_zofar,
 		[355480] = L.commander_zofar,
@@ -148,10 +185,16 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
+	password = nil
+
 	------ Streets of Wonder ------
+	self:RegisterEvent("CHAT_MSG_MONSTER_SAY")
+	self:RegisterEvent("GOSSIP_SHOW")
 	self:Log("SPELL_CAST_START", "StasisBeam", 356031)
+	self:Log("SPELL_CAST_START", "EmpoweredGlyphOfRestraint", 356537)
 	self:Log("SPELL_CAST_SUCCESS", "BeamSplicer", 356001)
-	self:Log("SPELL_PERIODIC_DAMAGE", "BeamSplicerDamage", 356011)
+	self:Log("SPELL_AURA_APPLIED", "BeamSplicerApplied", 356011)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "BeamSplicerApplied", 356011)
 	self:Log("SPELL_CAST_START", "ChainOfCustody", 356929)
 	self:Log("SPELL_CAST_START", "Lockdown", 356942)
 	self:Log("SPELL_CAST_START", "LavaBreath", 356404)
@@ -166,6 +209,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "HardLightBarrierApplied", 355934)
 	self:Log("SPELL_CAST_START", "OpenCage", 347721)
 	self:Log("SPELL_CAST_START", "QuellingStrike", 355637)
+	self:Log("SPELL_CAST_START", "HyperlightSalvo", 355642)
 	self:Log("SPELL_AURA_APPLIED", "ForceMultiplierApplied", 355782)
 	self:Log("SPELL_CAST_START", "PowerKick", 355477)
 	self:Log("SPELL_AURA_APPLIED", "LethalForceApplied", 355480)
@@ -196,10 +240,57 @@ end
 
 ------ Streets of Wonder ------
 
+function mod:CHAT_MSG_MONSTER_SAY(event, msg)
+	if L.password_triggers[msg] then
+		-- Market Trading Game
+		password = msg
+		if self:GetOption("trading_game") then
+			self:Message("trading_game", "green", password, "achievement_dungeon_brokerdungeon")
+			self:PlaySound("trading_game", "info")
+		end
+	elseif msg == L.menagerie_warmup_trigger then
+		-- Menagerie 1st boss Warmup
+		local menagerieModule = BigWigs:GetBossModule("The Grand Menagerie", true)
+		if menagerieModule then
+			menagerieModule:Enable()
+			menagerieModule:Warmup()
+		end
+	elseif msg == L.soazmi_warmup_trigger then
+		-- So'azmi Warmup
+		local soazmiModule = BigWigs:GetBossModule("So'azmi", true)
+		if soazmiModule then
+			soazmiModule:Enable()
+			soazmiModule:Warmup()
+		end
+	end
+end
+
+-- Auto-gossip
+function mod:GOSSIP_SHOW(event)
+	if self:GetOption("custom_on_autotalk") and self:MobId(self:UnitGUID("npc")) == 176564 and password ~= nil then
+		local gossipTbl = self:GetGossipOptions()
+		if gossipTbl then
+			for i = 1, #gossipTbl do
+				if gossipTbl[i] == password then
+					self:UnregisterEvent(event)
+					self:SelectGossipOption(i)
+					break
+				end
+			end
+		end
+	end
+end
+
 -- Interrogation Specialist
 function mod:StasisBeam(args)
 	self:Message(args.spellId, "yellow", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "alert")
+end
+
+-- Portalmancer Zo'honn
+function mod:EmpoweredGlyphOfRestraint(args)
+	self:Message(356324, "red", CL.casting:format(args.spellName))
+	self:PlaySound(356324, "warning")
 end
 
 -- Armored Overseer / Tracker Zo'korss
@@ -213,7 +304,7 @@ function mod:BeamSplicer(args)
 end
 do
 	local prev = 0
-	function mod:BeamSplicerDamage(args)
+	function mod:BeamSplicerApplied(args)
 		if self:Me(args.destGUID) then
 			local t = args.time
 			if t - prev > 1 then
@@ -261,9 +352,18 @@ do
 end
 
 -- Enraged Direhorn
-function mod:FrenziedCharge(args)
-	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
-	self:PlaySound(args.spellId, "alert")
+do
+	local function printTarget(self, name, guid)
+		local onMe = self:Me(guid)
+		self:TargetMessage(357512, "red", name)
+		self:PlaySound(357512, onMe and "warning" or "alert", nil, name)
+		if onMe then
+			self:Say(357512)
+		end
+	end
+	function mod:FrenziedCharge(args)
+		self:GetUnitTarget(printTarget, 0.2, args.sourceGUID)
+	end
 end
 
 -- Cartel Muscle
@@ -291,8 +391,10 @@ end
 
 -- Support Officer
 function mod:RefractionShieldApplied(args)
-	self:Message(args.spellId, "yellow", CL.on:format(args.spellName, args.destName))
-	self:PlaySound(args.spellId, "warning")
+	if not self:Player(args.destFlags) then
+		self:Message(args.spellId, "yellow", CL.on:format(args.spellName, args.destName))
+		self:PlaySound(args.spellId, "warning")
+	end
 end
 function mod:HardLightBarrier(args)
 	self:Message(args.spellId, "orange", CL.casting:format(args.spellName))
@@ -322,6 +424,12 @@ do
 	function mod:QuellingStrike(args)
 		self:GetUnitTarget(printTarget, 0.1, args.sourceGUID)
 	end
+end
+
+-- Veteran Sparkcaster
+function mod:HyperlightSalvo(args)
+	self:Message(args.spellId, "yellow", CL.casting:format(args.spellName))
+	self:PlaySound(args.spellId, "warning")
 end
 
 -- Commerce Enforcer
@@ -367,7 +475,7 @@ do
 		end
 	end
 
-	function mod:LethalForceRemoved(args)
+	function mod:LethalForceRemoved()
 		playerList = {}
 		onMe = false
 	end

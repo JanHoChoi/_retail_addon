@@ -511,7 +511,7 @@ DataStore_StatsDB = {
 					["name"] = "塔扎维什：索·莉亚的宏图",
 					["timeInSeconds"] = 2103,
 				},
-				["lastUpdate"] = 1652013327,
+				["lastUpdate"] = 1652017756,
 				["SeasonBestMapsOvertime"] = {
 					[375] = {
 						["texture"] = 3759929,

@@ -14,6 +14,10 @@ L["Dropdown.RegionPoint.TOPLEFT.Desc"] = "左上 - 矩形的左上角"
 L["Dropdown.RegionPoint.TOPRIGHT.Desc"] = "右上 - 矩形的右上角"
 L["Dropdown.Texture.arrow_tip_green.Desc"] = "绿色3D箭头"
 L["Dropdown.Texture.arrow_tip_red.Desc"] = "红色3D箭头"
+--[[Translation missing --]]
+L["Dropdown.Texture.Arrows_Away.Desc"] = "Arrows Away Nameplate"
+--[[Translation missing --]]
+L["Dropdown.Texture.Arrows_Towards.Desc"] = "Arrows Towards Nameplate"
 L["Dropdown.Texture.BlueArrow.Desc"] = "蓝色向下箭头"
 L["Dropdown.Texture.bluearrow1.Desc"] = "抽象蓝色向下箭头"
 L["Dropdown.Texture.circles_target.Desc"] = "红色同心圆标靶"

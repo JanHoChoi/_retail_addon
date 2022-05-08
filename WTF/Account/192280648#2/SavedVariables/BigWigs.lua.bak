@@ -1,11 +1,25 @@
 
 BigWigs3DB = {
-	["global"] = {
-		["watchedMovies"] = {
-			[-2000] = true,
-			[549] = true,
-			[-367] = true,
-		},
+	["profileKeys"] = {
+		["薇羽 - 影之哀伤"] = "薇羽Anne",
+		["杜一航 - 燃烧之刃"] = "薇羽Anne",
+		["薇羽 - 冰风岗"] = "薇羽Anne",
+		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
+		["李英爱 - 阿比迪斯"] = "薇羽Anne",
+		["薇羽 - 阿比迪斯"] = "薇羽Anne",
+		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
+		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
+		["雪舞薇薇 - 阿比迪斯"] = "薇羽Anne",
+		["柳絮菲菲 - 冰风岗"] = "薇羽Anne",
+		["弄着玩的 - 冰风岗"] = "薇羽Anne",
+		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
+		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
+		["弄着玩玩的 - 冰风岗"] = "薇羽Anne",
+		["郭可盈 - 冰风岗"] = "薇羽Anne",
+		["Weiyuanne - 阿比迪斯"] = "薇羽Anne",
+		["陶小桃 - 影之哀伤"] = "Default",
+		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
+		["试玩下哦 - 冰风岗"] = "薇羽Anne",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -52,16 +66,14 @@ BigWigs3DB = {
 					["BigWigsEmphasizeAnchor_width"] = 320.00006103516,
 				},
 				["薇羽Anne"] = {
-					["BigWigsAnchor_width"] = 220.00085449219,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253418,
-					["BigWigsEmphasizeAnchor_height"] = 21.999931335449,
-					["BigWigsAnchor_height"] = 15.999968528748,
+					["BigWigsAnchor_width"] = 220.0007019042969,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
+					["BigWigsEmphasizeAnchor_height"] = 21.99993133544922,
+					["BigWigsAnchor_height"] = 15.99996376037598,
 				},
 			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 			["profiles"] = {
@@ -71,37 +83,25 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Plugins_Proximity"] = {
-		},
 		["BigWigs_Plugins_Messages"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["profileKeys"] = {
-		["薇羽 - 影之哀伤"] = "薇羽Anne",
-		["杜一航 - 燃烧之刃"] = "薇羽Anne",
-		["薇羽 - 冰风岗"] = "薇羽Anne",
-		["蝶舞菲菲 - 冰风岗"] = "薇羽Anne",
-		["李英爱 - 阿比迪斯"] = "薇羽Anne",
-		["薇羽 - 阿比迪斯"] = "薇羽Anne",
-		["桃小桃同学 - 冰风岗"] = "薇羽Anne",
-		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
-		["雪舞薇薇 - 阿比迪斯"] = "薇羽Anne",
-		["柳絮菲菲 - 冰风岗"] = "薇羽Anne",
-		["弄着玩的 - 冰风岗"] = "薇羽Anne",
-		["安杰利娜朱莉 - 斯克提斯"] = "薇羽Anne",
-		["赵丽颖 - 阿比迪斯"] = "薇羽Anne",
-		["弄着玩玩的 - 冰风岗"] = "薇羽Anne",
-		["郭可盈 - 冰风岗"] = "薇羽Anne",
-		["Weiyuanne - 阿比迪斯"] = "薇羽Anne",
-		["陶小桃 - 影之哀伤"] = "Default",
-		["雪舞霏霏 - 阿比迪斯"] = "薇羽Anne",
-		["试玩下哦 - 冰风岗"] = "薇羽Anne",
+	["global"] = {
+		["watchedMovies"] = {
+			[-2000] = true,
+			[549] = true,
+			[-367] = true,
+		},
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -122,14 +122,6 @@ BigWigsStatsDB = {
 			["normal"] = {
 				["best"] = 103.873,
 				["kills"] = 1,
-			},
-		},
-	},
-	[603] = {
-		[1649] = {
-			["normal"] = {
-				["best"] = 65.55,
-				["kills"] = 12,
 			},
 		},
 	},
@@ -231,6 +223,14 @@ BigWigsStatsDB = {
 			["heroic"] = {
 				["best"] = 16.363,
 				["kills"] = 1,
+			},
+		},
+	},
+	[603] = {
+		[1649] = {
+			["normal"] = {
+				["best"] = 65.55,
+				["kills"] = 12,
 			},
 		},
 	},

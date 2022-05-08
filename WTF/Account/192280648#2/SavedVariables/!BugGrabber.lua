@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 3873,
+	["session"] = 3881,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\AddOnSkins\\Core\\API.lua:385: attempt to index local 'Button' (a nil value)",
@@ -24,5 +24,13 @@ BugGrabberDB = {
 			["session"] = 3873,
 			["counter"] = 2,
 		}, -- [3]
+		{
+			["message"] = "TexCoord out of range",
+			["time"] = "2022/05/08 21:36:17",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = 0.257813\n(*temporary) = 29326.057171\n(*temporary) = 0.367188\n(*temporary) = 29326.057171\n(*temporary) = 0.257813\n(*temporary) = 0.062500\n(*temporary) = 0.367188\n(*temporary) = 0.062500\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetTexCoord'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:200: in function <Interface\\SharedXML\\Backdrop.lua:199>\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:232: in function `SetupTextureCoordinates'\n[string \"@Interface\\SharedXML\\Backdrop.lua\"]:176: in function <Interface\\SharedXML\\Backdrop.lua:174>",
+			["session"] = 3878,
+			["counter"] = 3,
+		}, -- [4]
 	},
 }

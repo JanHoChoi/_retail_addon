@@ -126,6 +126,12 @@ local BlizzardFramesOnDemand = {
         "ChannelFrame",
         "CreateChannelPopup"
     },
+    ["Blizzard_ClickBindingUI"] = {
+        ["ClickBindingFrame"] = {
+            "ClickBindingFrame.ScrollBox"
+        },
+        "ClickBindingFrame.TutorialFrame"
+    },
     ["Blizzard_ChromieTimeUI"] = {
         "ChromieTimeFrame"
     },
@@ -159,7 +165,13 @@ local BlizzardFramesOnDemand = {
         "DeathRecapFrame"
     },
     ["Blizzard_EncounterJournal"] = {
-        "EncounterJournal"
+        ["EncounterJournal"] = {
+            "EncounterJournal.instanceSelect.scroll",
+            "EncounterJournal.encounter.instance.loreScroll",
+            "EncounterJournal.encounter.info.overviewScroll",
+            "EncounterJournal.encounter.info.lootScroll",
+            "EncounterJournal.encounter.info.detailsScroll"
+        }
     },
     ["Blizzard_FlightMap"] = {
         "FlightMapFrame"
@@ -183,16 +195,13 @@ local BlizzardFramesOnDemand = {
             "CovenantMissionFrame.MissionTab.MissionPage",
             "CovenantMissionFrame.MissionTab.MissionPage.CostFrame",
             "CovenantMissionFrame.MissionTab.MissionPage.StartMissionFrame",
-            "CovenantMissionFrameMissions.MaterialFrame",
-            "CovenantMissionFrameFollowersListScrollFrameScrollChild",
-            "CovenantMissionFrameFollowers.MaterialFrame"
+            "CovenantMissionFrame.MissionTab.MissionList.MaterialFrame",
+            "CovenantMissionFrame.FollowerList.listScroll",
+            "CovenantMissionFrame.FollowerList.MaterialFrame"
         }
     },
     ["Blizzard_GMChatUI"] = {
         "GMChatStatusFrame"
-    },
-    ["Blizzard_GMSurveyUI"] = {
-        "GMSurveyFrame"
     },
     ["Blizzard_GuildBankUI"] = {
         "GuildBankFrame"
@@ -263,6 +272,9 @@ local BlizzardFramesOnDemand = {
     ["Blizzard_TimeManager"] = {
         "TimeManagerFrame"
     },
+    ["Blizzard_TorghastLevelPicker"] = {
+        "TorghastLevelPickerFrame"
+    },
     ["Blizzard_TradeSkillUI"] = {
         ["TradeSkillFrame"] = {
             "TradeSkillFrame.RecipeList",
@@ -286,9 +298,7 @@ local BlizzardFramesOnDemand = {
     }
 }
 
-local ignoredList = {
-    ["EncounterJournal"] = true
-}
+local ignoredList = {}
 
 function MF:IsIgnoredFrame(frame)
     local name = frame:GetName()
@@ -451,11 +461,23 @@ function MF:HandleAddon(_, addon)
 
     self:HandleFramesWithTable(frameTable)
 
-    -- 9.1.5 temp fix
+    -- fix from BlizzMove
     if addon == "Blizzard_Collections" then
-        _G.CollectionsJournal:EnableMouse(false)
-        _G.CollectionsJournal:SetMovable(false)
-        self.db.framePositions["CollectionsJournal"] = nil
+        local checkbox = _G.WardrobeTransmogFrame.ToggleSecondaryAppearanceCheckbox
+        checkbox.Label:ClearAllPoints()
+        checkbox.Label:SetPoint("LEFT", checkbox, "RIGHT", 2, 1)
+        checkbox.Label:SetPoint("RIGHT", checkbox, "RIGHT", 160, 1)
+    elseif addon == "Blizzard_EncounterJournal" then
+        local replacement = function(rewardFrame)
+            if rewardFrame.data then
+                _G.EncounterJournalTooltip:ClearAllPoints()
+            end
+            self.hooks.AdventureJournal_Reward_OnEnter(rewardFrame)
+        end
+        self:RawHook("AdventureJournal_Reward_OnEnter", replacement, true)
+        self:RawHookScript(_G.EncounterJournal.suggestFrame.Suggestion1.reward, "OnEnter", replacement)
+        self:RawHookScript(_G.EncounterJournal.suggestFrame.Suggestion2.reward, "OnEnter", replacement)
+        self:RawHookScript(_G.EncounterJournal.suggestFrame.Suggestion3.reward, "OnEnter", replacement)
     end
 end
 
@@ -476,7 +498,7 @@ function MF:HandleElvUIBag()
         return
     end
 
-    if self.db.moveElvUIBags then
+    if self.db.elvUIBags then
         local f = B:GetContainerFrame()
 
         if not f then
@@ -532,11 +554,6 @@ function MF:HandleElvUIBag()
 end
 
 function MF:Initialize()
-    self.db = E.private.WT.misc
-    if not self.db then
-        return
-    end
-
     if IsAddOnLoaded("BlizzMove") then
         MF.StopRunning = "BlizzMove"
         return
@@ -547,18 +564,21 @@ function MF:Initialize()
         return
     end
 
-    if self.db.moveBlizzardFrames then
-        -- 全局变量中已经存在的窗体
-        self:HandleFramesWithTable(BlizzardFrames)
+    self.db = E.private.WT.misc.moveFrames
+    if not self.db or not self.db.enable then
+        return
+    end
 
-        -- 为后续载入插件注册事件
-        self:RegisterEvent("ADDON_LOADED", "HandleAddon")
+    -- 全局变量中已经存在的窗体
+    self:HandleFramesWithTable(BlizzardFrames)
 
-        -- 检查当前已经载入的插件
-        for addon in pairs(BlizzardFramesOnDemand) do
-            if IsAddOnLoaded(addon) then
-                self:HandleAddon(nil, addon)
-            end
+    -- 为后续载入插件注册事件
+    self:RegisterEvent("ADDON_LOADED", "HandleAddon")
+
+    -- 检查当前已经载入的插件
+    for addon in pairs(BlizzardFramesOnDemand) do
+        if IsAddOnLoaded(addon) then
+            self:HandleAddon(nil, addon)
         end
     end
 

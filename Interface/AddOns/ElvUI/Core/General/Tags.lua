@@ -20,6 +20,7 @@ local GetGuildInfo = GetGuildInfo
 local GetInstanceInfo = GetInstanceInfo
 local GetNumGroupMembers = GetNumGroupMembers
 local GetPVPTimer = GetPVPTimer
+local GetRaidRosterInfo = GetRaidRosterInfo
 local GetQuestDifficultyColor = GetQuestDifficultyColor
 local GetCreatureDifficultyColor = GetCreatureDifficultyColor
 local GetRelativeDifficultyColor = GetRelativeDifficultyColor
@@ -72,8 +73,6 @@ local C_QuestLog_GetTitleForQuestID = C_QuestLog.GetTitleForQuestID
 local C_QuestLog_GetQuestDifficultyLevel = C_QuestLog.GetQuestDifficultyLevel
 local C_PetJournal_GetPetTeamAverageLevel = C_PetJournal and C_PetJournal.GetPetTeamAverageLevel
 
-local CHAT_FLAG_AFK = CHAT_FLAG_AFK:gsub('<(.-)>', '|r<|cffFF3333%1|r>')
-local CHAT_FLAG_DND = CHAT_FLAG_DND:gsub('<(.-)>', '|r<|cffFFFF33%1|r>')
 local LEVEL = strlower(LEVEL)
 
 local POWERTYPE_MANA = Enum.PowerType.Mana
@@ -82,7 +81,6 @@ local POWERTYPE_ALTERNATE = Enum.PowerType.Alternate
 
 local SPEC_MONK_BREWMASTER = SPEC_MONK_BREWMASTER
 local UNITNAME_SUMMON_TITLE17 = UNITNAME_SUMMON_TITLE17
-local DEFAULT_AFK_MESSAGE = DEFAULT_AFK_MESSAGE
 local UNKNOWN = UNKNOWN
 local PVP = PVP
 
@@ -721,6 +719,21 @@ E:AddTag('guild', 'UNIT_NAME_UPDATE PLAYER_GUILD_UPDATE', function(unit)
 	end
 end)
 
+E:AddTag('group:raid', 'GROUP_ROSTER_UPDATE', function(unit)
+	if IsInRaid() then
+		local name, realm = UnitName(unit)
+		if name then
+			local nameRealm = (realm and realm ~= '' and format('%s-%s', name, realm)) or name
+			for i = 1, GetNumGroupMembers() do
+				local raidName, _, group = GetRaidRosterInfo(i)
+				if raidName == nameRealm then
+					return group
+				end
+			end
+		end
+	end
+end)
+
 E:AddTag('guild:brackets', 'PLAYER_GUILD_UPDATE', function(unit)
 	local guildName = GetGuildInfo(unit)
 	if guildName then
@@ -811,7 +824,7 @@ end, not E.Retail)
 
 E:AddTag('afk', 'PLAYER_FLAGS_CHANGED', function(unit)
 	if UnitIsAFK(unit) then
-		return format('|cffFFFFFF[|r|cffFF0000%s|r|cFFFFFFFF]|r', DEFAULT_AFK_MESSAGE)
+		return format('|cffFFFFFF[|r|cffFF9900%s|r|cFFFFFFFF]|r', L["AFK"])
 	end
 end)
 
@@ -826,16 +839,15 @@ end)
 
 E:AddTag('status:text', 'PLAYER_FLAGS_CHANGED', function(unit)
 	if UnitIsAFK(unit) then
-		return CHAT_FLAG_AFK
+		return format('|cffFF9900<|r%s|cffFF9900>|r', L["AFK"])
 	elseif UnitIsDND(unit) then
-		return CHAT_FLAG_DND
+		return format('|cffFF3333<|r%s|cffFF3333>|r', L["DND"])
 	end
 end)
 
 do
 	local afk = [[|TInterface\FriendsFrame\StatusIcon-Away:16:16|t]]
 	local dnd = [[|TInterface\FriendsFrame\StatusIcon-DnD:16:16|t]]
-
 	E:AddTag('status:icon', 'PLAYER_FLAGS_CHANGED', function(unit)
 		if UnitIsAFK(unit) then
 			return afk
@@ -1509,7 +1521,8 @@ E.TagInfo = {
 		['npctitle'] = { category = 'Names', description = "Displays the NPC title (e.g. General Goods Vendor)" },
 		['title'] = { category = 'Names', description = "Displays player title" },
 	-- Party and Raid
-		['group'] = { category = 'Party and Raid', description = "Displays the group number the unit is in ('1' - '8')" },
+		['group'] = { category = 'Party and Raid', description = "Displays the group number the unit is in (1-8)" },
+		['group:raid'] = { category = 'Party and Raid', description = "Displays the group number the unit is in (1-8): Only while in a raid." },
 		['leader'] = { category = 'Party and Raid', description = "Displays 'L' if the unit is the group/raid leader" },
 		['leaderlong'] = { category = 'Party and Raid', description = "Displays 'Leader' if the unit is the group/raid leader" },
 	-- Power

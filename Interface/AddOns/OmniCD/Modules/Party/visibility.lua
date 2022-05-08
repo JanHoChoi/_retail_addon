@@ -1,6 +1,7 @@
 local E, L, C = select(2, ...):unpack()
 
 local GetNumGroupMembers = GetNumGroupMembers
+local GetRaidRosterInfo = GetRaidRosterInfo
 local GetUnitName = GetUnitName
 local UnitClass = UnitClass
 local UnitExists = UnitExists
@@ -39,7 +40,7 @@ P.userData = {
 
 if E.isPreBCC then
 	P.zoneEvents = {
-		arena = { "PLAYER_REGEN_DISABLED", "CHAT_MSG_BG_SYSTEM_NEUTRAL", "UPDATE_UI_WIDGET" },
+		arena = { "PLAYER_REGEN_DISABLED", "UPDATE_UI_WIDGET" },
 		pvp   = { "PLAYER_REGEN_DISABLED", "CHAT_MSG_BG_SYSTEM_NEUTRAL", "UPDATE_UI_WIDGET" },
 	}
 else
@@ -81,7 +82,7 @@ do
 		local size = P:GetEffectiveNumGroupMembers()
 		local oldDisabled = P.disabled
 		P.disabled = not P.test and (P.disabledzone or size == 0 or
-			(size == 1 and P.isUserDisabled) or
+			(size == 1 and P.isUserHidden) or
 			(GetNumGroupMembers(LE_PARTY_CATEGORY_HOME) == 0 and not E.profile.Party.visibility.finder) or
 			(size > E.profile.Party.visibility.size))
 		if P.disabled then
@@ -121,6 +122,7 @@ do
 		local isInRaid = IsInRaid()
 
 		for i = 1, size do
+
 			local index = not isInRaid and i == size and 5 or i
 			local unit = isInRaid and E.RAID_UNIT[index] or E.PARTY_UNIT[index]
 			local guid = UnitGUID(unit)
@@ -129,6 +131,11 @@ do
 			local isDead = UnitIsDeadOrGhost(unit)
 			local isDeadOrOffline = isDead or not UnitIsConnected(unit)
 			local isUser = guid == E.userGUID
+			local isObserver;
+			if ( P.isInDungeon ) then
+				local _,_, subgroup = GetRaidRosterInfo(i);
+				isObserver = (subgroup or 1) > 1;
+			end
 
 
 
@@ -166,9 +173,11 @@ do
 						bar:RegisterUnitEvent("UNIT_HEALTH", unit)
 					end
 					bar:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", unit, E.unitToPetId[unit])
+					bar:RegisterUnitEvent("UNIT_CONNECTION", unit)
 				end
 
-				if force or (not info.isDead and info.isDeadOrOffline and not isDeadOrOffline) then
+				if force or (not info.isDead and info.isDeadOrOffline and not isDeadOrOffline) or (not info.isObserver == isObserver) then
+					info.isObserver = isObserver
 					P.pendingQueue[#P.pendingQueue + 1] = guid
 					P:UpdateUnitBar(guid, true)
 				end
@@ -180,6 +189,7 @@ do
 					P.groupInfo[guid].petGUID = pet
 					P.groupInfo[guid].isDead = isDead
 					P.groupInfo[guid].isDeadOrOffline = isDeadOrOffline
+					P.groupInfo[guid].isObserver = isObserver
 					info = P.groupInfo[guid]
 
 					P:UpdateUnitBar(guid, true)
@@ -187,9 +197,8 @@ do
 			elseif class then
 				local _,_, race = UnitRace(unit)
 
-				local name = GetUnitName(unit, true)
-				local level = UnitLevel(unit)
-				level = level > 0 and level or 200
+				local name = GetUnitName(unit, true) or "Unknown"
+				local level = UnitLevel(unit) or 200
 				info = {
 					guid = guid,
 					class = class,
@@ -209,6 +218,7 @@ do
 					shadowlandsData = {},
 					isDead = isDead,
 					isDeadOrOffline = isDeadOrOffline,
+					isObserver = isObserver,
 				}
 				P.groupInfo[guid] = info
 
@@ -262,7 +272,7 @@ do
 			updateRosterInfo(true)
 		elseif ( isPEW ) then
 			 E.TimerAfter(E.customUF.delay or 0.5, updateRosterInfo, true)
-		elseif ( not rosterTimer) then
+		elseif ( not rosterTimer ) then
 			rosterTimer = E.TimerAfter(E.customUF.delay or 0.5, updateRosterInfo)
 		end
 	end
@@ -309,7 +319,8 @@ function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
 	P.profile = E.profile.Party
 	P.db = E.db
 	self.isUserHidden = not self.test and not E.db.general.showPlayer
-	self.isUserDisabled = self.isUserHidden and (not E.db.general.showPlayerEx or (not E.db.extraBars.interruptBar.enabled and not E.db.extraBars.raidCDBar.enabled))
+
+	self.isUserDisabled = self.isUserHidden and (not E.db.extraBars.interruptBar.enabled and not E.db.extraBars.raidCDBar.enabled)
 
 	E.Cooldowns:UpdateCombatLogVar()
 	E:SetActiveUnitFrameData()
@@ -339,15 +350,17 @@ function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
 		self:ResetAllIcons("joinedPvP")
 	end
 
-	if ( not E.isPreBCC ) then
-		if ( self.isInArena ) then
-			if ( not arenaTimer ) then
-				arenaTimer = C_Timer_NewTicker(5, inspectAll, 11);
+	if ( self.isInArena ) then
+		if ( not arenaTimer ) then
+			if ( E.isPreBCC ) then
+				arenaTimer = C_Timer_NewTicker(10, inspectAll, 7);
+			else
+				arenaTimer = C_Timer_NewTicker(5, inspectAll, 14);
 			end
-		elseif ( arenaTimer ) then
-			arenaTimer:Cancel();
-			arenaTimer = nil;
 		end
+	elseif ( arenaTimer ) then
+		arenaTimer:Cancel();
+		arenaTimer = nil;
 	end
 
 	self:GROUP_ROSTER_UPDATE(true, isRefresh)
@@ -379,8 +392,8 @@ function P:PLAYER_REGEN_DISABLED()
 	E.UnregisterEvents(self, self.zoneEvents[self.zone])
 end
 
-function P:PLAYER_FLAGS_CHANGED()
-	if ( InCombatLockdown() ) then return end
+function P:PLAYER_FLAGS_CHANGED(unitTarget)
+	if ( unitTarget ~= "player" or InCombatLockdown() ) then return end
 
 	local oldpvp = self.isPvP
 	self.isPvP = C_PvP_IsWarModeDesired()

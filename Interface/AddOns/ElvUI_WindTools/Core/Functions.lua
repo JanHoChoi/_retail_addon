@@ -1,6 +1,7 @@
 local W, F, E, L, V, P, G = unpack(select(2, ...))
 local LSM = E.Libs.LSM
 
+local _G = _G
 local format = format
 local pairs = pairs
 local pcall = pcall
@@ -8,10 +9,11 @@ local print = print
 local strbyte = strbyte
 local strfind = strfind
 local strlen = strlen
+local strmatch = strmatch
 local strsub = strsub
 local tinsert = tinsert
-local tremove = tremove
 local tonumber = tonumber
+local tremove = tremove
 local type = type
 local unpack = unpack
 
@@ -256,4 +258,24 @@ function F.SetCallback(callback, target, times, ...)
     end
 
     E:Delay(0.1, F.SetCallback, callback, target, times+1, ...)
+end
+
+do
+    local pattern = gsub(ITEM_LEVEL, "%%d", "(%%d+)")
+    function F.GetRealItemLevelByLink(link)
+        E.ScanTooltip:SetOwner(_G.UIParent, "ANCHOR_NONE")
+        E.ScanTooltip:ClearLines()
+        E.ScanTooltip:SetHyperlink(link)
+
+        for i = 2, 5 do
+            local leftText = _G[E.ScanTooltip:GetName() .. "TextLeft" .. i]
+            if leftText then
+                local text = leftText:GetText() or ""
+                local level = strmatch(text, pattern)
+                if level then
+                    return level
+                end
+            end
+        end
+    end
 end

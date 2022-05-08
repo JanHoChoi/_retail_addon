@@ -91,33 +91,33 @@ end
 -- Event Handlers
 --
 
-function mod:BigWigs_OnBossWin(_, mod)
-	if mod.moduleName == "Rage Winterchill" then
+function mod:BigWigs_OnBossWin(_, module)
+	if module.moduleName == "Rage Winterchill" then
 		nextBoss = self:BossName(1578) -- Anetheron
 		self:StopBar(CL.active) -- Boss kill triggers a Trash module reboot
-	elseif mod.moduleName == "Anetheron" then
+	elseif module.moduleName == "Anetheron" then
 		nextBoss = self:BossName(1579) -- Kaz'rogal
 		self:StopBar(CL.active)
-	elseif mod.moduleName == "Kaz'rogal" then
+	elseif module.moduleName == "Kaz'rogal" then
 		nextBoss = self:BossName(1580) -- Azgalor
 		self:StopBar(CL.active)
-	elseif mod.moduleName == "Azgalor" then
+	elseif module.moduleName == "Azgalor" then
 		self:Disable()
 	end
 end
 
 function mod:GOSSIP_SHOW()
 	local mobId = self:MobId(self:UnitGUID("npc"))
-	local gossip = self:GetGossipOptions()
+	local gossipTbl = self:GetGossipOptions()
 
-	if gossip and (mobId == 17852 or mobId == 17772) then -- Thrall, Lady Jaina Proudmoore
-		if gossip == L.winterchillGossip then
+	if gossipTbl and (mobId == 17852 or mobId == 17772) then -- Thrall, Lady Jaina Proudmoore
+		if gossipTbl[1] == L.winterchillGossip then
 			self:Sync("SummitNext", "Rage") -- Rage Winterchill is next
-		elseif gossip == L.anetheronGossip then
+		elseif gossipTbl[1] == L.anetheronGossip then
 			self:Sync("SummitNext", "Anetheron") -- Anetheron is next
-		elseif gossip == L.kazrogalGossip then
+		elseif gossipTbl[1] == L.kazrogalGossip then
 			self:Sync("SummitNext", "Kazrogal") -- Kaz'rogal is next
-		elseif gossip == L.azgalorGossip then
+		elseif gossipTbl[1] == L.azgalorGossip then
 			self:Sync("SummitNext", "Azgalor") -- Azgalor is next
 		end
 	end

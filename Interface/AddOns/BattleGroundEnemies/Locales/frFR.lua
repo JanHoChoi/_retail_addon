@@ -5,7 +5,7 @@ local L = Data.L;
 
 L["Allies"] = "Alliés "
 L["allies"] = "alliés "
-L["ally"] = "allié"
+L["ally"] = "Allié"
 L["Ally"] = "Allié"
 L["AllyIsTargeted"] = "Un allié est ciblé"
 L["AllyJoined"] = "Un allié a rejoint le champ de bataille "

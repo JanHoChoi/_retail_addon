@@ -18,6 +18,7 @@
 	<Script file='Channels.lua'/>
 	<Script file='Character.lua'/>
 	<Script file='ChromieTime.lua'/>
+	<Script file='ClickBinding.lua'/>
 	<Script file='Collections.lua'/>
 	<Script file='Communities.lua'/>
 	<Script file='CovenantRenown.lua'/>
@@ -62,6 +63,7 @@
 	<Script file='Talent.lua'/>
 	<Script file='TalkingHead.lua'/>
 	<Script file='Taxi.lua'/>
+	<Script file='TicketStatus.lua'/>
 	<Script file='TimeManager.lua'/>
 	<Script file='Tooltips.lua'/>
 	<Script file='Trade.lua'/>

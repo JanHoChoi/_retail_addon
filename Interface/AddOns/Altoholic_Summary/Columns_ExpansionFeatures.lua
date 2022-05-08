@@ -328,7 +328,7 @@ Columns.RegisterColumn("Renown", {
 	JustifyH = "CENTER",
 	GetText = function(character) 
 		local level = select(3, DataStore:GetCovenantInfo(character))
-		local color = (level == 40) and colors.gold or colors.white
+		local color = (level == 80) and colors.gold or colors.white
 	
 		return format("%s%s", color, level)
 	end,
@@ -358,11 +358,8 @@ Columns.RegisterColumn("Story90", {
 	GetText = function(character) 
 		local numCompleted = DataStore:GetCovenantCampaignProgress(character)
 		local numQuests = DataStore:GetCovenantCampaignLength(character)
-
-		local colorCompleted = (numCompleted == 0) and colors.grey or colors.white
-		local colorNumQuests = (numQuests == 0) and colors.grey or colors.yellow
 		
-		return format("%s%s%s/%s%s", colorCompleted, numCompleted, colors.white, colorNumQuests, numQuests)
+		return Formatter.Progress(numCompleted, numQuests)
 	end,
 	OnEnter = function(frame)
 			local character = frame:GetParent().character
@@ -412,11 +409,8 @@ Columns.RegisterColumn("Story91", {
 	GetText = function(character) 
 		local numCompleted = DataStore:GetChainsOfDominationStorylineProgress(character)
 		local numQuests = DataStore:GetChainsOfDominationStorylineLength(character)
-
-		local colorCompleted = (numCompleted == 0) and colors.grey or colors.white
-		local colorNumQuests = (numQuests == 0) and colors.grey or colors.yellow
 		
-		return format("%s%s%s/%s%s", colorCompleted, numCompleted, colors.white, colorNumQuests, numQuests)
+		return Formatter.Progress(numCompleted, numQuests)
 	end,
 	OnEnter = function(frame)
 			local character = frame:GetParent().character
@@ -466,11 +460,8 @@ Columns.RegisterColumn("Story92", {
 	GetText = function(character) 
 		local numCompleted = DataStore:GetSecretsOfTheFirstOnesStorylineProgress(character)
 		local numQuests = DataStore:GetSecretsOfTheFirstOnesStorylineLength(character)
-
-		local colorCompleted = (numCompleted == 0) and colors.grey or colors.white
-		local colorNumQuests = (numQuests == 0) and colors.grey or colors.yellow
 		
-		return format("%s%s%s/%s%s", colorCompleted, numCompleted, colors.white, colorNumQuests, numQuests)
+		return Formatter.Progress(numCompleted, numQuests)
 	end,
 	OnEnter = function(frame)
 			local character = frame:GetParent().character
@@ -629,3 +620,89 @@ Columns.RegisterColumn("SanctumUnique", {
 	OnClick = Reservoir_OnClick,
 })
 
+
+-- ** Cypher Research **
+Columns.RegisterColumn("CypherLvl", {
+	-- Header
+	headerWidth = 70,
+	headerLabel = CYPHER,
+	tooltipTitle = CYPHER_EQUIPMENT_LEVEL ,
+	-- tooltipSubTitle = ,
+	headerOnClick = function() AltoholicFrame.TabSummary:SortBy("CypherLvl") end,
+	headerSort = DataStore.GetCypherLevel,
+	
+	-- Content
+	Width = 70,
+	JustifyH = "CENTER",
+	GetText = function(character) 
+		return Formatter.Progress(DataStore:GetCypherLevel(character))
+	end,
+})
+
+Columns.RegisterColumn("Metrial", {
+	-- Header
+	headerWidth = 70,
+	headerLabel = METRIAL,
+	tooltipTitle = METRIAL ,
+	-- tooltipSubTitle = ,
+	headerOnClick = function() AltoholicFrame.TabSummary:SortBy("Metrial") end,
+	headerSort = DataStore.GetCypherMetrialLevel,
+	
+	-- Content
+	Width = 70,
+	JustifyH = "CENTER",
+	GetText = function(character)
+		return Formatter.Progress(DataStore:GetCypherMetrialLevel(character), 8)
+	end,
+})
+
+Columns.RegisterColumn("Aealic", {
+	-- Header
+	headerWidth = 70,
+	headerLabel = AEALIC,
+	tooltipTitle = AEALIC ,
+	-- tooltipSubTitle = ,
+	headerOnClick = function() AltoholicFrame.TabSummary:SortBy("Aealic") end,
+	headerSort = DataStore.GetCypherAealicLevel,
+	
+	-- Content
+	Width = 70,
+	JustifyH = "CENTER",
+	GetText = function(character)
+		return Formatter.Progress(DataStore:GetCypherAealicLevel(character), 12)
+	end,
+})
+
+Columns.RegisterColumn("Dealic", {
+	-- Header
+	headerWidth = 70,
+	headerLabel = DEALIC,
+	tooltipTitle = DEALIC ,
+	-- tooltipSubTitle = ,
+	headerOnClick = function() AltoholicFrame.TabSummary:SortBy("Dealic") end,
+	headerSort = DataStore.GetCypherDealicLevel,
+	
+	-- Content
+	Width = 70,
+	JustifyH = "CENTER",
+	GetText = function(character)
+		return Formatter.Progress(DataStore:GetCypherDealicLevel(character), 12)
+	end,
+})
+
+Columns.RegisterColumn("Trebalim", {
+	-- Header
+	headerWidth = 70,
+	headerLabel = TREBALIM,
+	tooltipTitle = TREBALIM ,
+	-- tooltipSubTitle = ,
+	headerOnClick = function() AltoholicFrame.TabSummary:SortBy("Trebalim") end,
+	headerSort = DataStore.GetCypherTrebalimLevel,
+	
+	-- Content
+	Width = 70,
+	JustifyH = "CENTER",
+	GetText = function(character)
+		return Formatter.Progress(DataStore:GetCypherTrebalimLevel(character), 11)
+	end,
+})

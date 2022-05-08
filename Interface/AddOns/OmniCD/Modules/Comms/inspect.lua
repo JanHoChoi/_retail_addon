@@ -217,7 +217,7 @@ function Comms:RequestInspect()
 		if info and not isSyncedUnit then
 			local unit = info.unit
 			local elapsed = now - added
-			if ( not UnitIsConnected(unit) or elapsed > INS_TIME_LIMIT ) then
+			if ( not UnitIsConnected(unit) or elapsed > INS_TIME_LIMIT or info.isObserver ) then
 
 				self:DequeueInspect(guid)
 			elseif ( (E.isPreBCC and not CheckInteractDistance(unit,1)) or not CanInspect(unit) ) then
@@ -264,6 +264,7 @@ if E.isPreBCC then
 
 		for i = 1, 3 do
 			for j = 1, 25 do
+
 
 				local name, _,_,_, currentRank = GetTalentInfo(i, j, true, unit)
 				if not name then break end
@@ -431,6 +432,8 @@ if E.isPreBCC then
 							end
 						end
 					end
+
+					InspectTooltip:ClearLines()
 				elseif i < 3 then
 					if not isDelimiter then
 						c = c + 1
@@ -443,8 +446,6 @@ if E.isPreBCC then
 					tmp[c] = itemID
 				end
 			end
-
-			InspectTooltip:ClearLines()
 		end
 
 		local talentInvSlots = table.concat(tmp, ",")
@@ -571,7 +572,13 @@ else
 											bonusID = tonumber(bonusID)
 											local runeforgeDescID = E.runeforge_bonusToDescID[bonusID]
 											if runeforgeDescID then
-												info.talentData[runeforgeDescID] = "R"
+												if type(runeforgeDescID) == "table" then
+													for _, v in pairs(runeforgeDescID) do
+														info.talentData[v] = "R"
+													end
+												else
+													info.talentData[runeforgeDescID] = "R"
+												end
 												break
 											end
 										end
@@ -694,6 +701,7 @@ else
 			end
 		end
 
+		local covenantSoulbinds = GetCovenantSoulbindData()
 		local tmpEquipped = { "|E" }
 		local tmpSync = {}
 		local numRuneforge = 0
@@ -729,7 +737,15 @@ else
 												if ( syncList ) then
 													for i = 1, #syncList do
 														local id = syncList[i];
-														if ( not isRaidZone or E.sync_inRaid[id] ) then
+														if type(id) == "table" then
+															local bid, tid = id[1], id[2]
+															if tid and tid < 0 then
+																id = not info.talentData[-tid] and bid or -tid
+															else
+																id = info.talentData[tid or bid] and bid
+															end
+														end
+														if ( id and (not isRaidZone or E.sync_inRaid[id]) ) then
 															tmpSync[id] = { 0, 0 };
 														end
 													end
@@ -773,10 +789,17 @@ else
 										bonusID = tonumber(bonusID)
 										local runeforgeDescID = E.runeforge_bonusToDescID[bonusID]
 										if runeforgeDescID then
-											local spec = E.runeforge_specID[runeforgeDescID]
-											if not spec or spec == specID then
-												info.talentData[runeforgeDescID] = "R"
-												tmp[#tmp + 1] = runeforgeDescID
+											if type(runeforgeDescID) == "table" then
+												for _, v in pairs(runeforgeDescID) do
+													info.talentData[v] = "R"
+													tmp[#tmp + 1] = v
+												end
+											else
+												local spec = E.runeforge_specID[runeforgeDescID]
+												if not spec or spec == specID then
+													info.talentData[runeforgeDescID] = "R"
+													tmp[#tmp + 1] = runeforgeDescID
+												end
 											end
 											break
 										end
@@ -796,7 +819,6 @@ else
 			end
 		end
 
-		local covenantSoulbinds = GetCovenantSoulbindData()
 		E.syncData = E.MergeConcat(tmp, tmpEquipped, covenantSoulbinds)
 
 

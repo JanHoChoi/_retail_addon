@@ -19,4 +19,5 @@
 	<Script file="Database\DungeonLoots.lua"/>
 	<Script file="Database\RaidLoots.lua"/>
 	<Script file="Database\Factions.lua"/>
+	<Script file="Database\Zones.lua"/>
 </Ui>

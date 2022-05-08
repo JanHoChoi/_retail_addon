@@ -26,6 +26,10 @@ L["Dropdown.Texture.arrow_tip_green.Desc"] = "Green 3D arrow"
 --[[Translation missing --]]
 L["Dropdown.Texture.arrow_tip_red.Desc"] = "Red 3D arrow"
 --[[Translation missing --]]
+L["Dropdown.Texture.Arrows_Away.Desc"] = "Arrows Away Nameplate"
+--[[Translation missing --]]
+L["Dropdown.Texture.Arrows_Towards.Desc"] = "Arrows Towards Nameplate"
+--[[Translation missing --]]
 L["Dropdown.Texture.BlueArrow.Desc"] = "Blue arrow pointing downwards"
 --[[Translation missing --]]
 L["Dropdown.Texture.bluearrow1.Desc"] = "Abstract style blue arrow pointing downwards"

@@ -28,3 +28,4 @@ Grid_GarrisonFollowers.lua
 Grid_FollowerAbilities.lua
 Grid_Emissaries.lua
 Grid_Sets.lua
+Grid_Weeklies.lua

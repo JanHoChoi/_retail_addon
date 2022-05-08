@@ -34,7 +34,7 @@ P.announcement = {
             enable = true,
             text = L["I interrupted %target%'s %target_spell%!"],
             channel = {
-                solo = "SELF",
+                solo = "NONE",
                 party = "PARTY",
                 instance = "INSTANCE_CHAT",
                 raid = "RAID"
@@ -542,6 +542,11 @@ P.item = {
         inspect = true,
         stats = true,
         playerOnInspect = true,
+        slotText = {
+            name = E.db.general.font,
+            size = W.CompatibleFont and 12 or 9,
+            style = "OUTLINE"
+        },
         levelText = {
             name = F.GetCompatibleFont("Montserrat"),
             size = 13,
@@ -732,6 +737,7 @@ P.social = {
     },
     chatLink = {
         enable = true,
+        translateItem = true,
         level = true,
         icon = true,
         armorCategory = true,
@@ -759,6 +765,7 @@ P.social = {
         hideMaxLevel = true,
         useGameColor = true,
         useClassColor = true,
+        useNoteAsName = false,
         textures = {
             game = "Modern",
             status = "Square",
@@ -829,11 +836,13 @@ P.quest = {
     },
     turnIn = {
         enable = true,
+        mode = "ALL",
+        smartChat = true,
         selectReward = true,
+        getBestReward = false,
         darkmoon = true,
         followerAssignees = true,
-        rogueClassHallInsignia = true,
-        modifierKeyPause = true,
+        pauseModifier = "SHIFT",
         customIgnoreNPCs = {}
     }
 }
@@ -849,146 +858,15 @@ P.tooltips = {
 }
 
 P.unitFrames = {
-    castBar = {
+    absorb = {
         enable = false,
-        player = {
-            enable = false,
-            text = {
-                anchor = "LEFT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = E.db.general.font,
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            },
-            time = {
-                anchor = "RIGHT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = F.GetCompatibleFont("Montserrat"),
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            }
+        texture = {
+            enable = true,
+            custom = E.db.unitframe.statusbar,
+            blizzardStyle = true,
         },
-        target = {
-            enable = false,
-            text = {
-                anchor = "LEFT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = E.db.general.font,
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            },
-            time = {
-                anchor = "RIGHT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = F.GetCompatibleFont("Montserrat"),
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            }
-        },
-        pet = {
-            enable = false,
-            text = {
-                anchor = "LEFT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = E.db.general.font,
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            },
-            time = {
-                anchor = "RIGHT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = F.GetCompatibleFont("Montserrat"),
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            }
-        },
-        focus = {
-            enable = false,
-            text = {
-                anchor = "LEFT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = E.db.general.font,
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            },
-            time = {
-                anchor = "RIGHT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = F.GetCompatibleFont("Montserrat"),
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            }
-        },
-        boss = {
-            enable = false,
-            text = {
-                anchor = "LEFT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = E.db.general.font,
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            },
-            time = {
-                anchor = "RIGHT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = F.GetCompatibleFont("Montserrat"),
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            }
-        },
-        arena = {
-            enable = false,
-            text = {
-                anchor = "LEFT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = E.db.general.font,
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            },
-            time = {
-                anchor = "RIGHT",
-                offsetX = 0,
-                offsetY = 0,
-                font = {
-                    name = F.GetCompatibleFont("Montserrat"),
-                    size = 12,
-                    style = "OUTLINE"
-                }
-            }
-        }
+        blizzardOverAbsorbGlow = true,
+        blizzardAbsorbOverlay = true,
     }
 }
 

@@ -1,6 +1,6 @@
 local W, F, E, L = unpack(select(2, ...))
-local S = W:GetModule("Skins")
-local ES = E:GetModule("Skins")
+local S = W.Modules.Skins
+local ES = E.Skins
 
 local _G = _G
 local pairs = pairs
@@ -12,7 +12,7 @@ end
 
 function S:SkinSkipButton(frame)
     if frame and frame.CloseDialog then
-        self:CreateBackdropShadow(frame.CloseDialog)
+        self:CreateShadow(frame.CloseDialog)
     end
 end
 
@@ -54,26 +54,23 @@ function S:BlizzardMiscFrames()
     end
 
     -- 灵魂医者传送按钮
-    self:CreateBackdropShadow(_G.GhostFrameContentsFrame)
+    self:CreateShadow(_G.GhostFrameContentsFrame)
 
     -- 跳过剧情
-    self:CreateBackdropShadow(_G.CinematicFrameCloseDialog)
+    self:CreateShadow(_G.CinematicFrameCloseDialog)
 
     -- 举报玩家
-    self:CreateBackdropShadow(_G.PlayerReportFrame)
-    self:CreateBackdropShadow(_G.ReportCheatingDialog)
+    self:CreateShadow(_G.PlayerReportFrame)
+    self:CreateShadow(_G.ReportCheatingDialog)
 
     -- 分离物品
-    self:CreateBackdropShadow(_G.StackSplitFrame)
+    self:CreateShadow(_G.StackSplitFrame)
 
     -- 聊天设定
     self:CreateShadow(_G.ChatConfigFrame)
 
     -- 颜色选择器
     self:CreateShadow(_G.ColorPickerFrame)
-
-    -- What's new
-    -- self:CreateShadow(_G.SplashFrame)
 
     -- UIWidget
     self:SecureHook(

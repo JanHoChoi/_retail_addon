@@ -122,7 +122,7 @@ local function GetOptions()
 						notice1 = {
 							hidden = E.isPreBCC,
 
-							name = "|cffff2020Coodown reduction by Soulbind Conduits, RNG modifiers (% chance to X) require Sync Mode.",
+							name = "|cffff2020 Coodown reduction by Soulbind Conduits and RNG modifiers (% chance to X, etc) require Sync Mode.",
 							order = 16,
 							type = "description",
 						},
@@ -178,7 +178,7 @@ local function GetOptions()
 									order = 1,
 									type = "input",
 									dialogControl = "Link-OmniCD",
-									get = function(info) return "https://www.curseforge.com/wow/addons/omnicd/issues" end,
+									get = function() return "https://www.curseforge.com/wow/addons/omnicd/issues" end,
 								},
 								translate = {
 									name = L["Help Translate"],
@@ -188,6 +188,38 @@ local function GetOptions()
 									dialogControl = "Link-OmniCD",
 									get = function() return "https://www.curseforge.com/wow/addons/omnicd/localization" end,
 								},
+							}
+						},
+						plugins = {
+							hidden = function() return E.isPreBCC end,
+							name = "Plugins",
+							order = 50,
+							type = "group",
+							args = {
+								battleres = {
+									name = L["Battle Res"],
+									desc = COPY_URL,
+									order = 1,
+									type = "input",
+									dialogControl = "Link-OmniCD",
+									get = function() return "https://www.curseforge.com/wow/addons/omnicd-battleres" end,
+								},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 							}
 						},
 					}

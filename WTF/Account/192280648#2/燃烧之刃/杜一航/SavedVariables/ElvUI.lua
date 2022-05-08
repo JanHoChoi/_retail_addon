@@ -2,13 +2,13 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/WA", -- [1]
-		"/wa", -- [2]
-		"/savedinstances", -- [3]
+		"/savedinstances", -- [1]
+		"/break 1", -- [2]
+		"/WA", -- [3]
 		"/break", -- [4]
-		"/break 1", -- [5]
-		"/join 6", -- [6]
-		"/join 大脚世界频道", -- [7]
+		"/join 6", -- [5]
+		"/join 大脚世界频道", -- [6]
+		"/wa", -- [7]
 	},
 	["ChatHistoryLog"] = {
 	},

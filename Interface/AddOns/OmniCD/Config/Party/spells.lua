@@ -325,15 +325,15 @@ function P:AddSpellPickerSpells()
 					arg = spellID,
 				}
 
-				if class == "TRINKET" and v.item then
-					local item = Item:CreateFromItemID(v.item)
-					if item then
-						item:ContinueOnItemLoad(function()
-							local itemName = item:GetItemName()
-							t[vtype].args[sId].name = itemName
-						end)
-					end
-				end
+
+
+
+
+
+
+
+
+
 				if E.isClassic then
 					local spell = Spell:CreateFromSpellID(spellID)
 					spell:ContinueOnSpellLoad(function()

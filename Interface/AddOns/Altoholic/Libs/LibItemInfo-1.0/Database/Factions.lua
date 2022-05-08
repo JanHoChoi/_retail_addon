@@ -6,8 +6,6 @@
 
 local lib = LibStub("LibItemInfo-1.0")
 
-local e = lib.Enum.ReagentTypes
-local bag = lib.Enum.BagTypes
 local SetFactionItem = lib.SetFactionItem
 
 -- Factions

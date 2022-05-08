@@ -1,8 +1,10 @@
 # LittleWigs
 
-## [v9.2.1](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.1) (2022-03-23)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.0...v9.2.1) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.2.3](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.3) (2022-05-05)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.2...v9.2.3) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Tweak  
-- Shadowlands/TazaveshTheVeiledMarket: Add trash module (#628)  
-- Update frFR (#627)  
+- Shadowlands/TazaveshTheVeiledMarket: Trading Game + RP timers (#636)  
+- Update use of :GetGossipOptions  
+- Legion/ArtifactScenarios: Fix unit spell cast event args  
+- Shadowlands/TazaveshTheVeiledMarket: Update option files (#635)  
+- workflow: move to checkout@v2  

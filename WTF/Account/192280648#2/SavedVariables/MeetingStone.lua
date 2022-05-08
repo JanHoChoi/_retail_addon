@@ -116,20 +116,20 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 240,
 				["HonorLevel"] = 0,
 			},
-			["奥迪尔（英雄）"] = {
-				["ItemLevel"] = 330,
+			["通灵战潮（史诗钥石）"] = {
+				["ItemLevel"] = 243,
 				["HonorLevel"] = 0,
 			},
 			["安托鲁斯，燃烧王座（普通）"] = {
 				["ItemLevel"] = 320,
 				["HonorLevel"] = 0,
 			},
-			["通灵战潮（史诗钥石）"] = {
-				["ItemLevel"] = 243,
+			["自由镇（史诗）"] = {
+				["ItemLevel"] = 420,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗）"] = {
-				["ItemLevel"] = 385,
+			["奥迪尔（英雄）"] = {
+				["ItemLevel"] = 330,
 				["HonorLevel"] = 0,
 			},
 			["奥迪尔（普通）"] = {
@@ -148,12 +148,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 410,
 				["HonorLevel"] = 0,
 			},
-			["尼奥罗萨，觉醒之城（英雄）"] = {
-				["ItemLevel"] = 465,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["自由镇（史诗）"] = {
-				["ItemLevel"] = 420,
+			["维克雷斯庄园（史诗）"] = {
+				["ItemLevel"] = 385,
 				["HonorLevel"] = 0,
 			},
 			["塞兹仙林的迷雾（史诗钥石）"] = {
@@ -164,8 +164,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 475,
+			["尼奥罗萨，觉醒之城（英雄）"] = {
+				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
 			["麦卡贡垃圾场（英雄）"] = {
@@ -180,8 +180,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 235,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 0,
+			["阿塔达萨（史诗钥石）"] = {
+				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
 			["莫尔特雷加"] = {
@@ -256,11 +256,6 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["max"] = 0,
 				},
-				["Members"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
 				["ItemLevel"] = {
 					["max"] = 0,
 					["enable"] = false,
@@ -270,6 +265,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["min"] = 0,
 					["max"] = 0,
+				},
+				["Members"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
 				},
 			},
 			[6] = {
@@ -305,11 +305,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["min"] = 0,
 				},
-				["Age"] = {
-					["enable"] = false,
-					["min"] = 0,
-					["max"] = 0,
-				},
 				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
@@ -319,6 +314,11 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 					["min"] = 0,
+				},
+				["Age"] = {
+					["enable"] = false,
+					["min"] = 0,
+					["max"] = 0,
 				},
 			},
 			[2] = {
@@ -327,17 +327,17 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["min"] = 0,
 				},
-				["Age"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
 				["Members"] = {
 					["max"] = 0,
 					["min"] = 0,
 					["enable"] = false,
 				},
 				["ItemLevel"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+				["Age"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
@@ -374,10 +374,10 @@ MEETINGSTONE_UI_DB = {
 	["FILTER_DAMAGE"] = false,
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = -122.27756500244,
-	["x"] = 91.555526733398,
-	["a1"] = "TOP",
-	["a2"] = "TOP",
+	["y"] = 94.51871490478516,
+	["x"] = -75.555419921875,
+	["a1"] = "CENTER",
+	["a2"] = "CENTER",
 }
 MEETINGSTONE_UI_BLACKLISTEDLEADERS = {
 }
