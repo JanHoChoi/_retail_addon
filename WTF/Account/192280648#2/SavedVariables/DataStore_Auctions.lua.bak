@@ -7,13 +7,18 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2021/09/10 13:19",
 				["lastUpdate"] = 1631252021,
 			},
+			["Default.阿比迪斯.李英爱"] = {
+				["lastUpdate"] = 1630642898,
+				["lastVisitDate"] = "2021/09/03 12:21",
+			},
 			["Default.影之哀伤.柳絮菲菲"] = {
 				["lastUpdate"] = 1645022818,
 				["lastVisitDate"] = "2022/02/16 22:46",
 			},
-			["Default.阿比迪斯.李英爱"] = {
-				["lastUpdate"] = 1630642898,
-				["lastVisitDate"] = "2021/09/03 12:21",
+			["Default.燃烧之刃.杜一航"] = {
+				["lastAuctionsScan"] = 1652193650,
+				["lastVisitDate"] = "2022/05/12 08:48",
+				["lastUpdate"] = 1652316526,
 			},
 		},
 	},

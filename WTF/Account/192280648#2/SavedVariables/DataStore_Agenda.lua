@@ -24,26 +24,26 @@ DataStore_AgendaDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.影之哀伤.薇羽"] = {
-				["lastUpdate"] = 1651757798,
+			["Default.阿比迪斯.李英爱"] = {
+				["lastUpdate"] = 1633143254,
 			},
 			["Default.斯克提斯.安杰利娜朱莉"] = {
 				["lastUpdate"] = 1625979819,
 			},
-			["Default.阿比迪斯.李英爱"] = {
-				["lastUpdate"] = 1633143254,
+			["Default.影之哀伤.薇羽"] = {
+				["lastUpdate"] = 1651757798,
 			},
-			["Default.阿比迪斯.雪舞霏霏"] = {
-				["lastUpdate"] = 1633144025,
+			["Default.阿比迪斯.赵丽颖"] = {
+				["lastUpdate"] = 1633144485,
 			},
 			["Default.影之哀伤.陶小桃"] = {
 				["lastUpdate"] = 1651566250,
 			},
-			["Default.影之哀伤.柳絮菲菲"] = {
-				["lastUpdate"] = 1648222799,
+			["Default.阿比迪斯.雪舞薇薇"] = {
+				["lastUpdate"] = 1633144176,
 			},
-			["Default.阿比迪斯.赵丽颖"] = {
-				["lastUpdate"] = 1633144485,
+			["Default.阿比迪斯.雪舞霏霏"] = {
+				["lastUpdate"] = 1633144025,
 			},
 			["Default.冰风岗.薇羽"] = {
 				["lastUpdate"] = 1645023311,
@@ -55,25 +55,28 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1651209368,
 			},
 			["Default.燃烧之刃.杜一航"] = {
-				["lastUpdate"] = 1652017757,
-			},
-			["Default.冰风岗.柳絮菲菲"] = {
-				["lastUpdate"] = 1635353523,
+				["lastUpdate"] = 1652716773,
+				["DungeonIDs"] = {
+					["初诞者圣墓 史诗|351469770"] = "198024|1652716773|0|1",
+				},
 			},
 			["Default.阿比迪斯.李孝利"] = {
 				["lastUpdate"] = 1623650407,
 			},
+			["Default.冰风岗.柳絮菲菲"] = {
+				["lastUpdate"] = 1635353523,
+			},
 			["Default.阿比迪斯.Weiyuanne"] = {
 				["lastUpdate"] = 1633142615,
 			},
-			["Default.阿比迪斯.雪舞薇薇"] = {
-				["lastUpdate"] = 1633144176,
+			["Default.影之哀伤.柳絮菲菲"] = {
+				["lastUpdate"] = 1648222799,
 			},
 		},
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 4,
-			["NextWeeklyReset"] = "2022-05-12",
+			["NextWeeklyReset"] = "2022-05-19",
 		},
 	},
 }

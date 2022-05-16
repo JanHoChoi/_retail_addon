@@ -7,17 +7,10 @@ PawnCommon = {
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = true,
-	["ShownGettingStarted"] = true,
+	["Debug"] = false,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["Digits"] = 1,
-	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0537,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
 			["IconTexturePath"] = 461113,
@@ -106,13 +99,13 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
-				["薇羽-冰风岗"] = {
+				["小猪啾啾-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 				["小猪丽娜-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["小猪啾啾-塞拉赞恩"] = {
+				["薇羽-冰风岗"] = {
 					["Visible"] = true,
 				},
 			},
@@ -148,7 +141,7 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK3"] = {
 			["IconTexturePath"] = 136186,
 			["PerCharacterOptions"] = {
-				["小猪芸茜-塞拉赞恩"] = {
+				["陶小桃-影之哀伤"] = {
 					["Visible"] = true,
 				},
 				["安杰利娜朱莉-斯克提斯"] = {
@@ -157,7 +150,7 @@ PawnCommon = {
 				["智娶童颜-死亡之翼"] = {
 					["Visible"] = true,
 				},
-				["陶小桃-影之哀伤"] = {
+				["小猪芸茜-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -277,10 +270,10 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR3"] = {
 			["IconTexturePath"] = 132341,
 			["PerCharacterOptions"] = {
-				["小猪越越-塞拉赞恩"] = {
+				["智娶老师-死亡之翼"] = {
 					["Visible"] = true,
 				},
-				["智娶老师-死亡之翼"] = {
+				["小猪越越-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -316,28 +309,55 @@ PawnCommon = {
 			["UnenchantedColor"] = "be5c06",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":PALADIN1"] = {
-			["IconTexturePath"] = 135920,
+		["\"MrRobot\":PRIEST2"] = {
+			["IconTexturePath"] = 237542,
 			["PerCharacterOptions"] = {
-				["柳絮菲菲-影之哀伤"] = {
+				["智娶乳娘-死亡之翼"] = {
 					["Visible"] = true,
 				},
-				["柳絮菲菲-冰风岗"] = {
+				["淡淡的茉莉香-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["智娶美妇-死亡之翼"] = {
+				["小猪莹莹-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "f38bb9",
-			["LocalizedName"] = "圣骑士: 神圣",
-			["ClassID"] = 2,
+			["Color"] = "fefefe",
+			["LocalizedName"] = "牧师: 神圣",
+			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = true,
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b6688a",
+			["UnenchantedColor"] = "bebebe",
+			["SpecID"] = 2,
+		},
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = 132355,
+			["PerCharacterOptions"] = {
+				["天猫国际-死亡之翼"] = {
+					["Visible"] = true,
+				},
+				["难忆名-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+				["一号站-死亡之翼"] = {
+					["Visible"] = true,
+				},
+				["你好呀啊-死亡之翼"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "c59a6c",
+			["LocalizedName"] = "战士: 武器",
+			["ClassID"] = 1,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "937351",
 			["SpecID"] = 1,
 		},
 		["\"MrRobot\":PALADIN3"] = {
@@ -355,33 +375,6 @@ PawnCommon = {
 			["UnenchantedColor"] = "b6688a",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = 132355,
-			["PerCharacterOptions"] = {
-				["天猫国际-死亡之翼"] = {
-					["Visible"] = true,
-				},
-				["难忆名-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-				["你好呀啊-死亡之翼"] = {
-					["Visible"] = true,
-				},
-				["一号站-死亡之翼"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "c59a6c",
-			["LocalizedName"] = "战士: 武器",
-			["ClassID"] = 1,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "937351",
-			["SpecID"] = 1,
-		},
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
 			["PerCharacterOptions"] = {
@@ -397,19 +390,28 @@ PawnCommon = {
 			["UnenchantedColor"] = "6464b1",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
+				["小猪逗逗-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+				["全球宝-凤凰之神"] = {
+					["Visible"] = true,
+				},
+				["智娶软妹-死亡之翼"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "fe7b09",
-			["LocalizedName"] = "德鲁伊: 野性",
-			["ClassID"] = 11,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Color"] = "a22fc8",
+			["LocalizedName"] = "恶魔猎手: 复仇",
+			["ClassID"] = 12,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "be5c06",
+			["UnenchantedColor"] = "792396",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":SHAMAN3"] = {
@@ -439,43 +441,49 @@ PawnCommon = {
 			["UnenchantedColor"] = "0053a5",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":PALADIN2"] = {
-			["IconTexturePath"] = 236264,
-			["PerCharacterOptions"] = {
-				["红牛宝-凤凰之神"] = {
-					["Visible"] = true,
-				},
-				["劉備-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-				["小猪雪雯-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "f38bb9",
-			["LocalizedName"] = "圣骑士: 防护",
-			["ClassID"] = 2,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b6688a",
-			["SpecID"] = 2,
-		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "3ec5e9",
-			["LocalizedName"] = "法师: 奥术",
-			["ClassID"] = 8,
-			["DoNotShow1HUpgrades"] = false,
+			["Color"] = "fe7b09",
+			["LocalizedName"] = "德鲁伊: 野性",
+			["ClassID"] = 11,
+			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2e93ae",
+			["UnenchantedColor"] = "be5c06",
+			["SpecID"] = 2,
+		},
+		["\"MrRobot\":DEATHKNIGHT1"] = {
+			["IconTexturePath"] = 135770,
+			["PerCharacterOptions"] = {
+				["丸美-凤凰之神"] = {
+					["Visible"] = true,
+				},
+				["阿树丶死骑-霜之哀伤"] = {
+					["Visible"] = true,
+				},
+				["小猪坦坦-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+				["知妇宝-凤凰之神"] = {
+					["Visible"] = true,
+				},
+				["小猪蕾琦-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "死亡骑士: 鲜血",
+			["ClassID"] = 6,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 1,
 		},
 		["\"MrRobot\":HUNTER1"] = {
@@ -499,23 +507,29 @@ PawnCommon = {
 			["UnenchantedColor"] = "7e9d54",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":ROGUE1"] = {
-			["IconTexturePath"] = 236270,
+		["\"MrRobot\":DEATHKNIGHT3"] = {
+			["IconTexturePath"] = 135775,
 			["PerCharacterOptions"] = {
-				["弄着玩玩的-冰风岗"] = {
+				["劉禪-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+				["小猪蕾琪-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+				["智娶御姐-死亡之翼"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "fef367",
-			["LocalizedName"] = "潜行者: 奇袭",
-			["ClassID"] = 4,
-			["DoNotShow1HUpgrades"] = false,
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "死亡骑士: 邪恶",
+			["ClassID"] = 6,
+			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = true,
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "beb64d",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf3950",
+			["SpecID"] = 3,
 		},
 		["\"MrRobot\":HUNTER2"] = {
 			["IconTexturePath"] = 236179,
@@ -577,10 +591,10 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
-				["杜一航-燃烧之刃"] = {
+				["雪舞薇薇-阿比迪斯"] = {
 					["Visible"] = true,
 				},
-				["雪舞薇薇-阿比迪斯"] = {
+				["杜一航-燃烧之刃"] = {
 					["Visible"] = true,
 				},
 			},
@@ -595,91 +609,70 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":DEATHKNIGHT3"] = {
-			["IconTexturePath"] = 135775,
+		["\"MrRobot\":ROGUE1"] = {
+			["IconTexturePath"] = 236270,
 			["PerCharacterOptions"] = {
-				["劉禪-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-				["小猪蕾琪-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-				["智娶御姐-死亡之翼"] = {
+				["弄着玩玩的-冰风岗"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 邪恶",
-			["ClassID"] = 6,
-			["DoNotShow1HUpgrades"] = true,
+			["Color"] = "fef367",
+			["LocalizedName"] = "潜行者: 奇袭",
+			["ClassID"] = 4,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "beb64d",
+			["SpecID"] = 1,
+		},
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "3ec5e9",
+			["LocalizedName"] = "法师: 奥术",
+			["ClassID"] = 8,
+			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bf3950",
-			["SpecID"] = 3,
-		},
-		["\"MrRobot\":DEATHKNIGHT1"] = {
-			["IconTexturePath"] = 135770,
-			["PerCharacterOptions"] = {
-				["丸美-凤凰之神"] = {
-					["Visible"] = true,
-				},
-				["阿树丶死骑-霜之哀伤"] = {
-					["Visible"] = true,
-				},
-				["小猪坦坦-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-				["知妇宝-凤凰之神"] = {
-					["Visible"] = true,
-				},
-				["小猪蕾琦-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 鲜血",
-			["ClassID"] = 6,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bf3950",
+			["UnenchantedColor"] = "2e93ae",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":PALADIN2"] = {
+			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
-				["小猪逗逗-塞拉赞恩"] = {
+				["红牛宝-凤凰之神"] = {
 					["Visible"] = true,
 				},
-				["全球宝-凤凰之神"] = {
+				["劉備-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["智娶软妹-死亡之翼"] = {
+				["小猪雪雯-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "a22fc8",
-			["LocalizedName"] = "恶魔猎手: 复仇",
-			["ClassID"] = 12,
+			["Color"] = "f38bb9",
+			["LocalizedName"] = "圣骑士: 防护",
+			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "792396",
+			["UnenchantedColor"] = "b6688a",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
 			["PerCharacterOptions"] = {
-				["变形宝-凤凰之神"] = {
+				["小猪露茜-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["小猪露茜-塞拉赞恩"] = {
+				["变形宝-凤凰之神"] = {
 					["Visible"] = true,
 				},
 			},
@@ -694,29 +687,29 @@ PawnCommon = {
 			["UnenchantedColor"] = "be5c06",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":PRIEST2"] = {
-			["IconTexturePath"] = 237542,
+		["\"MrRobot\":PALADIN1"] = {
+			["IconTexturePath"] = 135920,
 			["PerCharacterOptions"] = {
-				["智娶乳娘-死亡之翼"] = {
+				["柳絮菲菲-影之哀伤"] = {
 					["Visible"] = true,
 				},
-				["淡淡的茉莉香-塞拉赞恩"] = {
+				["柳絮菲菲-冰风岗"] = {
 					["Visible"] = true,
 				},
-				["小猪莹莹-塞拉赞恩"] = {
+				["智娶美妇-死亡之翼"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "fefefe",
-			["LocalizedName"] = "牧师: 神圣",
-			["ClassID"] = 5,
+			["Color"] = "f38bb9",
+			["LocalizedName"] = "圣骑士: 神圣",
+			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bebebe",
-			["SpecID"] = 2,
+			["UnenchantedColor"] = "b6688a",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":SHAMAN2"] = {
 			["IconTexturePath"] = 237581,
@@ -761,5 +754,12 @@ PawnCommon = {
 			["SpecID"] = 3,
 		},
 	},
-	["Debug"] = false,
+	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["LastVersion"] = 2.0537,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["Digits"] = 1,
+	["ShownGettingStarted"] = true,
 }

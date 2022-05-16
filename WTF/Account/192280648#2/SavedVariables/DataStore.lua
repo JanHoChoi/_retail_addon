@@ -23,6 +23,11 @@ DataStoreDB = {
 		["桃小桃同学 - 冰风岗"] = "蝶舞菲菲 - 冰风岗",
 	},
 	["global"] = {
+		["Guilds"] = {
+			["Default.燃烧之刃.战魂无双"] = {
+				["faction"] = "Horde",
+			},
+		},
 		["Version"] = 1,
 		["Characters"] = {
 			["Default.燃烧之刃.杜一航"] = {

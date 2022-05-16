@@ -12,32 +12,19 @@ BattleGroundEnemiesDB = {
 		["柳絮菲菲 - 影之哀伤"] = "Default",
 		["雪舞薇薇 - 阿比迪斯"] = "Default",
 		["柳絮菲菲 - 冰风岗"] = "Default",
-		["弄着玩的 - 冰风岗"] = "Default",
-		["安杰利娜朱莉 - 斯克提斯"] = "Default",
+		["郭可盈 - 冰风岗"] = "Default",
+		["雪舞霏霏 - 阿比迪斯"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
-		["薇羽 - 影之哀伤"] = "Default",
 		["薇羽 - 冰风岗"] = "Default",
+		["薇羽 - 影之哀伤"] = "Default",
 		["陶小桃 - 影之哀伤"] = "Default",
-		["雪舞霏霏 - 阿比迪斯"] = "Default",
-		["郭可盈 - 冰风岗"] = "Default",
+		["安杰利娜朱莉 - 斯克提斯"] = "Default",
+		["弄着玩的 - 冰风岗"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["onlyShowWhenNewVersion"] = true,
-			["Allies"] = {
-				["40"] = {
-					["Enabled"] = false,
-				},
-				["Enabled"] = false,
-				["15"] = {
-					["Position_Y"] = 592.35557327305,
-					["Position_X"] = 788.62350858712,
-					["Enabled"] = false,
-				},
-			},
-			["Font"] = "默认",
-			["lastReadVersion"] = "9.2.0.9",
 			["Enemies"] = {
 				["40"] = {
 					["Position_Y"] = 394.66647964482,
@@ -45,9 +32,9 @@ BattleGroundEnemiesDB = {
 					["Enabled"] = false,
 				},
 				["RangeIndicator_Frames"] = {
-					["DRContainer"] = false,
-					["Trinket"] = false,
 					["Racial"] = false,
+					["Trinket"] = false,
+					["DRContainer"] = false,
 					["BuffContainer"] = false,
 				},
 				["ShowRealmnames"] = false,
@@ -57,6 +44,19 @@ BattleGroundEnemiesDB = {
 					["HealthBar_Texture"] = "ElvUI Blank",
 					["Position_X"] = 1113.6003741874,
 					["BarHeight"] = 25,
+				},
+			},
+			["Font"] = "默认",
+			["lastReadVersion"] = "9.2.0.9",
+			["Allies"] = {
+				["40"] = {
+					["Enabled"] = false,
+				},
+				["Enabled"] = false,
+				["15"] = {
+					["Position_Y"] = 592.35557327305,
+					["Position_X"] = 788.62350858712,
+					["Enabled"] = false,
 				},
 			},
 		},

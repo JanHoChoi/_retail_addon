@@ -125,3 +125,9 @@ MeetingStoneEX: enabled
 MeetingStone: enabled
 SharedMedia_Causese: enabled
 HeyboxPlayerInfo: enabled
+AdiBags: enabled
+AdiBags_Hearthstones: enabled
+AdiBags_Config: enabled
+LibGetFrame-1.0: enabled
+MDTGuide: enabled
+TazaveshTool: enabled

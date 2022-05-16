@@ -70,6 +70,10 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1631330957,
 				["lastVisitDate"] = "2021/09/11 11:29",
 			},
+			["Default.燃烧之刃.杜一航"] = {
+				["lastUpdate"] = 1652316555,
+				["lastVisitDate"] = "2022/05/12 08:49",
+			},
 			["Default.影之哀伤.柳絮菲菲"] = {
 				["lastUpdate"] = 1647093911,
 				["Mails"] = {

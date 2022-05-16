@@ -7,6 +7,11 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2021/09/10 13:19",
 				["lastUpdate"] = 1631252021,
 			},
+			["Default.燃烧之刃.杜一航"] = {
+				["lastAuctionsScan"] = 1652193650,
+				["lastVisitDate"] = "2022/05/12 08:48",
+				["lastUpdate"] = 1652316526,
+			},
 			["Default.影之哀伤.柳絮菲菲"] = {
 				["lastUpdate"] = 1645022818,
 				["lastVisitDate"] = "2022/02/16 22:46",
