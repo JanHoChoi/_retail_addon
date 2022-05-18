@@ -13,12 +13,12 @@ OmniCDDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["cooldowns"] = {
-	},
 	["global"] = {
 		["oodVer"] = 2700,
 		["oodChk"] = 220323,
 		["disableElvMsg"] = true,
+	},
+	["cooldowns"] = {
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -31,29 +31,29 @@ OmniCDDB = {
 							["scale"] = 0.71,
 						},
 					},
-					["manualPos"] = {
-						["interruptBar"] = {
-							["y"] = 447.7667536324952,
-							["x"] = 118.0999650200192,
-						},
-						["raidCDBar"] = {
-							["y"] = 591.23329986069,
-							["x"] = 333.03381450311,
-						},
+					["general"] = {
+						["showPlayer"] = true,
 					},
 					["icons"] = {
 						["scale"] = 0.7,
 						["showTooltip"] = true,
 					},
 					["position"] = {
-						["preset"] = "TOPLEFT",
-						["attach"] = "TOPLEFT",
 						["layout"] = "doubleRow",
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
 						["uf"] = "ElvUI",
 						["anchor"] = "TOPRIGHT",
 					},
-					["general"] = {
-						["showPlayer"] = true,
+					["manualPos"] = {
+						["raidCDBar"] = {
+							["y"] = 591.23329986069,
+							["x"] = 333.03381450311,
+						},
+						["interruptBar"] = {
+							["y"] = 447.7667536324952,
+							["x"] = 118.0999650200192,
+						},
 					},
 				},
 				["noneZoneSetting"] = "party",

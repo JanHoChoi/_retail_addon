@@ -20,7 +20,7 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
-		["DataSource"] = {
+		["ItemSets"] = {
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -29,14 +29,14 @@ AdiBagsDB = {
 						["初诞者密文"] = false,
 						["冥殇"] = false,
 						["塔楼学识"] = false,
-						["注能红宝石"] = false,
-						["冥河灰烬"] = false,
 						["贮藏心能"] = false,
+						["冥河灰烬"] = false,
+						["注能红宝石"] = false,
 					},
 				},
 			},
 		},
-		["ItemSets"] = {
+		["DataSource"] = {
 		},
 		["Junk"] = {
 		},

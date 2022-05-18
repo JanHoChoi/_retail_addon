@@ -9,7 +9,6 @@ END
 VER 3 0100000000000001 "龙喷防手滑宏" "1029007"
 #showtooltips 冰龙吐息
 /cast !冰龙吐息
-/cast 亡者复生\
-/use 13
-/use 14
+/cast 冰霜之柱
+/cast 亡者复生
 END

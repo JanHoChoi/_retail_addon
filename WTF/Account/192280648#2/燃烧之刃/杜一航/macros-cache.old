@@ -1,11 +1,13 @@
-VER 3 0100000000000003 "战复" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000005 "心灵冰冻" "INV_MISC_QUESTIONMARK"
 #showtooltips
-/cast [target=mouseover,exists] 复活盟友;复活盟友
+/cast [target=focus,exists] 心灵冰冻;心灵冰冻
+END
+VER 3 0100000000000004 "死亡之握" "237532"
+#showtooltips
+/cast [modifier:shift,target=focus] 死亡之握;死亡之握
 END
 VER 3 0100000000000001 "龙喷防手滑宏" "1029007"
 #showtooltips 冰龙吐息
 /cast !冰龙吐息
-/cast 亡者复生\
-/use 13
-/use 14
+/cast 亡者复生
 END

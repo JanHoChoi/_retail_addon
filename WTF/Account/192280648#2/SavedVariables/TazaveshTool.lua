@@ -1,5 +1,5 @@
 
 TTdb = {
-	["RotateIndex"] = 1,
 	["NotifyAnchor"] = true,
+	["RotateIndex"] = 1,
 }
