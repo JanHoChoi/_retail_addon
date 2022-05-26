@@ -1,20 +1,21 @@
 
 DecursiveDB = {
 	["profileKeys"] = {
-		["弄着玩玩的 - 冰风岗"] = "Default",
-		["雪舞薇薇 - 阿比迪斯"] = "Default",
-		["薇羽 - 冰风岗"] = "Default",
+		["薇羽 - 影之哀伤"] = "Default",
 		["杜一航 - 燃烧之刃"] = "Default",
-		["试玩下哦 - 冰风岗"] = "Default",
-		["柳絮菲菲 - 冰风岗"] = "Default",
-		["陶小桃 - 影之哀伤"] = "Default",
-		["Weiyuanne - 阿比迪斯"] = "Default",
+		["薇羽 - 冰风岗"] = "Default",
 		["弄着玩的 - 冰风岗"] = "Default",
 		["李英爱 - 阿比迪斯"] = "Default",
-		["柳絮菲菲 - 影之哀伤"] = "Default",
-		["赵丽颖 - 阿比迪斯"] = "Default",
-		["薇羽 - 影之哀伤"] = "Default",
 		["郭可盈 - 冰风岗"] = "Default",
+		["柳絮菲菲 - 影之哀伤"] = "Default",
+		["雪舞薇薇 - 阿比迪斯"] = "Default",
+		["柳絮菲菲 - 冰风岗"] = "Default",
+		["林声川 - 燃烧之刃"] = "Default",
+		["赵丽颖 - 阿比迪斯"] = "Default",
+		["弄着玩玩的 - 冰风岗"] = "Default",
+		["Weiyuanne - 阿比迪斯"] = "Default",
+		["试玩下哦 - 冰风岗"] = "Default",
+		["陶小桃 - 影之哀伤"] = "Default",
 		["雪舞霏霏 - 阿比迪斯"] = "Default",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
 	},
@@ -130,9 +131,9 @@ DecursiveDB = {
 		["MAGE"] = {
 			["CureOrder"] = {
 				-14, -- [1]
-				2, -- [2]
+				-13, -- [2]
 				nil, -- [3]
-				1, -- [4]
+				-12, -- [4]
 				nil, -- [5]
 				nil, -- [6]
 				nil, -- [7]
@@ -160,7 +161,7 @@ DecursiveDB = {
 				nil, -- [29]
 				nil, -- [30]
 				nil, -- [31]
-				3, -- [32]
+				-11, -- [32]
 			},
 		},
 		["PRIEST"] = {
@@ -453,7 +454,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1652802562,
+		["LastVersionAnnounce"] = 1653574335,
 	},
 	["profiles"] = {
 		["Default"] = {

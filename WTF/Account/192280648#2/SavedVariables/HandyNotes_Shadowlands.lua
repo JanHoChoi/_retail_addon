@@ -40,6 +40,7 @@ HandyNotes_ShadowlandsDB = {
 		["柳絮菲菲 - 冰风岗"] = "Default",
 		["桃小桃同学 - 冰风岗"] = "Default",
 		["安杰利娜朱莉 - 斯克提斯"] = "Default",
+		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
 		["Weiyuanne - 阿比迪斯"] = "Default",
 		["弄着玩玩的 - 冰风岗"] = "Default",

@@ -2,6 +2,7 @@
 TargetNameplateIndicatorDB = {
 	["profileKeys"] = {
 		["柳絮菲菲 - 影之哀伤"] = "Default",
+		["林声川 - 燃烧之刃"] = "Default",
 		["杜一航 - 燃烧之刃"] = "Default",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
 		["陶小桃 - 影之哀伤"] = "Default",

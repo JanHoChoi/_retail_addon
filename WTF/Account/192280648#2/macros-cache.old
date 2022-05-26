@@ -1,3 +1,7 @@
 VER 3 000000000000000C "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('没有相关技能')
+/stopcasting
+/cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 解除诅咒; [@mouseover,exists,mod:shift] 法术吸取
+END
+VER 3 000000000000000D "WCL" "INV_MISC_QUESTIONMARK"
+/Combatlog
 END

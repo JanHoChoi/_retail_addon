@@ -8,16 +8,11 @@ PawnCommon = {
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = true,
 	["ShownGettingStarted"] = true,
-	["IgnoreGemsWhileLeveling"] = true,
+	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0537,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
 			["IconTexturePath"] = 461113,
@@ -178,10 +173,10 @@ PawnCommon = {
 				["小猪思旖-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["智娶娇妻-死亡之翼"] = {
+				["基德宝-凤凰之神"] = {
 					["Visible"] = true,
 				},
-				["基德宝-凤凰之神"] = {
+				["智娶娇妻-死亡之翼"] = {
 					["Visible"] = true,
 				},
 			},
@@ -397,48 +392,6 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6464b1",
 		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "fe7b09",
-			["ClassID"] = 11,
-			["LocalizedName"] = "德鲁伊: 野性",
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "be5c06",
-		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
-			["PerCharacterOptions"] = {
-				["李孝利-阿比迪斯"] = {
-					["Visible"] = true,
-				},
-				["美肤宝-凤凰之神"] = {
-					["Visible"] = true,
-				},
-				["智娶娇娘-死亡之翼"] = {
-					["Visible"] = true,
-				},
-				["郭可盈-冰风岗"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "006fdc",
-			["ClassID"] = 7,
-			["LocalizedName"] = "萨满祭司: 恢复",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0053a5",
-		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
@@ -462,6 +415,45 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "b6688a",
+		},
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
+			["PerCharacterOptions"] = {
+				["小猪逗逗-塞拉赞恩"] = {
+					["Visible"] = true,
+				},
+				["全球宝-凤凰之神"] = {
+					["Visible"] = true,
+				},
+				["智娶软妹-死亡之翼"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "a22fc8",
+			["ClassID"] = 12,
+			["LocalizedName"] = "恶魔猎手: 复仇",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "792396",
+		},
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "fe7b09",
+			["ClassID"] = 11,
+			["LocalizedName"] = "德鲁伊: 野性",
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "be5c06",
 		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
@@ -601,10 +593,10 @@ PawnCommon = {
 				["劉禪-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["小猪蕾琪-塞拉赞恩"] = {
+				["智娶御姐-死亡之翼"] = {
 					["Visible"] = true,
 				},
-				["智娶御姐-死亡之翼"] = {
+				["小猪蕾琪-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -649,29 +641,32 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "bf3950",
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
-				["小猪逗逗-塞拉赞恩"] = {
+				["李孝利-阿比迪斯"] = {
 					["Visible"] = true,
 				},
-				["全球宝-凤凰之神"] = {
+				["美肤宝-凤凰之神"] = {
 					["Visible"] = true,
 				},
-				["智娶软妹-死亡之翼"] = {
+				["智娶娇娘-死亡之翼"] = {
+					["Visible"] = true,
+				},
+				["郭可盈-冰风岗"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "a22fc8",
-			["ClassID"] = 12,
-			["LocalizedName"] = "恶魔猎手: 复仇",
+			["Color"] = "006fdc",
+			["ClassID"] = 7,
+			["LocalizedName"] = "萨满祭司: 恢复",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "792396",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0053a5",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -761,5 +756,10 @@ PawnCommon = {
 			["UnenchantedColor"] = "00be6f",
 		},
 	},
-	["Debug"] = false,
+	["LastVersion"] = 2.0537,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
 }

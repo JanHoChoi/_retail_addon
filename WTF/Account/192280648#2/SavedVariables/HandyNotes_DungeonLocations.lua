@@ -14,6 +14,7 @@ HandyNotes_DungeonLocationsDB = {
 		["柳絮菲菲 - 冰风岗"] = "Default",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
 		["雪舞霏霏 - 阿比迪斯"] = "Default",
+		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
 		["桃小桃同学 - 冰风岗"] = "Default",
 		["试玩下哦 - 冰风岗"] = "Default",

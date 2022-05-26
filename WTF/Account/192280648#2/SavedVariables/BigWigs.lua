@@ -32,17 +32,11 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["薇羽Anne"] = {
-					["disabled"] = false,
-					["exitCombat"] = 1,
-				},
-			},
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -61,7 +55,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
@@ -81,19 +75,25 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["薇羽Anne"] = {
+					["disabled"] = false,
+					["exitCombat"] = 1,
+				},
+			},
 		},
 		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 	},
 	["global"] = {
@@ -178,6 +178,13 @@ BigWigsStatsDB = {
 		},
 	},
 	[2450] = {
+		[2442] = {
+			["heroic"] = {
+				["kills"] = 1,
+				["best"] = 240.832,
+				["wipes"] = 1,
+			},
+		},
 		[2435] = {
 			["mythic"] = {
 				["kills"] = 2,
@@ -187,13 +194,6 @@ BigWigsStatsDB = {
 			["heroic"] = {
 				["best"] = 225.959,
 				["kills"] = 1,
-			},
-		},
-		[2442] = {
-			["heroic"] = {
-				["kills"] = 1,
-				["best"] = 240.832,
-				["wipes"] = 1,
 			},
 		},
 		[2443] = {
@@ -215,11 +215,10 @@ BigWigsStatsDB = {
 				["kills"] = 1,
 			},
 		},
-		[2446] = {
+		[2439] = {
 			["heroic"] = {
+				["best"] = 267.315,
 				["kills"] = 1,
-				["best"] = 234.909,
-				["wipes"] = 2,
 			},
 		},
 		[2447] = {
@@ -227,10 +226,11 @@ BigWigsStatsDB = {
 				["wipes"] = 1,
 			},
 		},
-		[2439] = {
+		[2446] = {
 			["heroic"] = {
-				["best"] = 267.315,
 				["kills"] = 1,
+				["best"] = 234.909,
+				["wipes"] = 2,
 			},
 		},
 	},

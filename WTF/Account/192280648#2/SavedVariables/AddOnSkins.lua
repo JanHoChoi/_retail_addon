@@ -14,6 +14,7 @@ AddOnSkinsDB = {
 		["柳絮菲菲 - 冰风岗"] = "蝶舞菲菲 - 冰风岗",
 		["弄着玩玩的 - 冰风岗"] = "蝶舞菲菲 - 冰风岗",
 		["安杰利娜朱莉 - 斯克提斯"] = "蝶舞菲菲 - 冰风岗",
+		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "蝶舞菲菲 - 冰风岗",
 		["薇羽 - 冰风岗"] = "蝶舞菲菲 - 冰风岗",
 		["蝶舞菲菲 - 冰风岗"] = "蝶舞菲菲 - 冰风岗",
@@ -24,16 +25,16 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["BugSack"] = false,
 			["TinyInspect"] = false,
 			["Immersion"] = false,
-			["BugSack"] = false,
 		},
 		["蝶舞菲菲 - 冰风岗"] = {
-			["SkinTemplate"] = "ClassColor",
 			["SkinDebug"] = true,
+			["Immersion"] = false,
+			["SkinTemplate"] = "ClassColor",
 			["BugSack"] = false,
 			["TinyInspect"] = false,
-			["Immersion"] = false,
 		},
 	},
 }

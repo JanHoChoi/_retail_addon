@@ -14,6 +14,7 @@ BattleGroundEnemiesDB = {
 		["柳絮菲菲 - 冰风岗"] = "Default",
 		["郭可盈 - 冰风岗"] = "Default",
 		["雪舞霏霏 - 阿比迪斯"] = "Default",
+		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
 		["薇羽 - 冰风岗"] = "Default",

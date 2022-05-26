@@ -2,6 +2,7 @@
 OmniCDDB = {
 	["profileKeys"] = {
 		["柳絮菲菲 - 影之哀伤"] = "薇羽Anne",
+		["林声川 - 燃烧之刃"] = "Default",
 		["杜一航 - 燃烧之刃"] = "薇羽Anne",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
 		["陶小桃 - 影之哀伤"] = "Default",
@@ -14,9 +15,10 @@ OmniCDDB = {
 		},
 	},
 	["global"] = {
-		["oodVer"] = 2700,
-		["oodChk"] = 220323,
 		["disableElvMsg"] = true,
+		["oodChk"] = 220520,
+		["oodVer"] = 2717,
+		["oodMsg"] = "|cfff16436 有新版本可以使用。|cff99cdff(Hotfix)",
 	},
 	["cooldowns"] = {
 	},
@@ -34,16 +36,16 @@ OmniCDDB = {
 					["general"] = {
 						["showPlayer"] = true,
 					},
+					["position"] = {
+						["uf"] = "ElvUI",
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
+						["anchor"] = "TOPRIGHT",
+						["layout"] = "doubleRow",
+					},
 					["icons"] = {
 						["scale"] = 0.7,
 						["showTooltip"] = true,
-					},
-					["position"] = {
-						["layout"] = "doubleRow",
-						["attach"] = "TOPLEFT",
-						["preset"] = "TOPLEFT",
-						["uf"] = "ElvUI",
-						["anchor"] = "TOPRIGHT",
 					},
 					["manualPos"] = {
 						["raidCDBar"] = {
@@ -58,20 +60,20 @@ OmniCDDB = {
 				},
 				["noneZoneSetting"] = "party",
 				["arena"] = {
+					["general"] = {
+						["showPlayer"] = true,
+					},
 					["position"] = {
 						["attach"] = "TOPLEFT",
 						["preset"] = "TOPLEFT",
 						["uf"] = "ElvUI",
 						["anchor"] = "TOPRIGHT",
 					},
-					["general"] = {
-						["showPlayer"] = true,
-					},
 				},
 				["visibility"] = {
+					["none"] = true,
 					["scenario"] = true,
 					["finder"] = true,
-					["none"] = true,
 				},
 				["scenarioZoneSetting"] = "party",
 			},

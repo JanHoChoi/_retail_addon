@@ -96,8 +96,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 335,
 				["HonorLevel"] = 0,
 			},
-			["自定义PvP"] = {
-				["ItemLevel"] = 0,
+			["围攻伯拉勒斯（史诗）"] = {
+				["ItemLevel"] = 420,
 				["HonorLevel"] = 0,
 			},
 			["围攻伯拉勒斯（史诗钥石）"] = {
@@ -108,8 +108,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 50,
 				["HonorLevel"] = 0,
 			},
-			["围攻伯拉勒斯（史诗）"] = {
-				["ItemLevel"] = 420,
+			["自定义PvP"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["伤逝剧场（史诗钥石）"] = {
@@ -128,8 +128,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 420,
 				["HonorLevel"] = 0,
 			},
-			["奥迪尔（英雄）"] = {
-				["ItemLevel"] = 330,
+			["阿塔达萨（史诗）"] = {
+				["ItemLevel"] = 410,
 				["HonorLevel"] = 0,
 			},
 			["奥迪尔（普通）"] = {
@@ -144,16 +144,16 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 225,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗）"] = {
-				["ItemLevel"] = 410,
+			["奥迪尔（英雄）"] = {
+				["ItemLevel"] = 330,
 				["HonorLevel"] = 0,
 			},
 			["阿塔达萨（史诗钥石）"] = {
 				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗）"] = {
-				["ItemLevel"] = 385,
+			["麦卡贡垃圾场（英雄）"] = {
+				["ItemLevel"] = 470,
 				["HonorLevel"] = 0,
 			},
 			["塞兹仙林的迷雾（史诗钥石）"] = {
@@ -168,24 +168,24 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["麦卡贡垃圾场（英雄）"] = {
-				["ItemLevel"] = 470,
+			["维克雷斯庄园（史诗）"] = {
+				["ItemLevel"] = 385,
 				["HonorLevel"] = 0,
 			},
-			["地渊孢林（史诗钥石）"] = {
-				["ItemLevel"] = 469,
+			["维克雷斯庄园（史诗钥石）"] = {
+				["ItemLevel"] = 100,
 				["HonorLevel"] = 0,
 			},
-			["灵魂熔炉"] = {
-				["ItemLevel"] = 235,
+			["勇气试炼（史诗）"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["尼奥罗萨，觉醒之城（英雄）"] = {
 				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
-			["莫尔特雷加"] = {
-				["ItemLevel"] = 220,
+			["地渊孢林（史诗钥石）"] = {
+				["ItemLevel"] = 469,
 				["HonorLevel"] = 0,
 			},
 			["安托鲁斯，燃烧王座（史诗）"] = {
@@ -200,12 +200,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 225,
 				["HonorLevel"] = 0,
 			},
-			["暴富矿区（史诗）"] = {
-				["ItemLevel"] = 380,
-				["HonorLevel"] = 0,
-			},
 			["凇心间隙"] = {
 				["ItemLevel"] = 235,
+				["HonorLevel"] = 0,
+			},
+			["暴富矿区（史诗）"] = {
+				["ItemLevel"] = 380,
 				["HonorLevel"] = 0,
 			},
 			["托尔达戈（史诗钥石）"] = {
@@ -216,8 +216,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 425,
 				["HonorLevel"] = 0,
 			},
-			["勇气试炼（史诗）"] = {
-				["ItemLevel"] = 0,
+			["灵魂熔炉"] = {
+				["ItemLevel"] = 235,
 				["HonorLevel"] = 0,
 			},
 			["自定义PvE"] = {
@@ -232,12 +232,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗钥石）"] = {
-				["ItemLevel"] = 100,
-				["HonorLevel"] = 0,
-			},
 			["随机海岛（史诗）"] = {
 				["ItemLevel"] = 470,
+				["HonorLevel"] = 0,
+			},
+			["莫尔特雷加"] = {
+				["ItemLevel"] = 220,
 				["HonorLevel"] = 0,
 			},
 			["塞塔里斯神庙（史诗钥石）"] = {
@@ -288,15 +288,15 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["min"] = 0,
 				},
-				["Members"] = {
-					["enable"] = false,
-					["max"] = 0,
-					["min"] = 0,
-				},
 				["Age"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
+				},
+				["Members"] = {
+					["enable"] = false,
+					["max"] = 0,
+					["min"] = 0,
 				},
 			},
 			[111] = {
@@ -337,12 +337,12 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
-				["Age"] = {
+				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
 				},
-				["Members"] = {
+				["Age"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -364,6 +364,7 @@ MEETINGSTONE_UI_DB = {
 		["柳絮菲菲 - 冰风岗"] = "Default",
 		["薇羽 - 冰风岗"] = "Default",
 		["安杰利娜朱莉 - 斯克提斯"] = "Default",
+		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
 		["蝶舞菲菲 - 冰风岗"] = "Default",
 		["薇羽 - 影之哀伤"] = "Default",
@@ -379,8 +380,8 @@ MEETINGSTONE_UI_DB = {
 	["FILTER_DAMAGE"] = false,
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = 97.48162078857422,
-	["x"] = 111.1113891601563,
+	["y"] = 22.22234916687012,
+	["x"] = -2.666297435760498,
 	["a2"] = "CENTER",
 	["a1"] = "CENTER",
 	["QuickJoin"] = true,
