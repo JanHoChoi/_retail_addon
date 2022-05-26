@@ -170,13 +170,13 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE2"] = {
 			["IconTexturePath"] = 236286,
 			["PerCharacterOptions"] = {
-				["小猪思旖-塞拉赞恩"] = {
-					["Visible"] = true,
-				},
 				["基德宝-凤凰之神"] = {
 					["Visible"] = true,
 				},
 				["智娶娇妻-死亡之翼"] = {
+					["Visible"] = true,
+				},
+				["小猪思旖-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -473,10 +473,10 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
-				["小猪梦涵-塞拉赞恩"] = {
+				["雪舞霏霏-阿比迪斯"] = {
 					["Visible"] = true,
 				},
-				["雪舞霏霏-阿比迪斯"] = {
+				["小猪梦涵-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -569,10 +569,10 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
-				["杜一航-燃烧之刃"] = {
+				["雪舞薇薇-阿比迪斯"] = {
 					["Visible"] = true,
 				},
-				["雪舞薇薇-阿比迪斯"] = {
+				["杜一航-燃烧之刃"] = {
 					["Visible"] = true,
 				},
 			},
@@ -593,10 +593,10 @@ PawnCommon = {
 				["劉禪-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["智娶御姐-死亡之翼"] = {
+				["小猪蕾琪-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["小猪蕾琪-塞拉赞恩"] = {
+				["智娶御姐-死亡之翼"] = {
 					["Visible"] = true,
 				},
 			},
@@ -695,10 +695,10 @@ PawnCommon = {
 				["智娶乳娘-死亡之翼"] = {
 					["Visible"] = true,
 				},
-				["淡淡的茉莉香-塞拉赞恩"] = {
+				["小猪莹莹-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["小猪莹莹-塞拉赞恩"] = {
+				["淡淡的茉莉香-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -756,7 +756,7 @@ PawnCommon = {
 			["UnenchantedColor"] = "00be6f",
 		},
 	},
-	["LastVersion"] = 2.0537,
+	["LastVersion"] = 2.0538,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,

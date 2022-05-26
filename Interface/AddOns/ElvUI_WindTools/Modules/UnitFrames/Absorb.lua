@@ -1,5 +1,5 @@
 local W, F, E, L = unpack(select(2, ...))
-local A = W:NewModule("Absorb", "AceHook-3.0")
+local A = W:NewModule("Absorb", "AceHook-3.0", "AceEvent-3.0")
 local LSM = E.Libs.LSM
 local UF = E.UnitFrames
 
@@ -8,6 +8,7 @@ local pairs = pairs
 local rad = rad
 
 local CreateFrame = CreateFrame
+local InCombatLockdown = InCombatLockdown
 local UnitIsConnected = UnitIsConnected
 
 local framePool = {}
@@ -42,7 +43,7 @@ function A:ConstructTextures(frame)
 end
 
 function A:ConfigureTextures(_, frame)
-    if not (frame and frame.db and frame.db.healPrediction and frame.db.healPrediction.enable) then
+    if not (frame and frame.db and frame.db.healPrediction and frame.db.healPrediction.enable and frame.windAbsorb) then
         return
     end
 
@@ -115,17 +116,16 @@ function A:HealthPrediction_OnUpdate(object, unit, _, _, absorb, _, hasOverAbsor
 
     local frame = object.frame
     local pred = frame.HealthPrediction
-
+    local overlay = frame.windAbsorb.overlay
+    local glow = frame.windAbsorb.glow
     local frameDB = frame and frame.db and frame.db.healPrediction
-    if not frameDB or not frameDB.enable or not framePool[frame] then
+
+    if not frameDB or not frameDB.enable or not framePool[frame] or not overlay.SetOverlaySize then
         return
     end
 
     frame.windSmooth:DoJob(
         function()
-            local overlay = frame.windAbsorb.overlay
-            local glow = frame.windAbsorb.glow
-
             if not self.db.blizzardAbsorbOverlay or maxHealth == health or absorb == 0 or not UnitIsConnected(unit) then
                 overlay:Hide()
             else
@@ -203,10 +203,19 @@ function A:WaitForUnitframesLoad(triedTimes)
 
         -- Refresh all frames to make sure the replacing of textures
         self:SecureHook(UF, "Configure_HealComm", "ConfigureTextures")
-        UF:Update_AllFrames()
+        if InCombatLockdown() then
+            self:RegisterEvent("PLAYER_REGEN_ENABLED")
+        else
+            UF:Update_AllFrames()
+        end
     else
         E:Delay(0.3, self.WaitForUnitframesLoad, self, triedTimes + 1)
     end
+end
+
+function A:PLAYER_REGEN_ENABLED()
+    self:UnregisterEvent("PLAYER_REGEN_ENABLED")
+    UF:Update_AllFrames()
 end
 
 function A:SmoothTweak(frame)

@@ -8,6 +8,15 @@ MEETINGSTONE_CHARACTER_DB = {
 			["minimap"] = {
 				["hide"] = false,
 			},
+			["lastSearchCode"] = "2-260-695-0",
+			["version"] = "90200.01",
+			["settings"] = {
+				["storage"] = {
+					["y"] = -3.1702880859375,
+					["x"] = 432.8998413085938,
+					["scale"] = 1,
+				},
+			},
 			["recent"] = {
 				["2-260-695-0"] = {
 					{
@@ -890,14 +899,6 @@ MEETINGSTONE_CHARACTER_DB = {
 					}, -- [51]
 				},
 			},
-			["settings"] = {
-				["storage"] = {
-					["y"] = -3.1702880859375,
-					["x"] = 432.8998413085938,
-					["scale"] = 1,
-				},
-			},
-			["version"] = "90200.01",
 			["searchHistoryList"] = {
 				"2-260-695-0", -- [1]
 				"2-280-1016-0", -- [2]
@@ -905,7 +906,6 @@ MEETINGSTONE_CHARACTER_DB = {
 				"6-0-16-0", -- [4]
 				"6-0-0-0", -- [5]
 			},
-			["lastSearchCode"] = "2-260-695-0",
 		},
 	},
 }

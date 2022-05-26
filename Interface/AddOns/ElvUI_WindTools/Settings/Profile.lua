@@ -53,6 +53,7 @@ P.announcement = {
     quest = {
         enable = false,
         paused = true,
+        disableBlizzard = true,
         includeDetails = true,
         channel = {
             party = "PARTY",
@@ -141,10 +142,12 @@ P.announcement = {
             }
         }
     },
-    thanksForResurrection = {
+    thanks = {
         enable = true,
-        normalText = L["%target%, thank you for using %spell% to revive me. :)"],
-        soulstoneText = L["%target%, thank you for soulstone. :)"],
+        resurrection = true,
+        enhancement = true,
+        resurrectionText = L["%target%, thank you for using %spell% to revive me. :)"],
+        enhancementText = L["%target%, thank you for %spell%. :)"],
         delay = 0,
         channel = {
             solo = "WHISPER",
@@ -824,13 +827,14 @@ P.quest = {
     },
     switchButtons = {
         enable = true,
+        tooltip = true,
+        backdrop = false,
         font = {
             name = E.db.general.font,
             size = 12,
             style = "OUTLINE",
             color = {r = 1, g = 0.82, b = 0}
         },
-        backdrop = false,
         announcement = true,
         turnIn = true
     },
@@ -863,16 +867,14 @@ P.unitFrames = {
         texture = {
             enable = true,
             custom = E.db.unitframe.statusbar,
-            blizzardStyle = true,
+            blizzardStyle = true
         },
         blizzardOverAbsorbGlow = true,
-        blizzardAbsorbOverlay = true,
+        blizzardAbsorbOverlay = true
     }
 }
 
 P.misc = {
-    autoHideBag = false,
-    autoHideWorldMap = false,
     disableTalkingHead = false,
     hideCrafter = false,
     noLootPanel = false,
@@ -939,5 +941,13 @@ P.misc = {
             [6] = "PET_JOURNAL",
             [7] = "BAGS"
         }
+    },
+    automation = {
+        enable = false,
+        hideBagAfterEnteringCombat = false,
+        hideWorldMapAfterEnteringCombat = false,
+        acceptResurrect = false,
+        acceptCombatResurrect = false,
+        confirmSummon = false
     }
 }

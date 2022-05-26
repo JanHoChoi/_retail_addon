@@ -104,17 +104,3 @@ X: 0
 Y: -20
 W: 200
 H: 324
-Frame: InterfaceOptionsFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 858
-H: 660
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 100
-Y: 0
-W: 992
-H: 534

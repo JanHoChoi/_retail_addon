@@ -6,6 +6,7 @@ local _G = _G
 local format = format
 local pairs = pairs
 local strsplit = strsplit
+local tremove = tremove
 local type = type
 
 local InCombatLockdown = InCombatLockdown
@@ -298,22 +299,17 @@ local BlizzardFramesOnDemand = {
     }
 }
 
-local ignoredList = {}
-
-function MF:IsIgnoredFrame(frame)
-    local name = frame:GetName()
-    if name and ignoredList[name] then
-        return true
+local function removeBlizzardFrames(name)
+    for i, n in pairs(BlizzardFrames) do
+        if n == name then
+            tremove(BlizzardFrames, i)
+            return
+        end
     end
-    return false
 end
 
 function MF:Remember(frame)
     if not frame.windFrameName or not self.db.rememberPositions then
-        return
-    end
-
-    if self:IsIgnoredFrame(frame) then
         return
     end
 
@@ -335,10 +331,6 @@ end
 
 function MF:Reposition(frame, anchorPoint, relativeFrame, relativePoint, offX, offY)
     if InCombatLockdown() then
-        return
-    end
-
-    if self:IsIgnoredFrame(frame) then
         return
     end
 
@@ -555,18 +547,23 @@ end
 
 function MF:Initialize()
     if IsAddOnLoaded("BlizzMove") then
-        MF.StopRunning = "BlizzMove"
+        self.StopRunning = "BlizzMove"
         return
     end
 
     if IsAddOnLoaded("MoveAnything") then
-        MF.StopRunning = "MoveAnything"
+        self.StopRunning = "MoveAnything"
         return
     end
 
     self.db = E.private.WT.misc.moveFrames
     if not self.db or not self.db.enable then
         return
+    end
+
+    -- Trade Skill Master Speical Handling
+    if IsAddOnLoaded("TradeSkillMaster") and self.db.tradeSkillMasterCompatible then
+        removeBlizzardFrames("MerchantFrame")
     end
 
     -- 全局变量中已经存在的窗体

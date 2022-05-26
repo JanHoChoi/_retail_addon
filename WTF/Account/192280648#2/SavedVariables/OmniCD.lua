@@ -18,7 +18,6 @@ OmniCDDB = {
 		["disableElvMsg"] = true,
 		["oodChk"] = 220520,
 		["oodVer"] = 2717,
-		["oodMsg"] = "|cfff16436 有新版本可以使用。|cff99cdff(Hotfix)",
 	},
 	["cooldowns"] = {
 	},
@@ -33,20 +32,6 @@ OmniCDDB = {
 							["scale"] = 0.71,
 						},
 					},
-					["general"] = {
-						["showPlayer"] = true,
-					},
-					["position"] = {
-						["uf"] = "ElvUI",
-						["attach"] = "TOPLEFT",
-						["preset"] = "TOPLEFT",
-						["anchor"] = "TOPRIGHT",
-						["layout"] = "doubleRow",
-					},
-					["icons"] = {
-						["scale"] = 0.7,
-						["showTooltip"] = true,
-					},
 					["manualPos"] = {
 						["raidCDBar"] = {
 							["y"] = 591.23329986069,
@@ -57,23 +42,37 @@ OmniCDDB = {
 							["x"] = 118.0999650200192,
 						},
 					},
-				},
-				["noneZoneSetting"] = "party",
-				["arena"] = {
+					["icons"] = {
+						["scale"] = 0.7,
+						["showTooltip"] = true,
+					},
+					["position"] = {
+						["layout"] = "doubleRow",
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
+						["uf"] = "ElvUI",
+						["anchor"] = "TOPRIGHT",
+					},
 					["general"] = {
 						["showPlayer"] = true,
 					},
+				},
+				["noneZoneSetting"] = "party",
+				["arena"] = {
 					["position"] = {
 						["attach"] = "TOPLEFT",
 						["preset"] = "TOPLEFT",
 						["uf"] = "ElvUI",
 						["anchor"] = "TOPRIGHT",
 					},
+					["general"] = {
+						["showPlayer"] = true,
+					},
 				},
 				["visibility"] = {
-					["none"] = true,
 					["scenario"] = true,
 					["finder"] = true,
+					["none"] = true,
 				},
 				["scenarioZoneSetting"] = "party",
 			},

@@ -23,18 +23,18 @@ if L then
 	--L.trading_game_desc = "Alerts with the right password during the Trading Game."
 	L.custom_on_autotalk = "Авторазговор"
 	--L.custom_on_autotalk_desc = "Instantly select the right password after the Trading Game has been completed."
-	--[[L.password_triggers = {
-		["Ivory Shell"] = true,
-		["Sapphire Oasis"] = true,
-		["Jade Palm"] = true,
-		["Golden Sands"] = true,
-		["Amber Sunset"] = true,
-		["Emerald Ocean"] = true,
-		["Ruby Gem"] = true,
-		["Pewter Stone"] = true,
-		["Pale Flower"] = true,
-		["Crimson Knife"] = true
-	}]]--
+	L.password_triggers = {
+		["Палевый панцирь"] = true,
+		["Сапфировый оазис"] = true,
+		["Нефритовая пальма"] = true,
+		["Золотые пески"] = true,
+		["Янтарный закат"] = true,
+		["Изумрудный океан"] = true,
+		["Рубиновый самоцвет"] = true,
+		["Оловянный камень"] = true,
+		["Бледный цветок"] = true,
+		["Багровый нож"] = true
+	}
 
 	L.interrogation_specialist = "Специалист по допросу"
 	L.portalmancer_zohonn = "Заклинатель порталов Зо'хонн"
@@ -52,6 +52,7 @@ if L then
 	L.commerce_enforcer_commander_zofar = "Охранитель коммерции / Командир Зо'фар"
 	L.commander_zofar = "Командир Зо'фар"
 
+	L.tazavesh_soleahs_gambit = "Тазавеш: гамбит Со'леи"
 	L.murkbrine_scalebinder = "Лататель чешуи из племени Соленой Хмари"
 	L.murkbrine_shellcrusher = "Крушитель панцирей из племени Соленой Хмари"
 	L.coastwalker_goliath = "Береговой голиаф"

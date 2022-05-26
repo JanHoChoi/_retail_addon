@@ -4,12 +4,8 @@ local S = W.Modules.Skins
 local LSM = E.Libs.LSM
 
 local _G = _G
-local abs = abs
 local format = format
-local floor = floor
-local ipairs = ipairs
 local max = max
-local min = min
 local pairs = pairs
 local strmatch = strmatch
 local tonumber = tonumber
@@ -20,39 +16,36 @@ local ObjectiveTracker_Update = ObjectiveTracker_Update
 
 local C_QuestLog_GetTitleForQuestID = C_QuestLog.GetTitleForQuestID
 
-local replaceRule = {}
-
-local function AddQuestTitleToReplaceRule(questID, text)
-    F.SetCallback(
-        function(title)
-            if title then
-                replaceRule[title] = text
-                ObjectiveTracker_Update()
-                return true
-            end
-            return false
-        end,
-        C_QuestLog_GetTitleForQuestID,
-        nil,
-        questID
-    )
-end
-
-AddQuestTitleToReplaceRule(57693, L["Torghast"])
-
-local classColor = _G.RAID_CLASS_COLORS[E.myclass]
-local color = {
-    start = {
-        r = 1.000,
-        g = 0.647,
-        b = 0.008
-    },
-    complete = {
-        r = 0.180,
-        g = 0.835,
-        b = 0.451
+do
+    local replaceRule = {
+        [L["Tazavesh: Streets of Wonder"]] = L["[ABBR] Tazavesh: Streets of Wonder"],
+        [L["Tazavesh: So'leah's Gambit"]] = L["[ABBR] Tazavesh: So'leah's Gambit"],
+        [L["Tazavesh: Streets of Wonder"]] = L["[ABBR] Tazavesh: Streets of Wonder"],
+        [L["Torghast, Tower of the Damned"]] = L["[ABBR] Torghast, Tower of the Damned"]
     }
-}
+
+    function OT:ShortTitle(title)
+        if not title then
+            return
+        end
+
+        title =
+            F.Strings.Replace(
+            title,
+            {
+                ["，"] = ", ",
+                ["。"] = "."
+            }
+        )
+
+        for longName, shortName in pairs(replaceRule) do
+            if longName == title then
+                return shortName
+            end
+        end
+        return title
+    end
+end
 
 local function SetTextColorHook(text)
     if not text.windHooked then
@@ -63,9 +56,9 @@ local function SetTextColorHook(text)
                     b == _G.OBJECTIVE_TRACKER_COLOR["Header"].b
              then
                 if OT.db and OT.db.enable and OT.db.titleColor and OT.db.titleColor.enable then
-                    r = OT.db.titleColor.classColor and classColor.r or OT.db.titleColor.customColorNormal.r
-                    g = OT.db.titleColor.classColor and classColor.g or OT.db.titleColor.customColorNormal.g
-                    b = OT.db.titleColor.classColor and classColor.b or OT.db.titleColor.customColorNormal.b
+                    r = OT.db.titleColor.classColor and W.ClassColor.r or OT.db.titleColor.customColorNormal.r
+                    g = OT.db.titleColor.classColor and W.ClassColor.g or OT.db.titleColor.customColorNormal.g
+                    b = OT.db.titleColor.classColor and W.ClassColor.b or OT.db.titleColor.customColorNormal.b
                 end
             elseif
                 r == _G.OBJECTIVE_TRACKER_COLOR["HeaderHighlight"].r and
@@ -73,9 +66,9 @@ local function SetTextColorHook(text)
                     b == _G.OBJECTIVE_TRACKER_COLOR["HeaderHighlight"].b
              then
                 if OT.db and OT.db.enable and OT.db.titleColor and OT.db.titleColor.enable then
-                    r = OT.db.titleColor.classColor and classColor.r or OT.db.titleColor.customColorHighlight.r
-                    g = OT.db.titleColor.classColor and classColor.g or OT.db.titleColor.customColorHighlight.g
-                    b = OT.db.titleColor.classColor and classColor.b or OT.db.titleColor.customColorHighlight.b
+                    r = OT.db.titleColor.classColor and W.ClassColor.r or OT.db.titleColor.customColorHighlight.r
+                    g = OT.db.titleColor.classColor and W.ClassColor.g or OT.db.titleColor.customColorHighlight.g
+                    b = OT.db.titleColor.classColor and W.ClassColor.b or OT.db.titleColor.customColorHighlight.b
                 end
             end
             SetTextColorOld(self, r, g, b, a)
@@ -88,20 +81,6 @@ local function SetTextColorHook(text)
         )
         text.windHooked = true
     end
-end
-
-local function GetProgressColor(progress)
-    local r = (color.complete.r - color.start.r) * progress + color.start.r
-    local g = (color.complete.g - color.start.g) * progress + color.start.g
-    local b = (color.complete.r - color.start.b) * progress + color.start.b
-
-    -- 色彩亮度补偿
-    local addition = 0.35
-    r = min(r + abs(0.5 - progress) * addition, r)
-    g = min(g + abs(0.5 - progress) * addition, g)
-    b = min(b + abs(0.5 - progress) * addition, b)
-
-    return {r = r, g = g, b = b}
 end
 
 function OT:CosmeticBar(header)
@@ -144,7 +123,7 @@ function OT:CosmeticBar(header)
 
     -- Color
     if self.db.cosmeticBar.color.mode == "CLASS" then
-        bar:SetVertexColor(classColor.r, classColor.g, classColor.b)
+        bar:SetVertexColor(W.ClassColor.r, W.ClassColor.g, W.ClassColor.b)
     elseif self.db.cosmeticBar.color.mode == "NORMAL" then
         bar:SetVertexColor(
             self.db.cosmeticBar.color.normalColor.r,
@@ -297,14 +276,14 @@ function OT:ColorfulProgression(text)
     local progress = tonumber(current) / tonumber(required)
 
     if self.db.colorfulProgress then
-        info = F.CreateColorString(current .. "/" .. required, GetProgressColor(progress))
+        info = F.CreateColorString(current .. "/" .. required, F.GetProgressColor(progress))
         info = info .. " " .. details
     end
 
     if self.db.percentage then
         local percentage = format("[%.f%%]", progress * 100)
         if self.db.colorfulPercentage then
-            percentage = F.CreateColorString(percentage, GetProgressColor(progress))
+            percentage = F.CreateColorString(percentage, F.GetProgressColor(progress))
         end
         info = info .. " " .. percentage
     end
@@ -318,15 +297,6 @@ function OT:UpdateTextWidth()
     else
         _G.OBJECTIVE_DASH_STYLE_SHOW = 1
     end
-end
-
-function OT:ShortTitle(str)
-    for longName, shortName in pairs(replaceRule) do
-        if longName == str then
-            return shortName
-        end
-    end
-    return str
 end
 
 function OT:Initialize()

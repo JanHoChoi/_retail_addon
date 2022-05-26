@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 3942,
+	["session"] = 3946,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -135,5 +135,19 @@ BugGrabberDB = {
 			["session"] = 3935,
 			["counter"] = 32,
 		}, -- [17]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_GMChatUI\\Localization.lua:3: attempt to index global 'GMChatStatusFrameDescription' (a nil value)",
+			["time"] = "2022/05/27 03:45:18",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'GMChatStatusFrameDescription' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_GMChatUI\\Localization.lua\"]:3: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:544: in function `UIParentLoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:690: in function `GMChatFrame_LoadUI'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2103: in function <Interface\\FrameXML\\UIParent.lua:1337>",
+			["session"] = 3945,
+			["counter"] = 1,
+		}, -- [18]
+		{
+			["message"] = "(null)",
+			["session"] = 3945,
+			["time"] = "2022/05/27 03:45:18",
+			["counter"] = 3,
+		}, -- [19]
 	},
 }

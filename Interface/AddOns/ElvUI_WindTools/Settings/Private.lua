@@ -38,8 +38,7 @@ V.maps = {
 			name = E.db.general.font,
 			size = E.db.general.fontSize + 2,
 			style = "OUTLINE",
-			color = {r = 1, g = 1, b = 1},
-			onlyNumber = false
+			color = {r = 1, g = 1, b = 1}
 		}
 	},
 	worldMap = {
@@ -81,6 +80,7 @@ V.misc = {
 	moveFrames = {
 		enable = true,
 		elvUIBags = true,
+		tradeSkillMasterCompatible = true,
 		rememberPositions = false,
 		framePositions = {}
 	},
@@ -200,6 +200,107 @@ V.skins = {
 		size = 15,
 		style = "OUTLINE"
 	},
+	widgets = {
+		button = {
+			enable = true,
+			backdrop = {
+				enable = true,
+				texture = "WindTools Glow",
+				classColor = false,
+				color = {r = 0.145, g = 0.353, b = 0.698},
+				alpha = 1,
+				animationType = "FADE",
+				animationDuration = 0.2,
+				removeBorderEffect = true
+			},
+			text = {
+				enable = true,
+				font = {
+					name = E.db.general.font,
+					style = "OUTLINE"
+				}
+			}
+		},
+		tab = {
+			enable = true,
+			backdrop = {
+				enable = true,
+				texture = "WindTools Glow",
+				classColor = false,
+				color = {r = 0.145, g = 0.353, b = 0.698},
+				alpha = 1,
+				animationType = "FADE",
+				animationDuration = 0.2
+			},
+			selected = {
+				enable = true,
+				texture = "WindTools Glow",
+				backdropClassColor = false,
+				backdropColor = {r = 0.322, g = 0.608, b = 0.961},
+				backdropAlpha = 0.4,
+				borderClassColor = false,
+				borderColor = {r = 0.145, g = 0.353, b = 0.698},
+				borderAlpha = 1
+			},
+			text = {
+				enable = true,
+				normalClassColor = false,
+				normalColor = {r = 1, g = 0.82, b = 0},
+				selectedClassColor = false,
+				selectedColor = {r = 1, g = 1, b = 1},
+				font = {
+					name = E.db.general.font,
+					style = "OUTLINE"
+				}
+			}
+		},
+		checkBox = {
+			enable = true,
+			texture = "WindTools Glow",
+			classColor = false,
+			color = {r = 0.322, g = 0.608, b = 0.961, a = 0.8}
+		},
+		slider = {
+			enable = true,
+			texture = "WindTools Glow",
+			classColor = false,
+			color = {r = 0.322, g = 0.608, b = 0.961, a = 0.8}
+		},
+		treeGroupButton = {
+			enable = true,
+			backdrop = {
+				enable = true,
+				texture = "WindTools Glow",
+				classColor = false,
+				color = {r = 0.145, g = 0.353, b = 0.698},
+				alpha = 1,
+				animationType = "FADE",
+				animationDuration = 0.2,
+				removeBorderEffect = true
+			},
+			selected = {
+				enable = true,
+				texture = "WindTools Glow",
+				backdropClassColor = false,
+				backdropColor = {r = 0.322, g = 0.608, b = 0.961},
+				backdropAlpha = 0.4,
+				borderClassColor = false,
+				borderColor = {r = 0.145, g = 0.353, b = 0.698},
+				borderAlpha = 0
+			},
+			text = {
+				enable = true,
+				normalClassColor = false,
+				normalColor = {r = 1, g = 0.82, b = 0},
+				selectedClassColor = false,
+				selectedColor = {r = 1, g = 1, b = 1},
+				font = {
+					name = E.db.general.font,
+					style = "OUTLINE"
+				}
+			}
+		}
+	},
 	addons = {
 		ace3 = true,
 		ace3DropdownBackdrop = true,
@@ -218,6 +319,7 @@ V.skins = {
 		rematch = true,
 		tinyInspect = true,
 		tomCats = true,
+		warpDeplete = true,
 		weakAuras = true,
 		weakAurasOptions = true
 	},
@@ -261,6 +363,7 @@ V.skins = {
 		help = true,
 		inputMethodEditor = true,
 		inspect = true,
+		itemUpgrade = true,
 		lookingForGroup = true,
 		loot = true,
 		lossOfControl = true,

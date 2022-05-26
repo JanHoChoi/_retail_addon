@@ -148,6 +148,9 @@ AddMedia("shield", "Shield.tga", "Textures")
 AddMedia("smallLogo", "WindToolsSmall.tga", "Textures")
 AddMedia("arrowDown", "ArrowDown.tga", "Textures")
 
+AddMedia("complete", "Complete.tga", "Icons")
+AddMedia("accept", "Accept.tga", "Icons")
+
 AddMedia("donateKofi", "Ko-fi.tga", "Icons")
 AddMedia("donateAiFaDian", "AiFaDian.tga", "Icons")
 

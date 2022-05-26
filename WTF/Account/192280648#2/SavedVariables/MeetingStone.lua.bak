@@ -124,12 +124,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 320,
 				["HonorLevel"] = 0,
 			},
-			["地渊孢林（史诗钥石）"] = {
-				["ItemLevel"] = 469,
+			["随机海岛（史诗）"] = {
+				["ItemLevel"] = 470,
 				["HonorLevel"] = 0,
 			},
-			["莫尔特雷加"] = {
-				["ItemLevel"] = 220,
+			["维克雷斯庄园（史诗钥石）"] = {
+				["ItemLevel"] = 100,
 				["HonorLevel"] = 0,
 			},
 			["奥迪尔（普通）"] = {
@@ -148,8 +148,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 477,
 				["HonorLevel"] = 0,
 			},
-			["尼奥罗萨，觉醒之城（英雄）"] = {
-				["ItemLevel"] = 465,
+			["阿塔达萨（史诗钥石）"] = {
+				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
 			["勇气试炼（史诗）"] = {
@@ -164,12 +164,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
-			["随机海岛（史诗）"] = {
-				["ItemLevel"] = 470,
+			["地渊孢林（史诗钥石）"] = {
+				["ItemLevel"] = 469,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 475,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["凇心间隙"] = {
@@ -180,8 +180,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 235,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 0,
+			["尼奥罗萨，觉醒之城（英雄）"] = {
+				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
 			["维克雷斯庄园（史诗）"] = {
@@ -204,8 +204,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 237,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗钥石）"] = {
-				["ItemLevel"] = 100,
+			["莫尔特雷加"] = {
+				["ItemLevel"] = 220,
 				["HonorLevel"] = 0,
 			},
 			["托尔达戈（史诗钥石）"] = {
@@ -256,6 +256,11 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["min"] = 0,
 				},
+				["Age"] = {
+					["enable"] = false,
+					["max"] = 0,
+					["min"] = 0,
+				},
 				["Members"] = {
 					["min"] = 0,
 					["enable"] = false,
@@ -265,11 +270,6 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["min"] = 0,
 					["enable"] = false,
-				},
-				["Age"] = {
-					["enable"] = false,
-					["max"] = 0,
-					["min"] = 0,
 				},
 			},
 			[6] = {
@@ -305,6 +305,11 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["enable"] = false,
 				},
+				["ItemLevel"] = {
+					["max"] = 0,
+					["min"] = 0,
+					["enable"] = false,
+				},
 				["Age"] = {
 					["enable"] = false,
 					["max"] = 0,
@@ -314,11 +319,6 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
-				},
-				["ItemLevel"] = {
-					["max"] = 0,
-					["min"] = 0,
-					["enable"] = false,
 				},
 			},
 			[2] = {

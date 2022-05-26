@@ -40,7 +40,8 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
-	wipe(playerList)
+	table.wipe(playerList)
+	self:CDBar(41001, 25) -- Fatal Attraction
 	self:Berserk(600)
 end
 
@@ -57,6 +58,7 @@ function mod:FatalAttraction(args)
 	end
 
 	if #playerList == 1 then
+		self:CDBar(args.spellId, 24) -- Extreme variance 24-40+
 		self:ScheduleTimer("TargetMessageOld", 0.3, args.spellId, playerList, "orange", "alert")
 	end
 end

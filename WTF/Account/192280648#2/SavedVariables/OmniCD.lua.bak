@@ -36,16 +36,16 @@ OmniCDDB = {
 					["general"] = {
 						["showPlayer"] = true,
 					},
+					["position"] = {
+						["uf"] = "ElvUI",
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
+						["layout"] = "doubleRow",
+						["anchor"] = "TOPRIGHT",
+					},
 					["icons"] = {
 						["scale"] = 0.7,
 						["showTooltip"] = true,
-					},
-					["position"] = {
-						["preset"] = "TOPLEFT",
-						["attach"] = "TOPLEFT",
-						["layout"] = "doubleRow",
-						["uf"] = "ElvUI",
-						["anchor"] = "TOPRIGHT",
 					},
 					["manualPos"] = {
 						["interruptBar"] = {
@@ -60,19 +60,19 @@ OmniCDDB = {
 				},
 				["noneZoneSetting"] = "party",
 				["arena"] = {
+					["general"] = {
+						["showPlayer"] = true,
+					},
 					["position"] = {
 						["attach"] = "TOPLEFT",
 						["preset"] = "TOPLEFT",
 						["uf"] = "ElvUI",
 						["anchor"] = "TOPRIGHT",
 					},
-					["general"] = {
-						["showPlayer"] = true,
-					},
 				},
 				["visibility"] = {
-					["scenario"] = true,
 					["finder"] = true,
+					["scenario"] = true,
 					["none"] = true,
 				},
 				["scenarioZoneSetting"] = "party",

@@ -23,18 +23,18 @@ if L then
 	--L.trading_game_desc = "Alerts with the right password during the Trading Game."
 	L.custom_on_autotalk = "Parler automatiquement"
 	--L.custom_on_autotalk_desc = "Instantly select the right password after the Trading Game has been completed."
-	--[[L.password_triggers = {
-		["Ivory Shell"] = true,
-		["Sapphire Oasis"] = true,
-		["Jade Palm"] = true,
-		["Golden Sands"] = true,
-		["Amber Sunset"] = true,
-		["Emerald Ocean"] = true,
-		["Ruby Gem"] = true,
-		["Pewter Stone"] = true,
-		["Pale Flower"] = true,
-		["Crimson Knife"] = true
-	}]]--
+	L.password_triggers = {
+		["Coquillage d’ivoire"] = true,
+		["Oasis de saphir"] = true,
+		["Palmier de jade"] = true,
+		["Sables d’or"] = true,
+		["Crépuscule d’ambre"] = true,
+		["Océan d’émeraude"] = true,
+		["Gemme de rubis"] = true,
+		["Pépite d’étain"] = true,
+		["Fleur pâle"] = true,
+		["Couteau carmin"] = true
+	}
 
 	L.interrogation_specialist = "Spécialiste en interrogatoire"
 	L.portalmancer_zohonn = "Portomancien Zo'honn"
@@ -52,6 +52,7 @@ if L then
 	L.commerce_enforcer_commander_zofar = "Massacreur du marché / Commandant Zo'far"
 	L.commander_zofar = "Commandant Zo'far"
 
+	L.tazavesh_soleahs_gambit = "Tazavesh : le stratagème de So’leah"
 	L.murkbrine_scalebinder = "Lieur d'écailles bourbe-sel"
 	L.murkbrine_shellcrusher = "Brise-conque bourbe-sel"
 	L.coastwalker_goliath = "Goliath marche-côte"

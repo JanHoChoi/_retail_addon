@@ -1,3 +1,11 @@
+v3.9.3
+- Added Efficiency Score to pull tooltips
+- Tazavesh Streets: Added missing encrypted relics to Frenzied Nightclaw Pack
+- affix update
+v3.9.2.2
+- Theater of Pain: Health update for Minibosses
+v3.9.2.1
+- De Other Side: Fixed npcid and count for Atal'ai Devoted
 v3.9.2
 - New Feature: Efficiency Score! This is a new value on NPC tooltips that indicates how valuable an NPCs dungeon count is compared to their health. If this feature proves valuable it can be extended to pulls and even full routes.
 - Cleaned up Spell Data for enemies and added interruptible flag to appropriate spells.

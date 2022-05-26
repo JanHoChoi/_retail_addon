@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 3943,
+	["session"] = 3947,
 	["errors"] = {
 		{
 			["message"] = "TexCoord out of range",
@@ -135,5 +135,34 @@ BugGrabberDB = {
 			["session"] = 3935,
 			["counter"] = 32,
 		}, -- [17]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_GMChatUI\\Localization.lua:3: attempt to index global 'GMChatStatusFrameDescription' (a nil value)",
+			["time"] = "2022/05/27 03:45:18",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'GMChatStatusFrameDescription' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_GMChatUI\\Localization.lua\"]:3: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:544: in function `UIParentLoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:690: in function `GMChatFrame_LoadUI'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2103: in function <Interface\\FrameXML\\UIParent.lua:1337>",
+			["session"] = 3945,
+			["counter"] = 1,
+		}, -- [18]
+		{
+			["message"] = "(null)",
+			["time"] = "2022/05/27 03:45:18",
+			["session"] = 3945,
+			["counter"] = 3,
+		}, -- [19]
+		{
+			["message"] = "<unnamed>:SetPoint(): Wrong object type for function",
+			["time"] = "2022/05/27 03:58:41",
+			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:297: in function <...ace\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua:288>\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:315: in function `SetAnchor'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:5062: in function `AnchorFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:581: in function `modify'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:792: in function `modify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2878: in function `SetRegion'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2694: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:2654>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2800: in function `Add'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2290: in function `load'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2297: in function `AddMany'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:1067: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1039>",
+			["session"] = 3947,
+			["counter"] = 2,
+		}, -- [20]
+		{
+			["message"] = "...erface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:50: <unnamed>:SetPoint(): Wrong object type for function",
+			["time"] = "2022/05/27 03:58:44",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n point = \"CENTER\"\n totalOffsetY = 14.137295\n SetAnchorPoint = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:44\n regionData = <table> {\n }\n relativeFrame = <table> {\n }\n totalOffsetX = 226.632329\n offsetX = 226.632329\n relativePoint = \"TOP\"\n ClearAnchorPoint = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:55\n offsetY = 14.137295\n ReAnchor = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:58\n SetOffsetAnim = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:67\n}\n(*temporary) = \"CENTER\"\n(*temporary) = <table> {\n}\n(*temporary) = \"TOP\"\n(*temporary) = 226.632329\n(*temporary) = 14.137295\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:50: in function `SetAnchorPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1078: in function `DoPositionChildrenPerFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1194: in function `DoPositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\Animations.lua\"]:20: in function <Interface\\AddOns\\WeakAuras\\Animations.lua:15>",
+			["session"] = 3947,
+			["counter"] = 1,
+		}, -- [21]
 	},
 }

@@ -6,8 +6,8 @@ end
 
 L = BigWigs:NewBossLocale("Skolex, the Insatiable Ravener", "zhCN")
 if L then
-	--L.custom_on_stop_timers = "Always show ability bars"
-	--L.custom_on_stop_timers_desc = "Skolex can delay its abilities. When this option is enabled, the bars for those abilities will stay on your screen."
+	L.custom_on_stop_timers = "总是显示计时条"
+	L.custom_on_stop_timers_desc = "司垢莱克斯可能延迟施放。启用此选项后，这些技能的计时条会保持显示。"
 
 	L.tank_combo_desc = "为满100能量释放的裂隙之吼与撕裂显示计时器"
 end
@@ -44,7 +44,7 @@ if L then
 	L.wild_stampede = "兽群"
 	L.withering_seeds = "种子"
 	L.hand_of_destruction = "群拉"
-	--L.nighthunter_marks_additional_desc = "|cFFFF0000Marking with a priority for melee on the first markers.|r"
+	--L.nighthunter_marks_additional_desc = "|cFFFF0000Marking with a priority for melee on the first markers and using their raid group position as secondary priority.|r"
 end
 
 L = BigWigs:NewBossLocale("Lihuvim, Principal Architect", "zhCN")
@@ -72,8 +72,8 @@ if L then
 
 	L.bomb_dropped = "炸弹掉落"
 
-	L.custom_on_stop_timers = "总是显示技能条"
-	L.custom_on_stop_timers_desc = "黑伦度斯可能延迟它的技能。启用此选项后，这些技能将保留在您的屏幕上。"
+	L.custom_on_stop_timers = "总是显示计时条"
+	L.custom_on_stop_timers_desc = "黑伦度斯可能延迟施放。启用此选项后，这些技能的计时条会保持显示。"
 end
 
 L = BigWigs:NewBossLocale("Anduin Wrynn", "zhCN")

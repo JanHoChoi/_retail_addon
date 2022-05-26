@@ -37,20 +37,17 @@ ExplosiveOrbsLog = {
 			["hit"] = 4,
 		},
 		["runID"] = 23,
-		["Player-829-058FF3B7"] = {
-			["target"] = 5,
-			["hit"] = 4,
-		},
 		["Player-741-062C56D6"] = {
 			["target"] = 1,
 			["hit"] = 2,
 		},
+		["Player-829-058FF3B7"] = {
+			["target"] = 5,
+			["hit"] = 4,
+		},
 	},
 	[835] = {
-		["Player-829-058FF3B7"] = {
-			["target"] = 1,
-			["hit"] = 1,
-		},
+		["runID"] = 24,
 		["Player-1933-077C6532"] = {
 			["target"] = 1,
 		},
@@ -58,7 +55,10 @@ ExplosiveOrbsLog = {
 			["target"] = 2,
 			["hit"] = 1,
 		},
-		["runID"] = 24,
+		["Player-829-058FF3B7"] = {
+			["target"] = 1,
+			["hit"] = 1,
+		},
 	},
 	[820] = {
 		["Player-1515-052316E9"] = {
@@ -72,13 +72,13 @@ ExplosiveOrbsLog = {
 			["hit"] = 3,
 		},
 		["runID"] = 23,
-		["Player-741-062C56D6"] = {
-			["target"] = 1,
-			["hit"] = 6,
-		},
 		["Player-829-058FF3B7"] = {
 			["target"] = 3,
 			["hit"] = 2,
+		},
+		["Player-741-062C56D6"] = {
+			["target"] = 1,
+			["hit"] = 6,
 		},
 	},
 	[821] = {
@@ -92,20 +92,17 @@ ExplosiveOrbsLog = {
 			["hit"] = 4,
 		},
 		["runID"] = 23,
+		["Player-829-058FF3B7"] = {
+			["target"] = 2,
+		},
 		["Player-741-062C56D6"] = {
 			["target"] = 2,
 			["Creature-0-3045-2441-12754-120651-00000F80BC"] = 1,
 			["hit"] = 3,
 		},
-		["Player-829-058FF3B7"] = {
-			["target"] = 2,
-		},
 	},
 	[839] = {
-		["Player-829-058FF3B7"] = {
-			["target"] = 4,
-			["hit"] = 3,
-		},
+		["runID"] = 24,
 		["Player-1933-077C6532"] = {
 			["target"] = 2,
 		},
@@ -113,7 +110,10 @@ ExplosiveOrbsLog = {
 			["target"] = 6,
 			["hit"] = 4,
 		},
-		["runID"] = 24,
+		["Player-829-058FF3B7"] = {
+			["target"] = 4,
+			["hit"] = 3,
+		},
 	},
 	[824] = {
 		["Player-1515-052316E9"] = {
@@ -128,13 +128,13 @@ ExplosiveOrbsLog = {
 			["target"] = 36,
 			["hit"] = 21,
 		},
-		["Player-829-058FF3B7"] = {
-			["target"] = 21,
-			["hit"] = 11,
-		},
 		["Player-741-062C56D6"] = {
 			["target"] = 15,
 			["hit"] = 32,
+		},
+		["Player-829-058FF3B7"] = {
+			["target"] = 21,
+			["hit"] = 11,
 		},
 	},
 	[810] = {
@@ -147,13 +147,13 @@ ExplosiveOrbsLog = {
 			["hit"] = 2,
 		},
 		["runID"] = 23,
-		["Player-741-062C56D6"] = {
-			["target"] = 5,
-			["hit"] = 9,
-		},
 		["Player-829-058FF3B7"] = {
 			["target"] = 6,
 			["hit"] = 3,
+		},
+		["Player-741-062C56D6"] = {
+			["target"] = 5,
+			["hit"] = 9,
 		},
 	},
 	[826] = {
@@ -186,12 +186,12 @@ ExplosiveOrbsLog = {
 			["hit"] = 3,
 		},
 		["runID"] = 23,
+		["Player-829-058FF3B7"] = {
+			["target"] = 1,
+		},
 		["Player-741-062C56D6"] = {
 			["target"] = 1,
 			["hit"] = 1,
-		},
-		["Player-829-058FF3B7"] = {
-			["target"] = 1,
 		},
 	},
 	[843] = {
@@ -265,12 +265,46 @@ ExplosiveOrbsLog = {
 			["hit"] = 2,
 		},
 		["runID"] = 23,
+		["Player-741-062C56D6"] = {
+			["target"] = 1,
+			["hit"] = 2,
+		},
 		["Player-829-058FF3B7"] = {
 			["target"] = 1,
 			["hit"] = 1,
 		},
+	},
+	[815] = {
+		["Player-1515-052316E9"] = {
+			["target"] = 3,
+			["hit"] = 0,
+		},
+		["Player-1933-077C6532"] = {
+			["target"] = 5,
+			["hit"] = 3,
+		},
+		["Player-1933-076B46B6"] = {
+			["target"] = 4,
+			["hit"] = 3,
+		},
+		["runID"] = 23,
 		["Player-741-062C56D6"] = {
-			["target"] = 1,
+			["target"] = 4,
+			["hit"] = 9,
+		},
+		["Player-829-058FF3B7"] = {
+			["target"] = 3,
+			["hit"] = 1,
+		},
+	},
+	[842] = {
+		["runID"] = 24,
+		["Player-1933-079BDE56"] = {
+			["target"] = 2,
+			["hit"] = 2,
+		},
+		["Player-829-058FF3B7"] = {
+			["target"] = 3,
 			["hit"] = 2,
 		},
 	},
@@ -291,40 +325,6 @@ ExplosiveOrbsLog = {
 		["Player-829-058FF3B7"] = {
 			["target"] = 2,
 			["hit"] = 2,
-		},
-	},
-	[842] = {
-		["Player-829-058FF3B7"] = {
-			["target"] = 3,
-			["hit"] = 2,
-		},
-		["Player-1933-079BDE56"] = {
-			["target"] = 2,
-			["hit"] = 2,
-		},
-		["runID"] = 24,
-	},
-	[815] = {
-		["Player-1515-052316E9"] = {
-			["target"] = 3,
-			["hit"] = 0,
-		},
-		["Player-1933-077C6532"] = {
-			["target"] = 5,
-			["hit"] = 3,
-		},
-		["Player-1933-076B46B6"] = {
-			["target"] = 4,
-			["hit"] = 3,
-		},
-		["runID"] = 23,
-		["Player-829-058FF3B7"] = {
-			["target"] = 3,
-			["hit"] = 1,
-		},
-		["Player-741-062C56D6"] = {
-			["target"] = 4,
-			["hit"] = 9,
 		},
 	},
 }

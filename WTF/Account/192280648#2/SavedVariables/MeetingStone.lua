@@ -148,8 +148,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 330,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 475,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["麦卡贡垃圾场（英雄）"] = {
@@ -164,28 +164,28 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 0,
+			["尼奥罗萨，觉醒之城（英雄）"] = {
+				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
 			["维克雷斯庄园（史诗）"] = {
 				["ItemLevel"] = 385,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗钥石）"] = {
-				["ItemLevel"] = 100,
+			["莫尔特雷加"] = {
+				["ItemLevel"] = 220,
 				["HonorLevel"] = 0,
 			},
 			["勇气试炼（史诗）"] = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["尼奥罗萨，觉醒之城（英雄）"] = {
-				["ItemLevel"] = 465,
+			["阿塔达萨（史诗钥石）"] = {
+				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
-			["地渊孢林（史诗钥石）"] = {
-				["ItemLevel"] = 469,
+			["随机海岛（史诗）"] = {
+				["ItemLevel"] = 470,
 				["HonorLevel"] = 0,
 			},
 			["安托鲁斯，燃烧王座（史诗）"] = {
@@ -232,12 +232,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
-			["随机海岛（史诗）"] = {
-				["ItemLevel"] = 470,
+			["地渊孢林（史诗钥石）"] = {
+				["ItemLevel"] = 469,
 				["HonorLevel"] = 0,
 			},
-			["莫尔特雷加"] = {
-				["ItemLevel"] = 220,
+			["维克雷斯庄园（史诗钥石）"] = {
+				["ItemLevel"] = 100,
 				["HonorLevel"] = 0,
 			},
 			["塞塔里斯神庙（史诗钥石）"] = {
@@ -256,6 +256,11 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["max"] = 0,
 				},
+				["ItemLevel"] = {
+					["max"] = 0,
+					["enable"] = false,
+					["min"] = 0,
+				},
 				["Age"] = {
 					["enable"] = false,
 					["min"] = 0,
@@ -265,11 +270,6 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
-				},
-				["ItemLevel"] = {
-					["max"] = 0,
-					["enable"] = false,
-					["min"] = 0,
 				},
 			},
 			[6] = {
@@ -305,6 +305,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["min"] = 0,
 				},
+				["Members"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
 				["ItemLevel"] = {
 					["max"] = 0,
 					["enable"] = false,
@@ -314,11 +319,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["min"] = 0,
 					["max"] = 0,
-				},
-				["Members"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
 				},
 			},
 			[2] = {
