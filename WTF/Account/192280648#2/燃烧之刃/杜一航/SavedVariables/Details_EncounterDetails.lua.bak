@@ -1,15 +1,6 @@
 
 EncounterDetailsDB = {
 	["emotes"] = {
-		{
-			["boss"] = "宫务大臣",
-		}, -- [1]
-		{
-			["boss"] = "高阶裁决官阿丽兹",
-		}, -- [2]
-		{
-			["boss"] = "艾谢朗",
-		}, -- [3]
 	},
 	["encounter_spells"] = {
 		[355638] = {
@@ -370,6 +361,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "破碎残影",
 		},
+		[20153] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "地狱火爪牙",
+		},
 		[320145] = {
 			["school"] = 1,
 			["token"] = {
@@ -590,8 +588,9 @@ EncounterDetailsDB = {
 		[348008] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "P.O.S.T.工人",
 		},
@@ -1293,6 +1292,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "德沃丝",
 		},
+		[209859] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "损坏的分拣机",
+		},
 		[339235] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1645,6 +1652,32 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "哈卡之子",
+		},
+		[347481] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "索·阿兹密",
+		},
+		[347775] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "过载的邮件元素",
+		},
+		[347721] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "损坏的分拣机",
 		},
 		[322232] = {
 			["school"] = 8,
@@ -2112,15 +2145,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "米尔菲丝·法力风暴",
 		},
-		[322410] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[323943] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "凝结软泥",
+			["source"] = "德沃丝",
 		},
 		[323687] = {
 			["school"] = 64,
@@ -2139,14 +2171,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "酤团",
 		},
-		[323943] = {
-			["school"] = 1,
+		[322410] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "德沃丝",
+			["source"] = "凝结软泥",
 		},
 		[323992] = {
 			["school"] = 4,
@@ -2322,14 +2355,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "弃誓小队长",
 		},
-		[347481] = {
-			["school"] = 64,
+		[340045] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "索·阿兹密",
+			["source"] = "地狱火爪牙",
 		},
 		[319733] = {
 			["school"] = 1,
@@ -2520,8 +2552,12 @@ EncounterDetailsDB = {
 		},
 		[347716] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "P.O.S.T.工人",
 		},

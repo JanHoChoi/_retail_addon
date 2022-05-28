@@ -99,6 +99,9 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
+				["林声川-燃烧之刃"] = {
+					["Visible"] = true,
+				},
 				["小猪啾啾-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
@@ -171,10 +174,10 @@ PawnCommon = {
 				["基德宝-凤凰之神"] = {
 					["Visible"] = true,
 				},
-				["小猪思旖-塞拉赞恩"] = {
+				["智娶娇妻-死亡之翼"] = {
 					["Visible"] = true,
 				},
-				["智娶娇妻-死亡之翼"] = {
+				["小猪思旖-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},
@@ -513,10 +516,10 @@ PawnCommon = {
 				["劉禪-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["智娶御姐-死亡之翼"] = {
+				["小猪蕾琪-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["小猪蕾琪-塞拉赞恩"] = {
+				["智娶御姐-死亡之翼"] = {
 					["Visible"] = true,
 				},
 			},
@@ -756,7 +759,7 @@ PawnCommon = {
 	},
 	["ShowSocketingAdvisor"] = true,
 	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0537,
+	["LastVersion"] = 2.0538,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,

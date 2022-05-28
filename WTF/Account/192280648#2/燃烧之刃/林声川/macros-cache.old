@@ -1,3 +1,42 @@
+VER 3 0100000000000006 "1" "INV_Misc_QuestionMark"
+#showtooltips
+/cast [@player] 暴风雪
+END
+VER 3 0100000000000007 "1" "135838"
+/施放 冰冷血脉
+/施放 镜像
+END
+VER 3 0100000000000008 "1" "134400"
+/use 碎裂的统御头盔
+/use 凿刻的云羽鸟之唤
+/use 执政共鸣水晶
+/use 心能吸取器
+/use 涅美娅的标枪
+/use 破旧的武器
+/use 魂网
+/use 一罐泥土
+/use 魔法之笛
+/use 戈姆放牧之枝
+/use 宗主的狩猎号角
+/use 洁玫的焰火粉末
+/use 浓缩心能之瓶
+/use 瓦丝琪之印
+/use 碎裂的心能水晶
+/use 进攻战斗号角
+/use 收割链钩
+/use 多头花切刀
+/use 注能的心能球果
+/use 中空的恐惧蝠之牙
+END
+VER 3 010000000000000B "1" "1392549"
+/目标 花生丶羽嘉
+/跟随 花生丶羽嘉
+/target targettarget
+END
+VER 3 010000000000000A "1" "INV_Misc_QuestionMark"
+#showtooltips
+/cast [@player] 寒冰宝珠
+END
 VER 3 0100000000000005 "心灵冰冻" "INV_MISC_QUESTIONMARK"
 #showtooltips
 /cast [target=focus,exists] 心灵冰冻;心灵冰冻

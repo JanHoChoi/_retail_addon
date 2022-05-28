@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0537,
+	["LastVersion"] = 2.0538,
 	["LastPlayerFullName"] = "林声川-燃烧之刃",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

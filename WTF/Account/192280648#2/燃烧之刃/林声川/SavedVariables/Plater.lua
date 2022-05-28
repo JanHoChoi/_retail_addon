@@ -16,7 +16,7 @@ PlaterDBChr = {
 		[63] = 40,
 		[62] = 40,
 	},
-	["resources_on_target"] = false,
+	["resources_on_target"] = true,
 	["debuffsBanned"] = {
 	},
 	["minimap"] = {

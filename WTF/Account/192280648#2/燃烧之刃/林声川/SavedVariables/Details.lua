@@ -9,12 +9,292 @@ _detalhes_database = {
 			{
 				{
 					["tipo"] = 2,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006667,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["兔子"] = 7,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 4.889509420780042,
+							["aID"] = "829-059192A3",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7.006667,
+							["tipo"] = 1,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1653668785,
+							["classe"] = "MAGE",
+							["damage_taken"] = 0.006667,
+							["nome"] = "林声川",
+							["spells"] = {
+								["_ActorTable"] = {
+									[122] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["兔子"] = 7,
+										},
+										["n_dmg"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 122,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 16,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["total"] = 7.006667,
+							["custom"] = 0,
+							["spec"] = 1449,
+							["colocacao"] = 1,
+							["last_event"] = 1653668783,
+							["on_hold"] = false,
+							["start_time"] = 1653668783,
+							["serial"] = "Player-829-059192A3",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.00881,
+							["damage_from"] = {
+								["林声川"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["aID"] = "721",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00881,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.00881,
+							["dps_started"] = false,
+							["damage_taken"] = 7.00881,
+							["nome"] = "兔子",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["end_time"] = 1653668785,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1653668785,
+							["serial"] = "Creature-0-3127-0-27-721-0000100B59",
+							["on_hold"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1449,
+							["grupo"] = true,
+							["aID"] = "829-059192A3",
+							["pets"] = {
+							},
+							["nome"] = "林声川",
+							["buff_uptime"] = 2,
+							["tipo"] = 4,
+							["last_event"] = 1653668785,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[335149] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 335149,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 39,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["林声川"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"林声川", -- [1]
+				},
+				["tempo_start"] = 1653668783,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					6.891061000050597, -- [1]
+					-0.003524, -- [2]
+					{
+						-0.01299500000000808, -- [1]
+						[0] = -0.019553,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = -0.001941999999985455,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "00:26:25",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "兔子",
+				["TotalElapsedCombatTime"] = 76657.831,
+				["CombatEndedAt"] = 76657.831,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:26:23",
+				["end_time"] = 76657.831,
+				["combat_id"] = 39,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["frags"] = {
+					["兔子"] = 1,
+				},
+				["combat_counter"] = 71,
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					7, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 76656.398,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["林声川"] = 7.006667,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
 					["combatId"] = 38,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.006111,
 							["damage_from"] = {
+								["环境伤害 (坠落)"] = true,
 								["森林蜘蛛"] = true,
 							},
 							["targets"] = {
@@ -22,30 +302,30 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
+							["total"] = 0.006111,
+							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006111,
+							["classe"] = "MAGE",
+							["dps_started"] = false,
+							["end_time"] = 1653582849,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "林声川",
+							["spec"] = 1449,
+							["grupo"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["classe"] = "MAGE",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006111,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 0.006111,
-							["damage_taken"] = 17.006111,
-							["last_event"] = 0,
-							["nome"] = "林声川",
-							["spec"] = 1449,
-							["grupo"] = true,
-							["last_dps"] = 0,
-							["end_time"] = 1653582849,
+							["on_hold"] = false,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 2625.006111,
 							["start_time"] = 1653582849,
 							["serial"] = "Player-829-059192A3",
 							["aID"] = "829-059192A3",
@@ -63,18 +343,19 @@ _detalhes_database = {
 							["delay"] = 1653594327,
 							["pets"] = {
 							},
-							["nome"] = "森林蜘蛛",
-							["on_hold"] = true,
-							["friendlyfire_total"] = 0,
+							["aID"] = "30",
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 31.001794,
+							["dps_started"] = false,
 							["monster"] = true,
-							["dps_started"] = true,
-							["total"] = 31.001794,
-							["last_dps"] = 0,
+							["end_time"] = 1653668783,
+							["on_hold"] = false,
 							["tipo"] = 1,
-							["timeMachine"] = 1,
+							["nome"] = "森林蜘蛛",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -137,16 +418,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["classe"] = "UNKNOW",
-							["friendlyfire"] = {
-							},
-							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 79.001794,
+							["total"] = 31.001794,
 							["custom"] = 0,
 							["last_event"] = 1653594327,
-							["damage_taken"] = 79.001794,
-							["start_time"] = 1653582837,
+							["last_dps"] = 0,
+							["start_time"] = 1653657292,
 							["serial"] = "Creature-0-3127-0-27-30-00000FA3A1",
-							["aID"] = "30",
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -173,15 +453,15 @@ _detalhes_database = {
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
+							["pets"] = {
+							},
 							["spell_cast"] = {
 								[1953] = 1,
 							},
 							["buff_uptime"] = 0,
-							["pets"] = {
-							},
-							["aID"] = "829-059192A3",
 							["last_event"] = 1653582841,
-							["tipo"] = 4,
+							["aID"] = "829-059192A3",
+							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1953] = {
@@ -199,7 +479,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-829-059192A3",
-							["classe"] = "MAGE",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -215,37 +495,155 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"林声川", -- [1]
 				},
-				["overall_added"] = true,
+				["CombatStartedAt"] = 76656.398,
+				["tempo_start"] = 1653582837,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 66,
 				["playing_solo"] = true,
 				["totals"] = {
-					30.992823, -- [1]
+					30.9156070000015, -- [1]
 					0, -- [2]
 					{
-						0, -- [1]
-						[0] = -0.005721,
+						-0.003852000000001965, -- [1]
+						[0] = -0.016206,
 						["alternatepower"] = 0,
 						[6] = 0,
-						[3] = 0,
+						[3] = -0.006206,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
 						["dead"] = 0,
 						["cc_break"] = 0,
-						["interrupt"] = 0,
+						["interrupt"] = -0.006521999999999917,
 						["debuff_uptime"] = 0,
 						["dispell"] = 0,
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["林声川"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							2608, -- [3]
+							1653668368.492, -- [4]
+							2960, -- [5]
+							"环境伤害 (坠落)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "00:34:09",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "森林蜘蛛",
+				["TotalElapsedCombatTime"] = 1172015.88,
+				["CombatEndedAt"] = 1172015.88,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:33:57",
+				["end_time"] = 1172015.88,
+				["combat_id"] = 38,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["林声川"] = 0.006111,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["contra"] = "森林蜘蛛",
+				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -268,56 +666,16 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "00:34:09",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "森林蜘蛛",
-				["TotalElapsedCombatTime"] = 1172015.88,
-				["CombatEndedAt"] = 1172015.88,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["林声川"] = 0.006111,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 1172015.88,
-				["combat_id"] = 38,
-				["data_inicio"] = "00:33:57",
-				["tempo_start"] = 1653582837,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "森林蜘蛛",
-				["combat_counter"] = 66,
 				["CombatSkillCache"] = {
 				},
-				["player_last_events"] = {
+				["cleu_events"] = {
+					["n"] = 1,
 				},
 				["start_time"] = 1172003.713,
 				["TimeData"] = {
 				},
-				["frags"] = {
-				},
-			}, -- [1]
+				["overall_added"] = true,
+			}, -- [2]
 			{
 				{
 					["tipo"] = 2,
@@ -339,12 +697,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15.002482,
-							["damage_taken"] = 0.002482,
+							["last_dps"] = 15.002482,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582662,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 15.002482,
+							["damage_taken"] = 0.002482,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -385,11 +743,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582661,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582661,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -404,17 +762,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["total"] = 2.00407,
-							["aID"] = "42938",
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2.00407,
+							["aID"] = "42938",
 							["monster"] = true,
-							["fight_component"] = true,
 							["end_time"] = 1653582662,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["tipo"] = 1,
 							["nome"] = "屠杀者库尔托克",
 							["spells"] = {
@@ -450,9 +808,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["total"] = 2.00407,
 							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582661,
 							["damage_taken"] = 56.00407,
@@ -502,13 +860,13 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["aID"] = "829-059192A3",
+							["classe"] = "MAGE",
 							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1653582661,
 							["serial"] = "Player-829-059192A3",
-							["classe"] = "MAGE",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -615,7 +973,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["屠杀者库尔托克"] = 1,
 				},
 				["combat_counter"] = 65,
 				["player_last_events"] = {
@@ -625,10 +984,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:31:01",
 				["start_time"] = 1171827.674,
 				["contra"] = "屠杀者库尔托克",
-				["frags"] = {
-					["屠杀者库尔托克"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [2]
+			}, -- [3]
 			{
 				{
 					["tipo"] = 2,
@@ -682,12 +1040,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 60.00686,
-							["damage_taken"] = 0.00686,
+							["last_dps"] = 8.183125596505786,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 60.00686,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 8.183125596505786,
+							["damage_taken"] = 0.00686,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -696,11 +1054,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582650,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582650,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -713,16 +1071,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["fight_component"] = true,
+							["on_hold"] = false,
 							["classe"] = "UNKNOW",
+							["aID"] = "42937",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008859,
-							["damage_taken"] = 60.008859,
+							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1653582658,
-							["last_dps"] = 0,
+							["total"] = 0.008859,
+							["damage_taken"] = 60.008859,
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -730,16 +1088,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["end_time"] = 1653582658,
 							["monster"] = true,
-							["total"] = 0.008859,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
 							["start_time"] = 1653582658,
 							["serial"] = "Creature-0-3127-0-27-42937-00000FA76A",
-							["aID"] = "42937",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -785,14 +1143,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582656,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -899,7 +1257,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 64,
 				["player_last_events"] = {
@@ -909,10 +1268,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:30:51",
 				["start_time"] = 1171817.308,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [3]
+			}, -- [4]
 			{
 				{
 					["tipo"] = 2,
@@ -935,12 +1293,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.005794,
-							["damage_taken"] = 40.005794,
+							["last_dps"] = 2.774624424101609,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582423,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 2.774624424101609,
+							["damage_taken"] = 40.005794,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -981,11 +1339,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582411,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582411,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -1000,17 +1358,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["total"] = 40.001398,
-							["aID"] = "42937",
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 40.001398,
+							["aID"] = "42937",
 							["monster"] = true,
-							["fight_component"] = true,
 							["end_time"] = 1653582423,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -1046,9 +1404,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["total"] = 40.001398,
 							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582422,
 							["damage_taken"] = 61.001398,
@@ -1245,7 +1603,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 63,
 				["player_last_events"] = {
@@ -1255,10 +1614,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:26:44",
 				["start_time"] = 1171570.333,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [4]
+			}, -- [5]
 			{
 				{
 					["tipo"] = 2,
@@ -1313,12 +1671,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.003149,
-							["damage_taken"] = 17.003149,
+							["last_dps"] = 7.814029440600804,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 56.003149,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.814029440600804,
+							["damage_taken"] = 17.003149,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -1327,11 +1685,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582393,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582393,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1346,16 +1704,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["fight_component"] = true,
+							["on_hold"] = false,
 							["classe"] = "UNKNOW",
+							["aID"] = "42937",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17.006502,
-							["damage_taken"] = 60.006502,
+							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1653582400,
-							["last_dps"] = 0,
+							["total"] = 17.006502,
+							["damage_taken"] = 60.006502,
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -1391,16 +1749,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["end_time"] = 1653582400,
 							["monster"] = true,
-							["total"] = 17.006502,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582398,
 							["friendlyfire"] = {
 							},
 							["start_time"] = 1653582394,
 							["serial"] = "Creature-0-3127-0-27-42937-00008FAA32",
-							["aID"] = "42937",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1579,7 +1937,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 62,
 				["player_last_events"] = {
@@ -1589,10 +1948,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:26:33",
 				["start_time"] = 1171559.867,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [5]
+			}, -- [6]
 			{
 				{
 					["tipo"] = 2,
@@ -1615,12 +1973,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 70.002652,
-							["damage_taken"] = 11.002652,
+							["last_dps"] = 8.030589881889846,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582387,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 8.030589881889846,
+							["damage_taken"] = 11.002652,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1661,11 +2019,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582378,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582378,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1680,17 +2038,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["total"] = 11.002414,
-							["aID"] = "42937",
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11.002414,
+							["aID"] = "42937",
 							["monster"] = true,
-							["fight_component"] = true,
 							["end_time"] = 1653582387,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -1726,9 +2084,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["total"] = 11.002414,
 							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582385,
 							["damage_taken"] = 73.002414,
@@ -1913,7 +2271,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 61,
 				["player_last_events"] = {
@@ -1923,10 +2282,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:26:18",
 				["start_time"] = 1171544.949,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [6]
+			}, -- [7]
 			{
 				{
 					["tipo"] = 2,
@@ -1950,12 +2308,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.005551,
-							["damage_taken"] = 2.005551,
+							["last_dps"] = 9.231177023180965,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582355,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 9.231177023180965,
+							["damage_taken"] = 2.005551,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1996,11 +2354,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582349,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582349,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2014,15 +2372,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["total"] = 0.008929,
+							["friendlyfire"] = {
+							},
 							["aID"] = "42937",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008929,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1653582355,
+							["total"] = 0.008929,
 							["last_dps"] = 0,
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
@@ -2031,16 +2390,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 65.008929,
 							["dps_started"] = false,
-							["on_hold"] = false,
+							["end_time"] = 1653582355,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 65.008929,
+							["on_hold"] = false,
 							["start_time"] = 1653582355,
 							["serial"] = "Creature-0-3127-0-27-42937-00000FA9E9",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2219,7 +2577,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 60,
 				["player_last_events"] = {
@@ -2318,10 +2677,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:25:50",
 				["start_time"] = 1171516.465,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [7]
+			}, -- [8]
 			{
 				{
 					["tipo"] = 2,
@@ -2344,12 +2702,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.006506,
-							["damage_taken"] = 10.006506,
+							["last_dps"] = 7.925075137921326,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582341,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.925075137921326,
+							["damage_taken"] = 10.006506,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2390,11 +2748,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582334,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582334,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2409,17 +2767,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["total"] = 10.008923,
-							["aID"] = "42937",
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10.008923,
+							["aID"] = "42937",
 							["monster"] = true,
-							["fight_component"] = true,
 							["end_time"] = 1653582341,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -2455,9 +2813,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["total"] = 10.008923,
 							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582340,
 							["damage_taken"] = 60.008923,
@@ -2642,7 +3000,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 59,
 				["player_last_events"] = {
@@ -2652,10 +3011,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:25:34",
 				["start_time"] = 1171500.898,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [8]
+			}, -- [9]
 			{
 				{
 					["tipo"] = 2,
@@ -2710,12 +3068,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.007791,
-							["damage_taken"] = 6.007791,
+							["last_dps"] = 5.099034140488548,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 56.007791,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 5.099034140488548,
+							["damage_taken"] = 6.007791,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -2724,11 +3082,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582317,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582317,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2743,16 +3101,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["fight_component"] = true,
+							["on_hold"] = false,
 							["classe"] = "UNKNOW",
+							["aID"] = "42937",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6.001138,
-							["damage_taken"] = 60.001138,
+							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1653582328,
-							["last_dps"] = 0,
+							["total"] = 6.001138,
+							["damage_taken"] = 60.001138,
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -2788,16 +3146,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["end_time"] = 1653582328,
 							["monster"] = true,
-							["total"] = 6.001138,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582325,
 							["friendlyfire"] = {
 							},
 							["start_time"] = 1653582325,
 							["serial"] = "Creature-0-3127-0-27-42937-00000FA7A2",
-							["aID"] = "42937",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2976,7 +3334,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 58,
 				["player_last_events"] = {
@@ -2986,10 +3345,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:25:18",
 				["start_time"] = 1171484.031,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [9]
+			}, -- [10]
 			{
 				{
 					["tipo"] = 2,
@@ -3043,12 +3401,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.002819,
-							["damage_taken"] = 0.002819,
+							["last_dps"] = 7.72452675862069,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 56.002819,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.72452675862069,
+							["damage_taken"] = 0.002819,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -3057,11 +3415,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582294,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582294,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3077,16 +3435,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["fight_component"] = true,
+							["on_hold"] = false,
 							["classe"] = "UNKNOW",
+							["aID"] = "42937",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16.007782,
-							["damage_taken"] = 124.007782,
+							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1653582317,
-							["last_dps"] = 0,
+							["total"] = 16.007782,
+							["damage_taken"] = 124.007782,
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -3122,16 +3480,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["end_time"] = 1653582317,
 							["monster"] = true,
-							["total"] = 16.007782,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582313,
 							["friendlyfire"] = {
 							},
 							["start_time"] = 1653582302,
 							["serial"] = "Creature-0-3127-0-27-42937-00000FA8AF",
-							["aID"] = "42937",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3310,7 +3668,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 2,
 				},
 				["combat_counter"] = 57,
 				["player_last_events"] = {
@@ -3320,10 +3679,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:24:55",
 				["start_time"] = 1171461.347,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 2,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [10]
+			}, -- [11]
 			{
 				{
 					["tipo"] = 2,
@@ -3345,12 +3703,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.003867,
-							["damage_taken"] = 0.003867,
+							["last_dps"] = 7.619573741400051,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582253,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.619573741400051,
+							["damage_taken"] = 0.003867,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3391,11 +3749,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582246,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582246,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3411,17 +3769,17 @@ _detalhes_database = {
 							["delay"] = 1653582274,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["total"] = 20.006595,
-							["aID"] = "42937",
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 20.006595,
+							["aID"] = "42937",
 							["monster"] = true,
-							["fight_component"] = true,
 							["end_time"] = 1653582294,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -3458,9 +3816,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["total"] = 20.006595,
 							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582294,
 							["damage_taken"] = 280.006595,
@@ -3645,7 +4003,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 1,
 				},
 				["combat_counter"] = 56,
 				["player_last_events"] = {
@@ -3655,10 +4014,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:24:06",
 				["start_time"] = 1171412.646,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 1,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [11]
+			}, -- [12]
 			{
 				{
 					["tipo"] = 2,
@@ -3680,12 +4038,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 56.004163,
-							["damage_taken"] = 0.004163,
+							["last_dps"] = 7.943852907748948,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582232,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.943852907748948,
+							["damage_taken"] = 0.004163,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3726,11 +4084,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582225,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582225,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3746,17 +4104,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["total"] = 16.002142,
-							["aID"] = "42937",
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16.002142,
+							["aID"] = "42937",
 							["monster"] = true,
-							["fight_component"] = true,
 							["end_time"] = 1653582246,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["tipo"] = 1,
 							["nome"] = "黑石入侵者",
 							["spells"] = {
@@ -3792,9 +4150,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["total"] = 16.002142,
 							["dps_started"] = false,
-							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1653582244,
 							["damage_taken"] = 193.002142,
@@ -3979,7 +4337,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["黑石入侵者"] = 2,
 				},
 				["combat_counter"] = 55,
 				["player_last_events"] = {
@@ -3989,10 +4348,9 @@ _detalhes_database = {
 				["data_inicio"] = "00:23:46",
 				["start_time"] = 1171392.362,
 				["contra"] = "黑石入侵者",
-				["frags"] = {
-					["黑石入侵者"] = 2,
+				["spells_cast_timeline"] = {
 				},
-			}, -- [12]
+			}, -- [13]
 			{
 				{
 					["tipo"] = 2,
@@ -4014,12 +4372,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 50.008289,
-							["damage_taken"] = 0.008289,
+							["last_dps"] = 8.645969744143988,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582129,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 8.645969744143988,
+							["damage_taken"] = 0.008289,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4060,11 +4418,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582123,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582123,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -4076,16 +4434,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653582129,
-							["friendlyfire_total"] = 0,
 							["aID"] = "50039",
+							["total"] = 0.007261,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007261,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.007261,
 							["fight_component"] = true,
+							["end_time"] = 1653582129,
+							["dps_started"] = false,
 							["damage_taken"] = 50.007261,
 							["nome"] = "地精刺客",
 							["spells"] = {
@@ -4102,7 +4460,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653582129,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA4D6",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4148,14 +4506,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582128,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4275,7 +4633,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:22:03",
-			}, -- [13]
+			}, -- [14]
 			{
 				{
 					["tipo"] = 2,
@@ -4329,12 +4687,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 52.007919,
-							["damage_taken"] = 0.007919,
+							["last_dps"] = 9.399587746553548,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 52.007919,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 9.399587746553548,
+							["damage_taken"] = 0.007919,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -4343,11 +4701,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582110,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582110,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -4359,10 +4717,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "50039",
-							["friendlyfire"] = {
-							},
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001618,
@@ -4370,7 +4727,8 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 0.001618,
 							["end_time"] = 1653582117,
-							["damage_taken"] = 52.001618,
+							["friendlyfire"] = {
+							},
 							["nome"] = "地精刺客",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4382,10 +4740,10 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 52.001618,
 							["start_time"] = 1653582117,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA756",
-							["friendlyfire_total"] = 0,
+							["aID"] = "50039",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4431,14 +4789,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582116,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4558,7 +4916,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:21:51",
-			}, -- [14]
+			}, -- [15]
 			{
 				{
 					["tipo"] = 2,
@@ -4580,12 +4938,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 51.006285,
-							["damage_taken"] = 0.006285,
+							["last_dps"] = 8.948471052704683,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582107,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 8.948471052704683,
+							["damage_taken"] = 0.006285,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4626,11 +4984,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582101,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582101,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -4642,16 +5000,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653582107,
-							["friendlyfire_total"] = 0,
 							["aID"] = "50039",
+							["total"] = 0.003892,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003892,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.003892,
 							["fight_component"] = true,
+							["end_time"] = 1653582107,
+							["dps_started"] = false,
 							["damage_taken"] = 51.003892,
 							["nome"] = "地精刺客",
 							["spells"] = {
@@ -4668,7 +5026,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653582107,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA73A",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4714,14 +5072,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582107,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4841,7 +5199,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:21:41",
-			}, -- [15]
+			}, -- [16]
 			{
 				{
 					["tipo"] = 2,
@@ -4863,12 +5221,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 52.002768,
-							["damage_taken"] = 0.002768,
+							["last_dps"] = 8.432425490333198,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582099,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 8.432425490333198,
+							["damage_taken"] = 0.002768,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4909,11 +5267,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582092,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582092,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -4927,10 +5285,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 114.002991,
+							["aID"] = "50039",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9.002991,
@@ -4938,7 +5295,8 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["total"] = 9.002991,
 							["fight_component"] = true,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "地精刺客",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4980,10 +5338,10 @@ _detalhes_database = {
 							["end_time"] = 1653582099,
 							["custom"] = 0,
 							["last_event"] = 1653582098,
-							["damage_taken"] = 114.002991,
+							["on_hold"] = false,
 							["start_time"] = 1653582093,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA7D9",
-							["aID"] = "50039",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5029,14 +5387,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582098,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5156,7 +5514,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:21:33",
-			}, -- [16]
+			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
@@ -5211,12 +5569,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 104.005964,
-							["damage_taken"] = 37.005964,
+							["last_dps"] = 5.887018961862312,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 104.005964,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 5.887018961862312,
+							["damage_taken"] = 37.005964,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -5225,11 +5583,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582066,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582066,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -5244,18 +5602,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 64.002828,
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1653582092,
+							["damage_taken"] = 280.002828,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 64.002828,
 							["delay"] = 0,
 							["fight_component"] = true,
-							["end_time"] = 1653582092,
+							["total"] = 64.002828,
 							["aID"] = "50039",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "地精刺客",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5297,10 +5654,11 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 1653582092,
-							["damage_taken"] = 280.002828,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1653582067,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA728",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5346,14 +5704,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 7,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582084,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5473,7 +5831,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:21:07",
-			}, -- [17]
+			}, -- [18]
 			{
 				{
 					["tipo"] = 2,
@@ -5495,12 +5853,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 52.007777,
-							["damage_taken"] = 0.007777,
+							["last_dps"] = 7.290128539546826,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582060,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.290128539546826,
+							["damage_taken"] = 0.007777,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5541,11 +5899,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582053,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582053,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -5559,10 +5917,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 112.007247,
+							["aID"] = "50039",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10.007247,
@@ -5570,7 +5927,8 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["total"] = 10.007247,
 							["fight_component"] = true,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "地精刺客",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5612,10 +5970,10 @@ _detalhes_database = {
 							["end_time"] = 1653582060,
 							["custom"] = 0,
 							["last_event"] = 1653582059,
-							["damage_taken"] = 112.007247,
+							["on_hold"] = false,
 							["start_time"] = 1653582055,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA7C9",
-							["aID"] = "50039",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5661,14 +6019,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582059,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5788,7 +6146,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:20:53",
-			}, -- [18]
+			}, -- [19]
 			{
 				{
 					["tipo"] = 2,
@@ -5810,12 +6168,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 52.002842,
-							["damage_taken"] = 0.002842,
+							["last_dps"] = 6.329459834457849,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653582048,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.329459834457849,
+							["damage_taken"] = 0.002842,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5856,11 +6214,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653582040,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653582040,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -5874,10 +6232,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 131.007061,
+							["aID"] = "50039",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5.007061,
@@ -5885,7 +6242,8 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["total"] = 5.007061,
 							["fight_component"] = true,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "地精刺客",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5902,8 +6260,8 @@ _detalhes_database = {
 										["n_min"] = 2,
 										["g_dmg"] = 0,
 										["counter"] = 5,
-										["total"] = 5,
 										["r_amt"] = 0,
+										["total"] = 5,
 										["c_max"] = 0,
 										["b_dmg"] = 0,
 										["id"] = 1,
@@ -5928,10 +6286,10 @@ _detalhes_database = {
 							["end_time"] = 1653582053,
 							["custom"] = 0,
 							["last_event"] = 1653582052,
-							["damage_taken"] = 131.007061,
+							["on_hold"] = false,
 							["start_time"] = 1653582048,
 							["serial"] = "Creature-0-3127-0-27-50039-00000FA7BF",
-							["aID"] = "50039",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5946,7 +6304,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "MAGE",
+							["aID"] = "829-059192A3",
 							["totalover"] = 0.008331,
 							["total_without_pet"] = 0.008331,
 							["total"] = 0.008331,
@@ -5963,7 +6321,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.008331,
 							["healing_taken"] = 0.008331,
 							["end_time"] = 1653582048,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
 							["nome"] = "林声川",
@@ -5973,11 +6331,11 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["totaldenied"] = 0.008331,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["aID"] = "829-059192A3",
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1653582048,
 							["delay"] = 0,
 							["spec"] = 1449,
@@ -6020,14 +6378,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 3,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653582048,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6148,7 +6506,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:20:40",
-			}, -- [19]
+			}, -- [20]
 			{
 				{
 					["tipo"] = 2,
@@ -6202,12 +6560,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 36.003616,
-							["damage_taken"] = 0.003616,
+							["last_dps"] = 6.298743177030466,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 36.003616,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.298743177030466,
+							["damage_taken"] = 0.003616,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -6216,11 +6574,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581980,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581980,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -6234,18 +6592,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 13.004958,
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1653582040,
+							["damage_taken"] = 101.004958,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13.004958,
 							["delay"] = 1653581993,
 							["fight_component"] = true,
-							["end_time"] = 1653582040,
+							["total"] = 13.004958,
 							["aID"] = "49874",
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "黑石间谍",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6287,10 +6644,11 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 1653581993,
-							["damage_taken"] = 101.004958,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1653582026,
 							["serial"] = "Creature-0-3127-0-27-49874-00010FA896",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6336,14 +6694,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581984,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6463,7 +6821,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:19:41",
-			}, -- [20]
+			}, -- [21]
 			{
 				{
 					["tipo"] = 2,
@@ -6485,12 +6843,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35.001221,
-							["damage_taken"] = 0.001221,
+							["last_dps"] = 9.544919825732222,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581970,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 9.544919825732222,
+							["damage_taken"] = 0.001221,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6531,11 +6889,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581965,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581965,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -6547,16 +6905,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581970,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.002456,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002456,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.002456,
 							["fight_component"] = true,
+							["end_time"] = 1653581970,
+							["dps_started"] = false,
 							["damage_taken"] = 35.002456,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -6573,7 +6931,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581970,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA50C",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6619,14 +6977,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581969,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6746,7 +7104,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:19:26",
-			}, -- [21]
+			}, -- [22]
 			{
 				{
 					["tipo"] = 2,
@@ -6768,12 +7126,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35.001714,
-							["damage_taken"] = 0.001714,
+							["last_dps"] = 17.94959692350556,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581948,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 17.94959692350556,
+							["damage_taken"] = 0.001714,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6814,11 +7172,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581945,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581945,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -6830,16 +7188,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581948,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.0052,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.0052,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.0052,
 							["fight_component"] = true,
+							["end_time"] = 1653581948,
+							["dps_started"] = false,
 							["damage_taken"] = 35.0052,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -6856,7 +7214,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581948,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA4BA",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6902,14 +7260,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 1,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581947,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7029,7 +7387,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:19:06",
-			}, -- [22]
+			}, -- [23]
 			{
 				{
 					["tipo"] = 2,
@@ -7051,12 +7409,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35.008056,
-							["damage_taken"] = 0.008056,
+							["last_dps"] = 6.10534635489253,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581937,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.10534635489253,
+							["damage_taken"] = 0.008056,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7097,11 +7455,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581931,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581931,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -7114,16 +7472,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581937,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.006588,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006588,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.006588,
 							["fight_component"] = true,
+							["end_time"] = 1653581937,
+							["dps_started"] = false,
 							["damage_taken"] = 47.006588,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -7140,7 +7498,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581937,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA496",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7186,14 +7544,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581937,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7313,7 +7671,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:18:52",
-			}, -- [23]
+			}, -- [24]
 			{
 				{
 					["tipo"] = 2,
@@ -7335,12 +7693,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 36.008749,
-							["damage_taken"] = 0.008749,
+							["last_dps"] = 18.0043745,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581924,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 18.0043745,
+							["damage_taken"] = 0.008749,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7381,11 +7739,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581922,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581922,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -7397,16 +7755,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581924,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.001946,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001946,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.001946,
 							["fight_component"] = true,
+							["end_time"] = 1653581924,
+							["dps_started"] = false,
 							["damage_taken"] = 36.001946,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -7423,7 +7781,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581924,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA4FF",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7469,14 +7827,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 1,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581924,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7596,7 +7954,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:18:43",
-			}, -- [24]
+			}, -- [25]
 			{
 				{
 					["tipo"] = 2,
@@ -7618,12 +7976,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 34.006732,
-							["damage_taken"] = 0.006732,
+							["last_dps"] = 5.796272711923115,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581914,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 5.796272711923115,
+							["damage_taken"] = 0.006732,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7664,11 +8022,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581908,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581908,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -7680,16 +8038,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581914,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.002601,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002601,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.002601,
 							["fight_component"] = true,
+							["end_time"] = 1653581914,
+							["dps_started"] = false,
 							["damage_taken"] = 34.002601,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -7706,7 +8064,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581914,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA48D",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7752,14 +8110,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581913,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7880,7 +8238,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:18:29",
-			}, -- [25]
+			}, -- [26]
 			{
 				{
 					["tipo"] = 2,
@@ -7902,12 +8260,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35.002267,
-							["damage_taken"] = 0.002267,
+							["last_dps"] = 7.292138958262591,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581902,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.292138958262591,
+							["damage_taken"] = 0.002267,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7948,11 +8306,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581897,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581897,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -7964,16 +8322,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581902,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.008433,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008433,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.008433,
 							["fight_component"] = true,
+							["end_time"] = 1653581902,
+							["dps_started"] = false,
 							["damage_taken"] = 35.008433,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -7990,7 +8348,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581902,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA735",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8036,14 +8394,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581902,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8163,7 +8521,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:18:18",
-			}, -- [26]
+			}, -- [27]
 			{
 				{
 					["tipo"] = 2,
@@ -8185,12 +8543,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 36.004626,
-							["damage_taken"] = 0.004626,
+							["last_dps"] = 6.316601052683183,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581890,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.316601052683183,
+							["damage_taken"] = 0.004626,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8231,11 +8589,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581884,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581884,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -8247,16 +8605,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581890,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49874",
+							["total"] = 0.005869,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005869,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.005869,
 							["fight_component"] = true,
+							["end_time"] = 1653581890,
+							["dps_started"] = false,
 							["damage_taken"] = 36.005869,
 							["nome"] = "黑石间谍",
 							["spells"] = {
@@ -8273,7 +8631,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581890,
 							["serial"] = "Creature-0-3127-0-27-49874-00000FA764",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8319,14 +8677,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581889,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8447,7 +8805,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:18:05",
-			}, -- [27]
+			}, -- [28]
 			{
 				{
 					["tipo"] = 2,
@@ -8469,12 +8827,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33.003587,
-							["damage_taken"] = 0.003587,
+							["last_dps"] = 6.971606886444555,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581849,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.971606886444555,
+							["damage_taken"] = 0.003587,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8515,11 +8873,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581844,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581844,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -8533,10 +8891,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 63.008635,
+							["aID"] = "49871",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11.008635,
@@ -8544,7 +8901,8 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["total"] = 11.008635,
 							["fight_component"] = true,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "黑石战狼",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8562,8 +8920,8 @@ _detalhes_database = {
 										["n_min"] = 3,
 										["g_dmg"] = 0,
 										["counter"] = 17,
-										["total"] = 11,
 										["r_amt"] = 0,
+										["total"] = 11,
 										["c_max"] = 0,
 										["b_dmg"] = 0,
 										["id"] = 1,
@@ -8588,10 +8946,10 @@ _detalhes_database = {
 							["end_time"] = 1653581884,
 							["custom"] = 0,
 							["last_event"] = 1653581883,
-							["damage_taken"] = 63.008635,
+							["on_hold"] = false,
 							["start_time"] = 1653581849,
 							["serial"] = "Creature-0-3127-0-27-49871-00000FA4F3",
-							["aID"] = "49871",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8637,14 +8995,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581848,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8764,7 +9122,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:17:25",
-			}, -- [28]
+			}, -- [29]
 			{
 				{
 					["tipo"] = 2,
@@ -8786,12 +9144,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33.001752,
-							["damage_taken"] = 0.001752,
+							["last_dps"] = 7.471530903104347,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581835,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.471530903104347,
+							["damage_taken"] = 0.001752,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8832,11 +9190,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581830,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581830,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -8848,16 +9206,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581835,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49871",
+							["total"] = 0.0088,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.0088,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.0088,
 							["fight_component"] = true,
+							["end_time"] = 1653581835,
+							["dps_started"] = false,
 							["damage_taken"] = 33.0088,
 							["nome"] = "黑石战狼",
 							["spells"] = {
@@ -8875,8 +9233,8 @@ _detalhes_database = {
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 0,
 										["r_amt"] = 0,
+										["total"] = 0,
 										["c_max"] = 0,
 										["b_dmg"] = 0,
 										["id"] = 1,
@@ -8905,7 +9263,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581835,
 							["serial"] = "Creature-0-3127-0-27-49871-00000F9E42",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8951,14 +9309,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581834,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -9078,7 +9436,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:17:10",
-			}, -- [29]
+			}, -- [30]
 			{
 				{
 					["tipo"] = 2,
@@ -9100,12 +9458,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32.006464,
-							["damage_taken"] = 0.006464,
+							["last_dps"] = 6.275777255073866,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581827,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.275777255073866,
+							["damage_taken"] = 0.006464,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9146,11 +9504,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581820,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581820,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -9162,16 +9520,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581827,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49871",
+							["total"] = 0.003154,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003154,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.003154,
 							["fight_component"] = true,
+							["end_time"] = 1653581827,
+							["dps_started"] = false,
 							["damage_taken"] = 32.003154,
 							["nome"] = "黑石战狼",
 							["spells"] = {
@@ -9189,8 +9547,8 @@ _detalhes_database = {
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 5,
-										["total"] = 0,
 										["r_amt"] = 0,
+										["total"] = 0,
 										["c_max"] = 0,
 										["b_dmg"] = 0,
 										["id"] = 1,
@@ -9219,7 +9577,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581827,
 							["serial"] = "Creature-0-3127-0-27-49871-00000F9E9A",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -9265,14 +9623,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581826,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -9392,7 +9750,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:17:01",
-			}, -- [30]
+			}, -- [31]
 			{
 				{
 					["tipo"] = 2,
@@ -9414,12 +9772,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 31.001911,
-							["damage_taken"] = 0.001911,
+							["last_dps"] = 8.017044479229298,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581818,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 8.017044479229298,
+							["damage_taken"] = 0.001911,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9460,11 +9818,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581813,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581813,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -9476,16 +9834,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581818,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49871",
+							["total"] = 0.007244,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007244,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.007244,
 							["fight_component"] = true,
+							["end_time"] = 1653581818,
+							["dps_started"] = false,
 							["damage_taken"] = 31.007244,
 							["nome"] = "黑石战狼",
 							["spells"] = {
@@ -9532,7 +9890,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581818,
 							["serial"] = "Creature-0-3127-0-27-49871-00008F9E77",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -9578,14 +9936,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581816,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -9705,7 +10063,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:16:53",
-			}, -- [31]
+			}, -- [32]
 			{
 				{
 					["tipo"] = 2,
@@ -9727,12 +10085,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32.007563,
-							["damage_taken"] = 0.007563,
+							["last_dps"] = 7.13817194479009,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1653581809,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 7.13817194479009,
+							["damage_taken"] = 0.007563,
 							["nome"] = "林声川",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9773,11 +10131,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581805,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581805,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -9790,16 +10148,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1653581809,
-							["friendlyfire_total"] = 0,
 							["aID"] = "49871",
+							["total"] = 0.003463,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003463,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.003463,
 							["fight_component"] = true,
+							["end_time"] = 1653581809,
+							["dps_started"] = false,
 							["damage_taken"] = 37.003463,
 							["nome"] = "黑石战狼",
 							["spells"] = {
@@ -9845,7 +10203,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1653581809,
 							["serial"] = "Creature-0-3127-0-27-49871-00000F9E24",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -9891,14 +10249,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581809,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -10018,7 +10376,7 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:16:46",
-			}, -- [32]
+			}, -- [33]
 			{
 				{
 					["tipo"] = 2,
@@ -10072,12 +10430,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32.00262,
-							["damage_taken"] = 0.00262,
+							["last_dps"] = 6.931474983976599,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 32.00262,
 							["aID"] = "829-059192A3",
-							["last_dps"] = 6.931474983976599,
+							["damage_taken"] = 0.00262,
 							["nome"] = "林声川",
 							["spec"] = 1449,
 							["grupo"] = true,
@@ -10086,11 +10444,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1653581796,
-							["serial"] = "Player-829-059192A3",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1653581796,
+							["serial"] = "Player-829-059192A3",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -10102,10 +10460,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "49871",
-							["friendlyfire"] = {
-							},
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008983,
@@ -10113,7 +10470,8 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 0.008983,
 							["end_time"] = 1653581801,
-							["damage_taken"] = 32.008983,
+							["friendlyfire"] = {
+							},
 							["nome"] = "黑石战狼",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10130,8 +10488,8 @@ _detalhes_database = {
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 8,
-										["total"] = 0,
 										["r_amt"] = 0,
+										["total"] = 0,
 										["c_max"] = 0,
 										["b_dmg"] = 0,
 										["id"] = 1,
@@ -10156,10 +10514,10 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 1653581804,
-							["on_hold"] = false,
+							["damage_taken"] = 32.008983,
 							["start_time"] = 1653581801,
 							["serial"] = "Creature-0-3127-0-27-49871-00000F9E38",
-							["friendlyfire_total"] = 0,
+							["aID"] = "49871",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -10205,14 +10563,14 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[116] = 2,
 							},
-							["tipo"] = 4,
-							["nome"] = "林声川",
 							["aID"] = "829-059192A3",
+							["nome"] = "林声川",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-829-059192A3",
 							["last_event"] = 1653581800,
+							["serial"] = "Player-829-059192A3",
+							["classe"] = "MAGE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -10332,24 +10690,35 @@ _detalhes_database = {
 				["TimeData"] = {
 				},
 				["data_inicio"] = "00:16:36",
-			}, -- [33]
+			}, -- [34]
 		},
 	},
 	["ocd_tracker"] = {
 		["enabled"] = false,
 		["current_cooldowns"] = {
 		},
+		["lines_per_column"] = 12,
+		["show_options"] = false,
+		["pos"] = {
+		},
 		["cooldowns"] = {
 		},
+		["height"] = 18,
+		["framme_locked"] = false,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
 		},
-		["show_options"] = false,
-		["pos"] = {
+		["width"] = 120,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
 		},
 	},
-	["last_version"] = "9.2.09722",
+	["last_version"] = "9.2.09817",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -10491,7 +10860,7 @@ _detalhes_database = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["y"] = -82.51953125,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -10499,13 +10868,14 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["y"] = -82.51953125,
-			["x"] = 18.26283836364746,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
+			["use_spark"] = false,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -10517,17 +10887,15 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["x"] = 18.26283836364746,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_instance_time"] = 1653578937,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -10539,9 +10907,10 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+	["last_day"] = "28",
 	["cached_roles"] = {
 	},
-	["last_day"] = "27",
+	["last_instance_time"] = 1653578937,
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -10645,14 +11014,14 @@ _detalhes_database = {
 		}, -- [3]
 	},
 	["ignore_nicktag"] = false,
-	["combat_id"] = 38,
+	["combat_id"] = 39,
 	["savedStyles"] = {
 	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1654874857,
 		["last_version"] = 14,
 	},
-	["combat_counter"] = 69,
+	["combat_counter"] = 72,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -10665,7 +11034,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.166118,
+					["totalabsorbed"] = 0.172785,
 					["damage_from"] = {
 						["黑石入侵者"] = true,
 						["地精刺客"] = true,
@@ -10676,27 +11045,25 @@ _detalhes_database = {
 						["黑石战狼"] = 193,
 						["黑石入侵者"] = 578,
 						["屠杀者库尔托克"] = 15,
+						["兔子"] = 7,
 						["黑石间谍"] = 282,
 					},
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["aID"] = "829-059192A3",
+					["end_time"] = 1653581802,
+					["friendlyfire"] = {
+					},
 					["classe"] = "MAGE",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 1481.166118,
-					["total"] = 1481.166118,
+					["total_without_pet"] = 1488.172785,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
-					["end_time"] = 1653581802,
-					["last_dps"] = 0,
+					["total"] = 1488.172785,
+					["on_hold"] = false,
 					["tipo"] = 1,
 					["nome"] = "林声川",
-					["spec"] = 1449,
-					["grupo"] = true,
-					["friendlyfire"] = {
-					},
 					["spells"] = {
 						["_ActorTable"] = {
 							[228597] = {
@@ -10730,19 +11097,49 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[122] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 7,
+								["targets"] = {
+									["兔子"] = 7,
+								},
+								["n_dmg"] = 7,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 7,
+								["c_max"] = 0,
+								["id"] = 122,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
 						["tipo"] = 2,
 					},
+					["grupo"] = true,
+					["spec"] = 1449,
+					["aID"] = "829-059192A3",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 138.166118,
-					["start_time"] = 1653581587,
+					["damage_taken"] = 138.172785,
+					["start_time"] = 1653581585,
 					["serial"] = "Player-829-059192A3",
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68136,
-					["totalabsorbed"] = 0.128587,
+					["totalabsorbed"] = 0.136598,
 					["damage_from"] = {
 						["林声川"] = true,
 						["木头人哈哈-晴日峰（江苏）"] = true,
@@ -10754,17 +11151,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1653581802,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 35.128587,
+					["total_without_pet"] = 35.13659800000001,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1653581802,
-					["aID"] = "49871",
-					["last_dps"] = 0,
+					["fight_component"] = true,
+					["total"] = 35.13659800000001,
+					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["nome"] = "黑石战狼",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10781,14 +11179,14 @@ _detalhes_database = {
 								["n_dmg"] = 35,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 61,
+								["counter"] = 62,
 								["total"] = 35,
 								["c_max"] = 0,
 								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["b_dmg"] = 0,
-								["DODGE"] = 10,
+								["DODGE"] = 11,
 								["a_amt"] = 0,
 								["PARRY"] = 17,
 								["c_min"] = 0,
@@ -10803,15 +11201,14 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["tipo"] = 1,
-					["total"] = 35.128587,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 283.136598,
+					["aID"] = "49871",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 283.128587,
+					["last_dps"] = 0,
 					["start_time"] = 1653581772,
 					["serial"] = "Creature-0-3127-0-27-49871-00000F9E38",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [2]
 				{
 					["flag_original"] = 68136,
@@ -10825,9 +11222,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
 					["aID"] = "49874",
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6.042791,
@@ -10835,7 +11232,7 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["end_time"] = 1653581890,
 					["fight_component"] = true,
-					["damage_taken"] = 304.042791,
+					["on_hold"] = false,
 					["nome"] = "黑石间谍",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10876,10 +11273,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 304.042791,
 					["start_time"] = 1653581881,
 					["serial"] = "Creature-0-3127-0-27-49874-00000FA764",
-					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 				}, -- [3]
 				{
 					["flag_original"] = 68136,
@@ -10894,9 +11291,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
 					["aID"] = "50039",
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 77.04055999999999,
@@ -10904,7 +11301,7 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["end_time"] = 1653582049,
 					["fight_component"] = true,
-					["damage_taken"] = 698.0405599999999,
+					["on_hold"] = false,
 					["nome"] = "地精刺客",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10948,10 +11345,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 698.0405599999999,
 					["start_time"] = 1653582018,
 					["serial"] = "Creature-0-3127-0-27-50039-00000FA7BF",
-					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
@@ -10968,15 +11365,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
-					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 88.05751799999999,
-					["total"] = 88.05751799999999,
+					["fight_component"] = true,
 					["monster"] = true,
-					["end_time"] = 1653582233,
+					["total"] = 88.05751799999999,
 					["last_dps"] = 0,
 					["tipo"] = 1,
 					["nome"] = "黑石入侵者",
@@ -11013,16 +11411,15 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["aID"] = "42937",
-					["damage_taken"] = 653.057518,
+					["end_time"] = 1653582233,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 653.057518,
 					["start_time"] = 1653582190,
 					["serial"] = "Creature-0-3127-0-27-42937-00000FA92A",
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 				}, -- [5]
 				{
 					["flag_original"] = 2632,
@@ -11037,15 +11434,15 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
 					["aID"] = "42938",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4.020903000000001,
+					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 4.020903000000001,
-					["fight_component"] = true,
-					["end_time"] = 1653582658,
 					["damage_taken"] = 75.020903,
 					["tipo"] = 1,
 					["nome"] = "屠杀者库尔托克",
@@ -11081,16 +11478,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
-					["custom"] = 0,
-					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
+					["friendlyfire_total"] = 0,
+					["end_time"] = 1653582658,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
 					["start_time"] = 1653582653,
 					["serial"] = "Creature-0-3127-0-27-42938-00000FAA7B",
-					["dps_started"] = false,
+					["fight_component"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
@@ -11104,15 +11501,15 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
 					["aID"] = "30",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 17.003664,
+					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 17.003664,
-					["fight_component"] = true,
-					["end_time"] = 1653582849,
 					["damage_taken"] = 0.003664,
 					["tipo"] = 1,
 					["nome"] = "森林蜘蛛",
@@ -11176,17 +11573,55 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["last_dps"] = 0,
-					["custom"] = 0,
-					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
+					["friendlyfire_total"] = 0,
+					["end_time"] = 1653582849,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
 					["start_time"] = 1653582834,
 					["serial"] = "Creature-0-3127-0-27-30-00000FA3A1",
-					["dps_started"] = false,
+					["fight_component"] = true,
 				}, -- [7]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.013518,
+					["damage_from"] = {
+						["林声川"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "721",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.013518,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1653668785,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 7.013518,
+					["nome"] = "兔子",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.013518,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1653668782,
+					["serial"] = "Creature-0-3127-0-27-721-0000100B59",
+					["classe"] = "UNKNOW",
+				}, -- [8]
 			},
 		}, -- [1]
 		{
@@ -11199,7 +11634,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "MAGE",
 					["totalover"] = 0.011696,
 					["total_without_pet"] = 0.011696,
 					["total"] = 0.011696,
@@ -11226,14 +11661,14 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "829-059192A3",
+					["heal_enemy_amt"] = 0,
 					["totaldenied"] = 0.011696,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["aID"] = "829-059192A3",
 					["start_time"] = 1653582046,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -11297,6 +11732,16 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
+							[335149] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 335149,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
 						},
 						["tipo"] = 9,
 					},
@@ -11311,7 +11756,7 @@ _detalhes_database = {
 						[1953] = 1,
 					},
 					["aID"] = "829-059192A3",
-					["buff_uptime"] = 83,
+					["buff_uptime"] = 85,
 					["tipo"] = 4,
 					["last_event"] = 0,
 					["nome"] = "林声川",
@@ -11332,203 +11777,209 @@ _detalhes_database = {
 		},
 		["segments_added"] = {
 			{
+				["elapsed"] = 1.43300000000454,
+				["type"] = 0,
+				["name"] = "兔子",
+				["clock"] = "00:26:23",
+			}, -- [1]
+			{
 				["elapsed"] = 12.16700000013225,
 				["type"] = 0,
 				["name"] = "森林蜘蛛",
 				["clock"] = "00:33:57",
-			}, -- [1]
+			}, -- [2]
 			{
 				["elapsed"] = 1,
 				["type"] = 0,
 				["name"] = "屠杀者库尔托克",
 				["clock"] = "00:31:01",
-			}, -- [2]
+			}, -- [3]
 			{
 				["elapsed"] = 7.333000000100583,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:30:51",
-			}, -- [3]
+			}, -- [4]
 			{
 				["elapsed"] = 20.18499999982305,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:26:44",
-			}, -- [4]
+			}, -- [5]
 			{
 				["elapsed"] = 7.166999999899417,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:26:33",
-			}, -- [5]
+			}, -- [6]
 			{
 				["elapsed"] = 8.716999999945983,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:26:18",
-			}, -- [6]
+			}, -- [7]
 			{
 				["elapsed"] = 6.067000000039116,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:25:50",
-			}, -- [7]
+			}, -- [8]
 			{
 				["elapsed"] = 7.067000000039116,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:25:34",
-			}, -- [8]
+			}, -- [9]
 			{
 				["elapsed"] = 10.98400000017136,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:25:18",
-			}, -- [9]
+			}, -- [10]
 			{
 				["elapsed"] = 7.25,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:24:55",
-			}, -- [10]
+			}, -- [11]
 			{
 				["elapsed"] = 7.350000000093132,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:24:06",
-			}, -- [11]
+			}, -- [12]
 			{
 				["elapsed"] = 7.050000000046566,
 				["type"] = 0,
 				["name"] = "黑石入侵者",
 				["clock"] = "00:23:46",
-			}, -- [12]
+			}, -- [13]
 			{
 				["elapsed"] = 5.783999999985099,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:22:03",
-			}, -- [13]
+			}, -- [14]
 			{
 				["elapsed"] = 6.366999999852851,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:21:51",
-			}, -- [14]
+			}, -- [15]
 			{
 				["elapsed"] = 5.817000000039116,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:21:41",
-			}, -- [15]
+			}, -- [16]
 			{
 				["elapsed"] = 6.167000000132248,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:21:33",
-			}, -- [16]
+			}, -- [17]
 			{
 				["elapsed"] = 17.66700000013225,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:21:07",
-			}, -- [17]
+			}, -- [18]
 			{
 				["elapsed"] = 7.133999999845401,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:20:53",
-			}, -- [18]
+			}, -- [19]
 			{
 				["elapsed"] = 8.216000000014901,
 				["type"] = 0,
 				["name"] = "地精刺客",
 				["clock"] = "00:20:40",
-			}, -- [19]
+			}, -- [20]
 			{
 				["elapsed"] = 5.716000000014901,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:19:41",
-			}, -- [20]
+			}, -- [21]
 			{
 				["elapsed"] = 4.549999999813736,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:19:26",
-			}, -- [21]
+			}, -- [22]
 			{
 				["elapsed"] = 2.567000000039116,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:19:06",
-			}, -- [22]
+			}, -- [23]
 			{
 				["elapsed"] = 5.734000000171363,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:18:52",
-			}, -- [23]
+			}, -- [24]
 			{
 				["elapsed"] = 2.216999999945983,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:18:43",
-			}, -- [24]
+			}, -- [25]
 			{
 				["elapsed"] = 5.866999999852851,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:18:29",
-			}, -- [25]
+			}, -- [26]
 			{
 				["elapsed"] = 4.800000000046566,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:18:18",
-			}, -- [26]
+			}, -- [27]
 			{
 				["elapsed"] = 5.699999999953434,
 				["type"] = 0,
 				["name"] = "黑石间谍",
 				["clock"] = "00:18:05",
-			}, -- [27]
+			}, -- [28]
 			{
 				["elapsed"] = 4.733999999938533,
 				["type"] = 0,
 				["name"] = "黑石战狼",
 				["clock"] = "00:17:25",
-			}, -- [28]
+			}, -- [29]
 			{
 				["elapsed"] = 5.467000000178814,
 				["type"] = 0,
 				["name"] = "黑石战狼",
 				["clock"] = "00:17:10",
-			}, -- [29]
+			}, -- [30]
 			{
 				["elapsed"] = 6.067000000039116,
 				["type"] = 0,
 				["name"] = "黑石战狼",
 				["clock"] = "00:17:01",
-			}, -- [30]
+			}, -- [31]
 			{
 				["elapsed"] = 4.950999999884516,
 				["type"] = 0,
 				["name"] = "黑石战狼",
 				["clock"] = "00:16:53",
-			}, -- [31]
+			}, -- [32]
 			{
 				["elapsed"] = 4.483999999938533,
 				["type"] = 0,
 				["name"] = "黑石战狼",
 				["clock"] = "00:16:46",
-			}, -- [32]
+			}, -- [33]
 			{
 				["elapsed"] = 5.733999999938533,
 				["type"] = 0,
 				["name"] = "黑石战狼",
 				["clock"] = "00:16:36",
-			}, -- [33]
+			}, -- [34]
 		},
 		["tempo_start"] = 1653581796,
 		["cleu_timeline"] = {
@@ -11537,7 +11988,7 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 33,
 		["totals"] = {
-			1708.384331, -- [1]
+			1715.407819, -- [1]
 			-0.002189000000002446, -- [2]
 			{
 				-0.006524000000013075, -- [1]
@@ -11567,11 +12018,11 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = "00:16:36",
-		["end_time"] = 1172015.88,
+		["end_time"] = 76657.831,
 		["last_events_tables"] = {
 		},
 		["totals_grupo"] = {
-			1481.160467, -- [1]
+			1488.167134, -- [1]
 			0.008331, -- [2]
 			{
 				0, -- [1]
@@ -11609,13 +12060,13 @@ _detalhes_database = {
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
-		["data_fim"] = "00:34:09",
+		["data_fim"] = "00:26:25",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
 		["frags"] = {
 		},
-		["start_time"] = 1171787.803,
+		["start_time"] = 76428.32100000019,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
@@ -11627,7 +12078,7 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 15,
+		["logons"] = 17,
 	},
 	["force_font_outline"] = "",
 	["announce_firsthit"] = {
@@ -11650,6 +12101,8 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-829-059192A3"] = 1449,
+		["Player-817-048AAA3C"] = 65,
+		["Player-3755-03EFF063"] = 261,
+		["Player-829-059192A3"] = 64,
 	},
 }

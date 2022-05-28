@@ -4,7 +4,7 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"杜一航|燃烧之刃|Horde|60|DEATHKNIGHT", -- [1]
-				"林声川|燃烧之刃|Alliance|5|MAGE", -- [2]
+				"林声川|燃烧之刃|Alliance|60|MAGE", -- [2]
 				"薇羽|冰风岗|Horde|60|MAGE", -- [3]
 				"薇羽|影之哀伤|Horde|60|WARRIOR", -- [4]
 				"蝶舞菲菲|冰风岗|Horde|60|DRUID", -- [5]

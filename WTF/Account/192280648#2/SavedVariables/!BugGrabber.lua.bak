@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 3946,
+	["session"] = 3950,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -42,27 +42,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [5]
 		{
-			["message"] = "[string \"Error in: 冰龙吐息/龙喷计时':'custo...\"]:5: attempt to perform arithmetic on field 'startTime' (a nil value)",
-			["time"] = "2022/05/08 20:23:33",
-			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
-			["session"] = 3920,
-			["counter"] = 20,
-		}, -- [6]
-		{
-			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'WeakAuras' 尝试调用保护功能 '<unnamed>:ClearAllPoints()'。",
-			["time"] = "2022/05/08 20:23:33",
-			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:45: in function `SetAnchorPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1078: in function `DoPositionChildrenPerFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1194: in function `DoPositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1056: in function `PositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1037: in function `SortUpdatedChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:842: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3906: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4000: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:752: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:708: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:2386: in function `CheckItemSlotCooldowns'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1970: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:1946>",
-			["session"] = 3920,
-			["counter"] = 17,
-		}, -- [7]
-		{
 			["message"] = "...face\\AddOns\\Details\\Libs\\LibOpenRaid\\LibOpenRaid.lua:256: attempt to get length of local 'callbackTable' (a nil value)",
 			["time"] = "2022/05/14 02:12:51",
 			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n}\nevent = \"CHAT_MSG_ADDON\"\nprefix = \"LRS\"\ntext = \"�1�170bsC#�\"\nchannel = \"PARTY\"\nsender = \"夜狂热-恶魔之魂\"\ntarget = \"夜狂热-恶魔之魂\"\nzoneChannelID = 0\nlocalID = 0\nname = \"\"\ninstanceID = 0\nplayerName = \"杜一航\"\ndata = \"V,3,707,708,712\"\nLibDeflate = <table> {\n DecodeForWoWChatChannel = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:3172\n _MAJOR = \"LibDeflate\"\n CompressZlib = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2054\n EncodeForWoWAddonChannel = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:3088\n _VERSION = \"1.0.2-release\"\n CreateCodec = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2918\n DecompressZlibWithDict = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2808\n _COPYRIGHT = \"LibDeflate 1.0.2-release Copyright (C) 2018-2020 Haoqian He. Licensed under the zlib License\"\n CompressZlibWithDict = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2076\n internals = <table> {\n }\n CompressDeflate = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2008\n EncodeForPrint = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:3221\n EncodeForWoWChatChannel = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:3157\n DecompressDeflate = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2732\n DecodeForWoWAddonChannel = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:3103\n DecodeForPrint = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:3276\n Adler32 = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:349\n CreateDictionary = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:437\n CompressDeflateWithDict = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2033\n DecompressZlib = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2781\n _MINOR = 3\n DecompressDeflateWithDict = <function> defined @Interface\\AddOns\\Altoholic\\Libs\\LibDeflate\\LibDeflate.lua:2759\n}\ndataCompressed = \"�1�170bsC#�\"\ndataTypePrefix = \"V\"\ncallbackTable = nil\ndataAsTable = <table> {\n 1 = \"3\"\n 2 = \"707\"\n 3 = \"708\"\n 4 = \"712\"\n}\n(*temporary) = 1\n(*temporary) = <table> {\n 1 = \"3\"\n 2 = \"707\"\n 3 = \"708\"\n 4 = \"712\"\n}\n(*temporary) = 1\n(*temporary) = \"V\"\n(*temporary) = nil\n(*temporary) = \"712\"\n(*temporary) = 0\n(*temporary) = \"attempt to get length of local 'callbackTable' (a nil value)\"\nCONST_COMM_PREFIX = \"LRS\"\nopenRaidLib = <table> {\n GetPlayerSpecId = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:83\n GetPlayerTalents = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:120\n commHandler = <table> {\n }\n IsInGroup = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:215\n IsCommAllowed = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:163\n gearManager = <table> {\n }\n sendRequestedAllInfoCooldown = 54731.219000\n specAttribute = <table> {\n }\n UnpackTable = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:182\n TCopy = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:137\n RequestAllPlayersInfo = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:713\n playerAlive = true\n requestAllInfoCooldown = 54730.986000\n playerInfoManager = <table> {\n }\n cooldownManager = <table> {\n }\n PackTable = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:145\n RegisterCallback = <function> defined @Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:445\n internalCallback = <table> {\n }\n Schedules = <table> {\n }\n UnregisterCallback = <func",
 			["stack"] = "[string \"@Interface\\AddOns\\Details\\Libs\\LibOpenRaid\\LibOpenRaid.lua\"]:256: in function <...face\\AddOns\\Details\\Libs\\LibOpenRaid\\LibOpenRaid.lua:223>",
 			["session"] = 3920,
 			["counter"] = 132,
-		}, -- [8]
+		}, -- [6]
 		{
 			["message"] = "...lvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:259: attempt to get length of local 'callbackTable' (a nil value)",
 			["time"] = "2022/05/14 02:12:51",
@@ -70,7 +56,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua\"]:259: in function <...lvUI_WindTools\\Libraries\\LibOpenRaid\\LibOpenRaid.lua:226>",
 			["session"] = 3920,
 			["counter"] = 132,
-		}, -- [9]
+		}, -- [7]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\class_damage.lua:384: attempt to compare number with nil",
 			["time"] = "2022/05/26 23:07:34",
@@ -78,7 +64,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Details\\classes\\class_damage.lua\"]:384: in function `GameTooltipSetSpellByID'\n[string \"@Interface\\AddOns\\Details\\frames\\window_playerbreakdown.lua\"]:2704: in function <...ace\\AddOns\\Details\\frames\\window_playerbreakdown.lua:2702>",
 			["session"] = 3922,
 			["counter"] = 15,
-		}, -- [10]
+		}, -- [8]
 		{
 			["message"] = "...ace\\AddOns\\Details\\frames\\window_playerbreakdown.lua:2711: bad argument #1 to 'unpack' (table expected, got nil)",
 			["time"] = "2022/05/26 23:07:34",
@@ -86,7 +72,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `unpack'\n[string \"@Interface\\AddOns\\Details\\frames\\window_playerbreakdown.lua\"]:2711: in function <...ace\\AddOns\\Details\\frames\\window_playerbreakdown.lua:2709>",
 			["session"] = 3922,
 			["counter"] = 18,
-		}, -- [11]
+		}, -- [9]
 		{
 			["message"] = "...ace\\AddOns\\Details\\frames\\window_playerbreakdown.lua:2903: attempt to perform arithmetic on field 'uptime' (a nil value)",
 			["time"] = "2022/05/16 22:40:00",
@@ -94,7 +80,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Details\\frames\\window_playerbreakdown.lua\"]:2903: in function `fillfunction'\n[string \"@Interface\\AddOns\\Details\\frames\\window_playerbreakdown.lua\"]:5091: in function <...ace\\AddOns\\Details\\frames\\window_playerbreakdown.lua:5086>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Details\\frames\\window_playerbreakdown.lua\"]:5131: in function `OnShowFunc'\n[string \"@Interface\\AddOns\\Details\\frames\\window_playerbreakdown.lua\"]:339: in function `AbreJanelaInfo'\n[string \"@Interface\\AddOns\\Details\\frames\\window_main.lua\"]:2014: in function <Interface\\AddOns\\Details\\frames\\window_main.lua:1965>",
 			["session"] = 3922,
 			["counter"] = 34,
-		}, -- [12]
+		}, -- [10]
 		{
 			["message"] = "...\\Modules\\Nameplates\\Elements\\RaidTargetIndicator.lua:32: attempt to call method 'IsElementEnabled' (a nil value)",
 			["time"] = "2022/05/19 02:46:31",
@@ -102,7 +88,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Elements\\RaidTargetIndicator.lua\"]:32: in function `Update_RaidTargetIndicator'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:333: in function `UpdatePlate'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:691: in function `UpdatePlateBase'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:712: in function `NamePlateCallBack'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:938: in function <...\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua:937>\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua\"]:829: in function <Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua:806>",
 			["session"] = 3932,
 			["counter"] = 20,
-		}, -- [13]
+		}, -- [11]
 		{
 			["message"] = "Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua:3467: attempt to call method 'Show' (a nil value)",
 			["time"] = "2022/05/19 02:46:31",
@@ -110,7 +96,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua\"]:3467: in function `func'\n[string \"@Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua\"]:3902: in function `EventHandler'\n[string \"@Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua\"]:3913: in function `RunFunctionForEvent'\n[string \"@Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua\"]:1746: in function <Interface\\AddOns\\Plater\\Plater.lua:1723>\n[string \"@Interface\\SharedXML\\C_TimerAugment.lua\"]:16: in function <Interface\\SharedXML\\C_TimerAugment.lua:14>",
 			["session"] = 3932,
 			["counter"] = 6,
-		}, -- [14]
+		}, -- [12]
 		{
 			["message"] = "Interface\\AddOns\\Plater\\libs\\DF\\panel.lua:9312: attempt to call method 'Hide' (a nil value)",
 			["time"] = "2022/05/27 00:05:03",
@@ -118,7 +104,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Plater\\libs\\DF\\panel.lua\"]:9312: in function `SetUnit'\n[string \"@Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua\"]:3464: in function `func'\n[string \"@Interface\\AddOns\\Plater\\Plater-Plater-v349-Retail.lua\"]:3902: in function <Interface\\AddOns\\Plater\\Plater.lua:3898>",
 			["session"] = 3932,
 			["counter"] = 3,
-		}, -- [15]
+		}, -- [13]
 		{
 			["message"] = "...\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua:765: attempt to index field 'RaisedElement' (a nil value)",
 			["time"] = "2022/05/19 02:46:31",
@@ -126,7 +112,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:765: in function `NamePlateCallBack'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:938: in function <...\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua:937>\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua\"]:852: in function <Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua:806>",
 			["session"] = 3935,
 			["counter"] = 40,
-		}, -- [16]
+		}, -- [14]
 		{
 			["message"] = "...\\ElvUI\\Core\\Modules\\Nameplates\\Elements\\BossMods.lua:195: attempt to index local 'element' (a nil value)",
 			["time"] = "2022/05/19 02:46:31",
@@ -134,7 +120,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Elements\\BossMods.lua\"]:195: in function `BossMods_UpdateIcon'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:796: in function `NamePlateCallBack'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua\"]:938: in function <...\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Nameplates.lua:937>\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua\"]:865: in function <Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\ouf.lua:806>",
 			["session"] = 3935,
 			["counter"] = 32,
-		}, -- [17]
+		}, -- [15]
 		{
 			["message"] = "Interface\\AddOns\\Blizzard_GMChatUI\\Localization.lua:3: attempt to index global 'GMChatStatusFrameDescription' (a nil value)",
 			["time"] = "2022/05/27 03:45:18",
@@ -142,12 +128,41 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_GMChatUI\\Localization.lua\"]:3: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:544: in function `UIParentLoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:690: in function `GMChatFrame_LoadUI'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2103: in function <Interface\\FrameXML\\UIParent.lua:1337>",
 			["session"] = 3945,
 			["counter"] = 1,
-		}, -- [18]
+		}, -- [16]
 		{
 			["message"] = "(null)",
 			["session"] = 3945,
 			["time"] = "2022/05/27 03:45:18",
 			["counter"] = 3,
+		}, -- [17]
+		{
+			["message"] = "<unnamed>:SetPoint(): Wrong object type for function",
+			["time"] = "2022/05/27 03:58:41",
+			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:297: in function <...ace\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua:288>\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:315: in function `SetAnchor'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:5062: in function `AnchorFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:581: in function `modify'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:792: in function `modify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2878: in function `SetRegion'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2694: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:2654>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2800: in function `Add'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2290: in function `load'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:2297: in function `AddMany'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.1.lua\"]:1067: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1039>",
+			["session"] = 3950,
+			["counter"] = 8,
+		}, -- [18]
+		{
+			["message"] = "...erface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:50: <unnamed>:SetPoint(): Wrong object type for function",
+			["time"] = "2022/05/27 03:58:44",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n point = \"CENTER\"\n totalOffsetY = 14.137295\n SetAnchorPoint = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:44\n regionData = <table> {\n }\n relativeFrame = <table> {\n }\n totalOffsetX = 226.632329\n offsetX = 226.632329\n relativePoint = \"TOP\"\n ClearAnchorPoint = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:55\n offsetY = 14.137295\n ReAnchor = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:58\n SetOffsetAnim = <function> defined @Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua:67\n}\n(*temporary) = \"CENTER\"\n(*temporary) = <table> {\n}\n(*temporary) = \"TOP\"\n(*temporary) = 226.632329\n(*temporary) = 14.137295\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:50: in function `SetAnchorPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1078: in function `DoPositionChildrenPerFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1194: in function `DoPositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\Animations.lua\"]:20: in function <Interface\\AddOns\\WeakAuras\\Animations.lua:15>",
+			["session"] = 3950,
+			["counter"] = 4,
 		}, -- [19]
+		{
+			["message"] = "[string \"Error in: 冰龙吐息/龙喷计时':'custo...\"]:5: attempt to perform arithmetic on field 'startTime' (a nil value)",
+			["time"] = "2022/05/08 20:23:33",
+			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4042: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3808: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3805>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3900: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3983: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1588: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1580>\n[string \"@Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua\"]:1924: in function <Interface\\AddOns\\WeakAuras\\BuffTrigger2.lua:1917>",
+			["session"] = 3950,
+			["counter"] = 21,
+		}, -- [20]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'WeakAuras' 尝试调用保护功能 '<unnamed>:ClearAllPoints()'。",
+			["time"] = "2022/05/08 20:23:33",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:45: in function `SetAnchorPoint'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1078: in function `DoPositionChildrenPerFrame'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1194: in function `DoPositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1056: in function `PositionChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:1037: in function `SortUpdatedChildren'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\DynamicGroup.lua\"]:842: in function `Resume'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:3906: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3862>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.16.lua\"]:4000: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:752: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:708: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:2386: in function `CheckItemSlotCooldowns'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:1970: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:1946>",
+			["session"] = 3950,
+			["counter"] = 18,
+		}, -- [21]
 	},
 }

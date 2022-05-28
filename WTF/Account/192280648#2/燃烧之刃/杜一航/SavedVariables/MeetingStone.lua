@@ -5,10 +5,11 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["杜一航 - 燃烧之刃"] = {
+			["lastSearchCode"] = "2-260-695-0",
 			["minimap"] = {
 				["hide"] = false,
 			},
-			["lastSearchCode"] = "2-260-695-0",
+			["appShine"] = "90200.01",
 			["version"] = "90200.01",
 			["settings"] = {
 				["storage"] = {
@@ -231,6 +232,38 @@ MEETINGSTONE_CHARACTER_DB = {
 						["class"] = 3,
 						["bTag"] = "司徒#5874",
 					}, -- [26]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "Avernus-利刃之拳",
+						["iLvl"] = 275,
+						["time"] = 1653754978,
+						["class"] = 9,
+						["leader"] = true,
+						["bTag"] = "Valkyrien#51669",
+					}, -- [27]
+					{
+						["role"] = "TANK",
+						["name"] = "閃電旋风劈-格瑞姆巴托",
+						["iLvl"] = 261,
+						["time"] = 1653754978,
+						["class"] = 1,
+						["bTag"] = "Legerdery#5930",
+					}, -- [28]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "高温-燃烧之刃",
+						["iLvl"] = 263,
+						["time"] = 1653754978,
+						["class"] = 3,
+						["bTag"] = "黑手#5926",
+					}, -- [29]
+					{
+						["role"] = "HEALER",
+						["name"] = "二目细-燃烧之刃",
+						["iLvl"] = 272,
+						["time"] = 1653754978,
+						["class"] = 11,
+					}, -- [30]
 				},
 				["6-0-16-0"] = {
 					{
@@ -897,6 +930,39 @@ MEETINGSTONE_CHARACTER_DB = {
 						["class"] = 2,
 						["bTag"] = "叫我豆包#5693",
 					}, -- [51]
+					{
+						["role"] = "TANK",
+						["name"] = "吮指原味虾-白银之手",
+						["iLvl"] = 267,
+						["time"] = 1653752881,
+						["class"] = 10,
+						["leader"] = true,
+						["bTag"] = "学习先锋皮皮虾#5458",
+					}, -- [52]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "时光幽梦-死亡之翼",
+						["iLvl"] = 278,
+						["time"] = 1653752881,
+						["class"] = 8,
+						["bTag"] = "爷丶风采依旧#5763",
+					}, -- [53]
+					{
+						["role"] = "HEALER",
+						["name"] = "暴力尐野獸-燃烧之刃",
+						["iLvl"] = 268,
+						["time"] = 1653752881,
+						["class"] = 11,
+						["bTag"] = "唓哩吇#51482",
+					}, -- [54]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "Past-迦拉克隆",
+						["iLvl"] = 275,
+						["time"] = 1653752881,
+						["class"] = 9,
+						["bTag"] = "Nix#5673",
+					}, -- [55]
 				},
 			},
 			["searchHistoryList"] = {

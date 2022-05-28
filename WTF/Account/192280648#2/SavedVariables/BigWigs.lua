@@ -36,7 +36,13 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
 		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -52,6 +58,14 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_AltPower"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["薇羽Anne"] = {
+					["disabled"] = false,
+					["exitCombat"] = 1,
+				},
+			},
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -73,27 +87,13 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_BossBlock"] = {
+		},
 		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["薇羽Anne"] = {
-					["disabled"] = false,
-					["exitCombat"] = 1,
-				},
-			},
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
-		},
 		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
 		},
 	},
 	["global"] = {
@@ -122,6 +122,14 @@ BigWigsStatsDB = {
 			["normal"] = {
 				["best"] = 103.873,
 				["kills"] = 1,
+			},
+		},
+	},
+	[603] = {
+		[1649] = {
+			["normal"] = {
+				["best"] = 65.55,
+				["kills"] = 12,
 			},
 		},
 	},
@@ -223,14 +231,6 @@ BigWigsStatsDB = {
 			["heroic"] = {
 				["best"] = 16.363,
 				["kills"] = 1,
-			},
-		},
-	},
-	[603] = {
-		[1649] = {
-			["normal"] = {
-				["best"] = 65.55,
-				["kills"] = 12,
 			},
 		},
 	},
