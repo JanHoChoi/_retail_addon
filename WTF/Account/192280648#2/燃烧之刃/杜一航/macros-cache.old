@@ -6,6 +6,13 @@ VER 3 0100000000000004 "死亡之握" "237532"
 #showtooltips
 /cast [modifier:shift,target=focus] 死亡之握;死亡之握
 END
+VER 3 0100000000000006 "龙喷防手滑宏" "INV_Misc_QuestionMark"
+#showtooltips 冰龙吐息
+/cast !冰龙吐息
+/cast 亡者复生\
+/use 13
+/use 14
+END
 VER 3 0100000000000001 "龙喷防手滑宏" "1029007"
 #showtooltips 冰龙吐息
 /cast !冰龙吐息

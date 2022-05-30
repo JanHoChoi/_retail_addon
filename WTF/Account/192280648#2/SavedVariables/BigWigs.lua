@@ -34,15 +34,13 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
+		["BigWigs_Bosses_Tazavesh Trash"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Bosses_Zo'phex the Sentinel"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -59,17 +57,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["薇羽Anne"] = {
-					["disabled"] = false,
-					["exitCombat"] = 1,
-				},
-			},
-		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
@@ -81,19 +71,33 @@ BigWigs3DB = {
 				},
 				["薇羽Anne"] = {
 					["BigWigsAnchor_width"] = 220.0003662109375,
-					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 					["BigWigsEmphasizeAnchor_height"] = 21.99993133544922,
 					["BigWigsAnchor_height"] = 16.00011825561523,
+					["BigWigsEmphasizeAnchor_width"] = 319.9997253417969,
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["薇羽Anne"] = {
+					["disabled"] = false,
+					["exitCombat"] = 1,
+				},
+			},
+		},
 		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 	},
 	["global"] = {
@@ -122,14 +126,6 @@ BigWigsStatsDB = {
 			["normal"] = {
 				["best"] = 103.873,
 				["kills"] = 1,
-			},
-		},
-	},
-	[603] = {
-		[1649] = {
-			["normal"] = {
-				["best"] = 65.55,
-				["kills"] = 12,
 			},
 		},
 	},
@@ -231,6 +227,14 @@ BigWigsStatsDB = {
 			["heroic"] = {
 				["best"] = 16.363,
 				["kills"] = 1,
+			},
+		},
+	},
+	[603] = {
+		[1649] = {
+			["normal"] = {
+				["best"] = 65.55,
+				["kills"] = 12,
 			},
 		},
 	},

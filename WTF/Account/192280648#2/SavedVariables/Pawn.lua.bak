@@ -99,16 +99,16 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
-				["林声川-燃烧之刃"] = {
+				["薇羽-冰风岗"] = {
 					["Visible"] = true,
 				},
-				["小猪啾啾-塞拉赞恩"] = {
+				["林声川-燃烧之刃"] = {
 					["Visible"] = true,
 				},
 				["小猪丽娜-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
-				["薇羽-冰风岗"] = {
+				["小猪啾啾-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 			},

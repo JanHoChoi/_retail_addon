@@ -148,8 +148,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 330,
 				["HonorLevel"] = 0,
 			},
-			["尼奥罗萨，觉醒之城（英雄）"] = {
-				["ItemLevel"] = 465,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["麦卡贡垃圾场（英雄）"] = {
@@ -164,8 +164,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 475,
+			["尼奥罗萨，觉醒之城（英雄）"] = {
+				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
 			["维克雷斯庄园（史诗）"] = {
@@ -180,8 +180,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 0,
+			["阿塔达萨（史诗钥石）"] = {
+				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
 			["地渊孢林（史诗钥石）"] = {
@@ -256,11 +256,6 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["max"] = 0,
 				},
-				["Members"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
 				["ItemLevel"] = {
 					["max"] = 0,
 					["enable"] = false,
@@ -270,6 +265,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["min"] = 0,
 					["max"] = 0,
+				},
+				["Members"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
 				},
 			},
 			[6] = {
@@ -305,11 +305,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["min"] = 0,
 				},
-				["Age"] = {
-					["enable"] = false,
-					["min"] = 0,
-					["max"] = 0,
-				},
 				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
@@ -319,6 +314,11 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 					["min"] = 0,
+				},
+				["Age"] = {
+					["enable"] = false,
+					["min"] = 0,
+					["max"] = 0,
 				},
 			},
 			[2] = {
@@ -361,8 +361,9 @@ MEETINGSTONE_UI_DB = {
 		["郭可盈 - 冰风岗"] = "Default",
 		["柳絮菲菲 - 影之哀伤"] = "Default",
 		["雪舞薇薇 - 阿比迪斯"] = "Default",
-		["柳絮菲菲 - 冰风岗"] = "Default",
 		["薇羽 - 冰风岗"] = "Default",
+		["柳絮菲菲 - 冰风岗"] = "Default",
+		["张天驰 - 燃烧之刃"] = "Default",
 		["安杰利娜朱莉 - 斯克提斯"] = "Default",
 		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
@@ -380,8 +381,8 @@ MEETINGSTONE_UI_DB = {
 	["FILTER_DAMAGE"] = false,
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = 14.5186653137207,
-	["x"] = -51.85153579711914,
+	["y"] = 26.37044715881348,
+	["x"] = 0.8892843723297119,
 	["a2"] = "CENTER",
 	["a1"] = "CENTER",
 	["QuickJoin"] = true,

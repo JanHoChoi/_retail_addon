@@ -67,16 +67,15 @@ MythicDungeonToolsDB = {
 				}, -- [12]
 			},
 		},
-		["anchorFrom"] = "CENTER",
+		["anchorFrom"] = "RIGHT",
 		["minimap"] = {
 			["minimapPos"] = 212.39429869343,
 		},
 		["nonFullscreenScale"] = 1.0974513698269,
 		["MDI"] = {
 		},
-		["dataCollection"] = {
-		},
-		["anchorTo"] = "CENTER",
+		["anchorTo"] = "RIGHT",
+		["currentDifficulty"] = 16,
 		["maximized"] = false,
 		["presets"] = {
 			{
@@ -1148,21 +1147,21 @@ MythicDungeonToolsDB = {
 						["currentDungeonIdx"] = 15,
 						["riftOffsets"] = {
 							[6] = {
-								[161124] = {
-									["y"] = -262.43050160719,
-									["x"] = 464.03844005347,
-								},
 								[161244] = {
 									["y"] = -90.242875385405,
 									["x"] = 477.21946173522,
+								},
+								[161241] = {
+									["y"] = -436.05368456598,
+									["x"] = 494.69875991526,
 								},
 								[161243] = {
 									["y"] = -141.90017431522,
 									["x"] = 452.26127276456,
 								},
-								[161241] = {
-									["y"] = -436.05368456598,
-									["x"] = 494.69875991526,
+								[161124] = {
+									["y"] = -262.43050160719,
+									["x"] = 464.03844005347,
 								},
 							},
 						},
@@ -1541,21 +1540,21 @@ MythicDungeonToolsDB = {
 						["currentPull"] = 1,
 						["riftOffsets"] = {
 							[6] = {
-								[161241] = {
-									["y"] = -448.06499805472,
-									["x"] = 497.52905942844,
-								},
 								[161124] = {
 									["y"] = -272.73357986834,
 									["x"] = 348.66231621515,
+								},
+								[161244] = {
+									["y"] = -92.298652882314,
+									["x"] = 441.70142438254,
 								},
 								[161243] = {
 									["y"] = -156.62858325174,
 									["x"] = 441.57428357958,
 								},
-								[161244] = {
-									["y"] = -92.298652882314,
-									["x"] = 441.70142438254,
+								[161241] = {
+									["y"] = -448.06499805472,
+									["x"] = 497.52905942844,
 								},
 							},
 							[9] = {
@@ -2590,17 +2589,9 @@ MythicDungeonToolsDB = {
 						["currentPull"] = 1,
 						["riftOffsets"] = {
 							[7] = {
-								[161244] = {
-									["y"] = -430.72853395527,
-									["x"] = 559.95264435968,
-								},
 								[161241] = {
 									["y"] = -151.87481273502,
 									["x"] = 333.49825295729,
-								},
-								[161243] = {
-									["y"] = -352.80001353194,
-									["x"] = 405.65938171659,
 								},
 								[161124] = {
 									["y"] = -73.186084891166,
@@ -2614,6 +2605,14 @@ MythicDungeonToolsDB = {
 									["x"] = 334.71010396264,
 									["sublevel"] = 2,
 									["homeSublevel"] = 1,
+								},
+								[161243] = {
+									["y"] = -352.80001353194,
+									["x"] = 405.65938171659,
+								},
+								[161244] = {
+									["y"] = -430.72853395527,
+									["x"] = 559.95264435968,
 								},
 							},
 							[12] = {
@@ -2874,21 +2873,21 @@ MythicDungeonToolsDB = {
 						},
 						["riftOffsets"] = {
 							[6] = {
-								[161124] = {
-									["y"] = -427.6031618467,
-									["x"] = 445.82931342408,
-								},
 								[161241] = {
 									["y"] = -274.79475953682,
 									["x"] = 298.04979529172,
+								},
+								[161244] = {
+									["y"] = -128.90156478118,
+									["x"] = 472.41132509529,
 								},
 								[161243] = {
 									["y"] = -196.88492035948,
 									["x"] = 594.31279323435,
 								},
-								[161244] = {
-									["y"] = -128.90156478118,
-									["x"] = 472.41132509529,
+								[161124] = {
+									["y"] = -427.6031618467,
+									["x"] = 445.82931342408,
 								},
 							},
 						},
@@ -2973,13 +2972,13 @@ MythicDungeonToolsDB = {
 								},
 							},
 							[6] = {
-								[161124] = {
-									["y"] = -274.16349660662,
-									["x"] = 610.18680556429,
-								},
 								[161241] = {
 									["y"] = -89.589325754907,
 									["x"] = 479.17027892883,
+								},
+								[161244] = {
+									["y"] = -296.80002727071,
+									["x"] = 426.36024187002,
 								},
 								[161243] = {
 									["y"] = -113.04200019451,
@@ -2994,27 +2993,27 @@ MythicDungeonToolsDB = {
 									["sublevel"] = 2,
 									["homeSublevel"] = 1,
 								},
-								[161244] = {
-									["y"] = -296.80002727071,
-									["x"] = 426.36024187002,
+								[161124] = {
+									["y"] = -274.16349660662,
+									["x"] = 610.18680556429,
 								},
 							},
 							[4] = {
-								[161124] = {
-									["y"] = -276.53680741729,
-									["x"] = 628.9022481766,
-								},
 								[161241] = {
 									["y"] = -113.86331987718,
 									["x"] = 326.03398839227,
+								},
+								[161244] = {
+									["y"] = -129.78945543705,
+									["x"] = 414.66464820742,
 								},
 								[161243] = {
 									["y"] = -295.46097811235,
 									["x"] = 418.84619072227,
 								},
-								[161244] = {
-									["y"] = -129.78945543705,
-									["x"] = 414.66464820742,
+								[161124] = {
+									["y"] = -276.53680741729,
+									["x"] = 628.9022481766,
 								},
 							},
 						},
@@ -3321,21 +3320,21 @@ MythicDungeonToolsDB = {
 						["currentSublevel"] = 1,
 						["riftOffsets"] = {
 							[4] = {
-								[161241] = {
-									["y"] = -284.04251348771,
-									["x"] = 498.88889100862,
-								},
 								[161244] = {
 									["y"] = -325.63921846822,
 									["x"] = 483.47162799178,
+								},
+								[161124] = {
+									["y"] = -138.33900551937,
+									["x"] = 518.66164421981,
 								},
 								[161243] = {
 									["y"] = -342.91013456814,
 									["x"] = 559.8839817284,
 								},
-								[161124] = {
-									["y"] = -138.33900551937,
-									["x"] = 518.66164421981,
+								[161241] = {
+									["y"] = -284.04251348771,
+									["x"] = 498.88889100862,
 								},
 							},
 						},
@@ -3352,9 +3351,6 @@ MythicDungeonToolsDB = {
 									1, -- [1]
 								},
 								["color"] = "00fff8",
-								[16] = {
-									1, -- [1]
-								},
 								[9] = {
 									2, -- [1]
 									3, -- [2]
@@ -3367,6 +3363,9 @@ MythicDungeonToolsDB = {
 									10, -- [9]
 								},
 								[5] = {
+									1, -- [1]
+								},
+								[16] = {
 									1, -- [1]
 								},
 							}, -- [1]
@@ -3705,21 +3704,21 @@ MythicDungeonToolsDB = {
 						["currentSublevel"] = 1,
 						["riftOffsets"] = {
 							[4] = {
-								[161124] = {
-									["y"] = -138.33900551937,
-									["x"] = 518.66164421981,
-								},
 								[161241] = {
 									["y"] = -284.04251348771,
 									["x"] = 498.88889100862,
+								},
+								[161244] = {
+									["y"] = -325.63921846822,
+									["x"] = 483.47162799178,
 								},
 								[161243] = {
 									["y"] = -342.91013456814,
 									["x"] = 559.8839817284,
 								},
-								[161244] = {
-									["y"] = -325.63921846822,
-									["x"] = 483.47162799178,
+								[161124] = {
+									["y"] = -138.33900551937,
+									["x"] = 518.66164421981,
 								},
 							},
 						},
@@ -3736,9 +3735,6 @@ MythicDungeonToolsDB = {
 									1, -- [1]
 								},
 								["color"] = "00fff8",
-								[16] = {
-									1, -- [1]
-								},
 								[9] = {
 									2, -- [1]
 									3, -- [2]
@@ -3751,6 +3747,9 @@ MythicDungeonToolsDB = {
 									10, -- [9]
 								},
 								[5] = {
+									1, -- [1]
+								},
+								[16] = {
 									1, -- [1]
 								},
 							}, -- [1]
@@ -4178,21 +4177,21 @@ MythicDungeonToolsDB = {
 						["currentPull"] = 1,
 						["riftOffsets"] = {
 							[2] = {
-								[161241] = {
-									["y"] = -224.34330576929,
-									["x"] = 645.11133066421,
-								},
 								[161244] = {
 									["y"] = -173.30068811041,
 									["x"] = 417.49721203072,
+								},
+								[161124] = {
+									["y"] = -303.10089271397,
+									["x"] = 268.43372409536,
 								},
 								[161243] = {
 									["y"] = -264.5468046777,
 									["x"] = 486.604199893,
 								},
-								[161124] = {
-									["y"] = -303.10089271397,
-									["x"] = 268.43372409536,
+								[161241] = {
+									["y"] = -224.34330576929,
+									["x"] = 645.11133066421,
 								},
 							},
 						},
@@ -4218,8 +4217,12 @@ MythicDungeonToolsDB = {
 			{
 				{
 					["mdiEnabled"] = false,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["week"] = 3,
-					["difficulty"] = 16,
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -4240,25 +4243,25 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
+					["difficulty"] = 16,
 					["objects"] = {
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
 					},
 				}, -- [1]
 			}, -- [29]
 			{
 				{
 					["mdiEnabled"] = false,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["week"] = 10,
-					["difficulty"] = 16,
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
 						},
-						["currentSublevel"] = 1,
+						["currentSublevel"] = 3,
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
@@ -4277,21 +4280,16 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
+					["difficulty"] = 16,
 					["objects"] = {
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
 					},
 				}, -- [1]
 			}, -- [30]
 			{
 				{
 					["mdiEnabled"] = false,
+					["difficulty"] = 16,
 					["week"] = 1,
-					["objects"] = {
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -4310,19 +4308,24 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["difficulty"] = 16,
 					["mdi"] = {
 						["freeholdJoined"] = false,
 						["beguiling"] = 1,
 						["freehold"] = 1,
+					},
+					["objects"] = {
 					},
 				}, -- [1]
 			}, -- [31]
 			{
 				{
 					["mdiEnabled"] = false,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["week"] = 1,
-					["difficulty"] = 16,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 2,
@@ -4341,12 +4344,8 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["difficulty"] = 16,
 					["objects"] = {
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
 					},
 				}, -- [1]
 			}, -- [32]
@@ -4354,8 +4353,12 @@ MythicDungeonToolsDB = {
 			{
 				{
 					["mdiEnabled"] = false,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["week"] = 1,
-					["difficulty"] = 16,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 4,
@@ -4374,12 +4377,8 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["difficulty"] = 16,
 					["objects"] = {
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
 					},
 				}, -- [1]
 			}, -- [34]
@@ -4393,7 +4392,35 @@ MythicDungeonToolsDB = {
 				}, -- [1]
 				{
 					["mdiEnabled"] = false,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "Default 2",
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 					["week"] = 7,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 3,
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 35,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[7] = {
+							},
+						},
+					},
 					["difficulty"] = 10,
 					["objects"] = {
 						{
@@ -4459,48 +4486,53 @@ MythicDungeonToolsDB = {
 							},
 						}, -- [2]
 					},
-					["value"] = {
-						["currentPull"] = 1,
-						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
-						},
-						["currentDungeonIdx"] = 35,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["riftOffsets"] = {
-							[7] = {
-							},
-						},
-					},
-					["text"] = "Default 2",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
-					},
 				}, -- [2]
 				{
 					["value"] = 0,
 					["text"] = "<New Preset>",
 				}, -- [3]
 			}, -- [35]
-			[37] = {
+			{
 				{
 					["mdiEnabled"] = false,
-					["week"] = 4,
-					["difficulty"] = 16,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["week"] = 1,
 					["value"] = {
 						["currentPull"] = 1,
-						["currentSublevel"] = 3,
+						["currentSublevel"] = 5,
+						["selection"] = {
+							1, -- [1]
+						},
+						["currentDungeonIdx"] = 36,
+						["teeming"] = false,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+						},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+					},
+					["difficulty"] = 16,
+					["objects"] = {
+					},
+				}, -- [1]
+			}, -- [36]
+			{
+				{
+					["mdiEnabled"] = false,
+					["objects"] = {
+					},
+					["week"] = 4,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
@@ -4518,47 +4550,49 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
+					["difficulty"] = 16,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
 					},
+				}, -- [1]
+			}, -- [37]
+			{
+				{
+					["mdiEnabled"] = false,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["week"] = 1,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 4,
+						["selection"] = {
+							1, -- [1]
+						},
+						["currentDungeonIdx"] = 38,
+						["teeming"] = false,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+						},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+					},
+					["difficulty"] = 16,
 					["objects"] = {
 					},
 				}, -- [1]
-			},
+			}, -- [38]
 		},
-		["currentPreset"] = {
-			nil, -- [1]
-			nil, -- [2]
-			nil, -- [3]
-			nil, -- [4]
-			nil, -- [5]
-			nil, -- [6]
-			nil, -- [7]
-			nil, -- [8]
-			nil, -- [9]
-			nil, -- [10]
-			nil, -- [11]
-			nil, -- [12]
-			nil, -- [13]
-			nil, -- [14]
-			6, -- [15]
-			2, -- [16]
-			2, -- [17]
-			2, -- [18]
-			[21] = 2,
-			[22] = 2,
-			[25] = 3,
-			[26] = 2,
-			[35] = 2,
-		},
-		["toolbar"] = {
-			["color"] = {
-				["g"] = 0.14117647058823,
-				["b"] = 0.1843137254902,
-			},
-			["brushSize"] = 6,
+		["currentDungeonIdx"] = 38,
+		["dataCollection"] = {
 		},
 		["dataCollectionCC"] = {
 		},
@@ -4574,13 +4608,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 174197,
-					["health"] = 72090,
 					["count"] = 4,
+					["name"] = "Battlefield Ritualist",
 					["displayId"] = 98696,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["scale"] = 1,
-					["name"] = "Battlefield Ritualist",
+					["health"] = 72090,
 				}, -- [1]
 				{
 					["clones"] = {
@@ -4599,13 +4633,13 @@ MythicDungeonToolsDB = {
 						}, -- [2]
 					},
 					["id"] = 170838,
-					["health"] = 92115,
 					["name"] = "Unyielding Contender",
+					["count"] = 4,
 					["displayId"] = 95570,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["scale"] = 1,
-					["count"] = 4,
+					["health"] = 92115,
 				}, -- [2]
 				{
 					["clones"] = {
@@ -4698,13 +4732,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 164464,
-					["count"] = 0,
 					["name"] = "Xira the Underhanded",
+					["health"] = 96120,
 					["displayId"] = 96440,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["scale"] = 1.3,
-					["health"] = 96120,
+					["count"] = 0,
 				}, -- [7]
 				{
 					["clones"] = {
@@ -4765,13 +4799,13 @@ MythicDungeonToolsDB = {
 						}, -- [4]
 					},
 					["scale"] = 1.4,
-					["health"] = 80100,
 					["name"] = "Ossified Conscript",
+					["count"] = 4,
 					["displayId"] = 96253,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["id"] = 167994,
-					["count"] = 4,
+					["health"] = 80100,
 				}, -- [9]
 				{
 					["clones"] = {
@@ -4835,13 +4869,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 167533,
-					["count"] = 20,
 					["name"] = "Advent Nevermore",
+					["health"] = 256320,
 					["displayId"] = 95966,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["scale"] = 2,
-					["health"] = 256320,
+					["count"] = 20,
 				}, -- [13]
 				{
 					["clones"] = {
@@ -4855,13 +4889,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2390,
 					["instanceID"] = 1187,
-					["health"] = 560700,
 					["name"] = "Xav the Unfallen",
+					["count"] = 0,
 					["displayId"] = 95439,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
 					["scale"] = 1.6,
-					["count"] = 0,
+					["health"] = 560700,
 				}, -- [14]
 				{
 					["clones"] = {
@@ -5218,13 +5252,13 @@ MythicDungeonToolsDB = {
 						}, -- [3]
 					},
 					["id"] = 169893,
-					["health"] = 112140,
 					["name"] = "Nefarious Darkspeaker",
+					["count"] = 6,
 					["displayId"] = 97011,
 					["creatureType"] = "Undead",
 					["level"] = 60,
 					["scale"] = 1.6,
-					["count"] = 6,
+					["health"] = 112140,
 				}, -- [20]
 				{
 					["clones"] = {
@@ -5674,13 +5708,13 @@ MythicDungeonToolsDB = {
 						}, -- [1]
 					},
 					["id"] = 167532,
-					["name"] = "Heavin the Breaker",
 					["count"] = 20,
+					["health"] = 256320,
 					["displayId"] = 97490,
 					["creatureType"] = "Humanoid",
 					["level"] = 61,
 					["scale"] = 2,
-					["health"] = 256320,
+					["name"] = "Heavin the Breaker",
 				}, -- [30]
 				{
 					["clones"] = {
@@ -5908,9 +5942,9 @@ MythicDungeonToolsDB = {
 						[322968] = {
 						},
 					},
-					["count"] = 2,
 					["name"] = "Drust Spiteclaw",
 					["health"] = 40050,
+					["count"] = 2,
 					["displayId"] = 86207,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -5979,9 +6013,9 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["stealthDetect"] = true,
-					["health"] = 192240,
 					["count"] = 7,
 					["name"] = "Tirnenn Villager",
+					["health"] = 192240,
 					["displayId"] = 95618,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
@@ -6092,12 +6126,12 @@ MythicDungeonToolsDB = {
 						["Repentance"] = true,
 					},
 					["id"] = 164920,
-					["health"] = 72090,
+					["name"] = "Drust Soulcleaver",
 					["displayId"] = 95612,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 72090,
 					["count"] = 4,
-					["name"] = "Drust Soulcleaver",
 				}, -- [3]
 				{
 					["clones"] = {
@@ -6197,12 +6231,12 @@ MythicDungeonToolsDB = {
 						["Mind Control"] = true,
 						["Imprison"] = true,
 					},
-					["health"] = 72090,
 					["name"] = "Drust Harvester",
+					["count"] = 4,
 					["displayId"] = 95613,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 72090,
 					["scale"] = 1,
 				}, -- [4]
 				{
@@ -6253,9 +6287,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["count"] = 6,
 					["name"] = "Drust Boughbreaker",
 					["health"] = 136170,
+					["count"] = 6,
 					["displayId"] = 95615,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -6270,7 +6304,7 @@ MythicDungeonToolsDB = {
 							["y"] = -101.29968076616,
 						}, -- [1]
 					},
-					["count"] = 0,
+					["name"] = "Ingra Maloch",
 					["scale"] = 1,
 					["spells"] = {
 						[321010] = {
@@ -6303,8 +6337,8 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2400,
 					["instanceID"] = 1184,
-					["name"] = "Ingra Maloch",
 					["health"] = 961200,
+					["count"] = 0,
 					["displayId"] = 95497,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -6343,12 +6377,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 224280,
 					["name"] = "Droman Oulfarran",
+					["count"] = 0,
 					["displayId"] = 95564,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
-					["count"] = 0,
+					["health"] = 224280,
 					["id"] = 164804,
 				}, -- [7]
 				{
@@ -6492,12 +6526,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 92115,
 					["name"] = "Mistveil Defender",
+					["count"] = 4,
 					["displayId"] = 95256,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 92115,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -6615,12 +6649,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Imprison"] = true,
 					},
-					["count"] = 4,
+					["name"] = "Mistveil Stalker",
 					["displayId"] = 93762,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["count"] = 4,
 					["health"] = 72090,
-					["name"] = "Mistveil Stalker",
 				}, -- [9]
 				{
 					["clones"] = {
@@ -6679,9 +6713,9 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
-					["health"] = 64080,
 					["name"] = "Mistveil Stinger",
 					["count"] = 4,
+					["health"] = 64080,
 					["displayId"] = 95198,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -6809,12 +6843,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["count"] = 4,
 					["health"] = 88110,
+					["name"] = "Mistveil Guardian",
 					["displayId"] = 95261,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Mistveil Guardian",
+					["count"] = 4,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -6930,9 +6964,9 @@ MythicDungeonToolsDB = {
 						[324859] = {
 						},
 					},
-					["name"] = "Mistveil Tender",
 					["health"] = 76095,
 					["count"] = 4,
+					["name"] = "Mistveil Tender",
 					["displayId"] = 95908,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -7016,12 +7050,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["name"] = "Mistveil Shaper",
 					["count"] = 4,
+					["health"] = 84105,
 					["displayId"] = 95051,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 84105,
+					["name"] = "Mistveil Shaper",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -7062,9 +7096,9 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["health"] = 320400,
 					["name"] = "Mistveil Nightblossom",
 					["count"] = 16,
+					["health"] = 320400,
 					["displayId"] = 55772,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
@@ -7079,8 +7113,10 @@ MythicDungeonToolsDB = {
 							["y"] = -272.25255797372,
 						}, -- [1]
 					},
-					["scale"] = 1,
 					["id"] = 164501,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -7092,11 +7128,11 @@ MythicDungeonToolsDB = {
 						},
 						[336813] = {
 						},
+						[336759] = {
+						},
 						[341709] = {
 						},
 						[321834] = {
-						},
-						[336759] = {
 						},
 						[132466] = {
 						},
@@ -7110,15 +7146,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2402,
 					["instanceID"] = 1184,
-					["name"] = "Mistcaller",
 					["health"] = 560700,
+					["count"] = 0,
 					["displayId"] = 96451,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["name"] = "Mistcaller",
+					["scale"] = 1,
 				}, -- [15]
 				{
 					["clones"] = {
@@ -7182,12 +7216,12 @@ MythicDungeonToolsDB = {
 					},
 					["id"] = 167111,
 					["scale"] = 1,
-					["health"] = 96120,
+					["name"] = "Spinemaw Staghorn",
 					["displayId"] = 94190,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["health"] = 96120,
 					["count"] = 5,
-					["name"] = "Spinemaw Staghorn",
 				}, -- [16]
 				{
 					["clones"] = {
@@ -7289,12 +7323,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 167113,
-					["health"] = 80100,
 					["count"] = 4,
+					["name"] = "Spinemaw Acidgullet",
 					["displayId"] = 94205,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["name"] = "Spinemaw Acidgullet",
+					["health"] = 80100,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -7415,12 +7449,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["count"] = 4,
 					["health"] = 80100,
+					["name"] = "Spinemaw Gorger",
 					["displayId"] = 94197,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["name"] = "Spinemaw Gorger",
+					["count"] = 4,
 					["id"] = 172312,
 				}, -- [18]
 				{
@@ -7586,9 +7620,9 @@ MythicDungeonToolsDB = {
 						[326018] = {
 						},
 					},
-					["name"] = "Spinemaw Larva",
 					["health"] = 16020,
 					["count"] = 1,
+					["name"] = "Spinemaw Larva",
 					["displayId"] = 94208,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -7727,9 +7761,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["health"] = 64080,
 					["name"] = "Spinemaw Reaver",
 					["count"] = 4,
+					["health"] = 64080,
 					["displayId"] = 95692,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -8112,12 +8146,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Tred'ova",
+					["health"] = 560700,
 					["displayId"] = 95809,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["name"] = "Tred'ova",
 					["count"] = 0,
-					["health"] = 560700,
 				}, -- [21]
 				{
 					["clones"] = {
@@ -8144,9 +8178,9 @@ MythicDungeonToolsDB = {
 						[340311] = {
 						},
 					},
-					["health"] = 320400,
 					["count"] = 16,
 					["name"] = "Mistveil Gorgegullet",
+					["health"] = 320400,
 					["displayId"] = 98502,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -8211,9 +8245,9 @@ MythicDungeonToolsDB = {
 						[325223] = {
 						},
 					},
-					["count"] = 4,
 					["name"] = "Mistveil Stinger",
 					["health"] = 64080,
+					["count"] = 4,
 					["displayId"] = 95198,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -8245,12 +8279,12 @@ MythicDungeonToolsDB = {
 						["Taunt"] = true,
 					},
 					["scale"] = 1.4,
-					["count"] = 16,
+					["name"] = "Mistveil Matriarch",
 					["displayId"] = 98569,
 					["creatureType"] = "Dragonkin",
 					["level"] = 60,
+					["count"] = 16,
 					["health"] = 320400,
-					["name"] = "Mistveil Matriarch",
 				}, -- [24]
 			},
 			[30] = {
@@ -8405,12 +8439,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 165515,
-					["health"] = 80100,
 					["count"] = 4,
+					["name"] = "Depraved Darkblade",
 					["displayId"] = 93074,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Depraved Darkblade",
+					["health"] = 80100,
 					["scale"] = 1,
 				}, -- [1]
 				{
@@ -8702,12 +8736,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 164562,
-					["name"] = "Depraved Houndmaster",
 					["count"] = 4,
+					["health"] = 72090,
 					["displayId"] = 97001,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 72090,
+					["name"] = "Depraved Houndmaster",
 					["scale"] = 1,
 				}, -- [2]
 				{
@@ -8879,12 +8913,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Imprison"] = true,
 					},
-					["health"] = 88110,
 					["count"] = 4,
+					["name"] = "Vicious Gargon",
 					["displayId"] = 93163,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["name"] = "Vicious Gargon",
+					["health"] = 88110,
 					["scale"] = 1,
 				}, -- [3]
 				{
@@ -9062,12 +9096,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 165414,
-					["name"] = "Depraved Obliterator",
 					["health"] = 72090,
+					["count"] = 4,
 					["displayId"] = 93680,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["name"] = "Depraved Obliterator",
 					["scale"] = 1,
 				}, -- [4]
 				{
@@ -9151,12 +9185,12 @@ MythicDungeonToolsDB = {
 						["Mind Control"] = true,
 					},
 					["id"] = 174175,
-					["health"] = 128160,
+					["count"] = 4,
 					["displayId"] = 95706,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 128160,
 					["name"] = "Loyal Stoneborn",
-					["count"] = 4,
 				}, -- [5]
 				{
 					["clones"] = {
@@ -9570,12 +9604,12 @@ MythicDungeonToolsDB = {
 						["Imprison"] = true,
 					},
 					["id"] = 165415,
-					["count"] = 2,
+					["name"] = "Toiling Groundskeeper",
 					["displayId"] = 93814,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["count"] = 2,
 					["health"] = 48060,
-					["name"] = "Toiling Groundskeeper",
 				}, -- [6]
 				{
 					["clones"] = {
@@ -9643,12 +9677,12 @@ MythicDungeonToolsDB = {
 						["Fear"] = true,
 						["Imprison"] = true,
 					},
-					["health"] = 80100,
 					["name"] = "Depraved Collector",
+					["count"] = 4,
 					["displayId"] = 94573,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 80100,
 					["id"] = 165529,
 				}, -- [7]
 				{
@@ -9698,12 +9732,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 164557,
-					["name"] = "Shard of Halkias",
 					["health"] = 192240,
+					["count"] = 10,
 					["displayId"] = 94868,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
-					["count"] = 10,
+					["name"] = "Shard of Halkias",
 					["scale"] = 1.5,
 				}, -- [8]
 				{
@@ -9748,12 +9782,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["count"] = 0,
+					["name"] = "Halkias",
 					["displayId"] = 98764,
 					["creatureType"] = "Elemental",
 					["level"] = 60,
+					["count"] = 0,
 					["health"] = 560700,
-					["name"] = "Halkias",
 				}, -- [9]
 				{
 					["clones"] = {
@@ -9816,12 +9850,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 128160,
 					["name"] = "Stoneborn Reaver",
+					["count"] = 6,
 					["displayId"] = 93829,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
+					["health"] = 128160,
 					["scale"] = 1,
 				}, -- [10]
 				{
@@ -10098,9 +10132,9 @@ MythicDungeonToolsDB = {
 						[326879] = {
 						},
 					},
-					["health"] = 24030,
 					["count"] = 1,
 					["name"] = "Stonefiend Anklebiter",
+					["health"] = 24030,
 					["displayId"] = 94765,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -10203,12 +10237,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["name"] = "Stoneborn Eviscerator",
 					["health"] = 80100,
+					["count"] = 4,
 					["displayId"] = 94724,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["name"] = "Stoneborn Eviscerator",
 					["id"] = 167611,
 				}, -- [12]
 				{
@@ -10328,12 +10362,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 167607,
-					["name"] = "Stoneborn Slasher",
 					["health"] = 160200,
+					["count"] = 7,
 					["displayId"] = 95707,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 7,
+					["name"] = "Stoneborn Slasher",
 					["scale"] = 1.3,
 				}, -- [13]
 				{
@@ -10344,10 +10378,8 @@ MythicDungeonToolsDB = {
 							["y"] = -303.16723413157,
 						}, -- [1]
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["id"] = 164185,
+					["scale"] = 1,
 					["spells"] = {
 						[288865] = {
 						},
@@ -10381,13 +10413,15 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2387,
 					["instanceID"] = 1185,
-					["count"] = 0,
 					["health"] = 560700,
+					["name"] = "Echelon",
 					["displayId"] = 96260,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Echelon",
-					["scale"] = 1,
+					["count"] = 0,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [14]
 				{
 					["clones"] = {
@@ -10397,7 +10431,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["health"] = 560700,
+					["name"] = "High Adjudicator Aleez",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -10420,8 +10454,8 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2411,
 					["instanceID"] = 1185,
-					["name"] = "High Adjudicator Aleez",
 					["count"] = 0,
+					["health"] = 560700,
 					["displayId"] = 94503,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -10599,12 +10633,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Fear"] = true,
 					},
-					["health"] = 16020,
 					["name"] = "Tormented Soul",
+					["count"] = 0,
 					["displayId"] = 90426,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["count"] = 0,
+					["health"] = 16020,
 					["scale"] = 1,
 				}, -- [16]
 				{
@@ -10645,12 +10679,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["count"] = 20,
 					["health"] = 240300,
+					["name"] = "Inquisitor Sigar",
 					["displayId"] = 93070,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Inquisitor Sigar",
+					["count"] = 20,
 					["scale"] = 1.5,
 				}, -- [17]
 				{
@@ -10661,8 +10695,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 3,
 						}, -- [1]
 					},
-					["scale"] = 1,
 					["id"] = 164218,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -10700,15 +10736,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2413,
 					["instanceID"] = 1185,
-					["health"] = 640800,
 					["count"] = 0,
+					["name"] = "Lord Chamberlain",
 					["displayId"] = 95103,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Lord Chamberlain",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["health"] = 640800,
+					["scale"] = 1,
 				}, -- [18]
 			},
 			[32] = {
@@ -10779,12 +10813,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168968,
-					["count"] = 0,
 					["health"] = 16020,
+					["name"] = "Plaguebound Fallen",
 					["displayId"] = 96986,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Plaguebound Fallen",
+					["count"] = 0,
 					["scale"] = 0.6,
 				}, -- [1]
 				{
@@ -10822,12 +10856,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 0.6,
-					["health"] = 12015,
 					["name"] = "Fungret Shroomtender",
+					["count"] = 0,
 					["displayId"] = 83592,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
+					["health"] = 12015,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -10926,12 +10960,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["count"] = 8,
 					["name"] = "Mire Soldier",
+					["health"] = 64080,
 					["displayId"] = 83596,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 64080,
+					["count"] = 8,
 					["id"] = 169696,
 				}, -- [3]
 				{
@@ -11133,12 +11167,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168969,
-					["count"] = 1,
 					["health"] = 24030,
+					["name"] = "Gushing Slime",
 					["displayId"] = 95785,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["name"] = "Gushing Slime",
+					["count"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -11170,12 +11204,12 @@ MythicDungeonToolsDB = {
 					},
 					["scale"] = 0.5,
 					["id"] = 168155,
-					["count"] = 0,
 					["health"] = 80100,
+					["name"] = "Plaguebound",
 					["displayId"] = 96251,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Plaguebound",
+					["count"] = 0,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -11254,12 +11288,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Plagueroc",
 					["count"] = 12,
+					["health"] = 112140,
 					["displayId"] = 96752,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["health"] = 112140,
+					["name"] = "Plagueroc",
 					["id"] = 168153,
 				}, -- [6]
 				{
@@ -11356,12 +11390,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.5,
-					["health"] = 144180,
 					["count"] = 14,
+					["name"] = "Decaying Flesh Giant",
 					["displayId"] = 99191,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Decaying Flesh Giant",
+					["health"] = 144180,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -11444,12 +11478,12 @@ MythicDungeonToolsDB = {
 						["Repentance"] = true,
 					},
 					["id"] = 168572,
-					["name"] = "Fungi Stormer",
+					["count"] = 8,
 					["displayId"] = 83621,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["name"] = "Fungi Stormer",
 					["health"] = 64080,
-					["count"] = 8,
 				}, -- [8]
 				{
 					["clones"] = {
@@ -11506,9 +11540,9 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["count"] = 8,
 					["name"] = "Fungalmancer",
 					["health"] = 96120,
+					["count"] = 8,
 					["displayId"] = 83616,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -11605,12 +11639,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168580,
-					["health"] = 64080,
 					["count"] = 8,
+					["name"] = "Plagueborer",
 					["displayId"] = 97079,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Plagueborer",
+					["health"] = 64080,
 					["scale"] = 1,
 				}, -- [10]
 				{
@@ -11713,12 +11747,12 @@ MythicDungeonToolsDB = {
 					},
 					["id"] = 168361,
 					["scale"] = 1,
-					["count"] = 8,
+					["health"] = 64080,
 					["displayId"] = 63503,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["count"] = 8,
 					["name"] = "Fen Hornet",
-					["health"] = 64080,
 				}, -- [11]
 				{
 					["clones"] = {
@@ -11800,12 +11834,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 163915,
-					["count"] = 10,
 					["health"] = 80100,
+					["name"] = "Hatchling Nest",
 					["displayId"] = 99163,
 					["creatureType"] = "Not specified",
 					["level"] = 60,
-					["name"] = "Hatchling Nest",
+					["count"] = 10,
 					["scale"] = 1,
 				}, -- [12]
 				{
@@ -11865,12 +11899,12 @@ MythicDungeonToolsDB = {
 						["Repentance"] = true,
 						["Fear"] = true,
 					},
-					["name"] = "Pestilent Harvester",
 					["health"] = 96120,
+					["count"] = 8,
 					["displayId"] = 96887,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 8,
+					["name"] = "Pestilent Harvester",
 					["id"] = 168574,
 				}, -- [13]
 				{
@@ -11888,9 +11922,9 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["health"] = 248310,
 					["name"] = "Finger Food",
 					["count"] = 0,
+					["health"] = 248310,
 					["displayId"] = 95789,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -12061,9 +12095,9 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["health"] = 128160,
 					["name"] = "Plaguebelcher",
 					["count"] = 12,
+					["health"] = 128160,
 					["displayId"] = 96244,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -12080,10 +12114,10 @@ MythicDungeonToolsDB = {
 							["y"] = -93.603204799883,
 						}, -- [1]
 					},
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["id"] = 164255,
 					["spells"] = {
 						[319780] = {
 						},
@@ -12113,13 +12147,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2419,
 					["instanceID"] = 1183,
-					["count"] = 0,
 					["name"] = "Globgrog",
+					["health"] = 560700,
 					["displayId"] = 95844,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 560700,
-					["id"] = 164255,
+					["count"] = 0,
+					["scale"] = 1,
 				}, -- [16]
 				{
 					["clones"] = {
@@ -12172,12 +12206,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 169159,
-					["health"] = 4005,
 					["name"] = "Unstable Canister",
+					["count"] = 0,
 					["displayId"] = 99464,
 					["creatureType"] = "Not specified",
 					["level"] = 60,
-					["count"] = 0,
+					["health"] = 4005,
 					["scale"] = 0.6,
 				}, -- [17]
 				{
@@ -12278,11 +12312,11 @@ MythicDungeonToolsDB = {
 						},
 						[320512] = {
 						},
-						[340358] = {
+						[132951] = {
 						},
 						[186439] = {
 						},
-						[132951] = {
+						[325748] = {
 						},
 						[326868] = {
 						},
@@ -12298,16 +12332,16 @@ MythicDungeonToolsDB = {
 						},
 						[344991] = {
 						},
-						[325748] = {
+						[340358] = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 64080,
 					["name"] = "Rotting Slimeclaw",
+					["count"] = 6,
 					["displayId"] = 97796,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["count"] = 6,
+					["health"] = 64080,
 					["id"] = 163892,
 				}, -- [18]
 				{
@@ -12363,12 +12397,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168878,
-					["name"] = "Rigged Plagueborer",
 					["count"] = 8,
+					["health"] = 64080,
 					["displayId"] = 97079,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 64080,
+					["name"] = "Rigged Plagueborer",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -12502,9 +12536,9 @@ MythicDungeonToolsDB = {
 						[336449] = {
 						},
 					},
-					["name"] = "Blighted Spinebreaker",
 					["count"] = 12,
 					["health"] = 128160,
+					["name"] = "Blighted Spinebreaker",
 					["displayId"] = 95475,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -12698,7 +12732,7 @@ MythicDungeonToolsDB = {
 						},
 						[121308] = {
 						},
-						[132951] = {
+						[325748] = {
 						},
 						[320297] = {
 						},
@@ -12712,14 +12746,14 @@ MythicDungeonToolsDB = {
 						},
 						[331967] = {
 						},
+						[132951] = {
+						},
 						[340358] = {
 						},
-						[325748] = {
-						},
 					},
-					["name"] = "Plaguebinder",
 					["count"] = 8,
 					["health"] = 64080,
+					["name"] = "Plaguebinder",
 					["displayId"] = 96459,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -12761,9 +12795,9 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[224729] = {
-						},
 						[346989] = {
+						},
+						[321999] = {
 						},
 						[334882] = {
 						},
@@ -12771,12 +12805,12 @@ MythicDungeonToolsDB = {
 						},
 						[340356] = {
 						},
-						[321999] = {
+						[224729] = {
 						},
 					},
-					["name"] = "Pestilence Slime",
 					["health"] = 64080,
 					["count"] = 6,
+					["name"] = "Pestilence Slime",
 					["displayId"] = 33010,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -12876,12 +12910,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Fear"] = true,
 					},
-					["name"] = "Rotmarrow Slime",
 					["health"] = 64080,
+					["count"] = 6,
 					["displayId"] = 97477,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["count"] = 6,
+					["name"] = "Rotmarrow Slime",
 					["id"] = 163891,
 				}, -- [23]
 				{
@@ -12941,12 +12975,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Fear"] = true,
 					},
-					["name"] = "Congealed Slime",
 					["count"] = 6,
+					["health"] = 64080,
 					["displayId"] = 95787,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 64080,
+					["name"] = "Congealed Slime",
 					["scale"] = 1,
 				}, -- [24]
 				{
@@ -13057,12 +13091,12 @@ MythicDungeonToolsDB = {
 						["Fear"] = true,
 					},
 					["scale"] = 1.5,
-					["health"] = 88110,
+					["count"] = 10,
 					["displayId"] = 95688,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
+					["health"] = 88110,
 					["name"] = "Slime Tentacle",
-					["count"] = 10,
 				}, -- [25]
 				{
 					["clones"] = {
@@ -13101,9 +13135,9 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["name"] = "Virulax Blightweaver",
 					["count"] = 25,
 					["health"] = 153792,
+					["name"] = "Virulax Blightweaver",
 					["displayId"] = 96985,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -13120,8 +13154,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
-					["id"] = 164967,
 					["scale"] = 1,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -13131,9 +13167,9 @@ MythicDungeonToolsDB = {
 						},
 						[330026] = {
 						},
-						[325748] = {
-						},
 						[322358] = {
+						},
+						[340358] = {
 						},
 						[329217] = {
 						},
@@ -13149,21 +13185,19 @@ MythicDungeonToolsDB = {
 						},
 						[132951] = {
 						},
-						[340358] = {
+						[325748] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2403,
 					["instanceID"] = 1183,
-					["count"] = 0,
 					["health"] = 448560,
+					["name"] = "Doctor Ickus",
 					["displayId"] = 96919,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Doctor Ickus",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["count"] = 0,
+					["id"] = 164967,
 				}, -- [27]
 				{
 					["clones"] = {
@@ -13281,12 +13315,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Repentance"] = true,
 					},
-					["name"] = "Defender of Many Eyes",
 					["count"] = 8,
+					["health"] = 88110,
 					["displayId"] = 96445,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 88110,
+					["name"] = "Defender of Many Eyes",
 					["id"] = 163862,
 				}, -- [28]
 				{
@@ -13391,12 +13425,12 @@ MythicDungeonToolsDB = {
 					},
 					["id"] = 167493,
 					["scale"] = 1,
-					["health"] = 72090,
+					["count"] = 8,
 					["displayId"] = 96116,
 					["creatureType"] = "Undead",
 					["level"] = 60,
+					["health"] = 72090,
 					["name"] = "Venomous Sniper",
-					["count"] = 8,
 				}, -- [29]
 				{
 					["clones"] = {
@@ -13481,9 +13515,9 @@ MythicDungeonToolsDB = {
 						[328343] = {
 						},
 					},
-					["name"] = "Venomfang",
 					["count"] = 0,
 					["health"] = 32040,
+					["name"] = "Venomfang",
 					["displayId"] = 94406,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -13557,12 +13591,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 80100,
 					["name"] = "Brood Ambusher",
+					["count"] = 12,
 					["displayId"] = 96434,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 12,
+					["health"] = 80100,
 					["id"] = 164737,
 				}, -- [31]
 				{
@@ -13573,10 +13607,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
-					["id"] = 164266,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 1,
 					["spells"] = {
 						[288865] = {
 						},
@@ -13614,13 +13648,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2423,
 					["instanceID"] = 1183,
-					["count"] = 0,
 					["name"] = "Domina Venomblade",
+					["health"] = 560700,
 					["displayId"] = 96475,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 560700,
-					["scale"] = 1,
+					["count"] = 0,
+					["id"] = 164266,
 				}, -- [32]
 				{
 					["clones"] = {
@@ -13770,12 +13804,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Fear"] = true,
 					},
-					["name"] = "Plaguebound Devoted",
 					["health"] = 32040,
+					["count"] = 4,
 					["displayId"] = 96988,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["count"] = 4,
+					["name"] = "Plaguebound Devoted",
 					["id"] = 163857,
 				}, -- [33]
 				{
@@ -13811,12 +13845,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 169861,
-					["name"] = "Ickor Bileflesh",
 					["count"] = 25,
+					["health"] = 153792,
 					["displayId"] = 94145,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 153792,
+					["name"] = "Ickor Bileflesh",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -13829,7 +13863,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["count"] = 0,
+					["health"] = 512640,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -13858,8 +13892,8 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2404,
 					["instanceID"] = 1183,
-					["health"] = 512640,
 					["name"] = "Margrave Stradama",
+					["count"] = 0,
 					["displayId"] = 95794,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -13970,9 +14004,9 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
-					["count"] = 2,
 					["name"] = "Grubby Dirtcruncher",
 					["health"] = 48060,
+					["count"] = 2,
 					["displayId"] = 93815,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -14080,12 +14114,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Fear"] = true,
 					},
-					["count"] = 1,
 					["name"] = "Famished Tick",
+					["health"] = 48060,
 					["displayId"] = 94227,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 48060,
+					["count"] = 1,
 					["scale"] = 1,
 				}, -- [2]
 				{
@@ -14147,9 +14181,9 @@ MythicDungeonToolsDB = {
 						[240443] = {
 						},
 					},
-					["count"] = 4,
 					["health"] = 80100,
 					["name"] = "Noble Skirmisher",
+					["count"] = 4,
 					["displayId"] = 94441,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -14257,12 +14291,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Fear"] = true,
 					},
-					["count"] = 4,
 					["name"] = "Gluttonous Tick",
+					["health"] = 72090,
 					["displayId"] = 94226,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 72090,
+					["count"] = 4,
 					["scale"] = 1,
 				}, -- [4]
 				{
@@ -14355,12 +14389,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 72090,
 					["count"] = 4,
+					["name"] = "Dreadful Huntmaster",
 					["displayId"] = 93035,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Dreadful Huntmaster",
+					["health"] = 72090,
 					["id"] = 171448,
 				}, -- [5]
 				{
@@ -14424,12 +14458,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 128160,
 					["name"] = "Regal Mistdancer",
+					["count"] = 7,
 					["displayId"] = 96681,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 7,
+					["health"] = 128160,
 					["id"] = 162038,
 				}, -- [6]
 				{
@@ -14458,13 +14492,13 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[334246] = {
 						},
-						[240443] = {
-						},
 						[132951] = {
+						},
+						[334921] = {
 						},
 						[321178] = {
 						},
-						[334921] = {
+						[240443] = {
 						},
 						[326868] = {
 						},
@@ -14472,12 +14506,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 162047,
-					["count"] = 7,
 					["name"] = "Insatiable Brute",
+					["health"] = 120150,
 					["displayId"] = 93853,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 120150,
+					["count"] = 7,
 					["scale"] = 1.5,
 				}, -- [7]
 				{
@@ -14488,10 +14522,8 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 1,
 						}, -- [1]
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["scale"] = 1,
+					["id"] = 162100,
 					["spells"] = {
 						[288865] = {
 						},
@@ -14523,13 +14555,15 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2388,
 					["instanceID"] = 1189,
-					["name"] = "Kryxis the Voracious",
 					["count"] = 0,
+					["health"] = 560700,
 					["displayId"] = 98966,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 560700,
-					["id"] = 162100,
+					["name"] = "Kryxis the Voracious",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [8]
 				{
 					["clones"] = {
@@ -14715,9 +14749,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["name"] = "Wicked Oppressor",
 					["count"] = 4,
 					["health"] = 67284,
+					["name"] = "Wicked Oppressor",
 					["displayId"] = 94573,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -14844,12 +14878,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 162056,
-					["count"] = 1,
 					["health"] = 24030,
+					["name"] = "Rockbound Sprite",
 					["displayId"] = 94498,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Rockbound Sprite",
+					["count"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -15031,9 +15065,9 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["count"] = 1,
 					["health"] = 28035,
 					["name"] = "Dark Acolyte",
+					["count"] = 1,
 					["displayId"] = 93650,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -15163,12 +15197,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 162057,
-					["name"] = "Chamber Sentinel",
 					["health"] = 136170,
+					["count"] = 7,
 					["displayId"] = 94737,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 7,
+					["name"] = "Chamber Sentinel",
 					["scale"] = 1.4,
 				}, -- [12]
 				{
@@ -15247,12 +15281,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Grand Overseer",
+					["health"] = 112140,
 					["displayId"] = 96679,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["name"] = "Grand Overseer",
 					["count"] = 7,
-					["health"] = 112140,
 				}, -- [13]
 				{
 					["clones"] = {
@@ -15277,9 +15311,9 @@ MythicDungeonToolsDB = {
 						[321020] = {
 						},
 					},
-					["name"] = "Ravenous Dreadbat",
 					["health"] = 80100,
 					["count"] = 4,
+					["name"] = "Ravenous Dreadbat",
 					["displayId"] = 92704,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -15327,9 +15361,9 @@ MythicDungeonToolsDB = {
 						[334326] = {
 						},
 					},
-					["count"] = 10,
 					["health"] = 192240,
 					["name"] = "Head Custodian Javlin",
+					["count"] = 10,
 					["displayId"] = 97620,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -15462,12 +15496,12 @@ MythicDungeonToolsDB = {
 						["Repentance"] = true,
 						["Imprison"] = true,
 					},
-					["health"] = 80100,
+					["name"] = "Research Scribe",
 					["displayId"] = 97622,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 80100,
 					["count"] = 4,
-					["name"] = "Research Scribe",
 				}, -- [16]
 				{
 					["clones"] = {
@@ -15514,12 +15548,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Depths Warden",
 					["count"] = 7,
+					["health"] = 128160,
 					["displayId"] = 97780,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 128160,
+					["name"] = "Depths Warden",
 					["id"] = 171799,
 				}, -- [17]
 				{
@@ -15565,12 +15599,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168058,
-					["count"] = 1,
 					["health"] = 16020,
+					["name"] = "Infused Quill-feather",
 					["displayId"] = 96655,
 					["creatureType"] = "Not specified",
 					["level"] = 60,
-					["name"] = "Infused Quill-feather",
+					["count"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -15628,24 +15662,24 @@ MythicDungeonToolsDB = {
 						},
 						[317898] = {
 						},
-						[240443] = {
+						[132951] = {
 						},
 						[336277] = {
 						},
-						[132951] = {
+						[336279] = {
 						},
 						[224729] = {
 						},
-						[336279] = {
+						[240443] = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 72090,
 					["name"] = "Remnant of Fury",
+					["count"] = 4,
 					["displayId"] = 97240,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 72090,
 					["id"] = 172265,
 				}, -- [19]
 				{
@@ -15706,12 +15740,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 162049,
-					["name"] = "Vestige of Doubt",
 					["count"] = 4,
+					["health"] = 72090,
 					["displayId"] = 94279,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
-					["health"] = 72090,
+					["name"] = "Vestige of Doubt",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -15809,9 +15843,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["name"] = "Frenzied Ghoul",
 					["count"] = 2,
 					["health"] = 80100,
+					["name"] = "Frenzied Ghoul",
 					["displayId"] = 93808,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -15826,10 +15860,10 @@ MythicDungeonToolsDB = {
 							["y"] = -473.76709677419,
 						}, -- [1]
 					},
-					["scale"] = 1,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["id"] = 162103,
 					["spells"] = {
 						[326868] = {
 						},
@@ -15845,13 +15879,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2415,
 					["instanceID"] = 1189,
-					["name"] = "Executor Tarvold",
 					["count"] = 0,
+					["health"] = 448560,
 					["displayId"] = 96156,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 448560,
-					["id"] = 162103,
+					["name"] = "Executor Tarvold",
+					["scale"] = 1,
 				}, -- [22]
 				{
 					["clones"] = {
@@ -15861,10 +15895,8 @@ MythicDungeonToolsDB = {
 							["y"] = -388.05329268293,
 						}, -- [1]
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["id"] = 162102,
+					["scale"] = 1,
 					["spells"] = {
 						[288865] = {
 						},
@@ -15894,13 +15926,15 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2421,
 					["instanceID"] = 1189,
-					["count"] = 0,
 					["health"] = 560700,
+					["name"] = "Grand Proctor Beryllia",
 					["displayId"] = 94781,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Grand Proctor Beryllia",
-					["scale"] = 1,
+					["count"] = 0,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [23]
 				{
 					["clones"] = {
@@ -15979,9 +16013,9 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
-					["count"] = 1,
 					["health"] = 16020,
 					["name"] = "Stonewall Gargon",
+					["count"] = 1,
 					["displayId"] = 95372,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -15996,8 +16030,10 @@ MythicDungeonToolsDB = {
 							["y"] = -103.24852572312,
 						}, -- [1]
 					},
-					["id"] = 162099,
 					["scale"] = 1,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
 						[323845] = {
 						},
@@ -16025,15 +16061,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2407,
 					["instanceID"] = 1189,
-					["name"] = "General Kaal",
 					["count"] = 0,
+					["health"] = 3204000,
 					["displayId"] = 95721,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 3204000,
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["name"] = "General Kaal",
+					["id"] = 162099,
 				}, -- [25]
 				{
 					["clones"] = {
@@ -16107,30 +16141,30 @@ MythicDungeonToolsDB = {
 						["Fear"] = true,
 					},
 					["spells"] = {
-						[321020] = {
-						},
-						[240443] = {
-						},
 						[326718] = {
-						},
-						[132951] = {
-						},
-						[121308] = {
 						},
 						[334753] = {
 						},
+						[317898] = {
+						},
+						[240443] = {
+						},
+						[121308] = {
+						},
+						[132951] = {
+						},
 						[224729] = {
 						},
-						[317898] = {
+						[321020] = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 32040,
 					["name"] = "Sanguine Cadet",
+					["count"] = 1,
 					["displayId"] = 94954,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 1,
+					["health"] = 32040,
 					["id"] = 167955,
 				}, -- [26]
 			},
@@ -16197,9 +16231,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["health"] = 64080,
 					["count"] = 4,
 					["name"] = "Forsworn Mender",
+					["health"] = 64080,
 					["displayId"] = 94304,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -16280,12 +16314,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 163457,
-					["count"] = 4,
 					["health"] = 80100,
+					["name"] = "Forsworn Vanguard",
 					["displayId"] = 93491,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Forsworn Vanguard",
+					["count"] = 4,
 					["scale"] = 1,
 				}, -- [2]
 				{
@@ -16430,12 +16464,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 176220,
+					["count"] = 8,
 					["displayId"] = 92664,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
+					["health"] = 176220,
 					["name"] = "Forsworn Goliath",
-					["count"] = 8,
 				}, -- [3]
 				{
 					["clones"] = {
@@ -16502,12 +16536,12 @@ MythicDungeonToolsDB = {
 						["Mind Control"] = true,
 						["Repentance"] = true,
 					},
-					["count"] = 4,
 					["health"] = 80100,
+					["name"] = "Forsworn Castigator",
 					["displayId"] = 93483,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Forsworn Castigator",
+					["count"] = 4,
 					["scale"] = 1,
 				}, -- [4]
 				{
@@ -16541,12 +16575,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["name"] = "Azules",
 					["count"] = 0,
+					["health"] = 640800,
 					["displayId"] = 93471,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["health"] = 640800,
+					["name"] = "Azules",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -16560,10 +16594,8 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["scale"] = 1,
+					["id"] = 162059,
 					["spells"] = {
 						[288865] = {
 						},
@@ -16591,13 +16623,15 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2399,
 					["instanceID"] = 1186,
-					["name"] = "Kin-Tara",
 					["health"] = 640800,
+					["count"] = 0,
 					["displayId"] = 95068,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["id"] = 162059,
+					["name"] = "Kin-Tara",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [6]
 				{
 					["clones"] = {
@@ -16797,12 +16831,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 163503,
-					["name"] = "Etherdiver",
 					["count"] = 2,
+					["health"] = 48060,
 					["displayId"] = 93471,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["health"] = 48060,
+					["name"] = "Etherdiver",
 					["scale"] = 0.7,
 				}, -- [7]
 				{
@@ -16870,12 +16904,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 163501,
-					["health"] = 80100,
 					["name"] = "Forsworn Skirmisher",
+					["count"] = 4,
 					["displayId"] = 93491,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 80100,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -16950,9 +16984,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["name"] = "Forsworn Champion",
 					["count"] = 4,
 					["health"] = 64080,
+					["name"] = "Forsworn Champion",
 					["displayId"] = 94313,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -17044,12 +17078,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 163520,
-					["count"] = 6,
 					["name"] = "Forsworn Squad-Leader",
+					["health"] = 128160,
 					["displayId"] = 94919,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 128160,
+					["count"] = 6,
 					["scale"] = 1,
 				}, -- [10]
 				{
@@ -17186,13 +17220,13 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Imprison"] = true,
 					},
-					["health"] = 80100,
-					["level"] = 60,
 					["name"] = "Forsworn Stealthclaw",
+					["level"] = 60,
+					["count"] = 4,
 					["displayId"] = 93462,
 					["creatureType"] = "Beast",
 					["stealth"] = true,
-					["count"] = 4,
+					["health"] = 80100,
 					["id"] = 163506,
 				}, -- [11]
 				{
@@ -17279,12 +17313,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 104130,
 					["name"] = "Kyrian Dark-Praetor",
+					["count"] = 5,
 					["displayId"] = 92193,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["count"] = 5,
+					["health"] = 104130,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -17352,9 +17386,9 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
-					["health"] = 80100,
 					["name"] = "Forsworn Inquisitor",
 					["count"] = 4,
+					["health"] = 80100,
 					["displayId"] = 94316,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -17411,12 +17445,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 480600,
+					["count"] = 0,
 					["displayId"] = 92193,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
+					["health"] = 480600,
 					["name"] = "Ventunax",
-					["count"] = 0,
 				}, -- [14]
 				{
 					["clones"] = {
@@ -17472,12 +17506,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 128160,
 					["name"] = "Forsworn Helion",
+					["count"] = 6,
 					["displayId"] = 94919,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
+					["health"] = 128160,
 					["id"] = 168681,
 				}, -- [15]
 				{
@@ -17566,12 +17600,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["name"] = "Forsworn Warden",
 					["health"] = 72090,
+					["count"] = 4,
 					["displayId"] = 94313,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 4,
+					["name"] = "Forsworn Warden",
 					["id"] = 168718,
 				}, -- [16]
 				{
@@ -17635,12 +17669,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168717,
-					["count"] = 4,
 					["health"] = 80100,
+					["name"] = "Forsworn Justicar",
 					["displayId"] = 95754,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Forsworn Justicar",
+					["count"] = 4,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -17746,12 +17780,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 166411,
-					["health"] = 16020,
 					["name"] = "Forsworn Usurper",
+					["count"] = 1,
 					["displayId"] = 93482,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 1,
+					["health"] = 16020,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -17816,12 +17850,12 @@ MythicDungeonToolsDB = {
 					["encounterID"] = 2414,
 					["instanceID"] = 1186,
 					["scale"] = 1,
-					["health"] = 881100,
+					["count"] = 0,
 					["displayId"] = 97621,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
+					["health"] = 881100,
 					["name"] = "Oryphrion",
-					["count"] = 0,
 				}, -- [19]
 				{
 					["clones"] = {
@@ -17837,7 +17871,7 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[328435] = {
 						},
-						[328434] = {
+						[323739] = {
 						},
 						[326868] = {
 						},
@@ -17855,9 +17889,9 @@ MythicDungeonToolsDB = {
 						},
 						[336496] = {
 						},
-						[323739] = {
-						},
 						[336444] = {
+						},
+						[328434] = {
 						},
 						[328453] = {
 						},
@@ -17868,9 +17902,9 @@ MythicDungeonToolsDB = {
 						[225832] = {
 						},
 					},
-					["count"] = 12,
 					["name"] = "Klotos",
 					["health"] = 240300,
+					["count"] = 12,
 					["displayId"] = 95759,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -17925,12 +17959,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.5,
-					["health"] = 240300,
 					["count"] = 12,
+					["name"] = "Lakesis",
 					["displayId"] = 95759,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["name"] = "Lakesis",
+					["health"] = 240300,
 					["id"] = 168844,
 				}, -- [21]
 				{
@@ -17972,12 +18006,12 @@ MythicDungeonToolsDB = {
 						["Taunt"] = true,
 					},
 					["scale"] = 1.5,
-					["name"] = "Astronos",
+					["count"] = 12,
 					["displayId"] = 95759,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["name"] = "Astronos",
 					["health"] = 240300,
-					["count"] = 12,
 				}, -- [22]
 				{
 					["clones"] = {
@@ -17987,10 +18021,10 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 4,
 						}, -- [1]
 					},
-					["scale"] = 1.5,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["id"] = 162061,
 					["spells"] = {
 						[288865] = {
 						},
@@ -18026,13 +18060,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2412,
 					["instanceID"] = 0,
-					["count"] = 0,
 					["name"] = "Devos",
+					["health"] = 961200,
 					["displayId"] = 95665,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 961200,
-					["id"] = 162061,
+					["count"] = 0,
+					["scale"] = 1.5,
 				}, -- [23]
 			},
 			[35] = {
@@ -18305,12 +18339,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 0.8,
-					["name"] = "Patchwerk Soldier",
 					["count"] = 4,
+					["health"] = 80100,
 					["displayId"] = 95222,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 80100,
+					["name"] = "Patchwerk Soldier",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -18519,12 +18553,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Repentance"] = true,
 					},
-					["name"] = "Blight Bag",
 					["count"] = 1,
+					["health"] = 32040,
 					["displayId"] = 94761,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 32040,
+					["name"] = "Blight Bag",
 					["scale"] = 0.7,
 				}, -- [2]
 				{
@@ -18603,9 +18637,9 @@ MythicDungeonToolsDB = {
 						[224729] = {
 						},
 					},
-					["count"] = 4,
 					["health"] = 112140,
 					["name"] = "Corpse Harvester",
+					["count"] = 4,
 					["displayId"] = 98170,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -18702,12 +18736,12 @@ MythicDungeonToolsDB = {
 					},
 					["id"] = 163121,
 					["scale"] = 1,
-					["name"] = "Stitched Vanguard",
+					["health"] = 112140,
 					["displayId"] = 95227,
 					["creatureType"] = "Undead",
 					["level"] = 60,
+					["name"] = "Stitched Vanguard",
 					["count"] = 5,
-					["health"] = 112140,
 				}, -- [4]
 				{
 					["clones"] = {
@@ -18745,12 +18779,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.3,
-					["health"] = 144180,
 					["name"] = "Zolramus Gatekeeper",
+					["count"] = 6,
 					["displayId"] = 95231,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
+					["health"] = 144180,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -18818,12 +18852,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 165872,
-					["name"] = "Flesh Crafter",
 					["count"] = 4,
+					["health"] = 112140,
 					["displayId"] = 96480,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 112140,
+					["name"] = "Flesh Crafter",
 					["scale"] = 1.4,
 				}, -- [6]
 				{
@@ -18834,8 +18868,10 @@ MythicDungeonToolsDB = {
 							["y"] = -191.93196037298,
 						}, -- [1]
 					},
-					["id"] = 162691,
 					["scale"] = 1,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 					["spells"] = {
 						[288865] = {
 						},
@@ -18853,15 +18889,13 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2395,
 					["instanceID"] = 1182,
-					["health"] = 560700,
 					["count"] = 0,
+					["name"] = "Blightbone",
 					["displayId"] = 95467,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Blightbone",
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
+					["health"] = 560700,
+					["id"] = 162691,
 				}, -- [7]
 				{
 					["clones"] = {
@@ -18949,13 +18983,13 @@ MythicDungeonToolsDB = {
 						},
 						[317898] = {
 						},
-						[132951] = {
+						[325748] = {
 						},
 						[344991] = {
 						},
 						[320297] = {
 						},
-						[325748] = {
+						[320573] = {
 						},
 						[240443] = {
 						},
@@ -18971,7 +19005,7 @@ MythicDungeonToolsDB = {
 						},
 						[320571] = {
 						},
-						[320573] = {
+						[132951] = {
 						},
 					},
 					["characteristics"] = {
@@ -18990,12 +19024,12 @@ MythicDungeonToolsDB = {
 						["Fear"] = true,
 					},
 					["scale"] = 1,
-					["health"] = 72090,
+					["count"] = 4,
 					["displayId"] = 94992,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 72090,
 					["name"] = "Zolramus Sorcerer",
-					["count"] = 4,
 				}, -- [8]
 				{
 					["clones"] = {
@@ -19078,12 +19112,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["count"] = 4,
 					["name"] = "Zolramus Bonecarver",
+					["health"] = 80100,
 					["displayId"] = 93933,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 80100,
+					["count"] = 4,
 					["id"] = 163619,
 				}, -- [9]
 				{
@@ -19161,12 +19195,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 163618,
-					["name"] = "Zolramus Necromancer",
 					["health"] = 112140,
+					["count"] = 8,
 					["displayId"] = 95233,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 8,
+					["name"] = "Zolramus Necromancer",
 					["scale"] = 1,
 				}, -- [10]
 				{
@@ -19241,12 +19275,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Repentance"] = true,
 					},
-					["health"] = 36045,
 					["count"] = 0,
+					["name"] = "Brittlebone Mage",
 					["displayId"] = 96112,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Brittlebone Mage",
+					["health"] = 36045,
 					["scale"] = 0.7,
 				}, -- [11]
 				{
@@ -19312,12 +19346,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 0.7,
-					["name"] = "Brittlebone Warrior",
 					["count"] = 0,
+					["health"] = 80100,
 					["displayId"] = 96107,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 80100,
+					["name"] = "Brittlebone Warrior",
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -19369,28 +19403,28 @@ MythicDungeonToolsDB = {
 					["spells"] = {
 						[288865] = {
 						},
-						[240443] = {
+						[324323] = {
 						},
 						[132466] = {
 						},
 						[324293] = {
 						},
-						[324323] = {
+						[132951] = {
 						},
 						[343470] = {
 						},
-						[132951] = {
+						[240443] = {
 						},
 					},
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 160200,
 					["name"] = "Skeletal Marauder",
+					["count"] = 6,
 					["displayId"] = 96115,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["count"] = 6,
+					["health"] = 160200,
 					["scale"] = 1.3,
 				}, -- [13]
 				{
@@ -19429,9 +19463,9 @@ MythicDungeonToolsDB = {
 						[335143] = {
 						},
 					},
-					["name"] = "Zolramus Bonemender",
 					["health"] = 80100,
 					["count"] = 4,
+					["name"] = "Zolramus Bonemender",
 					["displayId"] = 97668,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -19487,12 +19521,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Nar'zudah",
 					["health"] = 240300,
+					["count"] = 15,
 					["displayId"] = 94780,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 15,
+					["name"] = "Nar'zudah",
 					["scale"] = 1.5,
 				}, -- [15]
 				{
@@ -19605,12 +19639,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 240300,
 					["count"] = 12,
+					["name"] = "Skeletal Monstrosity",
 					["displayId"] = 94814,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Skeletal Monstrosity",
+					["health"] = 240300,
 					["scale"] = 1.5,
 				}, -- [16]
 				{
@@ -19659,12 +19693,12 @@ MythicDungeonToolsDB = {
 						["Repentance"] = true,
 					},
 					["scale"] = 0.7,
-					["count"] = 0,
+					["name"] = "Brittlebone Crossbowman",
 					["displayId"] = 96114,
 					["creatureType"] = "Undead",
 					["level"] = 60,
+					["count"] = 0,
 					["health"] = 40050,
-					["name"] = "Brittlebone Crossbowman",
 				}, -- [17]
 				{
 					["clones"] = {
@@ -19730,9 +19764,9 @@ MythicDungeonToolsDB = {
 						[224729] = {
 						},
 					},
-					["name"] = "Shuffling Corpse",
 					["count"] = 1,
 					["health"] = 28836,
+					["name"] = "Shuffling Corpse",
 					["displayId"] = 96132,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -19799,12 +19833,12 @@ MythicDungeonToolsDB = {
 					["encounterID"] = 2391,
 					["instanceID"] = 1182,
 					["id"] = 163157,
-					["health"] = 576720,
+					["name"] = "Amarth",
 					["displayId"] = 94926,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["health"] = 576720,
 					["count"] = 0,
-					["name"] = "Amarth",
 				}, -- [19]
 				{
 					["clones"] = {
@@ -19951,12 +19985,12 @@ MythicDungeonToolsDB = {
 						["Fear"] = true,
 					},
 					["scale"] = 1.4,
-					["name"] = "Corpse Collector",
+					["health"] = 112140,
 					["displayId"] = 98170,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["name"] = "Corpse Collector",
 					["count"] = 4,
-					["health"] = 112140,
 				}, -- [20]
 				{
 					["clones"] = {
@@ -19988,9 +20022,9 @@ MythicDungeonToolsDB = {
 						[132951] = {
 						},
 					},
-					["name"] = "Kyrian Stitchwerk",
 					["health"] = 192240,
 					["count"] = 5,
+					["name"] = "Kyrian Stitchwerk",
 					["displayId"] = 98190,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20159,9 +20193,9 @@ MythicDungeonToolsDB = {
 						[334610] = {
 						},
 					},
-					["name"] = "Spare Parts",
 					["count"] = 0,
 					["health"] = 8010,
+					["name"] = "Spare Parts",
 					["displayId"] = 95577,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20236,12 +20270,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.4,
-					["health"] = 136170,
 					["name"] = "Loyal Creation",
+					["count"] = 4,
 					["displayId"] = 95226,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 136170,
 					["id"] = 165911,
 				}, -- [23]
 				{
@@ -20278,12 +20312,12 @@ MythicDungeonToolsDB = {
 						["Taunt"] = true,
 					},
 					["scale"] = 1.6,
-					["health"] = 160200,
+					["count"] = 4,
 					["displayId"] = 98227,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 160200,
 					["name"] = "Separation Assistant",
-					["count"] = 4,
 				}, -- [24]
 				{
 					["clones"] = {
@@ -20320,12 +20354,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.6,
-					["name"] = "Stitching Assistant",
 					["count"] = 4,
+					["health"] = 160200,
 					["displayId"] = 98226,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 160200,
+					["name"] = "Stitching Assistant",
 					["id"] = 173044,
 				}, -- [25]
 				{
@@ -20356,9 +20390,9 @@ MythicDungeonToolsDB = {
 						[240443] = {
 						},
 					},
-					["count"] = 6,
 					["name"] = "Goregrind",
 					["health"] = 224280,
+					["count"] = 6,
 					["displayId"] = 99122,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20394,20 +20428,20 @@ MythicDungeonToolsDB = {
 						},
 						[317898] = {
 						},
-						[240443] = {
+						[132951] = {
 						},
 						[224729] = {
 						},
-						[132951] = {
+						[338022] = {
 						},
 						[201657] = {
 						},
-						[338022] = {
+						[240443] = {
 						},
 					},
-					["health"] = 80100,
 					["name"] = "Goregrind Bits",
 					["count"] = 0,
+					["health"] = 80100,
 					["displayId"] = 97800,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20455,18 +20489,18 @@ MythicDungeonToolsDB = {
 						},
 						[317898] = {
 						},
-						[338022] = {
-						},
 						[240443] = {
-						},
-						[224729] = {
 						},
 						[132951] = {
 						},
+						[224729] = {
+						},
+						[338022] = {
+						},
 					},
-					["count"] = 0,
 					["name"] = "Rotspew Leftovers",
 					["health"] = 64080,
+					["count"] = 0,
 					["displayId"] = 97801,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20517,12 +20551,12 @@ MythicDungeonToolsDB = {
 						["Taunt"] = true,
 					},
 					["scale"] = 2,
-					["health"] = 192240,
+					["count"] = 6,
 					["displayId"] = 99121,
 					["creatureType"] = "Undead",
 					["level"] = 60,
+					["health"] = 192240,
 					["name"] = "Rotspew",
-					["count"] = 6,
 				}, -- [29]
 				{
 					["clones"] = {
@@ -20563,12 +20597,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Stitchflesh's Creation",
 					["count"] = 0,
+					["health"] = 192240,
 					["displayId"] = 96218,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 192240,
+					["name"] = "Stitchflesh's Creation",
 					["id"] = 164578,
 				}, -- [30]
 				{
@@ -20580,16 +20614,16 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["id"] = 162689,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
+					["scale"] = 2,
 					["spells"] = {
 						[288865] = {
 						},
-						[326868] = {
-						},
 						[334488] = {
+						},
+						[320358] = {
 						},
 						[320366] = {
 						},
@@ -20615,19 +20649,19 @@ MythicDungeonToolsDB = {
 						},
 						[334476] = {
 						},
-						[320358] = {
+						[326868] = {
 						},
 					},
 					["isBoss"] = true,
 					["encounterID"] = 2392,
 					["instanceID"] = 1182,
-					["health"] = 384480,
 					["name"] = "Surgeon Stitchflesh",
+					["count"] = 0,
 					["displayId"] = 96477,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["scale"] = 2,
+					["health"] = 384480,
+					["id"] = 162689,
 				}, -- [31]
 				{
 					["clones"] = {
@@ -20637,7 +20671,7 @@ MythicDungeonToolsDB = {
 							["y"] = -276.58583505829,
 						}, -- [1]
 					},
-					["name"] = "Nalthor the Rimebinder",
+					["count"] = 0,
 					["id"] = 162693,
 					["spells"] = {
 						[321370] = {
@@ -20674,8 +20708,8 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2396,
 					["instanceID"] = 1182,
-					["count"] = 0,
 					["health"] = 512640,
+					["name"] = "Nalthor the Rimebinder",
 					["displayId"] = 96085,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20855,12 +20889,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Repentance"] = true,
 					},
-					["name"] = "Risen Bonesoldier",
 					["count"] = 4,
+					["health"] = 64080,
 					["displayId"] = 96958,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 64080,
+					["name"] = "Risen Bonesoldier",
 					["scale"] = 1,
 				}, -- [1]
 				{
@@ -20952,9 +20986,9 @@ MythicDungeonToolsDB = {
 						[320785] = {
 						},
 					},
-					["count"] = 4,
 					["name"] = "Risen Cultist",
 					["health"] = 80100,
+					["count"] = 4,
 					["displayId"] = 96964,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -20995,9 +21029,9 @@ MythicDungeonToolsDB = {
 						[333227] = {
 						},
 					},
-					["count"] = 6,
 					["name"] = "Risen Warlord",
 					["health"] = 144180,
+					["count"] = 6,
 					["displayId"] = 97150,
 					["creatureType"] = "Undead",
 					["level"] = 60,
@@ -21082,12 +21116,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["name"] = "Skeletal Raptor",
 					["health"] = 39758,
+					["count"] = 3,
 					["displayId"] = 33733,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["count"] = 3,
+					["name"] = "Skeletal Raptor",
 					["id"] = 168986,
 				}, -- [4]
 				{
@@ -21121,12 +21155,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.3,
-					["count"] = 6,
 					["health"] = 136170,
+					["name"] = "Death Speaker",
 					["displayId"] = 96957,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Death Speaker",
+					["count"] = 6,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -21342,12 +21376,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 168934,
-					["health"] = 144180,
 					["count"] = 8,
+					["name"] = "Enraged Spirit",
 					["displayId"] = 97153,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["name"] = "Enraged Spirit",
+					["health"] = 144180,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -21385,12 +21419,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.3,
-					["name"] = "Defunct Dental Drill",
 					["count"] = 8,
+					["health"] = 144180,
 					["displayId"] = 92177,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["health"] = 144180,
+					["name"] = "Defunct Dental Drill",
 					["id"] = 167962,
 				}, -- [7]
 				{
@@ -21464,12 +21498,12 @@ MythicDungeonToolsDB = {
 						["Stun"] = true,
 						["Root"] = true,
 					},
-					["health"] = 16020,
+					["count"] = 0,
 					["displayId"] = 91017,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
+					["health"] = 16020,
 					["name"] = "Volatile Memory",
-					["count"] = 0,
 				}, -- [8]
 				{
 					["clones"] = {
@@ -21529,9 +21563,9 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["name"] = "Headless Client",
 					["count"] = 5,
 					["health"] = 80100,
+					["name"] = "Headless Client",
 					["displayId"] = 91123,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
@@ -21563,12 +21597,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1.3,
-					["name"] = "4.RF-4.RF",
 					["health"] = 144180,
+					["count"] = 8,
 					["displayId"] = 68856,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
-					["count"] = 8,
+					["name"] = "4.RF-4.RF",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -21618,9 +21652,9 @@ MythicDungeonToolsDB = {
 						[288865] = {
 						},
 					},
-					["name"] = "Lubricator",
 					["health"] = 112140,
 					["count"] = 5,
+					["name"] = "Lubricator",
 					["displayId"] = 91631,
 					["creatureType"] = "Mechanical",
 					["level"] = 60,
@@ -21685,9 +21719,9 @@ MythicDungeonToolsDB = {
 						[317898] = {
 						},
 					},
-					["health"] = 88110,
 					["name"] = "Sentient Oil",
 					["count"] = 6,
+					["health"] = 88110,
 					["displayId"] = 90423,
 					["creatureType"] = "Aberration",
 					["level"] = 60,
@@ -21703,7 +21737,7 @@ MythicDungeonToolsDB = {
 							["sublevel"] = 2,
 						}, -- [1]
 					},
-					["health"] = 432540,
+					["name"] = "Millhouse Manastorm",
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -21740,8 +21774,8 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2409,
 					["instanceID"] = 1188,
-					["name"] = "Millhouse Manastorm",
 					["count"] = 0,
+					["health"] = 432540,
 					["displayId"] = 68818,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -21803,12 +21837,12 @@ MythicDungeonToolsDB = {
 					["encounterID"] = 2409,
 					["instanceID"] = 1188,
 					["scale"] = 1,
-					["health"] = 368460,
+					["name"] = "Millificent Manastorm",
 					["displayId"] = 67422,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 368460,
 					["count"] = 0,
-					["name"] = "Millificent Manastorm",
 				}, -- [14]
 				{
 					["clones"] = {
@@ -21906,12 +21940,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["name"] = "Atal'ai Hoodoo Hexxer",
 					["health"] = 128160,
+					["count"] = 6,
 					["displayId"] = 97345,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 6,
+					["name"] = "Atal'ai Hoodoo Hexxer",
 					["scale"] = 1,
 				}, -- [15]
 				{
@@ -21961,9 +21995,9 @@ MythicDungeonToolsDB = {
 						[326868] = {
 						},
 					},
-					["health"] = 88110,
 					["count"] = 5,
 					["name"] = "Atal'ai High Priest",
+					["health"] = 88110,
 					["displayId"] = 97300,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
@@ -22027,12 +22061,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 171333,
-					["health"] = 16020,
 					["name"] = "Atal'ai Devoted",
+					["count"] = 2,
 					["displayId"] = 97298,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 2,
+					["health"] = 16020,
 					["characteristics"] = {
 						["Polymorph"] = true,
 						["Incapacitate"] = true,
@@ -22109,12 +22143,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["count"] = 5,
 					["name"] = "Atal'ai Deathwalker",
+					["health"] = 96120,
 					["displayId"] = 97294,
 					["creatureType"] = "Undead",
 					["level"] = 60,
-					["health"] = 96120,
+					["count"] = 5,
 					["id"] = 170480,
 				}, -- [18]
 				{
@@ -22125,7 +22159,7 @@ MythicDungeonToolsDB = {
 							["y"] = -269.81384259559,
 						}, -- [1]
 					},
-					["health"] = 464580,
+					["count"] = 0,
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
@@ -22154,8 +22188,8 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2408,
 					["instanceID"] = 1188,
-					["count"] = 0,
 					["name"] = "Hakkar the Soulflayer",
+					["health"] = 464580,
 					["displayId"] = 95484,
 					["creatureType"] = "Beast",
 					["level"] = 60,
@@ -22241,12 +22275,12 @@ MythicDungeonToolsDB = {
 						["Mind Control"] = true,
 						["Imprison"] = true,
 					},
-					["name"] = "Weald Shimmermoth",
+					["count"] = 3,
 					["displayId"] = 95199,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["name"] = "Weald Shimmermoth",
 					["health"] = 72090,
-					["count"] = 3,
 				}, -- [20]
 				{
 					["clones"] = {
@@ -22336,12 +22370,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["id"] = 164857,
-					["name"] = "Spriggan Mendbender",
 					["count"] = 2,
+					["health"] = 56070,
 					["displayId"] = 95696,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 56070,
+					["name"] = "Spriggan Mendbender",
 					["scale"] = 1,
 				}, -- [21]
 				{
@@ -22412,12 +22446,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 0.8,
-					["health"] = 64080,
 					["name"] = "Juvenile Runestag",
+					["count"] = 2,
 					["displayId"] = 93792,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["count"] = 2,
+					["health"] = 64080,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -22645,12 +22679,12 @@ MythicDungeonToolsDB = {
 					},
 					["scale"] = 1,
 					["id"] = 164873,
-					["count"] = 4,
+					["health"] = 96120,
 					["displayId"] = 93795,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["count"] = 4,
 					["name"] = "Runestag Elderhorn",
-					["health"] = 96120,
 				}, -- [23]
 				{
 					["clones"] = {
@@ -22774,12 +22808,12 @@ MythicDungeonToolsDB = {
 						["Mind Control"] = true,
 						["Imprison"] = true,
 					},
-					["health"] = 56070,
+					["name"] = "Spriggan Barkbinder",
 					["displayId"] = 95695,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
+					["health"] = 56070,
 					["count"] = 2,
-					["name"] = "Spriggan Barkbinder",
 				}, -- [24]
 				{
 					["clones"] = {
@@ -22881,12 +22915,12 @@ MythicDungeonToolsDB = {
 						["Silence"] = true,
 						["Fear"] = true,
 					},
-					["name"] = "Bladebeak Hatchling",
+					["health"] = 16020,
 					["displayId"] = 95554,
 					["creatureType"] = "Beast",
 					["level"] = 60,
+					["name"] = "Bladebeak Hatchling",
 					["count"] = 1,
-					["health"] = 16020,
 				}, -- [25]
 				{
 					["clones"] = {
@@ -23113,12 +23147,12 @@ MythicDungeonToolsDB = {
 						},
 					},
 					["scale"] = 1,
-					["health"] = 80100,
 					["name"] = "Territorial Bladebeak",
+					["count"] = 4,
 					["displayId"] = 95555,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["count"] = 4,
+					["health"] = 80100,
 					["characteristics"] = {
 						["Taunt"] = true,
 						["Incapacitate"] = true,
@@ -23174,12 +23208,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["count"] = 5,
 					["name"] = "Bladebeak Matriarch",
+					["health"] = 160200,
 					["displayId"] = 95551,
 					["creatureType"] = "Beast",
 					["level"] = 60,
-					["health"] = 160200,
+					["count"] = 5,
 					["id"] = 171343,
 				}, -- [27]
 				{
@@ -23205,12 +23239,12 @@ MythicDungeonToolsDB = {
 					["characteristics"] = {
 						["Taunt"] = true,
 					},
-					["health"] = 192240,
+					["count"] = 12,
 					["displayId"] = 96412,
 					["creatureType"] = "Dragonkin",
 					["level"] = 60,
+					["health"] = 192240,
 					["name"] = "Mythresh, Sky's Talons",
-					["count"] = 12,
 				}, -- [28]
 				{
 					["clones"] = {
@@ -23220,10 +23254,8 @@ MythicDungeonToolsDB = {
 							["y"] = -316.46131805158,
 						}, -- [1]
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["scale"] = 1,
+					["id"] = 164450,
 					["spells"] = {
 						[320230] = {
 						},
@@ -23251,13 +23283,15 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2398,
 					["instanceID"] = 1188,
-					["name"] = "Dealer Xy'exa",
 					["health"] = 544680,
+					["count"] = 0,
 					["displayId"] = 97540,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["count"] = 0,
-					["id"] = 164450,
+					["name"] = "Dealer Xy'exa",
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [29]
 				{
 					["clones"] = {
@@ -23267,10 +23301,8 @@ MythicDungeonToolsDB = {
 							["y"] = -321.77934782609,
 						}, -- [1]
 					},
-					["characteristics"] = {
-						["Taunt"] = true,
-					},
 					["id"] = 166608,
+					["scale"] = 1,
 					["spells"] = {
 						[326868] = {
 						},
@@ -23312,22 +23344,54 @@ MythicDungeonToolsDB = {
 					["isBoss"] = true,
 					["encounterID"] = 2410,
 					["instanceID"] = 1188,
-					["count"] = 0,
 					["name"] = "Mueh'zala",
+					["health"] = 6408000,
 					["displayId"] = 96358,
 					["creatureType"] = "Humanoid",
 					["level"] = 60,
-					["health"] = 6408000,
-					["scale"] = 1,
+					["count"] = 0,
+					["characteristics"] = {
+						["Taunt"] = true,
+					},
 				}, -- [30]
 			},
 		},
-		["currentDifficulty"] = 16,
-		["version"] = 392,
-		["xoffset"] = -122.9275436401367,
+		["toolbar"] = {
+			["color"] = {
+				["g"] = 0.14117647058823,
+				["b"] = 0.1843137254902,
+			},
+			["brushSize"] = 6,
+		},
+		["version"] = 393,
+		["xoffset"] = 20.96623229980469,
+		["currentPreset"] = {
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			nil, -- [4]
+			nil, -- [5]
+			nil, -- [6]
+			nil, -- [7]
+			nil, -- [8]
+			nil, -- [9]
+			nil, -- [10]
+			nil, -- [11]
+			nil, -- [12]
+			nil, -- [13]
+			nil, -- [14]
+			6, -- [15]
+			2, -- [16]
+			2, -- [17]
+			2, -- [18]
+			[21] = 2,
+			[22] = 2,
+			[25] = 3,
+			[26] = 2,
+			[35] = 2,
+		},
 		["scale"] = 1.0974513698269,
-		["currentDungeonIdx"] = 31,
-		["yoffset"] = -37.24385833740234,
+		["yoffset"] = -94.13317108154297,
 	},
 	["profileKeys"] = {
 		["薇羽 - 影之哀伤"] = "小猪雪雯 - 塞拉赞恩",
@@ -23340,8 +23404,9 @@ MythicDungeonToolsDB = {
 		["郭可盈 - 冰风岗"] = "小猪雪雯 - 塞拉赞恩",
 		["柳絮菲菲 - 影之哀伤"] = "小猪雪雯 - 塞拉赞恩",
 		["雪舞薇薇 - 阿比迪斯"] = "小猪雪雯 - 塞拉赞恩",
-		["柳絮菲菲 - 冰风岗"] = "小猪雪雯 - 塞拉赞恩",
 		["试玩下哦 - 冰风岗"] = "小猪雪雯 - 塞拉赞恩",
+		["柳絮菲菲 - 冰风岗"] = "小猪雪雯 - 塞拉赞恩",
+		["张天驰 - 燃烧之刃"] = "张天驰 - 燃烧之刃",
 		["雪舞霏霏 - 阿比迪斯"] = "小猪雪雯 - 塞拉赞恩",
 		["林声川 - 燃烧之刃"] = "林声川 - 燃烧之刃",
 		["赵丽颖 - 阿比迪斯"] = "小猪雪雯 - 塞拉赞恩",

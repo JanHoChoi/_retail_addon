@@ -39,6 +39,7 @@ Details_StreamerDB = {
 		["小猪逗逗 - 塞拉赞恩"] = "尘落丶李诞 - 熔火之心",
 		["阿树丶死骑 - 霜之哀伤"] = "尘落丶李诞 - 熔火之心",
 		["小猪越越 - 塞拉赞恩"] = "尘落丶李诞 - 熔火之心",
+		["张天驰 - 燃烧之刃"] = "蝶舞菲菲 - 冰风岗",
 		["小猪蕾琦 - 塞拉赞恩"] = "尘落丶李诞 - 熔火之心",
 		["薇羽 - 影之哀伤"] = "蝶舞菲菲 - 冰风岗",
 		["劉備 - 塞拉赞恩"] = "尘落丶李诞 - 熔火之心",
@@ -92,18 +93,18 @@ Details_StreamerDB = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["author"] = "Details! Team",
-			["font_size"] = 10,
+			["use_spark"] = false,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = false,
+			["y"] = -82.51953125,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -113,6 +114,7 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -124,7 +126,6 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["y"] = -82.51953125,
 			["x"] = 18.26283836364746,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -161,27 +162,12 @@ Details_StreamerDB = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["author"] = "Details! Team",
-			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["use_spark"] = false,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -193,7 +179,22 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = -82.519775390625,
+			["use_spark"] = false,
 			["x"] = 18.26283836364746,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

@@ -10,6 +10,7 @@ DecursiveDB = {
 		["柳絮菲菲 - 影之哀伤"] = "Default",
 		["雪舞薇薇 - 阿比迪斯"] = "Default",
 		["柳絮菲菲 - 冰风岗"] = "Default",
+		["张天驰 - 燃烧之刃"] = "Default",
 		["林声川 - 燃烧之刃"] = "Default",
 		["赵丽颖 - 阿比迪斯"] = "Default",
 		["弄着玩玩的 - 冰风岗"] = "Default",
@@ -454,7 +455,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1653754713,
+		["LastVersionAnnounce"] = 1653927130,
 	},
 	["profiles"] = {
 		["Default"] = {
