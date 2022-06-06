@@ -1,17 +1,19 @@
 # LittleWigs
 
-## [v9.2.8](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.8) (2022-05-25)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.7...v9.2.8) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.2.9](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.9) (2022-06-01)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.8...v9.2.9) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Shadowlands/Plaguefall/Trash: Concentrated Plague, Plaguefallen, Clinging Infestation, Call Venomfang (#660)  
-- Shadowlands/TheaterOfPain/Trash: Track trash abilities (#658)  
-- Shadowlands/TazaveshTheVeiledMarket/Trash: Timers for Fish Sticks, Tidal Stomp, Blood in the Water (#657)  
-- Shadowlands/Plaguefall/Trash: Crushing Embrace, Vile Spit (#656)  
-- Shadowlands/Plaguefall/DominaVenomblade: Web Wrap, respawn timer (#662)  
-- Update deDE (#661)  
-- Shadowlands/Plaguefall/DoctorIckus: Alert tank on slime injection cast (#659)  
-- Shadowlands/TazaveshTheVeiledMarket/Trash: Lockdown dispel alert (#655)  
-- Shadowlands/TazaveshTheVeiledMarket: Localize password triggers (#654)  
-- Shadowlands/SanguineDepths/Trash: Restrictions for Barbed Shackles warning (#653)  
-- Shadowlands/TheNecroticWake/Amarth: Respawn, Warmup, Land of the Dead (#652)  
-- Shadowlands/TheNecroticWake/Trash: Animate Dead, Final Bargain, Boneshatter Shield (#651)  
+- bump toc  
+- Workflow: move to checkout@v3  
+- Shadowlands/SanguineDepths/Trash: Tweak  
+- Shadowlands/SanguineDepths/Trash: Timers for Anima Collector, Gloom Squall (#673)  
+- Update deDE (#676)  
+- Shadowlands/SanguineDepths/Trash: Sap Lifeblood, scope abilities (#675)  
+- Shadowlands/TheNecroticWake/Trash: Clean up listener (#674)  
+- Shadowlands/TheaterOfPain/Xav: Respawn timer, Banner destroyed, bug fix (#669)  
+- Shadowlands/TheaterOfPain: Gorechop respawn timer, bug fixes (#668)  
+- Shadowlands/TheaterOfPain/Kultharok: Respawn timer, fix Spectral Reach alert (#671)  
+- Shadowlands/TheaterOfPain/AffrontOfChallengers: Respawn timer (#670)  
+- Shadowlands/TheaterOfPain/Mordretha: Death Grasp, respawn timer, warmup timer (#667)  
+- Update zhCN (#666)  
+- Update zhTW (#664)  

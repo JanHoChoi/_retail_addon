@@ -8,7 +8,6 @@ MEETINGSTONE_UI_DB = {
 			},
 			["ActivitiesData"] = {
 				["data"] = "$1$Z$S358`史诗钥石冲刺季全面开启`加入金牌导师，赢导师徽章`5月11日至6月22日，通过集合石插件与新队友组队，通关12层或更高的“暗影国度”史诗钥石地下城获取积分，前100名将获得集合石插件导师限量徽章！{URL}`http://wow.blizzard.cn/mentor`1`0$$",
-				["new"] = false,
 			},
 			["AnnData"] = {
 				["data"] = "^1^SAnnData^T^Stitle^S集合石插件积分兑换维护^Scontent^S集合石插件积分兑换功能正在维护中，目前暂时无法正常使用，大家还是可以正常登录战网进行兑换，给大家造成的不便还请谅解。^t^^",
@@ -148,8 +147,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 477,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 475,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["勇气试炼（史诗）"] = {
@@ -168,8 +167,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 470,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 0,
+			["尼奥罗萨，觉醒之城（英雄）"] = {
+				["ItemLevel"] = 465,
 				["HonorLevel"] = 0,
 			},
 			["凇心间隙"] = {
@@ -180,8 +179,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 235,
 				["HonorLevel"] = 0,
 			},
-			["尼奥罗萨，觉醒之城（英雄）"] = {
-				["ItemLevel"] = 465,
+			["阿塔达萨（史诗钥石）"] = {
+				["ItemLevel"] = 475,
 				["HonorLevel"] = 0,
 			},
 			["维克雷斯庄园（史诗）"] = {
@@ -256,6 +255,11 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["min"] = 0,
 				},
+				["ItemLevel"] = {
+					["max"] = 0,
+					["min"] = 0,
+					["enable"] = false,
+				},
 				["Age"] = {
 					["enable"] = false,
 					["max"] = 0,
@@ -265,11 +269,6 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
-				},
-				["ItemLevel"] = {
-					["max"] = 0,
-					["min"] = 0,
-					["enable"] = false,
 				},
 			},
 			[6] = {
@@ -305,6 +304,11 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["enable"] = false,
 				},
+				["Members"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
 				["ItemLevel"] = {
 					["max"] = 0,
 					["min"] = 0,
@@ -314,11 +318,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 					["min"] = 0,
-				},
-				["Members"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
 				},
 			},
 			[2] = {
@@ -381,8 +380,8 @@ MEETINGSTONE_UI_DB = {
 	["FILTER_DAMAGE"] = false,
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = 26.37044715881348,
-	["x"] = 0.8892843723297119,
+	["y"] = -32.29610443115234,
+	["x"] = 24.59316253662109,
 	["a2"] = "CENTER",
 	["a1"] = "CENTER",
 	["QuickJoin"] = true,

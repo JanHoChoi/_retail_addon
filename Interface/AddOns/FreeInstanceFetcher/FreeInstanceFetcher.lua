@@ -18,6 +18,8 @@ local database = {
         ['羔羊公益之心-冰霜之刃'] = {true, '9', '0'},
         ['羔羊公益之牢-金色平原'] = {true, '9', '0'},
         ['想当坦公益-安苏'] = {true, '9', '0'},
+        ['怜姐姐的术士-塞拉摩'] = {true, '9', '0'},
+        ['怜姐姐的萨满-塞拉摩'] = {true, '9', '0'},
     },
 }
 
@@ -176,7 +178,7 @@ F.addonPrefix = "\124cFF70B8FF" .. addonName .. "\124r: "
 F.addonLocaleName = "\124cFF70B8FF便利CD获取\124r: "
 F.addonVersion = GetAddOnMetadata(addonName, 'Version')
 --[==[@debug@
-if F.addonVersion == 'v9.2.1' then
+if F.addonVersion == 'v9.2.5' then
     F.addonVersion = 'Dev'
 end
 --@end-debug@]==]

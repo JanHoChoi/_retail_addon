@@ -1,4 +1,4 @@
-## Interface: 90200
+## Interface: 90205
 
 ## Title: LittleWigs
 ## Notes: Boss warnings for 5-man dungeons & scenarios.
@@ -22,6 +22,6 @@
 ## X-BigWigs-LoadOn-InstanceId: 2284, 2285, 2286, 2287, 2289, 2290, 2291, 2293, 2441
 ## Dependencies: BigWigs
 ## LoadOnDemand: 1
-## Version: v9.2.8
+## Version: v9.2.9
 
 modules.xml

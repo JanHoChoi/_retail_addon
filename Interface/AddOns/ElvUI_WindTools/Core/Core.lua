@@ -18,7 +18,7 @@ W.Title = L["WindTools"]
 W.Locale = GetLocale()
 W.ChineseLocale = strsub(W.Locale, 0, 2) == "zh"
 W.MaxLevelForPlayerExpansion = GetMaxLevelForPlayerExpansion()
-W.SupportElvUIVersion = 12.75
+W.SupportElvUIVersion = 12.80
 W.ClassColor = _G.RAID_CLASS_COLORS[E.myclass]
 
 W.RegisteredModules = {}
@@ -112,25 +112,9 @@ function W:CheckInstalledVersion()
     if InCombatLockdown() then
         return
     end
-    if not E.global.WT.version or E.global.WT.version ~= W.Version then
-        E:StaticPopup_Show("WINDTOOLS_OPEN_CHANGELOG")
-    end
 
-    if E.private.WT.core.loginMessage then
-        local icon = F.GetIconString(W.Media.Textures.smallLogo, 14)
-        print(
-            format(
-                icon ..
-                    " " ..
-                        L["%s %s Loaded."] ..
-                            " " .. L["You can send your suggestions or bugs via %s, %s, %s, and the thread in %s."],
-                W.Title,
-                W.Version,
-                L["QQ Group"],
-                L["Discord"],
-                L["Github"],
-                L["NGA.cn"]
-            )
-        )
+    if self.showChangeLog then
+        E:StaticPopup_Show("WINDTOOLS_OPEN_CHANGELOG")
+        self.showChangeLog = false
     end
 end

@@ -1,45 +1,18 @@
 
 ElvDB = {
-	["profileKeys"] = {
-		["蝶舞菲菲 - 冰风岗"] = "Default",
-		["林声川 - 燃烧之刃"] = "MAGE",
-		["杜一航 - 燃烧之刃"] = "Default",
-		["陶小桃 - 影之哀伤"] = "Default",
-		["张天驰 - 燃烧之刃"] = "Default",
-		["薇羽 - 冰风岗"] = "Default",
-	},
-	["namespaces"] = {
-		["LibDualSpec-1.0"] = {
-			["char"] = {
-				["智娶御姐 - 死亡之翼"] = {
-					["enabled"] = false,
-				},
-				["智娶老师 - 死亡之翼"] = {
-					["enabled"] = false,
-				},
-				["智娶娇娘 - 死亡之翼"] = {
-					["enabled"] = false,
-				},
-				["知妇宝 - 凤凰之神"] = {
-					["enabled"] = false,
-				},
-				["蝶舞菲菲 - 冰风岗"] = {
-					["enabled"] = false,
-				},
-				["智娶美妇 - 死亡之翼"] = {
-					["enabled"] = false,
-				},
-				["桃小桃同学 - 冰风岗"] = {
-					"冰风岗-WeiyuAnne", -- [1]
-					"冰风岗-WeiyuAnne", -- [2]
-					"冰风岗-WeiyuAnne", -- [3]
-					["enabled"] = true,
-				},
-				["小猪逗逗 - 塞拉赞恩"] = {
-					["enabled"] = false,
+	["sle"] = {
+		["TimePlayed"] = {
+			["死亡之翼"] = {
+				["智娶老师"] = {
+					["Class"] = "WARRIOR",
+					["Level"] = 120,
+					["TotalTime"] = 24934952,
+					["LevelTime"] = 4015630,
 				},
 			},
 		},
+	},
+	["SLErrorDisabledAddOns"] = {
 	},
 	["class"] = {
 		["冰风岗"] = {
@@ -125,6 +98,10 @@ ElvDB = {
 			["小猪思旖"] = "ROGUE",
 		},
 	},
+	["WT"] = {
+		["DisabledAddOns"] = {
+		},
+	},
 	["gold"] = {
 		["冰风岗"] = {
 			["弄着玩玩的"] = 100000,
@@ -156,8 +133,8 @@ ElvDB = {
 		},
 		["燃烧之刃"] = {
 			["林声川"] = 91516192,
-			["张天驰"] = 10000,
-			["杜一航"] = 1703298020,
+			["张天驰"] = 313803826,
+			["杜一航"] = 1142990787,
 		},
 		["霜之哀伤"] = {
 			["阿树丶死骑"] = 117231987,
@@ -245,11 +222,6 @@ ElvDB = {
 						["style"] = "texturedIcon",
 					},
 				},
-				["ROGUE"] = {
-					[57934] = {
-						["style"] = "texturedIcon",
-					},
-				},
 				["PALADIN"] = {
 					[1044] = {
 						["style"] = "texturedIcon",
@@ -273,6 +245,14 @@ ElvDB = {
 						["style"] = "texturedIcon",
 					},
 					[156910] = {
+						["style"] = "texturedIcon",
+					},
+				},
+				["SHAMAN"] = {
+					[974] = {
+						["style"] = "texturedIcon",
+					},
+					[61295] = {
 						["style"] = "texturedIcon",
 					},
 				},
@@ -348,11 +328,8 @@ ElvDB = {
 						["style"] = "texturedIcon",
 					},
 				},
-				["SHAMAN"] = {
-					[974] = {
-						["style"] = "texturedIcon",
-					},
-					[61295] = {
+				["ROGUE"] = {
+					[57934] = {
 						["style"] = "texturedIcon",
 					},
 				},
@@ -410,13 +387,13 @@ ElvDB = {
 					},
 				},
 			},
-			["version"] = "2.36",
+			["version"] = "2.42",
 		},
 		["general"] = {
 			["showMissingTalentAlert"] = true,
 			["AceGUI"] = {
-				["height"] = 766.13,
-				["width"] = 1022.17,
+				["height"] = 600,
+				["width"] = 800,
 			},
 			["fadeMapDuration"] = 0.5,
 			["mapAlphaWhenMoving"] = 0.5,
@@ -631,10 +608,10 @@ ElvDB = {
 						[45] = {
 							[4] = true,
 						},
-						[65] = {
+						[54] = {
 							[4] = true,
 						},
-						[40] = {
+						[65] = {
 							[4] = true,
 						},
 						[62] = {
@@ -643,7 +620,7 @@ ElvDB = {
 						[56] = {
 							[4] = true,
 						},
-						[54] = {
+						[40] = {
 							[4] = true,
 						},
 					},
@@ -651,7 +628,8 @@ ElvDB = {
 			},
 		},
 	},
-	["SLE_DB_Ver"] = "3.63",
+	["DisabledAddOns"] = {
+	},
 	["serverID"] = {
 		[852] = {
 			["冰风岗"] = true,
@@ -1057,16 +1035,16 @@ ElvDB = {
 					},
 					["useDeadBackdrop"] = true,
 					["debuffHighlight"] = {
-						["Curse"] = {
+						["Poison"] = {
 							["a"] = 0.44999998807907,
 						},
-						["Disease"] = {
+						["Curse"] = {
 							["a"] = 0.44999998807907,
 						},
 						["Magic"] = {
 							["a"] = 0.44999998807907,
 						},
-						["Poison"] = {
+						["Disease"] = {
 							["a"] = 0.44999998807907,
 						},
 					},
@@ -1094,15 +1072,50 @@ ElvDB = {
 				["statusbar"] = "003",
 				["smartRaidFilter"] = false,
 				["units"] = {
-					["pettarget"] = {
+					["targettarget"] = {
 						["debuffs"] = {
+							["attachTo"] = "FRAME",
+							["sizeOverride"] = 25,
+							["enable"] = false,
 							["countFont"] = "默认",
+							["perrow"] = 4,
+						},
+						["power"] = {
+							["enable"] = false,
+						},
+						["customTexts"] = {
+							["名字"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 0,
+								["text_format"] = "[name:medium]",
+								["yOffset"] = 0,
+								["font"] = "默认",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 15,
+							},
+						},
+						["width"] = 110,
+						["health"] = {
+							["xOffset"] = 0,
+							["position"] = "CENTER",
+						},
+						["height"] = 22,
+						["buffs"] = {
+							["yOffset"] = -26,
+							["sizeOverride"] = 25,
+							["countFont"] = "默认",
+							["perrow"] = 4,
 						},
 						["name"] = {
-							["text_format"] = "[name:medium]",
+							["position"] = "BOTTOM",
+							["text_format"] = "",
+							["yOffset"] = 16,
 						},
-						["buffs"] = {
-							["countFont"] = "默认",
+						["raidicon"] = {
+							["attachTo"] = "BOTTOM",
+							["yOffset"] = 0,
 						},
 					},
 					["tank"] = {
@@ -1136,116 +1149,62 @@ ElvDB = {
 							["countFont"] = "默认",
 						},
 					},
-					["player"] = {
+					["party"] = {
+						["horizontalSpacing"] = 2,
 						["debuffs"] = {
-							["sizeOverride"] = 26,
-							["enable"] = false,
-							["yOffset"] = 24,
-							["countFont"] = "默认",
-							["perrow"] = 5,
-						},
-						["portrait"] = {
-							["overlayAlpha"] = 1,
-							["width"] = 46,
-						},
-						["raidRoleIcons"] = {
-							["enable"] = false,
-							["position"] = "TOPRIGHT",
-						},
-						["classbar"] = {
-							["detachFromFrame"] = true,
-							["enable"] = false,
-							["fill"] = "spaced",
-						},
-						["aurabar"] = {
-							["enable"] = false,
-							["height"] = 10,
-						},
-						["RestIcon"] = {
-							["anchorPoint"] = "CENTER",
-							["enable"] = false,
-							["yOffset"] = 0,
-							["xOffset"] = 0,
-							["texture"] = "Resting0",
-						},
-						["threatStyle"] = "NONE",
-						["castbar"] = {
-							["iconAttachedTo"] = "Castbar",
-							["customTextFont"] = {
-								["enable"] = true,
-								["font"] = "默认",
-								["fontSize"] = 18,
-							},
-							["width"] = 350,
-							["iconXOffset"] = 0,
-							["yOffsetText"] = -1,
-							["iconAttached"] = false,
-							["iconSize"] = 28,
-							["height"] = 28,
-							["enable"] = false,
-							["textColor"] = {
-								["b"] = 1,
-								["g"] = 0.9921568627451,
-								["r"] = 0.9843137254902,
-							},
-						},
-						["customTexts"] = {
-							["[health:percent]"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[health:percent]丨[health:current:shortvalue]",
-								["yOffset"] = -33,
-								["font"] = "默认",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 18,
-							},
-						},
-						["raidicon"] = {
-							["enable"] = false,
+							["sizeOverride"] = 45,
+							["perrow"] = 3,
 						},
 						["power"] = {
-							["detachFromFrame"] = true,
-							["powerPrediction"] = true,
-							["xOffset"] = 0,
-							["text_format"] = "[powercolor][power:current-percent:shortvalue]",
-							["width"] = "spaced",
-							["position"] = "TOPLEFT",
-							["height"] = 15,
-							["attachTextTo"] = "Power",
-							["detachedWidth"] = 270,
+							["text_format"] = "",
+						},
+						["customTexts"] = {
+							["[name:medium]"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 15,
+								["text_format"] = "[name:medium]",
+								["yOffset"] = -13,
+								["font"] = "默认",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 17,
+							},
+						},
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+						["groupBy"] = "ROLE",
+						["buffs"] = {
+							["sizeOverride"] = 20,
+							["yOffset"] = 12,
+							["clickThrough"] = true,
+							["enable"] = true,
+							["xOffset"] = 65,
+							["height"] = 20,
+							["perrow"] = 3,
+						},
+						["health"] = {
+							["text_format"] = "",
+						},
+						["verticalSpacing"] = 10,
+						["rdebuffs"] = {
+							["xOffset"] = 80,
+							["yOffset"] = 10,
+							["enable"] = false,
+							["size"] = 20,
+						},
+						["buffIndicator"] = {
+							["size"] = 15,
 						},
 						["name"] = {
+							["text_format"] = "",
+						},
+						["roleIcon"] = {
+							["yOffset"] = -15,
 							["position"] = "LEFT",
-							["text_format"] = "[name:medium]",
-							["yOffset"] = 20,
-						},
-						["height"] = 50,
-						["health"] = {
-							["xOffset"] = 0,
-							["text_format"] = "",
-							["position"] = "RIGHT",
-						},
-						["strataAndLevel"] = {
-							["frameLevel"] = 2,
-							["useCustomLevel"] = true,
-						},
-						["orientation"] = "RIGHT",
-						["buffs"] = {
-							["anchorPoint"] = "TOPRIGHT",
-							["sizeOverride"] = 26,
-							["growthX"] = "LEFT",
-							["attachTo"] = "FRAME",
-							["countFont"] = "默认",
-							["numrows"] = 2,
-							["perrow"] = 5,
-						},
-						["CombatIcon"] = {
-							["size"] = 30,
-						},
-						["pvp"] = {
-							["text_format"] = "",
+							["size"] = 18,
 						},
 					},
 					["arena"] = {
@@ -1312,22 +1271,15 @@ ElvDB = {
 							["countFont"] = "默认",
 						},
 					},
-					["pet"] = {
+					["pettarget"] = {
 						["debuffs"] = {
 							["countFont"] = "默认",
 						},
 						["name"] = {
-							["text_format"] = "[name:veryshort]",
+							["text_format"] = "[name:medium]",
 						},
-						["power"] = {
-							["enable"] = false,
-						},
-						["height"] = 26,
 						["buffs"] = {
 							["countFont"] = "默认",
-						},
-						["castbar"] = {
-							["width"] = 129,
 						},
 					},
 					["target"] = {
@@ -1395,6 +1347,11 @@ ElvDB = {
 							},
 						},
 						["orientation"] = "LEFT",
+						["name"] = {
+							["position"] = "RIGHT",
+							["text_format"] = "[name:medium]",
+							["yOffset"] = 20,
+						},
 						["fader"] = {
 							["enable"] = false,
 							["range"] = false,
@@ -1403,11 +1360,6 @@ ElvDB = {
 							["xOffset"] = 4,
 							["text_format"] = "[absorbs]",
 							["position"] = "LEFT",
-						},
-						["name"] = {
-							["position"] = "RIGHT",
-							["text_format"] = "[name:medium]",
-							["yOffset"] = 20,
 						},
 						["height"] = 50,
 						["buffs"] = {
@@ -1562,106 +1514,116 @@ ElvDB = {
 							["yOffset"] = 0,
 						},
 					},
-					["boss"] = {
+					["player"] = {
 						["debuffs"] = {
-							["anchorPoint"] = "RIGHT",
-							["sizeOverride"] = 25,
-							["yOffset"] = 0,
-							["countFont"] = "默认",
-							["perrow"] = 2,
-						},
-						["power"] = {
-							["attachTextTo"] = "Power",
+							["sizeOverride"] = 26,
 							["enable"] = false,
+							["yOffset"] = 24,
+							["countFont"] = "默认",
+							["perrow"] = 5,
+						},
+						["portrait"] = {
+							["overlayAlpha"] = 1,
+							["width"] = 46,
+						},
+						["raidRoleIcons"] = {
+							["enable"] = false,
+							["position"] = "TOPRIGHT",
+						},
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["enable"] = false,
+							["fill"] = "spaced",
+						},
+						["aurabar"] = {
+							["enable"] = false,
+							["height"] = 10,
+						},
+						["RestIcon"] = {
+							["anchorPoint"] = "CENTER",
+							["enable"] = false,
+							["yOffset"] = 0,
 							["xOffset"] = 0,
-							["text_format"] = "",
-							["height"] = 5,
+							["texture"] = "Resting0",
 						},
-						["customTexts"] = {
-							["[name:medium]"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[name:medium]",
-								["yOffset"] = 14,
-								["font"] = "默认",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 14,
-							},
-							["[health:current:shortvalue]丨[health:percent]"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[health:current:shortvalue]丨[health:percent]",
-								["yOffset"] = 0,
-								["font"] = "默认",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 14,
-							},
-							["[powercolor][power:percent]"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = -14,
-								["font"] = "默认",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 14,
-							},
-						},
-						["growthDirection"] = "UP",
-						["width"] = 170,
+						["threatStyle"] = "NONE",
 						["castbar"] = {
-							["customTimeFont"] = {
-								["enable"] = true,
-								["font"] = "默认",
-							},
-							["xOffsetTime"] = 0,
+							["iconAttachedTo"] = "Castbar",
 							["customTextFont"] = {
 								["enable"] = true,
 								["font"] = "默认",
-								["fontSize"] = 14,
+								["fontSize"] = 18,
 							},
-							["customColor"] = {
-								["enable"] = true,
-								["color"] = {
-									["b"] = 0.043137254901961,
-									["g"] = 0.72941176470588,
-									["r"] = 0.8,
-								},
-							},
-							["xOffsetText"] = 0,
-							["height"] = 10,
-							["width"] = 170,
-							["icon"] = false,
+							["width"] = 350,
+							["iconXOffset"] = 0,
+							["yOffsetText"] = -1,
+							["iconAttached"] = false,
+							["iconSize"] = 28,
+							["height"] = 28,
+							["enable"] = false,
 							["textColor"] = {
 								["b"] = 1,
-								["g"] = 1,
-								["r"] = 1,
+								["g"] = 0.9921568627451,
+								["r"] = 0.9843137254902,
 							},
 						},
+						["customTexts"] = {
+							["[health:percent]"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[health:percent]丨[health:current:shortvalue]",
+								["yOffset"] = -33,
+								["font"] = "默认",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 18,
+							},
+						},
+						["raidicon"] = {
+							["enable"] = false,
+						},
+						["power"] = {
+							["detachFromFrame"] = true,
+							["powerPrediction"] = true,
+							["xOffset"] = 0,
+							["text_format"] = "[powercolor][power:current-percent:shortvalue]",
+							["width"] = "spaced",
+							["position"] = "TOPLEFT",
+							["height"] = 15,
+							["attachTextTo"] = "Power",
+							["detachedWidth"] = 270,
+						},
+						["name"] = {
+							["position"] = "LEFT",
+							["text_format"] = "[name:medium]",
+							["yOffset"] = 20,
+						},
+						["height"] = 50,
 						["health"] = {
 							["xOffset"] = 0,
 							["text_format"] = "",
-							["position"] = "CENTER",
+							["position"] = "RIGHT",
 						},
-						["spacing"] = 15,
-						["height"] = 30,
+						["strataAndLevel"] = {
+							["frameLevel"] = 2,
+							["useCustomLevel"] = true,
+						},
+						["orientation"] = "RIGHT",
 						["buffs"] = {
-							["yOffset"] = 0,
-							["sizeOverride"] = 25,
+							["anchorPoint"] = "TOPRIGHT",
+							["sizeOverride"] = 26,
+							["growthX"] = "LEFT",
+							["attachTo"] = "FRAME",
 							["countFont"] = "默认",
-							["perrow"] = 2,
+							["numrows"] = 2,
+							["perrow"] = 5,
 						},
-						["name"] = {
+						["CombatIcon"] = {
+							["size"] = 30,
+						},
+						["pvp"] = {
 							["text_format"] = "",
-							["position"] = "TOPLEFT",
-						},
-						["raidicon"] = {
-							["attachTo"] = "TOPLEFT",
 						},
 					},
 					["raid40"] = {
@@ -1834,108 +1796,124 @@ ElvDB = {
 							["yOffset"] = 0,
 						},
 					},
-					["party"] = {
-						["horizontalSpacing"] = 2,
+					["boss"] = {
 						["debuffs"] = {
-							["sizeOverride"] = 45,
-							["perrow"] = 3,
+							["anchorPoint"] = "RIGHT",
+							["sizeOverride"] = 25,
+							["yOffset"] = 0,
+							["countFont"] = "默认",
+							["perrow"] = 2,
 						},
 						["power"] = {
+							["attachTextTo"] = "Power",
+							["enable"] = false,
+							["xOffset"] = 0,
 							["text_format"] = "",
+							["height"] = 5,
 						},
 						["customTexts"] = {
 							["[name:medium]"] = {
 								["attachTextTo"] = "Health",
-								["xOffset"] = 15,
+								["enable"] = true,
 								["text_format"] = "[name:medium]",
-								["yOffset"] = -13,
+								["yOffset"] = 14,
+								["font"] = "默认",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 14,
+							},
+							["[health:current:shortvalue]丨[health:percent]"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[health:current:shortvalue]丨[health:percent]",
+								["yOffset"] = 0,
 								["font"] = "默认",
 								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 14,
+							},
+							["[powercolor][power:percent]"] = {
+								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["size"] = 17,
+								["text_format"] = "",
+								["yOffset"] = -14,
+								["font"] = "默认",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 14,
 							},
 						},
-						["healPrediction"] = {
-							["enable"] = true,
+						["growthDirection"] = "UP",
+						["width"] = 170,
+						["castbar"] = {
+							["customTimeFont"] = {
+								["enable"] = true,
+								["font"] = "默认",
+							},
+							["xOffsetTime"] = 0,
+							["customTextFont"] = {
+								["enable"] = true,
+								["font"] = "默认",
+								["fontSize"] = 14,
+							},
+							["customColor"] = {
+								["enable"] = true,
+								["color"] = {
+									["b"] = 0.043137254901961,
+									["g"] = 0.72941176470588,
+									["r"] = 0.8,
+								},
+							},
+							["xOffsetText"] = 0,
+							["height"] = 10,
+							["width"] = 170,
+							["icon"] = false,
+							["textColor"] = {
+								["b"] = 1,
+								["g"] = 1,
+								["r"] = 1,
+							},
 						},
-						["growthDirection"] = "DOWN_RIGHT",
-						["buffs"] = {
-							["sizeOverride"] = 20,
-							["yOffset"] = 12,
-							["clickThrough"] = true,
-							["enable"] = true,
-							["xOffset"] = 65,
-							["height"] = 20,
-							["perrow"] = 3,
-						},
-						["verticalSpacing"] = 10,
 						["health"] = {
+							["xOffset"] = 0,
 							["text_format"] = "",
+							["position"] = "CENTER",
 						},
-						["groupBy"] = "ROLE",
-						["rdebuffs"] = {
-							["xOffset"] = 80,
-							["yOffset"] = 10,
-							["enable"] = false,
-							["size"] = 20,
-						},
-						["buffIndicator"] = {
-							["size"] = 15,
+						["spacing"] = 15,
+						["height"] = 30,
+						["buffs"] = {
+							["yOffset"] = 0,
+							["sizeOverride"] = 25,
+							["countFont"] = "默认",
+							["perrow"] = 2,
 						},
 						["name"] = {
 							["text_format"] = "",
+							["position"] = "TOPLEFT",
 						},
-						["roleIcon"] = {
-							["yOffset"] = -15,
-							["position"] = "LEFT",
-							["size"] = 18,
+						["raidicon"] = {
+							["attachTo"] = "TOPLEFT",
 						},
 					},
-					["targettarget"] = {
+					["pet"] = {
 						["debuffs"] = {
-							["attachTo"] = "FRAME",
-							["sizeOverride"] = 25,
-							["enable"] = false,
 							["countFont"] = "默认",
-							["perrow"] = 4,
+						},
+						["name"] = {
+							["text_format"] = "[name:veryshort]",
 						},
 						["power"] = {
 							["enable"] = false,
 						},
-						["customTexts"] = {
-							["名字"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[name:medium]",
-								["yOffset"] = 0,
-								["font"] = "默认",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 15,
-							},
-						},
-						["width"] = 110,
-						["health"] = {
-							["xOffset"] = 0,
-							["position"] = "CENTER",
-						},
-						["height"] = 22,
+						["height"] = 26,
 						["buffs"] = {
-							["yOffset"] = -26,
-							["sizeOverride"] = 25,
 							["countFont"] = "默认",
-							["perrow"] = 4,
 						},
-						["name"] = {
-							["position"] = "BOTTOM",
-							["text_format"] = "",
-							["yOffset"] = 16,
-						},
-						["raidicon"] = {
-							["attachTo"] = "BOTTOM",
-							["yOffset"] = 0,
+						["castbar"] = {
+							["width"] = 129,
 						},
 					},
 				},
@@ -1976,10 +1954,10 @@ ElvDB = {
 					["countFontOutline"] = "OUTLINE",
 					["macroTextPosition"] = "TOP",
 					["hotkeyFont"] = "默认",
-					["hotkeyFontSize"] = 16,
-					["macrotext"] = true,
-					["buttonsPerRow"] = 12,
 					["macroTextYOffset"] = 5,
+					["macrotext"] = true,
+					["hotkeyFontSize"] = 16,
+					["buttonsPerRow"] = 12,
 					["buttonSize"] = 38,
 				},
 				["fontSize"] = 16,
@@ -2087,9 +2065,9 @@ ElvDB = {
 					["hotkeyFont"] = "默认",
 					["buttonsPerRow"] = 1,
 					["macrotext"] = true,
-					["useMacroColor"] = true,
 					["hotkeyFontSize"] = 16,
 					["macroTextYOffset"] = 5,
+					["useMacroColor"] = true,
 				},
 				["globalFadeAlpha"] = 1,
 				["macroTextPosition"] = "TOP",
@@ -2737,9 +2715,9 @@ ElvDB = {
 				["WTSwitchButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-80,-241",
 				["ElvAB_4"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-40,-352",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,492",
-				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,207",
+				["EventToastMover"] = "BOTTOM,UIParent,BOTTOM,0,494",
 				["AutoButtonAnchorMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,45",
-				["EUIMinimapButtonMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-169,-60",
+				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,207",
 				["MicrobarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,246",
 				["UIErrorsFrameMover"] = "TOP,UIParent,TOP,30,-224",
 				["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-242",
@@ -2765,7 +2743,7 @@ ElvDB = {
 				["ElvUF_AssistMover"] = "TOPLEFT,UIParent,TOPLEFT,253,-336",
 				["ElvUF_TargetCastbarMover"] = "BOTTOM,UIParent,BOTTOM,306,307",
 				["EuiExecuteMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,474,-385",
-				["EventToastMover"] = "BOTTOM,UIParent,BOTTOM,0,494",
+				["EUIMinimapButtonMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-169,-60",
 				["VOICECHAT"] = "TOPLEFT,UIParent,TOPLEFT,73,-4",
 				["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-208",
 				["HonorBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
@@ -2948,7 +2926,7 @@ ElvDB = {
 					["timeFontOutline"] = "OUTLINE",
 				},
 			},
-			["dbConverted"] = 12.79,
+			["dbConverted"] = 12.8,
 			["WT"] = {
 				["misc"] = {
 					["gameBar"] = {
@@ -2988,11 +2966,8 @@ ElvDB = {
 						["visibility"] = "INPARTY",
 					},
 				},
-				["version"] = "2.36",
+				["version"] = "2.42",
 				["announcement"] = {
-					["keystone"] = {
-						["enable"] = false,
-					},
 					["resetInstance"] = {
 						["prefix"] = false,
 					},
@@ -3037,9 +3012,6 @@ ElvDB = {
 								},
 							},
 						},
-					},
-					["combatResurrection"] = {
-						["text"] = "",
 					},
 					["quest"] = {
 						["enable"] = true,
@@ -3094,22 +3066,22 @@ ElvDB = {
 							["PARTY"] = {
 								["abbr"] = "小队",
 							},
+							["GUILD"] = {
+								["abbr"] = "公会",
+							},
+							["YELL"] = {
+								["abbr"] = "喊话",
+							},
+							["RAID_WARNING"] = {
+								["abbr"] = "团队通知",
+							},
 							["community"] = {
 								["abbr"] = "社区",
 								["name"] = "薇羽大米1群",
 								["enable"] = true,
 							},
-							["YELL"] = {
-								["abbr"] = "喊话",
-							},
 							["RAID"] = {
 								["abbr"] = "团队",
-							},
-							["RAID_WARNING"] = {
-								["abbr"] = "团队通知",
-							},
-							["GUILD"] = {
-								["abbr"] = "公会",
 							},
 							["world"] = {
 								["abbr"] = "世界",
@@ -3242,9 +3214,9 @@ ElvDB = {
 				["Wind_ParagonReputationToastFrameMover"] = "TOP,ElvUIParent,TOP,0,-246",
 				["ElvAB_4"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-40,-352",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,492",
-				["EUIMinimapButtonMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-169,-60",
+				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,207",
 				["AutoButtonAnchorMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,45",
-				["EventToastMover"] = "BOTTOM,UIParent,BOTTOM,0,494",
+				["EUIMinimapButtonMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-169,-60",
 				["MicrobarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,246",
 				["UIErrorsFrameMover"] = "TOP,UIParent,TOP,30,-224",
 				["EuiExecuteMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,474,-385",
@@ -3270,7 +3242,7 @@ ElvDB = {
 				["ThreatBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
 				["WTExtraItemsBar1Mover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-410,26",
 				["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-242",
-				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,207",
+				["EventToastMover"] = "BOTTOM,UIParent,BOTTOM,0,494",
 				["VOICECHAT"] = "TOPLEFT,UIParent,TOPLEFT,73,-4",
 				["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-208",
 				["HonorBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
@@ -3377,15 +3349,50 @@ ElvDB = {
 				["fontSize"] = 18,
 				["statusbar"] = "003",
 				["units"] = {
-					["pettarget"] = {
+					["targettarget"] = {
 						["debuffs"] = {
+							["sizeOverride"] = 25,
+							["enable"] = false,
 							["countFont"] = "默认",
+							["perrow"] = 4,
+							["attachTo"] = "FRAME",
+						},
+						["power"] = {
+							["enable"] = false,
+						},
+						["customTexts"] = {
+							["名字"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[name:medium]",
+								["yOffset"] = 0,
+								["font"] = "默认",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 15,
+							},
+						},
+						["width"] = 110,
+						["health"] = {
+							["position"] = "CENTER",
+							["xOffset"] = 0,
+						},
+						["height"] = 22,
+						["buffs"] = {
+							["sizeOverride"] = 25,
+							["yOffset"] = -26,
+							["countFont"] = "默认",
+							["perrow"] = 4,
 						},
 						["name"] = {
-							["text_format"] = "[name:medium]",
+							["position"] = "BOTTOM",
+							["text_format"] = "",
+							["yOffset"] = 16,
 						},
-						["buffs"] = {
-							["countFont"] = "默认",
+						["raidicon"] = {
+							["attachTo"] = "BOTTOM",
+							["yOffset"] = 0,
 						},
 					},
 					["tank"] = {
@@ -3419,116 +3426,62 @@ ElvDB = {
 							["text_format"] = "[name:medium]",
 						},
 					},
-					["player"] = {
+					["party"] = {
+						["buffs"] = {
+							["sizeOverride"] = 20,
+							["enable"] = true,
+							["yOffset"] = 12,
+							["clickThrough"] = true,
+							["perrow"] = 3,
+							["height"] = 20,
+							["xOffset"] = 65,
+						},
+						["groupBy"] = "ROLE",
 						["debuffs"] = {
-							["sizeOverride"] = 26,
-							["enable"] = false,
-							["yOffset"] = 24,
-							["countFont"] = "默认",
-							["perrow"] = 5,
+							["sizeOverride"] = 45,
+							["perrow"] = 3,
 						},
-						["classbar"] = {
-							["detachFromFrame"] = true,
-							["enable"] = false,
-							["fill"] = "spaced",
-						},
-						["threatStyle"] = "NONE",
 						["customTexts"] = {
-							["[health:percent]"] = {
+							["[name:medium]"] = {
 								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[health:percent]丨[health:current:shortvalue]",
-								["yOffset"] = -33,
-								["font"] = "默认",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
-								["size"] = 18,
+								["text_format"] = "[name:medium]",
+								["yOffset"] = -13,
+								["font"] = "默认",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 15,
+								["size"] = 17,
 							},
+						},
+						["healPrediction"] = {
+							["enable"] = true,
 						},
 						["name"] = {
-							["position"] = "LEFT",
-							["text_format"] = "[name:medium]",
-							["yOffset"] = 20,
-						},
-						["height"] = 50,
-						["buffs"] = {
-							["sizeOverride"] = 26,
-							["growthX"] = "LEFT",
-							["anchorPoint"] = "TOPRIGHT",
-							["numrows"] = 2,
-							["countFont"] = "默认",
-							["perrow"] = 5,
-							["attachTo"] = "FRAME",
-						},
-						["raidicon"] = {
-							["enable"] = false,
-						},
-						["pvp"] = {
 							["text_format"] = "",
 						},
-						["aurabar"] = {
+						["verticalSpacing"] = 10,
+						["horizontalSpacing"] = 2,
+						["rdebuffs"] = {
+							["xOffset"] = 80,
+							["yOffset"] = 10,
 							["enable"] = false,
-							["height"] = 10,
+							["size"] = 20,
 						},
-						["RestIcon"] = {
-							["enable"] = false,
-							["yOffset"] = 0,
-							["anchorPoint"] = "CENTER",
-							["xOffset"] = 0,
-							["texture"] = "Resting0",
+						["growthDirection"] = "DOWN_RIGHT",
+						["buffIndicator"] = {
+							["size"] = 15,
 						},
-						["castbar"] = {
-							["enable"] = false,
-							["iconXOffset"] = 0,
-							["yOffsetText"] = -1,
-							["iconSize"] = 28,
-							["iconAttached"] = false,
-							["customTextFont"] = {
-								["enable"] = true,
-								["fontSize"] = 18,
-								["font"] = "默认",
-							},
-							["width"] = 350,
-							["height"] = 28,
-							["iconAttachedTo"] = "Castbar",
-							["textColor"] = {
-								["b"] = 1,
-								["g"] = 0.9921568627451,
-								["r"] = 0.9843137254902,
-							},
-						},
-						["portrait"] = {
-							["width"] = 46,
-							["overlayAlpha"] = 1,
+						["roleIcon"] = {
+							["yOffset"] = -15,
+							["position"] = "LEFT",
+							["size"] = 18,
 						},
 						["power"] = {
-							["text_format"] = "[powercolor][power:current-percent:shortvalue]",
-							["yOffset"] = -7,
-							["powerPrediction"] = true,
-							["width"] = "spaced",
-							["attachTextTo"] = "Power",
-							["position"] = "TOPLEFT",
-							["height"] = 5,
-							["xOffset"] = 0,
-							["detachedWidth"] = 270,
-						},
-						["raidRoleIcons"] = {
-							["position"] = "TOPRIGHT",
-							["enable"] = false,
-						},
-						["health"] = {
-							["position"] = "RIGHT",
-							["xOffset"] = 0,
 							["text_format"] = "",
 						},
-						["orientation"] = "RIGHT",
-						["strataAndLevel"] = {
-							["useCustomLevel"] = true,
-							["frameLevel"] = 2,
-						},
-						["CombatIcon"] = {
-							["size"] = 30,
+						["health"] = {
+							["text_format"] = "",
 						},
 					},
 					["arena"] = {
@@ -3595,22 +3548,15 @@ ElvDB = {
 							["countFont"] = "默认",
 						},
 					},
-					["pet"] = {
+					["pettarget"] = {
 						["debuffs"] = {
 							["countFont"] = "默认",
 						},
 						["name"] = {
-							["text_format"] = "[name:veryshort]",
+							["text_format"] = "[name:medium]",
 						},
-						["power"] = {
-							["enable"] = false,
-						},
-						["height"] = 26,
 						["buffs"] = {
 							["countFont"] = "默认",
-						},
-						["castbar"] = {
-							["width"] = 129,
 						},
 					},
 					["target"] = {
@@ -3718,12 +3664,16 @@ ElvDB = {
 							["maxDuration"] = 0,
 						},
 						["disableTargetGlow"] = true,
-						["pvpIcon"] = {
-							["anchorPoint"] = "CENTER",
-							["scale"] = 1,
+						["power"] = {
+							["parent"] = "UIPARENT",
+							["text_format"] = "[powercolor][power:current-percent:shortvalue]",
+							["yOffset"] = -7,
+							["width"] = "spaced",
+							["attachTextTo"] = "Power",
+							["position"] = "TOPRIGHT",
+							["height"] = 4,
 							["xOffset"] = 0,
-							["enable"] = false,
-							["yOffset"] = 0,
+							["detachedWidth"] = 50,
 						},
 						["raidRoleIcons"] = {
 							["enable"] = false,
@@ -3760,23 +3710,12 @@ ElvDB = {
 						},
 						["middleClickFocus"] = true,
 						["threatStyle"] = "NONE",
-						["castbar"] = {
-							["iconXOffset"] = 0,
-							["yOffsetText"] = -1,
-							["iconSize"] = 30,
-							["customTextFont"] = {
-								["enable"] = true,
-								["fontSize"] = 18,
-								["font"] = "默认",
-							},
-							["width"] = 1000,
-							["height"] = 85,
-							["iconAttachedTo"] = "Castbar",
-							["textColor"] = {
-								["b"] = 0.99607843137255,
-								["g"] = 0.96862745098039,
-								["r"] = 1,
-							},
+						["pvpIcon"] = {
+							["anchorPoint"] = "CENTER",
+							["scale"] = 1,
+							["xOffset"] = 0,
+							["enable"] = false,
+							["yOffset"] = 0,
 						},
 						["customTexts"] = {
 							["[name:medium]"] = {
@@ -3829,122 +3768,139 @@ ElvDB = {
 							["perrow"] = 5,
 							["maxDuration"] = 0,
 						},
-						["power"] = {
-							["parent"] = "UIPARENT",
-							["text_format"] = "[powercolor][power:current-percent:shortvalue]",
-							["yOffset"] = -7,
-							["width"] = "spaced",
-							["attachTextTo"] = "Power",
-							["position"] = "TOPRIGHT",
-							["height"] = 4,
-							["xOffset"] = 0,
-							["detachedWidth"] = 50,
+						["castbar"] = {
+							["iconXOffset"] = 0,
+							["yOffsetText"] = -1,
+							["iconSize"] = 30,
+							["customTextFont"] = {
+								["enable"] = true,
+								["fontSize"] = 18,
+								["font"] = "默认",
+							},
+							["width"] = 1000,
+							["height"] = 85,
+							["iconAttachedTo"] = "Castbar",
+							["textColor"] = {
+								["b"] = 0.99607843137255,
+								["g"] = 0.96862745098039,
+								["r"] = 1,
+							},
 						},
 						["raidicon"] = {
 							["attachTo"] = "CENTER",
 							["yOffset"] = 0,
 						},
 					},
-					["boss"] = {
+					["player"] = {
 						["debuffs"] = {
-							["sizeOverride"] = 25,
-							["yOffset"] = 0,
-							["anchorPoint"] = "RIGHT",
-							["countFont"] = "默认",
-							["perrow"] = 2,
-						},
-						["growthDirection"] = "UP",
-						["spacing"] = 15,
-						["power"] = {
-							["attachTextTo"] = "Power",
+							["sizeOverride"] = 26,
 							["enable"] = false,
-							["text_format"] = "",
-							["xOffset"] = 0,
-							["height"] = 5,
-						},
-						["customTexts"] = {
-							["[name:medium]"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[name:medium]",
-								["yOffset"] = 14,
-								["font"] = "默认",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 14,
-							},
-							["[health:current:shortvalue]丨[health:percent]"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[health:current:shortvalue]丨[health:percent]",
-								["yOffset"] = 0,
-								["font"] = "默认",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 14,
-							},
-							["[powercolor][power:percent]"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "",
-								["yOffset"] = -14,
-								["font"] = "默认",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 14,
-							},
-						},
-						["width"] = 170,
-						["name"] = {
-							["position"] = "TOPLEFT",
-							["text_format"] = "",
-						},
-						["castbar"] = {
-							["xOffsetTime"] = 0,
-							["customColor"] = {
-								["enable"] = true,
-								["color"] = {
-									["b"] = 0.043137254901961,
-									["g"] = 0.72941176470588,
-									["r"] = 0.8,
-								},
-							},
-							["xOffsetText"] = 0,
-							["icon"] = false,
-							["customTimeFont"] = {
-								["enable"] = true,
-								["font"] = "默认",
-							},
-							["customTextFont"] = {
-								["enable"] = true,
-								["fontSize"] = 14,
-								["font"] = "默认",
-							},
-							["width"] = 170,
-							["height"] = 10,
-							["textColor"] = {
-								["b"] = 1,
-								["g"] = 1,
-								["r"] = 1,
-							},
-						},
-						["height"] = 30,
-						["buffs"] = {
-							["sizeOverride"] = 25,
-							["yOffset"] = 0,
+							["yOffset"] = 24,
 							["countFont"] = "默认",
-							["perrow"] = 2,
+							["perrow"] = 5,
 						},
-						["health"] = {
-							["position"] = "CENTER",
-							["xOffset"] = 0,
-							["text_format"] = "",
+						["CombatIcon"] = {
+							["size"] = 30,
+						},
+						["threatStyle"] = "NONE",
+						["customTexts"] = {
+							["[health:percent]"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 0,
+								["text_format"] = "[health:percent]丨[health:current:shortvalue]",
+								["yOffset"] = -33,
+								["font"] = "默认",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 18,
+							},
+						},
+						["strataAndLevel"] = {
+							["useCustomLevel"] = true,
+							["frameLevel"] = 2,
+						},
+						["height"] = 50,
+						["buffs"] = {
+							["sizeOverride"] = 26,
+							["growthX"] = "LEFT",
+							["anchorPoint"] = "TOPRIGHT",
+							["numrows"] = 2,
+							["countFont"] = "默认",
+							["perrow"] = 5,
+							["attachTo"] = "FRAME",
 						},
 						["raidicon"] = {
-							["attachTo"] = "TOPLEFT",
+							["enable"] = false,
+						},
+						["pvp"] = {
+							["text_format"] = "",
+						},
+						["aurabar"] = {
+							["enable"] = false,
+							["height"] = 10,
+						},
+						["RestIcon"] = {
+							["enable"] = false,
+							["yOffset"] = 0,
+							["anchorPoint"] = "CENTER",
+							["xOffset"] = 0,
+							["texture"] = "Resting0",
+						},
+						["castbar"] = {
+							["enable"] = false,
+							["iconXOffset"] = 0,
+							["yOffsetText"] = -1,
+							["iconSize"] = 28,
+							["iconAttached"] = false,
+							["customTextFont"] = {
+								["enable"] = true,
+								["fontSize"] = 18,
+								["font"] = "默认",
+							},
+							["width"] = 350,
+							["height"] = 28,
+							["iconAttachedTo"] = "Castbar",
+							["textColor"] = {
+								["b"] = 1,
+								["g"] = 0.9921568627451,
+								["r"] = 0.9843137254902,
+							},
+						},
+						["portrait"] = {
+							["width"] = 46,
+							["overlayAlpha"] = 1,
+						},
+						["name"] = {
+							["position"] = "LEFT",
+							["text_format"] = "[name:medium]",
+							["yOffset"] = 20,
+						},
+						["raidRoleIcons"] = {
+							["position"] = "TOPRIGHT",
+							["enable"] = false,
+						},
+						["health"] = {
+							["position"] = "RIGHT",
+							["xOffset"] = 0,
+							["text_format"] = "",
+						},
+						["orientation"] = "RIGHT",
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["enable"] = false,
+							["fill"] = "spaced",
+						},
+						["power"] = {
+							["text_format"] = "[powercolor][power:current-percent:shortvalue]",
+							["yOffset"] = -7,
+							["powerPrediction"] = true,
+							["width"] = "spaced",
+							["attachTextTo"] = "Power",
+							["position"] = "TOPLEFT",
+							["height"] = 5,
+							["xOffset"] = 0,
+							["detachedWidth"] = 270,
 						},
 					},
 					["raid40"] = {
@@ -4117,108 +4073,124 @@ ElvDB = {
 							["size"] = 16,
 						},
 					},
-					["party"] = {
-						["buffs"] = {
-							["sizeOverride"] = 20,
-							["enable"] = true,
-							["yOffset"] = 12,
-							["clickThrough"] = true,
-							["perrow"] = 3,
-							["height"] = 20,
-							["xOffset"] = 65,
-						},
-						["groupBy"] = "ROLE",
+					["boss"] = {
 						["debuffs"] = {
-							["sizeOverride"] = 45,
-							["perrow"] = 3,
+							["sizeOverride"] = 25,
+							["yOffset"] = 0,
+							["anchorPoint"] = "RIGHT",
+							["countFont"] = "默认",
+							["perrow"] = 2,
+						},
+						["growthDirection"] = "UP",
+						["spacing"] = 15,
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["enable"] = false,
+							["text_format"] = "",
+							["xOffset"] = 0,
+							["height"] = 5,
 						},
 						["customTexts"] = {
 							["[name:medium]"] = {
 								["attachTextTo"] = "Health",
-								["enable"] = true,
+								["xOffset"] = 0,
 								["text_format"] = "[name:medium]",
-								["yOffset"] = -13,
+								["yOffset"] = 14,
+								["font"] = "默认",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 14,
+							},
+							["[health:current:shortvalue]丨[health:percent]"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 0,
+								["text_format"] = "[health:current:shortvalue]丨[health:percent]",
+								["yOffset"] = 0,
 								["font"] = "默认",
 								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 15,
-								["size"] = 17,
-							},
-						},
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["text_format"] = "",
-						},
-						["verticalSpacing"] = 10,
-						["horizontalSpacing"] = 2,
-						["rdebuffs"] = {
-							["xOffset"] = 80,
-							["yOffset"] = 10,
-							["enable"] = false,
-							["size"] = 20,
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-						["buffIndicator"] = {
-							["size"] = 15,
-						},
-						["roleIcon"] = {
-							["yOffset"] = -15,
-							["position"] = "LEFT",
-							["size"] = 18,
-						},
-						["power"] = {
-							["text_format"] = "",
-						},
-						["health"] = {
-							["text_format"] = "",
-						},
-					},
-					["targettarget"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 25,
-							["enable"] = false,
-							["countFont"] = "默认",
-							["perrow"] = 4,
-							["attachTo"] = "FRAME",
-						},
-						["power"] = {
-							["enable"] = false,
-						},
-						["customTexts"] = {
-							["名字"] = {
-								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[name:medium]",
-								["yOffset"] = 0,
-								["font"] = "默认",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
+								["size"] = 14,
+							},
+							["[powercolor][power:percent]"] = {
+								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
-								["size"] = 15,
+								["text_format"] = "",
+								["yOffset"] = -14,
+								["font"] = "默认",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 14,
 							},
 						},
-						["width"] = 110,
+						["width"] = 170,
+						["name"] = {
+							["position"] = "TOPLEFT",
+							["text_format"] = "",
+						},
+						["castbar"] = {
+							["xOffsetTime"] = 0,
+							["customColor"] = {
+								["enable"] = true,
+								["color"] = {
+									["b"] = 0.043137254901961,
+									["g"] = 0.72941176470588,
+									["r"] = 0.8,
+								},
+							},
+							["xOffsetText"] = 0,
+							["icon"] = false,
+							["customTimeFont"] = {
+								["enable"] = true,
+								["font"] = "默认",
+							},
+							["customTextFont"] = {
+								["enable"] = true,
+								["fontSize"] = 14,
+								["font"] = "默认",
+							},
+							["width"] = 170,
+							["height"] = 10,
+							["textColor"] = {
+								["b"] = 1,
+								["g"] = 1,
+								["r"] = 1,
+							},
+						},
+						["height"] = 30,
+						["buffs"] = {
+							["sizeOverride"] = 25,
+							["yOffset"] = 0,
+							["countFont"] = "默认",
+							["perrow"] = 2,
+						},
 						["health"] = {
 							["position"] = "CENTER",
 							["xOffset"] = 0,
-						},
-						["height"] = 22,
-						["buffs"] = {
-							["sizeOverride"] = 25,
-							["yOffset"] = -26,
-							["countFont"] = "默认",
-							["perrow"] = 4,
-						},
-						["name"] = {
-							["position"] = "BOTTOM",
 							["text_format"] = "",
-							["yOffset"] = 16,
 						},
 						["raidicon"] = {
-							["attachTo"] = "BOTTOM",
-							["yOffset"] = 0,
+							["attachTo"] = "TOPLEFT",
+						},
+					},
+					["pet"] = {
+						["debuffs"] = {
+							["countFont"] = "默认",
+						},
+						["name"] = {
+							["text_format"] = "[name:veryshort]",
+						},
+						["power"] = {
+							["enable"] = false,
+						},
+						["height"] = 26,
+						["buffs"] = {
+							["countFont"] = "默认",
+						},
+						["castbar"] = {
+							["width"] = 129,
 						},
 					},
 				},
@@ -4658,14 +4630,8 @@ ElvDB = {
 								["font"] = "默认",
 							},
 						},
-						["health"] = {
-							["height"] = 14,
-							["text"] = {
-								["fontSize"] = 13,
-								["yOffset"] = 16,
-								["font"] = "默认",
-								["position"] = "BOTTOMRIGHT",
-							},
+						["title"] = {
+							["font"] = "默认",
 						},
 						["questIcon"] = {
 							["font"] = "默认",
@@ -4677,15 +4643,21 @@ ElvDB = {
 							["countFont"] = "默认",
 							["numAuras"] = 2,
 						},
-						["title"] = {
-							["font"] = "默认",
-						},
 						["name"] = {
 							["fontSize"] = 13,
 							["yOffset"] = 14,
 							["font"] = "默认",
 							["position"] = "CENTER",
 							["format"] = "[name]",
+						},
+						["health"] = {
+							["height"] = 14,
+							["text"] = {
+								["fontSize"] = 13,
+								["yOffset"] = 16,
+								["font"] = "默认",
+								["position"] = "BOTTOMRIGHT",
+							},
 						},
 					},
 					["FRIENDLY_PLAYER"] = {
@@ -4870,11 +4842,11 @@ ElvDB = {
 				["fontSize"] = 16,
 				["tabFontSize"] = 16,
 				["font"] = "默认",
+				["useBTagName"] = true,
 				["tabFont"] = "默认",
 				["panelHeightRight"] = 250,
 				["chatHistory"] = false,
 				["tabSelector"] = "ARROW",
-				["useBTagName"] = true,
 			},
 			["mMediaTag"] = {
 				["mObjectiveTracker"] = {
@@ -4901,24 +4873,50 @@ ElvDB = {
 			},
 		},
 	},
-	["SLErrorDisabledAddOns"] = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["智娶御姐 - 死亡之翼"] = {
+					["enabled"] = false,
+				},
+				["智娶老师 - 死亡之翼"] = {
+					["enabled"] = false,
+				},
+				["智娶娇娘 - 死亡之翼"] = {
+					["enabled"] = false,
+				},
+				["知妇宝 - 凤凰之神"] = {
+					["enabled"] = false,
+				},
+				["蝶舞菲菲 - 冰风岗"] = {
+					["enabled"] = false,
+				},
+				["智娶美妇 - 死亡之翼"] = {
+					["enabled"] = false,
+				},
+				["桃小桃同学 - 冰风岗"] = {
+					"冰风岗-WeiyuAnne", -- [1]
+					"冰风岗-WeiyuAnne", -- [2]
+					"冰风岗-WeiyuAnne", -- [3]
+					["enabled"] = true,
+				},
+				["小猪逗逗 - 塞拉赞恩"] = {
+					["enabled"] = false,
+				},
+			},
+		},
 	},
 	["Version"] = "|cfff960d91.3.4|r",
 	["LuaErrorDisabledAddOns"] = {
 	},
-	["DisabledAddOns"] = {
-	},
-	["sle"] = {
-		["TimePlayed"] = {
-			["死亡之翼"] = {
-				["智娶老师"] = {
-					["Class"] = "WARRIOR",
-					["Level"] = 120,
-					["TotalTime"] = 24934952,
-					["LevelTime"] = 4015630,
-				},
-			},
-		},
+	["SLE_DB_Ver"] = "3.63",
+	["profileKeys"] = {
+		["蝶舞菲菲 - 冰风岗"] = "Default",
+		["林声川 - 燃烧之刃"] = "MAGE",
+		["杜一航 - 燃烧之刃"] = "Default",
+		["陶小桃 - 影之哀伤"] = "Default",
+		["张天驰 - 燃烧之刃"] = "Default",
+		["薇羽 - 冰风岗"] = "Default",
 	},
 	["BuiErrorDisabledAddOns"] = {
 	},
@@ -5030,13 +5028,6 @@ ElvPrivateDB = {
 				["glossTex"] = "Melli",
 			},
 			["WT"] = {
-				["maps"] = {
-					["minimapButtons"] = {
-						["buttonSize"] = 28,
-						["mouseOver"] = true,
-						["spacing"] = 5,
-					},
-				},
 				["unitFrames"] = {
 					["roleIcon"] = {
 						["roleIconStyle"] = "DEFAULT",
@@ -5045,7 +5036,7 @@ ElvPrivateDB = {
 						["enable"] = true,
 					},
 				},
-				["version"] = "2.36",
+				["version"] = "2.42",
 				["skins"] = {
 					["addons"] = {
 						["ace3"] = false,
@@ -5070,15 +5061,22 @@ ElvPrivateDB = {
 						["percentage"] = true,
 					},
 				},
+				["maps"] = {
+					["minimapButtons"] = {
+						["buttonSize"] = 28,
+						["mouseOver"] = true,
+						["spacing"] = 5,
+					},
+				},
 			},
 			["nameplates"] = {
 				["enable"] = false,
 			},
-			["ElvUI_EltreumUI"] = {
-				["install_version"] = "2.7.5",
-			},
 			["skins"] = {
 				["parchmentRemoverEnable"] = true,
+			},
+			["ElvUI_EltreumUI"] = {
+				["install_version"] = "2.7.5",
 			},
 			["install_complete"] = 12.79,
 		},

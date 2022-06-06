@@ -1,6 +1,7 @@
 # BigWigs [Cataclysm]
 
-## [v9.2.0](https://github.com/BigWigsMods/BigWigs_Cataclysm/tree/v9.2.0) (2022-02-23)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs_Cataclysm/compare/v9.1.0...v9.2.0) [Previous Releases](https://github.com/BigWigsMods/BigWigs_Cataclysm/releases)
+## [v9.2.1](https://github.com/BigWigsMods/BigWigs_Cataclysm/tree/v9.2.1) (2022-06-01)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs_Cataclysm/compare/v9.2.0...v9.2.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs_Cataclysm/releases)
 
-- Bump toc  
+- bump toc  
+- Workflow: move to checkout@v3  

@@ -19,6 +19,16 @@ function WS:HandleTab(_, tab, noBackdrop, template)
         return
     end
 
+    if not self:IsReady() then
+        self:RegisterLazyLoad(
+            tab,
+            function()
+                self:HandleTab(nil, tab)
+            end
+        )
+        return
+    end
+
     if not E.private.WT.skins.enable or not E.private.WT.skins.widgets.tab.enable then
         return
     end
@@ -50,17 +60,13 @@ function WS:HandleTab(_, tab, noBackdrop, template)
 
         F.SetVertexColorWithDB(bg, db.backdrop.classColor and W.ClassColor or db.backdrop.color)
 
-        local group, onEnter, onLeave =
+        tab.windAnimation =
             self.Animation(bg, db.backdrop.animationType, db.backdrop.animationDuration, db.backdrop.alpha)
-        tab.windAnimation = {
-            bg = bg,
-            group = group,
-            onEnter = onEnter,
-            onLeave = onLeave
-        }
 
-        self:SecureHookScript(tab, "OnEnter", onEnter)
-        self:SecureHookScript(tab, "OnLeave", onLeave)
+        self:SecureHookScript(tab, "OnEnter", tab.windAnimation.onEnter)
+        self:SecureHookScript(tab, "OnLeave", tab.windAnimation.onLeave)
+        self:SecureHook(tab, "Disable", tab.windAnimation.onStatusChange)
+        self:SecureHook(tab, "Enable", tab.windAnimation.onStatusChange)
 
         -- Avoid the hook is flushed
         self:SecureHook(
@@ -69,10 +75,10 @@ function WS:HandleTab(_, tab, noBackdrop, template)
             function(frame, scriptType)
                 if scriptType == "OnEnter" then
                     self:Unhook(frame, "OnEnter")
-                    self:SecureHookScript(frame, "OnEnter", onEnter)
+                    self:SecureHookScript(frame, "OnEnter", tab.windAnimation.onEnter)
                 elseif scriptType == "OnLeave" then
                     self:Unhook(frame, "OnLeave")
-                    self:SecureHookScript(frame, "OnLeave", onLeave)
+                    self:SecureHookScript(frame, "OnLeave", tab.windAnimation.onLeave)
                 end
             end
         )
@@ -113,8 +119,8 @@ do
         local backdropColor = db.selected.backdropClassColor and W.ClassColor or db.selected.backdropColor
         if selected then
             tab.backdrop.Center:SetTexture(LSM:Fetch("statusbar", db.selected.texture) or E.media.glossTex)
-            tab.backdrop:SetBackdropBorderColor(borderColor.r, borderColor.g, borderColor.b, borderColor.a)
-            tab.backdrop:SetBackdropColor(backdropColor.r, backdropColor.g, backdropColor.b, backdropColor.a)
+            tab.backdrop:SetBackdropBorderColor(borderColor.r, borderColor.g, borderColor.b, db.selected.borderAlpha)
+            tab.backdrop:SetBackdropColor(backdropColor.r, backdropColor.g, backdropColor.b, db.selected.backdropAlpha)
 
             if not tab.wasRaised then
                 RaiseFrameLevel(tab)

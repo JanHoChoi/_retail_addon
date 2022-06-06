@@ -101,10 +101,10 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
-				["小猪啾啾-塞拉赞恩"] = {
+				["林声川-燃烧之刃"] = {
 					["Visible"] = true,
 				},
-				["林声川-燃烧之刃"] = {
+				["小猪啾啾-塞拉赞恩"] = {
 					["Visible"] = true,
 				},
 				["小猪丽娜-塞拉赞恩"] = {
@@ -257,6 +257,9 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE3"] = {
 			["IconTexturePath"] = 132320,
 			["PerCharacterOptions"] = {
+				["张天驰-燃烧之刃"] = {
+					["Visible"] = true,
+				},
 				["薇羽-阿比迪斯"] = {
 					["Visible"] = true,
 				},
@@ -572,10 +575,10 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
-				["雪舞薇薇-阿比迪斯"] = {
+				["杜一航-燃烧之刃"] = {
 					["Visible"] = true,
 				},
-				["杜一航-燃烧之刃"] = {
+				["雪舞薇薇-阿比迪斯"] = {
 					["Visible"] = true,
 				},
 			},

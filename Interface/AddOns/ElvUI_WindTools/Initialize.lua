@@ -28,7 +28,6 @@ addon[7] = G.WT
 
 _G["WindTools"] = addon
 W.Version = GetAddOnMetadata(addonName, "Version")
-W.IsReloading = false
 
 -- Pre-register some WindTools modules
 W.Modules = {}
@@ -50,16 +49,33 @@ function W:Initialize()
 
     EP:RegisterPlugin(addonName, W.OptionsCallback)
     self:SecureHook(E, "UpdateAll", "UpdateModules")
-    self:SecureHook("ReloadUI", "UpdateReloadStatus")
     self:RegisterEvent("PLAYER_ENTERING_WORLD")
-    self:RegisterEvent("PLAYER_LOGOUT")
 end
 
 do
     local checked = false
     function W:PLAYER_ENTERING_WORLD(_, isInitialLogin, isReloadingUi)
+        E:Delay(7, self.CheckInstalledVersion, self)
+
         if isInitialLogin then
-            E:Delay(7, self.CheckInstalledVersion, self)
+            if E.private.WT.core.loginMessage then
+                local icon = addon[2].GetIconString(self.Media.Textures.smallLogo, 14)
+                print(
+                    format(
+                        icon ..
+                            " " ..
+                                L["%s %s Loaded."] ..
+                                    " " ..
+                                        L["You can send your suggestions or bugs via %s, %s, %s, and the thread in %s."],
+                        self.Title,
+                        self.Version,
+                        L["QQ Group"],
+                        L["Discord"],
+                        L["Github"],
+                        L["NGA.cn"]
+                    )
+                )
+            end
         end
 
         if not (checked or _G.ElvUIInstallFrame) then
@@ -80,16 +96,6 @@ do
         end
 
         E:Delay(1, collectgarbage, "collect")
-    end
-end
-
-function W:UpdateReloadStatus()
-    W.IsReloading = true
-end
-
-function W:PLAYER_LOGOUT()
-    if not self.IsReloading and _G.ElvDB and _G.ElvDB.WT then
-        _G.ElvDB.WT = nil
     end
 end
 

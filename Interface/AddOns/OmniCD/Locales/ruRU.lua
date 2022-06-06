@@ -57,6 +57,8 @@ L["CD-Group %d"] = "КД-Группа %d"
 L["CD-Group Padding"] = "Промежуток между КД-Группами"
 L["CENTER"] = "ЦЕНТР"
 L["Center Horizontally"] = "Расположить горизонтально по центру"
+--[[Translation missing --]]
+L["CENTER will keep the rows centered and grow icons bidirectionally."] = "CENTER will keep the rows centered and grow icons bidirectionally."
 L["Changelog"] = "Список изменений"
 L["Changing party display options in your UF addon while OmniCD is active will break the anchors. Type (/oc rl) to fix the anchors"] = "Изменение отображения группы в Вашем аддоне фреймов группы приведет к сбросу закрепления положения OmniCD. Введите (/oc rl) для исправления точек закрепления"
 L["Charge Color"] = "Цвет зарядов"

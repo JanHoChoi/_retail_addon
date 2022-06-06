@@ -1,60 +1,36 @@
-# Version: 2.36
-2022/05/23 Released
+# Version: 2.42
+2022/06/02 Released
 ## ❗ Important
-- Added /wtdebug command to enable debug mode. Please use this command test once before submitting a bug report.
-## ✳️ New
-- [Skins] Add new widgets skins, you can use it to change the global settings of ElvUI skin.
+- [Skins] Fix tab reskin error.
+- [Skins] Fix tree button reskin error.
 ## 💪 Improvement
-- [Tags] Fix some tags description.
-- [Objective Tracker] Added more abbreviations support of header text.
-- [Contact] Button hover effect changed to ElvUI style.
-- [Talent Manager] Button hover effect changed to ElvUI style.
-- [Skins] Fixed the skin of WeakAuras Options.
-- [Skins] Fixed the skin of guild bank.
+- [Friend List] Add support of Diablo Immortal & Warcraft Arclight Rumble.
 
 ------
-# 版本: 2.36
-2022/05/23 发布
+# 版本: 2.42
+2022/06/02 发布
 ## ❗ 重要
-- 新增了命令 /wtdebug 可以用于开启除错模式. 提交 Bug 前请务必使用这个命令进行测试.
-## ✳️ 新增
-- [美化皮肤] 新增了组件美化功能, 可修改 ElvUI 美化的全局设置.
+- [美化皮肤] 修复了标签美化的错误.
+- [美化皮肤] 修复了树状按钮美化的错误.
 ## 💪 改善
-- [标签] 修正了一些标签说明.
-- [任务列表] 新增了更多顶部缩写支持.
-- [联系人] 按钮划过特效从阴影更改为 ElvUI 风格.
-- [天赋管家] 按钮划过特效从阴影更改为 ElvUI 风格.
-- [美化皮肤] 修复了 WeakAuras 设定的美化.
-- [美化皮肤] 修复了公会银行的美化.
+- [好友名单] 新增对暗黑破坏神: 不朽以及魔兽弧光大作战的支持.
 
 ------
-# 版本: 2.36
-2022/05/23 發布
+# 版本: 2.42
+2022/06/02 發布
 ## ❗ 重要
-- 新增了 /wtdebug 命令可以用於開啓除錯模式. 提交 Bug 前請務必使用此命令進行測試.
-## ✳️ 新增
-- [美化皮膚] 新增了組件美化功能, 可修改 ElvUI 美化的全局設定.
+- [美化皮膚] 修復了標簽美化的錯誤.
+- [美化皮膚] 修復了樹狀按鍵美化的錯誤.
 ## 💪 改善
-- [標籤] 修正了一些標籤說明.
-- [任務列表] 新增了更多頂部縮寫支援.
-- [聯絡人] 按鈕划過特效從陰影更改為 ElvUI 風格.
-- [天賦管家] 按鈕划過特效從陰影更改為 ElvUI 風格.
-- [美化皮膚] 修復了 WeakAuras 設定的美化.
-- [美化皮膚] 修復了公會銀行的美化.
+- [好友名單] 新增對暗黑破壞神永生不朽及魔獸軍團的支援.
 
 ------
-# 버전: 2.36
-2022/05/23 Released
+# 버전: 2.42
+2022/06/02 Released
 ## ❗ 중요 사항
-- 디버그 모드를 활성화하기 위해 /wtdebug 명령을 추가했습니다. 버그를 제출하기 전에 이 명령을 사용하여 테스트하십시오.
-## ✳️ 신규 사항
-- [스킨] 새 위젯 스킨이 추가 되였습니다. ElvUI 스킨의 전역 설정을 변경할 수 있습니다.
+- [스킨] 탭 스킨 오류를 수정했습니다.
+- [스킨] Tree Group 버튼 스킨 오류를 수정했습니다.
 ## 💪 개선 사항
-- [Tags] Fix some tags description.
-- [퀘스트 추적기] 제목에 더 많은 약어 지원을 추가했습니다.
-- [우편 연락처] 버튼 효과가 ElvUI 스타일로 변경되었습니다.
-- [특성 관리자] 버튼 효과가 ElvUI 스타일로 변경되었습니다.
-- [Skins] Fixed the skin of WeakAuras Options.
-- [Skins] Fixed the skin of guild bank.
+- [친구 목록] 디아블로 이모탈 및 워크래프트 아크라이트 럼블의 지원을 추가합니다.
 
 ------

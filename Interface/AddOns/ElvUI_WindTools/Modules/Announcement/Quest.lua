@@ -21,14 +21,18 @@ local function GetQuests()
 
 	for questIndex = 1, C_QuestLog_GetNumQuestLogEntries() do
 		local questInfo = C_QuestLog_GetInfo(questIndex)
-		local skip = questInfo.isHeader or questInfo.isBounty or questInfo.isHidden
+		local skip = questInfo.isHeader or questInfo.isBounty or questInfo.isHidde
 		-- isHeader: 任务分类(比如, "高嶺-高嶺部族" 任务, "高嶺"要排除掉)
 		-- isBounty: 箱子任务(比如, "夜落精灵" 任务)
 		-- isHidden: 自动接取的每周任务(比如, "征服者的獎勵" 每周 PvP 任务)
 
-		if not skip then
-			local tagInfo = C_QuestLog_GetQuestTagInfo(questInfo.questID)
+		local tagInfo = C_QuestLog_GetQuestTagInfo(questInfo.questID)
 
+		if questInfo.isOnMap and tagInfo and tagInfo.worldQuestType then
+			skip = false
+		end
+
+		if not skip then
 			-- 基础任务信息, 用于后续生成句子使用
 			quests[questInfo.questID] = {
 				title = questInfo.title,
@@ -68,7 +72,7 @@ do
 	function A:UpdateBlizzardQuestAnnouncement()
 		local enable = false
 
-		if not self.db.quest or not self.db.quest.enable or not self.db.quest.disableBlizzard then
+		if not (self.db.enable and self.db.quest and self.db.quest.enable and self.db.quest.disableBlizzard) then
 			enable = true
 		end
 
@@ -181,7 +185,7 @@ function A:Quest()
 			if not E.db.WT.quest.switchButtons.enable or not config.paused then
 				self:SendMessage(message, self:GetChannel(config.channel))
 			end
-			
+
 			if not isDetailInfo or self.db.quest.disableBlizzard then -- only show details if system do not show that
 				local messageColored = extraInfoColored .. mainInfoColored
 				_G.UIErrorsFrame:AddMessage(messageColored)

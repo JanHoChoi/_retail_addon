@@ -69,3 +69,10 @@ X: 0
 Y: -20
 W: 200
 H: 324
+Frame: SpellBookFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 16
+Y: -116
+W: 550
+H: 525

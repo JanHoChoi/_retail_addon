@@ -142,7 +142,7 @@ V.quest = {
 			width = 212,
 			height = 2,
 			offsetX = 0,
-			offsetY = -13,
+			offsetY = -12,
 			border = "SHADOW",
 			borderAlpha = 1,
 			color = {
@@ -212,6 +212,15 @@ V.skins = {
 				animationType = "FADE",
 				animationDuration = 0.2,
 				removeBorderEffect = true
+			},
+			selected = {
+				enable = true,
+				backdropClassColor = false,
+				backdropColor = {r = 0.322, g = 0.608, b = 0.961},
+				backdropAlpha = 0.4,
+				borderClassColor = false,
+				borderColor = {r = 0.145, g = 0.353, b = 0.698},
+				borderAlpha = 1
 			},
 			text = {
 				enable = true,
@@ -363,6 +372,8 @@ V.skins = {
 		help = true,
 		inputMethodEditor = true,
 		inspect = true,
+		itemInteraction = true,
+		itemSocketing = true,
 		itemUpgrade = true,
 		lookingForGroup = true,
 		loot = true,
@@ -453,6 +464,7 @@ V.tooltips = {
 		},
 		mythicDungeons = {
 			enable = true,
+			markHighestScore = true,
 			showNoRecord = true,
 			["De Other Side"] = true,
 			["Halls of Atonement"] = true,
