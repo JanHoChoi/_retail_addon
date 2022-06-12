@@ -15,12 +15,12 @@ OmniCDDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
+	["cooldowns"] = {
+	},
 	["global"] = {
 		["disableElvMsg"] = true,
 		["oodChk"] = 220520,
 		["oodVer"] = 2717,
-	},
-	["cooldowns"] = {
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -33,46 +33,46 @@ OmniCDDB = {
 							["scale"] = 0.71,
 						},
 					},
-					["general"] = {
-						["showPlayer"] = true,
+					["manualPos"] = {
+						["interruptBar"] = {
+							["y"] = 447.7667536324952,
+							["x"] = 118.0999650200192,
+						},
+						["raidCDBar"] = {
+							["y"] = 591.23329986069,
+							["x"] = 333.03381450311,
+						},
+					},
+					["position"] = {
+						["uf"] = "ElvUI",
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
+						["layout"] = "doubleRow",
+						["anchor"] = "TOPRIGHT",
 					},
 					["icons"] = {
 						["scale"] = 0.7,
 						["showTooltip"] = true,
 					},
-					["position"] = {
-						["layout"] = "doubleRow",
-						["attach"] = "TOPLEFT",
-						["preset"] = "TOPLEFT",
-						["uf"] = "ElvUI",
-						["anchor"] = "TOPRIGHT",
-					},
-					["manualPos"] = {
-						["raidCDBar"] = {
-							["y"] = 591.23329986069,
-							["x"] = 333.03381450311,
-						},
-						["interruptBar"] = {
-							["y"] = 447.7667536324952,
-							["x"] = 118.0999650200192,
-						},
-					},
-				},
-				["noneZoneSetting"] = "party",
-				["arena"] = {
-					["position"] = {
-						["attach"] = "TOPLEFT",
-						["preset"] = "TOPLEFT",
-						["uf"] = "ElvUI",
-						["anchor"] = "TOPRIGHT",
-					},
 					["general"] = {
 						["showPlayer"] = true,
 					},
 				},
+				["noneZoneSetting"] = "party",
+				["arena"] = {
+					["general"] = {
+						["showPlayer"] = true,
+					},
+					["position"] = {
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
+						["uf"] = "ElvUI",
+						["anchor"] = "TOPRIGHT",
+					},
+				},
 				["visibility"] = {
-					["scenario"] = true,
 					["finder"] = true,
+					["scenario"] = true,
 					["none"] = true,
 				},
 				["scenarioZoneSetting"] = "party",

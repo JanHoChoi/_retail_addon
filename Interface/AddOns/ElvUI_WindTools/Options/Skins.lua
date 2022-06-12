@@ -50,14 +50,39 @@ options.general = {
         enable = {
             order = 1,
             type = "toggle",
-            name = L["Enable"]
+            name = L["Enable"],
+            width = 0.7
+        },
+        resourcePage = {
+            order = 2,
+            type = "execute",
+            name = E.NewSign .. " " .. F.GetWindStyleText(L["More Resources"]),
+            desc = format(
+                "%s\n%s\n\n|cff00d1b2%s|r (%s)\n%s\n%s\n%s",
+                L["Open the project page and download more resources."],
+                L["e.g. chat bubble texture with shadow (also in instance)"],
+                L["Tips"],
+                L["Editbox"],
+                L["CTRL+A: Select All"],
+                L["CTRL+C: Copy"],
+                L["CTRL+V: Paste"]
+            ),
+            func = function()
+                if E.global.general.locale == "zhCN" then
+                    E:StaticPopup_Show("WINDTOOLS_EDITBOX", nil, nil, "https://bbs.nga.cn/read.php?tid=31851882")
+                else
+                    E:StaticPopup_Show("WINDTOOLS_EDITBOX", nil, nil, "https://fang2hou.github.io/ElvUI_WindTools")
+                end
+            end,
+            width = 1.2
         },
         merathilisUISkin = {
-            order = 2,
+            order = 3,
             type = "toggle",
             name = format(L["Use %s Skins"], L["MerathilisUI"]),
+            width = 1.2,
             desc = format(
-                "%s\n|cffff0000%s|r: %s",
+                "%s\n|cffff3860%s|r: %s",
                 format(L["Add skins for all modules inside %s with %s functions."], W.Title, L["MerathilisUI"]),
                 L["Notice"],
                 format(L["It doesn't mean that the %s Skins will not be applied."], W.Title)
@@ -67,7 +92,7 @@ options.general = {
             end
         },
         general = {
-            order = 3,
+            order = 4,
             type = "group",
             name = L["General"],
             inline = true,
@@ -88,7 +113,7 @@ options.general = {
             }
         },
         shadow = {
-            order = 4,
+            order = 5,
             type = "group",
             name = L["Shadow"],
             inline = true,
@@ -132,7 +157,7 @@ options.general = {
             }
         },
         vignetting = {
-            order = 5,
+            order = 6,
             type = "group",
             name = L["Vignetting"],
             inline = true,
@@ -900,7 +925,7 @@ for key, value in pairs(options.elvui.args) do
     end
 end
 
--- If the skin is in development, add this: .." |cffff0000["..L["Test"].."]|r"
+-- If the skin is in development, add this: .." |cffff3860["..L["Test"].."]|r"
 options.addons = {
     order = 6,
     type = "group",
@@ -948,7 +973,7 @@ options.addons = {
                     order = 1,
                     type = "description",
                     name = format(
-                        "|cffff0000%s|r %s",
+                        "|cffff3860%s|r %s",
                         L["Notice"],
                         L["Skins only work if you installed and loaded the addon."]
                     ),
@@ -1062,6 +1087,12 @@ options.addons = {
             name = L["TinyInspect"],
             addonName = "TinyInspect",
             addonskinsKey = "TinyInspect"
+        },
+        tldrMissions = {
+            order = 10,
+            type = "toggle",
+            name = L["TLDR Missions"],
+            addonName = "TLDRMissions"
         },
         tomCats = {
             order = 10,
@@ -1514,19 +1545,13 @@ options.widgets = {
                             dialogControl = "LSM30_Statusbar",
                             values = LSM:HashTable("statusbar")
                         },
-                        removeBorderEffect = {
-                            order = 3,
-                            type = "toggle",
-                            name = L["Remove Border Effect"],
-                            width = 1.5
-                        },
                         classColor = {
-                            order = 4,
+                            order = 3,
                             type = "toggle",
                             name = L["Class Color"]
                         },
                         color = {
-                            order = 5,
+                            order = 4,
                             type = "color",
                             name = L["Color"],
                             hasAlpha = false,
@@ -1544,7 +1569,7 @@ options.widgets = {
                             end
                         },
                         alpha = {
-                            order = 6,
+                            order = 5,
                             type = "range",
                             name = L["Alpha"],
                             min = 0,
@@ -1552,7 +1577,7 @@ options.widgets = {
                             step = 0.01
                         },
                         animationType = {
-                            order = 7,
+                            order = 6,
                             type = "select",
                             name = L["Animation Type"],
                             desc = L["The type of animation activated when a button is hovered."],
@@ -1562,7 +1587,7 @@ options.widgets = {
                             }
                         },
                         animationDuration = {
-                            order = 8,
+                            order = 7,
                             type = "range",
                             name = L["Animation Duration"],
                             desc = L["The duration of the animation in seconds."],
@@ -2126,7 +2151,7 @@ options.widgets = {
                 desc = {
                     order = 2,
                     type = "description",
-                    name = "|cffff0000" ..
+                    name = "|cffff3860" ..
                         L["To enable this feature, you need to enable the check box skin in ElvUI Skins first."] .. "|r",
                     hidden = function(info)
                         return E.private.skins.checkBoxSkin

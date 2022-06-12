@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "飞镖指向宏" "INV_MISC_QUESTIONMARK"
+#showtooltip 飞镖投掷
+/cast [target=mouseover,harm]飞镖投掷;飞镖投掷
+END

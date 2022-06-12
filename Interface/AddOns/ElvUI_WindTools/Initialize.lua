@@ -6,8 +6,10 @@ local L = E.Libs.ACL:GetLocale("ElvUI", E.global.general.locale)
 
 local _G = _G
 local collectgarbage = collectgarbage
+local format = format
 local hooksecurefunc = hooksecurefunc
 local next = next
+local print = print
 local tonumber = tonumber
 
 local GetAddOnMetadata = GetAddOnMetadata
@@ -50,6 +52,18 @@ function W:Initialize()
     EP:RegisterPlugin(addonName, W.OptionsCallback)
     self:SecureHook(E, "UpdateAll", "UpdateModules")
     self:RegisterEvent("PLAYER_ENTERING_WORLD")
+
+    for name, module in self:IterateModules() do
+        addon[2].Developer.InjectLogger(module)
+    end
+
+    hooksecurefunc(
+        W,
+        "NewModule",
+        function(_, name)
+            addon[2].Developer.InjectLogger(name)
+        end
+    )
 end
 
 do
@@ -58,7 +72,7 @@ do
         E:Delay(7, self.CheckInstalledVersion, self)
 
         if isInitialLogin then
-            if E.private.WT.core.loginMessage then
+            if E.global.WT.core.loginMessage then
                 local icon = addon[2].GetIconString(self.Media.Textures.smallLogo, 14)
                 print(
                     format(
@@ -94,6 +108,8 @@ do
                 E:Delay(4, self.PrintDebugEnviromentTip)
             end
         end
+
+        self:GameFixing()
 
         E:Delay(1, collectgarbage, "collect")
     end

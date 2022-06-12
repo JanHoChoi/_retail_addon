@@ -2,8 +2,8 @@
 MDTGuideActive = false
 MDTGuideRoute = ""
 MDTGuideOptions = {
-	["version"] = 1,
 	["route"] = false,
+	["version"] = 1,
 	["zoomMax"] = 1,
 	["height"] = 200,
 	["zoomMin"] = 1,

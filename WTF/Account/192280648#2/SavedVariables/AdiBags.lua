@@ -20,7 +20,7 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
-		["DataSource"] = {
+		["ItemSets"] = {
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -29,14 +29,14 @@ AdiBagsDB = {
 						["初诞者密文"] = false,
 						["冥殇"] = false,
 						["塔楼学识"] = false,
-						["注能红宝石"] = false,
-						["冥河灰烬"] = false,
 						["贮藏心能"] = false,
+						["冥河灰烬"] = false,
+						["注能红宝石"] = false,
 					},
 				},
 			},
 		},
-		["ItemSets"] = {
+		["DataSource"] = {
 		},
 		["Junk"] = {
 		},
@@ -56,8 +56,8 @@ AdiBagsDB = {
 					["yOffset"] = 172.7408905029297,
 				},
 				["Backpack"] = {
-					["xOffset"] = -230.5189148390782,
-					["yOffset"] = 70.22239484522333,
+					["xOffset"] = -507.2599345878407,
+					["yOffset"] = 89.77793712881112,
 				},
 			},
 			["positionMode"] = "manual",

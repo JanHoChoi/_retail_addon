@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "打断" "INV_MISC_QUESTIONMARK"
+#showtooltip 脚踢
+/cast [target=focus,harm]脚踢;脚踢
+END
+VER 3 0100000000000001 "飞镖指向宏" "INV_MISC_QUESTIONMARK"
+#showtooltip 飞镖投掷
+/cast [target=mouseover,harm]飞镖投掷;飞镖投掷
+END

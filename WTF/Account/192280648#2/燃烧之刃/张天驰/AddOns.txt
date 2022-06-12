@@ -13,3 +13,4 @@ BigWigs_Core: enabled
 BigWigs_Options: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+ElvUI_OptionsUI: enabled

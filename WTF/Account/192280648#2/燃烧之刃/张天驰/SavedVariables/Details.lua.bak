@@ -6,6 +6,2470 @@ _detalhes_database = {
 	["tabela_historico"] = {
 		["resetar_overall"] = nil --[[ skipped inline function ]],
 		["tabelas"] = {
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002212,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["团队副本训练假人"] = 417,
+								["地下城训练假人"] = 3004,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 187.7711296999416,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3421.002212,
+							["last_event"] = 1655035750,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 3421.002212,
+							["aID"] = "829-0591DD25",
+							["damage_taken"] = 0.002212,
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[114014] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1646,
+										["g_amt"] = 0,
+										["n_max"] = 417,
+										["targets"] = {
+											["团队副本训练假人"] = 417,
+											["地下城训练假人"] = 2883,
+										},
+										["n_dmg"] = 1654,
+										["n_min"] = 410,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 3300,
+										["c_max"] = 825,
+										["id"] = 114014,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 821,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 41,
+										["targets"] = {
+											["地下城训练假人"] = 121,
+										},
+										["n_dmg"] = 121,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 121,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 48,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1655035755,
+							["custom"] = 0,
+							["spec"] = 261,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655035737,
+							["serial"] = "Player-829-0591DD25",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.003864,
+							["damage_from"] = {
+								["张天驰"] = true,
+								["阿瓦塔斯-格瑞姆巴托"] = true,
+								["别逝"] = true,
+								["反击图腾"] = true,
+								["哼哼哈哈嘿嘿-格瑞姆巴托"] = true,
+								["我是阿四呦-格瑞姆巴托"] = true,
+								["躁动丨"] = true,
+								["Summerdaddy"] = true,
+								["挲挲"] = true,
+								["龙鹰"] = true,
+								["浪客劍心"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["aID"] = "175450",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003864,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.003864,
+							["dps_started"] = false,
+							["damage_taken"] = 8471876.003864,
+							["nome"] = "团队副本训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["end_time"] = 1655035755,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655035755,
+							["serial"] = "Creature-0-3913-2222-13333-175450-00002559C8",
+							["on_hold"] = false,
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.001149,
+							["damage_from"] = {
+								["张天驰"] = true,
+								["阿瓦塔斯-格瑞姆巴托"] = true,
+								["乐凌然"] = true,
+								["别逝"] = true,
+								["反击图腾"] = true,
+								["哼哼哈哈嘿嘿-格瑞姆巴托"] = true,
+								["我是阿四呦-格瑞姆巴托"] = true,
+								["躁动丨"] = true,
+								["挲挲"] = true,
+								["龙鹰"] = true,
+								["浪客劍心"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["aID"] = "175449",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001149,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.001149,
+							["dps_started"] = false,
+							["damage_taken"] = 9137752.001149,
+							["nome"] = "地下城训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["end_time"] = 1655035755,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655035755,
+							["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+							["on_hold"] = false,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.002383,
+							["resource"] = 5.002383,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.002383,
+							["total"] = 0.002383,
+							["totalover"] = 0.002383,
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "829-0591DD25",
+							["last_event"] = 1655035750,
+							["alternatepower"] = 0.002383,
+							["flag_original"] = 1297,
+							["serial"] = "Player-829-0591DD25",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["buff_uptime"] = 30,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[114014] = 5,
+							},
+							["last_event"] = 1655035755,
+							["aID"] = "829-0591DD25",
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-829-0591DD25",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 6,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["张天驰"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"张天驰", -- [1]
+				},
+				["tempo_start"] = 1655035737,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					3420.669515003868, -- [1]
+					-0.061551, -- [2]
+					{
+						-0.04151199999997782, -- [1]
+						[0] = -0.021879,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = -0.07621100000278602,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = -0.02147700000000019,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:09:16",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "团队副本训练假人",
+				["TotalElapsedCombatTime"] = 162028.023,
+				["CombatEndedAt"] = 162028.023,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:08:58",
+				["end_time"] = 162028.023,
+				["combat_id"] = 6,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["frags"] = {
+				},
+				["combat_counter"] = 21,
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3421, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 162009.804,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["张天驰"] = 3421.002212,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006891,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["地下城训练假人"] = 7406,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 856.1857677462409,
+							["aID"] = "829-0591DD25",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7406.006891,
+							["tipo"] = 1,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 7406.006891,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.006891,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1655033825,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2039,
+										["g_amt"] = 0,
+										["n_max"] = 379,
+										["targets"] = {
+											["地下城训练假人"] = 2418,
+										},
+										["n_dmg"] = 379,
+										["n_min"] = 379,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2418,
+										["c_max"] = 1501,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 538,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3291,
+										["g_amt"] = 0,
+										["n_max"] = 1697,
+										["targets"] = {
+											["地下城训练假人"] = 4988,
+										},
+										["n_dmg"] = 1697,
+										["n_min"] = 1697,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4988,
+										["c_max"] = 3291,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3291,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1655033818,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033816,
+							["serial"] = "Player-829-0591DD25",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004473,
+							["damage_from"] = {
+								["张天驰"] = true,
+								["与小虾"] = true,
+								["艾莉瑞尔"] = true,
+								["豹"] = true,
+								["希沐诗"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["aID"] = "175449",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004473,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.004473,
+							["end_time"] = 1655033825,
+							["damage_taken"] = 1633774.004473,
+							["nome"] = "地下城训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033825,
+							["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 683.0065099999999,
+							["total_without_pet"] = 0.00651,
+							["total"] = 0.00651,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-829-0591DD25",
+							["totalabsorb"] = 0.00651,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00651,
+							["healing_taken"] = 0.00651,
+							["end_time"] = 1655033825,
+							["last_event"] = 1655033824,
+							["targets_overheal"] = {
+								["张天驰"] = 683,
+							},
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["张天驰"] = 683,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["张天驰"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 6,
+										["overheal"] = 683,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["aID"] = "829-0591DD25",
+							["totaldenied"] = 0.00651,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "ROGUE",
+							["start_time"] = 1655033819,
+							["delay"] = 0,
+							["spec"] = 261,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+						{
+							["received"] = 18.004422,
+							["resource"] = 4.004422,
+							["targets"] = {
+								["张天驰"] = 18,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 66.004422,
+							["total"] = 18.004422,
+							["totalover"] = 48.004422,
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[212283] = {
+										["total"] = 0,
+										["id"] = 212283,
+										["totalover"] = 40,
+										["targets"] = {
+											["张天驰"] = 0,
+										},
+										["counter"] = 1,
+									},
+									[196980] = {
+										["total"] = 10,
+										["id"] = 196980,
+										["totalover"] = 8,
+										["targets"] = {
+											["张天驰"] = 10,
+										},
+										["counter"] = 11,
+									},
+									[196911] = {
+										["total"] = 8,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["张天驰"] = 8,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "829-0591DD25",
+							["last_event"] = 1655035737,
+							["alternatepower"] = 0.004422,
+							["flag_original"] = 1297,
+							["serial"] = "Player-829-0591DD25",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[316220] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 316220,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 36,
+							["aID"] = "829-0591DD25",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227151] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227151,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[196980] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 196980,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[212283] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 212283,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[185422] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 185422,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 6,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[212283] = 1,
+								[53] = 1,
+								[185313] = 1,
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1655033825,
+							["classe"] = "ROGUE",
+							["pets"] = {
+							},
+							["serial"] = "Player-829-0591DD25",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 5,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["张天驰"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"张天驰", -- [1]
+				},
+				["CombatStartedAt"] = 162009.354,
+				["tempo_start"] = 1655033816,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					7405.671643002672, -- [1]
+					0, -- [2]
+					{
+						-0.01320799999962219, -- [1]
+						[0] = -0.032684,
+						["alternatepower"] = 0,
+						[6] = -0.01128399999994123,
+						[3] = 17.96932999999922,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = -0.01489899999999977,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					7406, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 18,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "19:37:06",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "地下城训练假人",
+				["TotalElapsedCombatTime"] = 160097.432,
+				["CombatEndedAt"] = 160097.432,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["张天驰"] = 7406.006891,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["张天驰"] = 0.00651,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 160097.432,
+				["combat_id"] = 5,
+				["overall_added"] = true,
+				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 20,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 160088.782,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "19:36:57",
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004459,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["地下城训练假人"] = 4540,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 4540.004459,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4540.004459,
+							["last_event"] = 1655033816,
+							["delay"] = 1655033774,
+							["dps_started"] = false,
+							["end_time"] = 1655033816,
+							["aID"] = "829-0591DD25",
+							["damage_taken"] = 0.004459,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 4540.004459,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["地下城训练假人"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 3,
+									}, -- [1]
+									[1943] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2212,
+										["g_amt"] = 0,
+										["n_max"] = 553,
+										["targets"] = {
+											["地下城训练假人"] = 4540,
+										},
+										["n_dmg"] = 2328,
+										["n_min"] = 116,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 4540,
+										["c_max"] = 1106,
+										["id"] = 1943,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1106,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033802,
+							["serial"] = "Player-829-0591DD25",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.007234,
+							["damage_from"] = {
+								["张天驰"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["total"] = 0.007234,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.007234,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1655033765,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 4540.007234000001,
+							["nome"] = "地下城训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "175449",
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033765,
+							["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+							["dps_started"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "829-0591DD25",
+							["pets"] = {
+							},
+							["nome"] = "张天驰",
+							["buff_uptime"] = 1,
+							["tipo"] = 4,
+							["last_event"] = 1655033765,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-829-0591DD25",
+							["classe"] = "ROGUE",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["张天驰"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"张天驰", -- [1]
+				},
+				["CombatStartedAt"] = 160084.532,
+				["tempo_start"] = 1655033764,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 19,
+				["totals"] = {
+					4539.986864999984, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = -0.004781999999977415,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "19:36:06",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "地下城训练假人",
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "19:36:05",
+				["end_time"] = 160037.43,
+				["combat_id"] = 4,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					4540, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 160036.43,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["张天驰"] = 553.004459,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001381,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["地下城训练假人"] = 13203,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 1417.087193408373,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13203.001381,
+							["last_event"] = 1655033762,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1655033764,
+							["aID"] = "829-0591DD25",
+							["damage_taken"] = 0.001381,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 13203.001381,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 582,
+										["g_amt"] = 0,
+										["n_max"] = 575,
+										["targets"] = {
+											["地下城训练假人"] = 2520,
+										},
+										["n_dmg"] = 1938,
+										["n_min"] = 259,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2520,
+										["c_max"] = 582,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 582,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2522,
+										["g_amt"] = 0,
+										["n_max"] = 1360,
+										["targets"] = {
+											["地下城训练假人"] = 5153,
+										},
+										["n_dmg"] = 2631,
+										["n_min"] = 1271,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 5153,
+										["c_max"] = 2522,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2522,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[1943] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2212,
+										["g_amt"] = 0,
+										["n_max"] = 553,
+										["targets"] = {
+											["地下城训练假人"] = 5530,
+										},
+										["n_dmg"] = 3318,
+										["n_min"] = 553,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 5530,
+										["c_max"] = 1106,
+										["id"] = 1943,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1106,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033743,
+							["serial"] = "Player-829-0591DD25",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004482,
+							["damage_from"] = {
+								["张天驰"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["total"] = 0.004482,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004482,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1655033752,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 13203.004482,
+							["nome"] = "地下城训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "175449",
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033752,
+							["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+							["dps_started"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["received"] = 52.003819,
+							["resource"] = 2.003819,
+							["targets"] = {
+								["张天驰"] = 52,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 22.003819,
+							["total"] = 52.003819,
+							["totalover"] = 0.003819,
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[196911] = {
+										["total"] = 16,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["张天驰"] = 16,
+										},
+										["counter"] = 2,
+									},
+									[98440] = {
+										["total"] = 36,
+										["id"] = 98440,
+										["totalover"] = 0,
+										["targets"] = {
+											["张天驰"] = 36,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "829-0591DD25",
+							["last_event"] = 1655033746,
+							["alternatepower"] = 0.003819,
+							["flag_original"] = 1297,
+							["serial"] = "Player-829-0591DD25",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[316220] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 316220,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[1943] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 1943,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 9,
+							["aID"] = "829-0591DD25",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 12,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[53] = 3,
+								[1943] = 1,
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1655033752,
+							["classe"] = "ROGUE",
+							["pets"] = {
+							},
+							["serial"] = "Player-829-0591DD25",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["张天驰"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"张天驰", -- [1]
+				},
+				["CombatStartedAt"] = 160015.413,
+				["tempo_start"] = 1655033743,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					13202.97848999998, -- [1]
+					-0.006926, -- [2]
+					{
+						-0.006357, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 51.993619,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					13203, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 52,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "19:35:53",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "地下城训练假人",
+				["TotalElapsedCombatTime"] = 9.217000000004191,
+				["CombatEndedAt"] = 160024.63,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["张天驰"] = 9885.001381,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 160024.63,
+				["combat_id"] = 3,
+				["overall_added"] = true,
+				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 18,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 160015.313,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "19:35:44",
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008457,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["地下城训练假人"] = 5822,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 575.4678716023463,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5822.008457,
+							["last_event"] = 1655033717,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1655033724,
+							["aID"] = "829-0591DD25",
+							["damage_taken"] = 0.008457,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 5822.008457,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2763,
+										["g_amt"] = 0,
+										["n_max"] = 514,
+										["targets"] = {
+											["地下城训练假人"] = 3277,
+										},
+										["n_dmg"] = 514,
+										["n_min"] = 514,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 3277,
+										["c_max"] = 1109,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 548,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1280,
+										["targets"] = {
+											["地下城训练假人"] = 2545,
+										},
+										["n_dmg"] = 2545,
+										["n_min"] = 1265,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2545,
+										["c_max"] = 0,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033714,
+							["serial"] = "Player-829-0591DD25",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.00531,
+							["damage_from"] = {
+								["张天驰"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["total"] = 0.00531,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00531,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1655033724,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 5822.005310000001,
+							["nome"] = "地下城训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["aID"] = "175449",
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033724,
+							["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+							["dps_started"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["received"] = 8.005642,
+							["resource"] = 3.005642,
+							["targets"] = {
+								["张天驰"] = 8,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 40.005642,
+							["total"] = 8.005642,
+							["totalover"] = 1.005642,
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[196911] = {
+										["total"] = 8,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["张天驰"] = 8,
+										},
+										["counter"] = 1,
+									},
+									[196980] = {
+										["total"] = 0,
+										["id"] = 196980,
+										["totalover"] = 1,
+										["targets"] = {
+											["张天驰"] = 0,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "829-0591DD25",
+							["last_event"] = 1655033743,
+							["alternatepower"] = 0.005642,
+							["flag_original"] = 1297,
+							["serial"] = "Player-829-0591DD25",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["buff_uptime"] = 10,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[53] = 1,
+							},
+							["last_event"] = 1655033724,
+							["aID"] = "829-0591DD25",
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-829-0591DD25",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["张天驰"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"张天驰", -- [1]
+				},
+				["tempo_start"] = 1655033714,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					5821.960754000014, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 7.989825999999994,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "19:35:25",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "地下城训练假人",
+				["TotalElapsedCombatTime"] = 159996.279,
+				["CombatEndedAt"] = 159996.279,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "19:35:15",
+				["end_time"] = 159996.279,
+				["combat_id"] = 2,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["frags"] = {
+				},
+				["combat_counter"] = 17,
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					5822, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 8,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 159986.162,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["张天驰"] = 5822.008457,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006147,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["地下城训练假人"] = 4148,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 338.1434863456851,
+							["aID"] = "829-0591DD25",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4148.006147,
+							["tipo"] = 1,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 4148.006147,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.006147,
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1655033691,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 539,
+										["g_amt"] = 0,
+										["n_max"] = 551,
+										["targets"] = {
+											["地下城训练假人"] = 2711,
+										},
+										["n_dmg"] = 2172,
+										["n_min"] = 265,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 2711,
+										["c_max"] = 539,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 539,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 5,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1437,
+										["targets"] = {
+											["地下城训练假人"] = 1437,
+										},
+										["n_dmg"] = 1437,
+										["n_min"] = 1437,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1437,
+										["c_max"] = 0,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1655033684,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033679,
+							["serial"] = "Player-829-0591DD25",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004394,
+							["damage_from"] = {
+								["张天驰"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["aID"] = "175449",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004394,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.004394,
+							["end_time"] = 1655033691,
+							["damage_taken"] = 4148.004394,
+							["nome"] = "地下城训练假人",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1655033691,
+							["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 680.004316,
+							["total_without_pet"] = 0.004316,
+							["total"] = 0.004316,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-829-0591DD25",
+							["totalabsorb"] = 0.004316,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004316,
+							["healing_taken"] = 0.004316,
+							["end_time"] = 1655033691,
+							["last_event"] = 1655033690,
+							["targets_overheal"] = {
+								["张天驰"] = 680,
+							},
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["张天驰"] = 680,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["张天驰"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 6,
+										["overheal"] = 680,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["aID"] = "829-0591DD25",
+							["totaldenied"] = 0.004316,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "ROGUE",
+							["start_time"] = 1655033685,
+							["delay"] = 0,
+							["spec"] = 261,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["received"] = 16.005376,
+							["resource"] = 3.005376,
+							["targets"] = {
+								["张天驰"] = 16,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 80.005376,
+							["total"] = 16.005376,
+							["totalover"] = 10.005376,
+							["nome"] = "张天驰",
+							["spells"] = {
+								["_ActorTable"] = {
+									[196911] = {
+										["total"] = 0,
+										["id"] = 196911,
+										["totalover"] = 8,
+										["targets"] = {
+											["张天驰"] = 0,
+										},
+										["counter"] = 1,
+									},
+									[196980] = {
+										["total"] = 16,
+										["id"] = 196980,
+										["totalover"] = 2,
+										["targets"] = {
+											["张天驰"] = 16,
+										},
+										["counter"] = 6,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "829-0591DD25",
+							["last_event"] = 1655033714,
+							["alternatepower"] = 0.005376,
+							["flag_original"] = 1297,
+							["serial"] = "Player-829-0591DD25",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "张天驰",
+							["spec"] = 261,
+							["grupo"] = true,
+							["buff_uptime"] = 30,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[185313] = 1,
+								[53] = 1,
+							},
+							["last_event"] = 1655033691,
+							["aID"] = "829-0591DD25",
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[196980] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 196980,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[185422] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 185422,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-829-0591DD25",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["张天驰"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"张天驰", -- [1]
+				},
+				["CombatStartedAt"] = 159986.162,
+				["tempo_start"] = 1655033679,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					4147.980359999696, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 15.99219700000003,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					4148, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 16,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "19:34:52",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "地下城训练假人",
+				["TotalElapsedCombatTime"] = 12.26699999999255,
+				["CombatEndedAt"] = 159963.828,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["张天驰"] = 4148.006147,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["张天驰"] = 0.004316,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 159963.828,
+				["combat_id"] = 1,
+				["overall_added"] = true,
+				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 16,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 159951.561,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "19:34:40",
+			}, -- [6]
 		},
 	},
 	["ocd_tracker"] = {
@@ -33,7 +2497,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "9.2.09817",
+	["last_version"] = "9.2.59818",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -160,31 +2624,16 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["font_size"] = 10,
-			["arrow_anchor_y"] = 0,
-			["use_spark"] = false,
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -196,7 +2645,22 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = -82.51953125,
+			["use_spark"] = false,
 			["x"] = 18.26283836364746,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -222,7 +2686,7 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["last_day"] = "30",
+	["last_day"] = "12",
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -233,13 +2697,13 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["force_font_outline"] = "",
-	["combat_id"] = 0,
+	["combat_id"] = 6,
 	["savedStyles"] = {
 	},
 	["character_data"] = {
-		["logons"] = 2,
+		["logons"] = 8,
 	},
-	["combat_counter"] = 4,
+	["combat_counter"] = 22,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -250,21 +2714,524 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.031013,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["团队副本训练假人"] = 417,
+						["地下城训练假人"] = 30818,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["classe"] = "ROGUE",
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 31235.031013,
+					["total"] = 31235.031013,
+					["dps_started"] = false,
+					["end_time"] = 1655033692,
+					["damage_taken"] = 0.031013,
+					["tipo"] = 1,
+					["nome"] = "张天驰",
+					["spec"] = 261,
+					["grupo"] = true,
+					["aID"] = "829-0591DD25",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 5923,
+								["g_amt"] = 0,
+								["n_max"] = 575,
+								["targets"] = {
+									["地下城训练假人"] = 10926,
+								},
+								["n_dmg"] = 5003,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 20,
+								["total"] = 10926,
+								["c_max"] = 1501,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 11,
+								["extra"] = {
+								},
+								["MISS"] = 2,
+							}, -- [1]
+							[259756] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 41,
+								["targets"] = {
+									["地下城训练假人"] = 121,
+								},
+								["n_dmg"] = 121,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 121,
+								["c_max"] = 0,
+								["id"] = 259756,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[53] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 5813,
+								["g_amt"] = 0,
+								["n_max"] = 1697,
+								["targets"] = {
+									["地下城训练假人"] = 14123,
+								},
+								["n_dmg"] = 8310,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 14123,
+								["c_max"] = 3291,
+								["id"] = 53,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 6,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[114014] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 1646,
+								["g_amt"] = 0,
+								["n_max"] = 417,
+								["targets"] = {
+									["团队副本训练假人"] = 417,
+									["地下城训练假人"] = 2883,
+								},
+								["n_dmg"] = 1654,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 3300,
+								["c_max"] = 825,
+								["id"] = 114014,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[1943] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 1106,
+								["g_amt"] = 0,
+								["n_max"] = 553,
+								["targets"] = {
+									["地下城训练假人"] = 2765,
+								},
+								["n_dmg"] = 1659,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 2765,
+								["c_max"] = 1106,
+								["id"] = 1943,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1655033630,
+					["serial"] = "Player-829-0591DD25",
+					["friendlyfire"] = {
+					},
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.032017,
+					["damage_from"] = {
+						["张天驰"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 30818.032017,
+					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.032017,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1655033692,
+					["fight_component"] = true,
+					["last_dps"] = 0,
+					["nome"] = "地下城训练假人",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["total"] = 0.032017,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1655033689,
+					["serial"] = "Creature-0-3913-2222-13333-175449-00002559C8",
+					["aID"] = "175449",
+				}, -- [2]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.007338,
+					["damage_from"] = {
+						["张天驰"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "175450",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.007338,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1655035756,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 417.007338,
+					["nome"] = "团队副本训练假人",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.007338,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1655035753,
+					["serial"] = "Creature-0-3913-2222-13333-175450-00002559C8",
+					["classe"] = "UNKNOW",
+				}, -- [3]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["张天驰"] = 0,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "829-0591DD25",
+					["totalover"] = 1363.014162,
+					["total_without_pet"] = 0.014162,
+					["total"] = 0.014162,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-829-0591DD25",
+					["totalabsorb"] = 0.014162,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.014162,
+					["healing_taken"] = 0.014162,
+					["end_time"] = 1655033692,
+					["tipo"] = 2,
+					["healing_from"] = {
+					},
+					["nome"] = "张天驰",
+					["spells"] = {
+						["_ActorTable"] = {
+							[259760] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["张天驰"] = 1363,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["张天驰"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 12,
+								["overheal"] = 1363,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 259760,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_amt"] = 12,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["spec"] = 261,
+					["totaldenied"] = 0.014162,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "ROGUE",
+					["start_time"] = 1655033677,
+					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
+				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 94.026765,
+					["resource"] = 31.048407,
+					["targets"] = {
+						["张天驰"] = 0,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 3,
+					["classe"] = "ROGUE",
+					["passiveover"] = 0.005123,
+					["resource_type"] = 4,
+					["totalover"] = 0.005123,
+					["nome"] = "张天驰",
+					["spells"] = {
+						["_ActorTable"] = {
+							[196911] = {
+								["total"] = 32,
+								["id"] = 196911,
+								["totalover"] = 0,
+								["targets"] = {
+									["张天驰"] = 0,
+								},
+								["counter"] = 5,
+							},
+							[212283] = {
+								["total"] = 0,
+								["id"] = 212283,
+								["totalover"] = 0,
+								["targets"] = {
+									["张天驰"] = 0,
+								},
+								["counter"] = 1,
+							},
+							[98440] = {
+								["total"] = 36,
+								["id"] = 98440,
+								["totalover"] = 0,
+								["targets"] = {
+									["张天驰"] = 0,
+								},
+								["counter"] = 1,
+							},
+							[196980] = {
+								["total"] = 26,
+								["id"] = 196980,
+								["totalover"] = 0,
+								["targets"] = {
+									["张天驰"] = 0,
+								},
+								["counter"] = 9,
+							},
+						},
+						["tipo"] = 7,
+					},
+					["grupo"] = true,
+					["aID"] = "829-0591DD25",
+					["last_event"] = 0,
+					["alternatepower"] = 0.026765,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 261,
+					["serial"] = "Player-829-0591DD25",
+					["total"] = 94.026765,
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[316220] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 316220,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[1943] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 1943,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 116,
+					["classe"] = "ROGUE",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[185422] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 185422,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[212283] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 212283,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[256374] = {
+								["counter"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 256374,
+								["uptime"] = 26,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[186403] = {
+								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 186403,
+								["uptime"] = 59,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[227151] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 227151,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[196980] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 196980,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 18,
+					["nome"] = "张天驰",
+					["spec"] = 261,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[185313] = 2,
+						[53] = 6,
+						[114014] = 5,
+						[1943] = 1,
+						[212283] = 1,
+					},
+					["aID"] = "829-0591DD25",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["pets"] = {
+					},
+					["buff_uptime_targets"] = {
+					},
+					["serial"] = "Player-829-0591DD25",
+					["debuff_uptime_targets"] = {
+					},
+				}, -- [1]
 			},
 		}, -- [4]
 		{
@@ -276,23 +3243,23 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
-		["tempo_start"] = 257507.539,
+		["cleu_timeline"] = {
+		},
+		["tempo_start"] = 1655033679,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1,
-		["frags"] = {
-		},
+		["combat_counter"] = 15,
 		["totals"] = {
-			0, -- [1]
-			0, -- [2]
+			31235.00315500009, -- [1]
+			0.002705000000000001, -- [2]
 			{
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
 				[6] = 0,
-				[3] = 0,
+				[3] = 94.01082299999992,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
@@ -314,7 +3281,30 @@ _detalhes_database = {
 		},
 		["__call"] = {
 		},
-		["data_inicio"] = 0,
+		["data_inicio"] = "19:34:40",
+		["end_time"] = 162028.023,
+		["totals_grupo"] = {
+			31235.029547, -- [1]
+			0.010826, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 94.021642,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
@@ -329,48 +3319,366 @@ _detalhes_database = {
 			["damage_section"] = {
 			},
 		},
-		["overall_refreshed"] = true,
+		["segments_added"] = {
+			{
+				["elapsed"] = 18.21900000001187,
+				["type"] = 0,
+				["name"] = "团队副本训练假人",
+				["clock"] = "20:08:58",
+			}, -- [1]
+			{
+				["elapsed"] = 8.64999999999418,
+				["type"] = 0,
+				["name"] = "地下城训练假人",
+				["clock"] = "19:36:57",
+			}, -- [2]
+			{
+				["elapsed"] = 1,
+				["type"] = 0,
+				["name"] = "地下城训练假人",
+				["clock"] = "19:36:05",
+			}, -- [3]
+			{
+				["elapsed"] = 9.317000000010012,
+				["type"] = 0,
+				["name"] = "地下城训练假人",
+				["clock"] = "19:35:44",
+			}, -- [4]
+			{
+				["elapsed"] = 10.11699999999837,
+				["type"] = 0,
+				["name"] = "地下城训练假人",
+				["clock"] = "19:35:15",
+			}, -- [5]
+			{
+				["elapsed"] = 12.26699999999255,
+				["type"] = 0,
+				["name"] = "地下城训练假人",
+				["clock"] = "19:34:40",
+			}, -- [6]
+		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
-		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
+		["data_fim"] = "20:09:16",
+		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
-		["cleu_timeline"] = {
+		["frags"] = {
 		},
-		["start_time"] = 0,
+		["start_time"] = 161968.453,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
+			["Raid Damage Done"] = {
+			},
 		},
-		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1655145634,
+		["Secondchild"] = {
+			"呜呜呜", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			74, -- [7]
+		},
+		["小树林的秘密-格瑞姆巴托"] = {
+			"开摆", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			3, -- [7]
+		},
+		["千里宋人头-格瑞姆巴托"] = {
+			"白莲西风", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["葡萄泡泡"] = {
+			"敏锐猎", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["丶拒绝者-格瑞姆巴托"] = {
+			"我是断谁来着", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			19, -- [7]
+		},
+		["北溟幽月"] = {
+			"翅膀一开谁都不爱", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			6, -- [7]
+		},
+		["地球鳞玖"] = {
+			"", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			10, -- [7]
+		},
 		["last_version"] = 14,
+		["nextreset"] = 1655145634,
+		["Ligtore"] = {
+			"原初印记", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			123, -- [7]
+		},
+		["Valanthe-格瑞姆巴托"] = {
+			"脑残设计师", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["炸蛋波比丶"] = {
+			"萨嘎毕抖", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			15, -- [7]
+		},
+		["皮蛋闪电侠"] = {
+			"热哥之大连分热", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			9, -- [7]
+		},
+		["兔总裁-格瑞姆巴托"] = {
+			"螺旋丸", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			31, -- [7]
+		},
+		["落雪雪"] = {
+			"踏风雪落", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			3, -- [7]
+		},
 	},
 	["ignore_nicktag"] = false,
 	["local_instances_config"] = {
@@ -489,6 +3797,12 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-829-0591DD25"] = 1453,
+		["Player-829-055A3581"] = 260,
+		["Player-829-03F31D4D"] = 253,
+		["Player-829-03FA13E8"] = 261,
+		["Player-829-0591DD25"] = 261,
+		["Player-829-058F2A43"] = 267,
+		["Player-829-051D981B"] = 255,
+		["Player-829-02395445"] = 261,
 	},
 }

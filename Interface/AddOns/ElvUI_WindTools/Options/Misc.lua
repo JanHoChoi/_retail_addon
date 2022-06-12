@@ -374,7 +374,7 @@ options.moveFrames = {
                     name = function()
                         if MF.StopRunning then
                             return format(
-                                "|cffff0000" .. L["Because of %s, this module will not be loaded."] .. "|r",
+                                "|cffff3860" .. L["Because of %s, this module will not be loaded."] .. "|r",
                                 MF.StopRunning
                             )
                         else
@@ -439,7 +439,7 @@ options.moveFrames = {
                     order = 999,
                     type = "description",
                     name = format(
-                        "\n|cffff0000%s|r %s",
+                        "\n|cffff3860%s|r %s",
                         L["Notice"],
                         format(
                             L["%s may cause some frames to get messed, but you can use %s button to reset frames."],
@@ -523,7 +523,7 @@ options.mute = {
                     type = "toggle",
                     name = L["Crying"],
                     desc = L["Mute crying sounds of all races."] ..
-                        "\n|cffff0000" .. L["It will affect the cry emote sound."] .. "|r",
+                        "\n|cffff3860" .. L["It will affect the cry emote sound."] .. "|r",
                     width = 1.3
                 }
             }
@@ -539,7 +539,7 @@ do
                 local icon = spell:GetSpellTexture()
                 local name = spell:GetSpellName()
 
-                local iconString = F.GetIconString(icon)
+                local iconString = F.GetIconString(icon, 12, 12)
 
                 options.mute.args.mount.args[tostring(id)] = {
                     order = id,
@@ -558,7 +558,7 @@ do
         },
         ["Elegy of the Eternals"] = {
             id = 188270,
-            desc = "|cffff0000" .. L["It will also affect the crying sound of all female Blood Elves."] .. "|r"
+            desc = "|cffff3860" .. L["It will also affect the crying sound of all female Blood Elves."] .. "|r"
         }
     }
 
@@ -632,32 +632,27 @@ do
         noSign = {
             order = 2,
             tag = "[health:percent-nostatus]",
-            text = L["The percentage of current health without status"] ..
-                format(" (%s)", L["Follow ElvUI Setting"])
+            text = L["The percentage of current health without status"] .. format(" (%s)", L["Follow ElvUI Setting"])
         },
         noSign0 = {
             order = 3,
             tag = "[health:percent-nostatus-0]",
-            text = L["The percentage of current health without status"] ..
-                format(" (%s = 0)", L["Decimal Length"])
+            text = L["The percentage of current health without status"] .. format(" (%s = 0)", L["Decimal Length"])
         },
         noSign1 = {
             order = 4,
             tag = "[health:percent-nostatus-1]",
-            text = L["The percentage of current health without status"] ..
-                format(" (%s = 1)", L["Decimal Length"])
+            text = L["The percentage of current health without status"] .. format(" (%s = 1)", L["Decimal Length"])
         },
         noSign2 = {
             order = 5,
             tag = "[health:percent-nostatus-2]",
-            text = L["The percentage of current health without status"] ..
-                format(" (%s = 2)", L["Decimal Length"])
+            text = L["The percentage of current health without status"] .. format(" (%s = 2)", L["Decimal Length"])
         },
         noSign3 = {
             order = 6,
             tag = "[health:percent-nostatus-3]",
-            text = L["The percentage of current health without status"] ..
-                format(" (%s = 3)", L["Decimal Length"])
+            text = L["The percentage of current health without status"] .. format(" (%s = 3)", L["Decimal Length"])
         },
         noStatusNoSign = {
             order = 7,

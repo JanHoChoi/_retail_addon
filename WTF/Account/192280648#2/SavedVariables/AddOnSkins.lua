@@ -7,6 +7,7 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["Altoholic"] = false,
 			["BugSack"] = false,
 			["TinyInspect"] = false,
 			["Immersion"] = false,
@@ -14,4 +15,6 @@ AddOnSkinsDB = {
 	},
 }
 AddOnSkinsDS = {
+	[4.58] = {
+	},
 }

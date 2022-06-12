@@ -78,7 +78,7 @@ function W:ConstructCompatibilityFrame()
         format(
             "%s %s %s",
             F.CreateColorString("[", E.db.general.valuecolor),
-            L["Choose the module you would like to |cff00ff00use|r"],
+            L["Choose the module you would like to |cff00d1b2use|r"],
             F.CreateColorString("]", E.db.general.valuecolor)
         )
     )
@@ -102,7 +102,7 @@ function W:ConstructCompatibilityFrame()
                         "You can disable/enable compatibility check via the option in the bottom of [WindTools]-[Information]-[Help]."
                     ]
     )
-    --bottomDesc:SetText("|cffff0000*|r " .. L["The feature is just a part of that module."])
+    --bottomDesc:SetText("|cffff3860*|r " .. L["The feature is just a part of that module."])
     bottomDesc:Point("BOTTOMLEFT", frame, "BOTTOMLEFT", 10, 10)
 
     local completeButton =
@@ -165,7 +165,7 @@ local function AddButtonToCompatibilityFrame(data)
             if _G[name] then
                 _G[name]:SetTexture(E.Media.Textures.ArrowUp)
                 _G[name]:SetRotation(ES.ArrowRotation.left)
-                _G[name]:SetVertexColor(0, 1, 0)
+                _G[name]:SetVertexColor(0, 0.82, 0.698)
             end
         end
     )
@@ -201,7 +201,7 @@ local function AddButtonToCompatibilityFrame(data)
             if _G[name] then
                 _G[name]:SetTexture(E.Media.Textures.ArrowUp)
                 _G[name]:SetRotation(ES.ArrowRotation.right)
-                _G[name]:SetVertexColor(1, 0, 0)
+                _G[name]:SetVertexColor(1, 0.22, 0.376)
             end
         end
     )
@@ -219,7 +219,7 @@ local function GetDatabaseRealValue(path)
                 end
                 accessValue = accessValue[key]
             else
-                F.DebugMessage("Compatibility", "DB Path Error: " .. path)
+                F.Developer.LogDebug("[Compatibility] database path not found\n" .. path)
                 return
             end
         end
@@ -268,7 +268,7 @@ local CheckmMediaTag = GetCheckCompatibilityFunction("ElvUI_mMediaTag", L["mMedi
 local CheckElvUIEnhanced = GetCheckCompatibilityFunction("ElvUI_Enhanced", L["ElvUI Enhanced Again"])
 
 function W:CheckCompatibility()
-    if not E.private.WT.core.compatibilityCheck then
+    if not E.global.WT.core.compatibilityCheck then
         return
     end
 
@@ -431,6 +431,13 @@ function W:CheckCompatibility()
         "private.WT.skins.widgets.treeGroupButton.enable",
         "private.mui.skins.widgets.treeGroupButton.enable"
     )
+
+	CheckMerathilisUI(
+		format("%s-%s-%s", L["Skins"], L["Addons"], L["WeakAuras"]),
+		L["WeakAuras"],
+		"private.WT.skins.addons.weakAuras",
+		"private.mui.skins.addonSkins.wa"
+	)
 
     -- S&L
     CheckShadowAndLight(

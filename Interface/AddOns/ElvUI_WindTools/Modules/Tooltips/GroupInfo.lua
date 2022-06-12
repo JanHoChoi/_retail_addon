@@ -132,7 +132,7 @@ function T:GroupInfo()
         F.Print(
             format(
                 L["%s detected, %s will be disabled automatically."],
-                "|cffff0000" .. L["Premade Groups Filter"] .. "|r",
+                "|cffff3860" .. L["Premade Groups Filter"] .. "|r",
                 "|cff00a8ff" .. L["Tooltips"] .. " - " .. L["Group Info"] .. "|r"
             )
         )
@@ -152,7 +152,12 @@ function T:GroupInfo()
         local profile = meetingStone:GetModule("Profile")
 
         -- Special check for MeetingStone Happy Version
-        if profile:GetSetting("showclassico") ~= nil then
+        local showClassIco = profile:GetSetting("showclassico")
+        if profile.Getshowclassico then
+            showClassIco = profile:Getshowclassico()
+        end
+
+        if showClassIco ~= nil then
             return
         end
 

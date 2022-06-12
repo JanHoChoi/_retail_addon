@@ -291,6 +291,23 @@ P.combat = {
     },
     quickKeystone = {
         enable = true
+    },
+    covenantHelper = {
+        enable = true,
+        replaceSpells = {
+            enable = false,
+        },
+        soulbind = {
+            autoActivate = true,
+            showReminder = true,
+            remindText = {
+                name = E.db.general.font,
+                size = 26,
+                style = "OUTLINE",
+                xOffset = 0,
+                yOffset = 0
+            }
+        }
     }
 }
 

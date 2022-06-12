@@ -4,6 +4,7 @@ V.combat = {
 	talentManager = {
 		enable = true,
 		itemButtons = true,
+		soulbindButton = true,
 		pvpTalent = false,
 		statusIcon = true,
 		sets = {}
@@ -327,6 +328,7 @@ V.skins = {
 		rehack = true,
 		rematch = true,
 		tinyInspect = true,
+		tldrMissions = true,
 		tomCats = true,
 		warpDeplete = true,
 		weakAuras = true,
@@ -496,10 +498,4 @@ V.unitFrames = {
 		enable = true,
 		roleIconStyle = "SUNUI"
 	}
-}
-
-V.core = {
-	debugMode = false,
-	compatibilityCheck = true,
-	loginMessage = true
 }

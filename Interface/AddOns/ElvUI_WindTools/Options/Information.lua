@@ -49,14 +49,59 @@ options.help = {
             width = 1.2
         },
         betterAlign = {
-            order = 3,
+            order = 4,
             type = "description",
-            fontSize = "medium",
+            fontSize = "small",
             name = " ",
             width = "full"
         },
+        loginMessage = {
+            order = 5,
+            type = "toggle",
+            name = L["Login Message"],
+            get = function(info)
+                return E.global.WT.core.loginMessage
+            end,
+            set = function(info, value)
+                E.global.WT.core.loginMessage = value
+            end
+        },
+        compatibilityCheck = {
+            order = 6,
+            type = "toggle",
+            name = L["Compatibility Check"],
+            desc = L["Help you to enable/disable the modules for a better experience with other plugins."],
+            get = function(info)
+                return E.global.WT.core.compatibilityCheck
+            end,
+            set = function(info, value)
+                E.global.WT.core.compatibilityCheck = value
+                E:StaticPopup_Show("PRIVATE_RL")
+            end
+        },
+        logLevel = {
+            order = 7,
+            type = "select",
+            name = L["Log Level"],
+            desc = L["Only display log message that the level is higher than you choose."] ..
+                "\n|cffff3860" .. L["Set to 2 if you do not understand the meaning of log level."] .. "|r",
+            get = function(info)
+                return E.global.WT.core.logLevel
+            end,
+            set = function(info, value)
+                E.global.WT.core.logLevel = value
+            end,
+            hidden = function()
+            end,
+            values = {
+                [1] = "1 - |cffff3860[ERROR]|r",
+                [2] = "2 - |cffffdd57[WARNING]|r",
+                [3] = "3 - |cff209cee[INFO]|r",
+                [4] = "4 - |cff00d1b2[DEBUG]|r"
+            }
+        },
         contact = {
-            order = 4,
+            order = 8,
             type = "group",
             inline = true,
             name = L["Message From the Author"],
@@ -93,7 +138,7 @@ options.help = {
                 betterAlign = {
                     order = 2,
                     type = "description",
-                    fontSize = "medium",
+                    fontSize = "small",
                     name = " ",
                     width = "full"
                 },
@@ -150,7 +195,7 @@ options.help = {
                         " |cffe74c3c" ..
                             format(
                                 L["Before you submit a bug, please enable debug mode with %s and test it one more time."],
-                                "|cff00ff00/wtdebug|r"
+                                "|cff00d1b2/wtdebug|r"
                             ) ..
                                 "|r",
                     width = "full"
@@ -158,7 +203,7 @@ options.help = {
             }
         },
         contributors = {
-            order = 5,
+            order = 9,
             name = L["Contributors (Github.com)"],
             type = "group",
             inline = true,
@@ -230,7 +275,7 @@ options.help = {
             }
         },
         version = {
-            order = 6,
+            order = 10,
             name = L["Version"],
             type = "group",
             inline = true,
@@ -251,43 +296,6 @@ options.help = {
                     name = L["WoW Build"] .. ": " .. AddColor(format("%s (%s)", E.wowpatch, E.wowbuild))
                 }
             }
-        },
-        loginMessage = {
-            order = 997,
-            type = "toggle",
-            name = L["Login Message"],
-            get = function(info)
-                return E.private.WT.core.loginMessage
-            end,
-            set = function(info, value)
-                E.private.WT.core.loginMessage = value
-            end
-        },
-        compatibilityCheck = {
-            order = 998,
-            type = "toggle",
-            name = L["Compatibility Check"],
-            desc = L["Help you to enable/disable the modules for a better experience with other plugins."],
-            get = function(info)
-                return E.private.WT.core.compatibilityCheck
-            end,
-            set = function(info, value)
-                E.private.WT.core.compatibilityCheck = value
-                E:StaticPopup_Show("PRIVATE_RL")
-            end
-        },
-        debugMode = {
-            order = 999,
-            type = "toggle",
-            name = L["Debug Mode"],
-            desc = L["If you installed other ElvUI Plugins, enabling debug mode is not a suggestion."],
-            get = function(info)
-                return E.private.WT.core.debugMode
-            end,
-            set = function(info, value)
-                E.private.WT.core.debugMode = value
-                E:StaticPopup_Show("PRIVATE_RL")
-            end
         }
     }
 }
@@ -1839,7 +1847,7 @@ do
 
     E.PopupDialogs.WINDTOOLS_IMPORT_STRING = {
         text = format(
-            "%s\n|cffff0000%s|r",
+            "%s\n|cffff3860%s|r",
             L["Are you sure you want to import this string?"],
             format(L["It will override your %s setting."], W.Title)
         ),
